@@ -1,0 +1,64 @@
+{
+  "m_Name": "SelfPurgeBlight",
+  "id": "21038774-c0a4-413c-ab7e-27e458228e5f",
+  "nameKey": "CardData_nameKey-966c03db530e07a8-6248d37906631db41a6ebcb105f7a5b3-v2",
+  "cost": 3,
+  "costType": 0,
+  "overrideDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "cardType": 5,
+  "targetsRoom": true,
+  "targetless": true,
+  "cardArtPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_Spell_ExcavatedEmber.prefab",
+    "m_AssetGUID": "f9ec172552873e843b15644657f3338b"
+  },
+  "rarity": 0,
+  "requiredDLC": 0,
+  "traits": [
+    {
+      "traitStateName": "CardTraitSelfPurge",
+      "paramTrackedValue": 0,
+      "paramCardType": 0,
+      "paramEntryDuration": 0,
+      "paramStr": "",
+      "paramInt": 0,
+      "paramFloat": 0.0,
+      "paramSubtype": "SubtypesData_None",
+      "paramUseScalingParams": false,
+      "traitIsRemovable": true,
+      "paramCardData": null,
+      "paramCardUpgradeData": null,
+      "paramStatusEffects": [
+
+      ],
+      "paramTeamType": 0,
+      "stackMode": 0
+    }
+  ],
+  "effects": [
+
+  ],
+  "effectTriggers": [
+
+  ],
+  "triggers": [
+
+  ],
+  "startingUpgrades": [
+
+  ],
+  "linkedClass": null,
+  "unlockLevel": 0,
+  "sharedDiscoveryCards": [
+
+  ],
+  "linkedMasteryCard": null,
+  "sharedMasteryCards": [
+
+  ],
+  "ignoreWhenCountingMastery": false,
+  "cardLoreTooltipKeys": [
+    "CardData_data-ba24dca58f5bbccb-6248d37906631db41a6ebcb105f7a5b3-v2"
+  ],
+  "initialKeyboardTarget": 1
+}

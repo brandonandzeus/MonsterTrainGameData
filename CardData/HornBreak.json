@@ -1,0 +1,217 @@
+{
+  "m_Name": "HornBreak",
+  "id": "5a88d0e1-1c31-40f0-9e8d-8068dad832e9",
+  "nameKey": "CardData_nameKey-9c948cf02f3e0288-cb7f8f1805d4cd4449185ec893355baa-v2",
+  "cost": 1,
+  "costType": 0,
+  "overrideDescriptionKey": "CardData_overrideDescriptionKey-cea726817805edf9-cb7f8f1805d4cd4449185ec893355baa-v2",
+  "cardType": 0,
+  "targetsRoom": true,
+  "targetless": false,
+  "cardArtPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/Cards/Portrait_Prefabs/CardArt_Spell_HornBreak.prefab",
+    "m_AssetGUID": "fae262cf4a994794dbefdd621fe7b941"
+  },
+  "rarity": 0,
+  "requiredDLC": 0,
+  "traits": [
+    {
+      "traitStateName": "CardTraitIgnoreArmor",
+      "paramTrackedValue": 0,
+      "paramCardType": 0,
+      "paramEntryDuration": 0,
+      "paramStr": "",
+      "paramInt": 0,
+      "paramFloat": 0.0,
+      "paramSubtype": "SubtypesData_None",
+      "paramUseScalingParams": false,
+      "traitIsRemovable": true,
+      "paramCardData": null,
+      "paramCardUpgradeData": null,
+      "paramStatusEffects": [
+
+      ],
+      "paramTeamType": 0,
+      "stackMode": 0
+    }
+  ],
+  "effects": [
+    {
+      "effectStateName": "CardEffectDamage",
+      "targetMode": 12,
+      "targetModeStatusEffectsFilter": [
+
+      ],
+      "targetModeHealthFilter": 0,
+      "targetIgnoreBosses": false,
+      "filterBasedOnMainSubClass": false,
+      "copyModifiersFromSource": false,
+      "ignoreTemporaryModifiersFromSource": false,
+      "targetTeamType": 3,
+      "targetCharacterSubtype": "SubtypesData_None",
+      "targetCardType": 0,
+      "targetCardSelectionMode": 0,
+      "animToPlay": 0,
+      "appliedToSelfVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "appliedVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "shouldTest": true,
+      "useIntRange": false,
+      "paramInt": 5,
+      "additionalParamInt": 0,
+      "paramStr": "",
+      "paramBool": false,
+      "paramSubtype": "SubtypesData_None",
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramMultiplier": 1.0,
+      "useStatusEffectStackMultiplier": false,
+      "statusEffectStackMultiplier": "",
+      "paramCharacterData": null,
+      "paramAdditionalCharacterData": null,
+      "paramCharacterDataPool": [
+
+      ],
+      "paramRoomData": null,
+      "paramCardPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramTrigger": 0,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardUpgradeData": null,
+      "paramTimingDelays": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "hideTooltip": false,
+      "additionalTooltips": [
+
+      ]
+    },
+    {
+      "effectStateName": "CardEffectDamage",
+      "targetMode": 12,
+      "targetModeStatusEffectsFilter": [
+
+      ],
+      "targetModeHealthFilter": 0,
+      "targetIgnoreBosses": false,
+      "filterBasedOnMainSubClass": false,
+      "copyModifiersFromSource": false,
+      "ignoreTemporaryModifiersFromSource": false,
+      "targetTeamType": 3,
+      "targetCharacterSubtype": "SubtypesData_None",
+      "targetCardType": 0,
+      "targetCardSelectionMode": 0,
+      "animToPlay": 0,
+      "appliedToSelfVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "appliedVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "shouldTest": true,
+      "useIntRange": false,
+      "paramInt": 5,
+      "additionalParamInt": 0,
+      "paramStr": "",
+      "paramBool": false,
+      "paramSubtype": "SubtypesData_None",
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramMultiplier": 1.0,
+      "useStatusEffectStackMultiplier": false,
+      "statusEffectStackMultiplier": "",
+      "paramCharacterData": null,
+      "paramAdditionalCharacterData": null,
+      "paramCharacterDataPool": [
+
+      ],
+      "paramRoomData": null,
+      "paramCardPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramTrigger": 0,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardUpgradeData": null,
+      "paramTimingDelays": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "hideTooltip": false,
+      "additionalTooltips": [
+
+      ]
+    }
+  ],
+  "effectTriggers": [
+
+  ],
+  "triggers": [
+
+  ],
+  "startingUpgrades": [
+
+  ],
+  "linkedClass": "ClassHellhorned",
+  "unlockLevel": 0,
+  "sharedDiscoveryCards": [
+
+  ],
+  "linkedMasteryCard": null,
+  "sharedMasteryCards": [
+
+  ],
+  "ignoreWhenCountingMastery": false,
+  "cardLoreTooltipKeys": [
+    "CardData_data-067fe5812e42fe8b-cb7f8f1805d4cd4449185ec893355baa-v2"
+  ],
+  "initialKeyboardTarget": 2
+}

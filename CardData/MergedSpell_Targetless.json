@@ -1,0 +1,140 @@
+{
+  "m_Name": "MergedSpell_Targetless",
+  "id": "40128d00-801b-410c-bbb8-ab6ee15b0aff",
+  "nameKey": "CardData_nameKey-eaa6607d717ceec7-e8f4d7309950b9f47937210ab15d1b9f-v2",
+  "cost": 2,
+  "costType": 0,
+  "overrideDescriptionKey": "CardData_overrideDescriptionKey-a8c7e371df025096-e8f4d7309950b9f47937210ab15d1b9f-v2",
+  "cardType": 0,
+  "targetsRoom": true,
+  "targetless": true,
+  "cardArtPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_Spell_DivineFragments.prefab",
+    "m_AssetGUID": "0326979af0963fb4ab692d897213ca74"
+  },
+  "rarity": 2,
+  "requiredDLC": 1,
+  "traits": [
+    {
+      "traitStateName": "CardTraitExhaustState",
+      "paramTrackedValue": 0,
+      "paramCardType": 0,
+      "paramEntryDuration": 0,
+      "paramStr": "",
+      "paramInt": 0,
+      "paramFloat": 0.0,
+      "paramSubtype": "SubtypesData_None",
+      "paramUseScalingParams": false,
+      "traitIsRemovable": true,
+      "paramCardData": null,
+      "paramCardUpgradeData": null,
+      "paramStatusEffects": [
+
+      ],
+      "paramTeamType": 0,
+      "stackMode": 0
+    }
+  ],
+  "effects": [
+    {
+      "effectStateName": "CardEffectNULL",
+      "targetMode": 0,
+      "targetModeStatusEffectsFilter": [
+
+      ],
+      "targetModeHealthFilter": 0,
+      "targetIgnoreBosses": true,
+      "filterBasedOnMainSubClass": false,
+      "copyModifiersFromSource": false,
+      "ignoreTemporaryModifiersFromSource": false,
+      "targetTeamType": 3,
+      "targetCharacterSubtype": "SubtypesData_None",
+      "targetCardType": 0,
+      "targetCardSelectionMode": 0,
+      "animToPlay": 0,
+      "appliedToSelfVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "appliedVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "shouldTest": true,
+      "useIntRange": false,
+      "paramInt": 0,
+      "additionalParamInt": 0,
+      "paramStr": "",
+      "paramBool": true,
+      "paramSubtype": "SubtypesData_None",
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramMultiplier": 0.0,
+      "useStatusEffectStackMultiplier": false,
+      "statusEffectStackMultiplier": "",
+      "paramCharacterData": null,
+      "paramAdditionalCharacterData": null,
+      "paramCharacterDataPool": [
+
+      ],
+      "paramRoomData": null,
+      "paramCardPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramTrigger": 0,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardUpgradeData": null,
+      "paramTimingDelays": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "hideTooltip": false,
+      "additionalTooltips": [
+
+      ]
+    }
+  ],
+  "effectTriggers": [
+
+  ],
+  "triggers": [
+
+  ],
+  "startingUpgrades": [
+
+  ],
+  "linkedClass": null,
+  "unlockLevel": 0,
+  "sharedDiscoveryCards": [
+
+  ],
+  "linkedMasteryCard": "MergedSpell_Single",
+  "sharedMasteryCards": [
+
+  ],
+  "ignoreWhenCountingMastery": false,
+  "cardLoreTooltipKeys": [
+    "CardData_data-2c57fac1b1bd5e9f-e8f4d7309950b9f47937210ab15d1b9f-v2"
+  ],
+  "initialKeyboardTarget": 1
+}

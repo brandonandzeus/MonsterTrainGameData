@@ -1,0 +1,122 @@
+{
+  "m_Name": "Retch",
+  "id": "9d801796-2b9f-496a-96fe-99b28bb32251",
+  "nameKey": "CardData_nameKey-98be9a402c73c3d1-6c5f6c837e91bd84ab7cde7b6e401f5b-v2",
+  "cost": 0,
+  "costType": 0,
+  "overrideDescriptionKey": "CardData_overrideDescriptionKey-fb3f0dc22ee0feb2-6c5f6c837e91bd84ab7cde7b6e401f5b-v2",
+  "cardType": 0,
+  "targetsRoom": true,
+  "targetless": true,
+  "cardArtPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_Spell_Retch.prefab",
+    "m_AssetGUID": "eb52b6eb0e848c74c8936b8e5c619961"
+  },
+  "rarity": 2,
+  "requiredDLC": 0,
+  "traits": [
+
+  ],
+  "effects": [
+    {
+      "effectStateName": "CardEffectRecursion",
+      "targetMode": 24,
+      "targetModeStatusEffectsFilter": [
+
+      ],
+      "targetModeHealthFilter": 0,
+      "targetIgnoreBosses": false,
+      "filterBasedOnMainSubClass": false,
+      "copyModifiersFromSource": false,
+      "ignoreTemporaryModifiersFromSource": false,
+      "targetTeamType": 0,
+      "targetCharacterSubtype": "SubtypesData_None",
+      "targetCardType": 1,
+      "targetCardSelectionMode": 1,
+      "animToPlay": 0,
+      "appliedToSelfVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "appliedVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "shouldTest": true,
+      "useIntRange": false,
+      "paramInt": 99,
+      "additionalParamInt": 0,
+      "paramStr": "",
+      "paramBool": false,
+      "paramSubtype": "SubtypesData_None",
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramMultiplier": 0.0,
+      "useStatusEffectStackMultiplier": false,
+      "statusEffectStackMultiplier": "",
+      "paramCharacterData": null,
+      "paramAdditionalCharacterData": null,
+      "paramCharacterDataPool": [
+
+      ],
+      "paramRoomData": null,
+      "paramCardPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramTrigger": 0,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardUpgradeData": null,
+      "paramTimingDelays": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "hideTooltip": true,
+      "additionalTooltips": [
+
+      ]
+    }
+  ],
+  "effectTriggers": [
+
+  ],
+  "triggers": [
+
+  ],
+  "startingUpgrades": [
+
+  ],
+  "linkedClass": "ClassUmbra",
+  "unlockLevel": 0,
+  "sharedDiscoveryCards": [
+
+  ],
+  "linkedMasteryCard": null,
+  "sharedMasteryCards": [
+
+  ],
+  "ignoreWhenCountingMastery": false,
+  "cardLoreTooltipKeys": [
+    "CardData_data-a1748d0b0fd93652-6c5f6c837e91bd84ab7cde7b6e401f5b-v2"
+  ],
+  "initialKeyboardTarget": 1
+}

@@ -1,0 +1,127 @@
+{
+  "m_Name": "RecruitEnemy",
+  "id": "699a89c4-83c5-4fd2-8127-83624bdf032c",
+  "nameKey": "CardData_nameKey-8190521505858c65-83a72f78f0338a1479b0ef1f09e80eb1-v2",
+  "cost": 2,
+  "costType": 0,
+  "overrideDescriptionKey": "CardData_overrideDescriptionKey-10b81a1441491c71-83a72f78f0338a1479b0ef1f09e80eb1-v2",
+  "cardType": 0,
+  "targetsRoom": true,
+  "targetless": true,
+  "cardArtPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_Spell_ForTheGreaterGood.prefab",
+    "m_AssetGUID": "261b91da0901d374483eaa854a344245"
+  },
+  "rarity": 2,
+  "requiredDLC": 1,
+  "traits": [
+
+  ],
+  "effects": [
+    {
+      "effectStateName": "CardEffectRecruit",
+      "targetMode": 0,
+      "targetModeStatusEffectsFilter": [
+
+      ],
+      "targetModeHealthFilter": 0,
+      "targetIgnoreBosses": false,
+      "filterBasedOnMainSubClass": false,
+      "copyModifiersFromSource": false,
+      "ignoreTemporaryModifiersFromSource": false,
+      "targetTeamType": 0,
+      "targetCharacterSubtype": "SubtypesData_None",
+      "targetCardType": 0,
+      "targetCardSelectionMode": 0,
+      "animToPlay": 0,
+      "appliedToSelfVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "appliedVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "shouldTest": true,
+      "useIntRange": false,
+      "paramInt": 0,
+      "additionalParamInt": 0,
+      "paramStr": "",
+      "paramBool": false,
+      "paramSubtype": "SubtypesData_None",
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramMultiplier": 0.0,
+      "useStatusEffectStackMultiplier": false,
+      "statusEffectStackMultiplier": "",
+      "paramCharacterData": null,
+      "paramAdditionalCharacterData": null,
+      "paramCharacterDataPool": [
+        "AttackerT2_Rebel",
+        "AttackerT2Stealth_Rebel",
+        "ClericT2_Rebel",
+        "EnchanterT1Spikes_Rebel",
+        "HordeT1_Rebel",
+        "HordeT2DeathGivesAttack_Rebel"
+      ],
+      "paramRoomData": null,
+      "paramCardPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramTrigger": 0,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardUpgradeData": null,
+      "paramTimingDelays": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "hideTooltip": false,
+      "additionalTooltips": [
+
+      ]
+    }
+  ],
+  "effectTriggers": [
+
+  ],
+  "triggers": [
+
+  ],
+  "startingUpgrades": [
+
+  ],
+  "linkedClass": null,
+  "unlockLevel": 0,
+  "sharedDiscoveryCards": [
+
+  ],
+  "linkedMasteryCard": null,
+  "sharedMasteryCards": [
+
+  ],
+  "ignoreWhenCountingMastery": false,
+  "cardLoreTooltipKeys": [
+    "CardData_data-01500c4fb4e26ac4-83a72f78f0338a1479b0ef1f09e80eb1-v2"
+  ],
+  "initialKeyboardTarget": 1
+}

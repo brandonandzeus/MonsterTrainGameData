@@ -1,0 +1,247 @@
+{
+  "m_Name": "WurmChamp2",
+  "id": "15e25a50-5235-4c45-803b-cada23022671",
+  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "cost": 0,
+  "costType": 0,
+  "overrideDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "cardType": 1,
+  "targetsRoom": true,
+  "targetless": false,
+  "cardArtPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_Echowright.prefab",
+    "m_AssetGUID": "96841d5ae74842c4e8bbb7bd3b6dd0d2"
+  },
+  "rarity": 3,
+  "requiredDLC": 1,
+  "traits": [
+
+  ],
+  "effects": [
+    {
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": 0,
+      "targetModeStatusEffectsFilter": [
+
+      ],
+      "targetModeHealthFilter": 0,
+      "targetIgnoreBosses": false,
+      "filterBasedOnMainSubClass": false,
+      "copyModifiersFromSource": false,
+      "ignoreTemporaryModifiersFromSource": false,
+      "targetTeamType": 0,
+      "targetCharacterSubtype": "SubtypesData_None",
+      "targetCardType": 0,
+      "targetCardSelectionMode": 0,
+      "animToPlay": 0,
+      "appliedToSelfVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "appliedVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "shouldTest": true,
+      "useIntRange": false,
+      "paramInt": 0,
+      "additionalParamInt": 0,
+      "paramStr": "",
+      "paramBool": false,
+      "paramSubtype": "SubtypesData_None",
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramMultiplier": 0.0,
+      "useStatusEffectStackMultiplier": false,
+      "statusEffectStackMultiplier": "",
+      "paramCharacterData": {
+        "m_Name": "MonsterWurmChampion2",
+        "id": "5c18728d-27e2-4b9b-835c-a69b1689eb9c",
+        "nameKey": "CharacterData_nameKey-fec329388595a833-2622e40cd8007bb48b4046545f2cf79e-v2",
+        "characterPrefabVariantRef": {
+          "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_Echowright.prefab",
+          "m_AssetGUID": "d4cfdcab0785e1042834248a7c710afa"
+        },
+        "pactCrystalsRequiredCount": -1,
+        "pactCrystalsVariantData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "bypassPactCrystalsUpgradeDataList": {
+          "array": [
+
+          ]
+        },
+        "size": 2,
+        "blockVisualSizeIncrease": false,
+        "health": 5,
+        "canBeHealed": true,
+        "isOuterTrainBoss": false,
+        "validBossAttackPhase": 2,
+        "isMiniboss": false,
+        "deathType": 0,
+        "canAttack": true,
+        "ascendsTrainAutomatically": true,
+        "attackDamage": 10,
+        "animationController": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "attackTeleportsToDefender": false,
+        "deathSlidesBackwards": true,
+        "projectilePrefab": {
+          "vfxPrefabLeft": {
+            "m_FileID": 0,
+            "m_PathID": 4294
+          },
+          "vfxPrefabRight": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "spawnLocation": 7,
+          "facing": 0
+        },
+        "impactVFX": {
+          "vfxPrefabLeft": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "vfxPrefabRight": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "spawnLocation": 0,
+          "facing": 0
+        },
+        "deathVFX": {
+          "vfxPrefabLeft": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "vfxPrefabRight": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "spawnLocation": 0,
+          "facing": 0
+        },
+        "bossSpellCastVFX": {
+          "vfxPrefabLeft": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "vfxPrefabRight": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "spawnLocation": 0,
+          "facing": 0
+        },
+        "bossRoomSpellCastVFX": {
+          "vfxPrefabLeft": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "vfxPrefabRight": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "spawnLocation": 0,
+          "facing": 0
+        },
+        "startingStatusEffects": [
+
+        ],
+        "statusEffectImmunities": [
+
+        ],
+        "triggers": [
+
+        ],
+        "subtypeKeys": [
+          "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
+        ],
+        "removeTriggersOnRelentlessChange": false,
+        "bossActionGroups": [
+
+        ],
+        "characterSoundData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "characterChatterData": {
+          "m_FileID": 0,
+          "m_PathID": 16633
+        },
+        "characterLoreTooltipKeys": [
+          "CharacterData_data-ddb48c7344d6a389-2622e40cd8007bb48b4046545f2cf79e-v2"
+        ],
+        "roomModifiers": [
+
+        ]
+      },
+      "paramAdditionalCharacterData": null,
+      "paramCharacterDataPool": [
+
+      ],
+      "paramRoomData": null,
+      "paramCardPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramTrigger": 0,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardUpgradeData": null,
+      "paramTimingDelays": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "hideTooltip": false,
+      "additionalTooltips": [
+
+      ]
+    }
+  ],
+  "effectTriggers": [
+
+  ],
+  "triggers": [
+
+  ],
+  "startingUpgrades": [
+
+  ],
+  "linkedClass": "ClassWurm",
+  "unlockLevel": 0,
+  "sharedDiscoveryCards": [
+
+  ],
+  "linkedMasteryCard": null,
+  "sharedMasteryCards": [
+
+  ],
+  "ignoreWhenCountingMastery": false,
+  "cardLoreTooltipKeys": [
+
+  ],
+  "initialKeyboardTarget": 1
+}

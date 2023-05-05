@@ -1,0 +1,143 @@
+{
+  "m_Name": "MagicJuice",
+  "id": "9ea70171-8afd-4fab-ad54-7ff5c8b478b8",
+  "nameKey": "CardData_nameKey-7ff790cfcf7c996f-d9d327e8d4208c54f9d614cc9f1eacea-v2",
+  "cost": 0,
+  "costType": 0,
+  "overrideDescriptionKey": "CardData_overrideDescriptionKey-8a04893bcd0398b1-d9d327e8d4208c54f9d614cc9f1eacea-v2",
+  "cardType": 0,
+  "targetsRoom": true,
+  "targetless": true,
+  "cardArtPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_Spell_UrchinSpines.prefab",
+    "m_AssetGUID": "b648b1a0ce833874da3c49e5fae4e261"
+  },
+  "rarity": 1,
+  "requiredDLC": 0,
+  "traits": [
+    {
+      "traitStateName": "CardTraitExhaustState",
+      "paramTrackedValue": 0,
+      "paramCardType": 0,
+      "paramEntryDuration": 0,
+      "paramStr": "",
+      "paramInt": 0,
+      "paramFloat": 0.0,
+      "paramSubtype": "SubtypesData_None",
+      "paramUseScalingParams": false,
+      "traitIsRemovable": true,
+      "paramCardData": null,
+      "paramCardUpgradeData": null,
+      "paramStatusEffects": [
+
+      ],
+      "paramTeamType": 0,
+      "stackMode": 0
+    }
+  ],
+  "effects": [
+    {
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": 0,
+      "targetModeStatusEffectsFilter": [
+
+      ],
+      "targetModeHealthFilter": 0,
+      "targetIgnoreBosses": false,
+      "filterBasedOnMainSubClass": false,
+      "copyModifiersFromSource": false,
+      "ignoreTemporaryModifiersFromSource": false,
+      "targetTeamType": 1,
+      "targetCharacterSubtype": "SubtypesData_None",
+      "targetCardType": 0,
+      "targetCardSelectionMode": 0,
+      "animToPlay": 0,
+      "appliedToSelfVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "appliedVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "shouldTest": true,
+      "useIntRange": false,
+      "paramInt": 0,
+      "additionalParamInt": 0,
+      "paramStr": "",
+      "paramBool": false,
+      "paramSubtype": "SubtypesData_None",
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramMultiplier": 0.0,
+      "useStatusEffectStackMultiplier": false,
+      "statusEffectStackMultiplier": "",
+      "paramCharacterData": null,
+      "paramAdditionalCharacterData": null,
+      "paramCharacterDataPool": [
+
+      ],
+      "paramRoomData": null,
+      "paramCardPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramTrigger": 0,
+      "paramStatusEffects": [
+        {
+          "statusId": "spell weakness",
+          "count": 2
+        }
+      ],
+      "paramCardUpgradeData": null,
+      "paramTimingDelays": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "hideTooltip": false,
+      "additionalTooltips": [
+
+      ]
+    }
+  ],
+  "effectTriggers": [
+
+  ],
+  "triggers": [
+
+  ],
+  "startingUpgrades": [
+
+  ],
+  "linkedClass": "ClassStygian",
+  "unlockLevel": 0,
+  "sharedDiscoveryCards": [
+
+  ],
+  "linkedMasteryCard": null,
+  "sharedMasteryCards": [
+
+  ],
+  "ignoreWhenCountingMastery": false,
+  "cardLoreTooltipKeys": [
+    "CardData_data-2152aa1deab8bd5c-d9d327e8d4208c54f9d614cc9f1eacea-v2"
+  ],
+  "initialKeyboardTarget": 1
+}

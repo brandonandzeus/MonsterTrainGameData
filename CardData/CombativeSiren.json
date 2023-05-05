@@ -1,0 +1,397 @@
+{
+  "m_Name": "CombativeSiren",
+  "id": "4b7a0257-6f1b-4dde-8c97-b5ca5bd06fc7",
+  "nameKey": "CardData_nameKey-0cc048750988fedf-8d1f59b6c641f3142b7a9847f6e22c10-v2",
+  "cost": 1,
+  "costType": 0,
+  "overrideDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "cardType": 1,
+  "targetsRoom": true,
+  "targetless": false,
+  "cardArtPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_ColdstingSiren.prefab",
+    "m_AssetGUID": "8876501cf44951541a743709b84a927c"
+  },
+  "rarity": 1,
+  "requiredDLC": 0,
+  "traits": [
+    {
+      "traitStateName": "CardTraitLevelMonsterState",
+      "paramTrackedValue": 0,
+      "paramCardType": 0,
+      "paramEntryDuration": 0,
+      "paramStr": "",
+      "paramInt": 0,
+      "paramFloat": 0.0,
+      "paramSubtype": "SubtypesData_None",
+      "paramUseScalingParams": false,
+      "traitIsRemovable": true,
+      "paramCardData": "EnlightenedSiren",
+      "paramCardUpgradeData": null,
+      "paramStatusEffects": [
+
+      ],
+      "paramTeamType": 1,
+      "stackMode": 0
+    }
+  ],
+  "effects": [
+    {
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": 0,
+      "targetModeStatusEffectsFilter": [
+
+      ],
+      "targetModeHealthFilter": 0,
+      "targetIgnoreBosses": false,
+      "filterBasedOnMainSubClass": false,
+      "copyModifiersFromSource": false,
+      "ignoreTemporaryModifiersFromSource": false,
+      "targetTeamType": 0,
+      "targetCharacterSubtype": "SubtypesData_None",
+      "targetCardType": 0,
+      "targetCardSelectionMode": 0,
+      "animToPlay": 0,
+      "appliedToSelfVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "appliedVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "shouldTest": true,
+      "useIntRange": false,
+      "paramInt": 0,
+      "additionalParamInt": 0,
+      "paramStr": "",
+      "paramBool": false,
+      "paramSubtype": "SubtypesData_None",
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramMultiplier": 0.0,
+      "useStatusEffectStackMultiplier": false,
+      "statusEffectStackMultiplier": "",
+      "paramCharacterData": {
+        "m_Name": "MonsterCombativeSiren",
+        "id": "c087fc28-7f82-4519-822d-163f65adfb8a",
+        "nameKey": "CharacterData_nameKey-9cf9513f783e1cf4-aaf6ff6dc9da03a48985f18b3310db9e-v2",
+        "characterPrefabVariantRef": {
+          "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_ColdstingSiren.prefab",
+          "m_AssetGUID": "d1bdd9fb388286b4dbd91ea25d9476cd"
+        },
+        "pactCrystalsRequiredCount": -1,
+        "pactCrystalsVariantData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "bypassPactCrystalsUpgradeDataList": {
+          "array": [
+
+          ]
+        },
+        "size": 2,
+        "blockVisualSizeIncrease": false,
+        "health": 10,
+        "canBeHealed": true,
+        "isOuterTrainBoss": false,
+        "validBossAttackPhase": 2,
+        "isMiniboss": false,
+        "deathType": 0,
+        "canAttack": true,
+        "ascendsTrainAutomatically": true,
+        "attackDamage": 5,
+        "animationController": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "attackTeleportsToDefender": true,
+        "deathSlidesBackwards": true,
+        "projectilePrefab": {
+          "vfxPrefabLeft": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "vfxPrefabRight": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "spawnLocation": 0,
+          "facing": 0
+        },
+        "impactVFX": {
+          "vfxPrefabLeft": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "vfxPrefabRight": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "spawnLocation": 0,
+          "facing": 0
+        },
+        "deathVFX": {
+          "vfxPrefabLeft": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "vfxPrefabRight": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "spawnLocation": 0,
+          "facing": 0
+        },
+        "bossSpellCastVFX": {
+          "vfxPrefabLeft": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "vfxPrefabRight": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "spawnLocation": 0,
+          "facing": 0
+        },
+        "bossRoomSpellCastVFX": {
+          "vfxPrefabLeft": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "vfxPrefabRight": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "spawnLocation": 0,
+          "facing": 0
+        },
+        "startingStatusEffects": [
+
+        ],
+        "statusEffectImmunities": [
+
+        ],
+        "triggers": [
+          {
+            "trigger": 19,
+            "descriptionKey": "CharacterData_descriptionKey-94a29c4b145a9693-aaf6ff6dc9da03a48985f18b3310db9e-v2",
+            "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "displayEffectHintText": false,
+            "hideTriggerTooltip": false,
+            "effects": [
+              {
+                "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                "targetMode": 5,
+                "targetModeStatusEffectsFilter": [
+
+                ],
+                "targetModeHealthFilter": 0,
+                "targetIgnoreBosses": false,
+                "filterBasedOnMainSubClass": false,
+                "copyModifiersFromSource": false,
+                "ignoreTemporaryModifiersFromSource": false,
+                "targetTeamType": 0,
+                "targetCharacterSubtype": "SubtypesData_None",
+                "targetCardType": 0,
+                "targetCardSelectionMode": 0,
+                "animToPlay": 0,
+                "appliedToSelfVFX": {
+                  "vfxPrefabLeft": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "vfxPrefabRight": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "spawnLocation": 0,
+                  "facing": 0
+                },
+                "appliedVFX": {
+                  "vfxPrefabLeft": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "vfxPrefabRight": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "spawnLocation": 0,
+                  "facing": 0
+                },
+                "shouldTest": true,
+                "useIntRange": false,
+                "paramInt": 1,
+                "additionalParamInt": 0,
+                "paramStr": "",
+                "paramBool": false,
+                "paramSubtype": "SubtypesData_None",
+                "paramMinInt": 0,
+                "paramMaxInt": 0,
+                "paramMultiplier": 0.0,
+                "useStatusEffectStackMultiplier": false,
+                "statusEffectStackMultiplier": "",
+                "paramCharacterData": null,
+                "paramAdditionalCharacterData": null,
+                "paramCharacterDataPool": [
+
+                ],
+                "paramRoomData": null,
+                "paramCardPool": [
+
+                ],
+                "paramCardFilter": null,
+                "paramTrigger": 0,
+                "paramStatusEffects": [
+
+                ],
+                "paramCardUpgradeData": {
+                  "m_Name": "SirenSeaTrigger",
+                  "id": "f58c320b-da4e-494e-9761-5f7c5179e7e9",
+                  "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                  "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                  "upgradeIcon": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "hideUpgradeIconOnCard": false,
+                  "useUpgradeHighlightTextTags": true,
+                  "isUnitSynthesisUpgrade": false,
+                  "isUnique": false,
+                  "sourceSynthesisUnit": null,
+                  "linkedPactDuplicateRarity": 4,
+                  "bonusDamage": 2,
+                  "bonusHP": 2,
+                  "costReduction": 0,
+                  "xCostReduction": 0,
+                  "bonusHeal": 0,
+                  "bonusSize": 0,
+                  "statusEffectUpgrades": [
+
+                  ],
+                  "traitDataUpgrades": [
+
+                  ],
+                  "removeTraitUpgrades": [
+
+                  ],
+                  "triggerUpgrades": [
+
+                  ],
+                  "cardTriggerUpgrades": [
+
+                  ],
+                  "roomModifierUpgrades": [
+
+                  ],
+                  "filters": [
+
+                  ],
+                  "upgradesToRemove": [
+
+                  ]
+                },
+                "paramTimingDelays": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "hideTooltip": false,
+                "additionalTooltips": [
+
+                ]
+              }
+            ]
+          }
+        ],
+        "subtypeKeys": [
+          "SubtypesData_Siren_727cf19f-3b27-4ad2-92ab-3552449e52da",
+          "SubtypesData_Chosen"
+        ],
+        "removeTriggersOnRelentlessChange": false,
+        "bossActionGroups": [
+
+        ],
+        "characterSoundData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "characterChatterData": {
+          "m_FileID": 0,
+          "m_PathID": 16601
+        },
+        "characterLoreTooltipKeys": [
+          "CharacterData_data-abadaf38ec0fef37-aaf6ff6dc9da03a48985f18b3310db9e-v2"
+        ],
+        "roomModifiers": [
+
+        ]
+      },
+      "paramAdditionalCharacterData": null,
+      "paramCharacterDataPool": [
+
+      ],
+      "paramRoomData": null,
+      "paramCardPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramTrigger": 0,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardUpgradeData": null,
+      "paramTimingDelays": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "hideTooltip": false,
+      "additionalTooltips": [
+
+      ]
+    }
+  ],
+  "effectTriggers": [
+
+  ],
+  "triggers": [
+
+  ],
+  "startingUpgrades": [
+
+  ],
+  "linkedClass": "ClassStygian",
+  "unlockLevel": 0,
+  "sharedDiscoveryCards": [
+
+  ],
+  "linkedMasteryCard": null,
+  "sharedMasteryCards": [
+
+  ],
+  "ignoreWhenCountingMastery": false,
+  "cardLoreTooltipKeys": [
+
+  ],
+  "initialKeyboardTarget": 1
+}

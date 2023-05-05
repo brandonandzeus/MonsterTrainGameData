@@ -1,0 +1,309 @@
+{
+  "m_Name": "MagicPowerAcolyte",
+  "id": "d8c13978-32aa-4476-b568-68a3d83e1d49",
+  "nameKey": "CardData_nameKey-c2c67e6c34f0d2c0-4f00a19367ad7cd4b91ee86236360d36-v2",
+  "cost": 1,
+  "costType": 0,
+  "overrideDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "cardType": 1,
+  "targetsRoom": true,
+  "targetless": false,
+  "cardArtPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_Molluscmage.prefab",
+    "m_AssetGUID": "ed3b59070c9938947bcd32fd0a171c13"
+  },
+  "rarity": 0,
+  "requiredDLC": 0,
+  "traits": [
+
+  ],
+  "effects": [
+    {
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": 0,
+      "targetModeStatusEffectsFilter": [
+
+      ],
+      "targetModeHealthFilter": 0,
+      "targetIgnoreBosses": false,
+      "filterBasedOnMainSubClass": false,
+      "copyModifiersFromSource": false,
+      "ignoreTemporaryModifiersFromSource": false,
+      "targetTeamType": 0,
+      "targetCharacterSubtype": "SubtypesData_None",
+      "targetCardType": 0,
+      "targetCardSelectionMode": 0,
+      "animToPlay": 0,
+      "appliedToSelfVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "appliedVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "shouldTest": true,
+      "useIntRange": false,
+      "paramInt": 0,
+      "additionalParamInt": 0,
+      "paramStr": "",
+      "paramBool": false,
+      "paramSubtype": "SubtypesData_None",
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramMultiplier": 0.0,
+      "useStatusEffectStackMultiplier": false,
+      "statusEffectStackMultiplier": "",
+      "paramCharacterData": {
+        "m_Name": "MonsterMagicTotem",
+        "id": "00f1f139-aa47-4079-a36c-f2f7d09429f7",
+        "nameKey": "CharacterData_nameKey-00857b91c85bd114-e4091c4b86bbd1244823c88421760583-v2",
+        "characterPrefabVariantRef": {
+          "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_Molluscmage.prefab",
+          "m_AssetGUID": "3841b6754aa1c3e4b859af1e557e2304"
+        },
+        "pactCrystalsRequiredCount": -1,
+        "pactCrystalsVariantData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "bypassPactCrystalsUpgradeDataList": {
+          "array": [
+
+          ]
+        },
+        "size": 1,
+        "blockVisualSizeIncrease": false,
+        "health": 3,
+        "canBeHealed": true,
+        "isOuterTrainBoss": false,
+        "validBossAttackPhase": 2,
+        "isMiniboss": false,
+        "deathType": 0,
+        "canAttack": true,
+        "ascendsTrainAutomatically": true,
+        "attackDamage": 5,
+        "animationController": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "attackTeleportsToDefender": false,
+        "deathSlidesBackwards": true,
+        "projectilePrefab": {
+          "vfxPrefabLeft": {
+            "m_FileID": 0,
+            "m_PathID": 4631
+          },
+          "vfxPrefabRight": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "spawnLocation": 5,
+          "facing": 0
+        },
+        "impactVFX": {
+          "vfxPrefabLeft": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "vfxPrefabRight": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "spawnLocation": 0,
+          "facing": 0
+        },
+        "deathVFX": {
+          "vfxPrefabLeft": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "vfxPrefabRight": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "spawnLocation": 0,
+          "facing": 0
+        },
+        "bossSpellCastVFX": {
+          "vfxPrefabLeft": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "vfxPrefabRight": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "spawnLocation": 0,
+          "facing": 0
+        },
+        "bossRoomSpellCastVFX": {
+          "vfxPrefabLeft": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "vfxPrefabRight": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "spawnLocation": 0,
+          "facing": 0
+        },
+        "startingStatusEffects": [
+
+        ],
+        "statusEffectImmunities": [
+
+        ],
+        "triggers": [
+
+        ],
+        "subtypeKeys": [
+          "SubtypesData_Mage"
+        ],
+        "removeTriggersOnRelentlessChange": false,
+        "bossActionGroups": [
+
+        ],
+        "characterSoundData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "characterChatterData": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "characterLoreTooltipKeys": [
+          "CharacterData_data-13266f83d54fde8f-e4091c4b86bbd1244823c88421760583-v2"
+        ],
+        "roomModifiers": [
+          {
+            "roomStateModifierClassName": "RoomStateMagicalPowerModifier",
+            "descriptionKey": "CharacterData_descriptionKey-b538faf3994d5a46-e4091c4b86bbd1244823c88421760583-v2",
+            "descriptionKeyInPlay": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "icon": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "paramInt": 10,
+            "paramSubtype": "SubtypesData_None",
+            "paramStatusEffects": [
+
+            ],
+            "extraTooltipTitleKey": "ModifyCard_MagicalPower_TooltipTitle",
+            "extraTooltipBodyKey": "ModifyCard_MagicalPower_TooltipBody",
+            "paramCardUpgradeData": {
+              "m_Name": "MolluscmageMagicPower",
+              "id": "301e0c4e-0616-45ab-8d4e-10db16a386ec",
+              "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "upgradeIcon": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "hideUpgradeIconOnCard": false,
+              "useUpgradeHighlightTextTags": true,
+              "isUnitSynthesisUpgrade": false,
+              "isUnique": false,
+              "sourceSynthesisUnit": null,
+              "linkedPactDuplicateRarity": 4,
+              "bonusDamage": 10,
+              "bonusHP": 0,
+              "costReduction": 0,
+              "xCostReduction": 0,
+              "bonusHeal": 10,
+              "bonusSize": 0,
+              "statusEffectUpgrades": [
+
+              ],
+              "traitDataUpgrades": [
+
+              ],
+              "removeTraitUpgrades": [
+
+              ],
+              "triggerUpgrades": [
+
+              ],
+              "cardTriggerUpgrades": [
+
+              ],
+              "roomModifierUpgrades": [
+
+              ],
+              "filters": [
+
+              ],
+              "upgradesToRemove": [
+
+              ]
+            }
+          }
+        ]
+      },
+      "paramAdditionalCharacterData": null,
+      "paramCharacterDataPool": [
+
+      ],
+      "paramRoomData": null,
+      "paramCardPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramTrigger": 0,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardUpgradeData": null,
+      "paramTimingDelays": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "hideTooltip": false,
+      "additionalTooltips": [
+
+      ]
+    }
+  ],
+  "effectTriggers": [
+
+  ],
+  "triggers": [
+
+  ],
+  "startingUpgrades": [
+
+  ],
+  "linkedClass": "ClassStygian",
+  "unlockLevel": 0,
+  "sharedDiscoveryCards": [
+
+  ],
+  "linkedMasteryCard": null,
+  "sharedMasteryCards": [
+
+  ],
+  "ignoreWhenCountingMastery": false,
+  "cardLoreTooltipKeys": [
+
+  ],
+  "initialKeyboardTarget": 1
+}
