@@ -1,0 +1,126 @@
+{
+  "m_Name": "DazedOnFloorAscendDescend",
+  "id": "8da05b19-a15f-4988-82b6-b47b2685fbb8",
+  "nameKey": "CollectableRelicData_nameKey-79b7fc3362574a18-5e9668e688709414c903a2c9ebc84944-v2",
+  "descriptionKey": "CollectableRelicData_descriptionKey-d0868dd7a8b44b82-5e9668e688709414c903a2c9ebc84944-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+    "CollectableRelicData_data-8becdce95a490e98-5e9668e688709414c903a2c9ebc84944-v2"
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 2485
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectAddStatusOnUnitMoved",
+      "paramSourceTeam": 1,
+      "paramInt": 0,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+        {
+          "statusId": "dazed",
+          "count": 2
+        }
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 0,
+      "paramRoomData": null,
+      "paramCardType": 0,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+        {
+          "titleKey": "CardEffectBump_Up_TooltipTitle",
+          "descriptionKey": "CardEffectBump_Up_TooltipText",
+          "style": 8,
+          "isStatusTooltip": false,
+          "statusId": "",
+          "isTriggerTooltip": false,
+          "trigger": 0,
+          "isTipTooltip": false
+        },
+        {
+          "titleKey": "CardEffectBump_Down_TooltipTitle",
+          "descriptionKey": "CardEffectBump_Down_TooltipText",
+          "style": 8,
+          "isStatusTooltip": false,
+          "statusId": "",
+          "isTriggerTooltip": false,
+          "trigger": 0,
+          "isTipTooltip": false
+        }
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    }
+  ],
+  "rarity": 1,
+  "linkedClass": null,
+  "unlockLevel": 0,
+  "fromStoryEvent": false,
+  "isBossGivenRelic": false,
+  "ignoreForNoRelicAchievement": false,
+  "requiredDLC": 0,
+  "name": "Iron Dropcage"
+}

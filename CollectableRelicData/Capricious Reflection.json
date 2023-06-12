@@ -1,0 +1,141 @@
+{
+  "m_Name": "U3UpgradedDrafts",
+  "id": "9e0e5d4e-6d16-43f1-8cd4-cc4c2b431afd",
+  "nameKey": "CollectableRelicData_nameKey-8ba506b72c916eab-f48b7439e4d3ee044baabeb112bfb473-v2",
+  "descriptionKey": "CollectableRelicData_descriptionKey-aade7ea4b681da38-f48b7439e4d3ee044baabeb112bfb473-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+    "CollectableRelicData_data-b0642cd4b0038ccb-f48b7439e4d3ee044baabeb112bfb473-v2"
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 2140
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectAddStartingUpgradeToCardDrafts",
+      "paramSourceTeam": 0,
+      "paramInt": 0,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 0,
+      "paramRoomData": null,
+      "paramCardType": 0,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": {
+        "name": "DraftUpgradePool",
+        "relicDataList": [
+          "SpellMagicPower",
+          "SpellMagicPowerBigExtraCost",
+          "SpellUpgradeReduceCost",
+          "SpellUpgradeReduceCost",
+          "SpellUpgradeTraitAddJuice",
+          "SpellUpgradeTraitAddPermafrost",
+          "SpellUpgradeTraitAddRetain",
+          "SpellUpgradeTraitRemoveConsume",
+          "UnitUpgradeAddEndlessRemnant",
+          "UnitUpgradeAddEndlessRemnant",
+          "UnitUpgradeAddEndlessRemnant",
+          "UnitUpgradeBiggerUmbra",
+          "UnitUpgradeBiggerUmbra",
+          "UnitUpgradeBiggerUmbra",
+          "UnitUpgradeClanAwokenAddSpikes",
+          "UnitUpgradeClanAwokenAddSpikes",
+          "UnitUpgradeClanHellhornedAddRage",
+          "UnitUpgradeClanHellhornedAddRage",
+          "UnitUpgradeClanRemnantAddBurnout",
+          "UnitUpgradeClanStygianIncantArmor",
+          "UnitUpgradeClanStygianIncantArmor",
+          "UnitUpgradeClanUmbraDamageShield",
+          "UnitUpgradeClanUmbraDamageShield",
+          "UnitUpgradeMultistrikeHellhorned",
+          "UnitUpgradeMultistrikeHellhorned",
+          "UnitUpgradeMultistrikeHellhorned",
+          "UnitUpgradeQuickAwoken",
+          "UnitUpgradeQuickAwoken",
+          "UnitUpgradeQuickAwoken",
+          "UnitUpgradeStatsAttack",
+          "UnitUpgradeStatsAttack",
+          "UnitUpgradeStatsBoth",
+          "UnitUpgradeStatsBoth",
+          "UnitUpgradeStatsHealth",
+          "UnitUpgradeStatsHealth"
+        ]
+      },
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    }
+  ],
+  "rarity": 1,
+  "linkedClass": null,
+  "unlockLevel": 0,
+  "fromStoryEvent": false,
+  "isBossGivenRelic": false,
+  "ignoreForNoRelicAchievement": false,
+  "requiredDLC": 1,
+  "name": "Capricious Reflection"
+}

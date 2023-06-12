@@ -1,0 +1,107 @@
+{
+  "m_Name": "ShieldsUpRelic",
+  "id": "db206ec6-fea3-457c-9469-cef224e662ce",
+  "nameKey": "CollectableRelicData_nameKey-654851d3cdbc50ef-b9535d8f12367d5408252463ce38485b-v2",
+  "descriptionKey": "CollectableRelicData_descriptionKey-43ec1a701da39f21-b9535d8f12367d5408252463ce38485b-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+    "CollectableRelicData_data-e3756b95bd4d8277-b9535d8f12367d5408252463ce38485b-v2"
+  ],
+  "relicLoreTooltipStyle": 1,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 2475
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": 1,
+      "paramInt": -1,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+        {
+          "statusId": "damage shield",
+          "count": 1
+        }
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 0,
+      "paramRoomData": null,
+      "paramCardType": 0,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    }
+  ],
+  "rarity": 0,
+  "linkedClass": null,
+  "unlockLevel": 0,
+  "fromStoryEvent": true,
+  "isBossGivenRelic": false,
+  "ignoreForNoRelicAchievement": false,
+  "requiredDLC": 1,
+  "name": "Judgemental Fittings"
+}

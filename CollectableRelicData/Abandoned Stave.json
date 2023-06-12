@@ -1,0 +1,113 @@
+{
+  "m_Name": "ScalingBlightEnergyAdd",
+  "id": "cb74adcf-b463-4424-a519-d1098ecd5373",
+  "nameKey": "CollectableRelicData_nameKey-10cc9a1002ca569c-d329316066a11694c86595d6ec7beb5b-v2",
+  "descriptionKey": "CollectableRelicData_descriptionKey-8f2907df13c33a97-d329316066a11694c86595d6ec7beb5b-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+    "CollectableRelicData_data-0c563edc15acb981-d329316066a11694c86595d6ec7beb5b-v2"
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 1950
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectModifyEnergyScaling",
+      "paramSourceTeam": 0,
+      "paramInt": 2,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": true,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 2,
+      "paramRoomData": null,
+      "paramCardType": 5,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+        {
+          "titleKey": "Ember_TooltipTitle",
+          "descriptionKey": "Ember_TooltipText",
+          "style": 8,
+          "isStatusTooltip": false,
+          "statusId": "",
+          "isTriggerTooltip": false,
+          "trigger": 0,
+          "isTipTooltip": false
+        }
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "CardTraitCostReduceCharactersInTowerState",
+      "targetCardTraitParam": "CardTraitCostReduceCharactersInTowerState",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    }
+  ],
+  "rarity": 2,
+  "linkedClass": null,
+  "unlockLevel": 0,
+  "fromStoryEvent": true,
+  "isBossGivenRelic": false,
+  "ignoreForNoRelicAchievement": false,
+  "requiredDLC": 0,
+  "name": "Abandoned Stave"
+}

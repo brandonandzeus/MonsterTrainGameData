@@ -1,0 +1,104 @@
+{
+  "m_Name": "HealTrainOnPyreKill",
+  "id": "d8142858-f12d-4fd6-9995-02f0d12d0b12",
+  "nameKey": "CollectableRelicData_nameKey-30d6cef647268d71-712816e8894605b47a52ccf74084f01e-v2",
+  "descriptionKey": "CollectableRelicData_descriptionKey-26abea7b3db5dc34-712816e8894605b47a52ccf74084f01e-v2",
+  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-a4ab7a63a974c465-712816e8894605b47a52ccf74084f01e-v2",
+  "relicLoreTooltipKeys": [
+    "CollectableRelicData_data-0330f4f9ed330251-712816e8894605b47a52ccf74084f01e-v2"
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 2440
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectHealTrainOnPyreKill",
+      "paramSourceTeam": 2,
+      "paramInt": 5,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 2,
+      "paramRoomData": null,
+      "paramCardType": 0,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    }
+  ],
+  "rarity": 1,
+  "linkedClass": null,
+  "unlockLevel": 0,
+  "fromStoryEvent": true,
+  "isBossGivenRelic": false,
+  "ignoreForNoRelicAchievement": false,
+  "requiredDLC": 0,
+  "name": "Blood for Blood"
+}

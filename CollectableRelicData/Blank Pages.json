@@ -1,0 +1,336 @@
+{
+  "m_Name": "FinalEndingArtifact",
+  "id": "6bb39014-9b03-4620-b088-f618a7e680b7",
+  "nameKey": "CollectableRelicData_nameKey-7a91b9d2f17198d3-e641baa29e8f3ab4b9ea52fb9570aeac-v2",
+  "descriptionKey": "CollectableRelicData_descriptionKey-bf90a92778e4eb80-e641baa29e8f3ab4b9ea52fb9570aeac-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+    "CollectableRelicData_data-5130d7d77894b063-e641baa29e8f3ab4b9ea52fb9570aeac-v2"
+  ],
+  "relicLoreTooltipStyle": 2,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 1960
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectAddChampionCardToHand",
+      "paramSourceTeam": 0,
+      "paramInt": 0,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 0,
+      "paramRoomData": null,
+      "paramCardType": 0,
+      "paramCardPool": {
+        "name": "ChampionPool",
+        "cardDataList": [
+          "AwokenChampionSentient",
+          "HornbreakerChampion",
+          "ChampionPenumbra",
+          "RemnantChampion",
+          "StygianChampionTethys",
+          "AwokenChampionRoot",
+          "ImpQueenChampion",
+          "ChampionPrimordium",
+          "RemnantFirstWaxerChampion",
+          "StygianChampionMartyr",
+          "WurmChamp1",
+          "WurmChamp2"
+        ]
+      },
+      "paramRandomChampionPool": {
+        "name": "RandomChampionPool",
+        "championInfoList": [
+          {
+            "championCard": "HornbreakerChampion",
+            "upgrades": [
+              "HornbreakerAttackOnKill3"
+            ]
+          },
+          {
+            "championCard": "HornbreakerChampion",
+            "upgrades": [
+              "HornbreakerMultistrike3"
+            ]
+          },
+          {
+            "championCard": "HornbreakerChampion",
+            "upgrades": [
+              "HornbreakerRageful3"
+            ]
+          },
+          {
+            "championCard": "ImpQueenChampion",
+            "upgrades": [
+              "ShardtailSacrificeImps3"
+            ]
+          },
+          {
+            "championCard": "ImpQueenChampion",
+            "upgrades": [
+              "ShardtailGainImps3"
+            ]
+          },
+          {
+            "championCard": "ImpQueenChampion",
+            "upgrades": [
+              "ShardtailRallyBuff3"
+            ]
+          },
+          {
+            "championCard": "AwokenChampionSentient",
+            "upgrades": [
+              "SentientDamageOnHeal3"
+            ]
+          },
+          {
+            "championCard": "AwokenChampionSentient",
+            "upgrades": [
+              "SentientDrawOnRevenge3"
+            ]
+          },
+          {
+            "championCard": "AwokenChampionSentient",
+            "upgrades": [
+              "SentientSpikes3"
+            ]
+          },
+          {
+            "championCard": "AwokenChampionRoot",
+            "upgrades": [
+              "WyldentenQuickAndDamage3"
+            ]
+          },
+          {
+            "championCard": "AwokenChampionRoot",
+            "upgrades": [
+              "WyldentenRootOnStrike3"
+            ]
+          },
+          {
+            "championCard": "AwokenChampionRoot",
+            "upgrades": [
+              "WyldentenSlayForSting3"
+            ]
+          },
+          {
+            "championCard": "StygianChampionTethys",
+            "upgrades": [
+              "TethysFrostbiteOnStrike3"
+            ]
+          },
+          {
+            "championCard": "StygianChampionTethys",
+            "upgrades": [
+              "TethysReduceSpellCost3"
+            ]
+          },
+          {
+            "championCard": "StygianChampionTethys",
+            "upgrades": [
+              "TethysSpellWeaknessOnStrike3"
+            ]
+          },
+          {
+            "championCard": "StygianChampionMartyr",
+            "upgrades": [
+              "SolgardRevengeDamagePerBlessing3"
+            ]
+          },
+          {
+            "championCard": "StygianChampionMartyr",
+            "upgrades": [
+              "SolgardStasisGoodStats3"
+            ]
+          },
+          {
+            "championCard": "StygianChampionMartyr",
+            "upgrades": [
+              "SolgardStrikeFrostbitePerBlessing3"
+            ]
+          },
+          {
+            "championCard": "ChampionPenumbra",
+            "upgrades": [
+              "PenumbraCapacityOnKill3"
+            ]
+          },
+          {
+            "championCard": "ChampionPenumbra",
+            "upgrades": [
+              "PenumbraIncreaseStatsCapacity3"
+            ]
+          },
+          {
+            "championCard": "ChampionPenumbra",
+            "upgrades": [
+              "PenumbraStatsOnEat3"
+            ]
+          },
+          {
+            "championCard": "ChampionPrimordium",
+            "upgrades": [
+              "PrimordiumAttackStat3"
+            ]
+          },
+          {
+            "championCard": "ChampionPrimordium",
+            "upgrades": [
+              "PrimordiumEatMany3"
+            ]
+          },
+          {
+            "championCard": "ChampionPrimordium",
+            "upgrades": [
+              "PrimordiumStatusEffects3"
+            ]
+          },
+          {
+            "championCard": "RemnantChampion",
+            "upgrades": [
+              "FlickerAddBurnoutToSelf3"
+            ]
+          },
+          {
+            "championCard": "RemnantChampion",
+            "upgrades": [
+              "FlickerHealOnHarvest3"
+            ]
+          },
+          {
+            "championCard": "RemnantChampion",
+            "upgrades": [
+              "FlickerRaiseOnSlay3"
+            ]
+          },
+          {
+            "championCard": "RemnantFirstWaxerChampion",
+            "upgrades": [
+              "LittleFadeBuffFriendlyOnDeath3"
+            ]
+          },
+          {
+            "championCard": "RemnantFirstWaxerChampion",
+            "upgrades": [
+              "LittleFadeIncreaseCostOnDeath3"
+            ]
+          },
+          {
+            "championCard": "RemnantFirstWaxerChampion",
+            "upgrades": [
+              "LittleFadePermanentSpikes3"
+            ]
+          },
+          {
+            "championCard": "WurmChamp1",
+            "upgrades": [
+              "Wurm1DamagePerCorruption3"
+            ]
+          },
+          {
+            "championCard": "WurmChamp1",
+            "upgrades": [
+              "Wurm1ShardbiteOnCorruption3"
+            ]
+          },
+          {
+            "championCard": "WurmChamp1",
+            "upgrades": [
+              "Wurm1StrikeAddCorruption3"
+            ]
+          },
+          {
+            "championCard": "WurmChamp2",
+            "upgrades": [
+              "Wurm2ArmorOnResolve3"
+            ]
+          },
+          {
+            "championCard": "WurmChamp2",
+            "upgrades": [
+              "Wurm2ReturnConsumedSlay3"
+            ]
+          },
+          {
+            "championCard": "WurmChamp2",
+            "upgrades": [
+              "Wurm2Summoner3"
+            ]
+          }
+        ]
+      },
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    }
+  ],
+  "rarity": 2,
+  "linkedClass": null,
+  "unlockLevel": 0,
+  "fromStoryEvent": true,
+  "isBossGivenRelic": false,
+  "ignoreForNoRelicAchievement": false,
+  "requiredDLC": 1,
+  "name": "Blank Pages"
+}

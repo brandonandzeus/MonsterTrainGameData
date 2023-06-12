@@ -1,0 +1,113 @@
+{
+  "m_Name": "StarterWurmRelic",
+  "id": "815a25e7-2fed-4cb2-a568-79af12cd7116",
+  "nameKey": "CollectableRelicData_nameKey-03d1d0ff1343b1e2-999145cdc28aaa54d971e1c6d2529260-v2",
+  "descriptionKey": "CollectableRelicData_descriptionKey-a234806538ccba14-999145cdc28aaa54d971e1c6d2529260-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+    "CollectableRelicData_data-67a622cd26e1f3cf-999145cdc28aaa54d971e1c6d2529260-v2"
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 2194
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectNull",
+      "paramSourceTeam": 0,
+      "paramInt": 0,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 0,
+      "paramRoomData": null,
+      "paramCardType": 0,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+        {
+          "titleKey": "CardTraitCorruptState_CardText",
+          "descriptionKey": "CardTraitCorruptState_TooltipText",
+          "style": 8,
+          "isStatusTooltip": false,
+          "statusId": "",
+          "isTriggerTooltip": false,
+          "trigger": 0,
+          "isTipTooltip": false
+        }
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    }
+  ],
+  "rarity": 4,
+  "linkedClass": "ClassWurm",
+  "unlockLevel": 0,
+  "fromStoryEvent": false,
+  "isBossGivenRelic": false,
+  "ignoreForNoRelicAchievement": true,
+  "requiredDLC": 1,
+  "name": "Wurmtooth"
+}

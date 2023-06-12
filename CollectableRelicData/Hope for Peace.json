@@ -1,0 +1,180 @@
+{
+  "m_Name": "PurgeToExhaust",
+  "id": "10648aee-8577-49b6-8659-318a7f922d5a",
+  "nameKey": "CollectableRelicData_nameKey-c46d571f7b032b07-7cac186c2ff40d3489b8f615058c9bbc-v2",
+  "descriptionKey": "CollectableRelicData_descriptionKey-8e4712c615f458fe-7cac186c2ff40d3489b8f615058c9bbc-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+    "CollectableRelicData_data-53f8ffdaec4fff1f-7cac186c2ff40d3489b8f615058c9bbc-v2"
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 2246
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectModifyTrait",
+      "paramSourceTeam": 2,
+      "paramInt": 0,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 2,
+      "paramRoomData": null,
+      "paramCardType": 0,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": {
+        "m_Name": "OnlySpells",
+        "cardType": 0,
+        "excludeNonAttackingMonsters": false,
+        "requiredSubtypesOperator": 0,
+        "requiredSubtypes": [
+
+        ],
+        "excludedSubtypesOperator": 0,
+        "excludedSubtypes": [
+
+        ],
+        "requiredStatusEffectsOperator": 0,
+        "requiredStatusEffects": [
+
+        ],
+        "excludedStatusEffectsOperator": 0,
+        "excludedStatusEffects": [
+
+        ],
+        "requiredCardTraitsOperator": 0,
+        "requiredCardTraits": [
+
+        ],
+        "excludedCardTraitsOperator": 0,
+        "excludedCardTraits": [
+
+        ],
+        "requiredCardEffectsOperator": 0,
+        "requiredCardEffects": [
+
+        ],
+        "excludedCardEffectsOperator": 0,
+        "excludedCardEffects": [
+
+        ],
+        "allowedCardPools": [
+
+        ],
+        "disallowedCardPools": [
+
+        ],
+        "requiredSizes": [
+
+        ],
+        "excludedSizes": [
+
+        ],
+        "costRange": {
+          "x": 0.0,
+          "y": 99.0
+        },
+        "requireXCost": false,
+        "excludeXCost": false,
+        "cardTargetMode": 0,
+        "upgradeDisabledReason": 0,
+        "excludeIfUnitSynthesized": false
+      },
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+        {
+          "titleKey": "CardTraitSelfPurge_CardText",
+          "descriptionKey": "CardTraitSelfPurge_TooltipText",
+          "style": 8,
+          "isStatusTooltip": false,
+          "statusId": "",
+          "isTriggerTooltip": false,
+          "trigger": 0,
+          "isTipTooltip": false
+        },
+        {
+          "titleKey": "CardTraitExhaustState_CardText",
+          "descriptionKey": "CardTraitExhaustState_TooltipText",
+          "style": 8,
+          "isStatusTooltip": false,
+          "statusId": "",
+          "isTriggerTooltip": false,
+          "trigger": 0,
+          "isTipTooltip": false
+        }
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "CardTraitSelfPurge",
+      "targetCardTraitParam": "CardTraitExhaustState",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    }
+  ],
+  "rarity": 2,
+  "linkedClass": null,
+  "unlockLevel": 0,
+  "fromStoryEvent": true,
+  "isBossGivenRelic": false,
+  "ignoreForNoRelicAchievement": false,
+  "requiredDLC": 0,
+  "name": "Hope for Peace"
+}
