@@ -1,0 +1,65 @@
+{
+  "m_Name": "ScourgeT1",
+  "id": "62cc5532-5fa0-4e66-9fec-85be573af359",
+  "nameKey": "CardData_nameKey-669128f872818ce3-bfcf39e8a42ed4c47824291fb3df5d17-v2",
+  "cost": 1,
+  "costType": 0,
+  "overrideDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "cardType": 6,
+  "targetsRoom": true,
+  "targetless": true,
+  "cardArtPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/cards/Portrait_Prefabs/CardArt_Spell_SinnersBurden.prefab",
+    "m_AssetGUID": "4986e2280b9bab74bbca224e7e860c91"
+  },
+  "rarity": 0,
+  "requiredDLC": 0,
+  "traits": [
+    {
+      "traitStateName": "CardTraitSelfPurge",
+      "paramTrackedValue": 0,
+      "paramCardType": 0,
+      "paramEntryDuration": 0,
+      "paramStr": "",
+      "paramInt": 0,
+      "paramFloat": 0.0,
+      "paramSubtype": "SubtypesData_None",
+      "paramUseScalingParams": false,
+      "traitIsRemovable": true,
+      "paramCardData": null,
+      "paramCardUpgradeData": null,
+      "paramStatusEffects": [
+
+      ],
+      "paramTeamType": 1,
+      "stackMode": 0
+    }
+  ],
+  "effects": [
+
+  ],
+  "effectTriggers": [
+
+  ],
+  "triggers": [
+
+  ],
+  "startingUpgrades": [
+
+  ],
+  "linkedClass": null,
+  "unlockLevel": 0,
+  "sharedDiscoveryCards": [
+
+  ],
+  "linkedMasteryCard": null,
+  "sharedMasteryCards": [
+
+  ],
+  "ignoreWhenCountingMastery": false,
+  "cardLoreTooltipKeys": [
+    "CardData_data-bd6c43f1abfb5836-bfcf39e8a42ed4c47824291fb3df5d17-v2"
+  ],
+  "initialKeyboardTarget": 1,
+  "name": "Sinner's Burden"
+}
