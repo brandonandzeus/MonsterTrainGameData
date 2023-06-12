@@ -1,0 +1,121 @@
+{
+  "m_Name": "Ascension10TopFloorEmberdrain",
+  "id": "bd5841ce-ead5-4d95-ba0c-a4a220b6d245",
+  "nameKey": "CovenantData_nameKey-3fc8f01ae84e0df4-c72b71b28e4f9f645aca4305bfc9956c-v2",
+  "descriptionKey": "CovenantData_descriptionKey-48dc716a29e058cc-c72b71b28e4f9f645aca4305bfc9956c-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawnCov10Hack",
+      "paramSourceTeam": 2,
+      "paramInt": 2,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "OnlyFromCard",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": true,
+      "paramStatusEffects": [
+        {
+          "statusId": "scorch",
+          "count": 1
+        }
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 2,
+      "paramTargetMode": 0,
+      "paramRoomData": null,
+      "paramCardType": 0,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+        {
+          "paramTrackedValue": 32,
+          "paramCardType": 0,
+          "paramTrackTriggerCount": false,
+          "paramEntryDuration": 0,
+          "paramComparator": 4,
+          "paramInt": 0,
+          "allowMultipleTriggersPerDuration": false,
+          "paramSubtype": "SubtypesData_None"
+        }
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    }
+  ],
+  "unlockLevel": 0,
+  "sliceSprite": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "textColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "ascensionLevel": 10,
+  "hellforgedDescriptionKey": "Covenant10_Description_Hellforged"
+}

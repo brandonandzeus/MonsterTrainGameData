@@ -1,0 +1,32 @@
+{
+  "m_Name": "Ascension03MajorBattlesNewEnemies",
+  "id": "cd0cccc6-70d7-4012-8bd4-72f32ee0a444",
+  "nameKey": "CovenantData_nameKey-e4b07135686c25ab-f49e277067e7b914fb3d1a481a8e9e37-v2",
+  "descriptionKey": "CovenantData_descriptionKey-2d6858c706538769-f49e277067e7b914fb3d1a481a8e9e37-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "divineVariant": false,
+  "effects": [
+
+  ],
+  "unlockLevel": 0,
+  "sliceSprite": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "textColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "ascensionLevel": 3,
+  "hellforgedDescriptionKey": ""
+}
