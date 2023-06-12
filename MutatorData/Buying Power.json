@@ -1,0 +1,26 @@
+{
+  "m_Name": "PurchaseDupes",
+  "id": "15413d8d-0e7b-44c8-9721-9f8ff53a8063",
+  "nameKey": "MutatorData_nameKey-ceab7df69ced0910-21a58ed8ed4c40b459e27bf41dec5eb9-v2",
+  "descriptionKey": "MutatorData_descriptionKey-2b0acace8a407878-21a58ed8ed4c40b459e27bf41dec5eb9-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 2449
+  },
+  "divineVariant": false,
+  "effects": [
+
+  ],
+  "boonValue": 6,
+  "disableInDailyChallenges": false,
+  "requiredDLC": 0,
+  "tags": [
+    "merchantsdupe"
+  ],
+  "name": "Buying Power"
+}

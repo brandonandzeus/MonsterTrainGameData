@@ -1,0 +1,113 @@
+{
+  "m_Name": "DoubleUnits",
+  "id": "559f443d-bbeb-40fc-aa86-772ef4c2c2dc",
+  "nameKey": "MutatorData_nameKey-8a648e6ac2ec11a2-9b4a202c23f142f45abeec79c4564382-v2",
+  "descriptionKey": "MutatorData_descriptionKey-56a049e9cc7401f8-9b4a202c23f142f45abeec79c4564382-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 1988
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectExtraSpawnsFirstUnitPerTurn",
+      "paramSourceTeam": 2,
+      "paramInt": 1,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 2,
+      "paramRoomData": null,
+      "paramCardType": 0,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+        {
+          "paramTrackedValue": 0,
+          "paramCardType": 0,
+          "paramTrackTriggerCount": true,
+          "paramEntryDuration": 0,
+          "paramComparator": 6,
+          "paramInt": 1,
+          "allowMultipleTriggersPerDuration": false,
+          "paramSubtype": "SubtypesData_None"
+        }
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    }
+  ],
+  "boonValue": 10,
+  "disableInDailyChallenges": false,
+  "requiredDLC": 0,
+  "tags": [
+    "doublespawn",
+    "firstsummon"
+  ],
+  "name": "Seeing Double"
+}

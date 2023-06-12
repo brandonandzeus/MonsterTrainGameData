@@ -1,0 +1,288 @@
+{
+  "m_Name": "AdditionalStartingCards",
+  "id": "50234273-58a2-48dd-8e99-b8fdecb3828f",
+  "nameKey": "MutatorData_nameKey-f3dcca962431d8f9-470b67d013ac1d146ac8076f076e016a-v2",
+  "descriptionKey": "MutatorData_descriptionKey-76111621a994bb56-470b67d013ac1d146ac8076f076e016a-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 2199
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectAddCardSetStartOfRun",
+      "paramSourceTeam": 0,
+      "paramInt": 0,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": true,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 0,
+      "paramRoomData": null,
+      "paramCardType": 0,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": {
+        "m_Name": "AdditionalStartingCards",
+        "paramCardPulls": [
+          {
+            "m_Name": "MainClassCommon1X",
+            "cardPool": {
+              "name": "MegaPool",
+              "cardDataList": [
+                "..."
+              ]
+            },
+            "classType": 1,
+            "numCopies": 1,
+            "hasRarityCondition": true,
+            "cardRarity": 0,
+            "showcaseAtRunStart": true,
+            "name": "MainClassCommon1X"
+          },
+          {
+            "m_Name": "MainClassCommon1X",
+            "cardPool": {
+              "name": "MegaPool",
+              "cardDataList": [
+                "..."
+              ]
+            },
+            "classType": 1,
+            "numCopies": 1,
+            "hasRarityCondition": true,
+            "cardRarity": 0,
+            "showcaseAtRunStart": true,
+            "name": "MainClassCommon1X"
+          },
+          {
+            "m_Name": "MainClassCommon1X",
+            "cardPool": {
+              "name": "MegaPool",
+              "cardDataList": [
+                "..."
+              ]
+            },
+            "classType": 1,
+            "numCopies": 1,
+            "hasRarityCondition": true,
+            "cardRarity": 0,
+            "showcaseAtRunStart": true,
+            "name": "MainClassCommon1X"
+          },
+          {
+            "m_Name": "MainClassUncommon1X",
+            "cardPool": {
+              "name": "MegaPool",
+              "cardDataList": [
+                "..."
+              ]
+            },
+            "classType": 1,
+            "numCopies": 1,
+            "hasRarityCondition": true,
+            "cardRarity": 1,
+            "showcaseAtRunStart": true,
+            "name": "MainClassUncommon1X"
+          },
+          {
+            "m_Name": "MainClassUncommon1X",
+            "cardPool": {
+              "name": "MegaPool",
+              "cardDataList": [
+                "..."
+              ]
+            },
+            "classType": 1,
+            "numCopies": 1,
+            "hasRarityCondition": true,
+            "cardRarity": 1,
+            "showcaseAtRunStart": true,
+            "name": "MainClassUncommon1X"
+          },
+          {
+            "m_Name": "MainClassRare1X",
+            "cardPool": {
+              "name": "MegaPool",
+              "cardDataList": [
+                "..."
+              ]
+            },
+            "classType": 1,
+            "numCopies": 1,
+            "hasRarityCondition": true,
+            "cardRarity": 2,
+            "showcaseAtRunStart": true,
+            "name": "MainClassRare1X"
+          },
+          {
+            "m_Name": "SubClassCommon1X",
+            "cardPool": {
+              "name": "MegaPool",
+              "cardDataList": [
+                "..."
+              ]
+            },
+            "classType": 2,
+            "numCopies": 1,
+            "hasRarityCondition": true,
+            "cardRarity": 0,
+            "showcaseAtRunStart": true,
+            "name": "SubClassCommon1X"
+          },
+          {
+            "m_Name": "SubClassCommon1X",
+            "cardPool": {
+              "name": "MegaPool",
+              "cardDataList": [
+                "..."
+              ]
+            },
+            "classType": 2,
+            "numCopies": 1,
+            "hasRarityCondition": true,
+            "cardRarity": 0,
+            "showcaseAtRunStart": true,
+            "name": "SubClassCommon1X"
+          },
+          {
+            "m_Name": "SubClassCommon1X",
+            "cardPool": {
+              "name": "MegaPool",
+              "cardDataList": [
+                "..."
+              ]
+            },
+            "classType": 2,
+            "numCopies": 1,
+            "hasRarityCondition": true,
+            "cardRarity": 0,
+            "showcaseAtRunStart": true,
+            "name": "SubClassCommon1X"
+          },
+          {
+            "m_Name": "SubClassUncommon1X",
+            "cardPool": {
+              "name": "MegaPool",
+              "cardDataList": [
+                "..."
+              ]
+            },
+            "classType": 2,
+            "numCopies": 1,
+            "hasRarityCondition": true,
+            "cardRarity": 1,
+            "showcaseAtRunStart": true,
+            "name": "SubClassUncommon1X"
+          },
+          {
+            "m_Name": "SubClassUncommon1X",
+            "cardPool": {
+              "name": "MegaPool",
+              "cardDataList": [
+                "..."
+              ]
+            },
+            "classType": 2,
+            "numCopies": 1,
+            "hasRarityCondition": true,
+            "cardRarity": 1,
+            "showcaseAtRunStart": true,
+            "name": "SubClassUncommon1X"
+          },
+          {
+            "m_Name": "SubClassRare1X",
+            "cardPool": {
+              "name": "MegaPool",
+              "cardDataList": [
+                "..."
+              ]
+            },
+            "classType": 2,
+            "numCopies": 1,
+            "hasRarityCondition": true,
+            "cardRarity": 2,
+            "showcaseAtRunStart": true,
+            "name": "SubClassRare1X"
+          }
+        ],
+        "name": "AdditionalStartingCards"
+      },
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    }
+  ],
+  "boonValue": 2,
+  "disableInDailyChallenges": false,
+  "requiredDLC": 0,
+  "tags": [
+
+  ],
+  "name": "Come Prepared"
+}
