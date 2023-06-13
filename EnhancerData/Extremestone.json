@@ -1,0 +1,274 @@
+{
+  "m_Name": "SpellMagicPowerHuge",
+  "id": "84e3a785-d463-4f9e-a415-67b90fefd9aa",
+  "nameKey": "EnhancerData_nameKey-4d306607feaafe5f-1cfe4565e1340f743a609fc0788caf31-v2",
+  "descriptionKey": "EnhancerData_descriptionKey-a0577a8863838cfa-1cfe4565e1340f743a609fc0788caf31-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 2222
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": 0,
+      "paramInt": 1,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 2,
+      "paramRoomData": null,
+      "paramCardType": 0,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+        {
+          "titleKey": "CardTraitMagicPower_TooltipTitle",
+          "descriptionKey": "CardTraitMagicPower_TooltipText",
+          "style": 8,
+          "isStatusTooltip": false,
+          "statusId": "",
+          "isTriggerTooltip": false,
+          "trigger": 0,
+          "isTipTooltip": false
+        }
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": {
+        "m_Name": "MagicPowerHuge",
+        "id": "d70861ce-5fba-408f-b005-248774ce233f",
+        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-da4fbfc2583fc85c-d5c1a432c90e2de4c8746cd0a727f927-v2",
+        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-a77e2ce983dfe575-d5c1a432c90e2de4c8746cd0a727f927-v2",
+        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeIcon": {
+          "m_FileID": 0,
+          "m_PathID": 2222
+        },
+        "hideUpgradeIconOnCard": false,
+        "useUpgradeHighlightTextTags": true,
+        "isUnitSynthesisUpgrade": false,
+        "isUnique": false,
+        "sourceSynthesisUnit": null,
+        "linkedPactDuplicateRarity": 1,
+        "bonusDamage": 30,
+        "bonusHP": 0,
+        "costReduction": 0,
+        "xCostReduction": 0,
+        "bonusHeal": 30,
+        "bonusSize": 0,
+        "statusEffectUpgrades": [
+
+        ],
+        "traitDataUpgrades": [
+
+        ],
+        "removeTraitUpgrades": [
+
+        ],
+        "triggerUpgrades": [
+
+        ],
+        "cardTriggerUpgrades": [
+
+        ],
+        "roomModifierUpgrades": [
+
+        ],
+        "filters": [
+          {
+            "m_Name": "MagicPowerSpells",
+            "cardType": 0,
+            "excludeNonAttackingMonsters": false,
+            "requiredSubtypesOperator": 0,
+            "requiredSubtypes": [
+
+            ],
+            "excludedSubtypesOperator": 0,
+            "excludedSubtypes": [
+
+            ],
+            "requiredStatusEffectsOperator": 0,
+            "requiredStatusEffects": [
+
+            ],
+            "excludedStatusEffectsOperator": 0,
+            "excludedStatusEffects": [
+
+            ],
+            "requiredCardTraitsOperator": 0,
+            "requiredCardTraits": [
+
+            ],
+            "excludedCardTraitsOperator": 0,
+            "excludedCardTraits": [
+
+            ],
+            "requiredCardEffectsOperator": 1,
+            "requiredCardEffects": [
+              "CardEffectDamage",
+              "CardEffectHeal",
+              "CardEffectHealAndDamageRelative"
+            ],
+            "excludedCardEffectsOperator": 0,
+            "excludedCardEffects": [
+
+            ],
+            "allowedCardPools": [
+
+            ],
+            "disallowedCardPools": [
+
+            ],
+            "requiredSizes": [
+
+            ],
+            "excludedSizes": [
+
+            ],
+            "costRange": {
+              "x": 0.0,
+              "y": 99.0
+            },
+            "requireXCost": false,
+            "excludeXCost": false,
+            "cardTargetMode": 0,
+            "upgradeDisabledReason": 0,
+            "excludeIfUnitSynthesized": false
+          },
+          {
+            "m_Name": "ExcludedSpellsFromMagicPower",
+            "cardType": 4,
+            "excludeNonAttackingMonsters": false,
+            "requiredSubtypesOperator": 0,
+            "requiredSubtypes": [
+
+            ],
+            "excludedSubtypesOperator": 0,
+            "excludedSubtypes": [
+
+            ],
+            "requiredStatusEffectsOperator": 0,
+            "requiredStatusEffects": [
+
+            ],
+            "excludedStatusEffectsOperator": 0,
+            "excludedStatusEffects": [
+
+            ],
+            "requiredCardTraitsOperator": 0,
+            "requiredCardTraits": [
+
+            ],
+            "excludedCardTraitsOperator": 0,
+            "excludedCardTraits": [
+
+            ],
+            "requiredCardEffectsOperator": 0,
+            "requiredCardEffects": [
+
+            ],
+            "excludedCardEffectsOperator": 0,
+            "excludedCardEffects": [
+
+            ],
+            "allowedCardPools": [
+
+            ],
+            "disallowedCardPools": [
+              "UnleashTheWildwoodOnlyPool",
+              "AdaptiveMutationOnlyPool"
+            ],
+            "requiredSizes": [
+
+            ],
+            "excludedSizes": [
+
+            ],
+            "costRange": {
+              "x": 0.0,
+              "y": 99.0
+            },
+            "requireXCost": false,
+            "excludeXCost": false,
+            "cardTargetMode": 0,
+            "upgradeDisabledReason": 0,
+            "excludeIfUnitSynthesized": false
+          }
+        ],
+        "upgradesToRemove": [
+
+        ]
+      }
+    }
+  ],
+  "rarity": 1,
+  "linkedClass": null,
+  "unlockLevel": 0,
+  "numCardsToShowInUpgradeScreen": 0,
+  "name": "Extremestone"
+}

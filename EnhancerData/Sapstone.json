@@ -1,0 +1,235 @@
+{
+  "m_Name": "EnemyRecruit_Sap",
+  "id": "aad701f2-c210-4354-a985-c84576eb48cb",
+  "nameKey": "EnhancerData_nameKey-db3da3fe88721017-9b5b0563adb2d40458c40c3ecc83a4b3-v2",
+  "descriptionKey": "EnhancerData_descriptionKey-a06837bfeab7edb5-9b5b0563adb2d40458c40c3ecc83a4b3-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 1949
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": 0,
+      "paramInt": 0,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 2,
+      "paramRoomData": null,
+      "paramCardType": 1,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": {
+        "m_Name": "EnemyRecruit_Sap",
+        "id": "c6d74041-efd4-4c02-876c-7461dfdbf230",
+        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-3c72c237c2236894-dccc3b1b5c056df438a012f00d554b68-v2",
+        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-f9dba10b972aaae5-dccc3b1b5c056df438a012f00d554b68-v2",
+        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeIcon": {
+          "m_FileID": 0,
+          "m_PathID": 1949
+        },
+        "hideUpgradeIconOnCard": false,
+        "useUpgradeHighlightTextTags": true,
+        "isUnitSynthesisUpgrade": false,
+        "isUnique": false,
+        "sourceSynthesisUnit": null,
+        "linkedPactDuplicateRarity": 4,
+        "bonusDamage": 0,
+        "bonusHP": 0,
+        "costReduction": 0,
+        "xCostReduction": 0,
+        "bonusHeal": 0,
+        "bonusSize": 0,
+        "statusEffectUpgrades": [
+
+        ],
+        "traitDataUpgrades": [
+
+        ],
+        "removeTraitUpgrades": [
+
+        ],
+        "triggerUpgrades": [
+          {
+            "trigger": 2,
+            "descriptionKey": "CardUpgradeData_descriptionKey-237ad9b23c32ceec-dccc3b1b5c056df438a012f00d554b68-v2",
+            "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "displayEffectHintText": false,
+            "hideTriggerTooltip": false,
+            "effects": [
+              {
+                "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": 0,
+                "targetModeStatusEffectsFilter": [
+
+                ],
+                "targetModeHealthFilter": 0,
+                "targetIgnoreBosses": false,
+                "filterBasedOnMainSubClass": false,
+                "copyModifiersFromSource": false,
+                "ignoreTemporaryModifiersFromSource": false,
+                "targetTeamType": 1,
+                "targetCharacterSubtype": "SubtypesData_None",
+                "targetCardType": 0,
+                "targetCardSelectionMode": 0,
+                "animToPlay": 0,
+                "appliedToSelfVFX": {
+                  "vfxPrefabLeft": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "vfxPrefabRight": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "spawnLocation": 0,
+                  "facing": 0
+                },
+                "appliedVFX": {
+                  "vfxPrefabLeft": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "vfxPrefabRight": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "spawnLocation": 0,
+                  "facing": 0
+                },
+                "shouldTest": true,
+                "useIntRange": false,
+                "paramInt": 100,
+                "additionalParamInt": 0,
+                "paramStr": "",
+                "paramBool": false,
+                "paramSubtype": "SubtypesData_None",
+                "paramMinInt": 0,
+                "paramMaxInt": 0,
+                "paramMultiplier": 0.0,
+                "useStatusEffectStackMultiplier": false,
+                "statusEffectStackMultiplier": "",
+                "paramCharacterData": null,
+                "paramAdditionalCharacterData": null,
+                "paramCharacterDataPool": [
+
+                ],
+                "paramRoomData": null,
+                "paramCardPool": [
+
+                ],
+                "paramCardFilter": null,
+                "paramTrigger": 0,
+                "paramStatusEffects": [
+                  {
+                    "statusId": "debuff",
+                    "count": 4
+                  }
+                ],
+                "paramCardUpgradeData": null,
+                "paramTimingDelays": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "hideTooltip": false,
+                "additionalTooltips": [
+
+                ]
+              }
+            ]
+          }
+        ],
+        "cardTriggerUpgrades": [
+
+        ],
+        "roomModifierUpgrades": [
+
+        ],
+        "filters": [
+
+        ],
+        "upgradesToRemove": [
+
+        ]
+      }
+    }
+  ],
+  "rarity": 2,
+  "linkedClass": null,
+  "unlockLevel": 0,
+  "numCardsToShowInUpgradeScreen": -1,
+  "name": "Sapstone"
+}
