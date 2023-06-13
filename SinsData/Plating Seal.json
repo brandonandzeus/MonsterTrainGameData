@@ -1,0 +1,100 @@
+{
+  "m_Name": "Enemy_ExplosivesGetDamageShield",
+  "id": "d319929e-3016-4dda-b956-06a4f19d316b",
+  "nameKey": "SinsData_nameKey-77d87891b0160895-014df95ca4518ef4b9fc7f2e62d6de82-v2",
+  "descriptionKey": "SinsData_descriptionKey-5db1d6ca77404ddf-014df95ca4518ef4b9fc7f2e62d6de82-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 2141
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": 1,
+      "paramInt": 0,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_ExplodingBarrel",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+        {
+          "statusId": "damage shield",
+          "count": 1
+        }
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 2,
+      "paramRoomData": null,
+      "paramCardType": 0,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    }
+  ],
+  "name": "Plating Seal"
+}

@@ -1,0 +1,97 @@
+{
+  "m_Name": "Enemy_AdditionalHealthT3",
+  "id": "43e6ebdc-9f71-4f53-8225-26bd6fc06387",
+  "nameKey": "SinsData_nameKey-609c965414b13178-f5ae9ef7e6ceada4f8e3c50c09f59dfb-v2",
+  "descriptionKey": "SinsData_descriptionKey-ce4400628a64f636-f5ae9ef7e6ceada4f8e3c50c09f59dfb-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 2003
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
+      "paramSourceTeam": 1,
+      "paramInt": 10,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+        "SubtypesData_TreasureCollector"
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 2,
+      "paramTargetMode": 2,
+      "paramRoomData": null,
+      "paramCardType": 0,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    }
+  ],
+  "name": "Lifegiving Relic3"
+}

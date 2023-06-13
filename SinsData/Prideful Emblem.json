@@ -1,0 +1,100 @@
+{
+  "m_Name": "Enemy_SeraphSap",
+  "id": "4edd8aba-e5a2-4c97-8abe-7ff534174a8f",
+  "nameKey": "SinsData_nameKey-caa58e9ef6c68953-ce84397f90406a54096b63d32bc71829-v2",
+  "descriptionKey": "SinsData_descriptionKey-1860714becbf6a1d-ce84397f90406a54096b63d32bc71829-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 2292
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": 2,
+      "paramInt": 0,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+        {
+          "statusId": "debuff",
+          "count": 3
+        }
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 2,
+      "paramRoomData": null,
+      "paramCardType": 1,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "CardTraitExhaustState",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    }
+  ],
+  "name": "Prideful Emblem"
+}

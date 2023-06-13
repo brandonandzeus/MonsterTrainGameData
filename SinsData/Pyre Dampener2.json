@@ -1,0 +1,97 @@
+{
+  "m_Name": "Enemy_LowerEmberT3",
+  "id": "2a156d6d-b563-426f-a270-393aea9e5966",
+  "nameKey": "SinsData_nameKey-501e8aff5c871f8b-6355a9ddd2db3bb40938c1ff2345d0bf-v2",
+  "descriptionKey": "SinsData_descriptionKey-f7a1d9fc4c84448a-6355a9ddd2db3bb40938c1ff2345d0bf-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 2030
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectModifyEnergy",
+      "paramSourceTeam": 2,
+      "paramInt": -1,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 2,
+      "paramRoomData": null,
+      "paramCardType": 0,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    }
+  ],
+  "name": "Pyre Dampener2"
+}

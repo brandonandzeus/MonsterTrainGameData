@@ -1,0 +1,253 @@
+{
+  "m_Name": "Enemy_SpawnBigHPRootedOnDeathJunk",
+  "id": "b6517e15-5735-4191-81f5-6930ca370670",
+  "nameKey": "SinsData_nameKey-6ee93c477b401fef-47285db72591dd64a9ca45a66abe6843-v2",
+  "descriptionKey": "SinsData_descriptionKey-4842bfa5e2ca772f-47285db72591dd64a9ca45a66abe6843-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 2107
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
+      "paramSourceTeam": 1,
+      "paramInt": 2,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 2,
+      "paramRoomData": null,
+      "paramCardType": 0,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+        "AlabasterGuardian"
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    },
+    {
+      "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
+      "paramSourceTeam": 1,
+      "paramInt": 1,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 2,
+      "paramRoomData": null,
+      "paramCardType": 0,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+        "AlabasterGuardian"
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    },
+    {
+      "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
+      "paramSourceTeam": 1,
+      "paramInt": 0,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 2,
+      "paramRoomData": null,
+      "paramCardType": 0,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+        "AlabasterGuardian"
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": null
+    }
+  ],
+  "name": "Scouring Crest"
+}

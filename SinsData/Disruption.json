@@ -1,0 +1,206 @@
+{
+  "m_Name": "Enemy_FriendlyUnitsAreDazed",
+  "id": "46386b05-7003-40b2-a1d8-67de479f28bc",
+  "nameKey": "SinsData_nameKey-a7af3e24fd3cef8f-cd96d86aa26b88c47b430b764a47dca6-v2",
+  "descriptionKey": "SinsData_descriptionKey-476386499ba198aa-cd96d86aa26b88c47b430b764a47dca6-v2",
+  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "relicLoreTooltipKeys": [
+
+  ],
+  "relicLoreTooltipStyle": 0,
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 2292
+  },
+  "divineVariant": false,
+  "effects": [
+    {
+      "relicEffectClassName": "RelicEffectAddTempUpgrade",
+      "paramSourceTeam": 2,
+      "paramInt": 0,
+      "paramFloat": 0.0,
+      "paramUseIntRange": false,
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramString": "",
+      "paramCharacterSubtype": "SubtypesData_None",
+      "paramExcludeCharacterSubtypes": [
+
+      ],
+      "paramSpecialCharacterType": 0,
+      "paramBool": false,
+      "paramStatusEffects": [
+        {
+          "statusId": "dazed",
+          "count": 1
+        }
+      ],
+      "paramCardEffects": [
+
+      ],
+      "paramTrigger": 0,
+      "paramTargetMode": 2,
+      "paramRoomData": null,
+      "paramCardType": 1,
+      "paramCardPool": [
+
+      ],
+      "paramRandomChampionPool": [
+
+      ],
+      "paramEnhancerPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramCardSetBuilder": null,
+      "paramRelic": null,
+      "paramReward": null,
+      "appliedVfx": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "additionalTooltips": [
+
+      ],
+      "triggerTooltipsSuppressed": false,
+      "paramCharacters": [
+
+      ],
+      "effectConditions": [
+
+      ],
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
+      "traits": [
+
+      ],
+      "excludedTraits": [
+
+      ],
+      "triggers": [
+
+      ],
+      "cardTriggers": [
+
+      ],
+      "paramCardUpgradeData": {
+        "m_Name": "Dazed",
+        "id": "aa354729-d0a0-4fd0-8027-648c38e43fa5",
+        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-23eee8f2830cdfcf-1acb49a230256014e9af1abde40c4446-v2",
+        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-d03f5e0ce5930226-1acb49a230256014e9af1abde40c4446-v2",
+        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeIcon": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "hideUpgradeIconOnCard": true,
+        "useUpgradeHighlightTextTags": true,
+        "isUnitSynthesisUpgrade": false,
+        "isUnique": false,
+        "sourceSynthesisUnit": null,
+        "linkedPactDuplicateRarity": 4,
+        "bonusDamage": 0,
+        "bonusHP": 0,
+        "costReduction": 0,
+        "xCostReduction": 0,
+        "bonusHeal": 0,
+        "bonusSize": 0,
+        "statusEffectUpgrades": [
+          {
+            "statusId": "dazed",
+            "count": 1
+          }
+        ],
+        "traitDataUpgrades": [
+
+        ],
+        "removeTraitUpgrades": [
+
+        ],
+        "triggerUpgrades": [
+
+        ],
+        "cardTriggerUpgrades": [
+
+        ],
+        "roomModifierUpgrades": [
+
+        ],
+        "filters": [
+          {
+            "m_Name": "OnlyUnit",
+            "cardType": 1,
+            "excludeNonAttackingMonsters": false,
+            "requiredSubtypesOperator": 0,
+            "requiredSubtypes": [
+
+            ],
+            "excludedSubtypesOperator": 0,
+            "excludedSubtypes": [
+
+            ],
+            "requiredStatusEffectsOperator": 0,
+            "requiredStatusEffects": [
+
+            ],
+            "excludedStatusEffectsOperator": 0,
+            "excludedStatusEffects": [
+
+            ],
+            "requiredCardTraitsOperator": 0,
+            "requiredCardTraits": [
+
+            ],
+            "excludedCardTraitsOperator": 0,
+            "excludedCardTraits": [
+
+            ],
+            "requiredCardEffectsOperator": 0,
+            "requiredCardEffects": [
+
+            ],
+            "excludedCardEffectsOperator": 0,
+            "excludedCardEffects": [
+
+            ],
+            "allowedCardPools": [
+
+            ],
+            "disallowedCardPools": [
+
+            ],
+            "requiredSizes": [
+
+            ],
+            "excludedSizes": [
+
+            ],
+            "costRange": {
+              "x": 0.0,
+              "y": 99.0
+            },
+            "requireXCost": false,
+            "excludeXCost": false,
+            "cardTargetMode": 0,
+            "upgradeDisabledReason": 0,
+            "excludeIfUnitSynthesized": false
+          }
+        ],
+        "upgradesToRemove": [
+
+        ]
+      }
+    }
+  ],
+  "name": "Disruption"
+}
