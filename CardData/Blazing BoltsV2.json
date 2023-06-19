@@ -1,16 +1,16 @@
 {
-  "m_Name": "AnnihilateRoomDamage1",
-  "id": "66189a7b-2593-4b08-aafd-f1bdae7e3c2a",
-  "nameKey": "CardData_nameKey-747284d4a37affbb-6dd1af3a07df90a449f88262ffff1a09-v2",
+  "m_Name": "AnnihilateRoomDamage2",
+  "id": "0130a4a0-2269-4003-97e1-58d1f5ce3bd8",
+  "nameKey": "CardData_nameKey-7f0498f0f5562222-0a834323f4800f8428a973cbcda158e9-v2",
   "cost": 3,
   "costType": 0,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-2935307a2f75f67b-6dd1af3a07df90a449f88262ffff1a09-v2",
+  "overrideDescriptionKey": "CardData_overrideDescriptionKey-9a4ff161b8564e1f-0a834323f4800f8428a973cbcda158e9-v2",
   "cardType": 0,
   "targetsRoom": true,
   "targetless": true,
   "cardArtPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_Spell_BlazingBoltsD1.prefab",
-    "m_AssetGUID": "301b4ebac52d1a84594c44e905995d9b"
+    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_Spell_BlazingBoltsD2.prefab",
+    "m_AssetGUID": "fa817684538cf9f4b9892bc9ae17a81d"
   },
   "rarity": 2,
   "requiredDLC": 0,
@@ -22,7 +22,7 @@
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 2,
+      "targetMode": 1,
       "targetModeStatusEffectsFilter": [
 
       ],
@@ -98,6 +98,83 @@
       ]
     },
     {
+      "effectStateName": "CardEffectDamage",
+      "targetMode": 1,
+      "targetModeStatusEffectsFilter": [
+
+      ],
+      "targetModeHealthFilter": 0,
+      "targetIgnoreBosses": false,
+      "filterBasedOnMainSubClass": false,
+      "copyModifiersFromSource": false,
+      "ignoreTemporaryModifiersFromSource": false,
+      "targetTeamType": 1,
+      "targetCharacterSubtype": "SubtypesData_None",
+      "targetCardType": 0,
+      "targetCardSelectionMode": 0,
+      "animToPlay": 0,
+      "appliedToSelfVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 0,
+        "facing": 0
+      },
+      "appliedVFX": {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 4442
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 4,
+        "facing": 0
+      },
+      "shouldTest": true,
+      "useIntRange": false,
+      "paramInt": 30,
+      "additionalParamInt": 0,
+      "paramStr": "",
+      "paramBool": false,
+      "paramSubtype": "SubtypesData_None",
+      "paramMinInt": 0,
+      "paramMaxInt": 0,
+      "paramMultiplier": 1.0,
+      "useStatusEffectStackMultiplier": false,
+      "statusEffectStackMultiplier": "",
+      "paramCharacterData": null,
+      "paramAdditionalCharacterData": null,
+      "paramCharacterDataPool": [
+
+      ],
+      "paramRoomData": null,
+      "paramCardPool": [
+
+      ],
+      "paramCardFilter": null,
+      "paramTrigger": 0,
+      "paramStatusEffects": [
+
+      ],
+      "paramCardUpgradeData": null,
+      "paramTimingDelays": {
+        "x": 0.1,
+        "y": 0.1,
+        "z": 0.1
+      },
+      "hideTooltip": false,
+      "additionalTooltips": [
+
+      ]
+    },
+    {
       "effectStateName": "CardEffectAddRunCard",
       "targetMode": 0,
       "targetModeStatusEffectsFilter": [
@@ -156,9 +233,9 @@
       ],
       "paramRoomData": null,
       "paramCardPool": {
-        "name": "Class5BlazingArrows2",
+        "name": "Class5BlazingArrows3",
         "cardDataList": [
-          "AnnihilateRoomDamage2"
+          "AnnihilateRoomDamage3"
         ]
       },
       "paramCardFilter": null,
@@ -168,9 +245,9 @@
       ],
       "paramCardUpgradeData": null,
       "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 0.1,
+        "y": 0.1,
+        "z": 0.1
       },
       "hideTooltip": false,
       "additionalTooltips": [
@@ -188,18 +265,18 @@
 
   ],
   "linkedClass": "ClassUmbra",
-  "unlockLevel": 8,
+  "unlockLevel": 0,
   "sharedDiscoveryCards": [
 
   ],
-  "linkedMasteryCard": null,
+  "linkedMasteryCard": "AnnihilateRoomDamage1",
   "sharedMasteryCards": [
 
   ],
   "ignoreWhenCountingMastery": false,
   "cardLoreTooltipKeys": [
-    "CardData_data-8bebb6a8b9d1314a-6dd1af3a07df90a449f88262ffff1a09-v2"
+    "CardData_data-015829b73c747021-0a834323f4800f8428a973cbcda158e9-v2"
   ],
   "initialKeyboardTarget": 1,
-  "name": "Blazing Bolts"
+  "name": "Blazing BoltsV2"
 }
