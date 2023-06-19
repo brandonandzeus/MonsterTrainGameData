@@ -60,23 +60,7 @@
       "stackMode": 0
     },
     {
-      "traitStateName": "CardTraitExhaustState",
-      "paramTrackedValue": 1,
-      "paramCardType": 0,
-      "paramEntryDuration": 2,
-      "paramStr": "",
-      "paramInt": 1,
-      "paramFloat": 1.0,
-      "paramSubtype": "SubtypesData_None",
-      "paramUseScalingParams": true,
-      "traitIsRemovable": true,
-      "paramCardData": null,
-      "paramCardUpgradeData": null,
-      "paramStatusEffects": [
-
-      ],
-      "paramTeamType": 1,
-      "stackMode": 0
+      "traitStateName": "CardTraitExhaustState"
     }
   ],
   "effects": [

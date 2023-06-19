@@ -88,7 +88,7 @@
       "paramSubtype": "SubtypesData_None",
       "paramMinInt": 0,
       "paramMaxInt": 0,
-      "paramMultiplier": 0.0,
+      "paramMultiplier": 1.0,
       "useStatusEffectStackMultiplier": false,
       "statusEffectStackMultiplier": "",
       "paramCharacterData": {
@@ -249,7 +249,7 @@
                 "paramSubtype": "SubtypesData_None",
                 "paramMinInt": 0,
                 "paramMaxInt": 0,
-                "paramMultiplier": 0.0,
+                "paramMultiplier": 1.0,
                 "useStatusEffectStackMultiplier": false,
                 "statusEffectStackMultiplier": "",
                 "paramCharacterData": null,

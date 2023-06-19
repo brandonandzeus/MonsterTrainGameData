@@ -22,7 +22,7 @@
       "paramEntryDuration": 0,
       "paramStr": "",
       "paramInt": 0,
-      "paramFloat": 0.0,
+      "paramFloat": 1.0,
       "paramSubtype": "SubtypesData_None",
       "paramUseScalingParams": false,
       "traitIsRemovable": true,
@@ -85,7 +85,7 @@
       "paramSubtype": "SubtypesData_None",
       "paramMinInt": 0,
       "paramMaxInt": 0,
-      "paramMultiplier": 0.0,
+      "paramMultiplier": 1.0,
       "useStatusEffectStackMultiplier": false,
       "statusEffectStackMultiplier": "",
       "paramCharacterData": {
@@ -249,7 +249,7 @@
                 "paramSubtype": "SubtypesData_None",
                 "paramMinInt": 0,
                 "paramMaxInt": 0,
-                "paramMultiplier": 0.0,
+                "paramMultiplier": 1.0,
                 "useStatusEffectStackMultiplier": false,
                 "statusEffectStackMultiplier": "",
                 "paramCharacterData": null,
@@ -338,7 +338,7 @@
                 "paramSubtype": "SubtypesData_None",
                 "paramMinInt": 0,
                 "paramMaxInt": 0,
-                "paramMultiplier": 0.0,
+                "paramMultiplier": 1.0,
                 "useStatusEffectStackMultiplier": false,
                 "statusEffectStackMultiplier": "",
                 "paramCharacterData": null,
@@ -418,7 +418,7 @@
                 "paramSubtype": "SubtypesData_None",
                 "paramMinInt": 0,
                 "paramMaxInt": 0,
-                "paramMultiplier": 0.0,
+                "paramMultiplier": 1.0,
                 "useStatusEffectStackMultiplier": false,
                 "statusEffectStackMultiplier": "",
                 "paramCharacterData": {
@@ -582,7 +582,7 @@
                           "paramSubtype": "SubtypesData_None",
                           "paramMinInt": 0,
                           "paramMaxInt": 0,
-                          "paramMultiplier": 0.0,
+                          "paramMultiplier": 1.0,
                           "useStatusEffectStackMultiplier": false,
                           "statusEffectStackMultiplier": "",
                           "paramCharacterData": null,
@@ -777,10 +777,7 @@
   "linkedClass": "ClassWurm",
   "unlockLevel": 4,
   "sharedDiscoveryCards": [
-    {
-      "m_FileID": 0,
-      "m_PathID": 16261
-    }
+    "BogWurmling"
   ],
   "linkedMasteryCard": null,
   "sharedMasteryCards": [
