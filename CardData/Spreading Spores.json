@@ -1,286 +1,55 @@
 {
-  "m_Name": "SpreadingSpores",
-  "id": "ce089ee2-6dcf-42b2-afbb-caea050fe87c",
   "nameKey": "CardData_nameKey-39141423231d15b5-4304897c778c4fc488b84d90b9a72b48-v2",
   "cost": 2,
-  "costType": 0,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-864c4859c3ebd110-4304897c778c4fc488b84d90b9a72b48-v2",
-  "cardType": 0,
-  "targetsRoom": true,
   "targetless": false,
-  "cardArtPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/Cards/Portrait_Prefabs/CardArt_Spell_SpreadingSpores.prefab",
-    "m_AssetGUID": "1a796f1f4ead6b34db3454411c896fbb"
-  },
   "rarity": 2,
-  "requiredDLC": 0,
-  "traits": [
-
-  ],
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
       "targetMode": 12,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
-      "copyModifiersFromSource": false,
-      "ignoreTemporaryModifiersFromSource": false,
       "targetTeamType": 3,
-      "targetCharacterSubtype": "SubtypesData_None",
-      "targetCardType": 0,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 3,
-        "facing": 0
-      },
-      "shouldTest": true,
-      "useIntRange": false,
-      "paramInt": 0,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
-      "paramCharacterData": null,
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
-      "paramCardPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramTrigger": 0,
       "paramStatusEffects": [
         {
           "statusId": "regen",
           "count": 2
         }
-      ],
-      "paramCardUpgradeData": null,
-      "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "hideTooltip": false,
-      "additionalTooltips": [
-
       ]
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",
       "targetMode": 22,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
-      "copyModifiersFromSource": false,
-      "ignoreTemporaryModifiersFromSource": false,
       "targetTeamType": 3,
-      "targetCharacterSubtype": "SubtypesData_None",
-      "targetCardType": 0,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 3,
-        "facing": 0
-      },
-      "shouldTest": true,
-      "useIntRange": false,
-      "paramInt": 0,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
-      "paramCharacterData": null,
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
-      "paramCardPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramTrigger": 0,
       "paramStatusEffects": [
         {
           "statusId": "spikes",
           "count": 2
         }
       ],
-      "paramCardUpgradeData": null,
       "paramTimingDelays": {
         "x": 0.2,
         "y": 0.2,
         "z": 0.2
-      },
-      "hideTooltip": false,
-      "additionalTooltips": [
-
-      ]
+      }
     },
     {
       "effectStateName": "CardEffectAddBattleCard",
-      "targetMode": 0,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
       "copyModifiersFromSource": true,
-      "ignoreTemporaryModifiersFromSource": false,
       "targetTeamType": 3,
-      "targetCharacterSubtype": "SubtypesData_None",
-      "targetCardType": 0,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
       "shouldTest": false,
-      "useIntRange": false,
       "paramInt": 1,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
-      "paramCharacterData": null,
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
       "paramCardPool": {
         "name": "ReplicatingHeal",
         "cardDataList": [
           "SpreadingSpores"
         ]
-      },
-      "paramCardFilter": null,
-      "paramTrigger": 0,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardUpgradeData": null,
-      "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "hideTooltip": false,
-      "additionalTooltips": [
-
-      ]
+      }
     }
-  ],
-  "effectTriggers": [
-
-  ],
-  "triggers": [
-
-  ],
-  "startingUpgrades": [
-
   ],
   "linkedClass": "ClassAwoken",
   "unlockLevel": 2,
-  "sharedDiscoveryCards": [
-
-  ],
-  "linkedMasteryCard": null,
-  "sharedMasteryCards": [
-
-  ],
-  "ignoreWhenCountingMastery": false,
   "cardLoreTooltipKeys": [
     "CardData_data-a67cf0750c61fb6f-4304897c778c4fc488b84d90b9a72b48-v2"
   ],
-  "initialKeyboardTarget": 1,
   "name": "Spreading Spores"
 }

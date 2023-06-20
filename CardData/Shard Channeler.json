@@ -1,194 +1,21 @@
 {
-  "m_Name": "ShardChanneler",
-  "id": "1362aa8c-d7b4-49b9-a4f7-268f47de4aa6",
   "nameKey": "CardData_nameKey-0365e0cff88bb9fb-1262c64980e68164692c030401093117-v2",
   "cost": 1,
-  "costType": 0,
-  "overrideDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "cardType": 1,
-  "targetsRoom": true,
   "targetless": false,
-  "cardArtPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_ShardChanneler.prefab",
-    "m_AssetGUID": "59f6a6f5f6dfd36458c8f7539c1be5f3"
-  },
   "rarity": 2,
-  "requiredDLC": 0,
-  "traits": [
-
-  ],
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": 0,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
-      "copyModifiersFromSource": false,
-      "ignoreTemporaryModifiersFromSource": false,
       "targetTeamType": 0,
-      "targetCharacterSubtype": "SubtypesData_None",
-      "targetCardType": 0,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "shouldTest": true,
-      "useIntRange": false,
-      "paramInt": 0,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
       "paramCharacterData": {
-        "m_Name": "ShardChanneler",
-        "id": "252db09f-e0f2-4ab3-89f2-685892c69f1b",
         "nameKey": "CharacterData_nameKey-44800192a2ad89e1-07bef0b8712e5374e9f1e20f1b06367a-v2",
-        "characterPrefabVariantRef": {
-          "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_ShardChanneler.prefab",
-          "m_AssetGUID": "13b83ec45ff004d4ab5f202dd997ed73"
-        },
-        "pactCrystalsRequiredCount": -1,
-        "pactCrystalsVariantData": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "bypassPactCrystalsUpgradeDataList": {
-          "array": [
-
-          ]
-        },
         "size": 1,
-        "blockVisualSizeIncrease": false,
         "health": 2,
-        "canBeHealed": true,
-        "isOuterTrainBoss": false,
-        "validBossAttackPhase": 2,
-        "isMiniboss": false,
-        "deathType": 0,
-        "canAttack": true,
-        "ascendsTrainAutomatically": true,
         "attackDamage": 0,
-        "animationController": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "attackTeleportsToDefender": true,
-        "deathSlidesBackwards": true,
-        "projectilePrefab": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "impactVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "deathVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "bossSpellCastVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "bossRoomSpellCastVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "startingStatusEffects": [
-
-        ],
-        "statusEffectImmunities": [
-
-        ],
-        "triggers": [
-
-        ],
         "subtypeKeys": [
           "SubtypesData_Cultist_8a3bb2b5-8c56-4c86-bb08-85b95c488f23"
         ],
-        "removeTriggersOnRelentlessChange": false,
-        "bossActionGroups": [
-
-        ],
-        "characterSoundData": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "characterChatterData": {
-          "m_FileID": 0,
-          "m_PathID": 16574
-        },
         "characterLoreTooltipKeys": [
           "CharacterData_data-7b928b4a2375a76a-07bef0b8712e5374e9f1e20f1b06367a-v2"
         ],
@@ -196,69 +23,13 @@
           {
             "roomStateModifierClassName": "RoomStateSpikesDamageModifier",
             "descriptionKey": "CharacterData_descriptionKey-edcc8beca986d582-07bef0b8712e5374e9f1e20f1b06367a-v2",
-            "descriptionKeyInPlay": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "icon": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "paramInt": 1,
-            "paramSubtype": "SubtypesData_None",
-            "paramStatusEffects": [
-
-            ],
-            "extraTooltipTitleKey": "",
-            "extraTooltipBodyKey": "",
-            "paramCardUpgradeData": null
+            "paramInt": 1
           }
         ]
-      },
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
-      "paramCardPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramTrigger": 0,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardUpgradeData": null,
-      "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "hideTooltip": false,
-      "additionalTooltips": [
-
-      ]
+      }
     }
-  ],
-  "effectTriggers": [
-
-  ],
-  "triggers": [
-
-  ],
-  "startingUpgrades": [
-
   ],
   "linkedClass": "ClassAwoken",
   "unlockLevel": 6,
-  "sharedDiscoveryCards": [
-
-  ],
-  "linkedMasteryCard": null,
-  "sharedMasteryCards": [
-
-  ],
-  "ignoreWhenCountingMastery": false,
-  "cardLoreTooltipKeys": [
-
-  ],
-  "initialKeyboardTarget": 1,
   "name": "Shard Channeler"
 }

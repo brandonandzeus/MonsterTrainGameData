@@ -1,203 +1,32 @@
 {
-  "m_Name": "TiresomeClimb",
-  "id": "9170969d-ab4b-4de2-8d24-674a65aa2894",
   "nameKey": "CardData_nameKey-401acda746a54983-36a045372c769384cbdc8090464740fa-v2",
   "cost": 2,
-  "costType": 0,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-b6cd10f4920af4f8-36a045372c769384cbdc8090464740fa-v2",
-  "cardType": 0,
-  "targetsRoom": true,
   "targetless": false,
-  "cardArtPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/Cards/Portrait_Prefabs/CardArt_Spell_TiresomeClimb.prefab",
-    "m_AssetGUID": "84d664dad4934184cbef4679dd42a5dc"
-  },
   "rarity": 1,
-  "requiredDLC": 0,
-  "traits": [
-
-  ],
   "effects": [
     {
       "effectStateName": "CardEffectBump",
       "targetMode": 12,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
-      "copyModifiersFromSource": false,
-      "ignoreTemporaryModifiersFromSource": false,
       "targetTeamType": 3,
-      "targetCharacterSubtype": "SubtypesData_None",
-      "targetCardType": 0,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "shouldTest": true,
-      "useIntRange": false,
-      "paramInt": 1,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
-      "paramCharacterData": null,
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
-      "paramCardPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramTrigger": 0,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardUpgradeData": null,
-      "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "hideTooltip": false,
-      "additionalTooltips": [
-
-      ]
+      "paramInt": 1
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",
       "targetMode": 22,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
-      "copyModifiersFromSource": false,
-      "ignoreTemporaryModifiersFromSource": false,
       "targetTeamType": 3,
-      "targetCharacterSubtype": "SubtypesData_None",
-      "targetCardType": 0,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "shouldTest": true,
-      "useIntRange": false,
-      "paramInt": 0,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
-      "paramCharacterData": null,
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
-      "paramCardPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramTrigger": 0,
       "paramStatusEffects": [
         {
           "statusId": "dazed",
           "count": 2
         }
-      ],
-      "paramCardUpgradeData": null,
-      "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "hideTooltip": false,
-      "additionalTooltips": [
-
       ]
     }
   ],
-  "effectTriggers": [
-
-  ],
-  "triggers": [
-
-  ],
-  "startingUpgrades": [
-
-  ],
   "linkedClass": "ClassHellhorned",
   "unlockLevel": 5,
-  "sharedDiscoveryCards": [
-
-  ],
-  "linkedMasteryCard": null,
-  "sharedMasteryCards": [
-
-  ],
-  "ignoreWhenCountingMastery": false,
   "cardLoreTooltipKeys": [
     "CardData_data-0c80e6a10774f8ee-36a045372c769384cbdc8090464740fa-v2"
   ],
-  "initialKeyboardTarget": 1,
   "name": "Tiresome Climb"
 }

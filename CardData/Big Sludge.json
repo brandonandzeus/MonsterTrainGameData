@@ -1,280 +1,36 @@
 {
-  "m_Name": "Monstrosity",
-  "id": "5336f488-1e09-40a5-97bc-5a5fde3c5e55",
   "nameKey": "CardData_nameKey-7c7bfc4972a718ec-5bb2071122deea94ba6855eda9a5ab38-v2",
   "cost": 2,
-  "costType": 0,
-  "overrideDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "cardType": 1,
-  "targetsRoom": true,
   "targetless": false,
-  "cardArtPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_BigSludge.prefab",
-    "m_AssetGUID": "68327412388b88a4785c3a6989ddb36a"
-  },
   "rarity": 2,
-  "requiredDLC": 0,
   "traits": [
     {
-      "traitStateName": "CardTraitLevelMonsterState",
-      "paramTrackedValue": 0,
-      "paramCardType": 0,
-      "paramEntryDuration": 0,
-      "paramStr": "",
-      "paramInt": 0,
-      "paramFloat": 1.0,
-      "paramSubtype": "SubtypesData_None",
-      "paramUseScalingParams": false,
-      "traitIsRemovable": true,
-      "paramCardData": null,
-      "paramCardUpgradeData": null,
-      "paramStatusEffects": [
-
-      ],
-      "paramTeamType": 0,
-      "stackMode": 0
+      "traitStateName": "CardTraitLevelMonsterState"
     }
   ],
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": 0,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
-      "copyModifiersFromSource": false,
-      "ignoreTemporaryModifiersFromSource": false,
       "targetTeamType": 0,
-      "targetCharacterSubtype": "SubtypesData_None",
-      "targetCardType": 0,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "shouldTest": true,
-      "useIntRange": false,
-      "paramInt": 0,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
       "paramCharacterData": {
-        "m_Name": "MonsterMonstrosity",
-        "id": "63101ad3-2256-4a66-9deb-b13da581b59f",
         "nameKey": "CharacterData_nameKey-84b1076c93f5a108-58bd4aa941e1c4e49b9390f55338d418-v2",
-        "characterPrefabVariantRef": {
-          "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_BigSludge.prefab",
-          "m_AssetGUID": "34968a7dd9df1314eb981ccb8802e308"
-        },
-        "pactCrystalsRequiredCount": -1,
-        "pactCrystalsVariantData": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "bypassPactCrystalsUpgradeDataList": {
-          "array": [
-
-          ]
-        },
         "size": 3,
-        "blockVisualSizeIncrease": false,
         "health": 30,
-        "canBeHealed": true,
-        "isOuterTrainBoss": false,
-        "validBossAttackPhase": 2,
-        "isMiniboss": false,
-        "deathType": 0,
-        "canAttack": true,
-        "ascendsTrainAutomatically": true,
-        "attackDamage": 10,
-        "animationController": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "attackTeleportsToDefender": true,
-        "deathSlidesBackwards": true,
-        "projectilePrefab": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "impactVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "deathVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "bossSpellCastVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "bossRoomSpellCastVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "startingStatusEffects": [
-
-        ],
-        "statusEffectImmunities": [
-
-        ],
         "triggers": [
           {
             "trigger": 18,
             "descriptionKey": "CharacterData_descriptionKey-ddafa2d805a136b2-58bd4aa941e1c4e49b9390f55338d418-v2",
-            "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "displayEffectHintText": false,
-            "hideTriggerTooltip": false,
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
                 "targetMode": 5,
-                "targetModeStatusEffectsFilter": [
-
-                ],
-                "targetModeHealthFilter": 0,
-                "targetIgnoreBosses": false,
-                "filterBasedOnMainSubClass": false,
-                "copyModifiersFromSource": false,
-                "ignoreTemporaryModifiersFromSource": false,
-                "targetTeamType": 1,
-                "targetCharacterSubtype": "SubtypesData_None",
-                "targetCardType": 0,
-                "targetCardSelectionMode": 0,
-                "animToPlay": 0,
-                "appliedToSelfVFX": {
-                  "vfxPrefabLeft": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "vfxPrefabRight": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "spawnLocation": 0,
-                  "facing": 0
-                },
-                "appliedVFX": {
-                  "vfxPrefabLeft": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "vfxPrefabRight": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "spawnLocation": 0,
-                  "facing": 0
-                },
-                "shouldTest": true,
-                "useIntRange": false,
                 "paramInt": 100,
-                "additionalParamInt": 0,
-                "paramStr": "",
-                "paramBool": false,
-                "paramSubtype": "SubtypesData_None",
-                "paramMinInt": 0,
-                "paramMaxInt": 0,
-                "paramMultiplier": 1.0,
-                "useStatusEffectStackMultiplier": false,
-                "statusEffectStackMultiplier": "",
-                "paramCharacterData": null,
-                "paramAdditionalCharacterData": null,
-                "paramCharacterDataPool": [
-
-                ],
-                "paramRoomData": null,
-                "paramCardPool": [
-
-                ],
-                "paramCardFilter": null,
-                "paramTrigger": 0,
                 "paramStatusEffects": [
                   {
                     "statusId": "buff",
                     "count": 5
                   }
-                ],
-                "paramCardUpgradeData": null,
-                "paramTimingDelays": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
-                },
-                "hideTooltip": false,
-                "additionalTooltips": [
-
                 ]
               }
             ]
@@ -284,72 +40,13 @@
           "SubtypesData_Wickless_517faf2f-8836-42d3-b84d-75a99b7dc735",
           "SubtypesData_Chosen"
         ],
-        "removeTriggersOnRelentlessChange": false,
-        "bossActionGroups": [
-
-        ],
-        "characterSoundData": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "characterChatterData": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
         "characterLoreTooltipKeys": [
           "CharacterData_data-0130d5385b1a9ff2-58bd4aa941e1c4e49b9390f55338d418-v2"
-        ],
-        "roomModifiers": [
-
         ]
-      },
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
-      "paramCardPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramTrigger": 0,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardUpgradeData": null,
-      "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "hideTooltip": false,
-      "additionalTooltips": [
-
-      ]
+      }
     }
-  ],
-  "effectTriggers": [
-
-  ],
-  "triggers": [
-
-  ],
-  "startingUpgrades": [
-
   ],
   "linkedClass": "ClassRemnant",
   "unlockLevel": 6,
-  "sharedDiscoveryCards": [
-
-  ],
-  "linkedMasteryCard": null,
-  "sharedMasteryCards": [
-
-  ],
-  "ignoreWhenCountingMastery": false,
-  "cardLoreTooltipKeys": [
-
-  ],
-  "initialKeyboardTarget": 1,
   "name": "Big Sludge"
 }

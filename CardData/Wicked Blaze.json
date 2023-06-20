@@ -1,19 +1,8 @@
 {
-  "m_Name": "WickedBlaze",
-  "id": "d930a4fe-1419-4c21-9ef2-fda4e25ee90b",
   "nameKey": "CardData_nameKey-81ee622014106d81-b7525edaccf109a469ab7c44b8236492-v2",
   "cost": 2,
-  "costType": 0,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-1c65956097db2483-b7525edaccf109a469ab7c44b8236492-v2",
-  "cardType": 0,
-  "targetsRoom": true,
-  "targetless": true,
-  "cardArtPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_Spell_WickedBlaze.prefab",
-    "m_AssetGUID": "4820cb4359825cc47879fb26efbbd0a9"
-  },
   "rarity": 1,
-  "requiredDLC": 0,
   "traits": [
     {
       "traitStateName": "CardTraitShowCardTargets"
@@ -23,152 +12,28 @@
     {
       "effectStateName": "CardEffectRecursion",
       "targetMode": 15,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
-      "copyModifiersFromSource": false,
-      "ignoreTemporaryModifiersFromSource": false,
       "targetTeamType": 0,
-      "targetCharacterSubtype": "SubtypesData_None",
       "targetCardType": 1,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 3142
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 3,
-        "facing": 0
-      },
-      "shouldTest": true,
-      "useIntRange": false,
       "paramInt": 1,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
-      "paramCharacterData": null,
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
-      "paramCardPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramTrigger": 0,
-      "paramStatusEffects": [
-
-      ],
       "paramCardUpgradeData": {
-        "m_Name": "RaisePlusWickedBlaze",
-        "id": "4e5ac8f8-0616-4135-8240-84b336019635",
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-81b61320cc8d6b65-d0f44bf0c20e4a847a2f0cf60000741a-v2",
         "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-0350da1f9b6ab7e9-d0f44bf0c20e4a847a2f0cf60000741a-v2",
         "upgradeNotificationKey": "CardUpgradeData_upgradeNotificationKey-8dccaa6671051bd3-d0f44bf0c20e4a847a2f0cf60000741a-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "hideUpgradeIconOnCard": false,
-        "useUpgradeHighlightTextTags": true,
-        "isUnitSynthesisUpgrade": false,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
-        "linkedPactDuplicateRarity": 4,
         "bonusDamage": 15,
         "bonusHP": 5,
         "costReduction": 99,
-        "xCostReduction": 0,
-        "bonusHeal": 0,
-        "bonusSize": 0,
         "statusEffectUpgrades": [
           {
             "statusId": "ephemeral",
             "count": 1
           }
-        ],
-        "traitDataUpgrades": [
-
-        ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
-        "filters": [
-
-        ],
-        "upgradesToRemove": [
-
         ]
-      },
-      "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "hideTooltip": false,
-      "additionalTooltips": [
-
-      ]
+      }
     }
   ],
-  "effectTriggers": [
-
-  ],
-  "triggers": [
-
-  ],
-  "startingUpgrades": [
-
-  ],
   "linkedClass": "ClassRemnant",
-  "unlockLevel": 0,
-  "sharedDiscoveryCards": [
-
-  ],
-  "linkedMasteryCard": null,
-  "sharedMasteryCards": [
-
-  ],
-  "ignoreWhenCountingMastery": false,
   "cardLoreTooltipKeys": [
     "CardData_data-b35ae9312642710b-b7525edaccf109a469ab7c44b8236492-v2"
   ],
-  "initialKeyboardTarget": 1,
   "name": "Wicked Blaze"
 }

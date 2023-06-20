@@ -1,38 +1,14 @@
 {
-  "m_Name": "ScalingBuffTrain",
-  "id": "099e5d09-4ed4-4fcb-9682-4ec2e77d5ddd",
   "nameKey": "CardData_nameKey-1a715e3262de57ae-9a6ac59b33e64204ca15b4e9cc010fc9-v2",
-  "cost": 0,
   "costType": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-5d8e1871fea2219a-9a6ac59b33e64204ca15b4e9cc010fc9-v2",
-  "cardType": 0,
-  "targetsRoom": true,
-  "targetless": true,
-  "cardArtPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_SPL_BoneRattler.prefab",
-    "m_AssetGUID": "19dc1e143d1d62645bcefe906d39eec7"
-  },
   "rarity": 2,
-  "requiredDLC": 0,
   "traits": [
     {
       "traitStateName": "CardTraitScalingBuffDamage",
       "paramTrackedValue": 1,
-      "paramCardType": 0,
-      "paramEntryDuration": 0,
-      "paramStr": "",
       "paramInt": 5,
-      "paramFloat": 1.0,
-      "paramSubtype": "SubtypesData_None",
-      "paramUseScalingParams": true,
-      "traitIsRemovable": true,
-      "paramCardData": null,
-      "paramCardUpgradeData": null,
-      "paramStatusEffects": [
-
-      ],
-      "paramTeamType": 0,
-      "stackMode": 0
+      "paramUseScalingParams": true
     },
     {
       "traitStateName": "CardTraitExhaustState"
@@ -42,103 +18,11 @@
     {
       "effectStateName": "CardEffectBuffDamage",
       "targetMode": 21,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
-      "copyModifiersFromSource": false,
-      "ignoreTemporaryModifiersFromSource": false,
-      "targetTeamType": 0,
-      "targetCharacterSubtype": "SubtypesData_None",
-      "targetCardType": 0,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "shouldTest": true,
-      "useIntRange": false,
-      "paramInt": 0,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
-      "paramCharacterData": null,
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
-      "paramCardPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramTrigger": 0,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardUpgradeData": null,
-      "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "hideTooltip": false,
-      "additionalTooltips": [
-
-      ]
+      "targetTeamType": 0
     }
   ],
-  "effectTriggers": [
-
-  ],
-  "triggers": [
-
-  ],
-  "startingUpgrades": [
-
-  ],
-  "linkedClass": null,
-  "unlockLevel": 0,
-  "sharedDiscoveryCards": [
-
-  ],
-  "linkedMasteryCard": null,
-  "sharedMasteryCards": [
-
-  ],
-  "ignoreWhenCountingMastery": false,
   "cardLoreTooltipKeys": [
     "CardData_data-fdaffd69e61fa92d-9a6ac59b33e64204ca15b4e9cc010fc9-v2"
   ],
-  "initialKeyboardTarget": 1,
   "name": "Bone Rattler"
 }

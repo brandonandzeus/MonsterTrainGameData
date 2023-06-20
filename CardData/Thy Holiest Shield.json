@@ -1,19 +1,9 @@
 {
-  "m_Name": "AnnhilateShieldHeal",
-  "id": "b071165e-633e-40dd-a80e-5b1bca1ac218",
   "nameKey": "CardData_nameKey-827256d495157a67-7d23b35671b6a2744933e3b9be68541d-v2",
-  "cost": 0,
   "costType": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-2f8ab0a14e517087-7d23b35671b6a2744933e3b9be68541d-v2",
-  "cardType": 0,
-  "targetsRoom": true,
   "targetless": false,
-  "cardArtPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_Spell_HoliestOfShields.prefab",
-    "m_AssetGUID": "153b770f5e69d5e4f8d34bd2fdfcb2c8"
-  },
   "rarity": 2,
-  "requiredDLC": 0,
   "traits": [
     {
       "traitStateName": "CardTraitSelfPurge"
@@ -21,130 +11,32 @@
     {
       "traitStateName": "CardTraitScalingAddStatusEffect",
       "paramTrackedValue": 1,
-      "paramCardType": 0,
       "paramEntryDuration": 2,
-      "paramStr": "",
       "paramInt": 2,
-      "paramFloat": 1.0,
-      "paramSubtype": "SubtypesData_None",
       "paramUseScalingParams": true,
-      "traitIsRemovable": true,
-      "paramCardData": null,
-      "paramCardUpgradeData": null,
       "paramStatusEffects": [
         {
           "statusId": "damage shield",
           "count": 0
         }
-      ],
-      "paramTeamType": 0,
-      "stackMode": 0
+      ]
     }
   ],
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
       "targetMode": 12,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
-      "copyModifiersFromSource": false,
-      "ignoreTemporaryModifiersFromSource": false,
       "targetTeamType": 3,
-      "targetCharacterSubtype": "SubtypesData_None",
-      "targetCardType": 0,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "shouldTest": true,
-      "useIntRange": false,
-      "paramInt": 0,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
-      "paramCharacterData": null,
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
-      "paramCardPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramTrigger": 0,
       "paramStatusEffects": [
         {
           "statusId": "damage shield",
           "count": 0
         }
-      ],
-      "paramCardUpgradeData": null,
-      "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "hideTooltip": false,
-      "additionalTooltips": [
-
       ]
     }
   ],
-  "effectTriggers": [
-
-  ],
-  "triggers": [
-
-  ],
-  "startingUpgrades": [
-
-  ],
-  "linkedClass": null,
-  "unlockLevel": 0,
-  "sharedDiscoveryCards": [
-
-  ],
-  "linkedMasteryCard": null,
-  "sharedMasteryCards": [
-
-  ],
-  "ignoreWhenCountingMastery": false,
   "cardLoreTooltipKeys": [
     "CardData_data-ea45af37391f58cd-7d23b35671b6a2744933e3b9be68541d-v2"
   ],
-  "initialKeyboardTarget": 1,
   "name": "Thy Holiest Shield"
 }

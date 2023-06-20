@@ -1,41 +1,20 @@
 {
-  "m_Name": "Shelter",
-  "id": "1754dece-cf0b-455e-b9ca-d238134d7762",
   "nameKey": "CardData_nameKey-d7a881af020acbd7-437011d1515a63f4fa238928122e9c1b-v2",
   "cost": 1,
-  "costType": 0,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-73b98a2d0cc7af28-437011d1515a63f4fa238928122e9c1b-v2",
-  "cardType": 0,
-  "targetsRoom": true,
-  "targetless": true,
-  "cardArtPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_Spell_Shelter.prefab",
-    "m_AssetGUID": "9fdc0984ef1772a4a9a65f8f77c6fbce"
-  },
-  "rarity": 0,
   "requiredDLC": 1,
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddStatusEffect",
       "paramTrackedValue": 30,
-      "paramCardType": 0,
-      "paramEntryDuration": 0,
-      "paramStr": "",
       "paramInt": 2,
-      "paramFloat": 1.0,
-      "paramSubtype": "SubtypesData_None",
       "paramUseScalingParams": true,
-      "traitIsRemovable": true,
-      "paramCardData": null,
-      "paramCardUpgradeData": null,
       "paramStatusEffects": [
         {
           "statusId": "armor",
           "count": 0
         }
-      ],
-      "paramTeamType": 0,
-      "stackMode": 0
+      ]
     },
     {
       "traitStateName": "CardTraitExhaustState"
@@ -44,116 +23,24 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 0,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
-      "copyModifiersFromSource": false,
-      "ignoreTemporaryModifiersFromSource": false,
       "targetTeamType": 2,
-      "targetCharacterSubtype": "SubtypesData_None",
-      "targetCardType": 0,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "shouldTest": true,
-      "useIntRange": false,
-      "paramInt": 0,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
-      "paramCharacterData": null,
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
-      "paramCardPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramTrigger": 0,
       "paramStatusEffects": [
         {
           "statusId": "armor",
           "count": 0
         }
       ],
-      "paramCardUpgradeData": null,
-      "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "hideTooltip": false,
       "additionalTooltips": [
         {
           "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body",
-          "style": 8,
-          "isStatusTooltip": false,
-          "statusId": "",
-          "isTriggerTooltip": false,
-          "trigger": 0,
-          "isTipTooltip": false
+          "descriptionKey": "HudTooltip_RoomCorruption_Body"
         }
       ]
     }
   ],
-  "effectTriggers": [
-
-  ],
-  "triggers": [
-
-  ],
-  "startingUpgrades": [
-
-  ],
   "linkedClass": "ClassWurm",
-  "unlockLevel": 0,
-  "sharedDiscoveryCards": [
-
-  ],
-  "linkedMasteryCard": null,
-  "sharedMasteryCards": [
-
-  ],
-  "ignoreWhenCountingMastery": false,
   "cardLoreTooltipKeys": [
     "CardData_data-ecb33720ece72df8-437011d1515a63f4fa238928122e9c1b-v2"
   ],
-  "initialKeyboardTarget": 1,
   "name": "Shelter"
 }

@@ -1,147 +1,31 @@
 {
-  "m_Name": "StarterEchoBreak",
-  "id": "6730f232-eba5-4b86-b8fc-fdb673d7824d",
   "nameKey": "CardData_nameKey-92007f3dfdb11056-8061ceb164b39704b8ee3d4638070fc5-v2",
   "cost": 1,
-  "costType": 0,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-999b23a11bbba9d1-8061ceb164b39704b8ee3d4638070fc5-v2",
-  "cardType": 0,
-  "targetsRoom": true,
   "targetless": false,
-  "cardArtPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_Spell_EchoBreak.prefab",
-    "m_AssetGUID": "ff25cd915efb82240a9d7e3a4c5b4df4"
-  },
-  "rarity": 0,
   "requiredDLC": 1,
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddDamage",
       "paramTrackedValue": 30,
-      "paramCardType": 0,
-      "paramEntryDuration": 0,
-      "paramStr": "",
       "paramInt": 1,
-      "paramFloat": 1.0,
-      "paramSubtype": "SubtypesData_None",
-      "paramUseScalingParams": true,
-      "traitIsRemovable": true,
-      "paramCardData": null,
-      "paramCardUpgradeData": null,
-      "paramStatusEffects": [
-
-      ],
-      "paramTeamType": 0,
-      "stackMode": 0
+      "paramUseScalingParams": true
     }
   ],
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
       "targetMode": 12,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
-      "copyModifiersFromSource": false,
-      "ignoreTemporaryModifiersFromSource": false,
       "targetTeamType": 3,
-      "targetCharacterSubtype": "SubtypesData_None",
-      "targetCardType": 0,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 4497
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 3,
-        "facing": 0
-      },
-      "shouldTest": true,
-      "useIntRange": false,
-      "paramInt": 0,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
-      "paramCharacterData": null,
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
-      "paramCardPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramTrigger": 0,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardUpgradeData": null,
-      "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "hideTooltip": false,
       "additionalTooltips": [
         {
           "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body",
-          "style": 8,
-          "isStatusTooltip": false,
-          "statusId": "",
-          "isTriggerTooltip": false,
-          "trigger": 0,
-          "isTipTooltip": false
+          "descriptionKey": "HudTooltip_RoomCorruption_Body"
         }
       ]
     }
   ],
-  "effectTriggers": [
-
-  ],
-  "triggers": [
-
-  ],
-  "startingUpgrades": [
-
-  ],
   "linkedClass": "ClassWurm",
-  "unlockLevel": 0,
-  "sharedDiscoveryCards": [
-
-  ],
-  "linkedMasteryCard": null,
-  "sharedMasteryCards": [
-
-  ],
-  "ignoreWhenCountingMastery": false,
   "cardLoreTooltipKeys": [
     "CardData_data-86656347afd1efad-8061ceb164b39704b8ee3d4638070fc5-v2"
   ],

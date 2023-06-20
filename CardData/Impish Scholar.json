@@ -1,19 +1,9 @@
 {
-  "m_Name": "EnlightenedInfery",
-  "id": "4cad5d6e-3c7e-4993-9d3d-53948dae4b6d",
   "nameKey": "CardData_nameKey-f6b95190224b8b98-5de8ba4f1343dbd4fa0faa10672e8006-v2",
   "cost": 1,
-  "costType": 0,
-  "overrideDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "cardType": 1,
-  "targetsRoom": true,
   "targetless": false,
-  "cardArtPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/Cards/Portrait_Prefabs/CardArt_Demon_Imp_DrawsCard.prefab",
-    "m_AssetGUID": "5225d8033bc0f804b9f328153b296b91"
-  },
   "rarity": 1,
-  "requiredDLC": 0,
   "traits": [
     {
       "traitStateName": "CardTraitShowCardTargets"
@@ -22,241 +12,29 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": 0,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
-      "copyModifiersFromSource": false,
-      "ignoreTemporaryModifiersFromSource": false,
       "targetTeamType": 0,
-      "targetCharacterSubtype": "SubtypesData_None",
-      "targetCardType": 0,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "shouldTest": true,
-      "useIntRange": false,
-      "paramInt": 0,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
       "paramCharacterData": {
-        "m_Name": "MonsterEnlightenedInfery",
-        "id": "c8729093-47ea-4c0e-a0f8-efe398738f8e",
         "nameKey": "CharacterData_nameKey-aad8ea7e02bd8778-8c32dfa47b7b4014a825217a4bfbadb3-v2",
-        "characterPrefabVariantRef": {
-          "m_debugName": "Assets/GameData/characters/Character_Prefabs/Character_ImpishScholar.prefab",
-          "m_AssetGUID": "14d1b9ab525213748a19ae373ce38c17"
-        },
-        "pactCrystalsRequiredCount": -1,
-        "pactCrystalsVariantData": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "bypassPactCrystalsUpgradeDataList": {
-          "array": [
-
-          ]
-        },
         "size": 1,
-        "blockVisualSizeIncrease": false,
         "health": 1,
-        "canBeHealed": true,
-        "isOuterTrainBoss": false,
-        "validBossAttackPhase": 2,
-        "isMiniboss": false,
-        "deathType": 0,
-        "canAttack": true,
-        "ascendsTrainAutomatically": true,
         "attackDamage": 1,
-        "animationController": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "attackTeleportsToDefender": true,
-        "deathSlidesBackwards": true,
-        "projectilePrefab": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "impactVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "deathVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "bossSpellCastVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "bossRoomSpellCastVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "startingStatusEffects": [
-
-        ],
-        "statusEffectImmunities": [
-
-        ],
         "triggers": [
           {
             "trigger": 2,
             "descriptionKey": "CharacterData_descriptionKey-1cf08a2c76473cc5-8c32dfa47b7b4014a825217a4bfbadb3-v2",
-            "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "displayEffectHintText": false,
-            "hideTriggerTooltip": false,
             "effects": [
               {
                 "effectStateName": "CardEffectRecursion",
                 "targetMode": 15,
-                "targetModeStatusEffectsFilter": [
-
-                ],
-                "targetModeHealthFilter": 0,
-                "targetIgnoreBosses": false,
-                "filterBasedOnMainSubClass": false,
-                "copyModifiersFromSource": false,
-                "ignoreTemporaryModifiersFromSource": false,
                 "targetTeamType": 0,
-                "targetCharacterSubtype": "SubtypesData_None",
-                "targetCardType": 0,
                 "targetCardSelectionMode": 1,
-                "animToPlay": 0,
-                "appliedToSelfVFX": {
-                  "vfxPrefabLeft": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "vfxPrefabRight": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "spawnLocation": 0,
-                  "facing": 0
-                },
-                "appliedVFX": {
-                  "vfxPrefabLeft": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "vfxPrefabRight": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "spawnLocation": 0,
-                  "facing": 0
-                },
-                "shouldTest": true,
-                "useIntRange": false,
                 "paramInt": 1,
-                "additionalParamInt": 0,
-                "paramStr": "",
-                "paramBool": false,
-                "paramSubtype": "SubtypesData_None",
-                "paramMinInt": 0,
-                "paramMaxInt": 0,
-                "paramMultiplier": 1.0,
-                "useStatusEffectStackMultiplier": false,
-                "statusEffectStackMultiplier": "",
-                "paramCharacterData": null,
-                "paramAdditionalCharacterData": null,
-                "paramCharacterDataPool": [
-
-                ],
-                "paramRoomData": null,
-                "paramCardPool": [
-
-                ],
-                "paramCardFilter": null,
-                "paramTrigger": 0,
-                "paramStatusEffects": [
-
-                ],
-                "paramCardUpgradeData": null,
                 "paramTimingDelays": {
                   "x": 0.75,
                   "y": 0.6,
                   "z": 0.5
                 },
-                "hideTooltip": true,
-                "additionalTooltips": [
-
-                ]
+                "hideTooltip": true
               }
             ]
           }
@@ -264,72 +42,12 @@
         "subtypeKeys": [
           "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
         ],
-        "removeTriggersOnRelentlessChange": false,
-        "bossActionGroups": [
-
-        ],
-        "characterSoundData": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "characterChatterData": {
-          "m_FileID": 0,
-          "m_PathID": 16586
-        },
         "characterLoreTooltipKeys": [
           "CharacterData_data-d4a6d5c1993679cd-8c32dfa47b7b4014a825217a4bfbadb3-v2"
-        ],
-        "roomModifiers": [
-
         ]
-      },
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
-      "paramCardPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramTrigger": 0,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardUpgradeData": null,
-      "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "hideTooltip": false,
-      "additionalTooltips": [
-
-      ]
+      }
     }
   ],
-  "effectTriggers": [
-
-  ],
-  "triggers": [
-
-  ],
-  "startingUpgrades": [
-
-  ],
   "linkedClass": "ClassHellhorned",
-  "unlockLevel": 0,
-  "sharedDiscoveryCards": [
-
-  ],
-  "linkedMasteryCard": null,
-  "sharedMasteryCards": [
-
-  ],
-  "ignoreWhenCountingMastery": false,
-  "cardLoreTooltipKeys": [
-
-  ],
-  "initialKeyboardTarget": 1,
   "name": "Impish Scholar"
 }

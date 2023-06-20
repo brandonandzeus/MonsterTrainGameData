@@ -1,150 +1,37 @@
 {
-  "m_Name": "ForcedContamination",
-  "id": "1cc57bf5-b4c0-4102-8fb3-0c7e68813472",
   "nameKey": "CardData_nameKey-1a7644af7a7314b5-8197c93d465e52749b322e1b4aa3503e-v2",
-  "cost": 0,
-  "costType": 0,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-47495c996a6fbe0c-8197c93d465e52749b322e1b4aa3503e-v2",
-  "cardType": 0,
-  "targetsRoom": true,
   "targetless": false,
-  "cardArtPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_Spell_ForcedContamination.prefab",
-    "m_AssetGUID": "6e88f97aeb27830488327faa5f9de4cb"
-  },
   "rarity": 1,
   "requiredDLC": 1,
   "traits": [
     {
       "traitStateName": "CardTraitCorruptRestricted",
-      "paramTrackedValue": 0,
-      "paramCardType": 0,
-      "paramEntryDuration": 0,
-      "paramStr": "",
       "paramInt": 3,
-      "paramFloat": 1.0,
-      "paramSubtype": "SubtypesData_None",
-      "paramUseScalingParams": false,
-      "traitIsRemovable": false,
-      "paramCardData": null,
-      "paramCardUpgradeData": null,
-      "paramStatusEffects": [
-
-      ],
-      "paramTeamType": 0,
-      "stackMode": 0
+      "traitIsRemovable": false
     }
   ],
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
       "targetMode": 12,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
-      "copyModifiersFromSource": false,
-      "ignoreTemporaryModifiersFromSource": false,
       "targetTeamType": 3,
-      "targetCharacterSubtype": "SubtypesData_None",
-      "targetCardType": 0,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "shouldTest": true,
-      "useIntRange": false,
-      "paramInt": 0,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
-      "paramCharacterData": null,
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
-      "paramCardPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramTrigger": 0,
       "paramStatusEffects": [
         {
           "statusId": "melee weakness",
           "count": 3
         }
       ],
-      "paramCardUpgradeData": null,
-      "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "hideTooltip": false,
       "additionalTooltips": [
         {
           "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body",
-          "style": 8,
-          "isStatusTooltip": false,
-          "statusId": "",
-          "isTriggerTooltip": false,
-          "trigger": 0,
-          "isTipTooltip": false
+          "descriptionKey": "HudTooltip_RoomCorruption_Body"
         }
       ]
     }
   ],
-  "effectTriggers": [
-
-  ],
-  "triggers": [
-
-  ],
-  "startingUpgrades": [
-
-  ],
   "linkedClass": "ClassWurm",
   "unlockLevel": 3,
-  "sharedDiscoveryCards": [
-
-  ],
-  "linkedMasteryCard": null,
-  "sharedMasteryCards": [
-
-  ],
-  "ignoreWhenCountingMastery": false,
   "cardLoreTooltipKeys": [
     "CardData_data-10f315427d82be47-8197c93d465e52749b322e1b4aa3503e-v2"
   ],

@@ -1,19 +1,7 @@
 {
-  "m_Name": "UnplayableUnpurgeable",
-  "id": "f94572f9-d280-4990-a112-2c94f8fd7ede",
   "nameKey": "CardData_nameKey-ed0a4b9b8d5629ca-08cb21cbf11a0004ebc52273df1eedc7-v2",
-  "cost": 0,
-  "costType": 0,
-  "overrideDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "cardType": 5,
-  "targetsRoom": true,
   "targetless": false,
-  "cardArtPrefabVariantRef": {
-    "m_debugName": "Assets/scene_prefabs/CardArt_Spell_Deadweight.prefab",
-    "m_AssetGUID": "0478d1eb907701d4892b57b062b30e20"
-  },
-  "rarity": 0,
-  "requiredDLC": 0,
   "traits": [
     {
       "traitStateName": "CardTraitUnplayable"
@@ -22,31 +10,8 @@
       "traitStateName": "CardTraitUnpurgable"
     }
   ],
-  "effects": [
-
-  ],
-  "effectTriggers": [
-
-  ],
-  "triggers": [
-
-  ],
-  "startingUpgrades": [
-
-  ],
-  "linkedClass": null,
-  "unlockLevel": 0,
-  "sharedDiscoveryCards": [
-
-  ],
-  "linkedMasteryCard": null,
-  "sharedMasteryCards": [
-
-  ],
-  "ignoreWhenCountingMastery": false,
   "cardLoreTooltipKeys": [
     "CardData_data-77220203e95ad3fa-08cb21cbf11a0004ebc52273df1eedc7-v2"
   ],
-  "initialKeyboardTarget": 1,
   "name": "Deadweight"
 }

@@ -1,263 +1,30 @@
 {
-  "m_Name": "Votivary",
-  "id": "e9bb0dfe-ecf7-4046-be6d-f6f00893662f",
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "cost": 0,
-  "costType": 0,
-  "overrideDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "cardType": 1,
-  "targetsRoom": true,
   "targetless": false,
-  "cardArtPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_Votivary.prefab",
-    "m_AssetGUID": "685046223fae92f4ab9097c82240bc2c"
-  },
   "rarity": 1,
-  "requiredDLC": 0,
-  "traits": [
-
-  ],
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": 0,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
-      "copyModifiersFromSource": false,
-      "ignoreTemporaryModifiersFromSource": false,
       "targetTeamType": 0,
-      "targetCharacterSubtype": "SubtypesData_None",
-      "targetCardType": 0,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "shouldTest": true,
-      "useIntRange": false,
-      "paramInt": 0,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
       "paramCharacterData": {
-        "m_Name": "Votivary",
-        "id": "3e12b2e2-a09b-4be1-af29-d5ae39dcc4bf",
         "nameKey": "CharacterData_nameKey-318675633a459d29-5450ff25b9ec0494aa937c06b6443284-v2",
-        "characterPrefabVariantRef": {
-          "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_Votivary.prefab",
-          "m_AssetGUID": "e474af477cdc8804d8eabc2a927dbddf"
-        },
-        "pactCrystalsRequiredCount": -1,
-        "pactCrystalsVariantData": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "bypassPactCrystalsUpgradeDataList": {
-          "array": [
-
-          ]
-        },
         "size": 1,
-        "blockVisualSizeIncrease": false,
         "health": 1,
-        "canBeHealed": true,
-        "isOuterTrainBoss": false,
-        "validBossAttackPhase": 2,
-        "isMiniboss": false,
-        "deathType": 0,
-        "canAttack": true,
-        "ascendsTrainAutomatically": true,
         "attackDamage": 1,
-        "animationController": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "attackTeleportsToDefender": true,
-        "deathSlidesBackwards": true,
-        "projectilePrefab": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "impactVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "deathVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "bossSpellCastVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "bossRoomSpellCastVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
         "startingStatusEffects": [
           {
             "statusId": "endless",
             "count": 1
           }
         ],
-        "statusEffectImmunities": [
-
-        ],
         "triggers": [
           {
-            "trigger": 0,
             "descriptionKey": "CharacterData_descriptionKey-78420f72dddc25b2-5450ff25b9ec0494aa937c06b6443284-v2",
-            "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "displayEffectHintText": false,
-            "hideTriggerTooltip": false,
             "effects": [
               {
                 "effectStateName": "CardEffectDraw",
-                "targetMode": 0,
-                "targetModeStatusEffectsFilter": [
-
-                ],
-                "targetModeHealthFilter": 0,
-                "targetIgnoreBosses": false,
-                "filterBasedOnMainSubClass": false,
-                "copyModifiersFromSource": false,
-                "ignoreTemporaryModifiersFromSource": false,
                 "targetTeamType": 0,
-                "targetCharacterSubtype": "SubtypesData_None",
-                "targetCardType": 0,
-                "targetCardSelectionMode": 0,
-                "animToPlay": 0,
-                "appliedToSelfVFX": {
-                  "vfxPrefabLeft": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "vfxPrefabRight": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "spawnLocation": 0,
-                  "facing": 0
-                },
-                "appliedVFX": {
-                  "vfxPrefabLeft": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "vfxPrefabRight": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "spawnLocation": 0,
-                  "facing": 0
-                },
-                "shouldTest": true,
-                "useIntRange": false,
-                "paramInt": 1,
-                "additionalParamInt": 0,
-                "paramStr": "",
-                "paramBool": false,
-                "paramSubtype": "SubtypesData_None",
-                "paramMinInt": 0,
-                "paramMaxInt": 0,
-                "paramMultiplier": 1.0,
-                "useStatusEffectStackMultiplier": false,
-                "statusEffectStackMultiplier": "",
-                "paramCharacterData": null,
-                "paramAdditionalCharacterData": null,
-                "paramCharacterDataPool": [
-
-                ],
-                "paramRoomData": null,
-                "paramCardPool": [
-
-                ],
-                "paramCardFilter": null,
-                "paramTrigger": 0,
-                "paramStatusEffects": [
-
-                ],
-                "paramCardUpgradeData": null,
-                "paramTimingDelays": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
-                },
-                "hideTooltip": false,
-                "additionalTooltips": [
-
-                ]
+                "paramInt": 1
               }
             ]
           }
@@ -265,72 +32,12 @@
         "subtypeKeys": [
           "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
         ],
-        "removeTriggersOnRelentlessChange": false,
-        "bossActionGroups": [
-
-        ],
-        "characterSoundData": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "characterChatterData": {
-          "m_FileID": 0,
-          "m_PathID": 16594
-        },
         "characterLoreTooltipKeys": [
           "CharacterData_data-d12d20e9efededca-5450ff25b9ec0494aa937c06b6443284-v2"
-        ],
-        "roomModifiers": [
-
         ]
-      },
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
-      "paramCardPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramTrigger": 0,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardUpgradeData": null,
-      "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "hideTooltip": false,
-      "additionalTooltips": [
-
-      ]
+      }
     }
   ],
-  "effectTriggers": [
-
-  ],
-  "triggers": [
-
-  ],
-  "startingUpgrades": [
-
-  ],
   "linkedClass": "ClassRemnant",
-  "unlockLevel": 0,
-  "sharedDiscoveryCards": [
-
-  ],
-  "linkedMasteryCard": null,
-  "sharedMasteryCards": [
-
-  ],
-  "ignoreWhenCountingMastery": false,
-  "cardLoreTooltipKeys": [
-
-  ],
-  "initialKeyboardTarget": 1,
   "name": "Votivary"
 }

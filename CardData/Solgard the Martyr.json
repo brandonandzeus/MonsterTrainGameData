@@ -1,382 +1,52 @@
 {
-  "m_Name": "StygianChampionMartyr",
-  "id": "dfc5f5f4-e328-44cd-b4f3-758cbc1d5fe2",
   "nameKey": "CardData_nameKey-32d7fabe915df42e-c9f84437f6221594eb281fed679c6f63-v2",
-  "cost": 0,
-  "costType": 0,
-  "overrideDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "cardType": 1,
-  "targetsRoom": true,
   "targetless": false,
-  "cardArtPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_SolgardTheMartyr.prefab",
-    "m_AssetGUID": "245cb3b891735684eaa1f91b63cfe974"
-  },
   "rarity": 3,
-  "requiredDLC": 0,
-  "traits": [
-
-  ],
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": 0,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
-      "copyModifiersFromSource": false,
-      "ignoreTemporaryModifiersFromSource": false,
       "targetTeamType": 0,
-      "targetCharacterSubtype": "SubtypesData_None",
-      "targetCardType": 0,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "shouldTest": true,
-      "useIntRange": false,
-      "paramInt": 0,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
       "paramCharacterData": {
-        "m_Name": "MonsterStygianChampionMartyr",
-        "id": "94452d91-c088-4280-b8a1-07b514f89799",
         "nameKey": "CharacterData_nameKey-ab5df13b131424f2-425da999f231c894db66572bf89adafe-v2",
-        "characterPrefabVariantRef": {
-          "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_SolgardTheMartyr.prefab",
-          "m_AssetGUID": "2c875540e91ffdd42948175227247575"
-        },
-        "pactCrystalsRequiredCount": -1,
-        "pactCrystalsVariantData": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "bypassPactCrystalsUpgradeDataList": {
-          "array": [
-
-          ]
-        },
-        "size": 2,
-        "blockVisualSizeIncrease": false,
         "health": 5,
-        "canBeHealed": true,
-        "isOuterTrainBoss": false,
-        "validBossAttackPhase": 2,
-        "isMiniboss": false,
-        "deathType": 0,
-        "canAttack": true,
-        "ascendsTrainAutomatically": true,
         "attackDamage": 0,
-        "animationController": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
         "attackTeleportsToDefender": false,
-        "deathSlidesBackwards": true,
-        "projectilePrefab": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 4211
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 5,
-          "facing": 0
-        },
-        "impactVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "deathVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "bossSpellCastVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "bossRoomSpellCastVFX": {
-          "vfxPrefabLeft": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "vfxPrefabRight": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "spawnLocation": 0,
-          "facing": 0
-        },
-        "startingStatusEffects": [
-
-        ],
-        "statusEffectImmunities": [
-
-        ],
-        "triggers": [
-
-        ],
         "subtypeKeys": [
           "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
         ],
-        "removeTriggersOnRelentlessChange": false,
-        "bossActionGroups": [
-
-        ],
-        "characterSoundData": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "characterChatterData": {
-          "m_FileID": 0,
-          "m_PathID": 16600
-        },
         "characterLoreTooltipKeys": [
           "CharacterData_data-bf710959ab4f688c-425da999f231c894db66572bf89adafe-v2"
-        ],
-        "roomModifiers": [
-
         ]
-      },
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
-      "paramCardPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramTrigger": 0,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardUpgradeData": null,
-      "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "hideTooltip": false,
-      "additionalTooltips": [
-
-      ]
+      }
     }
-  ],
-  "effectTriggers": [
-
-  ],
-  "triggers": [
-
   ],
   "startingUpgrades": [
     {
-      "m_Name": "MartyrChampionBaseline",
-      "id": "2cf6d41b-c366-4881-8189-9dac12bccdf8",
-      "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "upgradeIcon": {
-        "m_FileID": 0,
-        "m_PathID": 0
-      },
       "hideUpgradeIconOnCard": true,
       "useUpgradeHighlightTextTags": false,
-      "isUnitSynthesisUpgrade": false,
-      "isUnique": false,
-      "sourceSynthesisUnit": null,
-      "linkedPactDuplicateRarity": 4,
-      "bonusDamage": 0,
-      "bonusHP": 0,
-      "costReduction": 0,
-      "xCostReduction": 0,
-      "bonusHeal": 0,
-      "bonusSize": 0,
-      "statusEffectUpgrades": [
-
-      ],
-      "traitDataUpgrades": [
-
-      ],
-      "removeTraitUpgrades": [
-
-      ],
       "triggerUpgrades": [
         {
           "trigger": 19,
           "descriptionKey": "CardUpgradeData_descriptionKey-61bc349fa5b00dcb-27dba5406eec9044893fa6f73b1cd428-v2",
-          "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "displayEffectHintText": false,
-          "hideTriggerTooltip": false,
           "effects": [
             {
               "effectStateName": "CardEffectAddStatusEffect",
               "targetMode": 5,
-              "targetModeStatusEffectsFilter": [
-
-              ],
-              "targetModeHealthFilter": 0,
-              "targetIgnoreBosses": false,
-              "filterBasedOnMainSubClass": false,
-              "copyModifiersFromSource": false,
-              "ignoreTemporaryModifiersFromSource": false,
               "targetTeamType": 2,
-              "targetCharacterSubtype": "SubtypesData_None",
-              "targetCardType": 0,
-              "targetCardSelectionMode": 0,
-              "animToPlay": 0,
-              "appliedToSelfVFX": {
-                "vfxPrefabLeft": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "vfxPrefabRight": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "spawnLocation": 0,
-                "facing": 0
-              },
-              "appliedVFX": {
-                "vfxPrefabLeft": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "vfxPrefabRight": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "spawnLocation": 0,
-                "facing": 0
-              },
-              "shouldTest": true,
-              "useIntRange": false,
               "paramInt": 100,
-              "additionalParamInt": 0,
-              "paramStr": "",
-              "paramBool": false,
-              "paramSubtype": "SubtypesData_None",
-              "paramMinInt": 0,
-              "paramMaxInt": 0,
-              "paramMultiplier": 1.0,
-              "useStatusEffectStackMultiplier": false,
-              "statusEffectStackMultiplier": "",
-              "paramCharacterData": null,
-              "paramAdditionalCharacterData": null,
-              "paramCharacterDataPool": [
-
-              ],
-              "paramRoomData": null,
-              "paramCardPool": [
-
-              ],
-              "paramCardFilter": null,
-              "paramTrigger": 0,
               "paramStatusEffects": [
                 {
                   "statusId": "stygian_blessing",
                   "count": 1
                 }
-              ],
-              "paramCardUpgradeData": null,
-              "paramTimingDelays": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "hideTooltip": false,
-              "additionalTooltips": [
-
               ]
             }
           ]
         }
-      ],
-      "cardTriggerUpgrades": [
-
-      ],
-      "roomModifierUpgrades": [
-
-      ],
-      "filters": [
-
-      ],
-      "upgradesToRemove": [
-
       ]
     }
   ],
   "linkedClass": "ClassStygian",
-  "unlockLevel": 0,
-  "sharedDiscoveryCards": [
-
-  ],
-  "linkedMasteryCard": null,
-  "sharedMasteryCards": [
-
-  ],
-  "ignoreWhenCountingMastery": false,
-  "cardLoreTooltipKeys": [
-
-  ],
-  "initialKeyboardTarget": 1,
   "name": "Solgard the Martyr"
 }

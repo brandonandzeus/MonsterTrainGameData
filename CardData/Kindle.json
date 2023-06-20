@@ -1,38 +1,16 @@
 {
-  "m_Name": "GainXEnergy",
-  "id": "001ff190-4559-42b9-9ca0-73e557656e85",
   "nameKey": "CardData_nameKey-6d5de62d50f070ab-13d2fc4da8b510146b390968e888b048-v2",
-  "cost": 0,
   "costType": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-2904a3c9a6cad6f0-13d2fc4da8b510146b390968e888b048-v2",
-  "cardType": 0,
-  "targetsRoom": true,
-  "targetless": true,
-  "cardArtPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/Cards/Portrait_Prefabs/CardArt_Spell_EmberGathering.prefab",
-    "m_AssetGUID": "45bafc5a6f4b16940ae03b2570a4f598"
-  },
   "rarity": 2,
-  "requiredDLC": 0,
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddEnergy",
       "paramTrackedValue": 1,
-      "paramCardType": 0,
       "paramEntryDuration": 2,
-      "paramStr": "",
       "paramInt": 2,
-      "paramFloat": 1.0,
-      "paramSubtype": "SubtypesData_None",
       "paramUseScalingParams": true,
-      "traitIsRemovable": true,
-      "paramCardData": null,
-      "paramCardUpgradeData": null,
-      "paramStatusEffects": [
-
-      ],
-      "paramTeamType": 1,
-      "stackMode": 0
+      "paramTeamType": 1
     },
     {
       "traitStateName": "CardTraitExhaustState"
@@ -41,104 +19,13 @@
   "effects": [
     {
       "effectStateName": "CardEffectGainEnergy",
-      "targetMode": 0,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
-      "copyModifiersFromSource": false,
-      "ignoreTemporaryModifiersFromSource": false,
-      "targetTeamType": 0,
-      "targetCharacterSubtype": "SubtypesData_None",
-      "targetCardType": 0,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "shouldTest": true,
-      "useIntRange": false,
-      "paramInt": 0,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
-      "paramCharacterData": null,
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
-      "paramCardPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramTrigger": 0,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardUpgradeData": null,
-      "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "hideTooltip": false,
-      "additionalTooltips": [
-
-      ]
+      "targetTeamType": 0
     }
-  ],
-  "effectTriggers": [
-
-  ],
-  "triggers": [
-
-  ],
-  "startingUpgrades": [
-
   ],
   "linkedClass": "ClassUmbra",
   "unlockLevel": 4,
-  "sharedDiscoveryCards": [
-
-  ],
-  "linkedMasteryCard": null,
-  "sharedMasteryCards": [
-
-  ],
-  "ignoreWhenCountingMastery": false,
   "cardLoreTooltipKeys": [
     "CardData_data-1884515776f68d10-13d2fc4da8b510146b390968e888b048-v2"
   ],
-  "initialKeyboardTarget": 1,
   "name": "Kindle"
 }

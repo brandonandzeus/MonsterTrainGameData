@@ -1,38 +1,16 @@
 {
-  "m_Name": "ShroudSpike",
-  "id": "fecc00fd-70ef-473e-bfa1-35c221540d43",
   "nameKey": "CardData_nameKey-ce067d9dbcf551fa-62bfe333c9432c1448c37820dc680d6e-v2",
-  "cost": 0,
   "costType": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-bc13495411cf9ac6-62bfe333c9432c1448c37820dc680d6e-v2",
-  "cardType": 0,
-  "targetsRoom": true,
   "targetless": false,
-  "cardArtPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CardArt/Portrait_Prefabs/CardArt_ShroudSpike.prefab",
-    "m_AssetGUID": "d760a92c8109f484f91d799c847d73c3"
-  },
   "rarity": 2,
-  "requiredDLC": 0,
   "traits": [
     {
       "traitStateName": "CardTraitScalingFeederRules",
       "paramTrackedValue": 1,
-      "paramCardType": 0,
       "paramEntryDuration": 2,
-      "paramStr": "",
       "paramInt": 2,
-      "paramFloat": 1.0,
-      "paramSubtype": "SubtypesData_None",
-      "paramUseScalingParams": true,
-      "traitIsRemovable": true,
-      "paramCardData": null,
-      "paramCardUpgradeData": null,
-      "paramStatusEffects": [
-
-      ],
-      "paramTeamType": 0,
-      "stackMode": 0
+      "paramUseScalingParams": true
     },
     {
       "traitStateName": "CardTraitExhaustState"
@@ -42,103 +20,14 @@
     {
       "effectStateName": "CardEffectFeederRules",
       "targetMode": 12,
-      "targetModeStatusEffectsFilter": [
-
-      ],
-      "targetModeHealthFilter": 0,
-      "targetIgnoreBosses": false,
-      "filterBasedOnMainSubClass": false,
-      "copyModifiersFromSource": false,
-      "ignoreTemporaryModifiersFromSource": false,
       "targetTeamType": 2,
       "targetCharacterSubtype": "SubtypesData_Snack",
-      "targetCardType": 0,
-      "targetCardSelectionMode": 0,
-      "animToPlay": 0,
-      "appliedToSelfVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "appliedVFX": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "shouldTest": true,
-      "useIntRange": false,
-      "paramInt": 0,
-      "additionalParamInt": 0,
-      "paramStr": "",
-      "paramBool": false,
-      "paramSubtype": "SubtypesData_None",
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramMultiplier": 1.0,
-      "useStatusEffectStackMultiplier": false,
-      "statusEffectStackMultiplier": "",
-      "paramCharacterData": null,
-      "paramAdditionalCharacterData": null,
-      "paramCharacterDataPool": [
-
-      ],
-      "paramRoomData": null,
-      "paramCardPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramTrigger": 23,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardUpgradeData": null,
-      "paramTimingDelays": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "hideTooltip": false,
-      "additionalTooltips": [
-
-      ]
+      "paramTrigger": 23
     }
   ],
-  "effectTriggers": [
-
-  ],
-  "triggers": [
-
-  ],
-  "startingUpgrades": [
-
-  ],
   "linkedClass": "ClassUmbra",
-  "unlockLevel": 0,
-  "sharedDiscoveryCards": [
-
-  ],
-  "linkedMasteryCard": null,
-  "sharedMasteryCards": [
-
-  ],
-  "ignoreWhenCountingMastery": false,
   "cardLoreTooltipKeys": [
     "CardData_data-b453486ce911ecdd-62bfe333c9432c1448c37820dc680d6e-v2"
   ],
-  "initialKeyboardTarget": 1,
   "name": "Shroud Spike"
 }
