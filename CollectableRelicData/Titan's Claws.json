@@ -95,7 +95,7 @@
           "paramEntryDuration": 0,
           "paramStr": "",
           "paramInt": 0,
-          "paramFloat": 0.0,
+          "paramFloat": 1.0,
           "paramSubtype": "SubtypesData_None",
           "paramUseScalingParams": false,
           "traitIsRemovable": true,
