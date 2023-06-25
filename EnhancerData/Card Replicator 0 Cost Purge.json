@@ -1,8 +1,8 @@
 {
-  "m_Name": "CardDuplicator",
-  "id": "88a1c4c8-b3e6-4e1e-8b3f-f65fe5c09882",
-  "nameKey": "EnhancerData_nameKey-eae36abab74bbbee-1f20d64815fdc894c8faf6942075ebf6-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-67ae357845b65b0d-1f20d64815fdc894c8faf6942075ebf6-v2",
+  "m_Name": "CardDuplicator0CostAnnihilate",
+  "id": "15b51631-7f09-42a7-8041-341f676fa491",
+  "nameKey": "EnhancerData_nameKey-23a98e5150e2c05f-66ab1f549485c3646bb44302aeff6d42-v2",
+  "descriptionKey": "EnhancerData_descriptionKey-750f7d625bc0630d-66ab1f549485c3646bb44302aeff6d42-v2",
   "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "relicLoreTooltipKeys": [
     "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
@@ -17,7 +17,7 @@
     {
       "relicEffectClassName": "RelicEffectCardDuplicator",
       "paramSourceTeam": 0,
-      "paramInt": 1,
+      "paramInt": 5,
       "paramFloat": 0.0,
       "paramUseIntRange": false,
       "paramMinInt": 0,
@@ -154,5 +154,5 @@
   "linkedClass": null,
   "unlockLevel": 0,
   "numCardsToShowInUpgradeScreen": -1,
-  "name": "Card Replicator"
+  "name": "Card Replicator 0 Cost Purge"
 }
