@@ -123,7 +123,7 @@
             "paramEntryDuration": 0,
             "paramStr": "",
             "paramInt": 0,
-            "paramFloat": 0.0,
+            "paramFloat": 1.0,
             "paramSubtype": "0",
             "paramUseScalingParams": false,
             "traitIsRemovable": true,
