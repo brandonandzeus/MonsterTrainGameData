@@ -1,11 +1,11 @@
 {
-  "m_Name": "BossIncreaseTurnDraw2",
-  "id": "341001b3-3fa9-47a5-9d88-eb04390b82fa",
-  "nameKey": "CollectableRelicData_nameKey-6133232584be10ff-ab8dc98ac080e8645a0ff50a96d96ce4-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-88b206009539ca61-ab8dc98ac080e8645a0ff50a96d96ce4-v2",
+  "m_Name": "BossIncreaseTurnDraw",
+  "id": "f9cc17ee-b7e5-45de-a02f-bd271e2dcd1a",
+  "nameKey": "CollectableRelicData_nameKey-533a5b4711467d2c-998a84d566daa4e439f851302f429364-v2",
+  "descriptionKey": "CollectableRelicData_descriptionKey-e6897753b7f3a7dc-998a84d566daa4e439f851302f429364-v2",
   "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-c76b8cc6fdf52c80-ab8dc98ac080e8645a0ff50a96d96ce4-v2"
+    "CollectableRelicData_data-b08500bc2a8a026d-998a84d566daa4e439f851302f429364-v2"
   ],
   "relicLoreTooltipStyle": 0,
   "icon": {
