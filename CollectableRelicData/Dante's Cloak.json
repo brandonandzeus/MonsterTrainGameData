@@ -1,113 +1,23 @@
 {
-  "m_Name": "ScalingBlightMagicPower",
-  "id": "c1102381-a1f5-4d17-be35-8f51f820982a",
   "nameKey": "CollectableRelicData_nameKey-fc3485844966e5b7-792af392532361e438528d79e40c4c28-v2",
   "descriptionKey": "CollectableRelicData_descriptionKey-1f91ae9cee5e07ed-792af392532361e438528d79e40c4c28-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "relicLoreTooltipKeys": [
     "CollectableRelicData_data-c09e21ba47971621-792af392532361e438528d79e40c4c28-v2"
   ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 2489
-  },
-  "divineVariant": false,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCardMagicalPowerScaling",
-      "paramSourceTeam": 0,
       "paramInt": 2,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
-      "paramTargetMode": 2,
-      "paramRoomData": null,
       "paramCardType": 5,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
       "additionalTooltips": [
         {
           "titleKey": "CardTraitMagicPower_TooltipTitle",
-          "descriptionKey": "CardTraitMagicPower_TooltipText",
-          "style": 8,
-          "isStatusTooltip": false,
-          "statusId": "",
-          "isTriggerTooltip": false,
-          "trigger": 0,
-          "isTipTooltip": false
+          "descriptionKey": "CardTraitMagicPower_TooltipText"
         }
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      ]
     }
   ],
   "rarity": 2,
-  "linkedClass": null,
-  "unlockLevel": 0,
   "fromStoryEvent": true,
-  "isBossGivenRelic": false,
-  "ignoreForNoRelicAchievement": false,
-  "requiredDLC": 0,
   "name": "Dante's Cloak"
 }

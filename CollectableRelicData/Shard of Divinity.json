@@ -1,106 +1,26 @@
 {
-  "m_Name": "PactArmor",
-  "id": "b6282e63-9c8e-477f-9797-ecd43412e47a",
   "nameKey": "CollectableRelicData_nameKey-461d1a9a641389d7-cc8ad97c1ec9e274b85c02d051dc576c-v2",
   "descriptionKey": "CollectableRelicData_descriptionKey-6568ac563683a6b6-cc8ad97c1ec9e274b85c02d051dc576c-v2",
   "relicActivatedKey": "CollectableRelicData_relicActivatedKey-e995c7c56dd0024e-cc8ad97c1ec9e274b85c02d051dc576c-v2",
   "relicLoreTooltipKeys": [
     "CollectableRelicData_data-3e22831f89aab8ab-cc8ad97c1ec9e274b85c02d051dc576c-v2"
   ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 2269
-  },
-  "divineVariant": false,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
       "paramSourceTeam": 2,
-      "paramInt": 0,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
       "paramCharacterSubtype": "SubtypesData_Pyre",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
       "paramStatusEffects": [
         {
           "statusId": "armor",
           "count": 100
         }
       ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
-      "paramTargetMode": 0,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      "paramTargetMode": 0
     }
   ],
   "rarity": 3,
-  "linkedClass": null,
-  "unlockLevel": 0,
   "fromStoryEvent": true,
-  "isBossGivenRelic": false,
   "ignoreForNoRelicAchievement": true,
   "requiredDLC": 1,
   "name": "Shard of Divinity"
