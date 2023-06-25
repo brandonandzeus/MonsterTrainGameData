@@ -1,115 +1,17 @@
 {
-  "m_Name": "Ascension15AlliedClanStarterCard",
-  "id": "f4ca28b4-9321-49fc-b15e-092d17996f29",
   "nameKey": "CovenantData_nameKey-55b06d9308798ae3-eab0760f967918a49a66fb138716232e-v2",
   "descriptionKey": "CovenantData_descriptionKey-8731132d8d4a42b6-eab0760f967918a49a66fb138716232e-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "divineVariant": false,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddCardSetStartOfRun",
-      "paramSourceTeam": 0,
-      "paramInt": 0,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
       "paramTargetMode": 0,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
       "paramCardSetBuilder": {
-        "m_Name": "SubClassCopies1X",
         "paramCardPulls": [
           null
         ],
         "name": "SubClassCopies1X"
-      },
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      }
     }
   ],
-  "unlockLevel": 0,
-  "sliceSprite": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "textColor": {
-    "r": 1.0,
-    "g": 1.0,
-    "b": 1.0,
-    "a": 1.0
-  },
-  "ascensionLevel": 15,
-  "hellforgedDescriptionKey": ""
+  "ascensionLevel": 15
 }

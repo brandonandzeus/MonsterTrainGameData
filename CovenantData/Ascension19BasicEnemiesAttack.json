@@ -1,187 +1,24 @@
 {
-  "m_Name": "Ascension19BasicEnemiesAttack",
-  "id": "7f35fbac-8dfb-470c-b445-661b0eae3e74",
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "descriptionKey": "CovenantData_descriptionKey-2419896159685eba-c25838e1deeb3a3429b889310a82cd7d-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "divineVariant": false,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCharacterAttackDamage",
       "paramSourceTeam": 1,
       "paramInt": 2,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
       "paramCharacterSubtype": "SubtypesData_AttackerT2",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
       "paramTrigger": 2,
       "paramTargetMode": 0,
-      "paramRoomData": null,
-      "paramCardType": 4,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      "paramCardType": 4
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterAttackDamage",
       "paramSourceTeam": 1,
       "paramInt": 3,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
       "paramCharacterSubtype": "SubtypesData_AttackerT3",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
       "paramTrigger": 2,
       "paramTargetMode": 0,
-      "paramRoomData": null,
-      "paramCardType": 4,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      "paramCardType": 4
     }
   ],
-  "unlockLevel": 0,
-  "sliceSprite": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "textColor": {
-    "r": 1.0,
-    "g": 1.0,
-    "b": 1.0,
-    "a": 1.0
-  },
-  "ascensionLevel": 19,
-  "hellforgedDescriptionKey": ""
+  "ascensionLevel": 19
 }

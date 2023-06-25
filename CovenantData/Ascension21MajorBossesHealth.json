@@ -1,265 +1,30 @@
 {
-  "m_Name": "Ascension21MajorBossesHealth",
-  "id": "bcfedf6f-fe28-4950-a8a2-787bf56df238",
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "descriptionKey": "CovenantData_descriptionKey-4aff243aba230c6c-a81fe679a7050bb42992ca5ddd60e121-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "divineVariant": false,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
       "paramSourceTeam": 1,
       "paramInt": 75,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
       "paramCharacterSubtype": "SubtypesData_BigBossT1_50952308-e0f3-4acb-b0cc-e0d662b868b8",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
       "paramTrigger": 2,
-      "paramTargetMode": 0,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      "paramTargetMode": 0
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
       "paramSourceTeam": 1,
       "paramInt": 150,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
       "paramCharacterSubtype": "SubtypesData_BigBoss2_e3e6f1a2-34a7-4493-b9d7-a123e182241e",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
       "paramTrigger": 2,
-      "paramTargetMode": 0,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      "paramTargetMode": 0
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
       "paramSourceTeam": 1,
       "paramInt": 350,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
       "paramCharacterSubtype": "SubtypesData_BigBossT3_f7449215-5071-4671-909c-a02e2cceb821",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
       "paramTrigger": 2,
-      "paramTargetMode": 0,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      "paramTargetMode": 0
     }
   ],
-  "unlockLevel": 0,
-  "sliceSprite": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "textColor": {
-    "r": 1.0,
-    "g": 1.0,
-    "b": 1.0,
-    "a": 1.0
-  },
-  "ascensionLevel": 21,
-  "hellforgedDescriptionKey": ""
+  "ascensionLevel": 21
 }
