@@ -85,8 +85,8 @@
       "effectConditions": [
 
       ],
-      "sourceCardTraitParam": "CardTraitCostReduceCharactersInTowerState",
-      "targetCardTraitParam": "CardTraitCostReduceCharactersInTowerState",
+      "sourceCardTraitParam": "",
+      "targetCardTraitParam": "",
       "traits": [
 
       ],
