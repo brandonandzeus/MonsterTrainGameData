@@ -1,149 +1,23 @@
 {
-  "m_Name": "ZeroCostAnnihilate",
-  "id": "4567dc52-8f10-47d8-b7b4-a7ca8af964a8",
   "nameKey": "EnhancerData_nameKey-4dc33aad1d24ddb3-1f106b09b7a58d44480fad9f6104f16c-v2",
   "descriptionKey": "EnhancerData_descriptionKey-f55bcc0cb59ce67f-1f106b09b7a58d44480fad9f6104f16c-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 1943
-  },
-  "divineVariant": false,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramSourceTeam": 0,
-      "paramInt": 0,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
-      "paramTargetMode": 2,
-      "paramRoomData": null,
       "paramCardType": 1,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
       "paramCardUpgradeData": {
-        "m_Name": "ZeroCostAnnhilate",
-        "id": "08b6e98b-d55a-414d-905f-dc7433be396a",
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-56438f7680712b32-b6f340fe59ca97241a48e4ce071e5e4f-v2",
         "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-0dff24f5b5c8f569-b6f340fe59ca97241a48e4ce071e5e4f-v2",
-        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 1943
-        },
-        "hideUpgradeIconOnCard": false,
-        "useUpgradeHighlightTextTags": true,
-        "isUnitSynthesisUpgrade": false,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
-        "linkedPactDuplicateRarity": 4,
-        "bonusDamage": 0,
-        "bonusHP": 0,
         "costReduction": 99,
-        "xCostReduction": 0,
-        "bonusHeal": 0,
-        "bonusSize": 0,
-        "statusEffectUpgrades": [
-
-        ],
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitSelfPurge"
           }
-        ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
-        "filters": [
-
-        ],
-        "upgradesToRemove": [
-
         ]
       }
     }
   ],
   "rarity": 2,
-  "linkedClass": null,
-  "unlockLevel": 0,
   "numCardsToShowInUpgradeScreen": -1,
   "name": "Unhinged Power"
 }

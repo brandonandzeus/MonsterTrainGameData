@@ -1,158 +1,24 @@
 {
-  "m_Name": "SpellUpgradeCreateCopyWithPurge",
-  "id": "5328c6bf-b1ba-4192-b775-40568d4232d3",
   "nameKey": "EnhancerData_nameKey-64b8c47e2b3a0c30-a9dd01a868682ca4fbe9d19f0ddff096-v2",
   "descriptionKey": "EnhancerData_descriptionKey-55c99011b1cc2b49-a9dd01a868682ca4fbe9d19f0ddff096-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 2385
-  },
-  "divineVariant": false,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramSourceTeam": 0,
       "paramInt": 1,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
       "paramMinInt": 1,
       "paramMaxInt": 99,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
-      "paramTargetMode": 2,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
       "paramCardUpgradeData": {
-        "m_Name": "CreateSpellCopyWithPurge",
-        "id": "a75fc092-ca72-476b-b518-01e9ecb8d6a3",
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-aab3f288365dadb6-247b9fc70fae956459a879d60d5132cf-v2",
         "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-8c45242a403dc361-247b9fc70fae956459a879d60d5132cf-v2",
-        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 2385
-        },
-        "hideUpgradeIconOnCard": false,
-        "useUpgradeHighlightTextTags": true,
-        "isUnitSynthesisUpgrade": false,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
         "linkedPactDuplicateRarity": 1,
-        "bonusDamage": 0,
-        "bonusHP": 0,
-        "costReduction": 0,
-        "xCostReduction": 0,
-        "bonusHeal": 0,
-        "bonusSize": 0,
-        "statusEffectUpgrades": [
-
-        ],
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitCopyOnPlay",
-            "paramTrackedValue": 0,
-            "paramCardType": 0,
-            "paramEntryDuration": 0,
-            "paramStr": "",
             "paramInt": 1,
-            "paramFloat": 1.0,
             "paramSubtype": "0",
-            "paramUseScalingParams": false,
-            "traitIsRemovable": true,
-            "paramCardData": null,
             "paramCardUpgradeData": {
-              "m_Name": "CopyOnPlayTraitUpgrade",
-              "id": "513224dd-223f-48ed-bf0a-afd486aef98b",
-              "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "upgradeIcon": {
-                "m_FileID": 0,
-                "m_PathID": 0
-              },
-              "hideUpgradeIconOnCard": false,
-              "useUpgradeHighlightTextTags": true,
-              "isUnitSynthesisUpgrade": false,
-              "isUnique": false,
-              "sourceSynthesisUnit": null,
-              "linkedPactDuplicateRarity": 4,
-              "bonusDamage": 0,
-              "bonusHP": 0,
               "costReduction": -1,
               "xCostReduction": -1,
-              "bonusHeal": 0,
-              "bonusSize": 0,
-              "statusEffectUpgrades": [
-
-              ],
               "traitDataUpgrades": [
                 {
                   "traitStateName": "CardTraitSelfPurge"
@@ -160,227 +26,30 @@
               ],
               "removeTraitUpgrades": [
                 "CardTraitCopyOnPlay"
-              ],
-              "triggerUpgrades": [
-
-              ],
-              "cardTriggerUpgrades": [
-
-              ],
-              "roomModifierUpgrades": [
-
-              ],
-              "filters": [
-
-              ],
-              "upgradesToRemove": [
-
               ]
             },
-            "paramStatusEffects": [
-
-            ],
-            "paramTeamType": 0,
             "stackMode": 1
           }
         ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
         "filters": [
           {
-            "m_Name": "OnlySpells",
-            "cardType": 0,
-            "excludeNonAttackingMonsters": false,
-            "requiredSubtypesOperator": 0,
-            "requiredSubtypes": [
-
-            ],
-            "excludedSubtypesOperator": 0,
-            "excludedSubtypes": [
-
-            ],
-            "requiredStatusEffectsOperator": 0,
-            "requiredStatusEffects": [
-
-            ],
-            "excludedStatusEffectsOperator": 0,
-            "excludedStatusEffects": [
-
-            ],
-            "requiredCardTraitsOperator": 0,
-            "requiredCardTraits": [
-
-            ],
-            "excludedCardTraitsOperator": 0,
-            "excludedCardTraits": [
-
-            ],
-            "requiredCardEffectsOperator": 0,
-            "requiredCardEffects": [
-
-            ],
-            "excludedCardEffectsOperator": 0,
-            "excludedCardEffects": [
-
-            ],
-            "allowedCardPools": [
-
-            ],
-            "disallowedCardPools": [
-
-            ],
-            "requiredSizes": [
-
-            ],
-            "excludedSizes": [
-
-            ],
-            "costRange": {
-              "x": 0.0,
-              "y": 99.0
-            },
-            "requireXCost": false,
-            "excludeXCost": false,
-            "cardTargetMode": 0,
-            "upgradeDisabledReason": 0,
-            "excludeIfUnitSynthesized": false
+            "cardType": 0
           },
           {
-            "m_Name": "ExcludeUnplayable",
-            "cardType": 4,
-            "excludeNonAttackingMonsters": false,
-            "requiredSubtypesOperator": 0,
-            "requiredSubtypes": [
-
-            ],
-            "excludedSubtypesOperator": 0,
-            "excludedSubtypes": [
-
-            ],
-            "requiredStatusEffectsOperator": 0,
-            "requiredStatusEffects": [
-
-            ],
-            "excludedStatusEffectsOperator": 0,
-            "excludedStatusEffects": [
-
-            ],
-            "requiredCardTraitsOperator": 0,
-            "requiredCardTraits": [
-
-            ],
-            "excludedCardTraitsOperator": 0,
             "excludedCardTraits": [
               "CardTraitUnplayable"
-            ],
-            "requiredCardEffectsOperator": 0,
-            "requiredCardEffects": [
-
-            ],
-            "excludedCardEffectsOperator": 0,
-            "excludedCardEffects": [
-
-            ],
-            "allowedCardPools": [
-
-            ],
-            "disallowedCardPools": [
-
-            ],
-            "requiredSizes": [
-
-            ],
-            "excludedSizes": [
-
-            ],
-            "costRange": {
-              "x": 0.0,
-              "y": 99.0
-            },
-            "requireXCost": false,
-            "excludeXCost": false,
-            "cardTargetMode": 0,
-            "upgradeDisabledReason": 0,
-            "excludeIfUnitSynthesized": false
+            ]
           },
           {
-            "m_Name": "ExcludeSpellchain",
-            "cardType": 4,
-            "excludeNonAttackingMonsters": false,
-            "requiredSubtypesOperator": 0,
-            "requiredSubtypes": [
-
-            ],
-            "excludedSubtypesOperator": 0,
-            "excludedSubtypes": [
-
-            ],
-            "requiredStatusEffectsOperator": 0,
-            "requiredStatusEffects": [
-
-            ],
-            "excludedStatusEffectsOperator": 0,
-            "excludedStatusEffects": [
-
-            ],
-            "requiredCardTraitsOperator": 0,
-            "requiredCardTraits": [
-
-            ],
-            "excludedCardTraitsOperator": 0,
             "excludedCardTraits": [
               "CardTraitCopyOnPlay"
-            ],
-            "requiredCardEffectsOperator": 0,
-            "requiredCardEffects": [
-
-            ],
-            "excludedCardEffectsOperator": 0,
-            "excludedCardEffects": [
-
-            ],
-            "allowedCardPools": [
-
-            ],
-            "disallowedCardPools": [
-
-            ],
-            "requiredSizes": [
-
-            ],
-            "excludedSizes": [
-
-            ],
-            "costRange": {
-              "x": 0.0,
-              "y": 99.0
-            },
-            "requireXCost": false,
-            "excludeXCost": false,
-            "cardTargetMode": 0,
-            "upgradeDisabledReason": 0,
-            "excludeIfUnitSynthesized": false
+            ]
           }
-        ],
-        "upgradesToRemove": [
-
         ]
       }
     }
   ],
   "rarity": 1,
-  "linkedClass": null,
-  "unlockLevel": 0,
   "numCardsToShowInUpgradeScreen": 0,
   "name": "Twinstone"
 }

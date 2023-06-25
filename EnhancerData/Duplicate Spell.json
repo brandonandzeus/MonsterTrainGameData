@@ -1,158 +1,19 @@
 {
-  "m_Name": "SpellDuplicator",
-  "id": "584ed916-e6b5-4483-b9b7-be25f730b45e",
   "nameKey": "EnhancerData_nameKey-6f09cd895f57fd26-39b7a88463939d94ca64dc76b433d3a0-v2",
   "descriptionKey": "EnhancerData_descriptionKey-e030ab34d4f8b8bf-39b7a88463939d94ca64dc76b433d3a0-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 2608
-  },
-  "divineVariant": false,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectCardDuplicator",
-      "paramSourceTeam": 0,
       "paramInt": 1,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
-      "paramTargetMode": 2,
-      "paramRoomData": null,
       "paramCardType": 4,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
       "paramCardFilter": {
-        "m_Name": "ExcludeChampions",
-        "cardType": 4,
-        "excludeNonAttackingMonsters": false,
-        "requiredSubtypesOperator": 0,
-        "requiredSubtypes": [
-
-        ],
-        "excludedSubtypesOperator": 0,
         "excludedSubtypes": [
           "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
-        ],
-        "requiredStatusEffectsOperator": 0,
-        "requiredStatusEffects": [
-
-        ],
-        "excludedStatusEffectsOperator": 0,
-        "excludedStatusEffects": [
-
-        ],
-        "requiredCardTraitsOperator": 0,
-        "requiredCardTraits": [
-
-        ],
-        "excludedCardTraitsOperator": 0,
-        "excludedCardTraits": [
-
-        ],
-        "requiredCardEffectsOperator": 0,
-        "requiredCardEffects": [
-
-        ],
-        "excludedCardEffectsOperator": 0,
-        "excludedCardEffects": [
-
-        ],
-        "allowedCardPools": [
-
-        ],
-        "disallowedCardPools": [
-
-        ],
-        "requiredSizes": [
-
-        ],
-        "excludedSizes": [
-
-        ],
-        "costRange": {
-          "x": 0.0,
-          "y": 99.0
-        },
-        "requireXCost": false,
-        "excludeXCost": false,
-        "cardTargetMode": 0,
-        "upgradeDisabledReason": 0,
-        "excludeIfUnitSynthesized": false
-      },
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+        ]
+      }
     }
   ],
   "rarity": 2,
-  "linkedClass": null,
-  "unlockLevel": 0,
   "numCardsToShowInUpgradeScreen": -1,
   "name": "Duplicate Spell"
 }

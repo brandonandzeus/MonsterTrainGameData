@@ -1,43 +1,9 @@
 {
-  "m_Name": "UpgradeReplicatorSpellAnnhilate",
-  "id": "eeef8380-bc30-49a5-aff0-a125599bb554",
   "nameKey": "EnhancerData_nameKey-5577085b296f45f8-0392a443123dbfd4a903b082ef4ea704-v2",
   "descriptionKey": "EnhancerData_descriptionKey-e659cb70bd0d9f70-0392a443123dbfd4a903b082ef4ea704-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 1985
-  },
-  "divineVariant": false,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectUpgradeMatchingCards",
-      "paramSourceTeam": 0,
-      "paramInt": 0,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
-      "paramTargetMode": 2,
-      "paramRoomData": null,
       "paramCardType": 1,
       "paramCardPool": {
         "name": "ReplicatingSpellPool",
@@ -45,242 +11,45 @@
           "ReplicatingSpell"
         ]
       },
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
       "paramCardUpgradeData": {
-        "m_Name": "ReplicateOnKill_Upgrade",
-        "id": "c1f77cf3-3133-44c8-9d58-2343bc2b4e1f",
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-dead32365133578c-04ffcc053bd4ac24ba88534c127a9ccc-v2",
         "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-6590632670aa9442-04ffcc053bd4ac24ba88534c127a9ccc-v2",
-        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 1985
-        },
-        "hideUpgradeIconOnCard": false,
-        "useUpgradeHighlightTextTags": true,
-        "isUnitSynthesisUpgrade": false,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
-        "linkedPactDuplicateRarity": 4,
         "bonusDamage": 10,
-        "bonusHP": 0,
-        "costReduction": 0,
-        "xCostReduction": 0,
-        "bonusHeal": 0,
-        "bonusSize": 0,
-        "statusEffectUpgrades": [
-
-        ],
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitExhaustState"
           }
         ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
-        "filters": [
-
-        ],
         "upgradesToRemove": [
           {
-            "m_Name": "ReplicateOnKill",
-            "id": "1643e6fd-bda6-43fd-8853-816320292851",
             "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-b2b3472d948616a7-4572c98ab2c0b304e99ad9b1f0d3ceea-v2",
             "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-edd25fab23f64de0-4572c98ab2c0b304e99ad9b1f0d3ceea-v2",
-            "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "upgradeIcon": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "hideUpgradeIconOnCard": false,
             "useUpgradeHighlightTextTags": false,
-            "isUnitSynthesisUpgrade": false,
-            "isUnique": false,
-            "sourceSynthesisUnit": null,
-            "linkedPactDuplicateRarity": 4,
-            "bonusDamage": 0,
-            "bonusHP": 0,
-            "costReduction": 0,
-            "xCostReduction": 0,
-            "bonusHeal": 0,
-            "bonusSize": 0,
-            "statusEffectUpgrades": [
-
-            ],
-            "traitDataUpgrades": [
-
-            ],
-            "removeTraitUpgrades": [
-
-            ],
-            "triggerUpgrades": [
-
-            ],
             "cardTriggerUpgrades": [
               {
                 "trigger": 1,
                 "descriptionKey": "CardUpgradeData_descriptionKey-cfcf296da64eb0ae-4572c98ab2c0b304e99ad9b1f0d3ceea-v2",
-                "cardTriggerEffects": [
-
-                ],
                 "cardEffects": [
                   {
                     "effectStateName": "CardEffectAddRunCard",
-                    "targetMode": 0,
-                    "targetModeStatusEffectsFilter": [
-
-                    ],
-                    "targetModeHealthFilter": 0,
-                    "targetIgnoreBosses": false,
-                    "filterBasedOnMainSubClass": false,
                     "copyModifiersFromSource": true,
-                    "ignoreTemporaryModifiersFromSource": false,
                     "targetTeamType": 0,
-                    "targetCharacterSubtype": "SubtypesData_None",
-                    "targetCardType": 0,
-                    "targetCardSelectionMode": 0,
-                    "animToPlay": 0,
-                    "appliedToSelfVFX": {
-                      "vfxPrefabLeft": {
-                        "m_FileID": 0,
-                        "m_PathID": 0
-                      },
-                      "vfxPrefabRight": {
-                        "m_FileID": 0,
-                        "m_PathID": 0
-                      },
-                      "spawnLocation": 0,
-                      "facing": 0
-                    },
-                    "appliedVFX": {
-                      "vfxPrefabLeft": {
-                        "m_FileID": 0,
-                        "m_PathID": 0
-                      },
-                      "vfxPrefabRight": {
-                        "m_FileID": 0,
-                        "m_PathID": 0
-                      },
-                      "spawnLocation": 0,
-                      "facing": 0
-                    },
-                    "shouldTest": true,
-                    "useIntRange": false,
                     "paramInt": 1,
-                    "additionalParamInt": 0,
-                    "paramStr": "",
-                    "paramBool": false,
-                    "paramSubtype": "SubtypesData_None",
-                    "paramMinInt": 0,
-                    "paramMaxInt": 0,
-                    "paramMultiplier": 1.0,
-                    "useStatusEffectStackMultiplier": false,
-                    "statusEffectStackMultiplier": "",
-                    "paramCharacterData": null,
-                    "paramAdditionalCharacterData": null,
-                    "paramCharacterDataPool": [
-
-                    ],
-                    "paramRoomData": null,
                     "paramCardPool": {
                       "name": "ReplicatingSpellPool",
                       "cardDataList": [
                         "ReplicatingSpell"
                       ]
-                    },
-                    "paramCardFilter": null,
-                    "paramTrigger": 0,
-                    "paramStatusEffects": [
-
-                    ],
-                    "paramCardUpgradeData": null,
-                    "paramTimingDelays": {
-                      "x": 0.0,
-                      "y": 0.0,
-                      "z": 0.0
-                    },
-                    "hideTooltip": false,
-                    "additionalTooltips": [
-
-                    ]
+                    }
                   }
                 ]
               }
-            ],
-            "roomModifierUpgrades": [
-
-            ],
-            "filters": [
-
-            ],
-            "upgradesToRemove": [
-
             ]
           }
         ]
       }
     }
   ],
-  "rarity": 0,
-  "linkedClass": null,
-  "unlockLevel": 0,
   "numCardsToShowInUpgradeScreen": -1,
   "name": "Improved Railspike"
 }

@@ -1,273 +1,37 @@
 {
-  "m_Name": "SpellUpgradeTraitAddPermafrost",
-  "id": "a13a7545-0bc8-4c30-aa0e-da651894cebb",
   "nameKey": "EnhancerData_nameKey-b42b552129a8fab6-b6bce20915b5f134ebc7a36f760c3a3f-v2",
   "descriptionKey": "EnhancerData_descriptionKey-31813739969f663e-b6bce20915b5f134ebc7a36f760c3a3f-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 2064
-  },
-  "divineVariant": false,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramSourceTeam": 0,
-      "paramInt": 0,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
-      "paramTargetMode": 2,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
       "additionalTooltips": [
         {
           "titleKey": "CardTraitFreeze_CardText",
-          "descriptionKey": "CardTraitFreeze_TooltipText",
-          "style": 8,
-          "isStatusTooltip": false,
-          "statusId": "",
-          "isTriggerTooltip": false,
-          "trigger": 0,
-          "isTipTooltip": false
+          "descriptionKey": "CardTraitFreeze_TooltipText"
         }
       ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
       "paramCardUpgradeData": {
-        "m_Name": "TraitPermafrost",
-        "id": "e0af4fe5-75c0-4017-ae5e-5a87099aa6c5",
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-c6e03c87ae41158b-27b62cd2a301c3f4aa2a39226668b1c5-v2",
         "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-115fd1801a8d83b1-27b62cd2a301c3f4aa2a39226668b1c5-v2",
-        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 2064
-        },
-        "hideUpgradeIconOnCard": false,
-        "useUpgradeHighlightTextTags": true,
-        "isUnitSynthesisUpgrade": false,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
-        "linkedPactDuplicateRarity": 4,
-        "bonusDamage": 0,
-        "bonusHP": 0,
-        "costReduction": 0,
-        "xCostReduction": 0,
-        "bonusHeal": 0,
-        "bonusSize": 0,
-        "statusEffectUpgrades": [
-
-        ],
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitPermafrost"
           }
         ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
         "filters": [
           {
-            "m_Name": "ExcludePermafrost",
-            "cardType": 4,
-            "excludeNonAttackingMonsters": false,
-            "requiredSubtypesOperator": 0,
-            "requiredSubtypes": [
-
-            ],
-            "excludedSubtypesOperator": 0,
-            "excludedSubtypes": [
-
-            ],
-            "requiredStatusEffectsOperator": 0,
-            "requiredStatusEffects": [
-
-            ],
-            "excludedStatusEffectsOperator": 0,
-            "excludedStatusEffects": [
-
-            ],
-            "requiredCardTraitsOperator": 0,
-            "requiredCardTraits": [
-
-            ],
-            "excludedCardTraitsOperator": 0,
             "excludedCardTraits": [
               "CardTraitPermafrost"
-            ],
-            "requiredCardEffectsOperator": 0,
-            "requiredCardEffects": [
-
-            ],
-            "excludedCardEffectsOperator": 0,
-            "excludedCardEffects": [
-
-            ],
-            "allowedCardPools": [
-
-            ],
-            "disallowedCardPools": [
-
-            ],
-            "requiredSizes": [
-
-            ],
-            "excludedSizes": [
-
-            ],
-            "costRange": {
-              "x": 0.0,
-              "y": 99.0
-            },
-            "requireXCost": false,
-            "excludeXCost": false,
-            "cardTargetMode": 0,
-            "upgradeDisabledReason": 0,
-            "excludeIfUnitSynthesized": false
+            ]
           },
           {
-            "m_Name": "OnlySpells",
-            "cardType": 0,
-            "excludeNonAttackingMonsters": false,
-            "requiredSubtypesOperator": 0,
-            "requiredSubtypes": [
-
-            ],
-            "excludedSubtypesOperator": 0,
-            "excludedSubtypes": [
-
-            ],
-            "requiredStatusEffectsOperator": 0,
-            "requiredStatusEffects": [
-
-            ],
-            "excludedStatusEffectsOperator": 0,
-            "excludedStatusEffects": [
-
-            ],
-            "requiredCardTraitsOperator": 0,
-            "requiredCardTraits": [
-
-            ],
-            "excludedCardTraitsOperator": 0,
-            "excludedCardTraits": [
-
-            ],
-            "requiredCardEffectsOperator": 0,
-            "requiredCardEffects": [
-
-            ],
-            "excludedCardEffectsOperator": 0,
-            "excludedCardEffects": [
-
-            ],
-            "allowedCardPools": [
-
-            ],
-            "disallowedCardPools": [
-
-            ],
-            "requiredSizes": [
-
-            ],
-            "excludedSizes": [
-
-            ],
-            "costRange": {
-              "x": 0.0,
-              "y": 99.0
-            },
-            "requireXCost": false,
-            "excludeXCost": false,
-            "cardTargetMode": 0,
-            "upgradeDisabledReason": 0,
-            "excludeIfUnitSynthesized": false
+            "cardType": 0
           }
-        ],
-        "upgradesToRemove": [
-
         ]
       }
     }
   ],
   "rarity": 1,
-  "linkedClass": null,
-  "unlockLevel": 0,
   "numCardsToShowInUpgradeScreen": 0,
   "name": "Freezestone"
 }
