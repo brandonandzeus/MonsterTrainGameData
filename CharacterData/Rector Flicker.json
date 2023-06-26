@@ -1,0 +1,124 @@
+{
+  "m_Name": "MonsterHarvestAttack",
+  "id": "ec9f628a-7391-4a57-bc3e-e2aece3f99ac",
+  "nameKey": "CharacterData_nameKey-dc5a1f98c4389c55-9a735b0e897f3f4428d6c6b47309dff2-v2",
+  "characterPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_RfrFlicker.prefab",
+    "m_AssetGUID": "2325e2aa3bf97994a822559c6b27c8de"
+  },
+  "pactCrystalsRequiredCount": -1,
+  "bypassPactCrystalsUpgradeDataList": [
+
+  ],
+  "size": 2,
+  "blockVisualSizeIncrease": false,
+  "health": 10,
+  "canBeHealed": true,
+  "isOuterTrainBoss": false,
+  "validBossAttackPhase": 2,
+  "isMiniboss": false,
+  "deathType": 0,
+  "canAttack": true,
+  "ascendsTrainAutomatically": true,
+  "attackDamage": 10,
+  "animationController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "attackTeleportsToDefender": true,
+  "deathSlidesBackwards": true,
+  "projectilePrefab": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "impactVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "deathVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossRoomSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "startingStatusEffects": [
+    {
+      "statusId": "rooted",
+      "count": 0
+    }
+  ],
+  "statusEffectImmunities": [
+
+  ],
+  "triggers": [
+
+  ],
+  "subtypeKeys": [
+    "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
+  ],
+  "removeTriggersOnRelentlessChange": false,
+  "bossActionGroups": [
+
+  ],
+  "characterSoundData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterChatterData": {
+    "m_FileID": 0,
+    "m_PathID": 16590
+  },
+  "characterLoreTooltipKeys": [
+    "CharacterData_data-effe665977c02103-9a735b0e897f3f4428d6c6b47309dff2-v2"
+  ],
+  "roomModifiers": [
+
+  ],
+  "name": "Rector Flicker"
+}

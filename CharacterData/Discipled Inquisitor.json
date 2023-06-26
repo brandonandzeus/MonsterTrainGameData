@@ -1,0 +1,342 @@
+{
+  "m_Name": "Boss_Level1",
+  "id": "2a9d8b6f-1923-4928-ab58-90513dc687c9",
+  "nameKey": "CharacterData_nameKey-d590816fbc483e03-d3a228dfe0d5d2e4a828083fbc969db6-v2",
+  "characterPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/Characters/Character_Prefabs/Character_PrimeInquisitor.prefab",
+    "m_AssetGUID": "274555afe4e154e2c864513c453cbc2a"
+  },
+  "pactCrystalsRequiredCount": -1,
+  "bypassPactCrystalsUpgradeDataList": [
+    {
+      "isRepeatable": true,
+      "covenantUpgrade": false,
+      "requiredCovenantLevel": 10,
+      "crystalsCount": 5,
+      "upgradeData": {
+        "m_Name": "Boss_Level1_UpgradeA",
+        "id": "59e06401-2c37-47e1-a693-503007f6c430",
+        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeIcon": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "hideUpgradeIconOnCard": false,
+        "useUpgradeHighlightTextTags": false,
+        "isUnitSynthesisUpgrade": false,
+        "isUnique": false,
+        "sourceSynthesisUnit": null,
+        "linkedPactDuplicateRarity": 4,
+        "bonusDamage": 0,
+        "bonusHP": 0,
+        "costReduction": 0,
+        "xCostReduction": 0,
+        "bonusHeal": 0,
+        "bonusSize": 0,
+        "statusEffectUpgrades": [
+          {
+            "statusId": "armor",
+            "count": 5
+          }
+        ],
+        "traitDataUpgrades": [
+
+        ],
+        "removeTraitUpgrades": [
+
+        ],
+        "triggerUpgrades": [
+
+        ],
+        "cardTriggerUpgrades": [
+
+        ],
+        "roomModifierUpgrades": [
+
+        ],
+        "filters": [
+
+        ],
+        "upgradesToRemove": [
+
+        ]
+      }
+    },
+    {
+      "isRepeatable": true,
+      "covenantUpgrade": false,
+      "requiredCovenantLevel": 10,
+      "crystalsCount": 15,
+      "upgradeData": {
+        "m_Name": "Boss_Level1_UpgradeB",
+        "id": "24ed0f79-7859-4a36-8928-55665c8a48c0",
+        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeIcon": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "hideUpgradeIconOnCard": false,
+        "useUpgradeHighlightTextTags": false,
+        "isUnitSynthesisUpgrade": false,
+        "isUnique": false,
+        "sourceSynthesisUnit": null,
+        "linkedPactDuplicateRarity": 4,
+        "bonusDamage": 1,
+        "bonusHP": 0,
+        "costReduction": 0,
+        "xCostReduction": 0,
+        "bonusHeal": 0,
+        "bonusSize": 0,
+        "statusEffectUpgrades": [
+
+        ],
+        "traitDataUpgrades": [
+
+        ],
+        "removeTraitUpgrades": [
+
+        ],
+        "triggerUpgrades": [
+
+        ],
+        "cardTriggerUpgrades": [
+
+        ],
+        "roomModifierUpgrades": [
+
+        ],
+        "filters": [
+
+        ],
+        "upgradesToRemove": [
+
+        ]
+      }
+    },
+    {
+      "isRepeatable": false,
+      "covenantUpgrade": true,
+      "requiredCovenantLevel": 10,
+      "crystalsCount": 10,
+      "upgradeData": {
+        "m_Name": "Boss_Level1_UpgradeC",
+        "id": "92be88a0-0e36-4908-accf-e442f5d54937",
+        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeIcon": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "hideUpgradeIconOnCard": false,
+        "useUpgradeHighlightTextTags": false,
+        "isUnitSynthesisUpgrade": false,
+        "isUnique": false,
+        "sourceSynthesisUnit": null,
+        "linkedPactDuplicateRarity": 4,
+        "bonusDamage": 0,
+        "bonusHP": 0,
+        "costReduction": 0,
+        "xCostReduction": 0,
+        "bonusHeal": 0,
+        "bonusSize": 0,
+        "statusEffectUpgrades": [
+          {
+            "statusId": "trample",
+            "count": 1
+          }
+        ],
+        "traitDataUpgrades": [
+
+        ],
+        "removeTraitUpgrades": [
+
+        ],
+        "triggerUpgrades": [
+
+        ],
+        "cardTriggerUpgrades": [
+
+        ],
+        "roomModifierUpgrades": [
+
+        ],
+        "filters": [
+
+        ],
+        "upgradesToRemove": [
+
+        ]
+      }
+    },
+    {
+      "isRepeatable": false,
+      "covenantUpgrade": false,
+      "requiredCovenantLevel": 10,
+      "crystalsCount": 15,
+      "upgradeData": {
+        "m_Name": "Boss_GainCapacity_Upgrade",
+        "id": "c7ab1921-5fd6-4fdb-bec3-66219fafcc55",
+        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeIcon": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "hideUpgradeIconOnCard": false,
+        "useUpgradeHighlightTextTags": false,
+        "isUnitSynthesisUpgrade": false,
+        "isUnique": false,
+        "sourceSynthesisUnit": null,
+        "linkedPactDuplicateRarity": 4,
+        "bonusDamage": 0,
+        "bonusHP": 0,
+        "costReduction": 0,
+        "xCostReduction": 0,
+        "bonusHeal": 0,
+        "bonusSize": 1,
+        "statusEffectUpgrades": [
+
+        ],
+        "traitDataUpgrades": [
+
+        ],
+        "removeTraitUpgrades": [
+
+        ],
+        "triggerUpgrades": [
+
+        ],
+        "cardTriggerUpgrades": [
+
+        ],
+        "roomModifierUpgrades": [
+
+        ],
+        "filters": [
+
+        ],
+        "upgradesToRemove": [
+
+        ]
+      }
+    }
+  ],
+  "size": 5,
+  "blockVisualSizeIncrease": false,
+  "health": 50,
+  "canBeHealed": true,
+  "isOuterTrainBoss": false,
+  "validBossAttackPhase": 2,
+  "isMiniboss": true,
+  "deathType": 1,
+  "canAttack": true,
+  "ascendsTrainAutomatically": true,
+  "attackDamage": 4,
+  "animationController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "attackTeleportsToDefender": true,
+  "deathSlidesBackwards": true,
+  "projectilePrefab": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "impactVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "deathVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossRoomSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "startingStatusEffects": [
+    {
+      "statusId": "relentless",
+      "count": 1
+    }
+  ],
+  "statusEffectImmunities": [
+
+  ],
+  "triggers": [
+
+  ],
+  "subtypeKeys": [
+    "SubtypesData_BossT1_8850292e-bda8-428e-8d71-c375c29838f8",
+    "SubtypesData_Boss"
+  ],
+  "removeTriggersOnRelentlessChange": false,
+  "bossActionGroups": [
+
+  ],
+  "characterSoundData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterChatterData": {
+    "m_FileID": 0,
+    "m_PathID": 16603
+  },
+  "characterLoreTooltipKeys": [
+    "CharacterData_data-2c87bcd57492b623-d3a228dfe0d5d2e4a828083fbc969db6-v2"
+  ],
+  "roomModifiers": [
+
+  ],
+  "name": "Discipled Inquisitor"
+}

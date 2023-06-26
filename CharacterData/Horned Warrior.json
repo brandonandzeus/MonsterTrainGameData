@@ -1,0 +1,125 @@
+{
+  "m_Name": "BasicDemon",
+  "id": "0dd7eb63-1482-4075-b6af-f3a41c207601",
+  "nameKey": "CharacterData_nameKey-9d6e56362af844e9-2bdf15d54745dde4dbeb851405ec4342-v2",
+  "characterPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/Characters/Character_Prefabs/Character_Demon_Axe.prefab",
+    "m_AssetGUID": "ae409de5ab108824ea1378ba1113f56f"
+  },
+  "pactCrystalsRequiredCount": -1,
+  "bypassPactCrystalsUpgradeDataList": [
+
+  ],
+  "size": 2,
+  "blockVisualSizeIncrease": false,
+  "health": 5,
+  "canBeHealed": true,
+  "isOuterTrainBoss": false,
+  "validBossAttackPhase": 2,
+  "isMiniboss": false,
+  "deathType": 0,
+  "canAttack": true,
+  "ascendsTrainAutomatically": true,
+  "attackDamage": 15,
+  "animationController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "attackTeleportsToDefender": true,
+  "deathSlidesBackwards": true,
+  "projectilePrefab": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "impactVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "deathVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossRoomSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "startingStatusEffects": [
+    {
+      "statusId": "multistrike",
+      "count": 1
+    }
+  ],
+  "statusEffectImmunities": [
+
+  ],
+  "triggers": [
+
+  ],
+  "subtypeKeys": [
+    "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12",
+    "SubtypesData_Chosen"
+  ],
+  "removeTriggersOnRelentlessChange": false,
+  "bossActionGroups": [
+
+  ],
+  "characterSoundData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterChatterData": {
+    "m_FileID": 0,
+    "m_PathID": 16578
+  },
+  "characterLoreTooltipKeys": [
+    "CharacterData_data-0dc06663794dea03-2bdf15d54745dde4dbeb851405ec4342-v2"
+  ],
+  "roomModifiers": [
+
+  ],
+  "name": "Horned Warrior"
+}

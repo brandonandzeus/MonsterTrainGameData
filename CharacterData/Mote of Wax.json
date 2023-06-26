@@ -1,0 +1,121 @@
+{
+  "m_Name": "MonsterSplitterSmall",
+  "id": "ea008872-27fa-4e05-9c8e-2fdcb7928257",
+  "nameKey": "CharacterData_nameKey-484a18b6a06a30d1-5818e71fe5600b94a91c02786f8ce23a-v2",
+  "characterPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_LegionOfWax_1x_.prefab",
+    "m_AssetGUID": "721d37be57b5e7c4398c877eeb1c747e"
+  },
+  "pactCrystalsRequiredCount": -1,
+  "bypassPactCrystalsUpgradeDataList": [
+
+  ],
+  "size": 1,
+  "blockVisualSizeIncrease": false,
+  "health": 2,
+  "canBeHealed": true,
+  "isOuterTrainBoss": false,
+  "validBossAttackPhase": 2,
+  "isMiniboss": false,
+  "deathType": 0,
+  "canAttack": true,
+  "ascendsTrainAutomatically": true,
+  "attackDamage": 2,
+  "animationController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "attackTeleportsToDefender": true,
+  "deathSlidesBackwards": true,
+  "projectilePrefab": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "impactVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "deathVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossRoomSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "startingStatusEffects": [
+
+  ],
+  "statusEffectImmunities": [
+
+  ],
+  "triggers": [
+
+  ],
+  "subtypeKeys": [
+    "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
+  ],
+  "removeTriggersOnRelentlessChange": false,
+  "bossActionGroups": [
+
+  ],
+  "characterSoundData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterChatterData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterLoreTooltipKeys": [
+    "CharacterData_data-7cf86cb693cc1d04-5818e71fe5600b94a91c02786f8ce23a-v2"
+  ],
+  "roomModifiers": [
+
+  ],
+  "name": "Mote of Wax"
+}

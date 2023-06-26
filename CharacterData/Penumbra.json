@@ -1,0 +1,121 @@
+{
+  "m_Name": "MonsterChampionUmbraPenumbra",
+  "id": "faac49ff-b978-402b-b181-d058bacda4ce",
+  "nameKey": "CharacterData_nameKey-0d77bd0e843582a5-c3d87d4c5a8d72a45978159dc1587496-v2",
+  "characterPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_Penumbra.prefab",
+    "m_AssetGUID": "0adcd79e3ada30e498c526c38f4f5d4c"
+  },
+  "pactCrystalsRequiredCount": -1,
+  "bypassPactCrystalsUpgradeDataList": [
+
+  ],
+  "size": 3,
+  "blockVisualSizeIncrease": false,
+  "health": 20,
+  "canBeHealed": true,
+  "isOuterTrainBoss": false,
+  "validBossAttackPhase": 2,
+  "isMiniboss": false,
+  "deathType": 1,
+  "canAttack": true,
+  "ascendsTrainAutomatically": true,
+  "attackDamage": 20,
+  "animationController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "attackTeleportsToDefender": true,
+  "deathSlidesBackwards": true,
+  "projectilePrefab": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "impactVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "deathVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossRoomSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "startingStatusEffects": [
+
+  ],
+  "statusEffectImmunities": [
+
+  ],
+  "triggers": [
+
+  ],
+  "subtypeKeys": [
+    "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
+  ],
+  "removeTriggersOnRelentlessChange": false,
+  "bossActionGroups": [
+
+  ],
+  "characterSoundData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterChatterData": {
+    "m_FileID": 0,
+    "m_PathID": 16627
+  },
+  "characterLoreTooltipKeys": [
+    "CharacterData_data-5e38e0fa274924e5-c3d87d4c5a8d72a45978159dc1587496-v2"
+  ],
+  "roomModifiers": [
+
+  ],
+  "name": "Penumbra"
+}

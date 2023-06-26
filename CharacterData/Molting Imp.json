@@ -1,0 +1,206 @@
+{
+  "m_Name": "MonsterUnstableInfery",
+  "id": "4da55ac3-66f1-44dc-a227-4cafa49cc2d6",
+  "nameKey": "CharacterData_nameKey-0466c4a3b24b9eb1-148d3d07d98db814cb0bbbb144ca4aad-v2",
+  "characterPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/characters/Character_Prefabs/Character_MoultingImp.prefab",
+    "m_AssetGUID": "0e05f8063ee61ce4497f009c88c45ec8"
+  },
+  "pactCrystalsRequiredCount": -1,
+  "bypassPactCrystalsUpgradeDataList": [
+
+  ],
+  "size": 1,
+  "blockVisualSizeIncrease": false,
+  "health": 1,
+  "canBeHealed": true,
+  "isOuterTrainBoss": false,
+  "validBossAttackPhase": 2,
+  "isMiniboss": false,
+  "deathType": 0,
+  "canAttack": true,
+  "ascendsTrainAutomatically": true,
+  "attackDamage": 1,
+  "animationController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "attackTeleportsToDefender": true,
+  "deathSlidesBackwards": true,
+  "projectilePrefab": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "impactVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "deathVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossRoomSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "startingStatusEffects": [
+
+  ],
+  "statusEffectImmunities": [
+
+  ],
+  "triggers": [
+    {
+      "trigger": 2,
+      "descriptionKey": "CharacterData_descriptionKey-112c90544ec0835b-148d3d07d98db814cb0bbbb144ca4aad-v2",
+      "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "displayEffectHintText": false,
+      "hideTriggerTooltip": false,
+      "effects": [
+        {
+          "effectStateName": "CardEffectDamage",
+          "targetMode": 0,
+          "targetModeStatusEffectsFilter": [
+
+          ],
+          "targetModeHealthFilter": 0,
+          "targetIgnoreBosses": false,
+          "filterBasedOnMainSubClass": false,
+          "copyModifiersFromSource": false,
+          "ignoreTemporaryModifiersFromSource": false,
+          "targetTeamType": 1,
+          "targetCharacterSubtype": "SubtypesData_None",
+          "targetCardType": 0,
+          "targetCardSelectionMode": 0,
+          "animToPlay": 0,
+          "appliedToSelfVFX": {
+            "vfxPrefabLeft": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "vfxPrefabRight": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spawnLocation": 0,
+            "facing": 0
+          },
+          "appliedVFX": {
+            "vfxPrefabLeft": {
+              "m_FileID": 0,
+              "m_PathID": 4442
+            },
+            "vfxPrefabRight": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spawnLocation": 4,
+            "facing": 0
+          },
+          "shouldTest": true,
+          "useIntRange": false,
+          "paramInt": 5,
+          "additionalParamInt": 0,
+          "paramStr": "",
+          "paramBool": false,
+          "paramSubtype": "SubtypesData_None",
+          "paramMinInt": 0,
+          "paramMaxInt": 0,
+          "paramMultiplier": 1.0,
+          "useStatusEffectStackMultiplier": false,
+          "statusEffectStackMultiplier": "rooted",
+          "paramCharacterData": null,
+          "paramAdditionalCharacterData": null,
+          "paramCharacterDataPool": [
+
+          ],
+          "paramRoomData": null,
+          "paramCardPool": [
+
+          ],
+          "paramCardFilter": null,
+          "paramTrigger": 0,
+          "paramStatusEffects": [
+
+          ],
+          "paramCardUpgradeData": null,
+          "paramTimingDelays": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "hideTooltip": false,
+          "additionalTooltips": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "subtypeKeys": [
+    "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
+  ],
+  "removeTriggersOnRelentlessChange": false,
+  "bossActionGroups": [
+
+  ],
+  "characterSoundData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterChatterData": {
+    "m_FileID": 0,
+    "m_PathID": 16586
+  },
+  "characterLoreTooltipKeys": [
+    "CharacterData_data-b4bc28bc8b768f6b-148d3d07d98db814cb0bbbb144ca4aad-v2"
+  ],
+  "roomModifiers": [
+
+  ],
+  "name": "Molting Imp"
+}

@@ -1,0 +1,137 @@
+{
+  "m_Name": "ShardChanneler",
+  "id": "252db09f-e0f2-4ab3-89f2-685892c69f1b",
+  "nameKey": "CharacterData_nameKey-44800192a2ad89e1-07bef0b8712e5374e9f1e20f1b06367a-v2",
+  "characterPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_ShardChanneler.prefab",
+    "m_AssetGUID": "13b83ec45ff004d4ab5f202dd997ed73"
+  },
+  "pactCrystalsRequiredCount": -1,
+  "bypassPactCrystalsUpgradeDataList": [
+
+  ],
+  "size": 1,
+  "blockVisualSizeIncrease": false,
+  "health": 2,
+  "canBeHealed": true,
+  "isOuterTrainBoss": false,
+  "validBossAttackPhase": 2,
+  "isMiniboss": false,
+  "deathType": 0,
+  "canAttack": true,
+  "ascendsTrainAutomatically": true,
+  "attackDamage": 0,
+  "animationController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "attackTeleportsToDefender": true,
+  "deathSlidesBackwards": true,
+  "projectilePrefab": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "impactVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "deathVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossRoomSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "startingStatusEffects": [
+
+  ],
+  "statusEffectImmunities": [
+
+  ],
+  "triggers": [
+
+  ],
+  "subtypeKeys": [
+    "SubtypesData_Cultist_8a3bb2b5-8c56-4c86-bb08-85b95c488f23"
+  ],
+  "removeTriggersOnRelentlessChange": false,
+  "bossActionGroups": [
+
+  ],
+  "characterSoundData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterChatterData": {
+    "m_FileID": 0,
+    "m_PathID": 16574
+  },
+  "characterLoreTooltipKeys": [
+    "CharacterData_data-7b928b4a2375a76a-07bef0b8712e5374e9f1e20f1b06367a-v2"
+  ],
+  "roomModifiers": [
+    {
+      "roomStateModifierClassName": "RoomStateSpikesDamageModifier",
+      "descriptionKey": "CharacterData_descriptionKey-edcc8beca986d582-07bef0b8712e5374e9f1e20f1b06367a-v2",
+      "descriptionKeyInPlay": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "icon": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "paramInt": 1,
+      "paramSubtype": "SubtypesData_None",
+      "paramStatusEffects": [
+
+      ],
+      "extraTooltipTitleKey": "",
+      "extraTooltipBodyKey": "",
+      "paramCardUpgradeData": null
+    }
+  ],
+  "name": "Shard Channeler"
+}

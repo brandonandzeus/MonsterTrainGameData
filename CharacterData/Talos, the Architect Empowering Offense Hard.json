@@ -1,0 +1,382 @@
+{
+  "m_Name": "Boss_Level3TalosArmorOnKill_Harder",
+  "id": "0ca6c2a3-6fd2-4a39-aad5-83d969f0611d",
+  "nameKey": "CharacterData_nameKey-f4617209c7eb96e9-289dd94ae2111df4a9a9eb976321380b-v2",
+  "characterPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_TalosTheArchitect.prefab",
+    "m_AssetGUID": "e03529fce718a5f43b0d19d2b63b10f9"
+  },
+  "pactCrystalsRequiredCount": -1,
+  "bypassPactCrystalsUpgradeDataList": [
+    {
+      "isRepeatable": true,
+      "covenantUpgrade": false,
+      "requiredCovenantLevel": 10,
+      "crystalsCount": 5,
+      "upgradeData": {
+        "m_Name": "Boss_Level3TalosArmorOnKill_UpgradeA",
+        "id": "3ea75d1b-de58-4e17-9d1c-02d546f1e1f9",
+        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeIcon": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "hideUpgradeIconOnCard": false,
+        "useUpgradeHighlightTextTags": false,
+        "isUnitSynthesisUpgrade": false,
+        "isUnique": false,
+        "sourceSynthesisUnit": null,
+        "linkedPactDuplicateRarity": 4,
+        "bonusDamage": 0,
+        "bonusHP": 5,
+        "costReduction": 0,
+        "xCostReduction": 0,
+        "bonusHeal": 0,
+        "bonusSize": 0,
+        "statusEffectUpgrades": [
+
+        ],
+        "traitDataUpgrades": [
+
+        ],
+        "removeTraitUpgrades": [
+
+        ],
+        "triggerUpgrades": [
+
+        ],
+        "cardTriggerUpgrades": [
+
+        ],
+        "roomModifierUpgrades": [
+
+        ],
+        "filters": [
+
+        ],
+        "upgradesToRemove": [
+
+        ]
+      }
+    },
+    {
+      "isRepeatable": true,
+      "covenantUpgrade": false,
+      "requiredCovenantLevel": 10,
+      "crystalsCount": 15,
+      "upgradeData": {
+        "m_Name": "Boss_Level3TalosArmorOnKill_UpgradeB",
+        "id": "47b9cb16-22d1-4e46-913c-8d8fb3ce86e9",
+        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeIcon": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "hideUpgradeIconOnCard": false,
+        "useUpgradeHighlightTextTags": false,
+        "isUnitSynthesisUpgrade": false,
+        "isUnique": false,
+        "sourceSynthesisUnit": null,
+        "linkedPactDuplicateRarity": 4,
+        "bonusDamage": 1,
+        "bonusHP": 0,
+        "costReduction": 0,
+        "xCostReduction": 0,
+        "bonusHeal": 0,
+        "bonusSize": 0,
+        "statusEffectUpgrades": [
+
+        ],
+        "traitDataUpgrades": [
+
+        ],
+        "removeTraitUpgrades": [
+
+        ],
+        "triggerUpgrades": [
+
+        ],
+        "cardTriggerUpgrades": [
+
+        ],
+        "roomModifierUpgrades": [
+
+        ],
+        "filters": [
+
+        ],
+        "upgradesToRemove": [
+
+        ]
+      }
+    },
+    {
+      "isRepeatable": true,
+      "covenantUpgrade": true,
+      "requiredCovenantLevel": 10,
+      "crystalsCount": 5,
+      "upgradeData": {
+        "m_Name": "Boss_Level3TalosArmorOnKill_UpgradeC",
+        "id": "14e2d06f-19fa-4fb4-ae00-b58db61aacb4",
+        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "upgradeIcon": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "hideUpgradeIconOnCard": false,
+        "useUpgradeHighlightTextTags": false,
+        "isUnitSynthesisUpgrade": false,
+        "isUnique": false,
+        "sourceSynthesisUnit": null,
+        "linkedPactDuplicateRarity": 4,
+        "bonusDamage": 0,
+        "bonusHP": 0,
+        "costReduction": 0,
+        "xCostReduction": 0,
+        "bonusHeal": 0,
+        "bonusSize": 0,
+        "statusEffectUpgrades": [
+          {
+            "statusId": "armor",
+            "count": 10
+          }
+        ],
+        "traitDataUpgrades": [
+
+        ],
+        "removeTraitUpgrades": [
+
+        ],
+        "triggerUpgrades": [
+
+        ],
+        "cardTriggerUpgrades": [
+
+        ],
+        "roomModifierUpgrades": [
+
+        ],
+        "filters": [
+
+        ],
+        "upgradesToRemove": [
+
+        ]
+      }
+    }
+  ],
+  "size": 6,
+  "blockVisualSizeIncrease": false,
+  "health": 450,
+  "canBeHealed": true,
+  "isOuterTrainBoss": true,
+  "validBossAttackPhase": -1,
+  "isMiniboss": false,
+  "deathType": 2,
+  "canAttack": true,
+  "ascendsTrainAutomatically": true,
+  "attackDamage": 7,
+  "animationController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "attackTeleportsToDefender": true,
+  "deathSlidesBackwards": true,
+  "projectilePrefab": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "impactVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "deathVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 5407
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 3,
+    "facing": 0
+  },
+  "bossRoomSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 3680
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 1,
+    "facing": 0
+  },
+  "startingStatusEffects": [
+
+  ],
+  "statusEffectImmunities": [
+    "rooted"
+  ],
+  "triggers": [
+    {
+      "trigger": 4,
+      "descriptionKey": "CharacterData_descriptionKey-ee34d4d988f1b07a-289dd94ae2111df4a9a9eb976321380b-v2",
+      "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "displayEffectHintText": false,
+      "hideTriggerTooltip": false,
+      "effects": [
+        {
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": 5,
+          "targetModeStatusEffectsFilter": [
+
+          ],
+          "targetModeHealthFilter": 0,
+          "targetIgnoreBosses": false,
+          "filterBasedOnMainSubClass": false,
+          "copyModifiersFromSource": false,
+          "ignoreTemporaryModifiersFromSource": false,
+          "targetTeamType": 0,
+          "targetCharacterSubtype": "SubtypesData_None",
+          "targetCardType": 0,
+          "targetCardSelectionMode": 0,
+          "animToPlay": 0,
+          "appliedToSelfVFX": {
+            "vfxPrefabLeft": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "vfxPrefabRight": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spawnLocation": 0,
+            "facing": 0
+          },
+          "appliedVFX": {
+            "vfxPrefabLeft": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "vfxPrefabRight": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spawnLocation": 0,
+            "facing": 0
+          },
+          "shouldTest": true,
+          "useIntRange": false,
+          "paramInt": 100,
+          "additionalParamInt": 0,
+          "paramStr": "",
+          "paramBool": false,
+          "paramSubtype": "SubtypesData_None",
+          "paramMinInt": 0,
+          "paramMaxInt": 0,
+          "paramMultiplier": 1.0,
+          "useStatusEffectStackMultiplier": false,
+          "statusEffectStackMultiplier": "",
+          "paramCharacterData": null,
+          "paramAdditionalCharacterData": null,
+          "paramCharacterDataPool": [
+
+          ],
+          "paramRoomData": null,
+          "paramCardPool": [
+
+          ],
+          "paramCardFilter": null,
+          "paramTrigger": 0,
+          "paramStatusEffects": [
+            {
+              "statusId": "armor",
+              "count": 25
+            }
+          ],
+          "paramCardUpgradeData": null,
+          "paramTimingDelays": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "hideTooltip": false,
+          "additionalTooltips": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "subtypeKeys": [
+    "SubtypesData_BigBossT1_50952308-e0f3-4acb-b0cc-e0d662b868b8"
+  ],
+  "removeTriggersOnRelentlessChange": true,
+  "bossActionGroups": [
+    {
+      "numRepeats": 0,
+      "actions": [
+        {
+          "actionBehaviorName": "RandomBossActionBehavior",
+          "tooltipOverrideKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "actionEffects": [
+
+          ],
+          "paramTeamType": 0
+        }
+      ]
+    }
+  ],
+  "characterSoundData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterChatterData": {
+    "m_FileID": 0,
+    "m_PathID": 16613
+  },
+  "characterLoreTooltipKeys": [
+    "CharacterData_data-c7924baae6f87068-289dd94ae2111df4a9a9eb976321380b-v2"
+  ],
+  "roomModifiers": [
+
+  ],
+  "name": "Talos, the Architect Empowering Offense Hard"
+}

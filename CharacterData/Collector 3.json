@@ -1,0 +1,292 @@
+{
+  "m_Name": "TreasureBagLvl3Gold",
+  "id": "828ee3b1-ce27-43f2-9864-bd4126a17974",
+  "nameKey": "CharacterData_nameKey-5d37ad74f1b288b7-22bc4b5fa4dac3b46bf1412d9c1324ab-v2",
+  "characterPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/Characters/Character_Prefabs/Character_Collector.prefab",
+    "m_AssetGUID": "b2e61cbab2d1fc1418f350770a23c659"
+  },
+  "pactCrystalsRequiredCount": -1,
+  "bypassPactCrystalsUpgradeDataList": [
+
+  ],
+  "size": 2,
+  "blockVisualSizeIncrease": false,
+  "health": 5,
+  "canBeHealed": true,
+  "isOuterTrainBoss": false,
+  "validBossAttackPhase": 2,
+  "isMiniboss": false,
+  "deathType": 0,
+  "canAttack": false,
+  "ascendsTrainAutomatically": false,
+  "attackDamage": 0,
+  "animationController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "attackTeleportsToDefender": true,
+  "deathSlidesBackwards": true,
+  "projectilePrefab": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "impactVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "deathVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossRoomSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "startingStatusEffects": [
+
+  ],
+  "statusEffectImmunities": [
+
+  ],
+  "triggers": [
+    {
+      "trigger": 0,
+      "descriptionKey": "CharacterData_descriptionKey-1ec9491cb6f9f4f2-22bc4b5fa4dac3b46bf1412d9c1324ab-v2",
+      "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "displayEffectHintText": false,
+      "hideTriggerTooltip": false,
+      "effects": [
+        {
+          "effectStateName": "CardEffectRewardGold",
+          "targetMode": 0,
+          "targetModeStatusEffectsFilter": [
+
+          ],
+          "targetModeHealthFilter": 0,
+          "targetIgnoreBosses": false,
+          "filterBasedOnMainSubClass": false,
+          "copyModifiersFromSource": false,
+          "ignoreTemporaryModifiersFromSource": false,
+          "targetTeamType": 0,
+          "targetCharacterSubtype": "SubtypesData_None",
+          "targetCardType": 0,
+          "targetCardSelectionMode": 0,
+          "animToPlay": 0,
+          "appliedToSelfVFX": {
+            "vfxPrefabLeft": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "vfxPrefabRight": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spawnLocation": 0,
+            "facing": 0
+          },
+          "appliedVFX": {
+            "vfxPrefabLeft": {
+              "m_FileID": 0,
+              "m_PathID": 5121
+            },
+            "vfxPrefabRight": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spawnLocation": 3,
+            "facing": 0
+          },
+          "shouldTest": true,
+          "useIntRange": false,
+          "paramInt": 100,
+          "additionalParamInt": 0,
+          "paramStr": "",
+          "paramBool": false,
+          "paramSubtype": "SubtypesData_None",
+          "paramMinInt": 0,
+          "paramMaxInt": 0,
+          "paramMultiplier": 1.0,
+          "useStatusEffectStackMultiplier": false,
+          "statusEffectStackMultiplier": "",
+          "paramCharacterData": null,
+          "paramAdditionalCharacterData": null,
+          "paramCharacterDataPool": [
+
+          ],
+          "paramRoomData": null,
+          "paramCardPool": [
+
+          ],
+          "paramCardFilter": null,
+          "paramTrigger": 0,
+          "paramStatusEffects": [
+
+          ],
+          "paramCardUpgradeData": null,
+          "paramTimingDelays": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "hideTooltip": false,
+          "additionalTooltips": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": 1,
+      "descriptionKey": "CharacterData_descriptionKey-72db0f13d9f334a2-22bc4b5fa4dac3b46bf1412d9c1324ab-v2",
+      "additionalTextOnTriggerKey": "CharacterData_additionalTextOnTriggerKey-acda7965e91293e0-22bc4b5fa4dac3b46bf1412d9c1324ab-v2",
+      "displayEffectHintText": false,
+      "hideTriggerTooltip": false,
+      "effects": [
+        {
+          "effectStateName": "CardEffectDespawnCharacter",
+          "targetMode": 0,
+          "targetModeStatusEffectsFilter": [
+
+          ],
+          "targetModeHealthFilter": 0,
+          "targetIgnoreBosses": false,
+          "filterBasedOnMainSubClass": false,
+          "copyModifiersFromSource": false,
+          "ignoreTemporaryModifiersFromSource": false,
+          "targetTeamType": 0,
+          "targetCharacterSubtype": "SubtypesData_None",
+          "targetCardType": 0,
+          "targetCardSelectionMode": 0,
+          "animToPlay": 0,
+          "appliedToSelfVFX": {
+            "vfxPrefabLeft": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "vfxPrefabRight": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spawnLocation": 0,
+            "facing": 0
+          },
+          "appliedVFX": {
+            "vfxPrefabLeft": {
+              "m_FileID": 0,
+              "m_PathID": 4307
+            },
+            "vfxPrefabRight": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spawnLocation": 0,
+            "facing": 0
+          },
+          "shouldTest": true,
+          "useIntRange": false,
+          "paramInt": 1,
+          "additionalParamInt": 0,
+          "paramStr": "",
+          "paramBool": false,
+          "paramSubtype": "SubtypesData_None",
+          "paramMinInt": 0,
+          "paramMaxInt": 0,
+          "paramMultiplier": 1.0,
+          "useStatusEffectStackMultiplier": false,
+          "statusEffectStackMultiplier": "",
+          "paramCharacterData": null,
+          "paramAdditionalCharacterData": null,
+          "paramCharacterDataPool": [
+
+          ],
+          "paramRoomData": null,
+          "paramCardPool": [
+
+          ],
+          "paramCardFilter": null,
+          "paramTrigger": 0,
+          "paramStatusEffects": [
+
+          ],
+          "paramCardUpgradeData": null,
+          "paramTimingDelays": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "hideTooltip": false,
+          "additionalTooltips": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "subtypeKeys": [
+    "SubtypesData_TreasureCollector"
+  ],
+  "removeTriggersOnRelentlessChange": false,
+  "bossActionGroups": [
+
+  ],
+  "characterSoundData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterChatterData": {
+    "m_FileID": 0,
+    "m_PathID": 16626
+  },
+  "characterLoreTooltipKeys": [
+    "CharacterData_data-741dea57dc79bf74-22bc4b5fa4dac3b46bf1412d9c1324ab-v2"
+  ],
+  "roomModifiers": [
+
+  ],
+  "name": "Collector 3"
+}

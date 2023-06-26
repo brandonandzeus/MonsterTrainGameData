@@ -1,0 +1,124 @@
+{
+  "m_Name": "ShieldGuardT2",
+  "id": "9a79de7c-8005-4921-9f43-7f6da00fb380",
+  "nameKey": "CharacterData_nameKey-5dda450afdb409ee-fdb13e5ecc0aac34782dd948ea711f62-v2",
+  "characterPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_ClippedDefender.prefab",
+    "m_AssetGUID": "74ba656f83a9a6448a25431b02cbb36a"
+  },
+  "pactCrystalsRequiredCount": 20,
+  "bypassPactCrystalsUpgradeDataList": [
+
+  ],
+  "size": 3,
+  "blockVisualSizeIncrease": false,
+  "health": 10,
+  "canBeHealed": true,
+  "isOuterTrainBoss": false,
+  "validBossAttackPhase": 2,
+  "isMiniboss": false,
+  "deathType": 1,
+  "canAttack": true,
+  "ascendsTrainAutomatically": true,
+  "attackDamage": 0,
+  "animationController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "attackTeleportsToDefender": true,
+  "deathSlidesBackwards": true,
+  "projectilePrefab": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "impactVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "deathVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossRoomSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "startingStatusEffects": [
+    {
+      "statusId": "armor",
+      "count": 50
+    }
+  ],
+  "statusEffectImmunities": [
+
+  ],
+  "triggers": [
+
+  ],
+  "subtypeKeys": [
+    "SubtypesData_ShieldGuardT2"
+  ],
+  "removeTriggersOnRelentlessChange": false,
+  "bossActionGroups": [
+
+  ],
+  "characterSoundData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterChatterData": {
+    "m_FileID": 0,
+    "m_PathID": 16609
+  },
+  "characterLoreTooltipKeys": [
+    "CharacterData_data-e8c3ba67c003e8f4-fdb13e5ecc0aac34782dd948ea711f62-v2"
+  ],
+  "roomModifiers": [
+
+  ],
+  "name": "Clipped Defender"
+}

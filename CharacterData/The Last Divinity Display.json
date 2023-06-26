@@ -1,0 +1,124 @@
+{
+  "m_Name": "Boss_Level9_Display",
+  "id": "f048a260-b016-430b-a5ae-7b3af50ac23e",
+  "nameKey": "CharacterData_nameKey-17f667d969439c09-ada8a9a8aea68eb42b9c76bae4a7afc4-v2",
+  "characterPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_TheLastDivinity.prefab",
+    "m_AssetGUID": "2894738792c47c34e93af72c1205a05e"
+  },
+  "pactCrystalsRequiredCount": -1,
+  "bypassPactCrystalsUpgradeDataList": [
+
+  ],
+  "size": 6,
+  "blockVisualSizeIncrease": false,
+  "health": 2500,
+  "canBeHealed": true,
+  "isOuterTrainBoss": true,
+  "validBossAttackPhase": -1,
+  "isMiniboss": false,
+  "deathType": 3,
+  "canAttack": true,
+  "ascendsTrainAutomatically": false,
+  "attackDamage": 3,
+  "animationController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "attackTeleportsToDefender": false,
+  "deathSlidesBackwards": true,
+  "projectilePrefab": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 5919
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 3,
+    "facing": 0
+  },
+  "impactVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "deathVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 4376
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 4,
+    "facing": 0
+  },
+  "bossSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 5152
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 3,
+    "facing": 0
+  },
+  "bossRoomSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 6076
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 1,
+    "facing": 0
+  },
+  "startingStatusEffects": [
+    {
+      "statusId": "cleardebuff",
+      "count": 1
+    }
+  ],
+  "statusEffectImmunities": [
+    "rooted"
+  ],
+  "triggers": [
+
+  ],
+  "subtypeKeys": [
+    "SubtypesData_FinalBoss"
+  ],
+  "removeTriggersOnRelentlessChange": false,
+  "bossActionGroups": [
+
+  ],
+  "characterSoundData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterChatterData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterLoreTooltipKeys": [
+    "CharacterData_data-902eff6a56391d73-ada8a9a8aea68eb42b9c76bae4a7afc4-v2"
+  ],
+  "roomModifiers": [
+
+  ],
+  "name": "The Last Divinity Display"
+}

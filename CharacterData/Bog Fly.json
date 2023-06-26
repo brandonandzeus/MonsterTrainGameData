@@ -1,0 +1,137 @@
+{
+  "m_Name": "MonsterBogFly",
+  "id": "0eecf3be-e865-4aa3-bee1-8180bfb137d6",
+  "nameKey": "CharacterData_nameKey-da5bc0cf9bb285e0-8be3987b12f5410469fc72f4cb2f3ee3-v2",
+  "characterPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_Bogflies.prefab",
+    "m_AssetGUID": "bcfb3db25d6b0ab4fa160ff1ced4000b"
+  },
+  "pactCrystalsRequiredCount": -1,
+  "bypassPactCrystalsUpgradeDataList": [
+
+  ],
+  "size": 1,
+  "blockVisualSizeIncrease": false,
+  "health": 5,
+  "canBeHealed": true,
+  "isOuterTrainBoss": false,
+  "validBossAttackPhase": 2,
+  "isMiniboss": false,
+  "deathType": 0,
+  "canAttack": true,
+  "ascendsTrainAutomatically": true,
+  "attackDamage": 0,
+  "animationController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "attackTeleportsToDefender": true,
+  "deathSlidesBackwards": true,
+  "projectilePrefab": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "impactVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "deathVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossRoomSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "startingStatusEffects": [
+
+  ],
+  "statusEffectImmunities": [
+
+  ],
+  "triggers": [
+
+  ],
+  "subtypeKeys": [
+    "SubtypesData_Wurm"
+  ],
+  "removeTriggersOnRelentlessChange": false,
+  "bossActionGroups": [
+
+  ],
+  "characterSoundData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterChatterData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterLoreTooltipKeys": [
+    "CharacterData_data-38de566bbe2fbd44-8be3987b12f5410469fc72f4cb2f3ee3-v2"
+  ],
+  "roomModifiers": [
+    {
+      "roomStateModifierClassName": "RoomStateSelfDamagePerCorruptionModifier",
+      "descriptionKey": "CharacterData_descriptionKey-1d5e545eedc361dc-8be3987b12f5410469fc72f4cb2f3ee3-v2",
+      "descriptionKeyInPlay": "CharacterData_descriptionKeyInPlay-943432c6fc68631c-8be3987b12f5410469fc72f4cb2f3ee3-v2",
+      "icon": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "paramInt": 5,
+      "paramSubtype": "SubtypesData_None",
+      "paramStatusEffects": [
+
+      ],
+      "extraTooltipTitleKey": "HudTooltip_RoomCorruption_Title",
+      "extraTooltipBodyKey": "HudTooltip_RoomCorruption_Body",
+      "paramCardUpgradeData": null
+    }
+  ],
+  "name": "Bog Fly"
+}

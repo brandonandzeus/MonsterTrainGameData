@@ -1,0 +1,138 @@
+{
+  "m_Name": "DerangedBrute",
+  "id": "c1b9aedf-33d0-4081-a227-08b9a6c11c54",
+  "nameKey": "CharacterData_nameKey-f71cc65df3354a5f-de076dcd44a0be44ba6137fc2a652c66-v2",
+  "characterPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_UnshackledBrute.prefab",
+    "m_AssetGUID": "6927cb5f26d5ab24f89999cec94efbb5"
+  },
+  "pactCrystalsRequiredCount": -1,
+  "bypassPactCrystalsUpgradeDataList": [
+
+  ],
+  "size": 2,
+  "blockVisualSizeIncrease": false,
+  "health": 25,
+  "canBeHealed": true,
+  "isOuterTrainBoss": false,
+  "validBossAttackPhase": 2,
+  "isMiniboss": false,
+  "deathType": 0,
+  "canAttack": true,
+  "ascendsTrainAutomatically": true,
+  "attackDamage": 10,
+  "animationController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "attackTeleportsToDefender": true,
+  "deathSlidesBackwards": true,
+  "projectilePrefab": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "impactVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "deathVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossRoomSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "startingStatusEffects": [
+
+  ],
+  "statusEffectImmunities": [
+
+  ],
+  "triggers": [
+
+  ],
+  "subtypeKeys": [
+    "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12",
+    "SubtypesData_Chosen"
+  ],
+  "removeTriggersOnRelentlessChange": false,
+  "bossActionGroups": [
+
+  ],
+  "characterSoundData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterChatterData": {
+    "m_FileID": 0,
+    "m_PathID": 16578
+  },
+  "characterLoreTooltipKeys": [
+    "CharacterData_data-da7ca77525f44440-de076dcd44a0be44ba6137fc2a652c66-v2"
+  ],
+  "roomModifiers": [
+    {
+      "roomStateModifierClassName": "RoomStateBuffModifier",
+      "descriptionKey": "CharacterData_descriptionKey-a26e1dc31d6bb1c6-de076dcd44a0be44ba6137fc2a652c66-v2",
+      "descriptionKeyInPlay": "",
+      "icon": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "paramInt": 3,
+      "paramSubtype": "SubtypesData_None",
+      "paramStatusEffects": [
+
+      ],
+      "extraTooltipTitleKey": "",
+      "extraTooltipBodyKey": "",
+      "paramCardUpgradeData": null
+    }
+  ],
+  "name": "Deranged Brute"
+}

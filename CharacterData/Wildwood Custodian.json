@@ -1,0 +1,137 @@
+{
+  "m_Name": "WildwoodCustodian",
+  "id": "0e95908b-6656-4e25-88d3-c598cb7296f9",
+  "nameKey": "CharacterData_nameKey-207d81c5f9dc835e-1a611d74a82ff864591634f920c20477-v2",
+  "characterPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/Characters/Character_Prefabs/Character_Channeler.prefab",
+    "m_AssetGUID": "82cb615347a68124cb2b87fbdd1f0c0f"
+  },
+  "pactCrystalsRequiredCount": -1,
+  "bypassPactCrystalsUpgradeDataList": [
+
+  ],
+  "size": 1,
+  "blockVisualSizeIncrease": false,
+  "health": 2,
+  "canBeHealed": true,
+  "isOuterTrainBoss": false,
+  "validBossAttackPhase": 2,
+  "isMiniboss": false,
+  "deathType": 0,
+  "canAttack": true,
+  "ascendsTrainAutomatically": true,
+  "attackDamage": 0,
+  "animationController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "attackTeleportsToDefender": true,
+  "deathSlidesBackwards": true,
+  "projectilePrefab": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "impactVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "deathVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossRoomSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "startingStatusEffects": [
+
+  ],
+  "statusEffectImmunities": [
+
+  ],
+  "triggers": [
+
+  ],
+  "subtypeKeys": [
+    "SubtypesData_Cultist_8a3bb2b5-8c56-4c86-bb08-85b95c488f23"
+  ],
+  "removeTriggersOnRelentlessChange": false,
+  "bossActionGroups": [
+
+  ],
+  "characterSoundData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterChatterData": {
+    "m_FileID": 0,
+    "m_PathID": 16574
+  },
+  "characterLoreTooltipKeys": [
+    "CharacterData_data-5a48c84aeeb96307-1a611d74a82ff864591634f920c20477-v2"
+  ],
+  "roomModifiers": [
+    {
+      "roomStateModifierClassName": "RoomStateHandSizeModifier",
+      "descriptionKey": "CharacterData_descriptionKey-f49cc223b99c069f-1a611d74a82ff864591634f920c20477-v2",
+      "descriptionKeyInPlay": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "icon": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "paramInt": 1,
+      "paramSubtype": "SubtypesData_None",
+      "paramStatusEffects": [
+
+      ],
+      "extraTooltipTitleKey": "",
+      "extraTooltipBodyKey": "",
+      "paramCardUpgradeData": null
+    }
+  ],
+  "name": "Wildwood Custodian"
+}

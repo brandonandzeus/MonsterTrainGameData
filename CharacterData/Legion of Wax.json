@@ -1,0 +1,530 @@
+{
+  "m_Name": "MonsterSplitterLarge",
+  "id": "e9b0e2cc-08aa-4ea7-8f41-805028efe5c4",
+  "nameKey": "CharacterData_nameKey-b637953c3591b379-70952ffb07782ff4ba5ba8f1838c1586-v2",
+  "characterPrefabVariantRef": {
+    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_LegionOfWax_4x_.prefab",
+    "m_AssetGUID": "c975c9aa30747944e87cba0378311ac5"
+  },
+  "pactCrystalsRequiredCount": -1,
+  "bypassPactCrystalsUpgradeDataList": [
+
+  ],
+  "size": 4,
+  "blockVisualSizeIncrease": false,
+  "health": 8,
+  "canBeHealed": true,
+  "isOuterTrainBoss": false,
+  "validBossAttackPhase": 2,
+  "isMiniboss": false,
+  "deathType": 0,
+  "canAttack": true,
+  "ascendsTrainAutomatically": true,
+  "attackDamage": 8,
+  "animationController": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "attackTeleportsToDefender": true,
+  "deathSlidesBackwards": true,
+  "projectilePrefab": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "impactVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "deathVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "bossRoomSpellCastVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "startingStatusEffects": [
+
+  ],
+  "statusEffectImmunities": [
+
+  ],
+  "triggers": [
+    {
+      "trigger": 0,
+      "descriptionKey": "CharacterData_descriptionKey-4c3816bde9b7d1f1-70952ffb07782ff4ba5ba8f1838c1586-v2",
+      "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "displayEffectHintText": false,
+      "hideTriggerTooltip": false,
+      "effects": [
+        {
+          "effectStateName": "CardEffectSpawnMonster",
+          "targetMode": 0,
+          "targetModeStatusEffectsFilter": [
+
+          ],
+          "targetModeHealthFilter": 0,
+          "targetIgnoreBosses": false,
+          "filterBasedOnMainSubClass": false,
+          "copyModifiersFromSource": false,
+          "ignoreTemporaryModifiersFromSource": false,
+          "targetTeamType": 0,
+          "targetCharacterSubtype": "SubtypesData_None",
+          "targetCardType": 0,
+          "targetCardSelectionMode": 0,
+          "animToPlay": 0,
+          "appliedToSelfVFX": {
+            "vfxPrefabLeft": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "vfxPrefabRight": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spawnLocation": 0,
+            "facing": 0
+          },
+          "appliedVFX": {
+            "vfxPrefabLeft": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "vfxPrefabRight": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spawnLocation": 0,
+            "facing": 0
+          },
+          "shouldTest": true,
+          "useIntRange": false,
+          "paramInt": 2,
+          "additionalParamInt": 0,
+          "paramStr": "",
+          "paramBool": false,
+          "paramSubtype": "SubtypesData_None",
+          "paramMinInt": 0,
+          "paramMaxInt": 0,
+          "paramMultiplier": 1.0,
+          "useStatusEffectStackMultiplier": false,
+          "statusEffectStackMultiplier": "",
+          "paramCharacterData": {
+            "m_Name": "MonsterSplitterMedium",
+            "id": "2018db82-8270-48df-a069-1e9bd7803b24",
+            "nameKey": "CharacterData_nameKey-1c748e74b6aa8d31-98bea84b89758ed44af8374fd8e90280-v2",
+            "characterPrefabVariantRef": {
+              "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_LegionOfWax_2x_.prefab",
+              "m_AssetGUID": "3c5bf22ffeaa8984294029bae288d3d2"
+            },
+            "pactCrystalsRequiredCount": -1,
+            "bypassPactCrystalsUpgradeDataList": [
+
+            ],
+            "size": 2,
+            "blockVisualSizeIncrease": false,
+            "health": 4,
+            "canBeHealed": true,
+            "isOuterTrainBoss": false,
+            "validBossAttackPhase": 2,
+            "isMiniboss": false,
+            "deathType": 0,
+            "canAttack": true,
+            "ascendsTrainAutomatically": true,
+            "attackDamage": 4,
+            "animationController": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "attackTeleportsToDefender": true,
+            "deathSlidesBackwards": true,
+            "projectilePrefab": {
+              "vfxPrefabLeft": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "vfxPrefabRight": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "spawnLocation": 0,
+              "facing": 0
+            },
+            "impactVFX": {
+              "vfxPrefabLeft": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "vfxPrefabRight": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "spawnLocation": 0,
+              "facing": 0
+            },
+            "deathVFX": {
+              "vfxPrefabLeft": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "vfxPrefabRight": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "spawnLocation": 0,
+              "facing": 0
+            },
+            "bossSpellCastVFX": {
+              "vfxPrefabLeft": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "vfxPrefabRight": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "spawnLocation": 0,
+              "facing": 0
+            },
+            "bossRoomSpellCastVFX": {
+              "vfxPrefabLeft": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "vfxPrefabRight": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "spawnLocation": 0,
+              "facing": 0
+            },
+            "startingStatusEffects": [
+
+            ],
+            "statusEffectImmunities": [
+
+            ],
+            "triggers": [
+              {
+                "trigger": 0,
+                "descriptionKey": "CharacterData_descriptionKey-71d773411a2a1bc1-98bea84b89758ed44af8374fd8e90280-v2",
+                "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                "displayEffectHintText": false,
+                "hideTriggerTooltip": false,
+                "effects": [
+                  {
+                    "effectStateName": "CardEffectSpawnMonster",
+                    "targetMode": 0,
+                    "targetModeStatusEffectsFilter": [
+
+                    ],
+                    "targetModeHealthFilter": 0,
+                    "targetIgnoreBosses": false,
+                    "filterBasedOnMainSubClass": false,
+                    "copyModifiersFromSource": false,
+                    "ignoreTemporaryModifiersFromSource": false,
+                    "targetTeamType": 0,
+                    "targetCharacterSubtype": "SubtypesData_None",
+                    "targetCardType": 0,
+                    "targetCardSelectionMode": 0,
+                    "animToPlay": 0,
+                    "appliedToSelfVFX": {
+                      "vfxPrefabLeft": {
+                        "m_FileID": 0,
+                        "m_PathID": 0
+                      },
+                      "vfxPrefabRight": {
+                        "m_FileID": 0,
+                        "m_PathID": 0
+                      },
+                      "spawnLocation": 0,
+                      "facing": 0
+                    },
+                    "appliedVFX": {
+                      "vfxPrefabLeft": {
+                        "m_FileID": 0,
+                        "m_PathID": 0
+                      },
+                      "vfxPrefabRight": {
+                        "m_FileID": 0,
+                        "m_PathID": 0
+                      },
+                      "spawnLocation": 0,
+                      "facing": 0
+                    },
+                    "shouldTest": true,
+                    "useIntRange": false,
+                    "paramInt": 2,
+                    "additionalParamInt": 0,
+                    "paramStr": "",
+                    "paramBool": false,
+                    "paramSubtype": "SubtypesData_None",
+                    "paramMinInt": 0,
+                    "paramMaxInt": 0,
+                    "paramMultiplier": 1.0,
+                    "useStatusEffectStackMultiplier": false,
+                    "statusEffectStackMultiplier": "",
+                    "paramCharacterData": {
+                      "m_Name": "MonsterSplitterSmall",
+                      "id": "ea008872-27fa-4e05-9c8e-2fdcb7928257",
+                      "nameKey": "CharacterData_nameKey-484a18b6a06a30d1-5818e71fe5600b94a91c02786f8ce23a-v2",
+                      "characterPrefabVariantRef": {
+                        "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_LegionOfWax_1x_.prefab",
+                        "m_AssetGUID": "721d37be57b5e7c4398c877eeb1c747e"
+                      },
+                      "pactCrystalsRequiredCount": -1,
+                      "bypassPactCrystalsUpgradeDataList": [
+
+                      ],
+                      "size": 1,
+                      "blockVisualSizeIncrease": false,
+                      "health": 2,
+                      "canBeHealed": true,
+                      "isOuterTrainBoss": false,
+                      "validBossAttackPhase": 2,
+                      "isMiniboss": false,
+                      "deathType": 0,
+                      "canAttack": true,
+                      "ascendsTrainAutomatically": true,
+                      "attackDamage": 2,
+                      "animationController": {
+                        "m_FileID": 0,
+                        "m_PathID": 0
+                      },
+                      "attackTeleportsToDefender": true,
+                      "deathSlidesBackwards": true,
+                      "projectilePrefab": {
+                        "vfxPrefabLeft": {
+                          "m_FileID": 0,
+                          "m_PathID": 0
+                        },
+                        "vfxPrefabRight": {
+                          "m_FileID": 0,
+                          "m_PathID": 0
+                        },
+                        "spawnLocation": 0,
+                        "facing": 0
+                      },
+                      "impactVFX": {
+                        "vfxPrefabLeft": {
+                          "m_FileID": 0,
+                          "m_PathID": 0
+                        },
+                        "vfxPrefabRight": {
+                          "m_FileID": 0,
+                          "m_PathID": 0
+                        },
+                        "spawnLocation": 0,
+                        "facing": 0
+                      },
+                      "deathVFX": {
+                        "vfxPrefabLeft": {
+                          "m_FileID": 0,
+                          "m_PathID": 0
+                        },
+                        "vfxPrefabRight": {
+                          "m_FileID": 0,
+                          "m_PathID": 0
+                        },
+                        "spawnLocation": 0,
+                        "facing": 0
+                      },
+                      "bossSpellCastVFX": {
+                        "vfxPrefabLeft": {
+                          "m_FileID": 0,
+                          "m_PathID": 0
+                        },
+                        "vfxPrefabRight": {
+                          "m_FileID": 0,
+                          "m_PathID": 0
+                        },
+                        "spawnLocation": 0,
+                        "facing": 0
+                      },
+                      "bossRoomSpellCastVFX": {
+                        "vfxPrefabLeft": {
+                          "m_FileID": 0,
+                          "m_PathID": 0
+                        },
+                        "vfxPrefabRight": {
+                          "m_FileID": 0,
+                          "m_PathID": 0
+                        },
+                        "spawnLocation": 0,
+                        "facing": 0
+                      },
+                      "startingStatusEffects": [
+
+                      ],
+                      "statusEffectImmunities": [
+
+                      ],
+                      "triggers": [
+
+                      ],
+                      "subtypeKeys": [
+                        "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
+                      ],
+                      "removeTriggersOnRelentlessChange": false,
+                      "bossActionGroups": [
+
+                      ],
+                      "characterSoundData": {
+                        "m_FileID": 0,
+                        "m_PathID": 0
+                      },
+                      "characterChatterData": {
+                        "m_FileID": 0,
+                        "m_PathID": 0
+                      },
+                      "characterLoreTooltipKeys": [
+                        "CharacterData_data-7cf86cb693cc1d04-5818e71fe5600b94a91c02786f8ce23a-v2"
+                      ],
+                      "roomModifiers": [
+
+                      ]
+                    },
+                    "paramAdditionalCharacterData": null,
+                    "paramCharacterDataPool": [
+
+                    ],
+                    "paramRoomData": null,
+                    "paramCardPool": [
+
+                    ],
+                    "paramCardFilter": null,
+                    "paramTrigger": 0,
+                    "paramStatusEffects": [
+
+                    ],
+                    "paramCardUpgradeData": null,
+                    "paramTimingDelays": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "hideTooltip": false,
+                    "additionalTooltips": [
+
+                    ]
+                  }
+                ]
+              }
+            ],
+            "subtypeKeys": [
+              "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
+            ],
+            "removeTriggersOnRelentlessChange": false,
+            "bossActionGroups": [
+
+            ],
+            "characterSoundData": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "characterChatterData": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "characterLoreTooltipKeys": [
+              "CharacterData_data-e619c0c4ee3f6fc7-98bea84b89758ed44af8374fd8e90280-v2"
+            ],
+            "roomModifiers": [
+
+            ]
+          },
+          "paramAdditionalCharacterData": null,
+          "paramCharacterDataPool": [
+
+          ],
+          "paramRoomData": null,
+          "paramCardPool": [
+
+          ],
+          "paramCardFilter": null,
+          "paramTrigger": 0,
+          "paramStatusEffects": [
+
+          ],
+          "paramCardUpgradeData": null,
+          "paramTimingDelays": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "hideTooltip": false,
+          "additionalTooltips": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "subtypeKeys": [
+    "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15",
+    "SubtypesData_Chosen"
+  ],
+  "removeTriggersOnRelentlessChange": false,
+  "bossActionGroups": [
+
+  ],
+  "characterSoundData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterChatterData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "characterLoreTooltipKeys": [
+    "CharacterData_data-c7500f3999c3e129-70952ffb07782ff4ba5ba8f1838c1586-v2"
+  ],
+  "roomModifiers": [
+
+  ],
+  "name": "Legion of Wax"
+}
