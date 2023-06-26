@@ -1,123 +1,17 @@
 {
-  "m_Name": "MonsterRaven",
-  "id": "99f0ce7a-7a2c-4fbe-bcf5-81704aaa52ae",
   "nameKey": "CharacterData_nameKey-0684454f76d09398-99a5ff70b6e6d7b44ba7ca7d04b32c92-v2",
-  "characterPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/Characters/Character_Prefabs/AutoCreated/Character_MonsterRaven.prefab",
-    "m_AssetGUID": "775df62b2b66cfa459e8bd9b760d6c0e"
-  },
-  "pactCrystalsRequiredCount": -1,
-  "bypassPactCrystalsUpgradeDataList": [
-
-  ],
-  "size": 2,
-  "blockVisualSizeIncrease": false,
   "health": 2,
-  "canBeHealed": true,
-  "isOuterTrainBoss": false,
-  "validBossAttackPhase": 2,
-  "isMiniboss": false,
-  "deathType": 0,
-  "canAttack": true,
-  "ascendsTrainAutomatically": true,
   "attackDamage": 2,
-  "animationController": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "attackTeleportsToDefender": true,
-  "deathSlidesBackwards": true,
-  "projectilePrefab": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "impactVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "deathVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossRoomSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
   "startingStatusEffects": [
     {
       "statusId": "exploit poison",
       "count": 1
     }
   ],
-  "statusEffectImmunities": [
-
-  ],
-  "triggers": [
-
-  ],
   "subtypeKeys": [
     "SubtypesData_Witch_eadb3cce-94b3-42ed-9385-c1d20172e861"
   ],
-  "removeTriggersOnRelentlessChange": false,
-  "bossActionGroups": [
-
-  ],
-  "characterSoundData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "characterChatterData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "characterLoreTooltipKeys": [
-
-  ],
-  "roomModifiers": [
 
   ],
   "name": "Archived Raven"

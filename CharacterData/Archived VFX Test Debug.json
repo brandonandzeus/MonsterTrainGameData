@@ -1,92 +1,7 @@
 {
-  "m_Name": "MonsterVFXTest",
-  "id": "00a4c47c-3f8b-48b3-be0d-01cd3b00f2ad",
   "nameKey": "CharacterData_nameKey-b1d18fe7d56f3761-fbc2d1eeb4bae584e90c0506f6a60103-v2",
-  "characterPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/Characters/Character_Prefabs/Character_Demon_Axe.prefab",
-    "m_AssetGUID": "ae409de5ab108824ea1378ba1113f56f"
-  },
-  "pactCrystalsRequiredCount": -1,
-  "bypassPactCrystalsUpgradeDataList": [
-
-  ],
-  "size": 2,
-  "blockVisualSizeIncrease": false,
   "health": 99,
-  "canBeHealed": true,
-  "isOuterTrainBoss": false,
-  "validBossAttackPhase": 2,
-  "isMiniboss": false,
-  "deathType": 0,
-  "canAttack": true,
-  "ascendsTrainAutomatically": true,
   "attackDamage": 1,
-  "animationController": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "attackTeleportsToDefender": true,
-  "deathSlidesBackwards": true,
-  "projectilePrefab": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "impactVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "deathVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossRoomSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
   "startingStatusEffects": [
     {
       "statusId": "spikes",
@@ -109,32 +24,11 @@
       "count": 4
     }
   ],
-  "statusEffectImmunities": [
-
-  ],
-  "triggers": [
-
-  ],
   "subtypeKeys": [
     "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12"
   ],
-  "removeTriggersOnRelentlessChange": false,
-  "bossActionGroups": [
-
-  ],
-  "characterSoundData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "characterChatterData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "characterLoreTooltipKeys": [
     "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "roomModifiers": [
-
   ],
   "name": "Archived VFX Test Debug"
 }

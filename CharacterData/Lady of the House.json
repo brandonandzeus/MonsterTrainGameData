@@ -1,125 +1,19 @@
 {
-  "m_Name": "LadyOfTheHouse",
-  "id": "155984a9-326f-44de-a69d-a5c87e4c2ed9",
   "nameKey": "CharacterData_nameKey-a2e6aa66d3bddd1f-df3ea7cd9cfe467489bf928cfde6834d-v2",
-  "characterPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_LadyOfTheHouse.prefab",
-    "m_AssetGUID": "85299c9cabbdc1541b50caddcd6f43a5"
-  },
-  "pactCrystalsRequiredCount": -1,
-  "bypassPactCrystalsUpgradeDataList": [
-
-  ],
-  "size": 2,
-  "blockVisualSizeIncrease": false,
   "health": 45,
-  "canBeHealed": true,
-  "isOuterTrainBoss": false,
-  "validBossAttackPhase": 2,
-  "isMiniboss": false,
-  "deathType": 0,
-  "canAttack": true,
-  "ascendsTrainAutomatically": true,
   "attackDamage": 35,
-  "animationController": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "attackTeleportsToDefender": true,
-  "deathSlidesBackwards": true,
-  "projectilePrefab": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "impactVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "deathVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossRoomSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
   "startingStatusEffects": [
     {
       "statusId": "ephemeral",
       "count": 3
     }
   ],
-  "statusEffectImmunities": [
-
-  ],
-  "triggers": [
-
-  ],
   "subtypeKeys": [
     "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15",
     "SubtypesData_Chosen"
   ],
-  "removeTriggersOnRelentlessChange": false,
-  "bossActionGroups": [
-
-  ],
-  "characterSoundData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "characterChatterData": {
-    "m_FileID": 0,
-    "m_PathID": 16593
-  },
   "characterLoreTooltipKeys": [
     "CharacterData_data-d40229566bd0968e-df3ea7cd9cfe467489bf928cfde6834d-v2"
-  ],
-  "roomModifiers": [
-
   ],
   "name": "Lady of the House"
 }

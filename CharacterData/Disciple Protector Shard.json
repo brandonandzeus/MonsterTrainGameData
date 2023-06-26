@@ -1,92 +1,8 @@
 {
-  "m_Name": "ShieldGuardT1_Shard",
-  "id": "4f60a6af-a9a8-4583-bed2-478ded796f7c",
   "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "characterPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/characters/Character_Prefabs/Character_DiscipleProtector.prefab",
-    "m_AssetGUID": "ef41aa3cb87d5f94980d7c495bbe9566"
-  },
-  "pactCrystalsRequiredCount": -1,
-  "bypassPactCrystalsUpgradeDataList": [
-
-  ],
   "size": 3,
-  "blockVisualSizeIncrease": false,
   "health": 30,
-  "canBeHealed": true,
-  "isOuterTrainBoss": false,
-  "validBossAttackPhase": 2,
-  "isMiniboss": false,
-  "deathType": 0,
-  "canAttack": true,
-  "ascendsTrainAutomatically": true,
   "attackDamage": 0,
-  "animationController": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "attackTeleportsToDefender": true,
-  "deathSlidesBackwards": true,
-  "projectilePrefab": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "impactVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "deathVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossRoomSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
   "startingStatusEffects": [
     {
       "statusId": "armor",
@@ -97,32 +13,11 @@
       "count": 1
     }
   ],
-  "statusEffectImmunities": [
-
-  ],
-  "triggers": [
-
-  ],
   "subtypeKeys": [
     "SubtypesData_ShieldGuardT1"
   ],
-  "removeTriggersOnRelentlessChange": false,
-  "bossActionGroups": [
-
-  ],
-  "characterSoundData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "characterChatterData": {
-    "m_FileID": 0,
-    "m_PathID": 16605
-  },
   "characterLoreTooltipKeys": [
     "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "roomModifiers": [
-
   ],
   "name": "Disciple Protector Shard"
 }

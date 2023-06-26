@@ -1,121 +1,12 @@
 {
-  "m_Name": "Boss_Level2ForTLD",
-  "id": "43943425-3988-44b2-9003-0f032135f5da",
   "nameKey": "CharacterData_nameKey-4433cbe52d0c00cf-210f6c973e7f66d41ad1a55969ceed12-v2",
-  "characterPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/Characters/Character_Prefabs/Character_LastKnightOfTheFallen.prefab",
-    "m_AssetGUID": "301a71aa0a7d23946adba2ebc9de346c"
-  },
   "pactCrystalsRequiredCount": 0,
-  "bypassPactCrystalsUpgradeDataList": [
-
-  ],
   "size": 5,
-  "blockVisualSizeIncrease": false,
   "health": 110,
-  "canBeHealed": true,
-  "isOuterTrainBoss": false,
-  "validBossAttackPhase": 2,
-  "isMiniboss": false,
   "deathType": 1,
-  "canAttack": true,
-  "ascendsTrainAutomatically": true,
   "attackDamage": 7,
-  "animationController": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "attackTeleportsToDefender": true,
-  "deathSlidesBackwards": true,
-  "projectilePrefab": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "impactVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "deathVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossRoomSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "startingStatusEffects": [
-
-  ],
-  "statusEffectImmunities": [
-
-  ],
-  "triggers": [
-
-  ],
-  "subtypeKeys": [
-
-  ],
-  "removeTriggersOnRelentlessChange": false,
-  "bossActionGroups": [
-
-  ],
-  "characterSoundData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "characterChatterData": {
-    "m_FileID": 0,
-    "m_PathID": 16607
-  },
   "characterLoreTooltipKeys": [
     "CharacterData_data-3673ee6866868a78-210f6c973e7f66d41ad1a55969ceed12-v2"
-  ],
-  "roomModifiers": [
-
   ],
   "name": "Last Knight of the Disciples TLD"
 }

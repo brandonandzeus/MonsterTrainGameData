@@ -1,312 +1,59 @@
 {
-  "m_Name": "Boss_Level8Purify_Harder",
-  "id": "18122224-08b4-4b73-b6f5-3815908af567",
   "nameKey": "CharacterData_nameKey-dc0ca67a7675d93f-098491fd427057a458a3233d3b1e7fd1-v2",
-  "characterPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_SeraphTheTraitor.prefab",
-    "m_AssetGUID": "3750c3318ada11042990e4d488c09eba"
-  },
-  "pactCrystalsRequiredCount": -1,
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "isRepeatable": true,
-      "covenantUpgrade": false,
-      "requiredCovenantLevel": 10,
-      "crystalsCount": 10,
       "upgradeData": {
-        "m_Name": "Boss_Level8Purify_UpgradeA",
-        "id": "2b6bdeb6-1201-4f36-9655-a8e8569b7340",
-        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "hideUpgradeIconOnCard": false,
         "useUpgradeHighlightTextTags": false,
-        "isUnitSynthesisUpgrade": false,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
-        "linkedPactDuplicateRarity": 4,
-        "bonusDamage": 0,
-        "bonusHP": 20,
-        "costReduction": 0,
-        "xCostReduction": 0,
-        "bonusHeal": 0,
-        "bonusSize": 0,
-        "statusEffectUpgrades": [
-
-        ],
-        "traitDataUpgrades": [
-
-        ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
-        "filters": [
-
-        ],
-        "upgradesToRemove": [
-
-        ]
+        "bonusHP": 20
       }
     },
     {
-      "isRepeatable": true,
-      "covenantUpgrade": false,
-      "requiredCovenantLevel": 10,
       "crystalsCount": 50,
       "upgradeData": {
-        "m_Name": "Boss_Level8Purify_UpgradeB",
-        "id": "48e8f377-1825-434c-bf5b-4bf9c329d8d8",
-        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "hideUpgradeIconOnCard": false,
         "useUpgradeHighlightTextTags": false,
-        "isUnitSynthesisUpgrade": false,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
-        "linkedPactDuplicateRarity": 4,
         "bonusDamage": 1,
-        "bonusHP": 0,
-        "costReduction": 0,
-        "xCostReduction": 0,
-        "bonusHeal": 0,
-        "bonusSize": 0,
         "statusEffectUpgrades": [
           {
             "statusId": "lifesteal",
             "count": 3
           }
-        ],
-        "traitDataUpgrades": [
-
-        ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
-        "filters": [
-
-        ],
-        "upgradesToRemove": [
-
         ]
       }
     },
     {
-      "isRepeatable": true,
       "covenantUpgrade": true,
-      "requiredCovenantLevel": 10,
       "crystalsCount": 35,
       "upgradeData": {
-        "m_Name": "Boss_Level8Purify_UpgradeC",
-        "id": "d258946f-8245-4492-a830-912b51f57fe7",
-        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "hideUpgradeIconOnCard": false,
         "useUpgradeHighlightTextTags": false,
-        "isUnitSynthesisUpgrade": false,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
-        "linkedPactDuplicateRarity": 4,
         "bonusDamage": 1,
         "bonusHP": 50,
-        "costReduction": 0,
-        "xCostReduction": 0,
-        "bonusHeal": 0,
-        "bonusSize": 0,
         "statusEffectUpgrades": [
           {
             "statusId": "lifesteal",
             "count": 3
           }
-        ],
-        "traitDataUpgrades": [
-
-        ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
-        "filters": [
-
-        ],
-        "upgradesToRemove": [
-
         ]
       }
     },
     {
       "isRepeatable": false,
       "covenantUpgrade": true,
-      "requiredCovenantLevel": 10,
       "crystalsCount": 140,
       "upgradeData": {
-        "m_Name": "Boss_Level8Purify_UpgradeD",
-        "id": "06b5f7a7-b9bf-4e2b-a7b6-91a5945393c3",
-        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "hideUpgradeIconOnCard": false,
         "useUpgradeHighlightTextTags": false,
-        "isUnitSynthesisUpgrade": false,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
-        "linkedPactDuplicateRarity": 4,
-        "bonusDamage": 0,
-        "bonusHP": 0,
-        "costReduction": 0,
-        "xCostReduction": 0,
-        "bonusHeal": 0,
-        "bonusSize": 0,
         "statusEffectUpgrades": [
           {
             "statusId": "cleardebuff",
             "count": 1
           }
-        ],
-        "traitDataUpgrades": [
-
-        ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
-        "filters": [
-
-        ],
-        "upgradesToRemove": [
-
         ]
       }
     }
   ],
   "size": 6,
-  "blockVisualSizeIncrease": false,
   "health": 2300,
-  "canBeHealed": true,
   "isOuterTrainBoss": true,
-  "validBossAttackPhase": 2,
-  "isMiniboss": false,
-  "deathType": 0,
-  "canAttack": true,
-  "ascendsTrainAutomatically": true,
-  "attackDamage": 10,
-  "animationController": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "attackTeleportsToDefender": false,
-  "deathSlidesBackwards": true,
-  "projectilePrefab": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 4700
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 3,
-    "facing": 0
-  },
-  "impactVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "deathVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 5919
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 3,
-    "facing": 0
-  },
-  "bossRoomSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 3902
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 1,
-    "facing": 0
-  },
   "startingStatusEffects": [
     {
       "statusId": "multistrike",
@@ -316,370 +63,41 @@
   "statusEffectImmunities": [
     "rooted"
   ],
-  "triggers": [
-
-  ],
   "subtypeKeys": [
     "SubtypesData_BigBossT3_f7449215-5071-4671-909c-a02e2cceb821"
   ],
-  "removeTriggersOnRelentlessChange": false,
   "bossActionGroups": [
     {
-      "numRepeats": 1,
       "actions": [
         {
           "actionBehaviorName": "RandomOccupiedBossActionBehavior",
-          "tooltipOverrideKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
           "actionEffects": [
             {
               "effectStateName": "CardEffectRemoveAllStatusEffects",
-              "targetMode": 0,
-              "targetModeStatusEffectsFilter": [
-
-              ],
-              "targetModeHealthFilter": 0,
-              "targetIgnoreBosses": false,
-              "filterBasedOnMainSubClass": false,
-              "copyModifiersFromSource": false,
-              "ignoreTemporaryModifiersFromSource": false,
               "targetTeamType": 2,
-              "targetCharacterSubtype": "SubtypesData_None",
-              "targetCardType": 0,
-              "targetCardSelectionMode": 0,
-              "animToPlay": 0,
-              "appliedToSelfVFX": {
-                "vfxPrefabLeft": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "vfxPrefabRight": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "spawnLocation": 0,
-                "facing": 0
-              },
-              "appliedVFX": {
-                "vfxPrefabLeft": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "vfxPrefabRight": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "spawnLocation": 0,
-                "facing": 0
-              },
-              "shouldTest": true,
-              "useIntRange": false,
-              "paramInt": 0,
-              "additionalParamInt": 0,
-              "paramStr": "",
-              "paramBool": true,
-              "paramSubtype": "SubtypesData_None",
-              "paramMinInt": 0,
-              "paramMaxInt": 0,
-              "paramMultiplier": 1.0,
-              "useStatusEffectStackMultiplier": false,
-              "statusEffectStackMultiplier": "",
-              "paramCharacterData": null,
-              "paramAdditionalCharacterData": null,
-              "paramCharacterDataPool": [
-
-              ],
-              "paramRoomData": null,
-              "paramCardPool": [
-
-              ],
-              "paramCardFilter": null,
-              "paramTrigger": 0,
-              "paramStatusEffects": [
-
-              ],
-              "paramCardUpgradeData": null,
-              "paramTimingDelays": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "hideTooltip": false,
-              "additionalTooltips": [
-
-              ]
+              "paramBool": true
             },
             {
               "effectStateName": "CardEffectRemoveAllStatusEffects",
-              "targetMode": 0,
-              "targetModeStatusEffectsFilter": [
-
-              ],
-              "targetModeHealthFilter": 0,
-              "targetIgnoreBosses": false,
-              "filterBasedOnMainSubClass": false,
-              "copyModifiersFromSource": false,
-              "ignoreTemporaryModifiersFromSource": false,
-              "targetTeamType": 1,
-              "targetCharacterSubtype": "SubtypesData_None",
-              "targetCardType": 0,
-              "targetCardSelectionMode": 0,
-              "animToPlay": 0,
-              "appliedToSelfVFX": {
-                "vfxPrefabLeft": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "vfxPrefabRight": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "spawnLocation": 0,
-                "facing": 0
-              },
-              "appliedVFX": {
-                "vfxPrefabLeft": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "vfxPrefabRight": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "spawnLocation": 0,
-                "facing": 0
-              },
-              "shouldTest": true,
-              "useIntRange": false,
               "paramInt": 1,
-              "additionalParamInt": 0,
-              "paramStr": "",
-              "paramBool": true,
-              "paramSubtype": "SubtypesData_None",
-              "paramMinInt": 0,
-              "paramMaxInt": 0,
-              "paramMultiplier": 1.0,
-              "useStatusEffectStackMultiplier": false,
-              "statusEffectStackMultiplier": "",
-              "paramCharacterData": null,
-              "paramAdditionalCharacterData": null,
-              "paramCharacterDataPool": [
-
-              ],
-              "paramRoomData": null,
-              "paramCardPool": [
-
-              ],
-              "paramCardFilter": null,
-              "paramTrigger": 0,
-              "paramStatusEffects": [
-
-              ],
-              "paramCardUpgradeData": null,
-              "paramTimingDelays": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "hideTooltip": false,
-              "additionalTooltips": [
-
-              ]
+              "paramBool": true
             },
             {
               "effectStateName": "CardEffectSpawnHero",
-              "targetMode": 0,
-              "targetModeStatusEffectsFilter": [
-
-              ],
-              "targetModeHealthFilter": 0,
-              "targetIgnoreBosses": false,
-              "filterBasedOnMainSubClass": false,
-              "copyModifiersFromSource": false,
-              "ignoreTemporaryModifiersFromSource": false,
-              "targetTeamType": 1,
-              "targetCharacterSubtype": "SubtypesData_None",
-              "targetCardType": 0,
-              "targetCardSelectionMode": 0,
-              "animToPlay": 0,
-              "appliedToSelfVFX": {
-                "vfxPrefabLeft": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "vfxPrefabRight": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "spawnLocation": 0,
-                "facing": 0
-              },
-              "appliedVFX": {
-                "vfxPrefabLeft": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "vfxPrefabRight": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "spawnLocation": 0,
-                "facing": 0
-              },
-              "shouldTest": true,
-              "useIntRange": false,
               "paramInt": 1,
-              "additionalParamInt": 0,
-              "paramStr": "",
-              "paramBool": false,
-              "paramSubtype": "SubtypesData_None",
-              "paramMinInt": 0,
-              "paramMaxInt": 0,
-              "paramMultiplier": 1.0,
-              "useStatusEffectStackMultiplier": false,
-              "statusEffectStackMultiplier": "",
               "paramCharacterData": {
-                "m_Name": "AttackerT3",
-                "id": "fdf6db4f-2e1a-4718-b36e-3d250cfac630",
                 "nameKey": "CharacterData_nameKey-58f78255e06f0f66-380369b69e6b2aa478c2d40ad56b910e-v2",
-                "characterPrefabVariantRef": {
-                  "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_LuxWing.prefab",
-                  "m_AssetGUID": "52dd8a07e2653af4ca355dbfe60e8bd3"
-                },
                 "pactCrystalsRequiredCount": 10,
-                "bypassPactCrystalsUpgradeDataList": [
-
-                ],
                 "size": 1,
-                "blockVisualSizeIncrease": false,
                 "health": 3,
-                "canBeHealed": true,
-                "isOuterTrainBoss": false,
-                "validBossAttackPhase": 2,
-                "isMiniboss": false,
-                "deathType": 0,
-                "canAttack": true,
-                "ascendsTrainAutomatically": true,
-                "attackDamage": 10,
-                "animationController": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
                 "attackTeleportsToDefender": false,
-                "deathSlidesBackwards": true,
-                "projectilePrefab": {
-                  "vfxPrefabLeft": {
-                    "m_FileID": 0,
-                    "m_PathID": 4627
-                  },
-                  "vfxPrefabRight": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "spawnLocation": 6,
-                  "facing": 0
-                },
-                "impactVFX": {
-                  "vfxPrefabLeft": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "vfxPrefabRight": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "spawnLocation": 0,
-                  "facing": 0
-                },
-                "deathVFX": {
-                  "vfxPrefabLeft": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "vfxPrefabRight": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "spawnLocation": 0,
-                  "facing": 0
-                },
-                "bossSpellCastVFX": {
-                  "vfxPrefabLeft": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "vfxPrefabRight": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "spawnLocation": 0,
-                  "facing": 0
-                },
-                "bossRoomSpellCastVFX": {
-                  "vfxPrefabLeft": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "vfxPrefabRight": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                  },
-                  "spawnLocation": 0,
-                  "facing": 0
-                },
-                "startingStatusEffects": [
-
-                ],
-                "statusEffectImmunities": [
-
-                ],
-                "triggers": [
-
-                ],
                 "subtypeKeys": [
                   "SubtypesData_AttackerT3"
                 ],
-                "removeTriggersOnRelentlessChange": false,
-                "bossActionGroups": [
-
-                ],
-                "characterSoundData": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "characterChatterData": {
-                  "m_FileID": 0,
-                  "m_PathID": 16614
-                },
                 "characterLoreTooltipKeys": [
                   "CharacterData_data-c45e1acf932419fc-380369b69e6b2aa478c2d40ad56b910e-v2"
-                ],
-                "roomModifiers": [
-
                 ]
-              },
-              "paramAdditionalCharacterData": null,
-              "paramCharacterDataPool": [
-
-              ],
-              "paramRoomData": null,
-              "paramCardPool": [
-
-              ],
-              "paramCardFilter": null,
-              "paramTrigger": 0,
-              "paramStatusEffects": [
-
-              ],
-              "paramCardUpgradeData": null,
-              "paramTimingDelays": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "hideTooltip": false,
-              "additionalTooltips": [
-
-              ]
+              }
             }
           ],
           "paramTeamType": 2
@@ -687,19 +105,8 @@
       ]
     }
   ],
-  "characterSoundData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "characterChatterData": {
-    "m_FileID": 0,
-    "m_PathID": 16596
-  },
   "characterLoreTooltipKeys": [
     "CharacterData_data-5a30680d4d8cc4c5-098491fd427057a458a3233d3b1e7fd1-v2"
-  ],
-  "roomModifiers": [
-
   ],
   "name": "Seraph the Chaste Hard"
 }

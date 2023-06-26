@@ -1,402 +1,67 @@
 {
-  "m_Name": "Boss_Level1Junker",
-  "id": "61039b05-de26-4080-bcb6-0f39ae139a3c",
   "nameKey": "CharacterData_nameKey-e3d0193382718d58-cc4f1fcce6458a7499011193a9157b64-v2",
-  "characterPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_Reconciler_Boss.prefab",
-    "m_AssetGUID": "ed55f7862e08d1343a70c2903001ce2d"
-  },
-  "pactCrystalsRequiredCount": -1,
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "isRepeatable": true,
-      "covenantUpgrade": false,
-      "requiredCovenantLevel": 10,
       "crystalsCount": 7,
       "upgradeData": {
-        "m_Name": "Boss_Level1Junker_UpgradeA",
-        "id": "32070e65-8599-4a38-b21e-f28d03610b24",
-        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "hideUpgradeIconOnCard": false,
         "useUpgradeHighlightTextTags": false,
-        "isUnitSynthesisUpgrade": false,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
-        "linkedPactDuplicateRarity": 4,
-        "bonusDamage": 0,
-        "bonusHP": 5,
-        "costReduction": 0,
-        "xCostReduction": 0,
-        "bonusHeal": 0,
-        "bonusSize": 0,
-        "statusEffectUpgrades": [
-
-        ],
-        "traitDataUpgrades": [
-
-        ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
-        "filters": [
-
-        ],
-        "upgradesToRemove": [
-
-        ]
+        "bonusHP": 5
       }
     },
     {
-      "isRepeatable": true,
-      "covenantUpgrade": false,
-      "requiredCovenantLevel": 10,
-      "crystalsCount": 10,
       "upgradeData": {
-        "m_Name": "Boss_Level1Junker_UpgradeB",
-        "id": "62841eac-cab8-4b32-b6c4-03dfcb888e20",
-        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "hideUpgradeIconOnCard": false,
         "useUpgradeHighlightTextTags": false,
-        "isUnitSynthesisUpgrade": false,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
-        "linkedPactDuplicateRarity": 4,
-        "bonusDamage": 1,
-        "bonusHP": 0,
-        "costReduction": 0,
-        "xCostReduction": 0,
-        "bonusHeal": 0,
-        "bonusSize": 0,
-        "statusEffectUpgrades": [
-
-        ],
-        "traitDataUpgrades": [
-
-        ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
-        "filters": [
-
-        ],
-        "upgradesToRemove": [
-
-        ]
+        "bonusDamage": 1
       }
     },
     {
-      "isRepeatable": true,
       "covenantUpgrade": true,
-      "requiredCovenantLevel": 10,
       "crystalsCount": 7,
       "upgradeData": {
-        "m_Name": "Boss_Level1Junker_UpgradeC",
-        "id": "61b151f1-f9f3-4115-97d0-a2f8a4da45bc",
-        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "hideUpgradeIconOnCard": false,
         "useUpgradeHighlightTextTags": false,
-        "isUnitSynthesisUpgrade": false,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
-        "linkedPactDuplicateRarity": 4,
-        "bonusDamage": 0,
-        "bonusHP": 0,
-        "costReduction": 0,
-        "xCostReduction": 0,
-        "bonusHeal": 0,
-        "bonusSize": 0,
         "statusEffectUpgrades": [
           {
             "statusId": "lifesteal",
             "count": 3
           }
-        ],
-        "traitDataUpgrades": [
-
-        ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
-        "filters": [
-
-        ],
-        "upgradesToRemove": [
-
         ]
       }
     },
     {
       "isRepeatable": false,
-      "covenantUpgrade": false,
-      "requiredCovenantLevel": 10,
       "crystalsCount": 15,
       "upgradeData": {
-        "m_Name": "Boss_GainCapacity_Upgrade",
-        "id": "c7ab1921-5fd6-4fdb-bec3-66219fafcc55",
-        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "hideUpgradeIconOnCard": false,
         "useUpgradeHighlightTextTags": false,
-        "isUnitSynthesisUpgrade": false,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
-        "linkedPactDuplicateRarity": 4,
-        "bonusDamage": 0,
-        "bonusHP": 0,
-        "costReduction": 0,
-        "xCostReduction": 0,
-        "bonusHeal": 0,
-        "bonusSize": 1,
-        "statusEffectUpgrades": [
-
-        ],
-        "traitDataUpgrades": [
-
-        ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
-        "filters": [
-
-        ],
-        "upgradesToRemove": [
-
-        ]
+        "bonusSize": 1
       }
     }
   ],
   "size": 4,
-  "blockVisualSizeIncrease": false,
   "health": 50,
-  "canBeHealed": true,
-  "isOuterTrainBoss": false,
-  "validBossAttackPhase": 2,
   "isMiniboss": true,
   "deathType": 1,
-  "canAttack": true,
-  "ascendsTrainAutomatically": true,
   "attackDamage": 4,
-  "animationController": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "attackTeleportsToDefender": true,
-  "deathSlidesBackwards": true,
-  "projectilePrefab": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "impactVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "deathVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossRoomSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
   "startingStatusEffects": [
     {
       "statusId": "relentless",
       "count": 1
     }
   ],
-  "statusEffectImmunities": [
-
-  ],
   "triggers": [
     {
       "trigger": 1,
       "descriptionKey": "CharacterData_descriptionKey-3866fb9210135a73-cc4f1fcce6458a7499011193a9157b64-v2",
-      "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "displayEffectHintText": false,
-      "hideTriggerTooltip": false,
       "effects": [
         {
           "effectStateName": "CardEffectAddBattleCard",
-          "targetMode": 0,
-          "targetModeStatusEffectsFilter": [
-
-          ],
-          "targetModeHealthFilter": 0,
-          "targetIgnoreBosses": false,
-          "filterBasedOnMainSubClass": false,
-          "copyModifiersFromSource": false,
-          "ignoreTemporaryModifiersFromSource": false,
           "targetTeamType": 0,
-          "targetCharacterSubtype": "SubtypesData_None",
-          "targetCardType": 0,
-          "targetCardSelectionMode": 0,
-          "animToPlay": 0,
-          "appliedToSelfVFX": {
-            "vfxPrefabLeft": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "vfxPrefabRight": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "spawnLocation": 0,
-            "facing": 0
-          },
-          "appliedVFX": {
-            "vfxPrefabLeft": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "vfxPrefabRight": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "spawnLocation": 0,
-            "facing": 0
-          },
-          "shouldTest": true,
-          "useIntRange": false,
           "paramInt": 5,
-          "additionalParamInt": 0,
-          "paramStr": "",
-          "paramBool": false,
-          "paramSubtype": "SubtypesData_None",
-          "paramMinInt": 0,
-          "paramMaxInt": 0,
-          "paramMultiplier": 1.0,
-          "useStatusEffectStackMultiplier": false,
-          "statusEffectStackMultiplier": "",
-          "paramCharacterData": null,
-          "paramAdditionalCharacterData": null,
-          "paramCharacterDataPool": [
-
-          ],
-          "paramRoomData": null,
           "paramCardPool": {
             "name": "JunkPoolT2",
             "cardDataList": [
               "ScourgeT2"
             ]
-          },
-          "paramCardFilter": null,
-          "paramTrigger": 0,
-          "paramStatusEffects": [
-
-          ],
-          "paramCardUpgradeData": null,
-          "paramTimingDelays": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "hideTooltip": false,
-          "additionalTooltips": [
-
-          ]
+          }
         }
       ]
     }
@@ -405,23 +70,8 @@
     "SubtypesData_BossT1_8850292e-bda8-428e-8d71-c375c29838f8",
     "SubtypesData_Boss"
   ],
-  "removeTriggersOnRelentlessChange": false,
-  "bossActionGroups": [
-
-  ],
-  "characterSoundData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "characterChatterData": {
-    "m_FileID": 0,
-    "m_PathID": 16606
-  },
   "characterLoreTooltipKeys": [
     "CharacterData_data-6cc89c3115a0514b-cc4f1fcce6458a7499011193a9157b64-v2"
-  ],
-  "roomModifiers": [
-
   ],
   "name": "Chains the Sighted"
 }

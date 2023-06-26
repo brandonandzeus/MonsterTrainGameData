@@ -1,124 +1,20 @@
 {
-  "m_Name": "AttackerT1_Shard",
-  "id": "8a4f5d21-1984-4914-abaf-2b7f52b9efd6",
   "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "characterPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/Characters/Character_Prefabs/Character_DiscipledFootsoldier.prefab",
-    "m_AssetGUID": "0ed11f4ec0b654546bdbbc10e871c9d9"
-  },
-  "pactCrystalsRequiredCount": -1,
-  "bypassPactCrystalsUpgradeDataList": [
-
-  ],
   "size": 1,
-  "blockVisualSizeIncrease": false,
   "health": 5,
-  "canBeHealed": true,
-  "isOuterTrainBoss": false,
-  "validBossAttackPhase": 2,
-  "isMiniboss": false,
-  "deathType": 0,
-  "canAttack": true,
-  "ascendsTrainAutomatically": true,
   "attackDamage": 8,
-  "animationController": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "attackTeleportsToDefender": false,
-  "deathSlidesBackwards": true,
-  "projectilePrefab": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 4639
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 7,
-    "facing": 0
-  },
-  "impactVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "deathVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossRoomSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
   "startingStatusEffects": [
     {
       "statusId": "multistrike",
       "count": 1
     }
   ],
-  "statusEffectImmunities": [
-
-  ],
-  "triggers": [
-
-  ],
   "subtypeKeys": [
     "SubtypesData_AttackerEnemy_b7a79da2-ded9-4e26-8702-555817499f07"
   ],
-  "removeTriggersOnRelentlessChange": false,
-  "bossActionGroups": [
-
-  ],
-  "characterSoundData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "characterChatterData": {
-    "m_FileID": 0,
-    "m_PathID": 16605
-  },
   "characterLoreTooltipKeys": [
     "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "roomModifiers": [
-
   ],
   "name": "Discipled Footsoldier Shard"
 }

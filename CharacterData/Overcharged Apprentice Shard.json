@@ -1,185 +1,23 @@
 {
-  "m_Name": "HeavyT1GainAttackOnSpellcast_Shard",
-  "id": "a442bc78-2feb-454c-b24b-3dccd1d14199",
   "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "characterPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_OverchargedGuardian.prefab",
-    "m_AssetGUID": "8e1f6039da8613e4699c7030559ccf6a"
-  },
-  "pactCrystalsRequiredCount": -1,
-  "bypassPactCrystalsUpgradeDataList": [
-
-  ],
-  "size": 2,
-  "blockVisualSizeIncrease": false,
   "health": 35,
-  "canBeHealed": true,
-  "isOuterTrainBoss": false,
-  "validBossAttackPhase": 2,
-  "isMiniboss": false,
-  "deathType": 0,
-  "canAttack": true,
-  "ascendsTrainAutomatically": true,
   "attackDamage": 3,
-  "animationController": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "attackTeleportsToDefender": true,
-  "deathSlidesBackwards": true,
-  "projectilePrefab": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "impactVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "deathVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossRoomSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
   "startingStatusEffects": [
     {
       "statusId": "armor",
       "count": 20
     }
   ],
-  "statusEffectImmunities": [
-
-  ],
   "triggers": [
     {
       "trigger": 19,
       "descriptionKey": "CharacterData_descriptionKey-347bb067a2974455-a3b2410ff2680074b91757e67d14be61-v2",
-      "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "displayEffectHintText": false,
-      "hideTriggerTooltip": false,
       "effects": [
         {
           "effectStateName": "CardEffectBuffDamage",
           "targetMode": 5,
-          "targetModeStatusEffectsFilter": [
-
-          ],
-          "targetModeHealthFilter": 0,
-          "targetIgnoreBosses": false,
-          "filterBasedOnMainSubClass": false,
-          "copyModifiersFromSource": false,
-          "ignoreTemporaryModifiersFromSource": false,
           "targetTeamType": 0,
-          "targetCharacterSubtype": "SubtypesData_None",
-          "targetCardType": 0,
-          "targetCardSelectionMode": 0,
-          "animToPlay": 0,
-          "appliedToSelfVFX": {
-            "vfxPrefabLeft": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "vfxPrefabRight": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "spawnLocation": 0,
-            "facing": 0
-          },
-          "appliedVFX": {
-            "vfxPrefabLeft": {
-              "m_FileID": 0,
-              "m_PathID": 3142
-            },
-            "vfxPrefabRight": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "spawnLocation": 3,
-            "facing": 0
-          },
-          "shouldTest": true,
-          "useIntRange": false,
-          "paramInt": 2,
-          "additionalParamInt": 0,
-          "paramStr": "",
-          "paramBool": false,
-          "paramSubtype": "SubtypesData_None",
-          "paramMinInt": 0,
-          "paramMaxInt": 0,
-          "paramMultiplier": 1.0,
-          "useStatusEffectStackMultiplier": false,
-          "statusEffectStackMultiplier": "",
-          "paramCharacterData": null,
-          "paramAdditionalCharacterData": null,
-          "paramCharacterDataPool": [
-
-          ],
-          "paramRoomData": null,
-          "paramCardPool": [
-
-          ],
-          "paramCardFilter": null,
-          "paramTrigger": 0,
-          "paramStatusEffects": [
-
-          ],
-          "paramCardUpgradeData": null,
-          "paramTimingDelays": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "hideTooltip": false,
-          "additionalTooltips": [
-
-          ]
+          "paramInt": 2
         }
       ]
     }
@@ -187,23 +25,8 @@
   "subtypeKeys": [
     "SubtypesData_HeavyT1"
   ],
-  "removeTriggersOnRelentlessChange": false,
-  "bossActionGroups": [
-
-  ],
-  "characterSoundData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "characterChatterData": {
-    "m_FileID": 0,
-    "m_PathID": 16605
-  },
   "characterLoreTooltipKeys": [
     "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "roomModifiers": [
-
   ],
   "name": "Overcharged Apprentice Shard"
 }

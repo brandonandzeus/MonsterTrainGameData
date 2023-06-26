@@ -1,121 +1,13 @@
 {
-  "m_Name": "Boss_Level2AEMageForTLD",
-  "id": "29bf36aa-a066-414d-bb2f-85509d5c77a1",
   "nameKey": "CharacterData_nameKey-04eac18bd1570de2-d6b89273b595c5644912192bdead4089-v2",
-  "characterPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_LuxPriest_Boss.prefab",
-    "m_AssetGUID": "79016401b6a10cb44ad8802adf53400c"
-  },
   "pactCrystalsRequiredCount": 0,
-  "bypassPactCrystalsUpgradeDataList": [
-
-  ],
   "size": 4,
-  "blockVisualSizeIncrease": false,
   "health": 90,
-  "canBeHealed": true,
-  "isOuterTrainBoss": false,
-  "validBossAttackPhase": 2,
-  "isMiniboss": false,
   "deathType": 1,
-  "canAttack": true,
-  "ascendsTrainAutomatically": true,
   "attackDamage": 5,
-  "animationController": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "attackTeleportsToDefender": false,
-  "deathSlidesBackwards": true,
-  "projectilePrefab": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "impactVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 4442
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 4,
-    "facing": 0
-  },
-  "deathVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossRoomSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "startingStatusEffects": [
-
-  ],
-  "statusEffectImmunities": [
-
-  ],
-  "triggers": [
-
-  ],
-  "subtypeKeys": [
-
-  ],
-  "removeTriggersOnRelentlessChange": false,
-  "bossActionGroups": [
-
-  ],
-  "characterSoundData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "characterChatterData": {
-    "m_FileID": 0,
-    "m_PathID": 16610
-  },
   "characterLoreTooltipKeys": [
     "CharacterData_data-c714fde81117fc36-d6b89273b595c5644912192bdead4089-v2"
-  ],
-  "roomModifiers": [
-
   ],
   "name": "Highpriest to the Light TLD"
 }

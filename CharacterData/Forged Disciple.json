@@ -1,121 +1,13 @@
 {
-  "m_Name": "HeavyT1Basic",
-  "id": "2e371b96-1f84-44e6-9ce5-a301c9b84763",
   "nameKey": "CharacterData_nameKey-2ce012a84556c825-1bf4190929deb17459bc63c667811fe3-v2",
-  "characterPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/Characters/Character_Prefabs/Character_ReforgedDisciple.prefab",
-    "m_AssetGUID": "6a807f7cfd6c6774484ace7191437506"
-  },
   "pactCrystalsRequiredCount": 22,
-  "bypassPactCrystalsUpgradeDataList": [
-
-  ],
-  "size": 2,
-  "blockVisualSizeIncrease": false,
   "health": 25,
-  "canBeHealed": true,
-  "isOuterTrainBoss": false,
-  "validBossAttackPhase": 2,
-  "isMiniboss": false,
-  "deathType": 0,
-  "canAttack": true,
-  "ascendsTrainAutomatically": true,
   "attackDamage": 2,
-  "animationController": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "attackTeleportsToDefender": true,
-  "deathSlidesBackwards": true,
-  "projectilePrefab": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "impactVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "deathVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossRoomSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "startingStatusEffects": [
-
-  ],
-  "statusEffectImmunities": [
-
-  ],
-  "triggers": [
-
-  ],
   "subtypeKeys": [
     "SubtypesData_HeavyT1"
   ],
-  "removeTriggersOnRelentlessChange": false,
-  "bossActionGroups": [
-
-  ],
-  "characterSoundData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "characterChatterData": {
-    "m_FileID": 0,
-    "m_PathID": 16604
-  },
   "characterLoreTooltipKeys": [
     "CharacterData_data-10bb1c362a569165-1bf4190929deb17459bc63c667811fe3-v2"
-  ],
-  "roomModifiers": [
-
   ],
   "name": "Forged Disciple"
 }

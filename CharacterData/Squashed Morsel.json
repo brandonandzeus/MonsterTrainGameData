@@ -1,187 +1,28 @@
 {
-  "m_Name": "MonsterFoodGrantTrample",
-  "id": "c2a52ce5-b707-4d7f-a18b-74de91113302",
   "nameKey": "CharacterData_nameKey-37e6fcf32de60618-3fc63b4e45ac60746bd7cc33b8dd819d-v2",
-  "characterPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/AutoCreated/Character_MonsterFollowers.prefab",
-    "m_AssetGUID": "72a3410440723ee4d8093cc585c0cacd"
-  },
-  "pactCrystalsRequiredCount": -1,
-  "bypassPactCrystalsUpgradeDataList": [
-
-  ],
   "size": 1,
-  "blockVisualSizeIncrease": false,
   "health": 2,
-  "canBeHealed": true,
-  "isOuterTrainBoss": false,
-  "validBossAttackPhase": 2,
-  "isMiniboss": false,
-  "deathType": 0,
-  "canAttack": true,
-  "ascendsTrainAutomatically": true,
   "attackDamage": 5,
-  "animationController": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "attackTeleportsToDefender": true,
-  "deathSlidesBackwards": true,
-  "projectilePrefab": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "impactVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "deathVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossRoomSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
   "startingStatusEffects": [
     {
       "statusId": "trample",
       "count": 1
     }
   ],
-  "statusEffectImmunities": [
-
-  ],
   "triggers": [
     {
       "trigger": 23,
       "descriptionKey": "CharacterData_descriptionKey-3cb5f895dad14b1e-3fc63b4e45ac60746bd7cc33b8dd819d-v2",
-      "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "displayEffectHintText": false,
-      "hideTriggerTooltip": false,
       "effects": [
         {
           "effectStateName": "CardEffectAddStatusEffect",
           "targetMode": 20,
-          "targetModeStatusEffectsFilter": [
-
-          ],
-          "targetModeHealthFilter": 0,
-          "targetIgnoreBosses": false,
-          "filterBasedOnMainSubClass": false,
-          "copyModifiersFromSource": false,
-          "ignoreTemporaryModifiersFromSource": false,
           "targetTeamType": 3,
-          "targetCharacterSubtype": "SubtypesData_None",
-          "targetCardType": 0,
-          "targetCardSelectionMode": 0,
-          "animToPlay": 0,
-          "appliedToSelfVFX": {
-            "vfxPrefabLeft": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "vfxPrefabRight": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "spawnLocation": 0,
-            "facing": 0
-          },
-          "appliedVFX": {
-            "vfxPrefabLeft": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "vfxPrefabRight": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "spawnLocation": 0,
-            "facing": 0
-          },
-          "shouldTest": true,
-          "useIntRange": false,
-          "paramInt": 0,
-          "additionalParamInt": 0,
-          "paramStr": "",
-          "paramBool": false,
-          "paramSubtype": "SubtypesData_None",
-          "paramMinInt": 0,
-          "paramMaxInt": 0,
-          "paramMultiplier": 1.0,
-          "useStatusEffectStackMultiplier": false,
-          "statusEffectStackMultiplier": "",
-          "paramCharacterData": null,
-          "paramAdditionalCharacterData": null,
-          "paramCharacterDataPool": [
-
-          ],
-          "paramRoomData": null,
-          "paramCardPool": [
-
-          ],
-          "paramCardFilter": null,
-          "paramTrigger": 0,
           "paramStatusEffects": [
             {
               "statusId": "trample",
               "count": 1
             }
-          ],
-          "paramCardUpgradeData": null,
-          "paramTimingDelays": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "hideTooltip": false,
-          "additionalTooltips": [
-
           ]
         }
       ]
@@ -190,22 +31,7 @@
   "subtypeKeys": [
     "SubtypesData_Snack"
   ],
-  "removeTriggersOnRelentlessChange": false,
-  "bossActionGroups": [
-
-  ],
-  "characterSoundData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "characterChatterData": {
-    "m_FileID": 0,
-    "m_PathID": 16629
-  },
   "characterLoreTooltipKeys": [
-
-  ],
-  "roomModifiers": [
 
   ],
   "name": "Squashed Morsel"

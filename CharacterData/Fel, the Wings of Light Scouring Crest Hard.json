@@ -1,253 +1,39 @@
 {
-  "m_Name": "Boss_Level6Junk_Harder",
-  "id": "aa9fa320-0a5e-4c08-9b25-59eba0d42462",
   "nameKey": "CharacterData_nameKey-b3c3a0aa8b180f02-1a7dfd777b4d1e84eac029618b50d8d0-v2",
-  "characterPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_Lightwinged.prefab",
-    "m_AssetGUID": "d36c16ffc2ca7cc47a28f6347ac572aa"
-  },
-  "pactCrystalsRequiredCount": -1,
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "isRepeatable": true,
-      "covenantUpgrade": false,
-      "requiredCovenantLevel": 10,
       "crystalsCount": 5,
       "upgradeData": {
-        "m_Name": "Boss_Level6FelJunk_UpgradeA",
-        "id": "d6b995a7-d7ef-4462-888a-45ea80defe00",
-        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "hideUpgradeIconOnCard": false,
         "useUpgradeHighlightTextTags": false,
-        "isUnitSynthesisUpgrade": false,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
-        "linkedPactDuplicateRarity": 4,
-        "bonusDamage": 0,
-        "bonusHP": 9,
-        "costReduction": 0,
-        "xCostReduction": 0,
-        "bonusHeal": 0,
-        "bonusSize": 0,
-        "statusEffectUpgrades": [
-
-        ],
-        "traitDataUpgrades": [
-
-        ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
-        "filters": [
-
-        ],
-        "upgradesToRemove": [
-
-        ]
+        "bonusHP": 9
       }
     },
     {
-      "isRepeatable": true,
-      "covenantUpgrade": false,
-      "requiredCovenantLevel": 10,
       "crystalsCount": 15,
       "upgradeData": {
-        "m_Name": "Boss_Level6FelJunk_UpgradeB",
-        "id": "2e398664-7adb-4b6b-aa23-4f1fa37843fd",
-        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "hideUpgradeIconOnCard": false,
         "useUpgradeHighlightTextTags": false,
-        "isUnitSynthesisUpgrade": false,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
-        "linkedPactDuplicateRarity": 4,
-        "bonusDamage": 1,
-        "bonusHP": 0,
-        "costReduction": 0,
-        "xCostReduction": 0,
-        "bonusHeal": 0,
-        "bonusSize": 0,
-        "statusEffectUpgrades": [
-
-        ],
-        "traitDataUpgrades": [
-
-        ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
-        "filters": [
-
-        ],
-        "upgradesToRemove": [
-
-        ]
+        "bonusDamage": 1
       }
     },
     {
-      "isRepeatable": true,
       "covenantUpgrade": true,
-      "requiredCovenantLevel": 10,
       "crystalsCount": 20,
       "upgradeData": {
-        "m_Name": "Boss_Level6FelJunk_UpgradeC",
-        "id": "16518e61-3e71-48f0-b3b1-9d0aa568237d",
-        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "hideUpgradeIconOnCard": false,
         "useUpgradeHighlightTextTags": false,
-        "isUnitSynthesisUpgrade": false,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
-        "linkedPactDuplicateRarity": 4,
         "bonusDamage": 1,
         "bonusHP": 40,
-        "costReduction": 0,
-        "xCostReduction": 0,
-        "bonusHeal": 0,
-        "bonusSize": 0,
         "statusEffectUpgrades": [
           {
             "statusId": "spell shield",
             "count": 1
           }
-        ],
-        "traitDataUpgrades": [
-
-        ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
-        "filters": [
-
-        ],
-        "upgradesToRemove": [
-
         ]
       }
     }
   ],
   "size": 6,
-  "blockVisualSizeIncrease": false,
   "health": 1300,
-  "canBeHealed": true,
   "isOuterTrainBoss": true,
-  "validBossAttackPhase": 2,
-  "isMiniboss": false,
-  "deathType": 0,
-  "canAttack": true,
-  "ascendsTrainAutomatically": true,
-  "attackDamage": 10,
-  "animationController": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "attackTeleportsToDefender": true,
-  "deathSlidesBackwards": true,
-  "projectilePrefab": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "impactVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "deathVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 5201
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 3,
-    "facing": 0
-  },
-  "bossRoomSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 4527
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 1,
-    "facing": 0
-  },
   "startingStatusEffects": [
     {
       "statusId": "multistrike",
@@ -257,128 +43,36 @@
   "statusEffectImmunities": [
     "rooted"
   ],
-  "triggers": [
-
-  ],
   "subtypeKeys": [
     "SubtypesData_BigBoss2_e3e6f1a2-34a7-4493-b9d7-a123e182241e"
   ],
-  "removeTriggersOnRelentlessChange": false,
   "bossActionGroups": [
     {
-      "numRepeats": 1,
       "actions": [
         {
           "actionBehaviorName": "RandomBossActionBehavior",
-          "tooltipOverrideKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
           "actionEffects": [
             {
               "effectStateName": "CardEffectAddBattleCard",
-              "targetMode": 0,
-              "targetModeStatusEffectsFilter": [
-
-              ],
-              "targetModeHealthFilter": 0,
-              "targetIgnoreBosses": false,
-              "filterBasedOnMainSubClass": false,
-              "copyModifiersFromSource": false,
-              "ignoreTemporaryModifiersFromSource": false,
               "targetTeamType": 0,
-              "targetCharacterSubtype": "SubtypesData_None",
-              "targetCardType": 0,
-              "targetCardSelectionMode": 0,
-              "animToPlay": 0,
-              "appliedToSelfVFX": {
-                "vfxPrefabLeft": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "vfxPrefabRight": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "spawnLocation": 0,
-                "facing": 0
-              },
-              "appliedVFX": {
-                "vfxPrefabLeft": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "vfxPrefabRight": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "spawnLocation": 0,
-                "facing": 0
-              },
-              "shouldTest": true,
-              "useIntRange": false,
               "paramInt": 3,
-              "additionalParamInt": 0,
-              "paramStr": "",
-              "paramBool": false,
-              "paramSubtype": "SubtypesData_None",
-              "paramMinInt": 0,
-              "paramMaxInt": 0,
-              "paramMultiplier": 1.0,
-              "useStatusEffectStackMultiplier": false,
-              "statusEffectStackMultiplier": "",
-              "paramCharacterData": null,
-              "paramAdditionalCharacterData": null,
-              "paramCharacterDataPool": [
-
-              ],
-              "paramRoomData": null,
               "paramCardPool": {
                 "name": "JunkPoolUltimate",
                 "cardDataList": [
                   "ScourgeUltimate"
                 ]
-              },
-              "paramCardFilter": null,
-              "paramTrigger": 0,
-              "paramStatusEffects": [
-
-              ],
-              "paramCardUpgradeData": null,
-              "paramTimingDelays": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "hideTooltip": false,
-              "additionalTooltips": [
-
-              ]
+              }
             }
-          ],
-          "paramTeamType": 0
+          ]
         },
         {
-          "actionBehaviorName": "RandomBossActionBehavior",
-          "tooltipOverrideKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "actionEffects": [
-
-          ],
-          "paramTeamType": 0
+          "actionBehaviorName": "RandomBossActionBehavior"
         }
       ]
     }
   ],
-  "characterSoundData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "characterChatterData": {
-    "m_FileID": 0,
-    "m_PathID": 16621
-  },
   "characterLoreTooltipKeys": [
     "CharacterData_data-198b9f907acea807-1a7dfd777b4d1e84eac029618b50d8d0-v2"
-  ],
-  "roomModifiers": [
-
   ],
   "name": "Fel, the Wings of Light Scouring Crest Hard"
 }

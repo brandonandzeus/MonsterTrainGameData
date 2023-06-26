@@ -1,231 +1,33 @@
 {
-  "m_Name": "MonsterGhoul",
-  "id": "4d5d6a93-b8aa-41dd-81cf-f408af7ca4b1",
   "nameKey": "CharacterData_nameKey-3b812e960768b221-19ff4ef619e80b943bced80212f8c5de-v2",
-  "characterPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_ReformedServant.prefab",
-    "m_AssetGUID": "0941e52961d30064ba91bebbd56ff0a4"
-  },
-  "pactCrystalsRequiredCount": -1,
-  "bypassPactCrystalsUpgradeDataList": [
-
-  ],
   "size": 1,
-  "blockVisualSizeIncrease": false,
   "health": 10,
-  "canBeHealed": true,
-  "isOuterTrainBoss": false,
-  "validBossAttackPhase": 2,
-  "isMiniboss": false,
-  "deathType": 0,
-  "canAttack": true,
-  "ascendsTrainAutomatically": true,
   "attackDamage": 0,
-  "animationController": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "attackTeleportsToDefender": true,
   "deathSlidesBackwards": false,
-  "projectilePrefab": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "impactVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "deathVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossRoomSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "startingStatusEffects": [
-
-  ],
-  "statusEffectImmunities": [
-
-  ],
   "triggers": [
     {
-      "trigger": 0,
       "descriptionKey": "CharacterData_descriptionKey-856383afb2f1a40f-19ff4ef619e80b943bced80212f8c5de-v2",
-      "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "displayEffectHintText": false,
-      "hideTriggerTooltip": false,
       "effects": [
         {
           "effectStateName": "CardEffectRecursion",
           "targetMode": 15,
-          "targetModeStatusEffectsFilter": [
-
-          ],
-          "targetModeHealthFilter": 0,
-          "targetIgnoreBosses": false,
-          "filterBasedOnMainSubClass": false,
-          "copyModifiersFromSource": false,
-          "ignoreTemporaryModifiersFromSource": false,
           "targetTeamType": 0,
-          "targetCharacterSubtype": "SubtypesData_None",
           "targetCardType": 1,
           "targetCardSelectionMode": 1,
-          "animToPlay": 0,
-          "appliedToSelfVFX": {
-            "vfxPrefabLeft": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "vfxPrefabRight": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "spawnLocation": 0,
-            "facing": 0
-          },
-          "appliedVFX": {
-            "vfxPrefabLeft": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "vfxPrefabRight": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "spawnLocation": 0,
-            "facing": 0
-          },
-          "shouldTest": true,
-          "useIntRange": false,
           "paramInt": 2,
-          "additionalParamInt": 0,
-          "paramStr": "",
-          "paramBool": false,
-          "paramSubtype": "SubtypesData_None",
-          "paramMinInt": 0,
-          "paramMaxInt": 0,
-          "paramMultiplier": 1.0,
-          "useStatusEffectStackMultiplier": false,
-          "statusEffectStackMultiplier": "",
-          "paramCharacterData": null,
-          "paramAdditionalCharacterData": null,
-          "paramCharacterDataPool": [
-
-          ],
-          "paramRoomData": null,
-          "paramCardPool": [
-
-          ],
-          "paramCardFilter": null,
-          "paramTrigger": 0,
-          "paramStatusEffects": [
-
-          ],
           "paramCardUpgradeData": {
-            "m_Name": "Raise",
-            "id": "8e99fcbd-5415-4bc9-9133-7131b0fb33a6",
             "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-f05d56acd65c0682-341b8d96f6526364c8b6abd34089ac9e-v2",
             "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-3fd316fe18de4b5b-341b8d96f6526364c8b6abd34089ac9e-v2",
-            "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "upgradeIcon": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "hideUpgradeIconOnCard": false,
-            "useUpgradeHighlightTextTags": true,
-            "isUnitSynthesisUpgrade": false,
-            "isUnique": false,
-            "sourceSynthesisUnit": null,
-            "linkedPactDuplicateRarity": 4,
             "bonusDamage": 5,
             "bonusHP": 5,
             "costReduction": 99,
-            "xCostReduction": 0,
-            "bonusHeal": 0,
-            "bonusSize": 0,
             "statusEffectUpgrades": [
               {
                 "statusId": "ephemeral",
                 "count": 1
               }
-            ],
-            "traitDataUpgrades": [
-
-            ],
-            "removeTraitUpgrades": [
-
-            ],
-            "triggerUpgrades": [
-
-            ],
-            "cardTriggerUpgrades": [
-
-            ],
-            "roomModifierUpgrades": [
-
-            ],
-            "filters": [
-
-            ],
-            "upgradesToRemove": [
-
             ]
-          },
-          "paramTimingDelays": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "hideTooltip": false,
-          "additionalTooltips": [
-
-          ]
+          }
         }
       ]
     }
@@ -233,23 +35,8 @@
   "subtypeKeys": [
     "SubtypesData_Tomb"
   ],
-  "removeTriggersOnRelentlessChange": false,
-  "bossActionGroups": [
-
-  ],
-  "characterSoundData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "characterChatterData": {
-    "m_FileID": 0,
-    "m_PathID": 16592
-  },
   "characterLoreTooltipKeys": [
     "CharacterData_data-8c0ae9197db600bd-19ff4ef619e80b943bced80212f8c5de-v2"
-  ],
-  "roomModifiers": [
-
   ],
   "name": "Archived Reformed Servant"
 }

@@ -1,301 +1,27 @@
 {
-  "m_Name": "MonsterDemonGeneral",
-  "id": "7e3c0d00-d25b-4991-8fae-14745baee09f",
   "nameKey": "CharacterData_nameKey-40dcf8a0917cd4ef-9ddbfd6c015b6e448a08f42243184f57-v2",
-  "characterPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/Characters/Character_Prefabs/AutoCreated/Character_MonsterDemonGeneral.prefab",
-    "m_AssetGUID": "6272f60695614fe4bad2fb078171f29b"
-  },
-  "pactCrystalsRequiredCount": -1,
-  "bypassPactCrystalsUpgradeDataList": [
-
-  ],
-  "size": 2,
-  "blockVisualSizeIncrease": false,
   "health": 14,
-  "canBeHealed": true,
-  "isOuterTrainBoss": false,
-  "validBossAttackPhase": 2,
-  "isMiniboss": false,
-  "deathType": 0,
-  "canAttack": true,
-  "ascendsTrainAutomatically": true,
   "attackDamage": 6,
-  "animationController": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "attackTeleportsToDefender": true,
-  "deathSlidesBackwards": true,
-  "projectilePrefab": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "impactVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "deathVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossRoomSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "startingStatusEffects": [
-
-  ],
-  "statusEffectImmunities": [
-
-  ],
   "triggers": [
     {
       "trigger": 1,
       "descriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "displayEffectHintText": false,
-      "hideTriggerTooltip": false,
       "effects": [
         {
           "effectStateName": "CardEffectSpawnMonster",
-          "targetMode": 0,
-          "targetModeStatusEffectsFilter": [
-
-          ],
-          "targetModeHealthFilter": 0,
-          "targetIgnoreBosses": false,
-          "filterBasedOnMainSubClass": false,
-          "copyModifiersFromSource": false,
-          "ignoreTemporaryModifiersFromSource": false,
           "targetTeamType": 0,
-          "targetCharacterSubtype": "SubtypesData_None",
-          "targetCardType": 0,
-          "targetCardSelectionMode": 0,
-          "animToPlay": 0,
-          "appliedToSelfVFX": {
-            "vfxPrefabLeft": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "vfxPrefabRight": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "spawnLocation": 0,
-            "facing": 0
-          },
-          "appliedVFX": {
-            "vfxPrefabLeft": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "vfxPrefabRight": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "spawnLocation": 0,
-            "facing": 0
-          },
-          "shouldTest": true,
-          "useIntRange": false,
-          "paramInt": 0,
-          "additionalParamInt": 0,
-          "paramStr": "",
-          "paramBool": false,
-          "paramSubtype": "SubtypesData_None",
-          "paramMinInt": 0,
-          "paramMaxInt": 0,
-          "paramMultiplier": 1.0,
-          "useStatusEffectStackMultiplier": false,
-          "statusEffectStackMultiplier": "",
           "paramCharacterData": {
-            "m_Name": "MonsterImpWimp",
-            "id": "6a6bb664-9676-43c1-8195-d8272889396e",
             "nameKey": "CharacterData_nameKey-fef4f9ea3009a807-d6ebec7d3a746264aa45b74dd478cdda-v2",
-            "characterPrefabVariantRef": {
-              "m_debugName": "Assets/GameData/Characters/Character_Prefabs/AutoCreated/Character_MonsterImpWimp.prefab",
-              "m_AssetGUID": "0858d23dd8ea96e45b2d47fcfaf0fc2a"
-            },
-            "pactCrystalsRequiredCount": -1,
-            "bypassPactCrystalsUpgradeDataList": [
-
-            ],
             "size": 1,
-            "blockVisualSizeIncrease": false,
             "health": 1,
-            "canBeHealed": true,
-            "isOuterTrainBoss": false,
-            "validBossAttackPhase": 2,
-            "isMiniboss": false,
-            "deathType": 0,
-            "canAttack": true,
-            "ascendsTrainAutomatically": true,
             "attackDamage": 2,
-            "animationController": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "attackTeleportsToDefender": true,
-            "deathSlidesBackwards": true,
-            "projectilePrefab": {
-              "vfxPrefabLeft": {
-                "m_FileID": 0,
-                "m_PathID": 0
-              },
-              "vfxPrefabRight": {
-                "m_FileID": 0,
-                "m_PathID": 0
-              },
-              "spawnLocation": 0,
-              "facing": 0
-            },
-            "impactVFX": {
-              "vfxPrefabLeft": {
-                "m_FileID": 0,
-                "m_PathID": 0
-              },
-              "vfxPrefabRight": {
-                "m_FileID": 0,
-                "m_PathID": 0
-              },
-              "spawnLocation": 0,
-              "facing": 0
-            },
-            "deathVFX": {
-              "vfxPrefabLeft": {
-                "m_FileID": 0,
-                "m_PathID": 0
-              },
-              "vfxPrefabRight": {
-                "m_FileID": 0,
-                "m_PathID": 0
-              },
-              "spawnLocation": 0,
-              "facing": 0
-            },
-            "bossSpellCastVFX": {
-              "vfxPrefabLeft": {
-                "m_FileID": 0,
-                "m_PathID": 0
-              },
-              "vfxPrefabRight": {
-                "m_FileID": 0,
-                "m_PathID": 0
-              },
-              "spawnLocation": 0,
-              "facing": 0
-            },
-            "bossRoomSpellCastVFX": {
-              "vfxPrefabLeft": {
-                "m_FileID": 0,
-                "m_PathID": 0
-              },
-              "vfxPrefabRight": {
-                "m_FileID": 0,
-                "m_PathID": 0
-              },
-              "spawnLocation": 0,
-              "facing": 0
-            },
-            "startingStatusEffects": [
-
-            ],
-            "statusEffectImmunities": [
-
-            ],
-            "triggers": [
-
-            ],
             "subtypeKeys": [
               "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
             ],
-            "removeTriggersOnRelentlessChange": false,
-            "bossActionGroups": [
-
-            ],
-            "characterSoundData": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "characterChatterData": {
-              "m_FileID": 0,
-              "m_PathID": 16586
-            },
             "characterLoreTooltipKeys": [
 
-            ],
-            "roomModifiers": [
-
             ]
-          },
-          "paramAdditionalCharacterData": null,
-          "paramCharacterDataPool": [
-
-          ],
-          "paramRoomData": null,
-          "paramCardPool": [
-
-          ],
-          "paramCardFilter": null,
-          "paramTrigger": 0,
-          "paramStatusEffects": [
-
-          ],
-          "paramCardUpgradeData": null,
-          "paramTimingDelays": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "hideTooltip": false,
-          "additionalTooltips": [
-
-          ]
+          }
         }
       ]
     }
@@ -303,22 +29,7 @@
   "subtypeKeys": [
     "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
   ],
-  "removeTriggersOnRelentlessChange": false,
-  "bossActionGroups": [
-
-  ],
-  "characterSoundData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "characterChatterData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "characterLoreTooltipKeys": [
-
-  ],
-  "roomModifiers": [
 
   ],
   "name": "Archived The Alpha Inferus"

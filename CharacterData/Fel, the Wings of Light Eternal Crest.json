@@ -1,92 +1,9 @@
 {
-  "m_Name": "Boss_Level6Armor",
-  "id": "9516393b-50c6-48b3-b1e4-eb80e0786a29",
   "nameKey": "CharacterData_nameKey-c7cf311674b459c9-ca231f4af8d21424185f8e3764689499-v2",
-  "characterPrefabVariantRef": {
-    "m_debugName": "Assets/GameData/CharacterArt/Character_Prefabs/Character_Lightwinged.prefab",
-    "m_AssetGUID": "d36c16ffc2ca7cc47a28f6347ac572aa"
-  },
-  "pactCrystalsRequiredCount": -1,
-  "bypassPactCrystalsUpgradeDataList": [
-
-  ],
   "size": 6,
-  "blockVisualSizeIncrease": false,
   "health": 700,
-  "canBeHealed": true,
   "isOuterTrainBoss": true,
-  "validBossAttackPhase": 2,
-  "isMiniboss": false,
-  "deathType": 0,
-  "canAttack": true,
-  "ascendsTrainAutomatically": true,
   "attackDamage": 9,
-  "animationController": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "attackTeleportsToDefender": true,
-  "deathSlidesBackwards": true,
-  "projectilePrefab": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "impactVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "deathVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 0,
-    "facing": 0
-  },
-  "bossSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 5201
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 3,
-    "facing": 0
-  },
-  "bossRoomSpellCastVFX": {
-    "vfxPrefabLeft": {
-      "m_FileID": 0,
-      "m_PathID": 4527
-    },
-    "vfxPrefabRight": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "spawnLocation": 1,
-    "facing": 0
-  },
   "startingStatusEffects": [
     {
       "statusId": "multistrike",
@@ -96,99 +13,24 @@
   "statusEffectImmunities": [
     "rooted"
   ],
-  "triggers": [
-
-  ],
   "subtypeKeys": [
     "SubtypesData_BigBoss2_e3e6f1a2-34a7-4493-b9d7-a123e182241e"
   ],
-  "removeTriggersOnRelentlessChange": false,
   "bossActionGroups": [
     {
-      "numRepeats": 1,
       "actions": [
         {
           "actionBehaviorName": "RandomOccupiedBossActionBehavior",
-          "tooltipOverrideKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
           "actionEffects": [
             {
               "effectStateName": "CardEffectAddStatusEffect",
-              "targetMode": 0,
-              "targetModeStatusEffectsFilter": [
-
-              ],
-              "targetModeHealthFilter": 0,
               "targetIgnoreBosses": true,
-              "filterBasedOnMainSubClass": false,
-              "copyModifiersFromSource": false,
-              "ignoreTemporaryModifiersFromSource": false,
-              "targetTeamType": 1,
-              "targetCharacterSubtype": "SubtypesData_None",
-              "targetCardType": 0,
-              "targetCardSelectionMode": 0,
-              "animToPlay": 0,
-              "appliedToSelfVFX": {
-                "vfxPrefabLeft": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "vfxPrefabRight": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "spawnLocation": 0,
-                "facing": 0
-              },
-              "appliedVFX": {
-                "vfxPrefabLeft": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "vfxPrefabRight": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "spawnLocation": 0,
-                "facing": 0
-              },
-              "shouldTest": true,
-              "useIntRange": false,
               "paramInt": 100,
-              "additionalParamInt": 0,
-              "paramStr": "",
-              "paramBool": false,
-              "paramSubtype": "SubtypesData_None",
-              "paramMinInt": 0,
-              "paramMaxInt": 0,
-              "paramMultiplier": 1.0,
-              "useStatusEffectStackMultiplier": false,
-              "statusEffectStackMultiplier": "",
-              "paramCharacterData": null,
-              "paramAdditionalCharacterData": null,
-              "paramCharacterDataPool": [
-
-              ],
-              "paramRoomData": null,
-              "paramCardPool": [
-
-              ],
-              "paramCardFilter": null,
-              "paramTrigger": 0,
               "paramStatusEffects": [
                 {
                   "statusId": "armor",
                   "count": 10
                 }
-              ],
-              "paramCardUpgradeData": null,
-              "paramTimingDelays": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "hideTooltip": false,
-              "additionalTooltips": [
-
               ]
             }
           ],
@@ -197,19 +39,8 @@
       ]
     }
   ],
-  "characterSoundData": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "characterChatterData": {
-    "m_FileID": 0,
-    "m_PathID": 16621
-  },
   "characterLoreTooltipKeys": [
     "CharacterData_data-03e179bfae32168d-ca231f4af8d21424185f8e3764689499-v2"
-  ],
-  "roomModifiers": [
-
   ],
   "name": "Fel, the Wings of Light Eternal Crest"
 }
