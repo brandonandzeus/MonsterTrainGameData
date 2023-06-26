@@ -1,99 +1,20 @@
 {
-  "m_Name": "Enemy_ArmorT1",
-  "id": "50fea1d3-2915-41c5-a222-55fac9b54bf7",
   "nameKey": "SinsData_nameKey-2ec67f47b70516f0-96e61e7aadde3aa4c8cbfbd3ef9ec206-v2",
   "descriptionKey": "SinsData_descriptionKey-ff9719abadf5673b-96e61e7aadde3aa4c8cbfbd3ef9ec206-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 2003
-  },
-  "divineVariant": false,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
       "paramSourceTeam": 1,
-      "paramInt": 0,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
       "paramExcludeCharacterSubtypes": [
         "SubtypesData_TreasureCollector"
       ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
       "paramStatusEffects": [
         {
           "statusId": "armor",
           "count": 10
         }
       ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 2,
-      "paramTargetMode": 2,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      "paramTrigger": 2
     }
   ],
   "name": "Armor Emblem1"

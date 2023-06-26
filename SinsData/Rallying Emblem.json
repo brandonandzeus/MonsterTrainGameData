@@ -1,125 +1,28 @@
 {
-  "m_Name": "Enemy_SeraphRally",
-  "id": "8db9048f-db19-48aa-8848-ddde78581145",
   "nameKey": "SinsData_nameKey-37374703bc2716e5-664854b07b11c514d9aa8a35d64f320e-v2",
   "descriptionKey": "SinsData_descriptionKey-54273a2c2157b06d-664854b07b11c514d9aa8a35d64f320e-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 2234
-  },
-  "divineVariant": false,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectOnlyTooltips",
-      "paramSourceTeam": 0,
-      "paramInt": 0,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
-      "paramTargetMode": 0,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
       "additionalTooltips": [
         {
-          "titleKey": "",
-          "descriptionKey": "",
           "style": 0,
           "isStatusTooltip": true,
-          "statusId": "melee weakness",
-          "isTriggerTooltip": false,
-          "trigger": 0,
-          "isTipTooltip": false
+          "statusId": "melee weakness"
         },
         {
-          "titleKey": "",
-          "descriptionKey": "",
           "style": 0,
-          "isStatusTooltip": false,
           "statusId": "melee weakness",
           "isTriggerTooltip": true,
-          "trigger": 20,
-          "isTipTooltip": false
+          "trigger": 20
         },
         {
-          "titleKey": "",
-          "descriptionKey": "",
           "style": 0,
-          "isStatusTooltip": false,
           "statusId": "melee weakness",
           "isTriggerTooltip": true,
-          "trigger": 19,
-          "isTipTooltip": false
+          "trigger": 19
         }
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      ]
     }
   ],
   "name": "Rallying Emblem"

@@ -1,360 +1,59 @@
 {
-  "m_Name": "Enemy_SeraphAddConsumeToSpells",
-  "id": "879a30ac-e408-46b6-aa74-f0295d64a609",
   "nameKey": "SinsData_nameKey-b2aa5944093bad7f-bcb69f698cc2d1a4085171ad1c54711a-v2",
   "descriptionKey": "SinsData_descriptionKey-7daa31e87d553197-bcb69f698cc2d1a4085171ad1c54711a-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 1961
-  },
-  "divineVariant": false,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddTraitToHand",
       "paramSourceTeam": 2,
-      "paramInt": 0,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
-      "paramTargetMode": 2,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
       "effectConditions": [
         {
           "paramTrackedValue": 12,
           "paramCardType": 1,
-          "paramTrackTriggerCount": false,
-          "paramEntryDuration": 0,
-          "paramComparator": 3,
-          "paramInt": 0,
-          "allowMultipleTriggersPerDuration": true,
-          "paramSubtype": "SubtypesData_None"
+          "paramComparator": 3
         }
       ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "CardTraitExhaustState",
       "traits": [
         {
-          "traitStateName": "CardTraitExhaustState",
-          "paramTrackedValue": 0,
-          "paramCardType": 0,
-          "paramEntryDuration": 0,
-          "paramStr": "",
-          "paramInt": 0,
-          "paramFloat": 0.0,
-          "paramSubtype": "SubtypesData_None",
-          "paramUseScalingParams": false,
-          "traitIsRemovable": true,
-          "paramCardData": null,
-          "paramCardUpgradeData": null,
-          "paramStatusEffects": [
-
-          ],
-          "paramTeamType": 1,
-          "stackMode": 0
+          "traitStateName": "CardTraitExhaustState"
         }
       ],
       "excludedTraits": [
         {
-          "traitStateName": "CardTraitSelfPurge",
-          "paramTrackedValue": 0,
-          "paramCardType": 0,
-          "paramEntryDuration": 0,
-          "paramStr": "",
-          "paramInt": 0,
-          "paramFloat": 0.0,
-          "paramSubtype": "SubtypesData_None",
-          "paramUseScalingParams": false,
-          "traitIsRemovable": true,
-          "paramCardData": null,
-          "paramCardUpgradeData": null,
-          "paramStatusEffects": [
-
-          ],
-          "paramTeamType": 0,
-          "stackMode": 0
+          "traitStateName": "CardTraitSelfPurge"
         }
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      ]
     },
     {
       "relicEffectClassName": "RelicEffectRemoveTempTraitFromHandAfterPlay",
       "paramSourceTeam": 2,
-      "paramInt": 0,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
       "paramBool": true,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
-      "paramTargetMode": 2,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
       "effectConditions": [
         {
           "paramTrackedValue": 12,
           "paramCardType": 1,
-          "paramTrackTriggerCount": false,
-          "paramEntryDuration": 0,
-          "paramComparator": 6,
           "paramInt": 1,
-          "allowMultipleTriggersPerDuration": false,
-          "paramSubtype": "SubtypesData_None"
+          "allowMultipleTriggersPerDuration": false
         }
       ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "CardTraitExhaustState",
       "traits": [
         {
-          "traitStateName": "CardTraitExhaustState",
-          "paramTrackedValue": 0,
-          "paramCardType": 0,
-          "paramEntryDuration": 0,
-          "paramStr": "",
-          "paramInt": 0,
-          "paramFloat": 0.0,
-          "paramSubtype": "SubtypesData_None",
-          "paramUseScalingParams": false,
-          "traitIsRemovable": true,
-          "paramCardData": null,
-          "paramCardUpgradeData": null,
-          "paramStatusEffects": [
-
-          ],
-          "paramTeamType": 1,
-          "stackMode": 0
+          "traitStateName": "CardTraitExhaustState"
         }
       ],
       "excludedTraits": [
         {
-          "traitStateName": "CardTraitSelfPurge",
-          "paramTrackedValue": 0,
-          "paramCardType": 0,
-          "paramEntryDuration": 0,
-          "paramStr": "",
-          "paramInt": 0,
-          "paramFloat": 0.0,
-          "paramSubtype": "SubtypesData_None",
-          "paramUseScalingParams": false,
-          "traitIsRemovable": false,
-          "paramCardData": null,
-          "paramCardUpgradeData": null,
-          "paramStatusEffects": [
-
-          ],
-          "paramTeamType": 0,
-          "stackMode": 0
+          "traitStateName": "CardTraitSelfPurge"
         }
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      ]
     },
     {
       "relicEffectClassName": "RelicEffectRemoveTempTraitPostDiscard",
       "paramSourceTeam": 2,
-      "paramInt": 0,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
-      "paramTargetMode": 2,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "CardTraitExhaustState",
       "traits": [
         {
-          "traitStateName": "CardTraitExhaustState",
-          "paramTrackedValue": 0,
-          "paramCardType": 0,
-          "paramEntryDuration": 0,
-          "paramStr": "",
-          "paramInt": 0,
-          "paramFloat": 0.0,
-          "paramSubtype": "SubtypesData_None",
-          "paramUseScalingParams": false,
-          "traitIsRemovable": true,
-          "paramCardData": null,
-          "paramCardUpgradeData": null,
-          "paramStatusEffects": [
-
-          ],
-          "paramTeamType": 1,
-          "stackMode": 0
+          "traitStateName": "CardTraitExhaustState"
         }
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      ]
     }
   ],
   "name": "Draining Emblem"
