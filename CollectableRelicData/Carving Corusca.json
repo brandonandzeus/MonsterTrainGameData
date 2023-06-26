@@ -9,7 +9,6 @@
     {
       "relicEffectClassName": "RelicEffectEnergyOnCorruptRestrictedPlayed",
       "paramInt": 1,
-      "paramTargetMode": 0,
       "additionalTooltips": [
         {
           "titleKey": "CardTraitCorruptRestricted_CardText_NoParam",
@@ -24,7 +23,6 @@
     {
       "relicEffectClassName": "RelicEffectCorruptionOnCorruptRestrictedPlayed",
       "paramInt": 1,
-      "paramTargetMode": 0,
       "additionalTooltips": [
         {
           "titleKey": "CardTraitCorruptRestricted_CardText_NoParam",

@@ -15,7 +15,6 @@
           "count": 1
         }
       ],
-      "paramTargetMode": 0,
       "effectConditions": [
         {
           "paramTrackedValue": 0,

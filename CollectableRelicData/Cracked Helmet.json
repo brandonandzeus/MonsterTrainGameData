@@ -8,7 +8,6 @@
   "effects": [
     {
       "relicEffectClassName": "RelicEffectUpgradeCardOnGain",
-      "paramTargetMode": 0,
       "additionalTooltips": [
         {
           "titleKey": "CardTraitIgnoreArmor_CardText",

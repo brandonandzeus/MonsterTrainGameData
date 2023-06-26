@@ -16,8 +16,7 @@
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
       "paramSourceTeam": 2,
       "paramInt": 10,
-      "paramTrigger": 26,
-      "paramTargetMode": 0
+      "paramTrigger": 26
     },
     {
       "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
@@ -28,13 +27,11 @@
           "statusId": "heal immunity",
           "count": 1
         }
-      ],
-      "paramTargetMode": 0
+      ]
     },
     {
       "relicEffectClassName": "RelicEffectAddTempUpgrade",
       "paramSourceTeam": 2,
-      "paramTargetMode": 0,
       "paramCardUpgradeData": {
         "statusEffectUpgrades": [
           {

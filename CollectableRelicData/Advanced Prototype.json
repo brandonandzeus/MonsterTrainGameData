@@ -8,7 +8,6 @@
     {
       "relicEffectClassName": "RelicEffectAddTempUpgrade",
       "paramSourceTeam": 2,
-      "paramTargetMode": 0,
       "paramCardUpgradeData": {
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-8255d39330db2b4c-c33703173b2a1e446adbd6437649d125-v2",
         "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-708f1574cb63401d-c33703173b2a1e446adbd6437649d125-v2",

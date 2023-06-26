@@ -13,8 +13,7 @@
           "statusId": "lifesteal",
           "count": 2
         }
-      ],
-      "paramTargetMode": 0
+      ]
     }
   ],
   "linkedClass": "ClassUmbra",

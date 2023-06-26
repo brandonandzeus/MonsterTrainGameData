@@ -7,13 +7,11 @@
   "effects": [
     {
       "relicEffectClassName": "RelicEffectGoldForPyreHealthOnDeparture",
-      "paramInt": 50,
-      "paramTargetMode": 0
+      "paramInt": 50
     },
     {
       "relicEffectClassName": "RelicEffectSetPyreHealthOnDeparture",
-      "paramInt": 50,
-      "paramTargetMode": 0
+      "paramInt": 50
     }
   ],
   "requiredDLC": 1,

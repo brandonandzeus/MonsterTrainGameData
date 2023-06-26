@@ -15,8 +15,7 @@
           "count": 15
         }
       ],
-      "paramTrigger": 2,
-      "paramTargetMode": 0
+      "paramTrigger": 2
     }
   ],
   "name": "Pyrewall"

@@ -8,7 +8,6 @@
     {
       "relicEffectClassName": "RelicEffectModifyCorruptionStartOfCombat",
       "paramInt": 2,
-      "paramTargetMode": 0,
       "additionalTooltips": [
         {
           "titleKey": "HudTooltip_RoomCorruption_Title",

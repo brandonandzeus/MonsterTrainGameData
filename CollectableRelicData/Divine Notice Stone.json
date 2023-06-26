@@ -6,7 +6,6 @@
     {
       "relicEffectClassName": "RelicEffectModifyCardMagicPowerOnCardPlayed",
       "paramInt": 2,
-      "paramTargetMode": 0,
       "additionalTooltips": [
         {
           "titleKey": "CardTraitExhaustState_CardText",
@@ -25,8 +24,7 @@
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
-      "paramInt": 1,
-      "paramTargetMode": 0
+      "paramInt": 1
     }
   ],
   "linkedClass": "ClassWurm",

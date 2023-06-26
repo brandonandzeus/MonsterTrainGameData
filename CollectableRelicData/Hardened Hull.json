@@ -14,8 +14,7 @@
           "statusId": "hatch",
           "count": 3
         }
-      ],
-      "paramTargetMode": 0
+      ]
     },
     {
       "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
@@ -26,8 +25,7 @@
           "statusId": "armor",
           "count": 30
         }
-      ],
-      "paramTargetMode": 0
+      ]
     }
   ],
   "linkedClass": "ClassWurm",

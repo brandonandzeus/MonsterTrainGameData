@@ -8,7 +8,6 @@
     {
       "relicEffectClassName": "RelicEffectModifyCardPlayedCostStat",
       "paramInt": 3,
-      "paramTargetMode": 0,
       "additionalTooltips": [
         {
           "titleKey": "ConsumeRemainingEnergy_TooltipTitle",

@@ -6,8 +6,7 @@
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddUnitUpgradeSlot",
-      "paramTargetMode": 0
+      "relicEffectClassName": "RelicEffectAddUnitUpgradeSlot"
     }
   ],
   "name": "Pyrestone Housing"

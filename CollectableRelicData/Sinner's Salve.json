@@ -8,13 +8,11 @@
     {
       "relicEffectClassName": "RelicEffectModifyCardTypeCost",
       "paramInt": -99,
-      "paramTargetMode": 0,
       "paramCardType": 5
     },
     {
       "relicEffectClassName": "RelicEffectModifyCardTypeCost",
       "paramInt": -99,
-      "paramTargetMode": 0,
       "paramCardType": 6
     }
   ],

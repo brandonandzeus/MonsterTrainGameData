@@ -8,7 +8,6 @@
     {
       "relicEffectClassName": "RelicEffectModifyEnergyStartOfCombat",
       "paramInt": 7,
-      "paramTargetMode": 0,
       "additionalTooltips": [
         {
           "titleKey": "Ember_TooltipTitle",

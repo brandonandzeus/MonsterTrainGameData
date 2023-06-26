@@ -12,14 +12,12 @@
           "count": 10
         }
       ],
-      "paramTrigger": 2,
-      "paramTargetMode": 0
+      "paramTrigger": 2
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
       "paramInt": 1,
-      "paramTrigger": 2,
-      "paramTargetMode": 0
+      "paramTrigger": 2
     }
   ],
   "linkedClass": "ClassHellhorned",

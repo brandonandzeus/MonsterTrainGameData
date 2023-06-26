@@ -9,7 +9,6 @@
       "relicEffectClassName": "RelicEffectFreezeRandomCards",
       "paramInt": 1,
       "paramTrigger": 21,
-      "paramTargetMode": 0,
       "tooltipTitleKey": "CollectableRelicData_tooltipTitleKey-8599cdaf5db8dcfe-61f5e591637b8f24b8e2d93d16a3916f-v2",
       "tooltipBodyKey": "CollectableRelicData_tooltipBodyKey-fde19200311f1afe-61f5e591637b8f24b8e2d93d16a3916f-v2",
       "additionalTooltips": [

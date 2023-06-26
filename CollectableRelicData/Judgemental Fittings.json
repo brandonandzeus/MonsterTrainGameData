@@ -15,8 +15,7 @@
           "statusId": "damage shield",
           "count": 1
         }
-      ],
-      "paramTargetMode": 0
+      ]
     }
   ],
   "fromStoryEvent": true,

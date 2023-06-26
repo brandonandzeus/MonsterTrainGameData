@@ -10,7 +10,6 @@
       "relicEffectClassName": "RelicEffectEnergyAndCardDrawOnUnitSpawned",
       "paramSourceTeam": 2,
       "paramInt": 1,
-      "paramTargetMode": 0,
       "effectConditions": [
         {
           "paramTrackedValue": 25,

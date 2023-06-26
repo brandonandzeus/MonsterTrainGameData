@@ -9,7 +9,6 @@
     {
       "relicEffectClassName": "RelicEffectModifyFrontInRoomCharacterMaxHealthEachTurn",
       "paramInt": 5,
-      "paramTargetMode": 0,
       "paramCardUpgradeData": {
         "bonusHP": 5
       }

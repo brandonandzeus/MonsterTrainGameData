@@ -12,7 +12,6 @@
           "count": 4
         }
       ],
-      "paramTargetMode": 0,
       "effectConditions": [
         {
           "paramTrackedValue": 0,
@@ -25,8 +24,7 @@
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
-      "paramInt": 1,
-      "paramTargetMode": 0
+      "paramInt": 1
     }
   ],
   "linkedClass": "ClassUmbra",

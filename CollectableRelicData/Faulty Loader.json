@@ -14,8 +14,7 @@
           "statusId": "dazed",
           "count": 3
         }
-      ],
-      "paramTargetMode": 0
+      ]
     },
     {
       "relicEffectClassName": "RelicEffectAddStatusEffectOnEnterRoomIndex",
@@ -26,8 +25,7 @@
           "statusId": "melee weakness",
           "count": 1
         }
-      ],
-      "paramTargetMode": 0
+      ]
     }
   ],
   "requiredDLC": 1,

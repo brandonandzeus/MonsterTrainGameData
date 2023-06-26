@@ -6,8 +6,7 @@
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddSpellUpgradeSlot",
-      "paramTargetMode": 0
+      "relicEffectClassName": "RelicEffectAddSpellUpgradeSlot"
     }
   ],
   "name": "Lightstone Casing"

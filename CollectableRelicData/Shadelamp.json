@@ -9,7 +9,6 @@
       "relicEffectClassName": "RelicEffectAddBattleCardToHandOnUnitTrigger",
       "paramSourceTeam": 1,
       "paramInt": 2,
-      "paramTargetMode": 0,
       "paramCardPool": {
         "name": "Class5Food",
         "cardDataList": [

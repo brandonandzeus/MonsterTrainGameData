@@ -7,7 +7,6 @@
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddStartingUpgradeToCardDrafts",
-      "paramTargetMode": 0,
       "paramEnhancerPool": {
         "name": "DraftUpgradePool",
         "relicDataList": [

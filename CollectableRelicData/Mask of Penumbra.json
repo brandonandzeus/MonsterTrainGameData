@@ -10,7 +10,6 @@
       "relicEffectClassName": "RelicEffectCardDrawOnCardPlay",
       "paramInt": 1,
       "paramCharacterSubtype": "SubtypesData_Snack",
-      "paramTargetMode": 0,
       "paramCardType": 1,
       "effectConditions": [
         {

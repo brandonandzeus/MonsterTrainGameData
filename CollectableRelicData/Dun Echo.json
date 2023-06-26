@@ -8,7 +8,6 @@
     {
       "relicEffectClassName": "RelicEffectChangeNumCardsToApplyRandomDraftEnhancerTo",
       "paramInt": 1,
-      "paramTargetMode": 0,
       "additionalTooltips": [
         {
           "titleKey": "CardTraitCorruptState_CardText",

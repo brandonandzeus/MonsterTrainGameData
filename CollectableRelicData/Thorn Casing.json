@@ -8,7 +8,6 @@
     {
       "relicEffectClassName": "RelicEffectAddTempUpgrade",
       "paramSourceTeam": 2,
-      "paramTargetMode": 0,
       "additionalTooltips": [
         {
           "titleKey": "CardTraitMagicPower_TooltipTitle",

@@ -14,8 +14,7 @@
           "statusId": "buff",
           "count": 3
         }
-      ],
-      "paramTargetMode": 0
+      ]
     }
   ],
   "linkedClass": "ClassRemnant",

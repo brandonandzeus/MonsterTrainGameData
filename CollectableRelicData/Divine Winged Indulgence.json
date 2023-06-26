@@ -8,14 +8,12 @@
       "paramSourceTeam": 1,
       "paramInt": -2,
       "paramTrigger": 2,
-      "paramTargetMode": 0,
       "paramCardType": 4
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
       "paramInt": 1,
       "paramTrigger": 2,
-      "paramTargetMode": 0,
       "paramCardType": 4
     }
   ],

@@ -8,7 +8,6 @@
     {
       "relicEffectClassName": "RelicEffectModifyCorruptionOnCardPlayed",
       "paramInt": 1,
-      "paramTargetMode": 0,
       "additionalTooltips": [
         {
           "titleKey": "CardTraitExhaustState_CardText",

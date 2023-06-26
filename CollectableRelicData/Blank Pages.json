@@ -8,7 +8,6 @@
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddChampionCardToHand",
-      "paramTargetMode": 0,
       "paramCardPool": {
         "name": "ChampionPool",
         "cardDataList": [

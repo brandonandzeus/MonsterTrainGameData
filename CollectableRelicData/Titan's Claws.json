@@ -8,7 +8,6 @@
     {
       "relicEffectClassName": "RelicEffectApplyCardUpgradeToHandEndOfTurn",
       "paramBool": true,
-      "paramTargetMode": 0,
       "additionalTooltips": [
         {
           "titleKey": "CardTraitFreeze_CardText",

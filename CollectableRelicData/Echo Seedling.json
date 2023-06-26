@@ -8,7 +8,6 @@
     {
       "relicEffectClassName": "RelicEffectCopyCardOnCardPlay",
       "paramInt": 2,
-      "paramTargetMode": 0,
       "paramCardType": 4,
       "additionalTooltips": [
         {

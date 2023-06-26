@@ -7,7 +7,6 @@
   "effects": [
     {
       "relicEffectClassName": "RelicEffectNull",
-      "paramTargetMode": 0,
       "additionalTooltips": [
         {
           "titleKey": "CardTraitCorruptState_CardText",

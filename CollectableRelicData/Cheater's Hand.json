@@ -7,12 +7,10 @@
   "effects": [
     {
       "relicEffectClassName": "RelicEffectChangeStartingHandSize",
-      "paramInt": 1,
-      "paramTargetMode": 0
+      "paramInt": 1
     },
     {
-      "relicEffectClassName": "RelicEffectCardsFromHandToDeck",
-      "paramTargetMode": 0
+      "relicEffectClassName": "RelicEffectCardsFromHandToDeck"
     }
   ],
   "rarity": 1,

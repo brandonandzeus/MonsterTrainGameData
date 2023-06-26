@@ -9,7 +9,6 @@
       "relicEffectClassName": "RelicEffectAddBattleCardToHand",
       "paramInt": 1,
       "paramTrigger": 12,
-      "paramTargetMode": 0,
       "paramCardPool": {
         "name": "Class5StarterFoodCard",
         "cardDataList": [

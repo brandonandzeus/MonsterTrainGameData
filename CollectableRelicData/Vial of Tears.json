@@ -10,8 +10,7 @@
       "relicEffectClassName": "RelicEffectDamageOrHealUnitsEndOfTurn",
       "paramSourceTeam": 2,
       "paramInt": 5,
-      "paramBool": true,
-      "paramTargetMode": 0
+      "paramBool": true
     }
   ],
   "fromStoryEvent": true,

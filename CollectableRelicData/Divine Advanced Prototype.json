@@ -6,7 +6,6 @@
     {
       "relicEffectClassName": "RelicEffectAddTempUpgrade",
       "paramSourceTeam": 2,
-      "paramTargetMode": 0,
       "paramCardUpgradeData": {
         "bonusDamage": 10,
         "bonusHP": 10,
@@ -32,8 +31,7 @@
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
-      "paramInt": 1,
-      "paramTargetMode": 0
+      "paramInt": 1
     }
   ],
   "rarity": 1,

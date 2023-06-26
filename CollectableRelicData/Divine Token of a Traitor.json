@@ -11,8 +11,7 @@
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
-      "paramInt": 1,
-      "paramTargetMode": 1
+      "paramInt": 1
     }
   ],
   "rarity": 1,

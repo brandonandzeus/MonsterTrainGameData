@@ -11,14 +11,12 @@
           "statusId": "poison",
           "count": 4
         }
-      ],
-      "paramTargetMode": 0
+      ]
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
       "paramSourceTeam": 1,
-      "paramInt": 1,
-      "paramTargetMode": 0
+      "paramInt": 1
     }
   ],
   "linkedClass": "ClassStygian",

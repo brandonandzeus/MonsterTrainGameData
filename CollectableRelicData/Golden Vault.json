@@ -8,8 +8,7 @@
   "effects": [
     {
       "relicEffectClassName": "RelicEffectCurrencyForPyreDamage",
-      "paramInt": 25,
-      "paramTargetMode": 0
+      "paramInt": 25
     }
   ],
   "rarity": 1,

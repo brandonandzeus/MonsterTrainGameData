@@ -7,23 +7,19 @@
   "effects": [
     {
       "relicEffectClassName": "RelicEffectSpawnUnitFromDeck",
-      "paramInt": 1,
-      "paramTargetMode": 0
+      "paramInt": 1
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitFromDeck",
-      "paramInt": 1,
-      "paramTargetMode": 0
+      "paramInt": 1
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitFromDeck",
-      "paramInt": 1,
-      "paramTargetMode": 0
+      "paramInt": 1
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitFromDeck",
-      "paramInt": 1,
-      "paramTargetMode": 0
+      "paramInt": 1
     }
   ],
   "rarity": 1,
