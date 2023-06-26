@@ -4,7 +4,6 @@
   "effects": [
     {
       "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramTargetMode": 0,
       "paramCardUpgradeData": {
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-4f8b563ea9a0ba02-c766890748174124b8c628e9140be070-v2",
         "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-ffa70055228d3912-c766890748174124b8c628e9140be070-v2",
