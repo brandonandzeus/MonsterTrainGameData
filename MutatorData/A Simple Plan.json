@@ -1,179 +1,19 @@
 {
-  "m_Name": "ExpensiveUnitsSketches",
-  "id": "799c25e8-65f0-4afa-829a-808422bbca08",
   "nameKey": "MutatorData_nameKey-d75267828ffb927e-bb446bb76b25a7943a6a16197137a4f2-v2",
   "descriptionKey": "MutatorData_descriptionKey-c3d8899230313517-bb446bb76b25a7943a6a16197137a4f2-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 2436
-  },
-  "divineVariant": false,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddRelicStartOfRun",
-      "paramSourceTeam": 0,
-      "paramInt": 0,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
-      "paramTargetMode": 2,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": "RandomUnitEveryFloor",
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      "paramRelic": "RandomUnitEveryFloor"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCardTypeCost",
-      "paramSourceTeam": 0,
       "paramInt": 2,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
-      "paramTargetMode": 2,
-      "paramRoomData": null,
       "paramCardType": 1,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": "RandomUnitEveryFloor",
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      "paramRelic": "RandomUnitEveryFloor"
     }
   ],
   "boonValue": -3,
-  "disableInDailyChallenges": false,
-  "requiredDLC": 0,
   "tags": [
     "embercost"
   ],

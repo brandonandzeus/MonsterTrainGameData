@@ -1,103 +1,11 @@
 {
-  "m_Name": "GooglyEyes",
-  "id": "4a179db0-73c3-4f2f-acb9-f7470d70624a",
   "nameKey": "MutatorData_nameKey-e5a2d1e9b76c41d8-95ace7da3517e1f478e696ac6686f31a-v2",
   "descriptionKey": "MutatorData_descriptionKey-c5eb5411ef1575cc-95ace7da3517e1f478e696ac6686f31a-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 2493
-  },
-  "divineVariant": false,
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectEnableGooglyEyes",
-      "paramSourceTeam": 0,
-      "paramInt": 0,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
-      "paramTargetMode": 2,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      "relicEffectClassName": "RelicEffectEnableGooglyEyes"
     }
   ],
-  "boonValue": 0,
   "disableInDailyChallenges": true,
-  "requiredDLC": 0,
-  "tags": [
-
-  ],
   "name": "Googly Eyes"
 }

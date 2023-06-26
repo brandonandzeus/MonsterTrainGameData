@@ -1,26 +1,6 @@
 {
-  "m_Name": "UnitBannersInLimbo",
-  "id": "f40a6d75-4643-40ad-bc4e-a04bd4fae9c8",
   "nameKey": "MutatorData_nameKey-82e3e86ace889cfc-a858e248a81c89a4693c1eabf39dca56-v2",
   "descriptionKey": "MutatorData_descriptionKey-1f7f4ca9f2f5b8d8-a858e248a81c89a4693c1eabf39dca56-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 2404
-  },
-  "divineVariant": false,
-  "effects": [
-
-  ],
   "boonValue": 4,
-  "disableInDailyChallenges": false,
-  "requiredDLC": 0,
-  "tags": [
-
-  ],
   "name": "Luxury in Limbo"
 }

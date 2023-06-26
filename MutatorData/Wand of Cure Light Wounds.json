@@ -1,101 +1,14 @@
 {
-  "m_Name": "HealAllUnitsEndOfTurn",
-  "id": "e9895424-feb8-4440-8e95-da6da579b5d8",
   "nameKey": "MutatorData_nameKey-f94e4242c19f340d-08c602656af6b134283a49cf5954d74a-v2",
   "descriptionKey": "MutatorData_descriptionKey-3a9d75f403100ecf-08c602656af6b134283a49cf5954d74a-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 2487
-  },
-  "divineVariant": false,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectDamageOrHealUnitsEndOfTurn",
-      "paramSourceTeam": 0,
       "paramInt": 5,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": true,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
-      "paramTargetMode": 2,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      "paramBool": true
     }
   ],
   "boonValue": -1,
-  "disableInDailyChallenges": false,
-  "requiredDLC": 0,
   "tags": [
     "acidrain"
   ],

@@ -1,101 +1,12 @@
 {
-  "m_Name": "PurgeChampion",
-  "id": "4bca64b3-2976-45b9-b49b-9f6368d5dab3",
   "nameKey": "MutatorData_nameKey-85ce4d5c808e569b-629add7d2c2dced48856c4f2cb4f19a6-v2",
   "descriptionKey": "MutatorData_descriptionKey-ca5624afbe470ea6-629add7d2c2dced48856c4f2cb4f19a6-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 2293
-  },
-  "divineVariant": false,
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectPurgeChampion",
-      "paramSourceTeam": 0,
-      "paramInt": 0,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
-      "paramTargetMode": 2,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      "relicEffectClassName": "RelicEffectPurgeChampion"
     }
   ],
   "boonValue": -10,
-  "disableInDailyChallenges": false,
-  "requiredDLC": 0,
   "tags": [
     "champion"
   ],

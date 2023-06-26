@@ -1,186 +1,27 @@
 {
-  "m_Name": "MoveUpOnSpellDamage",
-  "id": "faf96ddc-f2d1-40e5-b0d7-91f42d4b0e25",
   "nameKey": "MutatorData_nameKey-1ab511a65770fc0a-fcc62a0d33be5604cab4129fbef259d6-v2",
   "descriptionKey": "MutatorData_descriptionKey-b972a00d5bba994e-fcc62a0d33be5604cab4129fbef259d6-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 2455
-  },
-  "divineVariant": false,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectChanceAddEffectOnDamageCardPlayed",
-      "paramSourceTeam": 0,
       "paramInt": 100,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
-      "paramStatusEffects": [
-
-      ],
       "paramCardEffects": [
         {
           "effectStateName": "CardEffectBump",
           "targetMode": 5,
-          "targetModeStatusEffectsFilter": [
-
-          ],
-          "targetModeHealthFilter": 0,
-          "targetIgnoreBosses": false,
-          "filterBasedOnMainSubClass": false,
-          "copyModifiersFromSource": false,
-          "ignoreTemporaryModifiersFromSource": false,
           "targetTeamType": 3,
-          "targetCharacterSubtype": "SubtypesData_None",
-          "targetCardType": 0,
-          "targetCardSelectionMode": 0,
-          "animToPlay": 0,
-          "appliedToSelfVFX": {
-            "vfxPrefabLeft": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "vfxPrefabRight": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "spawnLocation": 0,
-            "facing": 0
-          },
-          "appliedVFX": {
-            "vfxPrefabLeft": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "vfxPrefabRight": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "spawnLocation": 0,
-            "facing": 0
-          },
-          "shouldTest": true,
-          "useIntRange": false,
-          "paramInt": 1,
-          "additionalParamInt": 0,
-          "paramStr": "",
-          "paramBool": false,
-          "paramSubtype": "SubtypesData_None",
-          "paramMinInt": 0,
-          "paramMaxInt": 0,
-          "paramMultiplier": 1.0,
-          "useStatusEffectStackMultiplier": false,
-          "statusEffectStackMultiplier": "",
-          "paramCharacterData": null,
-          "paramAdditionalCharacterData": null,
-          "paramCharacterDataPool": [
-
-          ],
-          "paramRoomData": null,
-          "paramCardPool": [
-
-          ],
-          "paramCardFilter": null,
-          "paramTrigger": 0,
-          "paramStatusEffects": [
-
-          ],
-          "paramCardUpgradeData": null,
-          "paramTimingDelays": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "hideTooltip": false,
-          "additionalTooltips": [
-
-          ]
+          "paramInt": 1
         }
       ],
-      "paramTrigger": 0,
-      "paramTargetMode": 2,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
       "additionalTooltips": [
         {
           "titleKey": "CardEffectBump_Up_TooltipTitle",
-          "descriptionKey": "CardEffectBump_Up_TooltipText",
-          "style": 8,
-          "isStatusTooltip": false,
-          "statusId": "",
-          "isTriggerTooltip": false,
-          "trigger": 0,
-          "isTipTooltip": false
+          "descriptionKey": "CardEffectBump_Up_TooltipText"
         }
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
-      "paramCardUpgradeData": null
+      ]
     }
   ],
   "boonValue": -5,
-  "disableInDailyChallenges": false,
-  "requiredDLC": 0,
   "tags": [
     "handsize"
   ],

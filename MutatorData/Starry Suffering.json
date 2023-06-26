@@ -1,212 +1,31 @@
 {
-  "m_Name": "FriendlyUnitsDazed",
-  "id": "1f1c9724-91d0-4129-a462-c4e6aa22ca5f",
   "nameKey": "MutatorData_nameKey-60998ce454b54fd7-d5838ae0ad5a4ac4692953effb35c068-v2",
   "descriptionKey": "MutatorData_descriptionKey-5b2a83ae399b5be3-d5838ae0ad5a4ac4692953effb35c068-v2",
-  "relicActivatedKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "relicLoreTooltipKeys": [
-
-  ],
-  "relicLoreTooltipStyle": 0,
-  "icon": {
-    "m_FileID": 0,
-    "m_PathID": 2049
-  },
-  "divineVariant": false,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddTempUpgrade",
       "paramSourceTeam": 2,
-      "paramInt": 0,
-      "paramFloat": 0.0,
-      "paramUseIntRange": false,
-      "paramMinInt": 0,
-      "paramMaxInt": 0,
-      "paramString": "",
-      "paramCharacterSubtype": "SubtypesData_None",
-      "paramExcludeCharacterSubtypes": [
-
-      ],
-      "paramSpecialCharacterType": 0,
-      "paramBool": false,
       "paramStatusEffects": [
         {
           "statusId": "dazed",
           "count": 2
         }
       ],
-      "paramCardEffects": [
-
-      ],
-      "paramTrigger": 0,
-      "paramTargetMode": 2,
-      "paramRoomData": null,
-      "paramCardType": 0,
-      "paramCardPool": [
-
-      ],
-      "paramRandomChampionPool": [
-
-      ],
-      "paramEnhancerPool": [
-
-      ],
-      "paramCardFilter": null,
-      "paramCardSetBuilder": null,
-      "paramRelic": null,
-      "paramReward": null,
-      "appliedVfx": {
-        "vfxPrefabLeft": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "vfxPrefabRight": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "spawnLocation": 0,
-        "facing": 0
-      },
-      "tooltipTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "tooltipBodyKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "additionalTooltips": [
-
-      ],
-      "triggerTooltipsSuppressed": false,
-      "paramCharacters": [
-
-      ],
-      "effectConditions": [
-
-      ],
-      "sourceCardTraitParam": "",
-      "targetCardTraitParam": "",
-      "traits": [
-
-      ],
-      "excludedTraits": [
-
-      ],
-      "triggers": [
-
-      ],
-      "cardTriggers": [
-
-      ],
       "paramCardUpgradeData": {
-        "m_Name": "Dazed2",
-        "id": "a58a8742-9864-4eb6-a80d-e6df4893de4f",
-        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "hideUpgradeIconOnCard": false,
-        "useUpgradeHighlightTextTags": true,
-        "isUnitSynthesisUpgrade": false,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
-        "linkedPactDuplicateRarity": 4,
-        "bonusDamage": 0,
-        "bonusHP": 0,
-        "costReduction": 0,
-        "xCostReduction": 0,
-        "bonusHeal": 0,
-        "bonusSize": 0,
         "statusEffectUpgrades": [
           {
             "statusId": "dazed",
             "count": 2
           }
         ],
-        "traitDataUpgrades": [
-
-        ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
         "filters": [
           {
-            "m_Name": "OnlyUnit",
-            "cardType": 1,
-            "excludeNonAttackingMonsters": false,
-            "requiredSubtypesOperator": 0,
-            "requiredSubtypes": [
-
-            ],
-            "excludedSubtypesOperator": 0,
-            "excludedSubtypes": [
-
-            ],
-            "requiredStatusEffectsOperator": 0,
-            "requiredStatusEffects": [
-
-            ],
-            "excludedStatusEffectsOperator": 0,
-            "excludedStatusEffects": [
-
-            ],
-            "requiredCardTraitsOperator": 0,
-            "requiredCardTraits": [
-
-            ],
-            "excludedCardTraitsOperator": 0,
-            "excludedCardTraits": [
-
-            ],
-            "requiredCardEffectsOperator": 0,
-            "requiredCardEffects": [
-
-            ],
-            "excludedCardEffectsOperator": 0,
-            "excludedCardEffects": [
-
-            ],
-            "allowedCardPools": [
-
-            ],
-            "disallowedCardPools": [
-
-            ],
-            "requiredSizes": [
-
-            ],
-            "excludedSizes": [
-
-            ],
-            "costRange": {
-              "x": 0.0,
-              "y": 99.0
-            },
-            "requireXCost": false,
-            "excludeXCost": false,
-            "cardTargetMode": 0,
-            "upgradeDisabledReason": 0,
-            "excludeIfUnitSynthesized": false
+            "cardType": 1
           }
-        ],
-        "upgradesToRemove": [
-
         ]
       }
     }
   ],
   "boonValue": -15,
-  "disableInDailyChallenges": false,
-  "requiredDLC": 0,
-  "tags": [
-
-  ],
   "name": "Starry Suffering"
 }
