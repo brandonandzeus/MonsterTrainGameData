@@ -36,7 +36,7 @@
 
       ],
       "paramTrigger": 0,
-      "paramTargetMode": 0,
+      "paramTargetMode": 2,
       "paramRoomData": null,
       "paramCardType": 0,
       "paramCardPool": [
@@ -80,23 +80,7 @@
       "targetCardTraitParam": "",
       "traits": [
         {
-          "traitStateName": "CardTraitIgnoreArmor",
-          "paramTrackedValue": 0,
-          "paramCardType": 0,
-          "paramEntryDuration": 0,
-          "paramStr": "",
-          "paramInt": 0,
-          "paramFloat": 0.0,
-          "paramSubtype": "SubtypesData_None",
-          "paramUseScalingParams": false,
-          "traitIsRemovable": true,
-          "paramCardData": null,
-          "paramCardUpgradeData": null,
-          "paramStatusEffects": [
-
-          ],
-          "paramTeamType": 0,
-          "stackMode": 0
+          "traitStateName": "CardTraitIgnoreArmor"
         }
       ],
       "excludedTraits": [
@@ -135,23 +119,7 @@
         ],
         "traitDataUpgrades": [
           {
-            "traitStateName": "CardTraitIgnoreArmor",
-            "paramTrackedValue": 0,
-            "paramCardType": 0,
-            "paramEntryDuration": 0,
-            "paramStr": "",
-            "paramInt": 0,
-            "paramFloat": 0.0,
-            "paramSubtype": "0",
-            "paramUseScalingParams": false,
-            "traitIsRemovable": true,
-            "paramCardData": null,
-            "paramCardUpgradeData": null,
-            "paramStatusEffects": [
-
-            ],
-            "paramTeamType": 1,
-            "stackMode": 0
+            "traitStateName": "CardTraitIgnoreArmor"
           }
         ],
         "removeTraitUpgrades": [

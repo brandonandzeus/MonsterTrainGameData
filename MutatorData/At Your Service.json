@@ -36,13 +36,14 @@
 
       ],
       "paramTrigger": 0,
-      "paramTargetMode": 0,
+      "paramTargetMode": 2,
       "paramRoomData": null,
       "paramCardType": 0,
       "paramCardPool": {
-        "name": "MegaPool",
+        "name": "TrainSteward2",
         "cardDataList": [
-          "..."
+          "TrainSteward",
+          "TrainSteward"
         ]
       },
       "paramRandomChampionPool": [
@@ -117,13 +118,14 @@
 
       ],
       "paramTrigger": 0,
-      "paramTargetMode": 0,
+      "paramTargetMode": 2,
       "paramRoomData": null,
       "paramCardType": 0,
       "paramCardPool": {
-        "name": "MegaPool",
+        "name": "TrainSteward2",
         "cardDataList": [
-          "..."
+          "TrainSteward",
+          "TrainSteward"
         ]
       },
       "paramRandomChampionPool": [

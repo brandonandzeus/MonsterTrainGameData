@@ -36,13 +36,22 @@
 
       ],
       "paramTrigger": 0,
-      "paramTargetMode": 0,
+      "paramTargetMode": 2,
       "paramRoomData": null,
       "paramCardType": 0,
       "paramCardPool": {
-        "name": "MegaPool",
+        "name": "NewChallengerChampionPool",
         "cardDataList": [
-          "..."
+          "AwokenChampionSentient",
+          "HornbreakerChampion",
+          "ChampionPenumbra",
+          "RemnantChampion",
+          "StygianChampionTethys",
+          "AwokenChampionRoot",
+          "ImpQueenChampion",
+          "ChampionPrimordium",
+          "RemnantFirstWaxerChampion",
+          "StygianChampionMartyr"
         ]
       },
       "paramRandomChampionPool": [

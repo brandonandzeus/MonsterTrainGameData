@@ -40,9 +40,9 @@
       "paramRoomData": null,
       "paramCardType": 0,
       "paramCardPool": {
-        "name": "MegaPool",
+        "name": "LodestoneOnlyPool",
         "cardDataList": [
-          "..."
+          "UnplayableUnpurgeable"
         ]
       },
       "paramRandomChampionPool": [
@@ -121,9 +121,9 @@
       "paramRoomData": null,
       "paramCardType": 0,
       "paramCardPool": {
-        "name": "MegaPool",
+        "name": "LodestoneOnlyPool",
         "cardDataList": [
-          "..."
+          "UnplayableUnpurgeable"
         ]
       },
       "paramRandomChampionPool": [
@@ -202,9 +202,9 @@
       "paramRoomData": null,
       "paramCardType": 0,
       "paramCardPool": {
-        "name": "MegaPool",
+        "name": "LodestoneOnlyPool",
         "cardDataList": [
-          "..."
+          "UnplayableUnpurgeable"
         ]
       },
       "paramRandomChampionPool": [
@@ -283,9 +283,9 @@
       "paramRoomData": null,
       "paramCardType": 0,
       "paramCardPool": {
-        "name": "MegaPool",
+        "name": "LodestoneOnlyPool",
         "cardDataList": [
-          "..."
+          "UnplayableUnpurgeable"
         ]
       },
       "paramRandomChampionPool": [
@@ -364,9 +364,9 @@
       "paramRoomData": null,
       "paramCardType": 0,
       "paramCardPool": {
-        "name": "MegaPool",
+        "name": "LodestoneOnlyPool",
         "cardDataList": [
-          "..."
+          "UnplayableUnpurgeable"
         ]
       },
       "paramRandomChampionPool": [
