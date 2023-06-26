@@ -6,10 +6,10 @@
       "paramSourceTeam": 1,
       "paramInt": 1000,
       "paramCharacterSubtype": "SubtypesData_BigBossT3_f7449215-5071-4671-909c-a02e2cceb821",
-      "paramTrigger": 2,
-      "paramTargetMode": 0
+      "paramTrigger": 2
     }
   ],
   "ascensionLevel": 25,
-  "hellforgedDescriptionKey": "Covenant25_Description_Hellforged"
+  "hellforgedDescriptionKey": "Covenant25_Description_Hellforged",
+  "name": "Ascension25SeraphHealth"
 }

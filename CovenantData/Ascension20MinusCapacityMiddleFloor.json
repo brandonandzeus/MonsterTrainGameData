@@ -5,10 +5,10 @@
     {
       "relicEffectClassName": "RelicEffectChangeSingleFloorCapacity",
       "paramInt": -1,
-      "paramFloat": 1.0,
-      "paramTargetMode": 0
+      "paramFloat": 1.0
     }
   ],
   "ascensionLevel": 20,
-  "hellforgedDescriptionKey": "Covenant20_Description_Hellforged"
+  "hellforgedDescriptionKey": "Covenant20_Description_Hellforged",
+  "name": "Ascension20MinusCapacityMiddleFloor"
 }

@@ -3,7 +3,6 @@
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddCardSetStartOfRun",
-      "paramTargetMode": 0,
       "paramCardSetBuilder": {
         "paramCardPulls": [
           null
@@ -12,5 +11,6 @@
       }
     }
   ],
-  "ascensionLevel": 13
+  "ascensionLevel": 13,
+  "name": "Ascension13PrimaryClanStarterCard"
 }

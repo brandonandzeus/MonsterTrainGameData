@@ -7,7 +7,6 @@
       "paramInt": 1,
       "paramCharacterSubtype": "SubtypesData_AttackerEnemy_b7a79da2-ded9-4e26-8702-555817499f07",
       "paramTrigger": 2,
-      "paramTargetMode": 0,
       "paramCardType": 4
     },
     {
@@ -16,7 +15,6 @@
       "paramInt": 1,
       "paramCharacterSubtype": "SubtypesData_HeavyT2",
       "paramTrigger": 2,
-      "paramTargetMode": 0,
       "paramCardType": 4
     },
     {
@@ -25,7 +23,6 @@
       "paramInt": 1,
       "paramCharacterSubtype": "SubtypesData_AttackerT2",
       "paramTrigger": 2,
-      "paramTargetMode": 0,
       "paramCardType": 4
     },
     {
@@ -34,7 +31,6 @@
       "paramInt": 2,
       "paramCharacterSubtype": "SubtypesData_AttackerT3",
       "paramTrigger": 2,
-      "paramTargetMode": 0,
       "paramCardType": 4
     },
     {
@@ -43,9 +39,9 @@
       "paramInt": 2,
       "paramCharacterSubtype": "SubtypesData_HeavyT3",
       "paramTrigger": 2,
-      "paramTargetMode": 0,
       "paramCardType": 4
     }
   ],
-  "ascensionLevel": 7
+  "ascensionLevel": 7,
+  "name": "Ascension07BasicEnemyAttack"
 }

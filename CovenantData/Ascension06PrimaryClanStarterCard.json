@@ -4,7 +4,6 @@
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddCardSetStartOfRun",
-      "paramTargetMode": 0,
       "paramCardSetBuilder": {
         "paramCardPulls": [
           {
@@ -20,5 +19,6 @@
       }
     }
   ],
-  "ascensionLevel": 6
+  "ascensionLevel": 6,
+  "name": "Ascension06PrimaryClanStarterCard"
 }

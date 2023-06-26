@@ -5,14 +5,14 @@
     {
       "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
       "paramInt": 1,
-      "paramTargetMode": 0,
       "paramCardPool": {
-        "name": "MegaPool",
+        "name": "LodestoneOnlyPool",
         "cardDataList": [
-          "..."
+          "UnplayableUnpurgeable"
         ]
       }
     }
   ],
-  "ascensionLevel": 2
+  "ascensionLevel": 2,
+  "name": "Ascension02Deadweight"
 }

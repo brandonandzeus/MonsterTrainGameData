@@ -8,7 +8,6 @@
       "paramInt": 1,
       "paramCharacterSubtype": "SubtypesData_BossT1_8850292e-bda8-428e-8d71-c375c29838f8",
       "paramTrigger": 2,
-      "paramTargetMode": 0,
       "paramCardType": 4
     },
     {
@@ -17,7 +16,6 @@
       "paramInt": 1,
       "paramCharacterSubtype": "SubtypesData_BossT2_935b30b5-bb94-4fd4-b3be-2ed0eb73ccf6",
       "paramTrigger": 2,
-      "paramTargetMode": 0,
       "paramCardType": 4
     },
     {
@@ -26,9 +24,9 @@
       "paramInt": 1,
       "paramCharacterSubtype": "SubtypesData_BossT3_ef0103da-a050-4ebb-af3a-b3e285db5e0c",
       "paramTrigger": 2,
-      "paramTargetMode": 0,
       "paramCardType": 4
     }
   ],
-  "ascensionLevel": 4
+  "ascensionLevel": 4,
+  "name": "Ascension04MinorBossesAttack"
 }

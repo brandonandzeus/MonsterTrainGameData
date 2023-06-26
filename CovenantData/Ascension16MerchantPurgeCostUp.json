@@ -6,9 +6,9 @@
       "paramSourceTeam": 1,
       "paramFloat": 0.2,
       "paramCharacterSubtype": "SubtypesData_BossT3_ef0103da-a050-4ebb-af3a-b3e285db5e0c",
-      "paramTrigger": 2,
-      "paramTargetMode": 0
+      "paramTrigger": 2
     }
   ],
-  "ascensionLevel": 16
+  "ascensionLevel": 16,
+  "name": "Ascension16MerchantPurgeCostUp"
 }

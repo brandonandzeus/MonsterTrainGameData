@@ -4,9 +4,9 @@
   "effects": [
     {
       "relicEffectClassName": "RelicEffectDamagePyreStartOfRun",
-      "paramInt": 20,
-      "paramTargetMode": 0
+      "paramInt": 20
     }
   ],
-  "ascensionLevel": 24
+  "ascensionLevel": 24,
+  "name": "Ascension24PyreDamage"
 }

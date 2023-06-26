@@ -4,9 +4,9 @@
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyMerchantRerollCosts",
-      "paramFloat": 0.2,
-      "paramTargetMode": 0
+      "paramFloat": 0.2
     }
   ],
-  "ascensionLevel": 11
+  "ascensionLevel": 11,
+  "name": "Ascension11MerchanReRollCostUp"
 }

@@ -7,7 +7,6 @@
       "paramInt": 2,
       "paramCharacterSubtype": "SubtypesData_AttackerT2",
       "paramTrigger": 2,
-      "paramTargetMode": 0,
       "paramCardType": 4
     },
     {
@@ -16,9 +15,9 @@
       "paramInt": 3,
       "paramCharacterSubtype": "SubtypesData_AttackerT3",
       "paramTrigger": 2,
-      "paramTargetMode": 0,
       "paramCardType": 4
     }
   ],
-  "ascensionLevel": 19
+  "ascensionLevel": 19,
+  "name": "Ascension19BasicEnemiesAttack"
 }

@@ -4,9 +4,9 @@
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyMerchantBlessingCosts",
-      "paramFloat": 0.2,
-      "paramTargetMode": 0
+      "paramFloat": 0.2
     }
   ],
-  "ascensionLevel": 18
+  "ascensionLevel": 18,
+  "name": "Ascension18MerchantGoodsCostUp"
 }

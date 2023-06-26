@@ -6,25 +6,23 @@
       "paramSourceTeam": 1,
       "paramInt": 75,
       "paramCharacterSubtype": "SubtypesData_BigBossT1_50952308-e0f3-4acb-b0cc-e0d662b868b8",
-      "paramTrigger": 2,
-      "paramTargetMode": 0
+      "paramTrigger": 2
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
       "paramSourceTeam": 1,
       "paramInt": 150,
       "paramCharacterSubtype": "SubtypesData_BigBoss2_e3e6f1a2-34a7-4493-b9d7-a123e182241e",
-      "paramTrigger": 2,
-      "paramTargetMode": 0
+      "paramTrigger": 2
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
       "paramSourceTeam": 1,
       "paramInt": 350,
       "paramCharacterSubtype": "SubtypesData_BigBossT3_f7449215-5071-4671-909c-a02e2cceb821",
-      "paramTrigger": 2,
-      "paramTargetMode": 0
+      "paramTrigger": 2
     }
   ],
-  "ascensionLevel": 12
+  "ascensionLevel": 12,
+  "name": "Ascension12MajorBossesHealth"
 }

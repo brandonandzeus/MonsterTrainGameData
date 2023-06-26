@@ -7,25 +7,23 @@
       "paramSourceTeam": 1,
       "paramInt": 5,
       "paramCharacterSubtype": "SubtypesData_HeavyT1",
-      "paramTrigger": 2,
-      "paramTargetMode": 0
+      "paramTrigger": 2
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
       "paramSourceTeam": 1,
       "paramInt": 10,
       "paramCharacterSubtype": "SubtypesData_HeavyT2",
-      "paramTrigger": 2,
-      "paramTargetMode": 0
+      "paramTrigger": 2
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
       "paramSourceTeam": 1,
       "paramInt": 30,
       "paramCharacterSubtype": "SubtypesData_HeavyT3",
-      "paramTrigger": 2,
-      "paramTargetMode": 0
+      "paramTrigger": 2
     }
   ],
-  "ascensionLevel": 23
+  "ascensionLevel": 23,
+  "name": "Ascension23HeavyEnemyUnitsHealth"
 }

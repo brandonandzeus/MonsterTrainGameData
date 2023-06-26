@@ -15,7 +15,6 @@
         }
       ],
       "paramTrigger": 2,
-      "paramTargetMode": 0,
       "effectConditions": [
         {
           "paramTrackedValue": 32,
@@ -27,5 +26,6 @@
     }
   ],
   "ascensionLevel": 10,
-  "hellforgedDescriptionKey": "Covenant10_Description_Hellforged"
+  "hellforgedDescriptionKey": "Covenant10_Description_Hellforged",
+  "name": "Ascension10TopFloorEmberdrain"
 }
