@@ -10,7 +10,6 @@
       "relicEffectClassName": "RelicEffectModifyCardTypeCost",
       "paramInt": 2,
       "paramCardType": 1,
-      "paramRelic": "RandomUnitEveryFloor"
     }
   ],
   "boonValue": -3,
