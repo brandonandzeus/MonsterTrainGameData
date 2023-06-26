@@ -9,7 +9,7 @@
     {
       "relicEffectClassName": "RelicEffectModifyCardTypeCost",
       "paramInt": 2,
-      "paramCardType": 1,
+      "paramCardType": 1
     }
   ],
   "boonValue": -3,
