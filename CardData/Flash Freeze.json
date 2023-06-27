@@ -8,8 +8,7 @@
       "effectStateName": "CardEffectDamage",
       "targetMode": 12,
       "targetTeamType": 3,
-      "paramInt": 3,
-      "statusEffectStackMultiplier": "rooted"
+      "paramInt": 3
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",

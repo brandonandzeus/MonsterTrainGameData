@@ -16,7 +16,6 @@
       "effectStateName": "CardEffectDamage",
       "targetMode": 2,
       "paramInt": 50,
-      "statusEffectStackMultiplier": "rooted",
       "additionalTooltips": [
         {
           "titleKey": "HudTooltip_RoomCorruption_Title",

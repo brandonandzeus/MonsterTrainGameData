@@ -22,7 +22,6 @@
     {
       "effectStateName": "CardEffectDamage",
       "targetMode": 2,
-      "statusEffectStackMultiplier": "spikes",
       "additionalTooltips": [
         {
           "descriptionKey": "TipTooltip_RoomTargetSpell",
