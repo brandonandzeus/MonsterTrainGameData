@@ -15,8 +15,7 @@
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "paramInt": 1,
-
+      "paramInt": 1
     }
   ],
   "linkedClass": "ClassRemnant",
