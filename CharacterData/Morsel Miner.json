@@ -12,7 +12,6 @@
           "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
           "targetMode": 20,
           "targetTeamType": 3,
-          "statusEffectStackMultiplier": "rooted",
           "paramCardUpgradeData": {
             "bonusDamage": 6,
             "bonusHP": 6

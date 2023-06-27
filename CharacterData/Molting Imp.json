@@ -10,8 +10,7 @@
       "effects": [
         {
           "effectStateName": "CardEffectDamage",
-          "paramInt": 5,
-          "statusEffectStackMultiplier": "rooted"
+          "paramInt": 5
         }
       ]
     }

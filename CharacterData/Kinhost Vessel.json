@@ -20,7 +20,6 @@
           "targetMode": 5,
           "targetTeamType": 0,
           "paramInt": 1,
-          "statusEffectStackMultiplier": "rooted",
           "paramStatusEffects": [
             {
               "statusId": "hatch",
@@ -39,13 +38,11 @@
           "targetMode": 5,
           "targetTeamType": 0,
           "paramBool": true,
-          "statusEffectStackMultiplier": "rooted",
           "hideTooltip": true
         },
         {
           "effectStateName": "CardEffectSpawnMonster",
           "targetMode": 5,
-          "statusEffectStackMultiplier": "rooted",
           "paramCharacterData": {
             "nameKey": "CharacterData_nameKey-c8974e656cd84d1e-f83d8a195ea0adf4697455f4280b567c-v2",
             "health": 10,

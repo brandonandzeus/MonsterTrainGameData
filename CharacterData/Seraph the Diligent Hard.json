@@ -69,7 +69,6 @@
               "effectStateName": "CardEffectAddBattleCard",
               "paramInt": 7,
               "additionalParamInt": 3,
-              "statusEffectStackMultiplier": "rooted",
               "paramCardPool": {
                 "name": "VengefulShardOnlyPool",
                 "cardDataList": [
@@ -89,7 +88,6 @@
           "actionEffects": [
             {
               "effectStateName": "CardEffectSpawnHero",
-              "statusEffectStackMultiplier": "rooted",
               "paramCharacterData": {
                 "nameKey": "CharacterData_nameKey-58f78255e06f0f66-380369b69e6b2aa478c2d40ad56b910e-v2",
                 "pactCrystalsRequiredCount": 10,

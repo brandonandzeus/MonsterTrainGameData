@@ -26,8 +26,7 @@
             {
               "effectStateName": "CardEffectRemoveAllStatusEffects",
               "targetTeamType": 2,
-              "paramBool": true,
-              "statusEffectStackMultiplier": "rooted"
+              "paramBool": true
             },
             {
               "effectStateName": "CardEffectRemoveAllStatusEffects",
