@@ -1,0 +1,124 @@
+{
+  "statusEffectStateName": "StatusEffectAmbushState",
+  "statusId": "ambush",
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 2610
+  },
+  "appliedSFXName": "Status_Quick",
+  "triggeredSFXName": "",
+  "displayCategory": 2,
+  "vfxDisplayType": 0,
+  "addedVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 3032
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 4,
+    "facing": 0
+  },
+  "moreAddedVFX": {
+    "vfxList": [
+
+    ],
+    "editorMoreFoldout": false
+  },
+  "persistentVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 3699
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 7,
+    "facing": 0
+  },
+  "morePersistentVFX": {
+    "vfxList": [
+      {
+        "vfxPrefabLeft": {
+          "m_FileID": 0,
+          "m_PathID": 3843
+        },
+        "vfxPrefabRight": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "spawnLocation": 3,
+        "facing": 0
+      }
+    ],
+    "editorMoreFoldout": false
+  },
+  "triggeredVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "moreTriggeredVFX": {
+    "vfxList": [
+
+    ],
+    "editorMoreFoldout": false
+  },
+  "removedVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "moreRemovedVFX": {
+    "vfxList": [
+
+    ],
+    "editorMoreFoldout": false
+  },
+  "affectedVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "triggerStage": 8,
+  "additionalTriggerStages": [
+
+  ],
+  "removeStackAtEndOfTurn": false,
+  "removeAtEndOfTurn": false,
+  "removeWhenTriggered": false,
+  "removeWhenTriggeredAfterCardPlayed": false,
+  "removeAtEndOfTurnIfTriggered": false,
+  "isStackable": true,
+  "showStackCount": false,
+  "showNotificationsOnRemoval": true,
+  "showOnPyreHeart": false,
+  "paramStr": "",
+  "paramInt": 0,
+  "paramSecondaryInt": 0,
+  "paramFloat": 0.0
+}

@@ -1,0 +1,113 @@
+{
+  "statusEffectStateName": "StatusEffectArmorState",
+  "statusId": "armor",
+  "icon": {
+    "m_FileID": 0,
+    "m_PathID": 2613
+  },
+  "appliedSFXName": "Status_Armor",
+  "triggeredSFXName": "",
+  "displayCategory": 2,
+  "vfxDisplayType": 0,
+  "addedVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 4891
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 3,
+    "facing": 0
+  },
+  "moreAddedVFX": {
+    "vfxList": [
+
+    ],
+    "editorMoreFoldout": false
+  },
+  "persistentVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 2,
+    "facing": 0
+  },
+  "morePersistentVFX": {
+    "vfxList": [
+
+    ],
+    "editorMoreFoldout": false
+  },
+  "triggeredVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 3305
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 3,
+    "facing": 0
+  },
+  "moreTriggeredVFX": {
+    "vfxList": [
+
+    ],
+    "editorMoreFoldout": false
+  },
+  "removedVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 3306
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 3,
+    "facing": 0
+  },
+  "moreRemovedVFX": {
+    "vfxList": [
+
+    ],
+    "editorMoreFoldout": false
+  },
+  "affectedVFX": {
+    "vfxPrefabLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxPrefabRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "spawnLocation": 0,
+    "facing": 0
+  },
+  "triggerStage": 22,
+  "additionalTriggerStages": [
+
+  ],
+  "removeStackAtEndOfTurn": false,
+  "removeAtEndOfTurn": false,
+  "removeWhenTriggered": true,
+  "removeWhenTriggeredAfterCardPlayed": false,
+  "removeAtEndOfTurnIfTriggered": false,
+  "isStackable": true,
+  "showStackCount": true,
+  "showNotificationsOnRemoval": false,
+  "showOnPyreHeart": false,
+  "paramStr": "",
+  "paramInt": 1,
+  "paramSecondaryInt": 1,
+  "paramFloat": 0.0
+}
