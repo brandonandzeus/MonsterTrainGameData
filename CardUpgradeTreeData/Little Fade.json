@@ -1,0 +1,1672 @@
+{
+  "m_Name": "UpgradeTreeLittleFade",
+  "upgradeTrees": [
+    {
+      "cardUpgrades": [
+        {
+          "m_Name": "LittleFadeBuffFriendlyOnDeath",
+          "id": "eb4f67b9-f3ad-40db-9212-4ed647e17296",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-1c7abb0fc1ffde98-26f579df43ea085449824346c52710a2-v2",
+          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 0,
+          "bonusHP": 0,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+            {
+              "trigger": 0,
+              "descriptionKey": "CardUpgradeData_descriptionKey-96847f9a3ae0602d-26f579df43ea085449824346c52710a2-v2",
+              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "displayEffectHintText": false,
+              "hideTriggerTooltip": false,
+              "effects": [
+                {
+                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                  "targetMode": 0,
+                  "targetModeStatusEffectsFilter": [
+
+                  ],
+                  "targetModeHealthFilter": 0,
+                  "targetIgnoreBosses": false,
+                  "filterBasedOnMainSubClass": false,
+                  "copyModifiersFromSource": false,
+                  "ignoreTemporaryModifiersFromSource": false,
+                  "targetTeamType": 2,
+                  "targetCharacterSubtype": "SubtypesData_None",
+                  "targetCardType": 0,
+                  "targetCardSelectionMode": 0,
+                  "animToPlay": 0,
+                  "appliedToSelfVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "appliedVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "shouldTest": true,
+                  "useIntRange": false,
+                  "paramInt": 0,
+                  "additionalParamInt": 0,
+                  "paramStr": "",
+                  "paramBool": false,
+                  "paramSubtype": "SubtypesData_None",
+                  "paramMinInt": 0,
+                  "paramMaxInt": 0,
+                  "paramMultiplier": 1.0,
+                  "useStatusEffectStackMultiplier": false,
+                  "statusEffectStackMultiplier": "",
+                  "paramCharacterData": null,
+                  "paramAdditionalCharacterData": null,
+                  "paramCharacterDataPool": [
+
+                  ],
+                  "paramRoomData": null,
+                  "paramCardPool": [
+
+                  ],
+                  "paramCardFilter": null,
+                  "paramTrigger": 0,
+                  "paramStatusEffects": [
+
+                  ],
+                  "paramCardUpgradeData": {
+                    "m_Name": "RemnantChampBuffFriendly1",
+                    "id": "42849eec-c299-40ce-a344-3fc490ee052b",
+                    "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeIcon": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "hideUpgradeIconOnCard": false,
+                    "useUpgradeHighlightTextTags": true,
+                    "isUnitSynthesisUpgrade": false,
+                    "isUnique": false,
+                    "sourceSynthesisUnit": null,
+                    "linkedPactDuplicateRarity": 4,
+                    "bonusDamage": 5,
+                    "bonusHP": 5,
+                    "costReduction": 0,
+                    "xCostReduction": 0,
+                    "bonusHeal": 0,
+                    "bonusSize": 0,
+                    "statusEffectUpgrades": [
+
+                    ],
+                    "traitDataUpgrades": [
+
+                    ],
+                    "removeTraitUpgrades": [
+
+                    ],
+                    "triggerUpgrades": [
+
+                    ],
+                    "cardTriggerUpgrades": [
+
+                    ],
+                    "roomModifierUpgrades": [
+
+                    ],
+                    "filters": [
+
+                    ],
+                    "upgradesToRemove": [
+
+                    ]
+                  },
+                  "paramTimingDelays": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "hideTooltip": false,
+                  "additionalTooltips": [
+
+                  ]
+                },
+                {
+                  "effectStateName": "CardEffectAddStatusEffect",
+                  "targetMode": 0,
+                  "targetModeStatusEffectsFilter": [
+
+                  ],
+                  "targetModeHealthFilter": 0,
+                  "targetIgnoreBosses": false,
+                  "filterBasedOnMainSubClass": false,
+                  "copyModifiersFromSource": false,
+                  "ignoreTemporaryModifiersFromSource": false,
+                  "targetTeamType": 2,
+                  "targetCharacterSubtype": "SubtypesData_None",
+                  "targetCardType": 0,
+                  "targetCardSelectionMode": 0,
+                  "animToPlay": 0,
+                  "appliedToSelfVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "appliedVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "shouldTest": true,
+                  "useIntRange": false,
+                  "paramInt": 0,
+                  "additionalParamInt": 0,
+                  "paramStr": "",
+                  "paramBool": false,
+                  "paramSubtype": "SubtypesData_None",
+                  "paramMinInt": 0,
+                  "paramMaxInt": 0,
+                  "paramMultiplier": 1.0,
+                  "useStatusEffectStackMultiplier": false,
+                  "statusEffectStackMultiplier": "",
+                  "paramCharacterData": null,
+                  "paramAdditionalCharacterData": null,
+                  "paramCharacterDataPool": [
+
+                  ],
+                  "paramRoomData": null,
+                  "paramCardPool": [
+
+                  ],
+                  "paramCardFilter": null,
+                  "paramTrigger": 0,
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "ephemeral",
+                      "count": 2
+                    }
+                  ],
+                  "paramCardUpgradeData": null,
+                  "paramTimingDelays": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "hideTooltip": false,
+                  "additionalTooltips": [
+
+                  ]
+                }
+              ]
+            }
+          ],
+          "cardTriggerUpgrades": [
+
+          ],
+          "roomModifierUpgrades": [
+
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+
+          ]
+        },
+        {
+          "m_Name": "LittleFadeBuffFriendlyOnDeath2",
+          "id": "2c87b675-8681-4662-82b7-ae22b1e254d2",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-e979ef6547e42a4f-f360357a75905fd4f9c62a84eb0b681d-v2",
+          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 0,
+          "bonusHP": 0,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+            {
+              "trigger": 0,
+              "descriptionKey": "CardUpgradeData_descriptionKey-4e259f0b8308b3d2-f360357a75905fd4f9c62a84eb0b681d-v2",
+              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "displayEffectHintText": false,
+              "hideTriggerTooltip": false,
+              "effects": [
+                {
+                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                  "targetMode": 0,
+                  "targetModeStatusEffectsFilter": [
+
+                  ],
+                  "targetModeHealthFilter": 0,
+                  "targetIgnoreBosses": false,
+                  "filterBasedOnMainSubClass": false,
+                  "copyModifiersFromSource": false,
+                  "ignoreTemporaryModifiersFromSource": false,
+                  "targetTeamType": 2,
+                  "targetCharacterSubtype": "SubtypesData_None",
+                  "targetCardType": 0,
+                  "targetCardSelectionMode": 0,
+                  "animToPlay": 0,
+                  "appliedToSelfVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "appliedVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "shouldTest": true,
+                  "useIntRange": false,
+                  "paramInt": 0,
+                  "additionalParamInt": 0,
+                  "paramStr": "",
+                  "paramBool": false,
+                  "paramSubtype": "SubtypesData_None",
+                  "paramMinInt": 0,
+                  "paramMaxInt": 0,
+                  "paramMultiplier": 1.0,
+                  "useStatusEffectStackMultiplier": false,
+                  "statusEffectStackMultiplier": "",
+                  "paramCharacterData": null,
+                  "paramAdditionalCharacterData": null,
+                  "paramCharacterDataPool": [
+
+                  ],
+                  "paramRoomData": null,
+                  "paramCardPool": [
+
+                  ],
+                  "paramCardFilter": null,
+                  "paramTrigger": 0,
+                  "paramStatusEffects": [
+
+                  ],
+                  "paramCardUpgradeData": {
+                    "m_Name": "RemnantChampBuffFriendly2",
+                    "id": "6ee9fe0a-9232-4209-94f3-b007595494e5",
+                    "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeIcon": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "hideUpgradeIconOnCard": false,
+                    "useUpgradeHighlightTextTags": true,
+                    "isUnitSynthesisUpgrade": false,
+                    "isUnique": false,
+                    "sourceSynthesisUnit": null,
+                    "linkedPactDuplicateRarity": 4,
+                    "bonusDamage": 12,
+                    "bonusHP": 5,
+                    "costReduction": 0,
+                    "xCostReduction": 0,
+                    "bonusHeal": 0,
+                    "bonusSize": 0,
+                    "statusEffectUpgrades": [
+
+                    ],
+                    "traitDataUpgrades": [
+
+                    ],
+                    "removeTraitUpgrades": [
+
+                    ],
+                    "triggerUpgrades": [
+
+                    ],
+                    "cardTriggerUpgrades": [
+
+                    ],
+                    "roomModifierUpgrades": [
+
+                    ],
+                    "filters": [
+
+                    ],
+                    "upgradesToRemove": [
+
+                    ]
+                  },
+                  "paramTimingDelays": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "hideTooltip": false,
+                  "additionalTooltips": [
+
+                  ]
+                },
+                {
+                  "effectStateName": "CardEffectAddStatusEffect",
+                  "targetMode": 0,
+                  "targetModeStatusEffectsFilter": [
+
+                  ],
+                  "targetModeHealthFilter": 0,
+                  "targetIgnoreBosses": false,
+                  "filterBasedOnMainSubClass": false,
+                  "copyModifiersFromSource": false,
+                  "ignoreTemporaryModifiersFromSource": false,
+                  "targetTeamType": 2,
+                  "targetCharacterSubtype": "SubtypesData_None",
+                  "targetCardType": 0,
+                  "targetCardSelectionMode": 0,
+                  "animToPlay": 0,
+                  "appliedToSelfVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "appliedVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "shouldTest": true,
+                  "useIntRange": false,
+                  "paramInt": 0,
+                  "additionalParamInt": 0,
+                  "paramStr": "",
+                  "paramBool": false,
+                  "paramSubtype": "SubtypesData_None",
+                  "paramMinInt": 0,
+                  "paramMaxInt": 0,
+                  "paramMultiplier": 1.0,
+                  "useStatusEffectStackMultiplier": false,
+                  "statusEffectStackMultiplier": "",
+                  "paramCharacterData": null,
+                  "paramAdditionalCharacterData": null,
+                  "paramCharacterDataPool": [
+
+                  ],
+                  "paramRoomData": null,
+                  "paramCardPool": [
+
+                  ],
+                  "paramCardFilter": null,
+                  "paramTrigger": 0,
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "ephemeral",
+                      "count": 2
+                    }
+                  ],
+                  "paramCardUpgradeData": null,
+                  "paramTimingDelays": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "hideTooltip": false,
+                  "additionalTooltips": [
+
+                  ]
+                }
+              ]
+            }
+          ],
+          "cardTriggerUpgrades": [
+
+          ],
+          "roomModifierUpgrades": [
+
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+
+          ]
+        },
+        {
+          "m_Name": "LittleFadeBuffFriendlyOnDeath3",
+          "id": "b3b74373-3afe-40fc-ae2c-8a77f5817f10",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-2cce362da375ad2e-6cd3cf097ab0a1f4aa48b2a357aa7e82-v2",
+          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 0,
+          "bonusHP": 0,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+            {
+              "trigger": 0,
+              "descriptionKey": "CardUpgradeData_descriptionKey-1db9498e2b8d46f8-6cd3cf097ab0a1f4aa48b2a357aa7e82-v2",
+              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "displayEffectHintText": false,
+              "hideTriggerTooltip": false,
+              "effects": [
+                {
+                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                  "targetMode": 0,
+                  "targetModeStatusEffectsFilter": [
+
+                  ],
+                  "targetModeHealthFilter": 0,
+                  "targetIgnoreBosses": false,
+                  "filterBasedOnMainSubClass": false,
+                  "copyModifiersFromSource": false,
+                  "ignoreTemporaryModifiersFromSource": false,
+                  "targetTeamType": 2,
+                  "targetCharacterSubtype": "SubtypesData_None",
+                  "targetCardType": 0,
+                  "targetCardSelectionMode": 0,
+                  "animToPlay": 0,
+                  "appliedToSelfVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "appliedVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "shouldTest": true,
+                  "useIntRange": false,
+                  "paramInt": 0,
+                  "additionalParamInt": 0,
+                  "paramStr": "",
+                  "paramBool": false,
+                  "paramSubtype": "SubtypesData_None",
+                  "paramMinInt": 0,
+                  "paramMaxInt": 0,
+                  "paramMultiplier": 1.0,
+                  "useStatusEffectStackMultiplier": false,
+                  "statusEffectStackMultiplier": "",
+                  "paramCharacterData": null,
+                  "paramAdditionalCharacterData": null,
+                  "paramCharacterDataPool": [
+
+                  ],
+                  "paramRoomData": null,
+                  "paramCardPool": [
+
+                  ],
+                  "paramCardFilter": null,
+                  "paramTrigger": 0,
+                  "paramStatusEffects": [
+
+                  ],
+                  "paramCardUpgradeData": {
+                    "m_Name": "RemnantChampBuffFriendly3",
+                    "id": "b08bb9ad-ea6b-4eaf-9862-effb8bfb7623",
+                    "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeIcon": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "hideUpgradeIconOnCard": false,
+                    "useUpgradeHighlightTextTags": true,
+                    "isUnitSynthesisUpgrade": false,
+                    "isUnique": false,
+                    "sourceSynthesisUnit": null,
+                    "linkedPactDuplicateRarity": 4,
+                    "bonusDamage": 20,
+                    "bonusHP": 5,
+                    "costReduction": 0,
+                    "xCostReduction": 0,
+                    "bonusHeal": 0,
+                    "bonusSize": 0,
+                    "statusEffectUpgrades": [
+
+                    ],
+                    "traitDataUpgrades": [
+
+                    ],
+                    "removeTraitUpgrades": [
+
+                    ],
+                    "triggerUpgrades": [
+
+                    ],
+                    "cardTriggerUpgrades": [
+
+                    ],
+                    "roomModifierUpgrades": [
+
+                    ],
+                    "filters": [
+
+                    ],
+                    "upgradesToRemove": [
+
+                    ]
+                  },
+                  "paramTimingDelays": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "hideTooltip": false,
+                  "additionalTooltips": [
+
+                  ]
+                },
+                {
+                  "effectStateName": "CardEffectAddStatusEffect",
+                  "targetMode": 0,
+                  "targetModeStatusEffectsFilter": [
+
+                  ],
+                  "targetModeHealthFilter": 0,
+                  "targetIgnoreBosses": false,
+                  "filterBasedOnMainSubClass": false,
+                  "copyModifiersFromSource": false,
+                  "ignoreTemporaryModifiersFromSource": false,
+                  "targetTeamType": 2,
+                  "targetCharacterSubtype": "SubtypesData_None",
+                  "targetCardType": 0,
+                  "targetCardSelectionMode": 0,
+                  "animToPlay": 0,
+                  "appliedToSelfVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "appliedVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "shouldTest": true,
+                  "useIntRange": false,
+                  "paramInt": 0,
+                  "additionalParamInt": 0,
+                  "paramStr": "",
+                  "paramBool": false,
+                  "paramSubtype": "SubtypesData_None",
+                  "paramMinInt": 0,
+                  "paramMaxInt": 0,
+                  "paramMultiplier": 1.0,
+                  "useStatusEffectStackMultiplier": false,
+                  "statusEffectStackMultiplier": "",
+                  "paramCharacterData": null,
+                  "paramAdditionalCharacterData": null,
+                  "paramCharacterDataPool": [
+
+                  ],
+                  "paramRoomData": null,
+                  "paramCardPool": [
+
+                  ],
+                  "paramCardFilter": null,
+                  "paramTrigger": 0,
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "ephemeral",
+                      "count": 2
+                    }
+                  ],
+                  "paramCardUpgradeData": null,
+                  "paramTimingDelays": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "hideTooltip": false,
+                  "additionalTooltips": [
+
+                  ]
+                }
+              ]
+            }
+          ],
+          "cardTriggerUpgrades": [
+
+          ],
+          "roomModifierUpgrades": [
+
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "cardUpgrades": [
+        {
+          "m_Name": "LittleFadeIncreaseCostOnDeath",
+          "id": "738b4ac0-d62b-4d79-8340-e6dc154b1b5f",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-53c879d39353e981-b52eb336ddc4d1145a818992406e7905-v2",
+          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 0,
+          "bonusHP": 0,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+            {
+              "statusId": "ambush",
+              "count": 1
+            },
+            {
+              "statusId": "endless",
+              "count": 1
+            }
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+            {
+              "trigger": 0,
+              "descriptionKey": "CardUpgradeData_descriptionKey-f79fc3fc914798eb-b52eb336ddc4d1145a818992406e7905-v2",
+              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "displayEffectHintText": false,
+              "hideTriggerTooltip": false,
+              "effects": [
+                {
+                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                  "targetMode": 5,
+                  "targetModeStatusEffectsFilter": [
+
+                  ],
+                  "targetModeHealthFilter": 0,
+                  "targetIgnoreBosses": false,
+                  "filterBasedOnMainSubClass": false,
+                  "copyModifiersFromSource": false,
+                  "ignoreTemporaryModifiersFromSource": false,
+                  "targetTeamType": 0,
+                  "targetCharacterSubtype": "SubtypesData_None",
+                  "targetCardType": 0,
+                  "targetCardSelectionMode": 0,
+                  "animToPlay": 0,
+                  "appliedToSelfVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "appliedVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "shouldTest": true,
+                  "useIntRange": false,
+                  "paramInt": 0,
+                  "additionalParamInt": 0,
+                  "paramStr": "",
+                  "paramBool": false,
+                  "paramSubtype": "SubtypesData_None",
+                  "paramMinInt": 0,
+                  "paramMaxInt": 0,
+                  "paramMultiplier": 1.0,
+                  "useStatusEffectStackMultiplier": false,
+                  "statusEffectStackMultiplier": "",
+                  "paramCharacterData": null,
+                  "paramAdditionalCharacterData": null,
+                  "paramCharacterDataPool": [
+
+                  ],
+                  "paramRoomData": null,
+                  "paramCardPool": [
+
+                  ],
+                  "paramCardFilter": null,
+                  "paramTrigger": 0,
+                  "paramStatusEffects": [
+
+                  ],
+                  "paramCardUpgradeData": {
+                    "m_Name": "RemnantChampIncreaseCost1",
+                    "id": "f5b3eaea-c18e-4ffc-ab45-2bedb8da557e",
+                    "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeIcon": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "hideUpgradeIconOnCard": false,
+                    "useUpgradeHighlightTextTags": true,
+                    "isUnitSynthesisUpgrade": false,
+                    "isUnique": false,
+                    "sourceSynthesisUnit": null,
+                    "linkedPactDuplicateRarity": 4,
+                    "bonusDamage": 15,
+                    "bonusHP": 1,
+                    "costReduction": 0,
+                    "xCostReduction": 0,
+                    "bonusHeal": 0,
+                    "bonusSize": 0,
+                    "statusEffectUpgrades": [
+
+                    ],
+                    "traitDataUpgrades": [
+
+                    ],
+                    "removeTraitUpgrades": [
+
+                    ],
+                    "triggerUpgrades": [
+
+                    ],
+                    "cardTriggerUpgrades": [
+
+                    ],
+                    "roomModifierUpgrades": [
+
+                    ],
+                    "filters": [
+
+                    ],
+                    "upgradesToRemove": [
+
+                    ]
+                  },
+                  "paramTimingDelays": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "hideTooltip": false,
+                  "additionalTooltips": [
+
+                  ]
+                }
+              ]
+            }
+          ],
+          "cardTriggerUpgrades": [
+
+          ],
+          "roomModifierUpgrades": [
+
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+
+          ]
+        },
+        {
+          "m_Name": "LittleFadeIncreaseCostOnDeath2",
+          "id": "5a3b4148-0c24-45cb-9ff2-5c0a19a0be7b",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-71917eec9737443c-eadf5de8162de574bb3d1a2a0a339dac-v2",
+          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 0,
+          "bonusHP": 0,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+            {
+              "statusId": "ambush",
+              "count": 1
+            },
+            {
+              "statusId": "endless",
+              "count": 1
+            }
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+            {
+              "trigger": 0,
+              "descriptionKey": "CardUpgradeData_descriptionKey-aa557d5a09c7e073-eadf5de8162de574bb3d1a2a0a339dac-v2",
+              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "displayEffectHintText": false,
+              "hideTriggerTooltip": false,
+              "effects": [
+                {
+                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                  "targetMode": 5,
+                  "targetModeStatusEffectsFilter": [
+
+                  ],
+                  "targetModeHealthFilter": 0,
+                  "targetIgnoreBosses": false,
+                  "filterBasedOnMainSubClass": false,
+                  "copyModifiersFromSource": false,
+                  "ignoreTemporaryModifiersFromSource": false,
+                  "targetTeamType": 0,
+                  "targetCharacterSubtype": "SubtypesData_None",
+                  "targetCardType": 0,
+                  "targetCardSelectionMode": 0,
+                  "animToPlay": 0,
+                  "appliedToSelfVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "appliedVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "shouldTest": true,
+                  "useIntRange": false,
+                  "paramInt": 0,
+                  "additionalParamInt": 0,
+                  "paramStr": "",
+                  "paramBool": false,
+                  "paramSubtype": "SubtypesData_None",
+                  "paramMinInt": 0,
+                  "paramMaxInt": 0,
+                  "paramMultiplier": 1.0,
+                  "useStatusEffectStackMultiplier": false,
+                  "statusEffectStackMultiplier": "",
+                  "paramCharacterData": null,
+                  "paramAdditionalCharacterData": null,
+                  "paramCharacterDataPool": [
+
+                  ],
+                  "paramRoomData": null,
+                  "paramCardPool": [
+
+                  ],
+                  "paramCardFilter": null,
+                  "paramTrigger": 0,
+                  "paramStatusEffects": [
+
+                  ],
+                  "paramCardUpgradeData": {
+                    "m_Name": "RemnantChampIncreaseCost2",
+                    "id": "fc630e72-53be-4b73-b2e8-85614c1986c8",
+                    "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeIcon": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "hideUpgradeIconOnCard": false,
+                    "useUpgradeHighlightTextTags": true,
+                    "isUnitSynthesisUpgrade": false,
+                    "isUnique": false,
+                    "sourceSynthesisUnit": null,
+                    "linkedPactDuplicateRarity": 4,
+                    "bonusDamage": 30,
+                    "bonusHP": 2,
+                    "costReduction": 0,
+                    "xCostReduction": 0,
+                    "bonusHeal": 0,
+                    "bonusSize": 0,
+                    "statusEffectUpgrades": [
+
+                    ],
+                    "traitDataUpgrades": [
+
+                    ],
+                    "removeTraitUpgrades": [
+
+                    ],
+                    "triggerUpgrades": [
+
+                    ],
+                    "cardTriggerUpgrades": [
+
+                    ],
+                    "roomModifierUpgrades": [
+
+                    ],
+                    "filters": [
+
+                    ],
+                    "upgradesToRemove": [
+
+                    ]
+                  },
+                  "paramTimingDelays": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "hideTooltip": false,
+                  "additionalTooltips": [
+
+                  ]
+                }
+              ]
+            }
+          ],
+          "cardTriggerUpgrades": [
+
+          ],
+          "roomModifierUpgrades": [
+
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+
+          ]
+        },
+        {
+          "m_Name": "LittleFadeIncreaseCostOnDeath3",
+          "id": "83b1594a-96c3-4984-9dc2-73db6f193e14",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-5eba73c6a63f7823-4ad9e667ee0b141429e51d03df861627-v2",
+          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 0,
+          "bonusHP": 0,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+            {
+              "statusId": "ambush",
+              "count": 1
+            },
+            {
+              "statusId": "endless",
+              "count": 1
+            }
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+            {
+              "trigger": 0,
+              "descriptionKey": "CardUpgradeData_descriptionKey-dd9dbe2b2bfbfc5e-4ad9e667ee0b141429e51d03df861627-v2",
+              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "displayEffectHintText": false,
+              "hideTriggerTooltip": false,
+              "effects": [
+                {
+                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                  "targetMode": 5,
+                  "targetModeStatusEffectsFilter": [
+
+                  ],
+                  "targetModeHealthFilter": 0,
+                  "targetIgnoreBosses": false,
+                  "filterBasedOnMainSubClass": false,
+                  "copyModifiersFromSource": false,
+                  "ignoreTemporaryModifiersFromSource": false,
+                  "targetTeamType": 0,
+                  "targetCharacterSubtype": "SubtypesData_None",
+                  "targetCardType": 0,
+                  "targetCardSelectionMode": 0,
+                  "animToPlay": 0,
+                  "appliedToSelfVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "appliedVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "shouldTest": true,
+                  "useIntRange": false,
+                  "paramInt": 0,
+                  "additionalParamInt": 0,
+                  "paramStr": "",
+                  "paramBool": false,
+                  "paramSubtype": "SubtypesData_None",
+                  "paramMinInt": 0,
+                  "paramMaxInt": 0,
+                  "paramMultiplier": 1.0,
+                  "useStatusEffectStackMultiplier": false,
+                  "statusEffectStackMultiplier": "",
+                  "paramCharacterData": null,
+                  "paramAdditionalCharacterData": null,
+                  "paramCharacterDataPool": [
+
+                  ],
+                  "paramRoomData": null,
+                  "paramCardPool": [
+
+                  ],
+                  "paramCardFilter": null,
+                  "paramTrigger": 0,
+                  "paramStatusEffects": [
+
+                  ],
+                  "paramCardUpgradeData": {
+                    "m_Name": "RemnantChampIncreaseCost3",
+                    "id": "0310a786-57cd-4771-802e-bbfa5b060d3d",
+                    "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeIcon": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "hideUpgradeIconOnCard": false,
+                    "useUpgradeHighlightTextTags": true,
+                    "isUnitSynthesisUpgrade": false,
+                    "isUnique": false,
+                    "sourceSynthesisUnit": null,
+                    "linkedPactDuplicateRarity": 4,
+                    "bonusDamage": 60,
+                    "bonusHP": 3,
+                    "costReduction": 0,
+                    "xCostReduction": 0,
+                    "bonusHeal": 0,
+                    "bonusSize": 0,
+                    "statusEffectUpgrades": [
+
+                    ],
+                    "traitDataUpgrades": [
+
+                    ],
+                    "removeTraitUpgrades": [
+
+                    ],
+                    "triggerUpgrades": [
+
+                    ],
+                    "cardTriggerUpgrades": [
+
+                    ],
+                    "roomModifierUpgrades": [
+
+                    ],
+                    "filters": [
+
+                    ],
+                    "upgradesToRemove": [
+
+                    ]
+                  },
+                  "paramTimingDelays": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "hideTooltip": false,
+                  "additionalTooltips": [
+
+                  ]
+                }
+              ]
+            }
+          ],
+          "cardTriggerUpgrades": [
+
+          ],
+          "roomModifierUpgrades": [
+
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "cardUpgrades": [
+        {
+          "m_Name": "LittleFadePermanentSpikes",
+          "id": "08749cab-1cdb-451b-9164-b60be12c4b52",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-5eedbce483c48656-6cd5c7d48e3c2c34a8e498057d3d8f1a-v2",
+          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 0,
+          "bonusHP": 0,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+            {
+              "statusId": "spikes",
+              "count": 1
+            }
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+
+          ],
+          "cardTriggerUpgrades": [
+            {
+              "trigger": 1,
+              "descriptionKey": "CardUpgradeData_descriptionKey-6480a17812fa7e57-6cd5c7d48e3c2c34a8e498057d3d8f1a-v2",
+              "cardTriggerEffects": [
+                {
+                  "persistenceMode": 0,
+                  "cardTriggerEffect": "CardTriggerUpgradeEffect",
+                  "buffEffectType": "None",
+                  "paramInt": 0,
+                  "paramUpgrade": null
+                }
+              ],
+              "cardEffects": [
+
+              ]
+            }
+          ],
+          "roomModifierUpgrades": [
+
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+
+          ]
+        },
+        {
+          "m_Name": "LittleFadePermanentSpikes2",
+          "id": "0ccb5d0a-7bb9-4843-9139-8dd0b784d4c2",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-9de51114cc70cf31-3ba1169ad3347674ebcb9424f633434b-v2",
+          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 0,
+          "bonusHP": 0,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+            {
+              "statusId": "spikes",
+              "count": 1
+            }
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+
+          ],
+          "cardTriggerUpgrades": [
+            {
+              "trigger": 1,
+              "descriptionKey": "CardUpgradeData_descriptionKey-609694dda5ee0180-3ba1169ad3347674ebcb9424f633434b-v2",
+              "cardTriggerEffects": [
+                {
+                  "persistenceMode": 0,
+                  "cardTriggerEffect": "CardTriggerUpgradeEffect",
+                  "buffEffectType": "None",
+                  "paramInt": 0,
+                  "paramUpgrade": null
+                }
+              ],
+              "cardEffects": [
+
+              ]
+            }
+          ],
+          "roomModifierUpgrades": [
+
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+            null
+          ]
+        },
+        {
+          "m_Name": "LittleFadePermanentSpikes3",
+          "id": "0d8186aa-0906-46d9-a41c-cfee1f997c5c",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-7592f464801aee55-46d9c55368f740b4e98d3d67d43f00c4-v2",
+          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 0,
+          "bonusHP": 0,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+            {
+              "statusId": "spikes",
+              "count": 1
+            }
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+
+          ],
+          "cardTriggerUpgrades": [
+            {
+              "trigger": 1,
+              "descriptionKey": "CardUpgradeData_descriptionKey-ddd5daf8c13e75a6-46d9c55368f740b4e98d3d67d43f00c4-v2",
+              "cardTriggerEffects": [
+                {
+                  "persistenceMode": 0,
+                  "cardTriggerEffect": "CardTriggerUpgradeEffect",
+                  "buffEffectType": "None",
+                  "paramInt": 0,
+                  "paramUpgrade": "#<OpenStruct m_Name=\"LittleFadeSpikes3\", id=\"cc2dd5e6-6521-43ee-8f1f-8020e7deb4e4\", upgradeTitleKey=\"EmptyString-0000000000000000-00000000000000000000000000000000-v2\", upgradeDescriptionKey=\"EmptyString-0000000000000000-00000000000000000000000000000000-v2\", upgradeNotificationKey=\"EmptyString-0000000000000000-00000000000000000000000000000000-v2\", upgradeIcon={\"m_FileID\"=>0, \"m_PathID\"=>0}, hideUpgradeIconOnCard=true, useUpgradeHighlightTextTags=true, isUnitSynthesisUpgrade=false, isUnique=false, sourceSynthesisUnit=nil, linkedPactDuplicateRarity=4, bonusDamage=4, bonusHP=0, costReduction=0, xCostReduction=0, bonusHeal=0, bonusSize=0, statusEffectUpgrades=[{\"statusId\"=>\"spikes\", \"count\"=>4}], traitDataUpgrades=[], removeTraitUpgrades=[], triggerUpgrades=[], cardTriggerUpgrades=[], roomModifierUpgrades=[], filters=[], upgradesToRemove=[]>"
+                }
+              ],
+              "cardEffects": [
+
+              ]
+            }
+          ],
+          "roomModifierUpgrades": [
+
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+            {
+              "m_Name": "LittleFadePermanentSpikes",
+              "id": "08749cab-1cdb-451b-9164-b60be12c4b52",
+              "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-5eedbce483c48656-6cd5c7d48e3c2c34a8e498057d3d8f1a-v2",
+              "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "upgradeIcon": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "hideUpgradeIconOnCard": false,
+              "useUpgradeHighlightTextTags": true,
+              "isUnitSynthesisUpgrade": false,
+              "isUnique": false,
+              "sourceSynthesisUnit": null,
+              "linkedPactDuplicateRarity": 4,
+              "bonusDamage": 0,
+              "bonusHP": 0,
+              "costReduction": 0,
+              "xCostReduction": 0,
+              "bonusHeal": 0,
+              "bonusSize": 0,
+              "statusEffectUpgrades": [
+                {
+                  "statusId": "spikes",
+                  "count": 1
+                }
+              ],
+              "traitDataUpgrades": [
+
+              ],
+              "removeTraitUpgrades": [
+
+              ],
+              "triggerUpgrades": [
+
+              ],
+              "cardTriggerUpgrades": [
+                {
+                  "trigger": 1,
+                  "descriptionKey": "CardUpgradeData_descriptionKey-6480a17812fa7e57-6cd5c7d48e3c2c34a8e498057d3d8f1a-v2",
+                  "cardTriggerEffects": [
+                    {
+                      "persistenceMode": 0,
+                      "cardTriggerEffect": "CardTriggerUpgradeEffect",
+                      "buffEffectType": "None",
+                      "paramInt": 0,
+                      "paramUpgrade": null
+                    }
+                  ],
+                  "cardEffects": [
+
+                  ]
+                }
+              ],
+              "roomModifierUpgrades": [
+
+              ],
+              "filters": [
+
+              ],
+              "upgradesToRemove": [
+
+              ]
+            },
+            {
+              "m_Name": "LittleFadePermanentSpikes2",
+              "id": "0ccb5d0a-7bb9-4843-9139-8dd0b784d4c2",
+              "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-9de51114cc70cf31-3ba1169ad3347674ebcb9424f633434b-v2",
+              "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "upgradeIcon": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "hideUpgradeIconOnCard": false,
+              "useUpgradeHighlightTextTags": true,
+              "isUnitSynthesisUpgrade": false,
+              "isUnique": false,
+              "sourceSynthesisUnit": null,
+              "linkedPactDuplicateRarity": 4,
+              "bonusDamage": 0,
+              "bonusHP": 0,
+              "costReduction": 0,
+              "xCostReduction": 0,
+              "bonusHeal": 0,
+              "bonusSize": 0,
+              "statusEffectUpgrades": [
+                {
+                  "statusId": "spikes",
+                  "count": 1
+                }
+              ],
+              "traitDataUpgrades": [
+
+              ],
+              "removeTraitUpgrades": [
+
+              ],
+              "triggerUpgrades": [
+
+              ],
+              "cardTriggerUpgrades": [
+                {
+                  "trigger": 1,
+                  "descriptionKey": "CardUpgradeData_descriptionKey-609694dda5ee0180-3ba1169ad3347674ebcb9424f633434b-v2",
+                  "cardTriggerEffects": [
+                    {
+                      "persistenceMode": 0,
+                      "cardTriggerEffect": "CardTriggerUpgradeEffect",
+                      "buffEffectType": "None",
+                      "paramInt": 0,
+                      "paramUpgrade": null
+                    }
+                  ],
+                  "cardEffects": [
+
+                  ]
+                }
+              ],
+              "roomModifierUpgrades": [
+
+              ],
+              "filters": [
+
+              ],
+              "upgradesToRemove": [
+                null
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "champion": null,
+  "name": "Little Fade"
+}

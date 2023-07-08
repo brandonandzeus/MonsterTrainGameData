@@ -1,0 +1,1120 @@
+{
+  "m_Name": "UpgradeTreeTethys",
+  "upgradeTrees": [
+    {
+      "cardUpgrades": [
+        {
+          "m_Name": "TethysFrostbiteOnStrike",
+          "id": "204f8182-3291-442c-af2c-39ce5aad63fa",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-576ae7343e83a0d8-746a66171f0346b4a8ef8d3c91faaac5-v2",
+          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-ef0308babaf3190a-746a66171f0346b4a8ef8d3c91faaac5-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 10,
+          "bonusHP": 1,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+            {
+              "trigger": 3,
+              "descriptionKey": "CardUpgradeData_descriptionKey-3c6d74f3767378c8-746a66171f0346b4a8ef8d3c91faaac5-v2",
+              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "displayEffectHintText": false,
+              "hideTriggerTooltip": false,
+              "effects": [
+                {
+                  "effectStateName": "CardEffectAddStatusEffect",
+                  "targetMode": 6,
+                  "targetModeStatusEffectsFilter": [
+
+                  ],
+                  "targetModeHealthFilter": 0,
+                  "targetIgnoreBosses": false,
+                  "filterBasedOnMainSubClass": false,
+                  "copyModifiersFromSource": false,
+                  "ignoreTemporaryModifiersFromSource": false,
+                  "targetTeamType": 1,
+                  "targetCharacterSubtype": "SubtypesData_None",
+                  "targetCardType": 0,
+                  "targetCardSelectionMode": 0,
+                  "animToPlay": 0,
+                  "appliedToSelfVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "appliedVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "shouldTest": true,
+                  "useIntRange": false,
+                  "paramInt": 100,
+                  "additionalParamInt": 0,
+                  "paramStr": "",
+                  "paramBool": false,
+                  "paramSubtype": "SubtypesData_None",
+                  "paramMinInt": 0,
+                  "paramMaxInt": 0,
+                  "paramMultiplier": 1.0,
+                  "useStatusEffectStackMultiplier": false,
+                  "statusEffectStackMultiplier": "",
+                  "paramCharacterData": null,
+                  "paramAdditionalCharacterData": null,
+                  "paramCharacterDataPool": [
+
+                  ],
+                  "paramRoomData": null,
+                  "paramCardPool": [
+
+                  ],
+                  "paramCardFilter": null,
+                  "paramTrigger": 0,
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "poison",
+                      "count": 10
+                    }
+                  ],
+                  "paramCardUpgradeData": null,
+                  "paramTimingDelays": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "hideTooltip": false,
+                  "additionalTooltips": [
+
+                  ]
+                }
+              ]
+            }
+          ],
+          "cardTriggerUpgrades": [
+
+          ],
+          "roomModifierUpgrades": [
+
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+
+          ]
+        },
+        {
+          "m_Name": "TethysFrostbiteOnStrike2",
+          "id": "b7a75711-9b32-47c7-aa82-027169a1d538",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-01399b8e6257104d-d91b07969028f5d4dbf9c5939b9f3f42-v2",
+          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-5faa4a5d35b8a3c8-d91b07969028f5d4dbf9c5939b9f3f42-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 25,
+          "bonusHP": 2,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+            {
+              "trigger": 3,
+              "descriptionKey": "CardUpgradeData_descriptionKey-38a1be74eb6955da-d91b07969028f5d4dbf9c5939b9f3f42-v2",
+              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "displayEffectHintText": false,
+              "hideTriggerTooltip": false,
+              "effects": [
+                {
+                  "effectStateName": "CardEffectAddStatusEffect",
+                  "targetMode": 6,
+                  "targetModeStatusEffectsFilter": [
+
+                  ],
+                  "targetModeHealthFilter": 0,
+                  "targetIgnoreBosses": false,
+                  "filterBasedOnMainSubClass": false,
+                  "copyModifiersFromSource": false,
+                  "ignoreTemporaryModifiersFromSource": false,
+                  "targetTeamType": 1,
+                  "targetCharacterSubtype": "SubtypesData_None",
+                  "targetCardType": 0,
+                  "targetCardSelectionMode": 0,
+                  "animToPlay": 0,
+                  "appliedToSelfVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "appliedVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "shouldTest": true,
+                  "useIntRange": false,
+                  "paramInt": 100,
+                  "additionalParamInt": 0,
+                  "paramStr": "",
+                  "paramBool": false,
+                  "paramSubtype": "SubtypesData_None",
+                  "paramMinInt": 0,
+                  "paramMaxInt": 0,
+                  "paramMultiplier": 1.0,
+                  "useStatusEffectStackMultiplier": false,
+                  "statusEffectStackMultiplier": "",
+                  "paramCharacterData": null,
+                  "paramAdditionalCharacterData": null,
+                  "paramCharacterDataPool": [
+
+                  ],
+                  "paramRoomData": null,
+                  "paramCardPool": [
+
+                  ],
+                  "paramCardFilter": null,
+                  "paramTrigger": 0,
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "poison",
+                      "count": 20
+                    }
+                  ],
+                  "paramCardUpgradeData": null,
+                  "paramTimingDelays": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "hideTooltip": false,
+                  "additionalTooltips": [
+
+                  ]
+                }
+              ]
+            }
+          ],
+          "cardTriggerUpgrades": [
+
+          ],
+          "roomModifierUpgrades": [
+
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+
+          ]
+        },
+        {
+          "m_Name": "TethysFrostbiteOnStrike3",
+          "id": "b5abbfe2-2f7d-4449-9ea2-5d287b0b7ef3",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-138944359b9c8ce1-3b898901bbd464241b5cb7c174ca656d-v2",
+          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-a51949de38658a8a-3b898901bbd464241b5cb7c174ca656d-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 55,
+          "bonusHP": 3,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+            {
+              "trigger": 3,
+              "descriptionKey": "CardUpgradeData_descriptionKey-9514ddd188d310cc-3b898901bbd464241b5cb7c174ca656d-v2",
+              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "displayEffectHintText": false,
+              "hideTriggerTooltip": false,
+              "effects": [
+                {
+                  "effectStateName": "CardEffectAddStatusEffect",
+                  "targetMode": 6,
+                  "targetModeStatusEffectsFilter": [
+
+                  ],
+                  "targetModeHealthFilter": 0,
+                  "targetIgnoreBosses": false,
+                  "filterBasedOnMainSubClass": false,
+                  "copyModifiersFromSource": false,
+                  "ignoreTemporaryModifiersFromSource": false,
+                  "targetTeamType": 1,
+                  "targetCharacterSubtype": "SubtypesData_None",
+                  "targetCardType": 0,
+                  "targetCardSelectionMode": 0,
+                  "animToPlay": 0,
+                  "appliedToSelfVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "appliedVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "shouldTest": true,
+                  "useIntRange": false,
+                  "paramInt": 100,
+                  "additionalParamInt": 0,
+                  "paramStr": "",
+                  "paramBool": false,
+                  "paramSubtype": "SubtypesData_None",
+                  "paramMinInt": 0,
+                  "paramMaxInt": 0,
+                  "paramMultiplier": 1.0,
+                  "useStatusEffectStackMultiplier": false,
+                  "statusEffectStackMultiplier": "",
+                  "paramCharacterData": null,
+                  "paramAdditionalCharacterData": null,
+                  "paramCharacterDataPool": [
+
+                  ],
+                  "paramRoomData": null,
+                  "paramCardPool": [
+
+                  ],
+                  "paramCardFilter": null,
+                  "paramTrigger": 0,
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "poison",
+                      "count": 40
+                    }
+                  ],
+                  "paramCardUpgradeData": null,
+                  "paramTimingDelays": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "hideTooltip": false,
+                  "additionalTooltips": [
+
+                  ]
+                }
+              ]
+            }
+          ],
+          "cardTriggerUpgrades": [
+
+          ],
+          "roomModifierUpgrades": [
+
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "cardUpgrades": [
+        {
+          "m_Name": "TethysReduceSpellCost",
+          "id": "87fb9df8-c3cd-4d08-9bec-88c90880d804",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-9f644c92ae05dfbf-d06e7d763adad2540bc0c72027183b8b-v2",
+          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-b1090d9aa53c9115-d06e7d763adad2540bc0c72027183b8b-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 5,
+          "bonusHP": 2,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+
+          ],
+          "cardTriggerUpgrades": [
+
+          ],
+          "roomModifierUpgrades": [
+            {
+              "roomStateModifierClassName": "RoomStateDamageCostModifier",
+              "descriptionKey": "CardUpgradeData_descriptionKey-54b849bd3d058d7a-d06e7d763adad2540bc0c72027183b8b-v2",
+              "descriptionKeyInPlay": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "icon": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "paramInt": -1,
+              "paramSubtype": "SubtypesData_None",
+              "paramStatusEffects": [
+
+              ],
+              "extraTooltipTitleKey": "",
+              "extraTooltipBodyKey": "",
+              "paramCardUpgradeData": null
+            }
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+
+          ]
+        },
+        {
+          "m_Name": "TethysReduceSpellCost2",
+          "id": "ba7b86f5-b775-47fb-91c2-039d09c779e9",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-cae7948829bf55fa-b1170c0c4c8813541ac2a6771ba387df-v2",
+          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-bb0c4777482bebc0-b1170c0c4c8813541ac2a6771ba387df-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 15,
+          "bonusHP": 4,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+
+          ],
+          "cardTriggerUpgrades": [
+
+          ],
+          "roomModifierUpgrades": [
+            {
+              "roomStateModifierClassName": "RoomStateDamageCostModifier",
+              "descriptionKey": "CardUpgradeData_descriptionKey-fe2cde36163e8cc1-b1170c0c4c8813541ac2a6771ba387df-v2",
+              "descriptionKeyInPlay": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "icon": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "paramInt": -2,
+              "paramSubtype": "SubtypesData_None",
+              "paramStatusEffects": [
+
+              ],
+              "extraTooltipTitleKey": "",
+              "extraTooltipBodyKey": "",
+              "paramCardUpgradeData": null
+            }
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+
+          ]
+        },
+        {
+          "m_Name": "TethysReduceSpellCost3",
+          "id": "210e1833-3cf8-4f84-ab8d-1c8a9f35e404",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-105de27ece254c84-b2ae7d24514bbb44a9809a29cfea3ec6-v2",
+          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-2a5cda9e8bd78849-b2ae7d24514bbb44a9809a29cfea3ec6-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 35,
+          "bonusHP": 6,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+
+          ],
+          "cardTriggerUpgrades": [
+
+          ],
+          "roomModifierUpgrades": [
+            {
+              "roomStateModifierClassName": "RoomStateDamageCostModifier",
+              "descriptionKey": "CardUpgradeData_descriptionKey-2a8c6840f97a2638-b2ae7d24514bbb44a9809a29cfea3ec6-v2",
+              "descriptionKeyInPlay": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "icon": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "paramInt": -3,
+              "paramSubtype": "SubtypesData_None",
+              "paramStatusEffects": [
+
+              ],
+              "extraTooltipTitleKey": "",
+              "extraTooltipBodyKey": "",
+              "paramCardUpgradeData": null
+            }
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "cardUpgrades": [
+        {
+          "m_Name": "TethysSpellWeaknessOnStrike",
+          "id": "723ff87f-8aea-403b-85cd-561a15816c84",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-f08d732264d360ca-e4f76edd40c74f24f8ca31eb7f22a01b-v2",
+          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-5fe059af3a762e25-e4f76edd40c74f24f8ca31eb7f22a01b-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 0,
+          "bonusHP": 3,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+            {
+              "statusId": "hunter",
+              "count": 1
+            }
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+            {
+              "trigger": 3,
+              "descriptionKey": "CardUpgradeData_descriptionKey-77267f6bc4a06bd9-e4f76edd40c74f24f8ca31eb7f22a01b-v2",
+              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "displayEffectHintText": false,
+              "hideTriggerTooltip": false,
+              "effects": [
+                {
+                  "effectStateName": "CardEffectAddStatusEffect",
+                  "targetMode": 6,
+                  "targetModeStatusEffectsFilter": [
+
+                  ],
+                  "targetModeHealthFilter": 0,
+                  "targetIgnoreBosses": false,
+                  "filterBasedOnMainSubClass": false,
+                  "copyModifiersFromSource": false,
+                  "ignoreTemporaryModifiersFromSource": false,
+                  "targetTeamType": 1,
+                  "targetCharacterSubtype": "SubtypesData_None",
+                  "targetCardType": 0,
+                  "targetCardSelectionMode": 0,
+                  "animToPlay": 0,
+                  "appliedToSelfVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "appliedVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "shouldTest": true,
+                  "useIntRange": false,
+                  "paramInt": 100,
+                  "additionalParamInt": 0,
+                  "paramStr": "",
+                  "paramBool": false,
+                  "paramSubtype": "SubtypesData_None",
+                  "paramMinInt": 0,
+                  "paramMaxInt": 0,
+                  "paramMultiplier": 1.0,
+                  "useStatusEffectStackMultiplier": false,
+                  "statusEffectStackMultiplier": "",
+                  "paramCharacterData": null,
+                  "paramAdditionalCharacterData": null,
+                  "paramCharacterDataPool": [
+
+                  ],
+                  "paramRoomData": null,
+                  "paramCardPool": {
+                    "name": "ImpPool",
+                    "cardDataList": [
+                      "StarterImp",
+                      "StarterImp",
+                      "StarterImp",
+                      "WelderHelper",
+                      "WelderHelper",
+                      "WelderHelper",
+                      "WelderHelper",
+                      "WelderHelper",
+                      "WelderHelper",
+                      "AggressiveImp",
+                      "AggressiveImp",
+                      "AggressiveImp",
+                      "AggressiveImp",
+                      "AggressiveImp",
+                      "AggressiveImp",
+                      "UnstableInfery",
+                      "UnstableInfery",
+                      "UnstableInfery",
+                      "UnstableInfery",
+                      "UnstableInfery",
+                      "UnstableInfery",
+                      "EmberedInfery",
+                      "EmberedInfery",
+                      "EmberedInfery",
+                      "EmberedInfery",
+                      "EmberedInfery",
+                      "EmberedInfery",
+                      "EnlightenedInfery",
+                      "TranscendImp"
+                    ]
+                  },
+                  "paramCardFilter": null,
+                  "paramTrigger": 0,
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "spell weakness",
+                      "count": 1
+                    }
+                  ],
+                  "paramCardUpgradeData": null,
+                  "paramTimingDelays": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "hideTooltip": false,
+                  "additionalTooltips": [
+
+                  ]
+                }
+              ]
+            }
+          ],
+          "cardTriggerUpgrades": [
+
+          ],
+          "roomModifierUpgrades": [
+
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+
+          ]
+        },
+        {
+          "m_Name": "TethysSpellWeaknessOnStrike2",
+          "id": "27e907d6-e3dd-411c-82cd-61a63e7b5829",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-3dbfd3901c665a49-a68890119b4dda14dad4e14c2973affb-v2",
+          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-ca7b493832582645-a68890119b4dda14dad4e14c2973affb-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 5,
+          "bonusHP": 6,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+            {
+              "statusId": "hunter",
+              "count": 1
+            }
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+            {
+              "trigger": 3,
+              "descriptionKey": "CardUpgradeData_descriptionKey-059963fe3e24da28-a68890119b4dda14dad4e14c2973affb-v2",
+              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "displayEffectHintText": false,
+              "hideTriggerTooltip": false,
+              "effects": [
+                {
+                  "effectStateName": "CardEffectAddStatusEffect",
+                  "targetMode": 6,
+                  "targetModeStatusEffectsFilter": [
+
+                  ],
+                  "targetModeHealthFilter": 0,
+                  "targetIgnoreBosses": false,
+                  "filterBasedOnMainSubClass": false,
+                  "copyModifiersFromSource": false,
+                  "ignoreTemporaryModifiersFromSource": false,
+                  "targetTeamType": 1,
+                  "targetCharacterSubtype": "SubtypesData_None",
+                  "targetCardType": 0,
+                  "targetCardSelectionMode": 0,
+                  "animToPlay": 0,
+                  "appliedToSelfVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "appliedVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "shouldTest": true,
+                  "useIntRange": false,
+                  "paramInt": 100,
+                  "additionalParamInt": 0,
+                  "paramStr": "",
+                  "paramBool": false,
+                  "paramSubtype": "SubtypesData_None",
+                  "paramMinInt": 0,
+                  "paramMaxInt": 0,
+                  "paramMultiplier": 1.0,
+                  "useStatusEffectStackMultiplier": false,
+                  "statusEffectStackMultiplier": "",
+                  "paramCharacterData": null,
+                  "paramAdditionalCharacterData": null,
+                  "paramCharacterDataPool": [
+
+                  ],
+                  "paramRoomData": null,
+                  "paramCardPool": {
+                    "name": "ImpPool",
+                    "cardDataList": [
+                      "StarterImp",
+                      "StarterImp",
+                      "StarterImp",
+                      "WelderHelper",
+                      "WelderHelper",
+                      "WelderHelper",
+                      "WelderHelper",
+                      "WelderHelper",
+                      "WelderHelper",
+                      "AggressiveImp",
+                      "AggressiveImp",
+                      "AggressiveImp",
+                      "AggressiveImp",
+                      "AggressiveImp",
+                      "AggressiveImp",
+                      "UnstableInfery",
+                      "UnstableInfery",
+                      "UnstableInfery",
+                      "UnstableInfery",
+                      "UnstableInfery",
+                      "UnstableInfery",
+                      "EmberedInfery",
+                      "EmberedInfery",
+                      "EmberedInfery",
+                      "EmberedInfery",
+                      "EmberedInfery",
+                      "EmberedInfery",
+                      "EnlightenedInfery",
+                      "TranscendImp"
+                    ]
+                  },
+                  "paramCardFilter": null,
+                  "paramTrigger": 0,
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "spell weakness",
+                      "count": 2
+                    }
+                  ],
+                  "paramCardUpgradeData": null,
+                  "paramTimingDelays": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "hideTooltip": false,
+                  "additionalTooltips": [
+
+                  ]
+                }
+              ]
+            }
+          ],
+          "cardTriggerUpgrades": [
+
+          ],
+          "roomModifierUpgrades": [
+
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+
+          ]
+        },
+        {
+          "m_Name": "TethysSpellWeaknessOnStrike3",
+          "id": "47fd83c4-d80c-47e3-b1f1-fe25028d322c",
+          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-0d3be0a39242c7a3-5354ee53c4b155343bfd1973812f4011-v2",
+          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+          "upgradeIcon": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "hideUpgradeIconOnCard": false,
+          "useUpgradeHighlightTextTags": true,
+          "isUnitSynthesisUpgrade": false,
+          "isUnique": false,
+          "sourceSynthesisUnit": null,
+          "linkedPactDuplicateRarity": 4,
+          "bonusDamage": 15,
+          "bonusHP": 9,
+          "costReduction": 0,
+          "xCostReduction": 0,
+          "bonusHeal": 0,
+          "bonusSize": 0,
+          "statusEffectUpgrades": [
+            {
+              "statusId": "hunter",
+              "count": 1
+            }
+          ],
+          "traitDataUpgrades": [
+
+          ],
+          "removeTraitUpgrades": [
+
+          ],
+          "triggerUpgrades": [
+            {
+              "trigger": 3,
+              "descriptionKey": "CardUpgradeData_descriptionKey-eff6cd9eb54af219-5354ee53c4b155343bfd1973812f4011-v2",
+              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+              "displayEffectHintText": false,
+              "hideTriggerTooltip": false,
+              "effects": [
+                {
+                  "effectStateName": "CardEffectAddStatusEffect",
+                  "targetMode": 6,
+                  "targetModeStatusEffectsFilter": [
+
+                  ],
+                  "targetModeHealthFilter": 0,
+                  "targetIgnoreBosses": false,
+                  "filterBasedOnMainSubClass": false,
+                  "copyModifiersFromSource": false,
+                  "ignoreTemporaryModifiersFromSource": false,
+                  "targetTeamType": 1,
+                  "targetCharacterSubtype": "SubtypesData_None",
+                  "targetCardType": 0,
+                  "targetCardSelectionMode": 0,
+                  "animToPlay": 0,
+                  "appliedToSelfVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "appliedVFX": {
+                    "vfxPrefabLeft": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "vfxPrefabRight": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "spawnLocation": 0,
+                    "facing": 0
+                  },
+                  "shouldTest": true,
+                  "useIntRange": false,
+                  "paramInt": 100,
+                  "additionalParamInt": 0,
+                  "paramStr": "",
+                  "paramBool": false,
+                  "paramSubtype": "SubtypesData_None",
+                  "paramMinInt": 0,
+                  "paramMaxInt": 0,
+                  "paramMultiplier": 1.0,
+                  "useStatusEffectStackMultiplier": false,
+                  "statusEffectStackMultiplier": "",
+                  "paramCharacterData": null,
+                  "paramAdditionalCharacterData": null,
+                  "paramCharacterDataPool": [
+
+                  ],
+                  "paramRoomData": null,
+                  "paramCardPool": {
+                    "name": "ImpPool",
+                    "cardDataList": [
+                      "StarterImp",
+                      "StarterImp",
+                      "StarterImp",
+                      "WelderHelper",
+                      "WelderHelper",
+                      "WelderHelper",
+                      "WelderHelper",
+                      "WelderHelper",
+                      "WelderHelper",
+                      "AggressiveImp",
+                      "AggressiveImp",
+                      "AggressiveImp",
+                      "AggressiveImp",
+                      "AggressiveImp",
+                      "AggressiveImp",
+                      "UnstableInfery",
+                      "UnstableInfery",
+                      "UnstableInfery",
+                      "UnstableInfery",
+                      "UnstableInfery",
+                      "UnstableInfery",
+                      "EmberedInfery",
+                      "EmberedInfery",
+                      "EmberedInfery",
+                      "EmberedInfery",
+                      "EmberedInfery",
+                      "EmberedInfery",
+                      "EnlightenedInfery",
+                      "TranscendImp"
+                    ]
+                  },
+                  "paramCardFilter": null,
+                  "paramTrigger": 0,
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "spell weakness",
+                      "count": 3
+                    }
+                  ],
+                  "paramCardUpgradeData": null,
+                  "paramTimingDelays": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "hideTooltip": false,
+                  "additionalTooltips": [
+
+                  ]
+                }
+              ]
+            }
+          ],
+          "cardTriggerUpgrades": [
+
+          ],
+          "roomModifierUpgrades": [
+
+          ],
+          "filters": [
+
+          ],
+          "upgradesToRemove": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "champion": null,
+  "name": "Tethys Titansbane"
+}
