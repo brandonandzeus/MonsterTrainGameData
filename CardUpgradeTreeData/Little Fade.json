@@ -1387,7 +1387,56 @@
                   "cardTriggerEffect": "CardTriggerUpgradeEffect",
                   "buffEffectType": "None",
                   "paramInt": 0,
-                  "paramUpgrade": null
+                  "paramUpgrade": {
+                    "m_Name": "LittleFadeSpikes1",
+                    "id": "be6a64f5-e88e-42d6-aa29-9e21cff98428",
+                    "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeIcon": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "hideUpgradeIconOnCard": true,
+                    "useUpgradeHighlightTextTags": true,
+                    "isUnitSynthesisUpgrade": false,
+                    "isUnique": false,
+                    "sourceSynthesisUnit": null,
+                    "linkedPactDuplicateRarity": 4,
+                    "bonusDamage": 2,
+                    "bonusHP": 0,
+                    "costReduction": 0,
+                    "xCostReduction": 0,
+                    "bonusHeal": 0,
+                    "bonusSize": 0,
+                    "statusEffectUpgrades": [
+                      {
+                        "statusId": "spikes",
+                        "count": 2
+                      }
+                    ],
+                    "traitDataUpgrades": [
+
+                    ],
+                    "removeTraitUpgrades": [
+
+                    ],
+                    "triggerUpgrades": [
+
+                    ],
+                    "cardTriggerUpgrades": [
+
+                    ],
+                    "roomModifierUpgrades": [
+
+                    ],
+                    "filters": [
+
+                    ],
+                    "upgradesToRemove": [
+
+                    ]
+                  }
                 }
               ],
               "cardEffects": [
@@ -1452,7 +1501,56 @@
                   "cardTriggerEffect": "CardTriggerUpgradeEffect",
                   "buffEffectType": "None",
                   "paramInt": 0,
-                  "paramUpgrade": null
+                  "paramUpgrade": {
+                    "m_Name": "LittleFadeSpikes2",
+                    "id": "3cf08549-063f-4bad-890d-9e56b758ff54",
+                    "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeIcon": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "hideUpgradeIconOnCard": true,
+                    "useUpgradeHighlightTextTags": true,
+                    "isUnitSynthesisUpgrade": false,
+                    "isUnique": false,
+                    "sourceSynthesisUnit": null,
+                    "linkedPactDuplicateRarity": 4,
+                    "bonusDamage": 3,
+                    "bonusHP": 0,
+                    "costReduction": 0,
+                    "xCostReduction": 0,
+                    "bonusHeal": 0,
+                    "bonusSize": 0,
+                    "statusEffectUpgrades": [
+                      {
+                        "statusId": "spikes",
+                        "count": 3
+                      }
+                    ],
+                    "traitDataUpgrades": [
+
+                    ],
+                    "removeTraitUpgrades": [
+
+                    ],
+                    "triggerUpgrades": [
+
+                    ],
+                    "cardTriggerUpgrades": [
+
+                    ],
+                    "roomModifierUpgrades": [
+
+                    ],
+                    "filters": [
+
+                    ],
+                    "upgradesToRemove": [
+
+                    ]
+                  }
                 }
               ],
               "cardEffects": [
@@ -1467,7 +1565,7 @@
 
           ],
           "upgradesToRemove": [
-            null
+            "LittleFadePermanentSpikes"
           ]
         },
         {
@@ -1517,7 +1615,56 @@
                   "cardTriggerEffect": "CardTriggerUpgradeEffect",
                   "buffEffectType": "None",
                   "paramInt": 0,
-                  "paramUpgrade": "#<OpenStruct m_Name=\"LittleFadeSpikes3\", id=\"cc2dd5e6-6521-43ee-8f1f-8020e7deb4e4\", upgradeTitleKey=\"EmptyString-0000000000000000-00000000000000000000000000000000-v2\", upgradeDescriptionKey=\"EmptyString-0000000000000000-00000000000000000000000000000000-v2\", upgradeNotificationKey=\"EmptyString-0000000000000000-00000000000000000000000000000000-v2\", upgradeIcon={\"m_FileID\"=>0, \"m_PathID\"=>0}, hideUpgradeIconOnCard=true, useUpgradeHighlightTextTags=true, isUnitSynthesisUpgrade=false, isUnique=false, sourceSynthesisUnit=nil, linkedPactDuplicateRarity=4, bonusDamage=4, bonusHP=0, costReduction=0, xCostReduction=0, bonusHeal=0, bonusSize=0, statusEffectUpgrades=[{\"statusId\"=>\"spikes\", \"count\"=>4}], traitDataUpgrades=[], removeTraitUpgrades=[], triggerUpgrades=[], cardTriggerUpgrades=[], roomModifierUpgrades=[], filters=[], upgradesToRemove=[]>"
+                  "paramUpgrade": {
+                    "m_Name": "LittleFadeSpikes3",
+                    "id": "cc2dd5e6-6521-43ee-8f1f-8020e7deb4e4",
+                    "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+                    "upgradeIcon": {
+                      "m_FileID": 0,
+                      "m_PathID": 0
+                    },
+                    "hideUpgradeIconOnCard": true,
+                    "useUpgradeHighlightTextTags": true,
+                    "isUnitSynthesisUpgrade": false,
+                    "isUnique": false,
+                    "sourceSynthesisUnit": null,
+                    "linkedPactDuplicateRarity": 4,
+                    "bonusDamage": 4,
+                    "bonusHP": 0,
+                    "costReduction": 0,
+                    "xCostReduction": 0,
+                    "bonusHeal": 0,
+                    "bonusSize": 0,
+                    "statusEffectUpgrades": [
+                      {
+                        "statusId": "spikes",
+                        "count": 4
+                      }
+                    ],
+                    "traitDataUpgrades": [
+
+                    ],
+                    "removeTraitUpgrades": [
+
+                    ],
+                    "triggerUpgrades": [
+
+                    ],
+                    "cardTriggerUpgrades": [
+
+                    ],
+                    "roomModifierUpgrades": [
+
+                    ],
+                    "filters": [
+
+                    ],
+                    "upgradesToRemove": [
+
+                    ]
+                  }
                 }
               ],
               "cardEffects": [
@@ -1532,136 +1679,8 @@
 
           ],
           "upgradesToRemove": [
-            {
-              "m_Name": "LittleFadePermanentSpikes",
-              "id": "08749cab-1cdb-451b-9164-b60be12c4b52",
-              "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-5eedbce483c48656-6cd5c7d48e3c2c34a8e498057d3d8f1a-v2",
-              "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "upgradeIcon": {
-                "m_FileID": 0,
-                "m_PathID": 0
-              },
-              "hideUpgradeIconOnCard": false,
-              "useUpgradeHighlightTextTags": true,
-              "isUnitSynthesisUpgrade": false,
-              "isUnique": false,
-              "sourceSynthesisUnit": null,
-              "linkedPactDuplicateRarity": 4,
-              "bonusDamage": 0,
-              "bonusHP": 0,
-              "costReduction": 0,
-              "xCostReduction": 0,
-              "bonusHeal": 0,
-              "bonusSize": 0,
-              "statusEffectUpgrades": [
-                {
-                  "statusId": "spikes",
-                  "count": 1
-                }
-              ],
-              "traitDataUpgrades": [
-
-              ],
-              "removeTraitUpgrades": [
-
-              ],
-              "triggerUpgrades": [
-
-              ],
-              "cardTriggerUpgrades": [
-                {
-                  "trigger": 1,
-                  "descriptionKey": "CardUpgradeData_descriptionKey-6480a17812fa7e57-6cd5c7d48e3c2c34a8e498057d3d8f1a-v2",
-                  "cardTriggerEffects": [
-                    {
-                      "persistenceMode": 0,
-                      "cardTriggerEffect": "CardTriggerUpgradeEffect",
-                      "buffEffectType": "None",
-                      "paramInt": 0,
-                      "paramUpgrade": null
-                    }
-                  ],
-                  "cardEffects": [
-
-                  ]
-                }
-              ],
-              "roomModifierUpgrades": [
-
-              ],
-              "filters": [
-
-              ],
-              "upgradesToRemove": [
-
-              ]
-            },
-            {
-              "m_Name": "LittleFadePermanentSpikes2",
-              "id": "0ccb5d0a-7bb9-4843-9139-8dd0b784d4c2",
-              "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-9de51114cc70cf31-3ba1169ad3347674ebcb9424f633434b-v2",
-              "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "upgradeIcon": {
-                "m_FileID": 0,
-                "m_PathID": 0
-              },
-              "hideUpgradeIconOnCard": false,
-              "useUpgradeHighlightTextTags": true,
-              "isUnitSynthesisUpgrade": false,
-              "isUnique": false,
-              "sourceSynthesisUnit": null,
-              "linkedPactDuplicateRarity": 4,
-              "bonusDamage": 0,
-              "bonusHP": 0,
-              "costReduction": 0,
-              "xCostReduction": 0,
-              "bonusHeal": 0,
-              "bonusSize": 0,
-              "statusEffectUpgrades": [
-                {
-                  "statusId": "spikes",
-                  "count": 1
-                }
-              ],
-              "traitDataUpgrades": [
-
-              ],
-              "removeTraitUpgrades": [
-
-              ],
-              "triggerUpgrades": [
-
-              ],
-              "cardTriggerUpgrades": [
-                {
-                  "trigger": 1,
-                  "descriptionKey": "CardUpgradeData_descriptionKey-609694dda5ee0180-3ba1169ad3347674ebcb9424f633434b-v2",
-                  "cardTriggerEffects": [
-                    {
-                      "persistenceMode": 0,
-                      "cardTriggerEffect": "CardTriggerUpgradeEffect",
-                      "buffEffectType": "None",
-                      "paramInt": 0,
-                      "paramUpgrade": null
-                    }
-                  ],
-                  "cardEffects": [
-
-                  ]
-                }
-              ],
-              "roomModifierUpgrades": [
-
-              ],
-              "filters": [
-
-              ],
-              "upgradesToRemove": [
-                null
-              ]
-            }
+            "LittleFadePermanentSpikes",
+            "LittleFadePermanentSpikes2"
           ]
         }
       ]
