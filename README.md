@@ -12,6 +12,8 @@ Using AssetStudio is a pain for searching for GameData objects
 ## How to use
 This repo only contains JSON files, each representing a particular GameData object. The JSON files are minimized, meaning all unimportant fields are removed. Additionally, the data is expanded from what you would see in AssetStudio, allowing you to easily see how a specific GameData object works or how a particular field is used.
 
+Note that not all fields present in the data are included. Things such as asset references, spine animations, images, sounds, text, character chatter data, etc. are omitted for readability. Only the core information that defines the objects and get them to work are included here.
+
 ### Example JSON file
 
 `CardData/Rootseeds.json`
