@@ -1,411 +1,80 @@
 {
-  "m_Name": "UpgradeTreeMartyr",
   "upgradeTrees": [
     {
       "cardUpgrades": [
         {
-          "m_Name": "SolgardRevengeDamagePerBlessing",
-          "id": "ca5e1e1a-09c5-44c7-b626-9d9f4a2b7eb2",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-2bdbf2d767685512-8bebcee6808501942be7aecefad8a64f-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
-          "bonusDamage": 0,
           "bonusHP": 5,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
-          "statusEffectUpgrades": [
-
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 24,
               "descriptionKey": "CardUpgradeData_descriptionKey-3fe2e7f4c1938fcf-8bebcee6808501942be7aecefad8a64f-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectDamage",
                   "targetMode": 2,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
-                  "targetTeamType": 1,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 3,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
                   "useStatusEffectStackMultiplier": true,
                   "statusEffectStackMultiplier": "stygian_blessing",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
                   "paramStatusEffects": [
                     {
                       "statusId": "stygian_blessing",
                       "count": 1
                     }
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
-                  "additionalTooltips": [
-
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         },
         {
-          "m_Name": "SolgardRevengeDamagePerBlessing2",
-          "id": "65112eea-9b24-4318-82f6-5647b55679e3",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-66949caed141aa38-8a36c73452f8f9a41bef752fe8054e09-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
-          "bonusDamage": 0,
           "bonusHP": 15,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
-          "statusEffectUpgrades": [
-
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 24,
               "descriptionKey": "CardUpgradeData_descriptionKey-a1e133a926a3bfd2-8a36c73452f8f9a41bef752fe8054e09-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectDamage",
                   "targetMode": 2,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
-                  "targetTeamType": 1,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 5,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
                   "useStatusEffectStackMultiplier": true,
                   "statusEffectStackMultiplier": "stygian_blessing",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
                   "paramStatusEffects": [
                     {
                       "statusId": "stygian_blessing",
                       "count": 1
                     }
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
-                  "additionalTooltips": [
-
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         },
         {
-          "m_Name": "SolgardRevengeDamagePerBlessing3",
-          "id": "71b42d6e-5e0b-435c-8dfb-c93269415a46",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-f627df795e166ea2-796929d3360b94145beb11c3d6c3d9cc-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
-          "bonusDamage": 0,
           "bonusHP": 35,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
-          "statusEffectUpgrades": [
-
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 24,
               "descriptionKey": "CardUpgradeData_descriptionKey-2fa947763d06b932-796929d3360b94145beb11c3d6c3d9cc-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectDamage",
                   "targetMode": 2,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
-                  "targetTeamType": 1,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 7,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
                   "useStatusEffectStackMultiplier": true,
                   "statusEffectStackMultiplier": "stygian_blessing",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
                   "paramStatusEffects": [
                     {
                       "statusId": "stygian_blessing",
                       "count": 1
                     }
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
-                  "additionalTooltips": [
-
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         }
       ]
@@ -413,408 +82,75 @@
     {
       "cardUpgrades": [
         {
-          "m_Name": "SolgardStrikeFrostbitePerBlessing",
-          "id": "c347b104-bc74-45ac-8239-df44ba4176ee",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-9d85858b14cf537a-dfc9dcef422731846962581b199bb1d3-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
-          "bonusDamage": 0,
           "bonusHP": 10,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
-          "statusEffectUpgrades": [
-
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 15,
               "descriptionKey": "CardUpgradeData_descriptionKey-1e2dbf69b96093cd-dfc9dcef422731846962581b199bb1d3-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": 0,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
-                  "targetTeamType": 1,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 100,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
                   "useStatusEffectStackMultiplier": true,
                   "statusEffectStackMultiplier": "stygian_blessing",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
                   "paramStatusEffects": [
                     {
                       "statusId": "poison",
                       "count": 1
                     }
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
-                  "additionalTooltips": [
-
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         },
         {
-          "m_Name": "SolgardStrikeFrostbitePerBlessing2",
-          "id": "b9d7d5f5-3fc8-438a-b8db-eed365ad9bad",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-1dd5dd2c13dbe77c-4851e09e04a2a06409e638a6c6c928ad-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
-          "bonusDamage": 0,
           "bonusHP": 45,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
-          "statusEffectUpgrades": [
-
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 15,
               "descriptionKey": "CardUpgradeData_descriptionKey-9db6754a02ae26ef-4851e09e04a2a06409e638a6c6c928ad-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": 0,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
-                  "targetTeamType": 1,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 100,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
                   "useStatusEffectStackMultiplier": true,
                   "statusEffectStackMultiplier": "stygian_blessing",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
                   "paramStatusEffects": [
                     {
                       "statusId": "poison",
                       "count": 1
                     }
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
-                  "additionalTooltips": [
-
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         },
         {
-          "m_Name": "SolgardStrikeFrostbitePerBlessing3",
-          "id": "7885ff96-ca87-4a02-b80c-58c503f3f4c5",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-b810c2d65e2c4068-ebe5078573f511e4ea851c7ebecbdc9c-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
-          "bonusDamage": 0,
           "bonusHP": 65,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
-          "statusEffectUpgrades": [
-
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 15,
               "descriptionKey": "CardUpgradeData_descriptionKey-c8804f093439b1e3-ebe5078573f511e4ea851c7ebecbdc9c-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": 0,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
-                  "targetTeamType": 1,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 100,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
                   "useStatusEffectStackMultiplier": true,
                   "statusEffectStackMultiplier": "stygian_blessing",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
                   "paramStatusEffects": [
                     {
                       "statusId": "poison",
                       "count": 2
                     }
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
-                  "additionalTooltips": [
-
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         }
       ]
@@ -822,190 +158,36 @@
     {
       "cardUpgrades": [
         {
-          "m_Name": "SolgardStasisGoodStats",
-          "id": "462e09b7-886b-4d7c-8875-26cbca27c0c8",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-d1182d741362c8d7-436482802b69f19438a2042d9d2c9ddd-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
           "bonusDamage": 45,
           "bonusHP": 40,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
           "statusEffectUpgrades": [
             {
               "statusId": "untouchable",
               "count": 1
             }
           ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 19,
               "descriptionKey": "CardUpgradeData_descriptionKey-6a202cc31985acf6-436482802b69f19438a2042d9d2c9ddd-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
                   "targetMode": 5,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
                   "targetTeamType": 2,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 100,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
                   "paramStatusEffects": [
                     {
                       "statusId": "stygian_blessing",
                       "count": 1
                     }
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
-                  "additionalTooltips": [
-
                   ]
                 },
                 {
                   "effectStateName": "CardEffectRemoveStatusEffectOnStatusThreshold",
                   "targetMode": 5,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
                   "targetTeamType": 2,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
-                  "paramInt": 0,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
                   "paramStatusEffects": [
                     {
                       "statusId": "stygian_blessing",
@@ -1015,219 +197,46 @@
                       "statusId": "untouchable",
                       "count": 1
                     }
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
-                  "additionalTooltips": [
-
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
           ],
           "upgradesToRemove": [
             "MartyrChampionBaseline"
           ]
         },
         {
-          "m_Name": "SolgardStasisGoodStats2",
-          "id": "bf30a732-abd2-4e51-ad50-cebfa387425a",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-ec2d599ca7e1ce70-928f433ee4bf6774ba4ba07396396254-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
           "bonusDamage": 90,
           "bonusHP": 85,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
           "statusEffectUpgrades": [
             {
               "statusId": "untouchable",
               "count": 1
             }
           ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 19,
               "descriptionKey": "CardUpgradeData_descriptionKey-f5b1143916787dbf-928f433ee4bf6774ba4ba07396396254-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
                   "targetMode": 5,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
                   "targetTeamType": 2,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 100,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
                   "paramStatusEffects": [
                     {
                       "statusId": "stygian_blessing",
                       "count": 1
                     }
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
-                  "additionalTooltips": [
-
                   ]
                 },
                 {
                   "effectStateName": "CardEffectRemoveStatusEffectOnStatusThreshold",
                   "targetMode": 5,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
                   "targetTeamType": 2,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
-                  "paramInt": 0,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
                   "paramStatusEffects": [
                     {
                       "statusId": "stygian_blessing",
@@ -1237,219 +246,46 @@
                       "statusId": "untouchable",
                       "count": 1
                     }
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
-                  "additionalTooltips": [
-
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
           ],
           "upgradesToRemove": [
             "MartyrChampionBaseline"
           ]
         },
         {
-          "m_Name": "SolgardStasisGoodStats3",
-          "id": "67d682a3-00b6-4ad1-bb5d-6838c21621bd",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-3fe4057380b9f68e-4805aaa48fcafdd4dbcf86d10397476f-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
           "bonusDamage": 210,
           "bonusHP": 205,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
           "statusEffectUpgrades": [
             {
               "statusId": "untouchable",
               "count": 1
             }
           ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 19,
               "descriptionKey": "CardUpgradeData_descriptionKey-fd640fe2c38d938d-4805aaa48fcafdd4dbcf86d10397476f-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
                   "targetMode": 5,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
                   "targetTeamType": 2,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 100,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
                   "paramStatusEffects": [
                     {
                       "statusId": "stygian_blessing",
                       "count": 1
                     }
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
-                  "additionalTooltips": [
-
                   ]
                 },
                 {
                   "effectStateName": "CardEffectRemoveStatusEffectOnStatusThreshold",
                   "targetMode": 5,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
                   "targetTeamType": 2,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
-                  "paramInt": 0,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
                   "paramStatusEffects": [
                     {
                       "statusId": "stygian_blessing",
@@ -1459,29 +295,10 @@
                       "statusId": "untouchable",
                       "count": 1
                     }
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
-                  "additionalTooltips": [
-
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
           ],
           "upgradesToRemove": [
             "MartyrChampionBaseline"
@@ -1490,6 +307,5 @@
       ]
     }
   ],
-  "champion": null,
   "name": "Solgard the Martyr"
 }

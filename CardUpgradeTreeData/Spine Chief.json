@@ -1,438 +1,89 @@
 {
-  "m_Name": "UpgradeTreeWurm1",
   "upgradeTrees": [
     {
       "cardUpgrades": [
         {
-          "m_Name": "Wurm1ShardbiteOnCorruption",
-          "id": "2940cb92-d4da-4f0b-a88f-ecbd454c4f36",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-fc5ee2eba750a273-aa8dca303d088f94a8d19d02e26f9898-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
           "bonusDamage": 5,
           "bonusHP": 25,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
-          "statusEffectUpgrades": [
-
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 32,
               "descriptionKey": "CardUpgradeData_descriptionKey-ebdceec5731af8ef-aa8dca303d088f94a8d19d02e26f9898-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": 0,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
-                  "targetTeamType": 1,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
-                  "paramInt": 0,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
                   "paramStatusEffects": [
                     {
                       "statusId": "corrupt_poison",
                       "count": 2
                     }
                   ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
                   "additionalTooltips": [
                     {
                       "titleKey": "HudTooltip_RoomCorruption_Title",
-                      "descriptionKey": "HudTooltip_RoomCorruption_Body",
-                      "style": 8,
-                      "isStatusTooltip": false,
-                      "statusId": "",
-                      "isTriggerTooltip": false,
-                      "trigger": 0,
-                      "isTipTooltip": false
+                      "descriptionKey": "HudTooltip_RoomCorruption_Body"
                     }
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         },
         {
-          "m_Name": "Wurm1ShardbiteOnCorruption2",
-          "id": "a168d788-7b47-4cd5-bce2-0e59aff36d5a",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-72ea6d17f1bdf97f-32c8fcccac244e348921a919f9567259-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
           "bonusDamage": 10,
           "bonusHP": 70,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
-          "statusEffectUpgrades": [
-
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 32,
               "descriptionKey": "CardUpgradeData_descriptionKey-874a3bbdbdb42aa7-32c8fcccac244e348921a919f9567259-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": 0,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
-                  "targetTeamType": 1,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
-                  "paramInt": 0,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
                   "paramStatusEffects": [
                     {
                       "statusId": "corrupt_poison",
                       "count": 3
                     }
                   ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
                   "additionalTooltips": [
                     {
                       "titleKey": "HudTooltip_RoomCorruption_Title",
-                      "descriptionKey": "HudTooltip_RoomCorruption_Body",
-                      "style": 8,
-                      "isStatusTooltip": false,
-                      "statusId": "",
-                      "isTriggerTooltip": false,
-                      "trigger": 0,
-                      "isTipTooltip": false
+                      "descriptionKey": "HudTooltip_RoomCorruption_Body"
                     }
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         },
         {
-          "m_Name": "Wurm1ShardbiteOnCorruption3",
-          "id": "f63ebb48-26c3-47b7-926d-e8972d997c44",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-e2668fdb3e32c4bb-2e0d066f59f7d0542820f6704eea072f-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
           "bonusDamage": 15,
           "bonusHP": 120,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
-          "statusEffectUpgrades": [
-
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 32,
               "descriptionKey": "CardUpgradeData_descriptionKey-881d897c26a83a64-2e0d066f59f7d0542820f6704eea072f-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": 0,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
-                  "targetTeamType": 1,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
-                  "paramInt": 0,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
                   "paramStatusEffects": [
                     {
                       "statusId": "corrupt_poison",
                       "count": 5
                     }
                   ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
                   "additionalTooltips": [
                     {
                       "titleKey": "HudTooltip_RoomCorruption_Title",
-                      "descriptionKey": "HudTooltip_RoomCorruption_Body",
-                      "style": 8,
-                      "isStatusTooltip": false,
-                      "statusId": "",
-                      "isTriggerTooltip": false,
-                      "trigger": 0,
-                      "isTipTooltip": false
+                      "descriptionKey": "HudTooltip_RoomCorruption_Body"
                     }
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         }
       ]
@@ -440,192 +91,42 @@
     {
       "cardUpgrades": [
         {
-          "m_Name": "Wurm1DamagePerCorruption",
-          "id": "401f4e60-5879-4183-b204-53f391489c44",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-01dd640070aa70aa-9b4fcc15d1166f24f8b4febd81678bb4-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
-          "bonusDamage": 0,
           "bonusHP": 10,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
-          "statusEffectUpgrades": [
-
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
-          "triggerUpgrades": [
-
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
           "roomModifierUpgrades": [
             {
               "roomStateModifierClassName": "RoomStateFriendlyDamagePerCorruptionModifier",
               "descriptionKey": "CardUpgradeData_descriptionKey-5aeaf50ab31c6d6d-9b4fcc15d1166f24f8b4febd81678bb4-v2",
-              "descriptionKeyInPlay": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "icon": {
-                "m_FileID": 0,
-                "m_PathID": 0
-              },
               "paramInt": 5,
-              "paramSubtype": "SubtypesData_None",
-              "paramStatusEffects": [
-
-              ],
               "extraTooltipTitleKey": "HudTooltip_RoomCorruption_Title",
-              "extraTooltipBodyKey": "HudTooltip_RoomCorruption_Body",
-              "paramCardUpgradeData": null
+              "extraTooltipBodyKey": "HudTooltip_RoomCorruption_Body"
             }
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         },
         {
-          "m_Name": "Wurm1DamagePerCorruption2",
-          "id": "05ec6f6f-5a52-4bb9-967f-3a47b21426f9",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-cff984c842c4f222-44f2d249aef8b8d49ba0fcbb0096941a-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
-          "bonusDamage": 0,
           "bonusHP": 40,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
-          "statusEffectUpgrades": [
-
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
-          "triggerUpgrades": [
-
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
           "roomModifierUpgrades": [
             {
               "roomStateModifierClassName": "RoomStateFriendlyDamagePerCorruptionModifier",
               "descriptionKey": "CardUpgradeData_descriptionKey-6a2480d41b0b7329-44f2d249aef8b8d49ba0fcbb0096941a-v2",
-              "descriptionKeyInPlay": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "icon": {
-                "m_FileID": 0,
-                "m_PathID": 0
-              },
               "paramInt": 10,
-              "paramSubtype": "SubtypesData_None",
-              "paramStatusEffects": [
-
-              ],
               "extraTooltipTitleKey": "HudTooltip_RoomCorruption_Title",
-              "extraTooltipBodyKey": "HudTooltip_RoomCorruption_Body",
-              "paramCardUpgradeData": null
+              "extraTooltipBodyKey": "HudTooltip_RoomCorruption_Body"
             }
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         },
         {
-          "m_Name": "Wurm1DamagePerCorruption3",
-          "id": "783817cc-10fb-4950-af7b-b42e12b07064",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-e808b799000264ba-78d6f3b1658e96242aec3005e90e0ea1-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
-          "bonusDamage": 0,
           "bonusHP": 80,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
-          "statusEffectUpgrades": [
-
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
-          "triggerUpgrades": [
-
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
           "roomModifierUpgrades": [
             {
               "roomStateModifierClassName": "RoomStateFriendlyDamagePerCorruptionModifier",
               "descriptionKey": "CardUpgradeData_descriptionKey-91ec8733dece48c0-78d6f3b1658e96242aec3005e90e0ea1-v2",
-              "descriptionKeyInPlay": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "icon": {
-                "m_FileID": 0,
-                "m_PathID": 0
-              },
               "paramInt": 20,
-              "paramSubtype": "SubtypesData_None",
-              "paramStatusEffects": [
-
-              ],
               "extraTooltipTitleKey": "HudTooltip_RoomCorruption_Title",
-              "extraTooltipBodyKey": "HudTooltip_RoomCorruption_Body",
-              "paramCardUpgradeData": null
+              "extraTooltipBodyKey": "HudTooltip_RoomCorruption_Body"
             }
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         }
       ]
@@ -633,437 +134,94 @@
     {
       "cardUpgrades": [
         {
-          "m_Name": "Wurm1StrikeAddCorruption",
-          "id": "5d70a79f-1c26-4ad7-a549-f4bb1a7b9121",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-abdb3a52c81517db-ba587d28d95acb5498a6cc63d60774dc-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
           "bonusDamage": 20,
           "bonusHP": 20,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
-          "statusEffectUpgrades": [
-
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 3,
               "descriptionKey": "CardUpgradeData_descriptionKey-24c19ece6755ad3b-ba587d28d95acb5498a6cc63d60774dc-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAdjustCorruption",
-                  "targetMode": 0,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
                   "targetTeamType": 0,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 1,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
                   "paramBool": true,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
-                  "paramStatusEffects": [
-
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
                   "additionalTooltips": [
                     {
                       "titleKey": "HudTooltip_RoomCorruption_Title",
-                      "descriptionKey": "HudTooltip_RoomCorruption_Body",
-                      "style": 8,
-                      "isStatusTooltip": false,
-                      "statusId": "",
-                      "isTriggerTooltip": false,
-                      "trigger": 0,
-                      "isTipTooltip": false
+                      "descriptionKey": "HudTooltip_RoomCorruption_Body"
                     }
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         },
         {
-          "m_Name": "Wurm1StrikeAddCorruption2",
-          "id": "e53c2bb3-f09c-46e1-b2b5-f115bad35b40",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-4ff23fee5cd1f1aa-621259f1e25d8d6458fc58f7287d9cc5-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
           "bonusDamage": 20,
           "bonusHP": 60,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
           "statusEffectUpgrades": [
             {
               "statusId": "multistrike",
               "count": 1
             }
           ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 3,
               "descriptionKey": "CardUpgradeData_descriptionKey-9aaf6ab8beb62e7b-621259f1e25d8d6458fc58f7287d9cc5-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAdjustCorruption",
-                  "targetMode": 0,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
                   "targetTeamType": 0,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 1,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
                   "paramBool": true,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
-                  "paramStatusEffects": [
-
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
                   "additionalTooltips": [
                     {
                       "titleKey": "HudTooltip_RoomCorruption_Title",
-                      "descriptionKey": "HudTooltip_RoomCorruption_Body",
-                      "style": 8,
-                      "isStatusTooltip": false,
-                      "statusId": "",
-                      "isTriggerTooltip": false,
-                      "trigger": 0,
-                      "isTipTooltip": false
+                      "descriptionKey": "HudTooltip_RoomCorruption_Body"
                     }
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         },
         {
-          "m_Name": "Wurm1StrikeAddCorruption3",
-          "id": "2e3164cc-59a2-4966-a1d0-412b2e45b463",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-17a70f3e1d8893e5-87d5d296b0a960340a0eaad75570036b-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
           "bonusDamage": 20,
           "bonusHP": 100,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
           "statusEffectUpgrades": [
             {
               "statusId": "multistrike",
               "count": 2
             }
           ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 3,
               "descriptionKey": "CardUpgradeData_descriptionKey-f4baf231bfaeda9e-87d5d296b0a960340a0eaad75570036b-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAdjustCorruption",
-                  "targetMode": 0,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
                   "targetTeamType": 0,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 1,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
                   "paramBool": true,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
-                  "paramStatusEffects": [
-
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
                   "additionalTooltips": [
                     {
                       "titleKey": "HudTooltip_RoomCorruption_Title",
-                      "descriptionKey": "HudTooltip_RoomCorruption_Body",
-                      "style": 8,
-                      "isStatusTooltip": false,
-                      "statusId": "",
-                      "isTriggerTooltip": false,
-                      "trigger": 0,
-                      "isTipTooltip": false
+                      "descriptionKey": "HudTooltip_RoomCorruption_Body"
                     }
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         }
       ]
     }
   ],
-  "champion": null,
   "name": "Spine Chief"
 }

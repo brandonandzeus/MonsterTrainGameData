@@ -1,105 +1,22 @@
 {
-  "m_Name": "UpgradeTreeUmbraPenumbra",
   "upgradeTrees": [
     {
       "cardUpgrades": [
         {
-          "m_Name": "PenumbraCapacityOnKill",
-          "id": "cd4363b1-3d2d-4fca-9c8f-b2add13bf929",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-2d31b1cc1fe22dd1-e0bdfd6a3d17efe4e9b023613ecf34fa-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-41c8e354a3692bb7-e0bdfd6a3d17efe4e9b023613ecf34fa-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
           "bonusDamage": 5,
-          "bonusHP": 0,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
-          "statusEffectUpgrades": [
-
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 2,
               "descriptionKey": "CardUpgradeData_descriptionKey-6132b96571fa0ec1-e0bdfd6a3d17efe4e9b023613ecf34fa-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAdjustRoomCapacity",
-                  "targetMode": 0,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
                   "targetTeamType": 0,
-                  "targetCharacterSubtype": "SubtypesData_None",
                   "targetCardType": 1,
                   "targetCardSelectionMode": 1,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 2,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
                   "paramCardPool": {
                     "name": "Class5StarterFoodCard",
                     "cardDataList": [
@@ -113,144 +30,33 @@
                       "RubbleRaiser"
                     ]
                   },
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
-                  "paramStatusEffects": [
-
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
                   "additionalTooltips": [
                     {
                       "titleKey": "Capacity_TooltipTitle",
-                      "descriptionKey": "Capacity_TooltipText",
-                      "style": 8,
-                      "isStatusTooltip": false,
-                      "statusId": "",
-                      "isTriggerTooltip": false,
-                      "trigger": 0,
-                      "isTipTooltip": false
+                      "descriptionKey": "Capacity_TooltipText"
                     }
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         },
         {
-          "m_Name": "PenumbraCapacityOnKill2",
-          "id": "cd0de392-000c-46d5-9ed0-c5c0e50ab24f",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-9606dc5a6386aac6-98ec05c8eae416b4d813bdafabfc126e-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-1f754c74ec4211c0-98ec05c8eae416b4d813bdafabfc126e-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
           "bonusDamage": 30,
           "bonusHP": 10,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
-          "statusEffectUpgrades": [
-
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 2,
               "descriptionKey": "CardUpgradeData_descriptionKey-54671681511b20f1-98ec05c8eae416b4d813bdafabfc126e-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAdjustRoomCapacity",
-                  "targetMode": 0,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
                   "targetTeamType": 0,
-                  "targetCharacterSubtype": "SubtypesData_None",
                   "targetCardType": 1,
                   "targetCardSelectionMode": 1,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 3,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
                   "paramCardPool": {
                     "name": "Class5StarterFoodCard",
                     "cardDataList": [
@@ -264,144 +70,32 @@
                       "RubbleRaiser"
                     ]
                   },
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
-                  "paramStatusEffects": [
-
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
                   "additionalTooltips": [
                     {
                       "titleKey": "Capacity_TooltipTitle",
-                      "descriptionKey": "Capacity_TooltipText",
-                      "style": 8,
-                      "isStatusTooltip": false,
-                      "statusId": "",
-                      "isTriggerTooltip": false,
-                      "trigger": 0,
-                      "isTipTooltip": false
+                      "descriptionKey": "Capacity_TooltipText"
                     }
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         },
         {
-          "m_Name": "PenumbraCapacityOnKill3",
-          "id": "de7a72f5-c278-49fc-b396-cae1233d0c24",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-098d90f127068247-1997bb7208e4154409fb9828b9831f73-v2",
-          "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
           "bonusDamage": 80,
           "bonusHP": 20,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
-          "statusEffectUpgrades": [
-
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 2,
               "descriptionKey": "CardUpgradeData_descriptionKey-ef0d5d0ac782a238-1997bb7208e4154409fb9828b9831f73-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAdjustRoomCapacity",
-                  "targetMode": 0,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
                   "targetTeamType": 0,
-                  "targetCharacterSubtype": "SubtypesData_None",
                   "targetCardType": 1,
                   "targetCardSelectionMode": 1,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 4,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
                   "paramCardPool": {
                     "name": "Class5StarterFoodCard",
                     "cardDataList": [
@@ -415,45 +109,15 @@
                       "RubbleRaiser"
                     ]
                   },
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
-                  "paramStatusEffects": [
-
-                  ],
-                  "paramCardUpgradeData": null,
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": false,
                   "additionalTooltips": [
                     {
                       "titleKey": "Capacity_TooltipTitle",
-                      "descriptionKey": "Capacity_TooltipText",
-                      "style": 8,
-                      "isStatusTooltip": false,
-                      "statusId": "",
-                      "isTriggerTooltip": false,
-                      "trigger": 0,
-                      "isTipTooltip": false
+                      "descriptionKey": "Capacity_TooltipText"
                     }
                   ]
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         }
       ]
@@ -461,153 +125,42 @@
     {
       "cardUpgrades": [
         {
-          "m_Name": "PenumbraIncreaseStatsCapacity",
-          "id": "52fcb0d7-2a46-44ef-8ea6-7cafa44b25df",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-d1dbef6bf1ecbe45-5f5dbd187ab4c7b4eafeae8b319ecb0e-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-74004ab9e0ae9e0e-5f5dbd187ab4c7b4eafeae8b319ecb0e-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
           "bonusDamage": 20,
           "bonusHP": 5,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
           "bonusSize": 1,
           "statusEffectUpgrades": [
             {
               "statusId": "trample",
               "count": 1
             }
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
-          "triggerUpgrades": [
-
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         },
         {
-          "m_Name": "PenumbraIncreaseStatsCapacity2",
-          "id": "208f3fb4-72cc-4eda-b970-fb5b5cd7b194",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-af48ff12f515d411-cdcc3e27ea4b54243946894d68c861f8-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-177c5e910ee6d420-cdcc3e27ea4b54243946894d68c861f8-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
           "bonusDamage": 60,
           "bonusHP": 30,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
           "bonusSize": 2,
           "statusEffectUpgrades": [
             {
               "statusId": "trample",
               "count": 1
             }
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
-          "triggerUpgrades": [
-
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         },
         {
-          "m_Name": "PenumbraIncreaseStatsCapacity3",
-          "id": "6e0b7f50-ed86-4658-bad4-c353421f5444",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-0d6ed9af817bb1ca-a0b670dfc8f2b7145bf718a15c12353b-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-d19e5d33c633bc68-a0b670dfc8f2b7145bf718a15c12353b-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
           "bonusDamage": 150,
           "bonusHP": 80,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
           "bonusSize": 3,
           "statusEffectUpgrades": [
             {
               "statusId": "trample",
               "count": 1
             }
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
-          "triggerUpgrades": [
-
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         }
       ]
@@ -615,551 +168,94 @@
     {
       "cardUpgrades": [
         {
-          "m_Name": "PenumbraStatsOnEat",
-          "id": "5a85e2f8-8197-4cc0-a4b8-02cd8ed0a20e",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-464dd0cf1566dd69-e97ebdb1eaf314945988e2f68f0c0109-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-45cea18de1d78436-e97ebdb1eaf314945988e2f68f0c0109-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
-          "bonusDamage": 0,
-          "bonusHP": 0,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
           "statusEffectUpgrades": [
             {
               "statusId": "lifesteal",
               "count": 2
             }
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
           ],
           "triggerUpgrades": [
             {
               "trigger": 22,
               "descriptionKey": "CardUpgradeData_descriptionKey-e85f028f39a2c06d-e97ebdb1eaf314945988e2f68f0c0109-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
                   "targetMode": 5,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
                   "targetTeamType": 0,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 1,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
-                  "paramStatusEffects": [
-
-                  ],
                   "paramCardUpgradeData": {
-                    "m_Name": "StatOnEatTrigger1",
-                    "id": "487e5007-9f43-47d0-9dfd-1d5f2b129d34",
-                    "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-                    "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-                    "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-                    "upgradeIcon": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "hideUpgradeIconOnCard": false,
-                    "useUpgradeHighlightTextTags": true,
-                    "isUnitSynthesisUpgrade": false,
-                    "isUnique": false,
-                    "sourceSynthesisUnit": null,
-                    "linkedPactDuplicateRarity": 4,
                     "bonusDamage": 4,
-                    "bonusHP": 2,
-                    "costReduction": 0,
-                    "xCostReduction": 0,
-                    "bonusHeal": 0,
-                    "bonusSize": 0,
-                    "statusEffectUpgrades": [
-
-                    ],
-                    "traitDataUpgrades": [
-
-                    ],
-                    "removeTraitUpgrades": [
-
-                    ],
-                    "triggerUpgrades": [
-
-                    ],
-                    "cardTriggerUpgrades": [
-
-                    ],
-                    "roomModifierUpgrades": [
-
-                    ],
-                    "filters": [
-
-                    ],
-                    "upgradesToRemove": [
-
-                    ]
+                    "bonusHP": 2
                   },
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": true,
-                  "additionalTooltips": [
-
-                  ]
+                  "hideTooltip": true
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         },
         {
-          "m_Name": "PenumbraStatsOnEat2",
-          "id": "c37e7693-e0f7-4149-be80-7091715be579",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-4869a2df4e4a0afa-4162756601f53624b89648712d79dfa8-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-b3e5dc9db05673ef-4162756601f53624b89648712d79dfa8-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
-          "bonusDamage": 0,
-          "bonusHP": 0,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
           "statusEffectUpgrades": [
             {
               "statusId": "lifesteal",
               "count": 2
             }
-          ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
           ],
           "triggerUpgrades": [
             {
               "trigger": 22,
               "descriptionKey": "CardUpgradeData_descriptionKey-3088aaa470229dc1-4162756601f53624b89648712d79dfa8-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
                   "targetMode": 5,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
                   "targetTeamType": 0,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 1,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
-                  "paramStatusEffects": [
-
-                  ],
                   "paramCardUpgradeData": {
-                    "m_Name": "StatOnEatTrigger2",
-                    "id": "875f5778-e7a9-4197-80a8-2e77044bc52e",
-                    "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-                    "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-                    "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-                    "upgradeIcon": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "hideUpgradeIconOnCard": false,
-                    "useUpgradeHighlightTextTags": true,
-                    "isUnitSynthesisUpgrade": false,
-                    "isUnique": false,
-                    "sourceSynthesisUnit": null,
-                    "linkedPactDuplicateRarity": 4,
                     "bonusDamage": 9,
-                    "bonusHP": 4,
-                    "costReduction": 0,
-                    "xCostReduction": 0,
-                    "bonusHeal": 0,
-                    "bonusSize": 0,
-                    "statusEffectUpgrades": [
-
-                    ],
-                    "traitDataUpgrades": [
-
-                    ],
-                    "removeTraitUpgrades": [
-
-                    ],
-                    "triggerUpgrades": [
-
-                    ],
-                    "cardTriggerUpgrades": [
-
-                    ],
-                    "roomModifierUpgrades": [
-
-                    ],
-                    "filters": [
-
-                    ],
-                    "upgradesToRemove": [
-
-                    ]
+                    "bonusHP": 4
                   },
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": true,
-                  "additionalTooltips": [
-
-                  ]
+                  "hideTooltip": true
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         },
         {
-          "m_Name": "PenumbraStatsOnEat3",
-          "id": "bd4485de-039e-41f9-b174-9212f8fc2ca7",
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-6a45bbb5ea5e4a14-682e74b4367e30f4186b456b1f5d7067-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-deedac931dd36f6a-682e74b4367e30f4186b456b1f5d7067-v2",
-          "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-          "upgradeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "hideUpgradeIconOnCard": false,
-          "useUpgradeHighlightTextTags": true,
-          "isUnitSynthesisUpgrade": false,
-          "isUnique": false,
-          "sourceSynthesisUnit": null,
-          "linkedPactDuplicateRarity": 4,
-          "bonusDamage": 0,
-          "bonusHP": 0,
-          "costReduction": 0,
-          "xCostReduction": 0,
-          "bonusHeal": 0,
-          "bonusSize": 0,
           "statusEffectUpgrades": [
             {
               "statusId": "lifesteal",
               "count": 2
             }
           ],
-          "traitDataUpgrades": [
-
-          ],
-          "removeTraitUpgrades": [
-
-          ],
           "triggerUpgrades": [
             {
               "trigger": 22,
               "descriptionKey": "CardUpgradeData_descriptionKey-17392d3837510913-682e74b4367e30f4186b456b1f5d7067-v2",
-              "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-              "displayEffectHintText": false,
-              "hideTriggerTooltip": false,
               "effects": [
                 {
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
                   "targetMode": 5,
-                  "targetModeStatusEffectsFilter": [
-
-                  ],
-                  "targetModeHealthFilter": 0,
-                  "targetIgnoreBosses": false,
-                  "filterBasedOnMainSubClass": false,
-                  "copyModifiersFromSource": false,
-                  "ignoreTemporaryModifiersFromSource": false,
                   "targetTeamType": 0,
-                  "targetCharacterSubtype": "SubtypesData_None",
-                  "targetCardType": 0,
-                  "targetCardSelectionMode": 0,
-                  "animToPlay": 0,
-                  "appliedToSelfVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "appliedVFX": {
-                    "vfxPrefabLeft": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "vfxPrefabRight": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "spawnLocation": 0,
-                    "facing": 0
-                  },
-                  "shouldTest": true,
-                  "useIntRange": false,
                   "paramInt": 1,
-                  "additionalParamInt": 0,
-                  "paramStr": "",
-                  "paramBool": false,
-                  "paramSubtype": "SubtypesData_None",
-                  "paramMinInt": 0,
-                  "paramMaxInt": 0,
-                  "paramMultiplier": 1.0,
-                  "useStatusEffectStackMultiplier": false,
-                  "statusEffectStackMultiplier": "",
-                  "paramCharacterData": null,
-                  "paramAdditionalCharacterData": null,
-                  "paramCharacterDataPool": [
-
-                  ],
-                  "paramRoomData": null,
-                  "paramCardPool": [
-
-                  ],
-                  "paramCardFilter": null,
-                  "paramTrigger": 0,
-                  "paramStatusEffects": [
-
-                  ],
                   "paramCardUpgradeData": {
-                    "m_Name": "StatOnEatTrigger3",
-                    "id": "ae2ccfdf-25d7-4731-b160-b48ba065038c",
-                    "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-                    "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-                    "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-                    "upgradeIcon": {
-                      "m_FileID": 0,
-                      "m_PathID": 0
-                    },
-                    "hideUpgradeIconOnCard": false,
-                    "useUpgradeHighlightTextTags": true,
-                    "isUnitSynthesisUpgrade": false,
-                    "isUnique": false,
-                    "sourceSynthesisUnit": null,
-                    "linkedPactDuplicateRarity": 4,
                     "bonusDamage": 15,
-                    "bonusHP": 6,
-                    "costReduction": 0,
-                    "xCostReduction": 0,
-                    "bonusHeal": 0,
-                    "bonusSize": 0,
-                    "statusEffectUpgrades": [
-
-                    ],
-                    "traitDataUpgrades": [
-
-                    ],
-                    "removeTraitUpgrades": [
-
-                    ],
-                    "triggerUpgrades": [
-
-                    ],
-                    "cardTriggerUpgrades": [
-
-                    ],
-                    "roomModifierUpgrades": [
-
-                    ],
-                    "filters": [
-
-                    ],
-                    "upgradesToRemove": [
-
-                    ]
+                    "bonusHP": 6
                   },
-                  "paramTimingDelays": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                  },
-                  "hideTooltip": true,
-                  "additionalTooltips": [
-
-                  ]
+                  "hideTooltip": true
                 }
               ]
             }
-          ],
-          "cardTriggerUpgrades": [
-
-          ],
-          "roomModifierUpgrades": [
-
-          ],
-          "filters": [
-
-          ],
-          "upgradesToRemove": [
-
           ]
         }
       ]
     }
   ],
-  "champion": null,
   "name": "Penumbra"
 }
