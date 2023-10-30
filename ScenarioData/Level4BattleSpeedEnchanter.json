@@ -1,28 +1,18 @@
 {
-  "m_Name": "Level4BattleSpeedEnchanter",
-  "id": "eafa7209-4be2-4b99-8fea-05327f3b677f",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT2Speed",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT2Speed"
               },
               {
-                "characterData": "AttackerT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT2"
               },
               {
-                "characterData": "ShieldGuardT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT2"
               }
             ]
           }
@@ -31,23 +21,16 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT2Speed",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT2Speed"
               },
               {
                 "characterData": "AttackerT2",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT2Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2Basic"
               }
             ]
           }
@@ -56,23 +39,16 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
                 "characterData": "ClericT2",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "EnchanterT2Speed",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT2Speed"
               },
               {
-                "characterData": "HeavyT2Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2Basic"
               }
             ]
           }
@@ -81,23 +57,15 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT2Speed",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT2Speed"
               },
               {
-                "characterData": "HeavyT2Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2Basic"
               },
               {
-                "characterData": "ShieldGuardT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT2"
               }
             ]
           }
@@ -107,58 +75,28 @@
         "possibleGroups": [
           {
             "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-d881a833f3861e14-c0ab0d7198bf1f64ab905788f0079afd-v2",
-            "characterDataContainerList": [
-
-            ]
+            "waveMessageKey": "ScenarioData_waveMessageKey-d881a833f3861e14-c0ab0d7198bf1f64ab905788f0079afd-v2"
           }
         ]
       },
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT2Speed",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT2Speed"
               },
               {
                 "characterData": "Boss_Level4",
-                "requiredCovenant": null,
                 "useBossCharacter": true
               }
             ]
           }
         ]
       }
-    ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
-    "bossType": 0,
-    "bossCharacter": null,
-    "hardBossCharacter": null,
-    "bossCharactersPerFloor": [
-
     ]
   },
   "bossVariant": "Level4Bosses",
-  "startingEnergy": 0,
-  "difficulty": 0,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "enemyBlessingData": [
 
   ],
@@ -168,13 +106,10 @@
   "treasureCharacterPool": [
     "TreasureBagLvl2Gold"
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
     null
   ],
   "trials": {
-    "m_Name": "T2Trials",
     "listName": "T2Trials",
     "trialDatas": [
       null,
@@ -198,7 +133,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level4BattleSpeedEnchanter"
 }

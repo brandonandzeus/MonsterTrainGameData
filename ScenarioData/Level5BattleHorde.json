@@ -1,33 +1,21 @@
 {
-  "m_Name": "Level5BattleHorde",
-  "id": "be0baf16-b2f8-4027-b753-0e01bc47020d",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
               }
             ]
           }
@@ -36,33 +24,21 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2Basic"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
               }
             ]
           }
@@ -71,33 +47,22 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
+              },
+              {
+                "characterData": "HordeT2DeathGivesAttack"
+              },
+              {
+                "characterData": "HordeT2DeathGivesAttack"
               },
               {
                 "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "ShieldGuardT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT2"
               }
             ]
           }
@@ -106,33 +71,22 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
+              },
+              {
+                "characterData": "HordeT2DeathGivesAttack"
               },
               {
                 "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT2"
               },
               {
-                "characterData": "ShieldGuardT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "ShieldGuardT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT2"
               }
             ]
           }
@@ -142,63 +96,31 @@
         "possibleGroups": [
           {
             "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-9f17d9103a0a7290-e63cc8bbd63736e4e839377fa340fff6-v2",
-            "characterDataContainerList": [
-
-            ]
+            "waveMessageKey": "ScenarioData_waveMessageKey-9f17d9103a0a7290-e63cc8bbd63736e4e839377fa340fff6-v2"
           }
         ]
       },
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
               },
               {
                 "characterData": "Boss_Level5",
-                "requiredCovenant": null,
                 "useBossCharacter": true
               },
               {
-                "characterData": "ShieldGuardT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT1"
               }
             ]
           }
         ]
       }
-    ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
-    "bossType": 0,
-    "bossCharacter": null,
-    "hardBossCharacter": null,
-    "bossCharactersPerFloor": [
-
     ]
   },
   "bossVariant": "Level5Bosses",
-  "startingEnergy": 0,
-  "difficulty": 0,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "enemyBlessingData": [
 
   ],
@@ -208,13 +130,10 @@
   "treasureCharacterPool": [
     "TreasureBagLvl2Gold"
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
     null
   ],
   "trials": {
-    "m_Name": "T2Trials",
     "listName": "T2Trials",
     "trialDatas": [
       null,
@@ -238,7 +157,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level5BattleHorde"
 }

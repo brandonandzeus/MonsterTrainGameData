@@ -1,23 +1,15 @@
 {
-  "m_Name": "Level4BattleGrowth",
-  "id": "fa46597c-5ccd-41c3-8220-531c1986ef8b",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2GrowOnAscend",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2GrowOnAscend"
               },
               {
-                "characterData": "HeavyT2GrowOnAscend",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2GrowOnAscend"
               }
             ]
           }
@@ -26,23 +18,16 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
                 "characterData": "ClericT1",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT2GrowOnAscend",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2GrowOnAscend"
               },
               {
-                "characterData": "HeavyT2GrowOnAscend",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2GrowOnAscend"
               }
             ]
           }
@@ -51,23 +36,15 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2GrowOnAscend",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2GrowOnAscend"
               },
               {
-                "characterData": "HeavyT2GrowOnAscend",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2GrowOnAscend"
               },
               {
-                "characterData": "ShieldGuardT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT2"
               }
             ]
           }
@@ -76,23 +53,15 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2GrowOnAscend",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2GrowOnAscend"
               },
               {
-                "characterData": "HeavyT2GrowOnAscend",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2GrowOnAscend"
               },
               {
-                "characterData": "ShieldGuardT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT2"
               }
             ]
           }
@@ -102,58 +71,28 @@
         "possibleGroups": [
           {
             "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-e5d8d86a2288dc4e-a70b69f5cc5369743a76311aa27e6c4f-v2",
-            "characterDataContainerList": [
-
-            ]
+            "waveMessageKey": "ScenarioData_waveMessageKey-e5d8d86a2288dc4e-a70b69f5cc5369743a76311aa27e6c4f-v2"
           }
         ]
       },
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
                 "characterData": "Boss_Level4",
-                "requiredCovenant": null,
                 "useBossCharacter": true
               },
               {
-                "characterData": "ShieldGuardT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT2"
               }
             ]
           }
         ]
       }
-    ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
-    "bossType": 0,
-    "bossCharacter": null,
-    "hardBossCharacter": null,
-    "bossCharactersPerFloor": [
-
     ]
   },
   "bossVariant": "Level4Bosses",
-  "startingEnergy": 0,
-  "difficulty": 0,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "enemyBlessingData": [
 
   ],
@@ -163,13 +102,10 @@
   "treasureCharacterPool": [
     "TreasureBagLvl2Gold"
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
     null
   ],
   "trials": {
-    "m_Name": "T2Trials",
     "listName": "T2Trials",
     "trialDatas": [
       "T2ArtifactForEnemyMultistrike",
@@ -193,7 +129,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level4BattleGrowth"
 }

@@ -1,28 +1,19 @@
 {
-  "m_Name": "Level7BattleMultistrikeEnchanter",
-  "id": "59a5720d-8c32-4c92-9945-e49efaba7e0f",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT3Multistrike",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT3Multistrike"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               },
               {
                 "characterData": "ShieldGuardT3",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
           }
@@ -31,23 +22,16 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT3Multistrike",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT3Multistrike"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               },
               {
                 "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
           }
@@ -56,28 +40,19 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT3Multistrike",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT3Multistrike"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               },
               {
                 "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
           }
@@ -86,23 +61,15 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT3Multistrike",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT3Multistrike"
               },
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               }
             ]
           }
@@ -112,58 +79,28 @@
         "possibleGroups": [
           {
             "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-b87f47c5a92ecf86-86dab0bd3bc44a34db99a9b9cead4279-v2",
-            "characterDataContainerList": [
-
-            ]
+            "waveMessageKey": "ScenarioData_waveMessageKey-b87f47c5a92ecf86-86dab0bd3bc44a34db99a9b9cead4279-v2"
           }
         ]
       },
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT3Multistrike",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT3Multistrike"
               },
               {
                 "characterData": "Boss_Level7",
-                "requiredCovenant": null,
                 "useBossCharacter": true
               }
             ]
           }
         ]
       }
-    ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
-    "bossType": 0,
-    "bossCharacter": null,
-    "hardBossCharacter": null,
-    "bossCharactersPerFloor": [
-
     ]
   },
   "bossVariant": "Level7Bosses",
-  "startingEnergy": 0,
-  "difficulty": 0,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "enemyBlessingData": [
 
   ],
@@ -173,13 +110,10 @@
   "treasureCharacterPool": [
     "TreasureBagLvl3Gold"
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
     null
   ],
   "trials": {
-    "m_Name": "T3Trials",
     "listName": "T3Trials",
     "trialDatas": [
       null,
@@ -202,7 +136,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level7BattleMultistrikeEnchanter"
 }

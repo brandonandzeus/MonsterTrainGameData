@@ -1,23 +1,15 @@
 {
-  "m_Name": "Level1BattleHealersFTUE",
-  "id": "fb37e7be-f53d-4bf9-aaaa-4ab2f6a2dd1c",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "ClericT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ClericT1"
               },
               {
-                "characterData": "HeavyT1Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1Basic"
               }
             ]
           }
@@ -26,18 +18,12 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "ClericT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ClericT1"
               },
               {
-                "characterData": "HeavyT1Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1Basic"
               }
             ]
           }
@@ -47,53 +33,25 @@
         "possibleGroups": [
           {
             "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-27c2f9a8b598252b-06b03454d542651468284de851201979-v2",
-            "characterDataContainerList": [
-
-            ]
+            "waveMessageKey": "ScenarioData_waveMessageKey-27c2f9a8b598252b-06b03454d542651468284de851201979-v2"
           }
         ]
       },
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
                 "characterData": "Boss_Level1",
-                "requiredCovenant": null,
                 "useBossCharacter": true
               }
             ]
           }
         ]
       }
-    ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
-    "bossType": 0,
-    "bossCharacter": null,
-    "hardBossCharacter": null,
-    "bossCharactersPerFloor": [
-
     ]
   },
   "bossVariant": "Level1Bosses",
-  "startingEnergy": 0,
-  "difficulty": 0,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "enemyBlessingData": [
 
   ],
@@ -103,12 +61,9 @@
   "treasureCharacterPool": [
 
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
 
   ],
-  "trials": null,
   "ftueCardDrawData": [
     "HornbreakerChampion",
     "StarterTorch",
@@ -130,7 +85,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level1BattleHealersFTUE"
 }

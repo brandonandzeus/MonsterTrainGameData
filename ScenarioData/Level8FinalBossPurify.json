@@ -1,28 +1,19 @@
 {
-  "m_Name": "Level8FinalBossPurify",
-  "id": "0587055b-d7a1-47e4-a12c-330cd67b4f61",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
                 "characterData": "AttackerT3",
-                "requiredCovenant": "Ascension03MajorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT3DeathHarvester",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3DeathHarvester"
               }
             ]
           }
@@ -31,23 +22,83 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
+              },
+              {
+                "characterData": "HeavyT3EmberDrain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "characterDataContainerList": [
+              {
+                "characterData": "AttackerT3"
+              },
+              {
+                "characterData": "HeavyT3Basic"
+              },
+              {
+                "characterData": "HeavyT3Basic",
+                "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "characterDataContainerList": [
+              {
+                "characterData": "HeavyT3Basic"
+              },
+              {
+                "characterData": "HeavyT3EmberDrain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "characterDataContainerList": [
+              {
+                "characterData": "AttackerT3"
+              },
+              {
+                "characterData": "HeavyT3Basic"
+              },
+              {
+                "characterData": "HeavyT3Basic",
+                "requiredCovenant": "Ascension01StrongerEnemies"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "characterDataContainerList": [
+              {
+                "characterData": "AttackerT3"
+              },
+              {
+                "characterData": "HeavyT3Basic"
               },
               {
                 "characterData": "HeavyT3EmberDrain",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               }
             ]
           }
@@ -56,23 +107,15 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": "Ascension03MajorBattlesNewEnemies",
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT3"
               }
             ]
           }
@@ -81,158 +124,34 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
-                "characterData": "HeavyT3EmberDrain",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "possibleGroups": [
-          {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "characterDataContainerList": [
-              {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": "Ascension01StrongerEnemies",
-                "useBossCharacter": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "possibleGroups": [
-          {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "characterDataContainerList": [
-              {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "HeavyT3EmberDrain",
-                "requiredCovenant": "Ascension03MajorBattlesNewEnemies",
-                "useBossCharacter": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "possibleGroups": [
-          {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "characterDataContainerList": [
-              {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "ShieldGuardT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "possibleGroups": [
-          {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "characterDataContainerList": [
-              {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               }
             ]
           }
         ]
       }
     ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
     "bossType": 1,
     "bossCharacter": "Boss_Level8Purify",
-    "hardBossCharacter": "Boss_Level8Purify_Harder",
-    "bossCharactersPerFloor": [
-
-    ]
+    "hardBossCharacter": "Boss_Level8Purify_Harder"
   },
   "bossVariant": null,
-  "startingEnergy": 0,
   "difficulty": 2,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 2580
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 1966
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 2979
-  },
   "enemyBlessingData": [
     "Enemy_SeraphCleanse"
   ],
   "battleTrackNameData": "BattleMusic_Seraph",
-  "minTreasureUnits": 0,
-  "maxTreasureUnits": 0,
   "treasureCharacterPool": [
 
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
 
   ],
-  "trials": null,
   "ftueCardDrawData": [
 
   ],

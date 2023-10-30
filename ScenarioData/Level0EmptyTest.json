@@ -1,49 +1,17 @@
 {
-  "m_Name": "Level0EmptyTest",
-  "id": "4c98ac14-4636-4e58-b714-c4896ca2d42a",
   "spawnPattern": {
-    "spawnGroupWaves": [
-
-    ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
-    "bossType": 0,
-    "bossCharacter": null,
-    "hardBossCharacter": null,
-    "bossCharactersPerFloor": [
-
-    ]
   },
   "bossVariant": null,
-  "startingEnergy": 0,
-  "difficulty": 0,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "enemyBlessingData": [
 
   ],
   "battleTrackNameData": "",
-  "minTreasureUnits": 0,
-  "maxTreasureUnits": 0,
   "treasureCharacterPool": [
 
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
 
   ],
-  "trials": null,
   "ftueCardDrawData": [
 
   ],
@@ -55,7 +23,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level0EmptyTest"
 }

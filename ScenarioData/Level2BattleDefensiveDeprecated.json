@@ -1,23 +1,15 @@
 {
-  "m_Name": "Level2BattleDefensiveDeprecated",
-  "id": "e27778ba-8c8e-49c7-95d7-3954c62030d4",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT1Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1Basic"
               },
               {
-                "characterData": "ShieldGuardT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT1"
               }
             ]
           }
@@ -26,18 +18,12 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT1Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1Basic"
               },
               {
-                "characterData": "ShieldGuardT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT1"
               }
             ]
           }
@@ -47,53 +33,25 @@
         "possibleGroups": [
           {
             "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-7cff19db83103b14-23eec486508e31a4b8ec313ff225dd27-v2",
-            "characterDataContainerList": [
-
-            ]
+            "waveMessageKey": "ScenarioData_waveMessageKey-7cff19db83103b14-23eec486508e31a4b8ec313ff225dd27-v2"
           }
         ]
       },
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
                 "characterData": "Boss_Level2",
-                "requiredCovenant": null,
                 "useBossCharacter": true
               }
             ]
           }
         ]
       }
-    ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
-    "bossType": 0,
-    "bossCharacter": null,
-    "hardBossCharacter": null,
-    "bossCharactersPerFloor": [
-
     ]
   },
   "bossVariant": "Level2Bosses",
-  "startingEnergy": 0,
-  "difficulty": 0,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "enemyBlessingData": [
 
   ],
@@ -103,13 +61,10 @@
   "treasureCharacterPool": [
     "TreasureBagLvl1Gold"
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
 
   ],
   "trials": {
-    "m_Name": "Level2Trials",
     "listName": "T1Trials",
     "trialDatas": [
       null,
@@ -131,7 +86,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level2BattleDefensiveDeprecated"
 }

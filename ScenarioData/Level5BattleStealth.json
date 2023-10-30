@@ -1,28 +1,18 @@
 {
-  "m_Name": "Level5BattleStealth",
-  "id": "cfe59607-f6df-4bf6-b68b-3f1bf01961ba",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2Stealth",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT2Stealth"
               },
               {
-                "characterData": "AttackerT2Stealth",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT2Stealth"
               },
               {
-                "characterData": "AttackerT2Stealth",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT2Stealth"
               }
             ]
           }
@@ -31,23 +21,16 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2DeathHarvester",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2DeathHarvester"
               },
               {
                 "characterData": "AttackerT2Stealth",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "ShieldGuardT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT2"
               }
             ]
           }
@@ -56,23 +39,15 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2Stealth",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT2Stealth"
               },
               {
-                "characterData": "AttackerT2Stealth",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT2Stealth"
               },
               {
-                "characterData": "AttackerT2Stealth",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT2Stealth"
               }
             ]
           }
@@ -81,23 +56,16 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2DeathHarvester",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2DeathHarvester"
+              },
+              {
+                "characterData": "AttackerT2Stealth"
               },
               {
                 "characterData": "AttackerT2Stealth",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "AttackerT2Stealth",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
           }
@@ -107,63 +75,31 @@
         "possibleGroups": [
           {
             "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-82fd79f1c70001bc-4f747a37004b2df4abdda9ed421926e2-v2",
-            "characterDataContainerList": [
-
-            ]
+            "waveMessageKey": "ScenarioData_waveMessageKey-82fd79f1c70001bc-4f747a37004b2df4abdda9ed421926e2-v2"
           }
         ]
       },
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2Stealth",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT2Stealth"
               },
               {
-                "characterData": "AttackerT2Stealth",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT2Stealth"
               },
               {
                 "characterData": "Boss_Level5",
-                "requiredCovenant": null,
                 "useBossCharacter": true
               }
             ]
           }
         ]
       }
-    ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
-    "bossType": 0,
-    "bossCharacter": null,
-    "hardBossCharacter": null,
-    "bossCharactersPerFloor": [
-
     ]
   },
   "bossVariant": "Level5Bosses",
-  "startingEnergy": 0,
-  "difficulty": 0,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "enemyBlessingData": [
 
   ],
@@ -173,13 +109,10 @@
   "treasureCharacterPool": [
     "TreasureBagLvl2Gold"
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
     null
   ],
   "trials": {
-    "m_Name": "T2Trials",
     "listName": "T2Trials",
     "trialDatas": [
       null,
@@ -203,7 +136,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level5BattleStealth"
 }

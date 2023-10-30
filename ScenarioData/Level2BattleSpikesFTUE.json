@@ -1,23 +1,15 @@
 {
-  "m_Name": "Level2BattleSpikesFTUE",
-  "id": "3bcc07fb-fb4f-410c-b8f9-ea5dcd898baf",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Spikes",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT1Spikes"
               },
               {
-                "characterData": "ShieldGuardT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT1"
               }
             ]
           }
@@ -26,23 +18,15 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Spikes",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT1Spikes"
               },
               {
-                "characterData": "AttackerT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT1"
               },
               {
-                "characterData": "ShieldGuardT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT1"
               }
             ]
           }
@@ -52,73 +36,38 @@
         "possibleGroups": [
           {
             "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-cc8f08bafb17a83c-db2c82e1b31280647a0f5788705e2174-v2",
-            "characterDataContainerList": [
-
-            ]
+            "waveMessageKey": "ScenarioData_waveMessageKey-cc8f08bafb17a83c-db2c82e1b31280647a0f5788705e2174-v2"
           }
         ]
       },
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Spikes",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT1Spikes"
               },
               {
                 "characterData": "Boss_Level2",
-                "requiredCovenant": null,
                 "useBossCharacter": true
               }
             ]
           }
         ]
       }
-    ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
-    "bossType": 0,
-    "bossCharacter": null,
-    "hardBossCharacter": null,
-    "bossCharactersPerFloor": [
-
     ]
   },
   "bossVariant": "Level2Bosses",
-  "startingEnergy": 0,
-  "difficulty": 0,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "enemyBlessingData": [
 
   ],
   "battleTrackNameData": "",
-  "minTreasureUnits": 0,
-  "maxTreasureUnits": 0,
   "treasureCharacterPool": [
 
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
     null
   ],
-  "trials": null,
   "ftueCardDrawData": [
 
   ],
@@ -131,7 +80,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level2BattleSpikesFTUE"
 }

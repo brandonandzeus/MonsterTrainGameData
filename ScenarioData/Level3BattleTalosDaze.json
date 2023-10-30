@@ -1,33 +1,21 @@
 {
-  "m_Name": "Level3BattleTalosDaze",
-  "id": "b168f666-5bd6-4478-84a2-bf79c674daea",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               },
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               },
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               },
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               }
             ]
           }
@@ -36,23 +24,15 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT1"
               },
               {
-                "characterData": "AttackerT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT1"
               },
               {
-                "characterData": "HeavyT1Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1Basic"
               }
             ]
           }
@@ -61,18 +41,13 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
                 "characterData": "HeavyT1Basic",
-                "requiredCovenant": "Ascension01StrongerEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension01StrongerEnemies"
               },
               {
-                "characterData": "HeavyT1Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1Basic"
               }
             ]
           }
@@ -81,28 +56,18 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Speed",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT1Speed"
               },
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               },
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               },
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               }
             ]
           }
@@ -111,18 +76,12 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Speed",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT1Speed"
               },
               {
-                "characterData": "HeavyT1Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1Basic"
               }
             ]
           }
@@ -131,58 +90,32 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
                 "characterData": "ShieldGuardT1",
-                "requiredCovenant": "Ascension03MajorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               }
             ]
           }
         ]
       }
     ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
     "bossType": 1,
     "bossCharacter": "Boss_Level3TalosDaze",
-    "hardBossCharacter": "Boss_Level3TalosDaze_Harder",
-    "bossCharactersPerFloor": [
-
-    ]
+    "hardBossCharacter": "Boss_Level3TalosDaze_Harder"
   },
   "bossVariant": null,
-  "startingEnergy": 0,
   "difficulty": 2,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 2701
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 6269
-  },
   "enemyBlessingData": [
     "Enemy_BossLevel3VariantB"
   ],
   "battleTrackNameData": "BattleMusic_Talos",
-  "minTreasureUnits": 0,
-  "maxTreasureUnits": 0,
   "treasureCharacterPool": [
 
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
 
   ],
-  "trials": null,
   "ftueCardDrawData": [
 
   ],
@@ -194,7 +127,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level3BattleTalosDaze"
 }

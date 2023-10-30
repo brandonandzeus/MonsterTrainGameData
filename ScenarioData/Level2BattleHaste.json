@@ -1,33 +1,21 @@
 {
-  "m_Name": "Level2BattleHaste",
-  "id": "c82a7b70-aa70-4a12-9660-6e6a2f6a7782",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Speed",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT1Speed"
               },
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               },
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               },
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               }
             ]
           }
@@ -36,28 +24,19 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Speed",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT1Speed"
               },
               {
-                "characterData": "AttackerT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT1"
               },
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               },
               {
                 "characterData": "HordeT1",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
           }
@@ -67,63 +46,32 @@
         "possibleGroups": [
           {
             "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-c768e6b1e29fdf3d-b64da36064afd3c408655677029a5ed1-v2",
-            "characterDataContainerList": [
-
-            ]
+            "waveMessageKey": "ScenarioData_waveMessageKey-c768e6b1e29fdf3d-b64da36064afd3c408655677029a5ed1-v2"
           }
         ]
       },
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Speed",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT1Speed"
               },
               {
                 "characterData": "Boss_Level2",
-                "requiredCovenant": null,
                 "useBossCharacter": true
               },
               {
                 "characterData": "HordeT1",
-                "requiredCovenant": "Ascension01StrongerEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension01StrongerEnemies"
               }
             ]
           }
         ]
       }
-    ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
-    "bossType": 0,
-    "bossCharacter": null,
-    "hardBossCharacter": null,
-    "bossCharactersPerFloor": [
-
     ]
   },
   "bossVariant": "Level2Bosses",
-  "startingEnergy": 0,
-  "difficulty": 0,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "enemyBlessingData": [
 
   ],
@@ -133,13 +81,10 @@
   "treasureCharacterPool": [
     "TreasureBagLvl1Gold"
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
 
   ],
   "trials": {
-    "m_Name": "T1Trials",
     "listName": "T1Trials",
     "trialDatas": [
       null,
@@ -160,7 +105,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level2BattleHaste"
 }

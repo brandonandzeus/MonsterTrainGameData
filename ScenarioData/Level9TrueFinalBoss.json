@@ -1,64 +1,42 @@
 {
-  "m_Name": "Level9TrueFinalBoss",
-  "id": "1107b45f-096e-410e-a76d-7142d6bedd62",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               },
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               },
               {
                 "characterData": "HeavyT1GainAttackOnSpellcast",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "HeavyT1GainAttackOnSpellcast",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1GainAttackOnSpellcast"
               },
               {
-                "characterData": "HeavyT1GainAttackOnSpellcast",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1GainAttackOnSpellcast"
               }
             ]
           },
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               },
               {
                 "characterData": "HeavyT1ChainedBrute",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "HeavyT1ChainedBrute",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1ChainedBrute"
               },
               {
-                "characterData": "HeavyT1ChainedBrute",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1ChainedBrute"
               }
             ]
           }
@@ -67,54 +45,36 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "ClericT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ClericT2"
               },
               {
-                "characterData": "AttackerT3Reaper",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3Reaper"
               },
               {
                 "characterData": "HeavyT2SelfRepair",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "ShieldGuardT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT2"
               }
             ]
           },
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "ClericT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ClericT2"
               },
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
                 "characterData": "HeavyT2SelfRepair",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "ShieldGuardT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT3"
               }
             ]
           }
@@ -123,64 +83,42 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Spikes",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT1Spikes"
               },
               {
                 "characterData": "HeavyT2Basic",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "HeavyT2Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2Basic"
               },
               {
-                "characterData": "HeavyT3DeathHarvester",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3DeathHarvester"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               }
             ]
           },
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Spikes",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT1Spikes"
               },
               {
                 "characterData": "HeavyT2Basic",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "HeavyT2DeathHarvester",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2DeathHarvester"
               },
               {
-                "characterData": "HeavyT2DeathHarvester",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2DeathHarvester"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               }
             ]
           }
@@ -189,34 +127,24 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "Boss_Level1JunkerForTLD",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "Boss_Level1JunkerForTLD"
               },
               {
                 "characterData": "ShieldGuardT1",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               }
             ]
           },
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "Boss_Level1ForTLD",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "Boss_Level1ForTLD"
               },
               {
                 "characterData": "HeavyT1GainAttackOnSpellcast",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               }
             ]
           }
@@ -225,80 +153,53 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2Stealth",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT2Stealth"
               },
               {
-                "characterData": "AttackerT2Stealth",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT2Stealth"
               },
               {
                 "characterData": "HeavyT3Basic",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               }
             ]
           },
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3Reaper"
               },
               {
-                "characterData": "AttackerT3Reaper",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3Reaper"
               },
               {
                 "characterData": "HeavyT3Basic",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               }
             ]
           },
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2GrowOnAscend",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2GrowOnAscend"
               },
               {
-                "characterData": "HeavyT2GrowOnAscend",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2GrowOnAscend"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               },
               {
                 "characterData": "HeavyT3Basic",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               }
             ]
           }
@@ -307,64 +208,42 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT3Multistrike",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT3Multistrike"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               },
               {
-                "characterData": "HeavyT2SelfRepair",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2SelfRepair"
               },
               {
                 "characterData": "HeavyT3DeathHarvester",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "ShieldGuardT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT2"
               }
             ]
           },
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Spikes",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "EnchanterT1Spikes"
               },
               {
-                "characterData": "HeavyT2Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2Basic"
               },
               {
-                "characterData": "HeavyT2SelfRepair",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2SelfRepair"
               },
               {
                 "characterData": "HeavyT3EmberDrain",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "ShieldGuardT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT2"
               }
             ]
           }
@@ -373,50 +252,35 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
                 "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "Boss_Level2AEMageForTLD",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "Boss_Level2AEMageForTLD"
               }
             ]
           },
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
                 "characterData": "AttackerT3",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "Boss_Level2ForTLD",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "Boss_Level2ForTLD"
               }
             ]
           },
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
                 "characterData": "AttackerT3Reaper",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "Boss_Level2ShieldGuyForTLD",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "Boss_Level2ShieldGuyForTLD"
               }
             ]
           }
@@ -425,64 +289,43 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
             "waveMessageKey": "ScenarioData_waveMessageKey-50e334a52b58e321-dc9482372c110624c9a441e43d9695a5-v2",
             "characterDataContainerList": [
               {
-                "characterData": "ClericT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ClericT2"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               },
               {
                 "characterData": "HeavyT2SelfRepair",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "ShieldGuardT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT3"
               }
             ]
           },
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "ClericT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ClericT2"
               },
               {
-                "characterData": "HeavyT1GainAttackOnSpellcast",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1GainAttackOnSpellcast"
               },
               {
-                "characterData": "HeavyT1GainAttackOnSpellcast",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1GainAttackOnSpellcast"
               },
               {
                 "characterData": "HeavyT2SelfRepair",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "ShieldGuardT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT3"
               }
             ]
           }
@@ -491,64 +334,43 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
             "waveMessageKey": "ScenarioData_waveMessageKey-8b83b128d3642e02-dc9482372c110624c9a441e43d9695a5-v2",
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "MageT2Junker"
               },
               {
-                "characterData": "MageT2Junker",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "MageT2Junker"
               },
               {
                 "characterData": "HeavyT3Basic",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "HeavyT2Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2Basic"
               },
               {
-                "characterData": "HeavyT1Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1Basic"
               }
             ]
           },
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "MageT2Junker"
               },
               {
-                "characterData": "MageT2Junker",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "MageT2Junker"
               },
               {
                 "characterData": "HeavyT3Basic",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "HeavyT2GrowOnAscend",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2GrowOnAscend"
               },
               {
-                "characterData": "HeavyT2GrowOnAscend",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2GrowOnAscend"
               }
             ]
           }
@@ -558,19 +380,13 @@
         "possibleGroups": [
           {
             "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-35ad9f08b3269065-dc9482372c110624c9a441e43d9695a5-v2",
-            "characterDataContainerList": [
-
-            ]
+            "waveMessageKey": "ScenarioData_waveMessageKey-35ad9f08b3269065-dc9482372c110624c9a441e43d9695a5-v2"
           }
         ]
       }
     ],
-    "isLoopingScenario": false,
     "forceCrystalVariant": true,
     "bossType": 2,
-    "bossCharacter": null,
-    "hardBossCharacter": null,
     "bossCharactersPerFloor": [
       {
         "m_FileID": 0,
@@ -587,35 +403,17 @@
     ]
   },
   "bossVariant": null,
-  "startingEnergy": 0,
   "difficulty": 2,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 1917
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 2496
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "enemyBlessingData": [
     "Enemy_LastDivinity"
   ],
   "battleTrackNameData": "BattleMusic_TLD",
-  "minTreasureUnits": 0,
-  "maxTreasureUnits": 0,
   "treasureCharacterPool": [
 
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
 
   ],
-  "trials": null,
   "ftueCardDrawData": [
 
   ],

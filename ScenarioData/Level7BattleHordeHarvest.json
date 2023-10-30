@@ -1,33 +1,21 @@
 {
-  "m_Name": "Level7BattleHordeHarvest",
-  "id": "333ee837-4c99-432e-bab7-f08ae5bf7201",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               }
             ]
           }
@@ -36,23 +24,15 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               },
               {
-                "characterData": "HeavyT3DeathHarvester",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3DeathHarvester"
               }
             ]
           }
@@ -61,28 +41,18 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               }
             ]
           }
@@ -91,28 +61,18 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               },
               {
-                "characterData": "HeavyT3DeathHarvester",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3DeathHarvester"
               }
             ]
           }
@@ -121,28 +81,19 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
                 "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT3DeathHarvester",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3DeathHarvester"
               }
             ]
           }
@@ -152,63 +103,33 @@
         "possibleGroups": [
           {
             "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-afd6a2caea2d59f3-c96a061da73590046bcf3124d036ce78-v2",
-            "characterDataContainerList": [
-
-            ]
+            "waveMessageKey": "ScenarioData_waveMessageKey-afd6a2caea2d59f3-c96a061da73590046bcf3124d036ce78-v2"
           }
         ]
       },
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
                 "characterData": "Boss_Level7",
-                "requiredCovenant": null,
                 "useBossCharacter": true
               },
               {
                 "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
                 "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
           }
         ]
       }
-    ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
-    "bossType": 0,
-    "bossCharacter": null,
-    "hardBossCharacter": null,
-    "bossCharactersPerFloor": [
-
     ]
   },
   "bossVariant": "Level7Bosses",
-  "startingEnergy": 0,
-  "difficulty": 0,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "enemyBlessingData": [
 
   ],
@@ -218,13 +139,10 @@
   "treasureCharacterPool": [
     "TreasureBagLvl3Gold"
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
     null
   ],
   "trials": {
-    "m_Name": "T3Trials",
     "listName": "T3Trials",
     "trialDatas": [
       null,
@@ -247,7 +165,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level7BattleHordeHarvest"
 }

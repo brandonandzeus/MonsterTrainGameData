@@ -1,23 +1,15 @@
 {
-  "m_Name": "Level8FinalBossPurifyFTUE",
-  "id": "3722ca8b-a1fe-4f5a-86bc-d6ab6ea3f05f",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               }
             ]
           }
@@ -26,18 +18,12 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               }
             ]
           }
@@ -46,18 +32,12 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               }
             ]
           }
@@ -66,18 +46,12 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               }
             ]
           }
@@ -86,23 +60,15 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               },
               {
-                "characterData": "ShieldGuardT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT3"
               }
             ]
           }
@@ -111,18 +77,12 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               }
             ]
           }
@@ -131,23 +91,15 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               },
               {
-                "characterData": "ShieldGuardT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT3"
               }
             ]
           }
@@ -156,63 +108,34 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               }
             ]
           }
         ]
       }
     ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
     "bossType": 1,
     "bossCharacter": "Boss_Level8Purify_Harder",
-    "hardBossCharacter": "Boss_Level8Purify_Harder",
-    "bossCharactersPerFloor": [
-
-    ]
+    "hardBossCharacter": "Boss_Level8Purify_Harder"
   },
   "bossVariant": null,
-  "startingEnergy": 0,
   "difficulty": 2,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 2580
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 1966
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 2979
-  },
   "enemyBlessingData": [
     "Enemy_SeraphCleanse"
   ],
   "battleTrackNameData": "BattleMusic_Seraph",
-  "minTreasureUnits": 0,
-  "maxTreasureUnits": 0,
   "treasureCharacterPool": [
 
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
 
   ],
-  "trials": null,
   "ftueCardDrawData": [
 
   ],

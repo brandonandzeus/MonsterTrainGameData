@@ -1,18 +1,12 @@
 {
-  "m_Name": "Level6BattleFelJunkFTUE",
-  "id": "d67f26a2-efb4-4341-8a88-58c4031e48b9",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "MageT2Junker"
               }
             ]
           }
@@ -21,13 +15,9 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "MageT2Junker"
               }
             ]
           }
@@ -36,18 +26,12 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "MageT2Junker"
               },
               {
-                "characterData": "ShieldGuardT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT2"
               }
             ]
           }
@@ -56,18 +40,12 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "MageT2Junker"
               },
               {
-                "characterData": "HeavyT2Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2Basic"
               }
             ]
           }
@@ -76,18 +54,12 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2Basic"
               },
               {
-                "characterData": "HeavyT2Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2Basic"
               }
             ]
           }
@@ -96,18 +68,12 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "MageT2Junker"
               },
               {
-                "characterData": "HeavyT2Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2Basic"
               }
             ]
           }
@@ -116,13 +82,9 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2Basic"
               }
             ]
           }
@@ -131,54 +93,26 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "characterDataContainerList": [
-
-            ]
           }
         ]
       }
     ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
     "bossType": 1,
     "bossCharacter": "Boss_Level6Junk_Harder",
-    "hardBossCharacter": "Boss_Level6Junk_Harder",
-    "bossCharactersPerFloor": [
-
-    ]
+    "hardBossCharacter": "Boss_Level6Junk_Harder"
   },
   "bossVariant": null,
-  "startingEnergy": 0,
   "difficulty": 2,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 2592
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 6324
-  },
   "enemyBlessingData": [
     "Enemy_SpawnBigHPRootedOnDeathJunk"
   ],
   "battleTrackNameData": "BattleMusic_Fel",
-  "minTreasureUnits": 0,
-  "maxTreasureUnits": 0,
   "treasureCharacterPool": [
 
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
 
   ],
-  "trials": null,
   "ftueCardDrawData": [
 
   ],
@@ -190,7 +124,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level6BattleFelJunkFTUE"
 }

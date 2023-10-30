@@ -1,28 +1,18 @@
 {
-  "m_Name": "Level6BattleArchusTrapATrapB",
-  "id": "9f00c5b4-eedf-4908-afe5-a36b56d3ca47",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
               }
             ]
           }
@@ -31,18 +21,12 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT2"
               },
               {
-                "characterData": "HeavyT2SelfRepair",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2SelfRepair"
               }
             ]
           }
@@ -51,23 +35,16 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
               },
               {
                 "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": "Ascension01StrongerEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension01StrongerEnemies"
               },
               {
-                "characterData": "HeavyT2SelfRepair",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2SelfRepair"
               }
             ]
           }
@@ -76,43 +53,45 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
                 "characterData": "HeavyT2Basic",
-                "requiredCovenant": "Ascension01StrongerEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension01StrongerEnemies"
+              },
+              {
+                "characterData": "HeavyT2Basic"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "characterDataContainerList": [
+              {
+                "characterData": "HordeT2DeathGivesAttack"
               },
               {
                 "characterData": "HeavyT2Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "possibleGroups": [
-          {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "characterDataContainerList": [
-              {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT2Basic",
-                "requiredCovenant": "Ascension03MajorBattlesNewEnemies",
-                "useBossCharacter": false
+                "characterData": "HeavyT2DeathHarvester"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "characterDataContainerList": [
+              {
+                "characterData": "AttackerT2"
               },
               {
-                "characterData": "HeavyT2DeathHarvester",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2DeathHarvester"
               }
             ]
           }
@@ -121,18 +100,9 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "HeavyT2DeathHarvester",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2DeathHarvester"
               }
             ]
           }
@@ -141,69 +111,26 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "characterDataContainerList": [
-              {
-                "characterData": "HeavyT2DeathHarvester",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "possibleGroups": [
-          {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "characterDataContainerList": [
-
-            ]
           }
         ]
       }
     ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
     "bossType": 1,
     "bossCharacter": "Boss_Level6ArchusTrapATrapB",
-    "hardBossCharacter": "Boss_Level6ArchusTrapATrapB_Harder",
-    "bossCharactersPerFloor": [
-
-    ]
+    "hardBossCharacter": "Boss_Level6ArchusTrapATrapB_Harder"
   },
   "bossVariant": null,
-  "startingEnergy": 0,
   "difficulty": 2,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 2723
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 6189
-  },
   "enemyBlessingData": [
     "Enemy_TrapA_TrapB"
   ],
   "battleTrackNameData": "BattleMusic_Archus",
-  "minTreasureUnits": 0,
-  "maxTreasureUnits": 0,
   "treasureCharacterPool": [
 
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
 
   ],
-  "trials": null,
   "ftueCardDrawData": [
 
   ],
@@ -228,7 +155,6 @@
       "y": -10.0
     }
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level6BattleArchusTrapATrapB"
 }

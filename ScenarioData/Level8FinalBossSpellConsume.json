@@ -1,28 +1,18 @@
 {
-  "m_Name": "Level8FinalBossSpellConsume",
-  "id": "5a578bbe-f194-41ce-9a06-dd71441051c1",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
-                "characterData": "MageT3Junker",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "MageT3Junker"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               }
             ]
           }
@@ -31,23 +21,16 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "MageT3Junker",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "MageT3Junker"
               },
               {
                 "characterData": "AttackerT3",
-                "requiredCovenant": "Ascension03MajorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               }
             ]
           }
@@ -56,23 +39,15 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "MageT3Junker",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "MageT3Junker"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               }
             ]
           }
@@ -81,23 +56,16 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               },
               {
                 "characterData": "HeavyT3Basic",
-                "requiredCovenant": "Ascension01StrongerEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension01StrongerEnemies"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               }
             ]
           }
@@ -106,23 +74,16 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "MageT3Junker",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "MageT3Junker"
+              },
+              {
+                "characterData": "HeavyT3Basic"
               },
               {
                 "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": "Ascension03MajorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               }
             ]
           }
@@ -131,23 +92,16 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               },
               {
                 "characterData": "HeavyT3Basic",
-                "requiredCovenant": "Ascension03MajorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               }
             ]
           }
@@ -156,23 +110,15 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "MageT3Junker",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "MageT3Junker"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               },
               {
-                "characterData": "ShieldGuardT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT3"
               }
             ]
           }
@@ -181,63 +127,34 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               }
             ]
           }
         ]
       }
     ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
     "bossType": 1,
     "bossCharacter": "Boss_Level8SpellConsume",
-    "hardBossCharacter": "Boss_Level8SpellConsume_Harder",
-    "bossCharactersPerFloor": [
-
-    ]
+    "hardBossCharacter": "Boss_Level8SpellConsume_Harder"
   },
   "bossVariant": null,
-  "startingEnergy": 0,
   "difficulty": 2,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 2381
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 2031
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 5949
-  },
   "enemyBlessingData": [
     "Enemy_SeraphAddConsumeToSpells"
   ],
   "battleTrackNameData": "BattleMusic_Seraph",
-  "minTreasureUnits": 0,
-  "maxTreasureUnits": 0,
   "treasureCharacterPool": [
 
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
 
   ],
-  "trials": null,
   "ftueCardDrawData": [
 
   ],

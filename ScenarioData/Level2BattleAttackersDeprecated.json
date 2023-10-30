@@ -1,28 +1,18 @@
 {
-  "m_Name": "Level2BattleAttackersDeprecated",
-  "id": "5f162e66-f22a-48eb-ac3a-42ce0211d357",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT1"
               },
               {
-                "characterData": "AttackerT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT1"
               },
               {
-                "characterData": "AttackerT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT1"
               }
             ]
           }
@@ -31,23 +21,15 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT1"
               },
               {
-                "characterData": "AttackerT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT1"
               },
               {
-                "characterData": "AttackerT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT1"
               }
             ]
           }
@@ -57,63 +39,31 @@
         "possibleGroups": [
           {
             "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-5a3bf208a8df66a0-ba29027417d6d8e4588ecd4cd4785af6-v2",
-            "characterDataContainerList": [
-
-            ]
+            "waveMessageKey": "ScenarioData_waveMessageKey-5a3bf208a8df66a0-ba29027417d6d8e4588ecd4cd4785af6-v2"
           }
         ]
       },
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT1"
               },
               {
-                "characterData": "AttackerT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT1"
               },
               {
                 "characterData": "Boss_Level2",
-                "requiredCovenant": null,
                 "useBossCharacter": true
               }
             ]
           }
         ]
       }
-    ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
-    "bossType": 0,
-    "bossCharacter": null,
-    "hardBossCharacter": null,
-    "bossCharactersPerFloor": [
-
     ]
   },
   "bossVariant": "Level2Bosses",
-  "startingEnergy": 0,
-  "difficulty": 0,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "enemyBlessingData": [
 
   ],
@@ -123,13 +73,10 @@
   "treasureCharacterPool": [
     "TreasureBagLvl1Gold"
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
     null
   ],
   "trials": {
-    "m_Name": "Level2Trials",
     "listName": "T1Trials",
     "trialDatas": [
       "T1GoldForEnemyExtraAttack",
@@ -151,7 +98,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level2BattleAttackersDeprecated"
 }

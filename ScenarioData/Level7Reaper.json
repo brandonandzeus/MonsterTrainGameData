@@ -1,28 +1,18 @@
 {
-  "m_Name": "Level7Reaper",
-  "id": "375fbaa9-f355-447c-a53c-cc475d668ed2",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3Reaper"
               },
               {
-                "characterData": "AttackerT3Reaper",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3Reaper"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               }
             ]
           }
@@ -31,23 +21,15 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3Reaper"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               },
               {
-                "characterData": "ShieldGuardT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT3"
               }
             ]
           }
@@ -56,23 +38,15 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3Reaper"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT3DeathDoesDamage"
               }
             ]
           }
@@ -81,33 +55,22 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3Reaper"
               },
               {
-                "characterData": "AttackerT3Reaper",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3Reaper"
               },
               {
-                "characterData": "ShieldGuardT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT3"
+              },
+              {
+                "characterData": "HordeT3DeathDoesDamage"
               },
               {
                 "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
           }
@@ -116,28 +79,19 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3Reaper"
               },
               {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT3Basic"
               },
               {
-                "characterData": "ShieldGuardT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ShieldGuardT3"
               },
               {
                 "characterData": "HordeT3DeathDoesDamage",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
           }
@@ -147,63 +101,32 @@
         "possibleGroups": [
           {
             "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-aaccad590ad8155b-de58df12bfadb4f459040beb59ec2268-v2",
-            "characterDataContainerList": [
-
-            ]
+            "waveMessageKey": "ScenarioData_waveMessageKey-aaccad590ad8155b-de58df12bfadb4f459040beb59ec2268-v2"
           }
         ]
       },
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
                 "characterData": "AttackerT3Reaper",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "AttackerT3Reaper",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT3Reaper"
               },
               {
                 "characterData": "Boss_Level7",
-                "requiredCovenant": null,
                 "useBossCharacter": true
               }
             ]
           }
         ]
       }
-    ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
-    "bossType": 0,
-    "bossCharacter": null,
-    "hardBossCharacter": null,
-    "bossCharactersPerFloor": [
-
     ]
   },
   "bossVariant": "Level7Bosses",
-  "startingEnergy": 0,
-  "difficulty": 0,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "enemyBlessingData": [
 
   ],
@@ -213,13 +136,10 @@
   "treasureCharacterPool": [
     "TreasureBagLvl3Gold"
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
     null
   ],
   "trials": {
-    "m_Name": "T3Trials",
     "listName": "T3Trials",
     "trialDatas": [
       null,
@@ -242,7 +162,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level7Reaper"
 }

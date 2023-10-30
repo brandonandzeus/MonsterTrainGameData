@@ -1,28 +1,18 @@
 {
-  "m_Name": "Level3BattleDaedalusExplosive",
-  "id": "07f32428-a905-434e-adde-283a9d84bbf6",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               },
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               },
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               }
             ]
           }
@@ -31,23 +21,15 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               },
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               },
               {
-                "characterData": "HeavyT1Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1Basic"
               }
             ]
           }
@@ -56,18 +38,13 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
                 "characterData": "HeavyT1Basic",
-                "requiredCovenant": "Ascension01StrongerEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension01StrongerEnemies"
               },
               {
-                "characterData": "HeavyT1Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1Basic"
               }
             ]
           }
@@ -76,28 +53,18 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               },
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               },
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               },
               {
-                "characterData": "HordeT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT1"
               }
             ]
           }
@@ -106,18 +73,12 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "ClericT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ClericT1"
               },
               {
-                "characterData": "HeavyT1Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1Basic"
               }
             ]
           }
@@ -126,58 +87,32 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
                 "characterData": "ShieldGuardT1",
-                "requiredCovenant": "Ascension03MajorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               }
             ]
           }
         ]
       }
     ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
     "bossType": 1,
     "bossCharacter": "Boss_Level3Explosive",
-    "hardBossCharacter": "Boss_Level3Explosive_Harder",
-    "bossCharactersPerFloor": [
-
-    ]
+    "hardBossCharacter": "Boss_Level3Explosive_Harder"
   },
   "bossVariant": null,
-  "startingEnergy": 0,
   "difficulty": 2,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 2539
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 4598
-  },
   "enemyBlessingData": [
     "Enemy_TriggerDamageOnDeath"
   ],
   "battleTrackNameData": "BattleMusic_Daedalus",
-  "minTreasureUnits": 0,
-  "maxTreasureUnits": 0,
   "treasureCharacterPool": [
 
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
 
   ],
-  "trials": null,
   "ftueCardDrawData": [
 
   ],
@@ -189,7 +124,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level3BattleDaedalusExplosive"
 }

@@ -1,28 +1,18 @@
 {
-  "m_Name": "Level6BattleFelArmor",
-  "id": "b62a8ac2-6504-4ed5-bf17-2b01e66fd962",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
               }
             ]
           }
@@ -31,18 +21,12 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT2"
               },
               {
-                "characterData": "HeavyT2SelfRepair",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2SelfRepair"
               }
             ]
           }
@@ -51,23 +35,16 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HordeT2DeathGivesAttack"
               },
               {
                 "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": "Ascension01StrongerEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension01StrongerEnemies"
               },
               {
-                "characterData": "HeavyT2SelfRepair",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2SelfRepair"
               }
             ]
           }
@@ -76,43 +53,45 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
                 "characterData": "HeavyT2Basic",
-                "requiredCovenant": "Ascension01StrongerEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension01StrongerEnemies"
+              },
+              {
+                "characterData": "HeavyT2Basic"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "characterDataContainerList": [
+              {
+                "characterData": "HordeT2DeathGivesAttack"
               },
               {
                 "characterData": "HeavyT2Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "possibleGroups": [
-          {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "characterDataContainerList": [
-              {
-                "characterData": "HordeT2DeathGivesAttack",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT2Basic",
-                "requiredCovenant": "Ascension03MajorBattlesNewEnemies",
-                "useBossCharacter": false
+                "characterData": "HeavyT2DeathHarvester"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "characterDataContainerList": [
+              {
+                "characterData": "AttackerT2"
               },
               {
-                "characterData": "HeavyT2DeathHarvester",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2DeathHarvester"
               }
             ]
           }
@@ -121,18 +100,9 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "HeavyT2DeathHarvester",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT2DeathHarvester"
               }
             ]
           }
@@ -141,69 +111,26 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "characterDataContainerList": [
-              {
-                "characterData": "HeavyT2DeathHarvester",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "possibleGroups": [
-          {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "characterDataContainerList": [
-
-            ]
           }
         ]
       }
     ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
     "bossType": 1,
     "bossCharacter": "Boss_Level6Armor",
-    "hardBossCharacter": "Boss_Level6Armor_Harder",
-    "bossCharactersPerFloor": [
-
-    ]
+    "hardBossCharacter": "Boss_Level6Armor_Harder"
   },
   "bossVariant": null,
-  "startingEnergy": 0,
   "difficulty": 2,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 2574
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 4744
-  },
   "enemyBlessingData": [
     "Enemy_SpawnBigHPRootedSpellShield"
   ],
   "battleTrackNameData": "BattleMusic_Fel",
-  "minTreasureUnits": 0,
-  "maxTreasureUnits": 0,
   "treasureCharacterPool": [
 
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
 
   ],
-  "trials": null,
   "ftueCardDrawData": [
 
   ],
@@ -215,7 +142,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level6BattleFelArmor"
 }

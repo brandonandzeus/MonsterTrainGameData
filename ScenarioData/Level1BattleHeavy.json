@@ -1,23 +1,15 @@
 {
-  "m_Name": "Level1BattleHeavy",
-  "id": "e07b4e63-f40b-4c35-8694-29e17cec3cf0",
   "spawnPattern": {
     "spawnGroupWaves": [
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "ClericT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "ClericT1"
               },
               {
-                "characterData": "HeavyT1ChainedBrute",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1ChainedBrute"
               }
             ]
           }
@@ -26,23 +18,16 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
                 "characterData": "ClericT1",
-                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
-                "useBossCharacter": false
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "AttackerT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT1"
               },
               {
-                "characterData": "HeavyT1ChainedBrute",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "HeavyT1ChainedBrute"
               }
             ]
           }
@@ -52,58 +37,28 @@
         "possibleGroups": [
           {
             "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-cdd30de33d9149df-019da63a729c6aa43b83ebadc47461f4-v2",
-            "characterDataContainerList": [
-
-            ]
+            "waveMessageKey": "ScenarioData_waveMessageKey-cdd30de33d9149df-019da63a729c6aa43b83ebadc47461f4-v2"
           }
         ]
       },
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT1",
-                "requiredCovenant": null,
-                "useBossCharacter": false
+                "characterData": "AttackerT1"
               },
               {
                 "characterData": "Boss_Level1",
-                "requiredCovenant": null,
                 "useBossCharacter": true
               }
             ]
           }
         ]
       }
-    ],
-    "isLoopingScenario": false,
-    "forceCrystalVariant": false,
-    "bossType": 0,
-    "bossCharacter": null,
-    "hardBossCharacter": null,
-    "bossCharactersPerFloor": [
-
     ]
   },
   "bossVariant": "Level1Bosses",
-  "startingEnergy": 0,
-  "difficulty": 0,
-  "bossIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "bossPortrait": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "mapNodePrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "enemyBlessingData": [
 
   ],
@@ -113,13 +68,10 @@
   "treasureCharacterPool": [
     "TreasureBagLvl1Gold"
   ],
-  "minTraitorUnits": 0,
-  "maxTraitorUnits": 0,
   "traitorUnitsPool": [
 
   ],
   "trials": {
-    "m_Name": "T1Trials",
     "listName": "T1Trials",
     "trialDatas": [
       null,
@@ -149,7 +101,6 @@
   "displayedEnemyOffsets": [
 
   ],
-  "bossSpawnSFXCue": "",
   "backgroundData": "CaveBackgroundData",
   "name": "Level1BattleHeavy"
 }
