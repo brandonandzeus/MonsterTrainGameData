@@ -62,9 +62,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -120,9 +118,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -188,9 +184,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -226,9 +220,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -310,9 +302,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -378,9 +368,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -432,9 +420,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -500,9 +486,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -568,9 +552,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -581,22 +563,14 @@
 
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       }
     ],
     "isLoopingScenario": false,
     "forceCrystalVariant": true,
     "bossType": 2,
-    "bossCharacter": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "hardBossCharacter": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
+    "bossCharacter": null,
+    "hardBossCharacter": null,
     "bossCharactersPerFloor": [
       {
         "m_FileID": 0,

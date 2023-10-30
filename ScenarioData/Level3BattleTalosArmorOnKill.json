@@ -26,9 +26,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -53,9 +51,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -75,9 +71,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -107,9 +101,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -129,9 +121,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -146,22 +136,14 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       }
     ],
     "isLoopingScenario": false,
     "forceCrystalVariant": false,
     "bossType": 1,
-    "bossCharacter": {
-      "m_FileID": 0,
-      "m_PathID": 16329
-    },
-    "hardBossCharacter": {
-      "m_FileID": 0,
-      "m_PathID": 16330
-    },
+    "bossCharacter": "Boss_Level3TalosArmorOnKill",
+    "hardBossCharacter": "Boss_Level3TalosArmorOnKill_Harder",
     "bossCharactersPerFloor": [
 
     ]

@@ -21,9 +21,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -48,9 +46,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -75,9 +71,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -102,9 +96,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -129,9 +121,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -156,9 +146,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -183,9 +171,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -205,22 +191,14 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       }
     ],
     "isLoopingScenario": false,
     "forceCrystalVariant": false,
     "bossType": 1,
-    "bossCharacter": {
-      "m_FileID": 0,
-      "m_PathID": 16357
-    },
-    "hardBossCharacter": {
-      "m_FileID": 0,
-      "m_PathID": 16358
-    },
+    "bossCharacter": "Boss_Level8DebuffUnits",
+    "hardBossCharacter": "Boss_Level8DebuffUnits_Harder",
     "bossCharactersPerFloor": [
 
     ]

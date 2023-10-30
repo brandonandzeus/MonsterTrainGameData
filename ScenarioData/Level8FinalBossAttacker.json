@@ -16,9 +16,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -38,9 +36,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -60,9 +56,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -82,9 +76,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -104,9 +96,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -126,9 +116,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -153,9 +141,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -175,22 +161,14 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       }
     ],
     "isLoopingScenario": false,
     "forceCrystalVariant": false,
     "bossType": 1,
-    "bossCharacter": {
-      "m_FileID": 0,
-      "m_PathID": 16355
-    },
-    "hardBossCharacter": {
-      "m_FileID": 0,
-      "m_PathID": 16356
-    },
+    "bossCharacter": "Boss_Level8Attacker",
+    "hardBossCharacter": "Boss_Level8Attacker_Harder",
     "bossCharactersPerFloor": [
 
     ]

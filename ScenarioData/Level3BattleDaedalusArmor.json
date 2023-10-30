@@ -26,9 +26,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -53,9 +51,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -75,9 +71,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -102,9 +96,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -124,9 +116,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -141,22 +131,14 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       }
     ],
     "isLoopingScenario": false,
     "forceCrystalVariant": false,
     "bossType": 1,
-    "bossCharacter": {
-      "m_FileID": 0,
-      "m_PathID": 16323
-    },
-    "hardBossCharacter": {
-      "m_FileID": 0,
-      "m_PathID": 16324
-    },
+    "bossCharacter": "Boss_Level3Armor",
+    "hardBossCharacter": "Boss_Level3Armor_Harder",
     "bossCharactersPerFloor": [
 
     ]

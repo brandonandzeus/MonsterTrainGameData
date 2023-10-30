@@ -21,9 +21,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -48,9 +46,7 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -61,9 +57,7 @@
 
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       },
       {
         "possibleGroups": [
@@ -88,22 +82,14 @@
               }
             ]
           }
-        ],
-        "bossCharacter": null,
-        "hardBossCharacter": null
+        ]
       }
     ],
     "isLoopingScenario": false,
     "forceCrystalVariant": false,
     "bossType": 0,
-    "bossCharacter": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
-    "hardBossCharacter": {
-      "m_FileID": 0,
-      "m_PathID": 0
-    },
+    "bossCharacter": null,
+    "hardBossCharacter": null,
     "bossCharactersPerFloor": [
 
     ]
