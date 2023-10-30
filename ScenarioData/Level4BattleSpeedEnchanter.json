@@ -96,11 +96,13 @@
       }
     ]
   },
-  "bossVariant": "Level4Bosses",
-  "enemyBlessingData": [
-
-  ],
-  "battleTrackNameData": "",
+  "bossVariant": {
+    "bossVariants": [
+      "Boss_Level4",
+      "Boss_Level4JunkerBoss",
+      "Boss_Level4Growth"
+    ]
+  },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [

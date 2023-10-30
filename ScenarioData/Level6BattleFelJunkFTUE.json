@@ -101,7 +101,6 @@
     "bossCharacter": "Boss_Level6Junk_Harder",
     "hardBossCharacter": "Boss_Level6Junk_Harder"
   },
-  "bossVariant": null,
   "difficulty": 2,
   "enemyBlessingData": [
     "Enemy_SpawnBigHPRootedOnDeathJunk"

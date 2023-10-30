@@ -99,7 +99,6 @@
     "bossCharacter": "Boss_Level3TalosPush",
     "hardBossCharacter": "Boss_Level3TalosPush_Harder"
   },
-  "bossVariant": null,
   "difficulty": 2,
   "enemyBlessingData": [
     "Enemy_BossLevel3Defensive"

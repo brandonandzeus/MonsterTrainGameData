@@ -122,7 +122,6 @@
     "bossCharacter": "Boss_Level8Attacker",
     "hardBossCharacter": "Boss_Level8Attacker_Harder"
   },
-  "bossVariant": null,
   "difficulty": 2,
   "enemyBlessingData": [
     "Enemy_SeraphRally"

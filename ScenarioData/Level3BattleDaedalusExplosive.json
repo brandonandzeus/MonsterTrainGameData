@@ -101,7 +101,6 @@
     "bossCharacter": "Boss_Level3Explosive",
     "hardBossCharacter": "Boss_Level3Explosive_Harder"
   },
-  "bossVariant": null,
   "difficulty": 2,
   "enemyBlessingData": [
     "Enemy_TriggerDamageOnDeath"

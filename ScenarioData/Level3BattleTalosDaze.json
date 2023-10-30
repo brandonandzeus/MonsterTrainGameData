@@ -104,7 +104,6 @@
     "bossCharacter": "Boss_Level3TalosDaze",
     "hardBossCharacter": "Boss_Level3TalosDaze_Harder"
   },
-  "bossVariant": null,
   "difficulty": 2,
   "enemyBlessingData": [
     "Enemy_BossLevel3VariantB"

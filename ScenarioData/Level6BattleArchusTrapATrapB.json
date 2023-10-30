@@ -119,7 +119,6 @@
     "bossCharacter": "Boss_Level6ArchusTrapATrapB",
     "hardBossCharacter": "Boss_Level6ArchusTrapATrapB_Harder"
   },
-  "bossVariant": null,
   "difficulty": 2,
   "enemyBlessingData": [
     "Enemy_TrapA_TrapB"

@@ -119,7 +119,6 @@
     "bossCharacter": "Boss_Level6Armor",
     "hardBossCharacter": "Boss_Level6Armor_Harder"
   },
-  "bossVariant": null,
   "difficulty": 2,
   "enemyBlessingData": [
     "Enemy_SpawnBigHPRootedSpellShield"

@@ -124,7 +124,6 @@
     "bossCharacter": "Boss_Level8Purify_Harder",
     "hardBossCharacter": "Boss_Level8Purify_Harder"
   },
-  "bossVariant": null,
   "difficulty": 2,
   "enemyBlessingData": [
     "Enemy_SeraphCleanse"

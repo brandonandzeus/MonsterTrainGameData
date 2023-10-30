@@ -104,7 +104,6 @@
     "bossCharacter": "Boss_Level3StrongerBarrels",
     "hardBossCharacter": "Boss_Level3StrongerBarrels_Harder"
   },
-  "bossVariant": null,
   "difficulty": 2,
   "enemyBlessingData": [
     "Enemy_BarrelsExplodeTwice"

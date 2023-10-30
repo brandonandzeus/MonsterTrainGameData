@@ -139,7 +139,6 @@
     "bossCharacter": "Boss_Level8DebuffUnits",
     "hardBossCharacter": "Boss_Level8DebuffUnits_Harder"
   },
-  "bossVariant": null,
   "difficulty": 2,
   "enemyBlessingData": [
     "Enemy_SeraphSap"

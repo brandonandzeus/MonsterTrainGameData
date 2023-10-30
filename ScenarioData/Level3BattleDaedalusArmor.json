@@ -99,7 +99,6 @@
     "bossCharacter": "Boss_Level3Armor",
     "hardBossCharacter": "Boss_Level3Armor_Harder"
   },
-  "bossVariant": null,
   "difficulty": 2,
   "enemyBlessingData": [
     "Enemy_ExplosivesGetDamageShield"

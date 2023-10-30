@@ -143,7 +143,6 @@
     "bossCharacter": "Boss_Level8SpellConsume",
     "hardBossCharacter": "Boss_Level8SpellConsume_Harder"
   },
-  "bossVariant": null,
   "difficulty": 2,
   "enemyBlessingData": [
     "Enemy_SeraphAddConsumeToSpells"

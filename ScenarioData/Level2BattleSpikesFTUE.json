@@ -57,11 +57,13 @@
       }
     ]
   },
-  "bossVariant": "Level2Bosses",
-  "enemyBlessingData": [
-
-  ],
-  "battleTrackNameData": "",
+  "bossVariant": {
+    "bossVariants": [
+      "Boss_Level2",
+      "Boss_Level2ShieldGuy",
+      "Boss_Level2AEMage"
+    ]
+  },
   "treasureCharacterPool": [
 
   ],

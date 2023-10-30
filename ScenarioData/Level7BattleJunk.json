@@ -108,11 +108,12 @@
       }
     ]
   },
-  "bossVariant": "Level7Bosses",
-  "enemyBlessingData": [
-
-  ],
-  "battleTrackNameData": "",
+  "bossVariant": {
+    "bossVariants": [
+      "Boss_Level7Shield",
+      "Boss_Level7"
+    ]
+  },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [

@@ -120,11 +120,13 @@
       }
     ]
   },
-  "bossVariant": "Level5Bosses",
-  "enemyBlessingData": [
-
-  ],
-  "battleTrackNameData": "",
+  "bossVariant": {
+    "bossVariants": [
+      "Boss_Level5",
+      "Boss_Level5UltimateStealth",
+      "Boss_Level5Caster"
+    ]
+  },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [

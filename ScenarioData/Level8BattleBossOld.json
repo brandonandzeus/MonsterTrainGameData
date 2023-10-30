@@ -84,7 +84,6 @@
     "bossType": 1,
     "bossCharacter": "Boss_Level6Junk"
   },
-  "bossVariant": null,
   "difficulty": 2,
   "enemyBlessingData": [
     "Enemy_SeraphAddConsumeToSpells"

@@ -101,7 +101,6 @@
     "bossCharacter": "Boss_Level3TalosArmorOnKill",
     "hardBossCharacter": "Boss_Level3TalosArmorOnKill_Harder"
   },
-  "bossVariant": null,
   "difficulty": 2,
   "enemyBlessingData": [
     "Enemy_BossLevel3Offensive"
