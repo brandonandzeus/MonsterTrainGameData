@@ -21,7 +21,9 @@
               }
             ]
           }
-        ]
+        ],
+        "bossCharacter": null,
+        "hardBossCharacter": null
       },
       {
         "possibleGroups": [
@@ -41,7 +43,9 @@
               }
             ]
           }
-        ]
+        ],
+        "bossCharacter": null,
+        "hardBossCharacter": null
       },
       {
         "possibleGroups": [
@@ -52,7 +56,9 @@
 
             ]
           }
-        ]
+        ],
+        "bossCharacter": null,
+        "hardBossCharacter": null
       },
       {
         "possibleGroups": [
@@ -67,7 +73,9 @@
               }
             ]
           }
-        ]
+        ],
+        "bossCharacter": null,
+        "hardBossCharacter": null
       }
     ],
     "isLoopingScenario": false,

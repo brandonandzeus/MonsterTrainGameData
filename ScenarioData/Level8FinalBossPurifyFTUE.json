@@ -21,7 +21,9 @@
               }
             ]
           }
-        ]
+        ],
+        "bossCharacter": null,
+        "hardBossCharacter": null
       },
       {
         "possibleGroups": [
@@ -41,27 +43,9 @@
               }
             ]
           }
-        ]
-      },
-      {
-        "possibleGroups": [
-          {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "characterDataContainerList": [
-              {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              }
-            ]
-          }
-        ]
+        ],
+        "bossCharacter": null,
+        "hardBossCharacter": null
       },
       {
         "possibleGroups": [
@@ -81,32 +65,9 @@
               }
             ]
           }
-        ]
-      },
-      {
-        "possibleGroups": [
-          {
-            "hasWaveMessage": false,
-            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "characterDataContainerList": [
-              {
-                "characterData": "AttackerT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              },
-              {
-                "characterData": "ShieldGuardT3",
-                "requiredCovenant": null,
-                "useBossCharacter": false
-              }
-            ]
-          }
-        ]
+        ],
+        "bossCharacter": null,
+        "hardBossCharacter": null
       },
       {
         "possibleGroups": [
@@ -126,7 +87,9 @@
               }
             ]
           }
-        ]
+        ],
+        "bossCharacter": null,
+        "hardBossCharacter": null
       },
       {
         "possibleGroups": [
@@ -151,7 +114,9 @@
               }
             ]
           }
-        ]
+        ],
+        "bossCharacter": null,
+        "hardBossCharacter": null
       },
       {
         "possibleGroups": [
@@ -171,7 +136,58 @@
               }
             ]
           }
-        ]
+        ],
+        "bossCharacter": null,
+        "hardBossCharacter": null
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "AttackerT3",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT3Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "ShieldGuardT3",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ],
+        "bossCharacter": null,
+        "hardBossCharacter": null
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "AttackerT3",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT3Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ],
+        "bossCharacter": null,
+        "hardBossCharacter": null
       }
     ],
     "isLoopingScenario": false,
