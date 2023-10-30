@@ -1,0 +1,161 @@
+{
+  "m_Name": "Level1BattleHeavy",
+  "id": "e07b4e63-f40b-4c35-8694-29e17cec3cf0",
+  "spawnPattern": {
+    "spawnGroupWaves": [
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "ClericT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT1ChainedBrute",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "ClericT1",
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "AttackerT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT1ChainedBrute",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": true,
+            "waveMessageKey": "ScenarioData_waveMessageKey-cdd30de33d9149df-019da63a729c6aa43b83ebadc47461f4-v2",
+            "characterDataContainerList": [
+
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "AttackerT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "Boss_Level1",
+                "requiredCovenant": null,
+                "useBossCharacter": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "isLoopingScenario": false,
+    "forceCrystalVariant": false,
+    "bossType": 0,
+    "bossCharacter": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "hardBossCharacter": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "bossCharactersPerFloor": [
+
+    ]
+  },
+  "bossVariant": "Level1Bosses",
+  "startingEnergy": 0,
+  "difficulty": 0,
+  "bossIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "bossPortrait": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mapNodePrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "enemyBlessingData": [
+
+  ],
+  "battleTrackNameData": "",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "TreasureBagLvl1Gold"
+  ],
+  "minTraitorUnits": 0,
+  "maxTraitorUnits": 0,
+  "traitorUnitsPool": [
+
+  ],
+  "trials": {
+    "m_Name": "T1Trials",
+    "listName": "T1Trials",
+    "trialDatas": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "ftueCardDrawData": [
+    "HornbreakerChampion",
+    "StarterTorch",
+    "TrainSteward",
+    "StarterTorch",
+    "StarterTorch",
+    "TrainSteward",
+    "StarterTorch",
+    "StarterHeal",
+    "StarterTorch",
+    "StarterHeal"
+  ],
+  "battleNameKey": "ScenarioData_battleNameKey-df78bc21dee5ca2a-019da63a729c6aa43b83ebadc47461f4-v2",
+  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-fc2025c657f6f30f-019da63a729c6aa43b83ebadc47461f4-v2",
+  "displayedEnemies": [
+    "AttackerT1",
+    "HeavyT1ChainedBrute"
+  ],
+  "displayedEnemyOffsets": [
+
+  ],
+  "bossSpawnSFXCue": "",
+  "backgroundData": "CaveBackgroundData",
+  "name": "Level1BattleHeavy"
+}

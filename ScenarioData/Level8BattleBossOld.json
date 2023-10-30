@@ -1,0 +1,181 @@
+{
+  "m_Name": "Level8BattleBossOld",
+  "id": "6597c4e5-bca0-4169-8172-1f2b8baca5e5",
+  "spawnPattern": {
+    "spawnGroupWaves": [
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "AttackerT2Stealth",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "AttackerT2Stealth",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "AttackerT2Stealth",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "ClericT2",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT2Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "AttackerT2Stealth",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "AttackerT2Stealth",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "ShieldGuardT2",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "ClericT2",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT2Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT2Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "ClericT2",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT2Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "isLoopingScenario": false,
+    "forceCrystalVariant": false,
+    "bossType": 1,
+    "bossCharacter": {
+      "m_FileID": 0,
+      "m_PathID": 16349
+    },
+    "hardBossCharacter": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "bossCharactersPerFloor": [
+
+    ]
+  },
+  "bossVariant": null,
+  "startingEnergy": 0,
+  "difficulty": 2,
+  "bossIcon": {
+    "m_FileID": 0,
+    "m_PathID": 2086
+  },
+  "bossPortrait": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mapNodePrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "enemyBlessingData": [
+    "Enemy_SeraphAddConsumeToSpells"
+  ],
+  "battleTrackNameData": "BattleMusic_Seraph",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "TreasureBagLvl3Gold"
+  ],
+  "minTraitorUnits": 0,
+  "maxTraitorUnits": 0,
+  "traitorUnitsPool": [
+
+  ],
+  "trials": null,
+  "ftueCardDrawData": [
+
+  ],
+  "battleNameKey": "ScenarioData_battleNameKey-ade511baca8585dc-c8f764cd6c9c344428a757fd6fd3c5d3-v2",
+  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-15d7f6adadcc81e9-c8f764cd6c9c344428a757fd6fd3c5d3-v2",
+  "displayedEnemies": [
+
+  ],
+  "displayedEnemyOffsets": [
+
+  ],
+  "bossSpawnSFXCue": "",
+  "backgroundData": "CaveBackgroundData",
+  "name": "Level8BattleBossOld"
+}

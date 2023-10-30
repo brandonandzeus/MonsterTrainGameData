@@ -1,0 +1,214 @@
+{
+  "m_Name": "Level7BattleMultistrikeEnchanter",
+  "id": "59a5720d-8c32-4c92-9945-e49efaba7e0f",
+  "spawnPattern": {
+    "spawnGroupWaves": [
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "EnchanterT3Multistrike",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT3Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "ShieldGuardT3",
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "EnchanterT3Multistrike",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT3Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HordeT3DeathDoesDamage",
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "EnchanterT3Multistrike",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT3Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HordeT3DeathDoesDamage",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HordeT3DeathDoesDamage",
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "EnchanterT3Multistrike",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "AttackerT3",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT3Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": true,
+            "waveMessageKey": "ScenarioData_waveMessageKey-b87f47c5a92ecf86-86dab0bd3bc44a34db99a9b9cead4279-v2",
+            "characterDataContainerList": [
+
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "EnchanterT3Multistrike",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "Boss_Level7",
+                "requiredCovenant": null,
+                "useBossCharacter": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "isLoopingScenario": false,
+    "forceCrystalVariant": false,
+    "bossType": 0,
+    "bossCharacter": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "hardBossCharacter": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "bossCharactersPerFloor": [
+
+    ]
+  },
+  "bossVariant": "Level7Bosses",
+  "startingEnergy": 0,
+  "difficulty": 0,
+  "bossIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "bossPortrait": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mapNodePrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "enemyBlessingData": [
+
+  ],
+  "battleTrackNameData": "",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "TreasureBagLvl3Gold"
+  ],
+  "minTraitorUnits": 0,
+  "maxTraitorUnits": 0,
+  "traitorUnitsPool": [
+    null
+  ],
+  "trials": {
+    "m_Name": "T3Trials",
+    "listName": "T3Trials",
+    "trialDatas": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "ftueCardDrawData": [
+
+  ],
+  "battleNameKey": "ScenarioData_battleNameKey-84e62201ef6f64f7-86dab0bd3bc44a34db99a9b9cead4279-v2",
+  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-28311997fc5e4510-86dab0bd3bc44a34db99a9b9cead4279-v2",
+  "displayedEnemies": [
+    "EnchanterT3Multistrike",
+    "HeavyT3Basic"
+  ],
+  "displayedEnemyOffsets": [
+
+  ],
+  "bossSpawnSFXCue": "",
+  "backgroundData": "CaveBackgroundData",
+  "name": "Level7BattleMultistrikeEnchanter"
+}

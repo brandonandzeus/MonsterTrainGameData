@@ -1,0 +1,206 @@
+{
+  "m_Name": "Level3BattleDaedalusDoubleBarrel",
+  "id": "1d900873-a34d-49ca-879f-eba4ea35d7d7",
+  "spawnPattern": {
+    "spawnGroupWaves": [
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "HordeT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HordeT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HordeT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HordeT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "AttackerT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "AttackerT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT1Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "HeavyT1Basic",
+                "requiredCovenant": "Ascension01StrongerEnemies",
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT1Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "EnchanterT1Speed",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HordeT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HordeT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HordeT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "EnchanterT1Speed",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT1Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "ShieldGuardT1",
+                "requiredCovenant": "Ascension03MajorBattlesNewEnemies",
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "isLoopingScenario": false,
+    "forceCrystalVariant": false,
+    "bossType": 1,
+    "bossCharacter": {
+      "m_FileID": 0,
+      "m_PathID": 16327
+    },
+    "hardBossCharacter": {
+      "m_FileID": 0,
+      "m_PathID": 16328
+    },
+    "bossCharactersPerFloor": [
+
+    ]
+  },
+  "bossVariant": null,
+  "startingEnergy": 0,
+  "difficulty": 2,
+  "bossIcon": {
+    "m_FileID": 0,
+    "m_PathID": 2552
+  },
+  "bossPortrait": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mapNodePrefab": {
+    "m_FileID": 0,
+    "m_PathID": 3407
+  },
+  "enemyBlessingData": [
+    "Enemy_BarrelsExplodeTwice"
+  ],
+  "battleTrackNameData": "BattleMusic_Daedalus",
+  "minTreasureUnits": 0,
+  "maxTreasureUnits": 0,
+  "treasureCharacterPool": [
+
+  ],
+  "minTraitorUnits": 0,
+  "maxTraitorUnits": 0,
+  "traitorUnitsPool": [
+
+  ],
+  "trials": null,
+  "ftueCardDrawData": [
+
+  ],
+  "battleNameKey": "ScenarioData_battleNameKey-cf97a0fcb7af1b05-4c3815c1e2e409648a85f66f24f62af0-v2",
+  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-5b681c58e563a545-4c3815c1e2e409648a85f66f24f62af0-v2",
+  "displayedEnemies": [
+
+  ],
+  "displayedEnemyOffsets": [
+
+  ],
+  "bossSpawnSFXCue": "",
+  "backgroundData": "CaveBackgroundData",
+  "name": "Level3BattleDaedalusDoubleBarrel"
+}

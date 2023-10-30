@@ -1,0 +1,224 @@
+{
+  "m_Name": "Level7BattleJunk",
+  "id": "cffd86f5-dab1-4df8-ba64-0e36661a2cd8",
+  "spawnPattern": {
+    "spawnGroupWaves": [
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "MageT3Junker",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT3Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "MageT3Junker",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT3Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "ShieldGuardT3",
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "MageT3Junker",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT3Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "ShieldGuardT3",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "MageT3Junker",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT3Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "ShieldGuardT3",
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "MageT3Junker",
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT3Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "ShieldGuardT3",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": true,
+            "waveMessageKey": "ScenarioData_waveMessageKey-2964230151f517fb-924e889d40571e348a27343ba735d2eb-v2",
+            "characterDataContainerList": [
+
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "Boss_Level7",
+                "requiredCovenant": null,
+                "useBossCharacter": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "isLoopingScenario": false,
+    "forceCrystalVariant": false,
+    "bossType": 0,
+    "bossCharacter": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "hardBossCharacter": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "bossCharactersPerFloor": [
+
+    ]
+  },
+  "bossVariant": "Level7Bosses",
+  "startingEnergy": 0,
+  "difficulty": 0,
+  "bossIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "bossPortrait": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mapNodePrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "enemyBlessingData": [
+
+  ],
+  "battleTrackNameData": "",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "TreasureBagLvl3Gold"
+  ],
+  "minTraitorUnits": 0,
+  "maxTraitorUnits": 0,
+  "traitorUnitsPool": [
+    null
+  ],
+  "trials": {
+    "m_Name": "T3Trials",
+    "listName": "T3Trials",
+    "trialDatas": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "ftueCardDrawData": [
+
+  ],
+  "battleNameKey": "ScenarioData_battleNameKey-88a1caa8098b4a63-924e889d40571e348a27343ba735d2eb-v2",
+  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-cdd44684c2b0e042-924e889d40571e348a27343ba735d2eb-v2",
+  "displayedEnemies": [
+    "ShieldGuardT3",
+    "MageT3Junker"
+  ],
+  "displayedEnemyOffsets": [
+
+  ],
+  "bossSpawnSFXCue": "",
+  "backgroundData": "CaveBackgroundData",
+  "name": "Level7BattleJunk"
+}

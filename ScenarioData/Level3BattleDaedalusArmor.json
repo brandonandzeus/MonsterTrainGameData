@@ -1,0 +1,196 @@
+{
+  "m_Name": "Level3BattleDaedalusArmor",
+  "id": "45308b4f-7a2d-47ea-8a0e-f2a81c2f0c88",
+  "spawnPattern": {
+    "spawnGroupWaves": [
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "ClericT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "AttackerT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT1Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "AttackerT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "ClericT1",
+                "requiredCovenant": "Ascension03MajorBattlesNewEnemies",
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT1GainAttackOnSpellcast",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "HeavyT1Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT1Basic",
+                "requiredCovenant": "Ascension01StrongerEnemies",
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "AttackerT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT1GainAttackOnSpellcast",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "ShieldGuardT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "AttackerT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT1Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "ShieldGuardT1",
+                "requiredCovenant": "Ascension03MajorBattlesNewEnemies",
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "isLoopingScenario": false,
+    "forceCrystalVariant": false,
+    "bossType": 1,
+    "bossCharacter": {
+      "m_FileID": 0,
+      "m_PathID": 16323
+    },
+    "hardBossCharacter": {
+      "m_FileID": 0,
+      "m_PathID": 16324
+    },
+    "bossCharactersPerFloor": [
+
+    ]
+  },
+  "bossVariant": null,
+  "startingEnergy": 0,
+  "difficulty": 2,
+  "bossIcon": {
+    "m_FileID": 0,
+    "m_PathID": 2586
+  },
+  "bossPortrait": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mapNodePrefab": {
+    "m_FileID": 0,
+    "m_PathID": 5289
+  },
+  "enemyBlessingData": [
+    "Enemy_ExplosivesGetDamageShield"
+  ],
+  "battleTrackNameData": "BattleMusic_Daedalus",
+  "minTreasureUnits": 0,
+  "maxTreasureUnits": 0,
+  "treasureCharacterPool": [
+
+  ],
+  "minTraitorUnits": 0,
+  "maxTraitorUnits": 0,
+  "traitorUnitsPool": [
+
+  ],
+  "trials": null,
+  "ftueCardDrawData": [
+
+  ],
+  "battleNameKey": "ScenarioData_battleNameKey-3db3e5dd990552dc-9356a81e7982d2c49ab6af0893b8d146-v2",
+  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-86e3871647167461-9356a81e7982d2c49ab6af0893b8d146-v2",
+  "displayedEnemies": [
+
+  ],
+  "displayedEnemyOffsets": [
+
+  ],
+  "bossSpawnSFXCue": "",
+  "backgroundData": "CaveBackgroundData",
+  "name": "Level3BattleDaedalusArmor"
+}

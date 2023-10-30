@@ -1,0 +1,161 @@
+{
+  "m_Name": "Level1BattleAttackers",
+  "id": "14eff3bb-54a0-43e1-9911-195f53b7ca9e",
+  "spawnPattern": {
+    "spawnGroupWaves": [
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "AttackerT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "ShieldGuardT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "AttackerT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "AttackerT1",
+                "requiredCovenant": "Ascension05MinorBattlesNewEnemies",
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "HeavyT1Basic",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": true,
+            "waveMessageKey": "ScenarioData_waveMessageKey-00ce4fab437d4038-0d371765c2c723f4099827bdf0096bc0-v2",
+            "characterDataContainerList": [
+
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "hasWaveMessage": false,
+            "waveMessageKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+            "characterDataContainerList": [
+              {
+                "characterData": "AttackerT1",
+                "requiredCovenant": null,
+                "useBossCharacter": false
+              },
+              {
+                "characterData": "Boss_Level1",
+                "requiredCovenant": null,
+                "useBossCharacter": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "isLoopingScenario": false,
+    "forceCrystalVariant": false,
+    "bossType": 0,
+    "bossCharacter": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "hardBossCharacter": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "bossCharactersPerFloor": [
+
+    ]
+  },
+  "bossVariant": "Level1Bosses",
+  "startingEnergy": 0,
+  "difficulty": 0,
+  "bossIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "bossPortrait": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mapNodePrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "enemyBlessingData": [
+
+  ],
+  "battleTrackNameData": "",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "TreasureBagLvl1Gold"
+  ],
+  "minTraitorUnits": 0,
+  "maxTraitorUnits": 0,
+  "traitorUnitsPool": [
+
+  ],
+  "trials": {
+    "m_Name": "T1Trials",
+    "listName": "T1Trials",
+    "trialDatas": [
+      "T1GoldForEnemyExtraAttack",
+      "Level1GoldForSpikes",
+      "T1GoldForEnemyArmor",
+      "T1GoldForInvasion"
+    ]
+  },
+  "ftueCardDrawData": [
+    "HornbreakerChampion",
+    "StarterTorch",
+    "TrainSteward",
+    "StarterTorch",
+    "StarterTorch",
+    "TrainSteward",
+    "StarterTorch",
+    "StarterHeal",
+    "StarterTorch",
+    "StarterHeal"
+  ],
+  "battleNameKey": "ScenarioData_battleNameKey-6067cd136f619ae8-0d371765c2c723f4099827bdf0096bc0-v2",
+  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-cbdfcd5fe766d0f0-0d371765c2c723f4099827bdf0096bc0-v2",
+  "displayedEnemies": [
+    "AttackerT1",
+    "ShieldGuardT1"
+  ],
+  "displayedEnemyOffsets": [
+
+  ],
+  "bossSpawnSFXCue": "",
+  "backgroundData": "CaveBackgroundData",
+  "name": "Level1BattleAttackers"
+}

@@ -1,0 +1,80 @@
+{
+  "m_Name": "Level0EmptyTest",
+  "id": "4c98ac14-4636-4e58-b714-c4896ca2d42a",
+  "spawnPattern": {
+    "spawnGroupWaves": {
+      "array": [
+
+      ]
+    },
+    "isLoopingScenario": false,
+    "forceCrystalVariant": false,
+    "bossType": 0,
+    "bossCharacter": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "hardBossCharacter": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "bossCharactersPerFloor": [
+
+    ]
+  },
+  "bossVariant": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "startingEnergy": 0,
+  "difficulty": 0,
+  "bossIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "bossPortrait": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mapNodePrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "enemyBlessingData": [
+
+  ],
+  "battleTrackNameData": "",
+  "minTreasureUnits": 0,
+  "maxTreasureUnits": 0,
+  "treasureCharacterPool": [
+
+  ],
+  "minTraitorUnits": 0,
+  "maxTraitorUnits": 0,
+  "traitorUnitsPool": [
+
+  ],
+  "trials": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ftueCardDrawData": {
+    "array": [
+
+    ]
+  },
+  "battleNameKey": "ScenarioData_battleNameKey-6b3922f8d5e35154-e830ee1d041e8504292b4c6efe5b2e08-v2",
+  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-88a9c829c007394c-e830ee1d041e8504292b4c6efe5b2e08-v2",
+  "displayedEnemies": [
+
+  ],
+  "displayedEnemyOffsets": [
+
+  ],
+  "bossSpawnSFXCue": "",
+  "backgroundData": {
+    "m_FileID": 0,
+    "m_PathID": 15214
+  },
+  "name": "Level0EmptyTest"
+}
