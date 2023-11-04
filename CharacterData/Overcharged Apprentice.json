@@ -1,6 +1,7 @@
 {
   "nameKey": "CharacterData_nameKey-04515141a638f1e6-9d6838a0070331c46a6f355ef5e5e77e-v2",
   "pactCrystalsRequiredCount": 25,
+  "pactCrystalsVariantData": "HeavyT1GainAttackOnSpellcast_Shard",
   "health": 25,
   "attackDamage": 2,
   "triggers": [

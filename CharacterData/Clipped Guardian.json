@@ -1,6 +1,7 @@
 {
   "nameKey": "CharacterData_nameKey-e16c9233c4d85ca7-9f5f8610cda707544a84960347936b25-v2",
   "pactCrystalsRequiredCount": 22,
+  "pactCrystalsVariantData": "HeavyT2Basic_Shard",
   "health": 75,
   "attackDamage": 5,
   "subtypeKeys": [

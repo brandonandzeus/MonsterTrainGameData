@@ -1,6 +1,7 @@
 {
   "nameKey": "CharacterData_nameKey-8f45bef3e43af7f2-557bd0a4143dca94caf24a07e1ae417f-v2",
   "pactCrystalsRequiredCount": 0,
+  "pactCrystalsVariantData": "Boss_Level2ShieldGuyForTLD_Shard",
   "size": 5,
   "health": 120,
   "deathType": 1,

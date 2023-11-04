@@ -1,6 +1,7 @@
 {
   "nameKey": "CharacterData_nameKey-de244f748542de24-d9e7bec3dff64bc4c9939f511b03c2c5-v2",
   "pactCrystalsRequiredCount": 17,
+  "pactCrystalsVariantData": "MageT2Junker_Shard",
   "health": 5,
   "attackDamage": 1,
   "triggers": [

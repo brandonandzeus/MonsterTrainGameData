@@ -1,6 +1,7 @@
 {
   "nameKey": "CharacterData_nameKey-e03c049dbc4b9ae6-9446045f9588ca14b858068084da524f-v2",
   "pactCrystalsRequiredCount": 25,
+  "pactCrystalsVariantData": "HeavyT1ChainedBrute_Shard",
   "health": 20,
   "attackDamage": 3,
   "triggers": [

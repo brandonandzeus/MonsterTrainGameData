@@ -1,6 +1,7 @@
 {
   "nameKey": "CharacterData_nameKey-0bb513123f9803d1-9100997906fa49f4e80b8bfbe0c73fa1-v2",
   "pactCrystalsRequiredCount": 12,
+  "pactCrystalsVariantData": "HordeT3DeathDoesDamage_Shard",
   "size": 1,
   "health": 3,
   "attackDamage": 5,

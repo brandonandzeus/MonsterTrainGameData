@@ -1,6 +1,7 @@
 {
   "nameKey": "CharacterData_nameKey-baa3178c1a8ca2bc-a684b7dad566ef44a8a4a078dc5854ce-v2",
   "pactCrystalsRequiredCount": 17,
+  "pactCrystalsVariantData": "HeavyT2GrowOnAscend_Shard",
   "health": 35,
   "attackDamage": 2,
   "attackTeleportsToDefender": false,

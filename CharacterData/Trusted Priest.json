@@ -1,6 +1,7 @@
 {
   "nameKey": "CharacterData_nameKey-86e3858f7673f79b-2e42ec35f441b494eabf0ea26811898c-v2",
   "pactCrystalsRequiredCount": 12,
+  "pactCrystalsVariantData": "ClericT1_Shard",
   "size": 1,
   "health": 1,
   "canAttack": false,

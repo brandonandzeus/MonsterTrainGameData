@@ -1,6 +1,7 @@
 {
   "nameKey": "CharacterData_nameKey-fa7e46a54b0bad47-79ee3af5fd5059848b46bcb39744ef2a-v2",
   "pactCrystalsRequiredCount": 14,
+  "pactCrystalsVariantData": "AttackerT3Reaper_Shard",
   "size": 1,
   "health": 5,
   "attackTeleportsToDefender": false,

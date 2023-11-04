@@ -1,6 +1,7 @@
 {
   "nameKey": "CharacterData_nameKey-784f4082443dd52f-f12806a446f481243a000c11d800c897-v2",
   "pactCrystalsRequiredCount": 0,
+  "pactCrystalsVariantData": "Boss_Level1JunkerForTLD_Shard",
   "size": 4,
   "health": 350,
   "deathType": 1,

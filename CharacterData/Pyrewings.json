@@ -1,6 +1,7 @@
 {
   "nameKey": "CharacterData_nameKey-4e445e80040c2a58-cfb7ef752b75b184e993c028b3369989-v2",
   "pactCrystalsRequiredCount": 20,
+  "pactCrystalsVariantData": "HeavyT3EmberDrain_Shard",
   "health": 90,
   "attackDamage": 2,
   "startingStatusEffects": [

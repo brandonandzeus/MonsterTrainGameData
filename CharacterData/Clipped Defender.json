@@ -1,6 +1,7 @@
 {
   "nameKey": "CharacterData_nameKey-5dda450afdb409ee-fdb13e5ecc0aac34782dd948ea711f62-v2",
   "pactCrystalsRequiredCount": 20,
+  "pactCrystalsVariantData": "ShieldGuardT2_Shard",
   "size": 3,
   "health": 10,
   "deathType": 1,
