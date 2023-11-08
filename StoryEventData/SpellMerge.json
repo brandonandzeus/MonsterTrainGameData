@@ -1,0 +1,32 @@
+{
+  "m_Name": "SpellMerge",
+  "id": "9eb8b669-0a5a-4880-884c-1a907b39b38f",
+  "storyId": "SpellMerge",
+  "knotName": "SpellMerge",
+  "eventPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 18696
+  },
+  "followupEvents": [
+
+  ],
+  "numRunsCompletedToSee": 3,
+  "priorityTicketCount": 15,
+  "numClassesNeededToShow": 1,
+  "covenantLevelRequired": 1,
+  "allClassesNeededToShow": false,
+  "minDistanceAllowed": 0,
+  "maxDistanceAllowed": 7,
+  "excludedMutator": "NoShards",
+  "associatedDLC": 1,
+  "requireDlcModeActive": true,
+  "numCrystalsRequired": 0,
+  "excludingEventData": [
+
+  ],
+  "possibleRewards": [
+    "SpellMergeReward",
+    "SpellMerge_DuplicateReward"
+  ],
+  "name": "SpellMerge"
+}

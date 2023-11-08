@@ -1,0 +1,36 @@
+{
+  "m_Name": "NonclassCards",
+  "id": "2060724f-413b-4662-b7b6-d1f06bed425d",
+  "storyId": "NonclassCards",
+  "knotName": "NonclassCards",
+  "eventPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 18194
+  },
+  "followupEvents": [
+
+  ],
+  "numRunsCompletedToSee": 5,
+  "priorityTicketCount": 25,
+  "numClassesNeededToShow": 5,
+  "covenantLevelRequired": 0,
+  "allClassesNeededToShow": true,
+  "minDistanceAllowed": 0,
+  "maxDistanceAllowed": 4,
+  "excludedMutator": null,
+  "associatedDLC": 0,
+  "requireDlcModeActive": false,
+  "numCrystalsRequired": 0,
+  "excludingEventData": [
+
+  ],
+  "possibleRewards": [
+    "Class1CardDraftRareReward",
+    "Class2CardDraftRareReward",
+    "Class3CardDraftRareReward",
+    "Class4CardDraftRareReward",
+    "Class5CardDraftRareReward",
+    "Class6CardDraftRareReward"
+  ],
+  "name": "NonclassCards"
+}

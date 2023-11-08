@@ -1,0 +1,33 @@
+{
+  "m_Name": "GoldRewards",
+  "id": "9dfec9db-9e21-4406-86e8-d14c74e95f77",
+  "storyId": "GoldRewards",
+  "knotName": "GoldRewards",
+  "eventPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 17861
+  },
+  "followupEvents": [
+
+  ],
+  "numRunsCompletedToSee": 1,
+  "priorityTicketCount": 20,
+  "numClassesNeededToShow": 1,
+  "covenantLevelRequired": 0,
+  "allClassesNeededToShow": false,
+  "minDistanceAllowed": 0,
+  "maxDistanceAllowed": 7,
+  "excludedMutator": null,
+  "associatedDLC": 0,
+  "requireDlcModeActive": false,
+  "numCrystalsRequired": 0,
+  "excludingEventData": [
+
+  ],
+  "possibleRewards": [
+    "XCostGoldCardReward",
+    "PyreUpgradeDamageGoldScalingReward",
+    "PickpocketReward"
+  ],
+  "name": "GoldRewards"
+}

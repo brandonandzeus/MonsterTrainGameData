@@ -1,0 +1,61 @@
+{
+  "m_Name": "UnitQuest",
+  "id": "69df0c82-81fb-493e-aad4-198cf12ff98f",
+  "storyId": "UnitQuest",
+  "knotName": "UnitQuest",
+  "eventPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 18287
+  },
+  "followupEvents": [
+    {
+      "followupEvent": "UnitQuest_UnitFollowup",
+      "canShowAfterVictory": false,
+      "conditions": [
+        {
+          "conditionName": "FollowupConditionCardCount",
+          "paramInt": 4,
+          "paramAdditionalInt": 0,
+          "paramString": "",
+          "paramRelicData": null,
+          "paramCardData": "ReplicatingUnit",
+          "paramCardDataId": "b089b640-b979-4f33-8524-89123f6d2bfe"
+        }
+      ]
+    },
+    {
+      "followupEvent": "UnitQuest_SpellFollowup",
+      "canShowAfterVictory": false,
+      "conditions": [
+        {
+          "conditionName": "FollowupConditionCardCount",
+          "paramInt": 4,
+          "paramAdditionalInt": 0,
+          "paramString": "",
+          "paramRelicData": null,
+          "paramCardData": "ReplicatingSpell",
+          "paramCardDataId": "118b9c0c-48a6-4d9e-99e8-477ae571a18f"
+        }
+      ]
+    }
+  ],
+  "numRunsCompletedToSee": 7,
+  "priorityTicketCount": 25,
+  "numClassesNeededToShow": 1,
+  "covenantLevelRequired": 0,
+  "allClassesNeededToShow": false,
+  "minDistanceAllowed": 0,
+  "maxDistanceAllowed": 2,
+  "excludedMutator": null,
+  "associatedDLC": 0,
+  "requireDlcModeActive": false,
+  "numCrystalsRequired": 0,
+  "excludingEventData": [
+
+  ],
+  "possibleRewards": [
+    "ReplicatingSpellReward",
+    "ReplicatingExtinguishUnitReward"
+  ],
+  "name": "UnitQuest"
+}

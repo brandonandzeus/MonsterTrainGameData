@@ -1,0 +1,34 @@
+{
+  "m_Name": "GimmeGold",
+  "id": "0e59ee5a-73fe-46ab-9c4b-8dc22e5c4f8c",
+  "storyId": "GimmeGold",
+  "knotName": "GimmeGold",
+  "eventPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 18662
+  },
+  "followupEvents": [
+
+  ],
+  "numRunsCompletedToSee": 1,
+  "priorityTicketCount": 15,
+  "numClassesNeededToShow": 1,
+  "covenantLevelRequired": 0,
+  "allClassesNeededToShow": false,
+  "minDistanceAllowed": 0,
+  "maxDistanceAllowed": 7,
+  "excludedMutator": null,
+  "associatedDLC": 0,
+  "requireDlcModeActive": false,
+  "numCrystalsRequired": 0,
+  "excludingEventData": [
+
+  ],
+  "possibleRewards": [
+    "GoldReward150",
+    "GoldReward25",
+    "GoldReward200",
+    "GoldReward50"
+  ],
+  "name": "GimmeGold"
+}

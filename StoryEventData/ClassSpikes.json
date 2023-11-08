@@ -1,0 +1,36 @@
+{
+  "m_Name": "ClassSpikes",
+  "id": "c7e80788-f295-4970-bfdf-5bde2d812eb0",
+  "storyId": "ClassSpikes",
+  "knotName": "ClassSpikes",
+  "eventPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 18206
+  },
+  "followupEvents": [
+
+  ],
+  "numRunsCompletedToSee": 1,
+  "priorityTicketCount": 15,
+  "numClassesNeededToShow": 3,
+  "covenantLevelRequired": 0,
+  "allClassesNeededToShow": false,
+  "minDistanceAllowed": 0,
+  "maxDistanceAllowed": 7,
+  "excludedMutator": null,
+  "associatedDLC": 0,
+  "requireDlcModeActive": false,
+  "numCrystalsRequired": 0,
+  "excludingEventData": [
+
+  ],
+  "possibleRewards": [
+    "Class1SpikeReward",
+    "Class2SpikeReward",
+    "Class3SpikeReward",
+    "Class4SpikeReward",
+    "Class5SpikeReward",
+    "Class6SpikeReward"
+  ],
+  "name": "ClassSpikes"
+}

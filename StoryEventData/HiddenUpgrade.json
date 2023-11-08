@@ -1,0 +1,104 @@
+{
+  "m_Name": "HiddenUpgrade",
+  "id": "54b8ec87-567e-4728-8547-f4be8af96afb",
+  "storyId": "HiddenUpgrade",
+  "knotName": "HiddenUpgrade",
+  "eventPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 17999
+  },
+  "followupEvents": [
+    {
+      "followupEvent": "HiddenUpgrade_Followup",
+      "canShowAfterVictory": false,
+      "conditions": [
+        {
+          "conditionName": "FollowupConditionBattleDelay",
+          "paramInt": 2,
+          "paramAdditionalInt": 0,
+          "paramString": "",
+          "paramRelicData": null,
+          "paramCardData": null,
+          "paramCardDataId": ""
+        },
+        {
+          "conditionName": "FollowupConditionCardCount",
+          "paramInt": 1,
+          "paramAdditionalInt": 0,
+          "paramString": "",
+          "paramRelicData": null,
+          "paramCardData": "AnnhilateRoomDamageScaling",
+          "paramCardDataId": "251c3fe2-3c6e-4640-9c98-532a568c5c22"
+        }
+      ]
+    },
+    {
+      "followupEvent": "HiddenUpgrade_Followup",
+      "canShowAfterVictory": false,
+      "conditions": [
+        {
+          "conditionName": "FollowupConditionBattleDelay",
+          "paramInt": 2,
+          "paramAdditionalInt": 0,
+          "paramString": "",
+          "paramRelicData": null,
+          "paramCardData": null,
+          "paramCardDataId": ""
+        },
+        {
+          "conditionName": "FollowupConditionCardCount",
+          "paramInt": 1,
+          "paramAdditionalInt": 0,
+          "paramString": "",
+          "paramRelicData": null,
+          "paramCardData": "AnnhilateShieldHeal",
+          "paramCardDataId": "b071165e-633e-40dd-a80e-5b1bca1ac218"
+        }
+      ]
+    },
+    {
+      "followupEvent": "HiddenUpgrade_Followup",
+      "canShowAfterVictory": false,
+      "conditions": [
+        {
+          "conditionName": "FollowupConditionBattleDelay",
+          "paramInt": 2,
+          "paramAdditionalInt": 0,
+          "paramString": "",
+          "paramRelicData": null,
+          "paramCardData": null,
+          "paramCardDataId": ""
+        },
+        {
+          "conditionName": "FollowupConditionCardCount",
+          "paramInt": 1,
+          "paramAdditionalInt": 0,
+          "paramString": "",
+          "paramRelicData": null,
+          "paramCardData": "AnnhilateSingleKill",
+          "paramCardDataId": "b7ea5e0b-c3a6-400e-825c-6e8973dd75dc"
+        }
+      ]
+    }
+  ],
+  "numRunsCompletedToSee": 10,
+  "priorityTicketCount": 20,
+  "numClassesNeededToShow": 1,
+  "covenantLevelRequired": 0,
+  "allClassesNeededToShow": false,
+  "minDistanceAllowed": 0,
+  "maxDistanceAllowed": 3,
+  "excludedMutator": null,
+  "associatedDLC": 0,
+  "requireDlcModeActive": false,
+  "numCrystalsRequired": 0,
+  "excludingEventData": [
+
+  ],
+  "possibleRewards": [
+    "AnnihilateDamageRoomReward",
+    "AnnihilateKillReward",
+    "AnnihilateShieldReward"
+  ],
+  "name": "HiddenUpgrade"
+}

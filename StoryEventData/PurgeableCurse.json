@@ -1,0 +1,54 @@
+{
+  "m_Name": "PurgeableCurse",
+  "id": "f2feab57-ddf2-4a22-87e0-bd9f8960fe5a",
+  "storyId": "PurgeableCurse",
+  "knotName": "PurgeableCurse",
+  "eventPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 19050
+  },
+  "followupEvents": [
+    {
+      "followupEvent": "PurgeableCurse_Followup",
+      "canShowAfterVictory": false,
+      "conditions": [
+        {
+          "conditionName": "FollowupConditionBattleDelay",
+          "paramInt": 2,
+          "paramAdditionalInt": 0,
+          "paramString": "",
+          "paramRelicData": null,
+          "paramCardData": null,
+          "paramCardDataId": ""
+        },
+        {
+          "conditionName": "FollowupConditionInkVariable",
+          "paramInt": 0,
+          "paramAdditionalInt": 0,
+          "paramString": "PurgeableTookCurses",
+          "paramRelicData": null,
+          "paramCardData": null,
+          "paramCardDataId": ""
+        }
+      ]
+    }
+  ],
+  "numRunsCompletedToSee": 7,
+  "priorityTicketCount": 25,
+  "numClassesNeededToShow": 1,
+  "covenantLevelRequired": 0,
+  "allClassesNeededToShow": false,
+  "minDistanceAllowed": 0,
+  "maxDistanceAllowed": 3,
+  "excludedMutator": "DanteChampion",
+  "associatedDLC": 0,
+  "requireDlcModeActive": false,
+  "numCrystalsRequired": 0,
+  "excludingEventData": [
+
+  ],
+  "possibleRewards": [
+    "BlightDanteCandleReward"
+  ],
+  "name": "PurgeableCurse"
+}

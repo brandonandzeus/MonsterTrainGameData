@@ -1,0 +1,55 @@
+{
+  "m_Name": "HephRecruit",
+  "id": "21ab2d63-1741-4f2b-9929-41286a5c1ec6",
+  "storyId": "HephRecruit",
+  "knotName": "HephRecruit",
+  "eventPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 18287
+  },
+  "followupEvents": [
+    {
+      "followupEvent": "HephRecruit_Followup",
+      "canShowAfterVictory": false,
+      "conditions": [
+        {
+          "conditionName": "FollowupConditionInkVariable",
+          "paramInt": 4,
+          "paramAdditionalInt": 0,
+          "paramString": "HammerKills",
+          "paramRelicData": null,
+          "paramCardData": null,
+          "paramCardDataId": ""
+        },
+        {
+          "conditionName": "FollowupConditionInkVariable",
+          "paramInt": 0,
+          "paramAdditionalInt": 0,
+          "paramString": "HammerTaken",
+          "paramRelicData": null,
+          "paramCardData": null,
+          "paramCardDataId": ""
+        }
+      ]
+    }
+  ],
+  "numRunsCompletedToSee": 1,
+  "priorityTicketCount": 30,
+  "numClassesNeededToShow": 1,
+  "covenantLevelRequired": 0,
+  "allClassesNeededToShow": false,
+  "minDistanceAllowed": 0,
+  "maxDistanceAllowed": 3,
+  "excludedMutator": null,
+  "associatedDLC": 1,
+  "requireDlcModeActive": false,
+  "numCrystalsRequired": 0,
+  "excludingEventData": [
+
+  ],
+  "possibleRewards": [
+    "HephHammerReward",
+    "HephRecruit_UpgradeAttack"
+  ],
+  "name": "HephRecruit"
+}

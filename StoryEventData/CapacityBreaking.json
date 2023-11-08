@@ -1,0 +1,33 @@
+{
+  "m_Name": "CapacityBreaking",
+  "id": "36db4ebe-8e03-43e0-8a57-f6433f17eff0",
+  "storyId": "CapacityBreaking",
+  "knotName": "CapacityBreaking",
+  "eventPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 18150
+  },
+  "followupEvents": [
+
+  ],
+  "numRunsCompletedToSee": 5,
+  "priorityTicketCount": 15,
+  "numClassesNeededToShow": 1,
+  "covenantLevelRequired": 0,
+  "allClassesNeededToShow": false,
+  "minDistanceAllowed": 0,
+  "maxDistanceAllowed": 7,
+  "excludedMutator": null,
+  "associatedDLC": 0,
+  "requireDlcModeActive": false,
+  "numCrystalsRequired": 0,
+  "excludingEventData": [
+
+  ],
+  "possibleRewards": [
+    "CapacityIncreaseRelicReward",
+    "RandomCapacityIncreaseRelicReward",
+    "CapacityDecreaseRelicReward"
+  ],
+  "name": "CapacityBreaking"
+}

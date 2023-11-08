@@ -1,0 +1,31 @@
+{
+  "m_Name": "BuildCard",
+  "id": "55329d46-298d-4019-9d24-e9894bf04cd5",
+  "storyId": "BuildCard",
+  "knotName": "BuildCard",
+  "eventPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 17929
+  },
+  "followupEvents": [
+
+  ],
+  "numRunsCompletedToSee": 1,
+  "priorityTicketCount": 30,
+  "numClassesNeededToShow": 1,
+  "covenantLevelRequired": 0,
+  "allClassesNeededToShow": false,
+  "minDistanceAllowed": 0,
+  "maxDistanceAllowed": 7,
+  "excludedMutator": null,
+  "associatedDLC": 1,
+  "requireDlcModeActive": false,
+  "numCrystalsRequired": 0,
+  "excludingEventData": [
+
+  ],
+  "possibleRewards": [
+    "BuildCardReward"
+  ],
+  "name": "BuildCard"
+}

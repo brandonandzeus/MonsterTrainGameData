@@ -1,0 +1,31 @@
+{
+  "m_Name": "UnitQuest_UnitFollowup",
+  "id": "26e61da6-c205-4693-b79d-d3ab253b5bb7",
+  "storyId": "UnitQuest_UnitFollowup",
+  "knotName": "UnitQuest_UnitFollowup",
+  "eventPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 18287
+  },
+  "followupEvents": [
+
+  ],
+  "numRunsCompletedToSee": 1,
+  "priorityTicketCount": 0,
+  "numClassesNeededToShow": 1,
+  "covenantLevelRequired": 0,
+  "allClassesNeededToShow": false,
+  "minDistanceAllowed": 0,
+  "maxDistanceAllowed": 7,
+  "excludedMutator": null,
+  "associatedDLC": 0,
+  "requireDlcModeActive": false,
+  "numCrystalsRequired": 0,
+  "excludingEventData": [
+
+  ],
+  "possibleRewards": [
+    "SplitterBoostReward_Spell"
+  ],
+  "name": "UnitQuest_UnitFollowup"
+}

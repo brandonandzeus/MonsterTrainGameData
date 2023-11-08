@@ -1,0 +1,63 @@
+{
+  "m_Name": "Shards_High_START",
+  "id": "a7859748-93cc-4bdb-9b37-dcb45b089c32",
+  "storyId": "",
+  "knotName": "",
+  "eventPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "followupEvents": [
+    {
+      "followupEvent": "Shards_High",
+      "canShowAfterVictory": false,
+      "conditions": [
+        {
+          "conditionName": "FollowupConditionBattleDelay",
+          "paramInt": 6,
+          "paramAdditionalInt": 1,
+          "paramString": "",
+          "paramRelicData": null,
+          "paramCardData": null,
+          "paramCardDataId": ""
+        },
+        {
+          "conditionName": "FollowupConditionCrystalCount",
+          "paramInt": 75,
+          "paramAdditionalInt": 0,
+          "paramString": "",
+          "paramRelicData": null,
+          "paramCardData": null,
+          "paramCardDataId": ""
+        },
+        {
+          "conditionName": "FollowupConditionHellforgedBossDefeatedCount",
+          "paramInt": 3,
+          "paramAdditionalInt": 0,
+          "paramString": "",
+          "paramRelicData": null,
+          "paramCardData": null,
+          "paramCardDataId": ""
+        }
+      ]
+    }
+  ],
+  "numRunsCompletedToSee": 5,
+  "priorityTicketCount": 10,
+  "numClassesNeededToShow": 6,
+  "covenantLevelRequired": 1,
+  "allClassesNeededToShow": true,
+  "minDistanceAllowed": 0,
+  "maxDistanceAllowed": 3,
+  "excludedMutator": "NoShards",
+  "associatedDLC": 1,
+  "requireDlcModeActive": true,
+  "numCrystalsRequired": 0,
+  "excludingEventData": [
+
+  ],
+  "possibleRewards": [
+
+  ],
+  "name": "Shards_High_START"
+}

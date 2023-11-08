@@ -1,0 +1,32 @@
+{
+  "m_Name": "Shards_Mid",
+  "id": "c9b8ae1a-6e9c-47d2-89a6-ae3cd373256c",
+  "storyId": "Shard_2",
+  "knotName": "Shard_2",
+  "eventPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 18279
+  },
+  "followupEvents": [
+
+  ],
+  "numRunsCompletedToSee": 3,
+  "priorityTicketCount": 0,
+  "numClassesNeededToShow": 1,
+  "covenantLevelRequired": 0,
+  "allClassesNeededToShow": true,
+  "minDistanceAllowed": 0,
+  "maxDistanceAllowed": 7,
+  "excludedMutator": "NoShards",
+  "associatedDLC": 1,
+  "requireDlcModeActive": true,
+  "numCrystalsRequired": 0,
+  "excludingEventData": [
+
+  ],
+  "possibleRewards": [
+    "ShardEvent_BlessingDraftReward_2",
+    "CrystalRewardData_Low"
+  ],
+  "name": "Shards_Mid"
+}

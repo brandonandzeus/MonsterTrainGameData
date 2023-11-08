@@ -1,0 +1,31 @@
+{
+  "m_Name": "UnitQuest_SpellFollowup",
+  "id": "c1809d1d-c3e1-406f-bb14-898c35d09c3e",
+  "storyId": "UnitQuest_SpellFollowup",
+  "knotName": "UnitQuest_SpellFollowup",
+  "eventPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 18287
+  },
+  "followupEvents": [
+
+  ],
+  "numRunsCompletedToSee": 1,
+  "priorityTicketCount": 0,
+  "numClassesNeededToShow": 1,
+  "covenantLevelRequired": 0,
+  "allClassesNeededToShow": false,
+  "minDistanceAllowed": 0,
+  "maxDistanceAllowed": 7,
+  "excludedMutator": null,
+  "associatedDLC": 0,
+  "requireDlcModeActive": false,
+  "numCrystalsRequired": 0,
+  "excludingEventData": [
+
+  ],
+  "possibleRewards": [
+    "SplitterBoostReward_Unit"
+  ],
+  "name": "UnitQuest_SpellFollowup"
+}

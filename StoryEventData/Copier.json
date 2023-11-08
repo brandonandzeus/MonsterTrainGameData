@@ -1,0 +1,32 @@
+{
+  "m_Name": "Copier",
+  "id": "be1fbe72-5eaf-4831-8083-24d10e7620f7",
+  "storyId": "Copier",
+  "knotName": "Copier",
+  "eventPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 17794
+  },
+  "followupEvents": [
+
+  ],
+  "numRunsCompletedToSee": 1,
+  "priorityTicketCount": 40,
+  "numClassesNeededToShow": 1,
+  "covenantLevelRequired": 0,
+  "allClassesNeededToShow": false,
+  "minDistanceAllowed": 0,
+  "maxDistanceAllowed": 3,
+  "excludedMutator": null,
+  "associatedDLC": 0,
+  "requireDlcModeActive": false,
+  "numCrystalsRequired": 0,
+  "excludingEventData": [
+
+  ],
+  "possibleRewards": [
+    "CardDuplicatorReward",
+    "CardAnnihilateDuplicatorReward"
+  ],
+  "name": "Copier"
+}

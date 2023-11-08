@@ -1,0 +1,56 @@
+{
+  "m_Name": "Malicka_Mutator_1",
+  "id": "904165a8-11c2-48cd-987c-307faef39574",
+  "storyId": "Malicka_Mutator_1",
+  "knotName": "Malicka_Mutator_1",
+  "eventPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 18749
+  },
+  "followupEvents": [
+    {
+      "followupEvent": "Malicka_Mutator_2",
+      "canShowAfterVictory": false,
+      "conditions": [
+        {
+          "conditionName": "FollowupConditionBattleDelay",
+          "paramInt": 2,
+          "paramAdditionalInt": 0,
+          "paramString": "",
+          "paramRelicData": null,
+          "paramCardData": null,
+          "paramCardDataId": ""
+        },
+        {
+          "conditionName": "FollowupConditionInkVariable",
+          "paramInt": 0,
+          "paramAdditionalInt": 0,
+          "paramString": "TookAnything",
+          "paramRelicData": null,
+          "paramCardData": null,
+          "paramCardDataId": ""
+        }
+      ]
+    }
+  ],
+  "numRunsCompletedToSee": 5,
+  "priorityTicketCount": 50,
+  "numClassesNeededToShow": 5,
+  "covenantLevelRequired": 0,
+  "allClassesNeededToShow": true,
+  "minDistanceAllowed": 0,
+  "maxDistanceAllowed": 3,
+  "excludedMutator": null,
+  "associatedDLC": 1,
+  "requireDlcModeActive": false,
+  "numCrystalsRequired": 0,
+  "excludingEventData": [
+
+  ],
+  "possibleRewards": [
+    "AcidRainRelicReward",
+    "ShieldsUpRelicReward",
+    "PermadeathRelicReward"
+  ],
+  "name": "Malicka_Mutator_1"
+}
