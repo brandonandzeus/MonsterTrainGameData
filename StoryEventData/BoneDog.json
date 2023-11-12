@@ -1,29 +1,11 @@
 {
-  "m_Name": "BoneDog",
-  "id": "808c3104-2115-45e7-8dc7-b6a1152a6c4b",
   "storyId": "BoneDog",
   "knotName": "BoneDog",
-  "eventPrefab": {
-    "m_FileID": 0,
-    "m_PathID": 19226
-  },
-  "followupEvents": [
-
-  ],
   "numRunsCompletedToSee": 5,
   "priorityTicketCount": 9,
   "numClassesNeededToShow": 5,
-  "covenantLevelRequired": 0,
-  "allClassesNeededToShow": false,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 7,
-  "excludedMutator": null,
-  "associatedDLC": 0,
-  "requireDlcModeActive": false,
-  "numCrystalsRequired": 0,
-  "excludingEventData": [
-
-  ],
   "possibleRewards": [
     "BoneDogReward",
     "FreePurgeRewardData_BoneDog"

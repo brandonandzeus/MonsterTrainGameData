@@ -1,29 +1,9 @@
 {
-  "m_Name": "BloodMerchant",
-  "id": "bc0c0356-d1d8-494f-b5bc-802519b200b8",
   "storyId": "BloodMerchant",
   "knotName": "BloodMerchant",
-  "eventPrefab": {
-    "m_FileID": 0,
-    "m_PathID": 18619
-  },
-  "followupEvents": [
-
-  ],
-  "numRunsCompletedToSee": 1,
   "priorityTicketCount": 20,
-  "numClassesNeededToShow": 1,
-  "covenantLevelRequired": 0,
-  "allClassesNeededToShow": false,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 7,
-  "excludedMutator": null,
-  "associatedDLC": 0,
-  "requireDlcModeActive": false,
-  "numCrystalsRequired": 0,
-  "excludingEventData": [
-
-  ],
   "possibleRewards": [
     "UpgradeUnitHealth",
     "BloodMerchant_HealthBuffHeartless",

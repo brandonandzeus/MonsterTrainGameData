@@ -1,43 +1,20 @@
 {
-  "m_Name": "Shards_Mid_START",
-  "id": "47702938-a0e2-4931-be0e-85358fe900bb",
-  "storyId": "",
-  "knotName": "",
-  "eventPrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "followupEvents": [
     {
       "followupEvent": "Shards_Mid",
-      "canShowAfterVictory": false,
       "conditions": [
         {
           "conditionName": "FollowupConditionBattleDelay",
           "paramInt": 4,
-          "paramAdditionalInt": 1,
-          "paramString": "",
-          "paramRelicData": null,
-          "paramCardData": null,
-          "paramCardDataId": ""
+          "paramAdditionalInt": 1
         },
         {
           "conditionName": "FollowupConditionCrystalCount",
-          "paramInt": 50,
-          "paramAdditionalInt": 0,
-          "paramString": "",
-          "paramRelicData": null,
-          "paramCardData": null,
-          "paramCardDataId": ""
+          "paramInt": 50
         },
         {
           "conditionName": "FollowupConditionHellforgedBossDefeatedCount",
-          "paramInt": 2,
-          "paramAdditionalInt": 0,
-          "paramString": "",
-          "paramRelicData": null,
-          "paramCardData": null,
-          "paramCardDataId": ""
+          "paramInt": 2
         }
       ]
     }
@@ -52,12 +29,5 @@
   "excludedMutator": "NoShards",
   "associatedDLC": 1,
   "requireDlcModeActive": true,
-  "numCrystalsRequired": 0,
-  "excludingEventData": [
-
-  ],
-  "possibleRewards": [
-
-  ],
   "name": "Shards_Mid_START"
 }

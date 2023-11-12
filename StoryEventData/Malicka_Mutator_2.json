@@ -1,29 +1,13 @@
 {
-  "m_Name": "Malicka_Mutator_2",
-  "id": "f7a2e68c-20c3-4354-9be8-13d509f69e5c",
   "storyId": "Malicka_Mutator_2",
   "knotName": "Malicka_Mutator_2",
-  "eventPrefab": {
-    "m_FileID": 0,
-    "m_PathID": 18749
-  },
-  "followupEvents": [
-
-  ],
   "numRunsCompletedToSee": 5,
   "priorityTicketCount": 50,
   "numClassesNeededToShow": 5,
-  "covenantLevelRequired": 0,
   "allClassesNeededToShow": true,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 3,
-  "excludedMutator": null,
   "associatedDLC": 1,
-  "requireDlcModeActive": false,
-  "numCrystalsRequired": 0,
-  "excludingEventData": [
-
-  ],
   "possibleRewards": [
     "WandWoundsRelicReward",
     "AllSpellsPiercingRelicReward",

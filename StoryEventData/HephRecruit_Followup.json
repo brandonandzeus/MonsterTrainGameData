@@ -1,29 +1,11 @@
 {
-  "m_Name": "HephRecruit_Followup",
-  "id": "0711fcc1-2bfc-40e6-a3ff-7d19121d7f22",
   "storyId": "HephRecruitFollowup",
   "knotName": "HephRecruitFollowup",
-  "eventPrefab": {
-    "m_FileID": 0,
-    "m_PathID": 18287
-  },
-  "followupEvents": [
-
-  ],
   "numRunsCompletedToSee": 10,
   "priorityTicketCount": 50,
-  "numClassesNeededToShow": 1,
-  "covenantLevelRequired": 0,
-  "allClassesNeededToShow": false,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 2,
-  "excludedMutator": null,
   "associatedDLC": 1,
-  "requireDlcModeActive": false,
-  "numCrystalsRequired": 0,
-  "excludingEventData": [
-
-  ],
   "possibleRewards": [
     "HephUnitReward"
   ],

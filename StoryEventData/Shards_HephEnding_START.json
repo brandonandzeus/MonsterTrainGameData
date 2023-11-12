@@ -1,43 +1,19 @@
 {
-  "m_Name": "Shards_HephEnding_START",
-  "id": "a450f8a6-2961-4cbe-9fc1-2e8115de6812",
-  "storyId": "",
-  "knotName": "",
-  "eventPrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "followupEvents": [
     {
       "followupEvent": "Shards_HephArtifact",
-      "canShowAfterVictory": false,
       "conditions": [
         {
           "conditionName": "FollowupConditionBattleDelay",
-          "paramInt": 8,
-          "paramAdditionalInt": 0,
-          "paramString": "",
-          "paramRelicData": null,
-          "paramCardData": null,
-          "paramCardDataId": ""
+          "paramInt": 8
         },
         {
           "conditionName": "FollowupConditionCrystalCount",
-          "paramInt": 150,
-          "paramAdditionalInt": 0,
-          "paramString": "",
-          "paramRelicData": null,
-          "paramCardData": null,
-          "paramCardDataId": ""
+          "paramInt": 150
         },
         {
           "conditionName": "FollowupConditionHellforgedBossDefeatedCount",
-          "paramInt": 5,
-          "paramAdditionalInt": 0,
-          "paramString": "",
-          "paramRelicData": null,
-          "paramCardData": null,
-          "paramCardDataId": ""
+          "paramInt": 5
         }
       ]
     }
@@ -52,12 +28,5 @@
   "excludedMutator": "NoShards",
   "associatedDLC": 1,
   "requireDlcModeActive": true,
-  "numCrystalsRequired": 0,
-  "excludingEventData": [
-
-  ],
-  "possibleRewards": [
-
-  ],
   "name": "Shards_HephEnding_START"
 }

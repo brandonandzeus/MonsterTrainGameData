@@ -1,25 +1,13 @@
 {
-  "m_Name": "Malicka_Purge_3",
-  "id": "83a73065-8d02-421b-8a4a-fef6e5601efa",
   "storyId": "Malicka_Purge_3",
   "knotName": "Malicka_Purge_3",
-  "eventPrefab": {
-    "m_FileID": 0,
-    "m_PathID": 18749
-  },
   "followupEvents": [
     {
       "followupEvent": "Malicka_Purge_4",
-      "canShowAfterVictory": false,
       "conditions": [
         {
           "conditionName": "FollowupConditionBattleDelay",
-          "paramInt": 2,
-          "paramAdditionalInt": 0,
-          "paramString": "",
-          "paramRelicData": null,
-          "paramCardData": null,
-          "paramCardDataId": ""
+          "paramInt": 2
         }
       ]
     }
@@ -27,17 +15,11 @@
   "numRunsCompletedToSee": 5,
   "priorityTicketCount": 50,
   "numClassesNeededToShow": 5,
-  "covenantLevelRequired": 0,
   "allClassesNeededToShow": true,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 3,
   "excludedMutator": "NoShards",
   "associatedDLC": 1,
-  "requireDlcModeActive": false,
-  "numCrystalsRequired": 0,
-  "excludingEventData": [
-
-  ],
   "possibleRewards": [
     "MalickaHeal_3"
   ],

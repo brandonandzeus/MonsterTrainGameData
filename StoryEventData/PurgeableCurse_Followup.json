@@ -1,29 +1,10 @@
 {
-  "m_Name": "PurgeableCurse_Followup",
-  "id": "1ad5382d-a5b2-4e74-9400-15874bca194d",
   "storyId": "PurgeableFollowup",
   "knotName": "PurgeableFollowup",
-  "eventPrefab": {
-    "m_FileID": 0,
-    "m_PathID": 19050
-  },
-  "followupEvents": [
-
-  ],
-  "numRunsCompletedToSee": 1,
   "priorityTicketCount": 0,
-  "numClassesNeededToShow": 1,
-  "covenantLevelRequired": 0,
-  "allClassesNeededToShow": false,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 7,
   "excludedMutator": "DanteChampion",
-  "associatedDLC": 0,
-  "requireDlcModeActive": false,
-  "numCrystalsRequired": 0,
-  "excludingEventData": [
-
-  ],
   "possibleRewards": [
     "ScalingBlightMagicPowerBlessingReward",
     "DanteReward"

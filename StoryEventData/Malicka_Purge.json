@@ -1,25 +1,13 @@
 {
-  "m_Name": "Malicka_Purge",
-  "id": "bc8a81cb-604e-4adf-a15c-a678d59f5e87",
   "storyId": "Malicka_Purge",
   "knotName": "Malicka_Purge",
-  "eventPrefab": {
-    "m_FileID": 0,
-    "m_PathID": 18749
-  },
   "followupEvents": [
     {
       "followupEvent": "Malicka_Purge_2",
-      "canShowAfterVictory": false,
       "conditions": [
         {
           "conditionName": "FollowupConditionBattleDelay",
-          "paramInt": 2,
-          "paramAdditionalInt": 0,
-          "paramString": "",
-          "paramRelicData": null,
-          "paramCardData": null,
-          "paramCardDataId": ""
+          "paramInt": 2
         }
       ]
     }
@@ -34,7 +22,6 @@
   "excludedMutator": "NoShards",
   "associatedDLC": 1,
   "requireDlcModeActive": true,
-  "numCrystalsRequired": 0,
   "excludingEventData": [
     "Malicka_Mutator_1"
   ],

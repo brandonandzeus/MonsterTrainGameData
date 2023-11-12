@@ -1,31 +1,13 @@
 {
-  "m_Name": "Shards_HephTrueEnding",
-  "id": "a55bae53-338f-42fa-82d1-9faf8408be8b",
   "storyId": "Shard_TrueEnding",
   "knotName": "Shard_TrueEnding",
-  "eventPrefab": {
-    "m_FileID": 0,
-    "m_PathID": 18590
-  },
-  "followupEvents": [
-
-  ],
   "numRunsCompletedToSee": 3,
   "priorityTicketCount": 0,
-  "numClassesNeededToShow": 1,
-  "covenantLevelRequired": 0,
   "allClassesNeededToShow": true,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 7,
   "excludedMutator": "NoShards",
   "associatedDLC": 1,
   "requireDlcModeActive": true,
-  "numCrystalsRequired": 0,
-  "excludingEventData": [
-
-  ],
-  "possibleRewards": [
-
-  ],
   "name": "Shards_HephTrueEnding"
 }

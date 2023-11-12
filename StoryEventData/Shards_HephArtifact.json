@@ -1,12 +1,6 @@
 {
-  "m_Name": "Shards_HephArtifact",
-  "id": "2997b92c-8b1c-4c62-8cc9-78c06ff0fe68",
   "storyId": "Shard_HephArtifact",
   "knotName": "Shard_HephArtifact",
-  "eventPrefab": {
-    "m_FileID": 0,
-    "m_PathID": 18113
-  },
   "followupEvents": [
     {
       "followupEvent": "Shards_HephTrueEnding",
@@ -14,48 +8,26 @@
       "conditions": [
         {
           "conditionName": "FollowupConditionBattleDelay",
-          "paramInt": 1,
-          "paramAdditionalInt": 0,
-          "paramString": "",
-          "paramRelicData": null,
-          "paramCardData": null,
-          "paramCardDataId": ""
+          "paramInt": 1
         },
         {
           "conditionName": "FollowupConditionRelicPresent",
-          "paramInt": 0,
-          "paramAdditionalInt": 0,
-          "paramString": "",
-          "paramRelicData": "FinalEndingArtifact",
-          "paramCardData": null,
-          "paramCardDataId": ""
+          "paramRelicData": "FinalEndingArtifact"
         },
         {
-          "conditionName": "FollowupConditionTrueBossDefeated",
-          "paramInt": 0,
-          "paramAdditionalInt": 0,
-          "paramString": "",
-          "paramRelicData": null,
-          "paramCardData": null,
-          "paramCardDataId": ""
+          "conditionName": "FollowupConditionTrueBossDefeated"
         }
       ]
     }
   ],
   "numRunsCompletedToSee": 3,
   "priorityTicketCount": 0,
-  "numClassesNeededToShow": 1,
-  "covenantLevelRequired": 0,
   "allClassesNeededToShow": true,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 7,
   "excludedMutator": "NoShards",
   "associatedDLC": 1,
   "requireDlcModeActive": true,
-  "numCrystalsRequired": 0,
-  "excludingEventData": [
-
-  ],
   "possibleRewards": [
     "FinalArtifactReward",
     "FinalArtifactReward_Shard"

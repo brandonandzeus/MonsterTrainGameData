@@ -1,29 +1,14 @@
 {
-  "m_Name": "Shards_Low",
-  "id": "60a67129-e86f-472e-b522-277f348380b1",
   "storyId": "Shard_1",
   "knotName": "Shard_1",
-  "eventPrefab": {
-    "m_FileID": 0,
-    "m_PathID": 18385
-  },
-  "followupEvents": [
-
-  ],
   "numRunsCompletedToSee": 3,
   "priorityTicketCount": 0,
-  "numClassesNeededToShow": 1,
-  "covenantLevelRequired": 0,
   "allClassesNeededToShow": true,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 7,
   "excludedMutator": "NoShards",
   "associatedDLC": 1,
   "requireDlcModeActive": true,
-  "numCrystalsRequired": 0,
-  "excludingEventData": [
-
-  ],
   "possibleRewards": [
     "ShardEvent_BlessingDraftReward_1",
     "CrystalRewardData_Low"

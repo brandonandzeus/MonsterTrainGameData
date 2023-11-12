@@ -1,29 +1,10 @@
 {
-  "m_Name": "TrainUpgrade",
-  "id": "c70dee6b-5bf9-4f56-97d3-93a12e498d57",
   "storyId": "TrainUpgrade",
   "knotName": "TrainUpgrade",
-  "eventPrefab": {
-    "m_FileID": 0,
-    "m_PathID": 17650
-  },
-  "followupEvents": [
-
-  ],
   "numRunsCompletedToSee": 3,
   "priorityTicketCount": 15,
-  "numClassesNeededToShow": 1,
-  "covenantLevelRequired": 0,
-  "allClassesNeededToShow": false,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 7,
-  "excludedMutator": null,
-  "associatedDLC": 0,
-  "requireDlcModeActive": false,
-  "numCrystalsRequired": 0,
-  "excludingEventData": [
-
-  ],
   "possibleRewards": [
     "TrainTrapdoorCardReward",
     "TrainHookCardReward"

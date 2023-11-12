@@ -1,52 +1,26 @@
 {
-  "m_Name": "DelayedUpgrade",
-  "id": "7838fb3d-656f-40e7-a106-b932fd34ac9e",
   "storyId": "DelayedUpgrade",
   "knotName": "DelayedUpgrade",
-  "eventPrefab": {
-    "m_FileID": 0,
-    "m_PathID": 19068
-  },
   "followupEvents": [
     {
       "followupEvent": "DelayedUpgrade_Followup",
-      "canShowAfterVictory": false,
       "conditions": [
         {
           "conditionName": "FollowupConditionInkVariable",
-          "paramInt": 0,
-          "paramAdditionalInt": 0,
-          "paramString": "DelayedUpgradeTaken",
-          "paramRelicData": null,
-          "paramCardData": null,
-          "paramCardDataId": ""
+          "paramString": "DelayedUpgradeTaken"
         },
         {
           "conditionName": "FollowupConditionBattleDelay",
           "paramInt": 2,
-          "paramAdditionalInt": 0,
-          "paramString": "DelayedUpgradeTaken",
-          "paramRelicData": null,
-          "paramCardData": null,
-          "paramCardDataId": ""
+          "paramString": "DelayedUpgradeTaken"
         }
       ]
     }
   ],
   "numRunsCompletedToSee": 10,
   "priorityTicketCount": 20,
-  "numClassesNeededToShow": 1,
-  "covenantLevelRequired": 0,
-  "allClassesNeededToShow": false,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 2,
-  "excludedMutator": null,
-  "associatedDLC": 0,
-  "requireDlcModeActive": false,
-  "numCrystalsRequired": 0,
-  "excludingEventData": [
-
-  ],
   "possibleRewards": [
     "DelayedRemoveAndCacheCardReward_Spell",
     "DelayedRemoveAndCacheCardReward_Unit"

@@ -1,42 +1,23 @@
 {
-  "m_Name": "CursedEmber",
-  "id": "655db809-1e36-45b2-8442-a8a39f04e088",
   "storyId": "CursedEmber",
   "knotName": "CursedEmber",
-  "eventPrefab": {
-    "m_FileID": 0,
-    "m_PathID": 19146
-  },
   "followupEvents": [
     {
       "followupEvent": "CursedEmber_Followup",
-      "canShowAfterVictory": false,
       "conditions": [
         {
           "conditionName": "FollowupConditionBattleDelay",
-          "paramInt": 2,
-          "paramAdditionalInt": 0,
-          "paramString": "",
-          "paramRelicData": null,
-          "paramCardData": null,
-          "paramCardDataId": ""
+          "paramInt": 2
         },
         {
           "conditionName": "FollowupConditionCardCount",
           "paramInt": 1,
-          "paramAdditionalInt": 0,
-          "paramString": "",
-          "paramRelicData": null,
           "paramCardData": "SelfPurgeBlight",
           "paramCardDataId": "21038774-c0a4-413c-ab7e-27e458228e5f"
         },
         {
           "conditionName": "FollowupConditionInkVariable",
-          "paramInt": 0,
-          "paramAdditionalInt": 0,
           "paramString": "TookEmber",
-          "paramRelicData": null,
-          "paramCardData": null,
           "paramCardDataId": "21038774-c0a4-413c-ab7e-27e458228e5f"
         }
       ]
@@ -44,18 +25,8 @@
   ],
   "numRunsCompletedToSee": 7,
   "priorityTicketCount": 25,
-  "numClassesNeededToShow": 1,
-  "covenantLevelRequired": 0,
-  "allClassesNeededToShow": false,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 4,
-  "excludedMutator": null,
-  "associatedDLC": 0,
-  "requireDlcModeActive": false,
-  "numCrystalsRequired": 0,
-  "excludingEventData": [
-
-  ],
   "possibleRewards": [
     "ScalingBlightEnergyAddReward",
     "BlightPyreDamageReward",

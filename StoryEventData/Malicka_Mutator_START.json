@@ -1,25 +1,11 @@
 {
-  "m_Name": "Malicka_Mutator_START",
-  "id": "7468dbbd-8730-4b25-beca-d028b44cb2e3",
-  "storyId": "",
-  "knotName": "",
-  "eventPrefab": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "followupEvents": [
     {
       "followupEvent": "Malicka_Mutator_1",
-      "canShowAfterVictory": false,
       "conditions": [
         {
           "conditionName": "FollowupConditionBattleDelay",
-          "paramInt": 3,
-          "paramAdditionalInt": 0,
-          "paramString": "",
-          "paramRelicData": null,
-          "paramCardData": null,
-          "paramCardDataId": ""
+          "paramInt": 3
         }
       ]
     }
@@ -34,12 +20,8 @@
   "excludedMutator": "NoShards",
   "associatedDLC": 1,
   "requireDlcModeActive": true,
-  "numCrystalsRequired": 0,
   "excludingEventData": [
     "Malicka_Purge"
-  ],
-  "possibleRewards": [
-
   ],
   "name": "Malicka_Mutator_START"
 }
