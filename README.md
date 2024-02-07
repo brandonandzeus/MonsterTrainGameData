@@ -58,7 +58,8 @@ new CardDataBuilder
   Name = "My RootSeeds",
   Description = "Apply +[effect0.upgrade.bonusdamage][attack].[halfbreak]Draw +[effect1.power] next turn.",
   Targetless = false,
-  EffectBuilders = {
+  EffectBuilders =
+  {
     new CardEffectDataBuilder
     {
       EffectStateType = typeof(CardEffectAddTempCardUpgradeToUnits), // Switch from Name to Type
@@ -72,7 +73,7 @@ new CardDataBuilder
     },
     new CardEffectDataBuilder
     {
-      EffectStateType = typeof(CardEffectDrawAdditionalNextTurn",
+      EffectStateType = typeof(CardEffectDrawAdditionalNextTurn),
       TargetTeamType = 3, // or Team.Type.Heroes | Team.Type.Monsters
       ShouldTest = false,
       ParamInt = 1,
