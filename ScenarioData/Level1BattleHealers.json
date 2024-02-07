@@ -6,10 +6,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT1"
+                "characterData": "Trusted Priest"
               },
               {
-                "characterData": "HeavyT1Basic"
+                "characterData": "Forged Disciple"
               }
             ]
           }
@@ -20,14 +20,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT1"
+                "characterData": "Trusted Priest"
               },
               {
-                "characterData": "AttackerT1",
+                "characterData": "Discipled Footsoldier",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT1Basic"
+                "characterData": "Forged Disciple"
               }
             ]
           }
@@ -46,10 +46,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT1"
+                "characterData": "Trusted Priest"
               },
               {
-                "characterData": "Boss_Level1",
+                "characterData": "Discipled Inquisitor",
                 "useBossCharacter": true
               }
             ]
@@ -60,14 +60,14 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level1",
-      "Boss_Level1Junker"
+      "Discipled Inquisitor",
+      "Chains the Sighted"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl1Gold"
+    "Collector"
   ],
   "traitorUnitsPool": [
 
@@ -82,22 +82,22 @@
     ]
   },
   "ftueCardDrawData": [
-    "HornbreakerChampion",
-    "StarterTorch",
-    "TrainSteward",
-    "StarterTorch",
-    "StarterTorch",
-    "TrainSteward",
-    "StarterTorch",
-    "StarterHeal",
-    "StarterTorch",
-    "StarterHeal"
+    "Hornbreaker Prince",
+    "Torch",
+    "Train Steward",
+    "Torch",
+    "Torch",
+    "Train Steward",
+    "Torch",
+    "Restore",
+    "Torch",
+    "Restore"
   ],
   "battleNameKey": "ScenarioData_battleNameKey-ce1c01397b3d913a-03f58b7fed1080f499a8a32f26027bda-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-54d2eccc0b1e2d00-03f58b7fed1080f499a8a32f26027bda-v2",
   "displayedEnemies": [
-    "ClericT1",
-    "HeavyT1Basic"
+    "Trusted Priest",
+    "Forged Disciple"
   ],
   "displayedEnemyOffsets": [
 

@@ -6,10 +6,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2GrowOnAscend"
+                "characterData": "Light Harnesser"
               },
               {
-                "characterData": "HeavyT2GrowOnAscend"
+                "characterData": "Light Harnesser"
               }
             ]
           }
@@ -20,14 +20,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT1",
+                "characterData": "Trusted Priest",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT2GrowOnAscend"
+                "characterData": "Light Harnesser"
               },
               {
-                "characterData": "HeavyT2GrowOnAscend"
+                "characterData": "Light Harnesser"
               }
             ]
           }
@@ -38,13 +38,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2GrowOnAscend"
+                "characterData": "Light Harnesser"
               },
               {
-                "characterData": "HeavyT2GrowOnAscend"
+                "characterData": "Light Harnesser"
               },
               {
-                "characterData": "ShieldGuardT2"
+                "characterData": "Clipped Defender"
               }
             ]
           }
@@ -55,13 +55,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2GrowOnAscend"
+                "characterData": "Light Harnesser"
               },
               {
-                "characterData": "HeavyT2GrowOnAscend"
+                "characterData": "Light Harnesser"
               },
               {
-                "characterData": "ShieldGuardT2"
+                "characterData": "Clipped Defender"
               }
             ]
           }
@@ -80,11 +80,11 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "Boss_Level4",
+                "characterData": "The Porcupine",
                 "useBossCharacter": true
               },
               {
-                "characterData": "ShieldGuardT2"
+                "characterData": "Clipped Defender"
               }
             ]
           }
@@ -94,15 +94,15 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level4",
-      "Boss_Level4JunkerBoss",
-      "Boss_Level4Growth"
+      "The Porcupine",
+      "Thoughtbinder",
+      "Pyrelight Master"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl2Gold"
+    "Collector 2"
   ],
   "traitorUnitsPool": [
     null
@@ -125,8 +125,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-be2ae505ea6d6921-a70b69f5cc5369743a76311aa27e6c4f-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-ccb7fa087f3cadbf-a70b69f5cc5369743a76311aa27e6c4f-v2",
   "displayedEnemies": [
-    "HeavyT2GrowOnAscend",
-    "ShieldGuardT2"
+    "Light Harnesser",
+    "Clipped Defender"
   ],
   "displayedEnemyOffsets": [
 

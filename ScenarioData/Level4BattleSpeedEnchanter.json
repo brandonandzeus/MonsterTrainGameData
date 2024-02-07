@@ -6,13 +6,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT2Speed"
+                "characterData": "Clipped Conduit"
               },
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "ShieldGuardT2"
+                "characterData": "Clipped Defender"
               }
             ]
           }
@@ -23,14 +23,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT2Speed"
+                "characterData": "Clipped Conduit"
               },
               {
-                "characterData": "AttackerT2",
+                "characterData": "Quill Marksman",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -41,14 +41,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT2",
+                "characterData": "Clipped Shaman",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "EnchanterT2Speed"
+                "characterData": "Clipped Conduit"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -59,13 +59,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT2Speed"
+                "characterData": "Clipped Conduit"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               },
               {
-                "characterData": "ShieldGuardT2"
+                "characterData": "Clipped Defender"
               }
             ]
           }
@@ -84,10 +84,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT2Speed"
+                "characterData": "Clipped Conduit"
               },
               {
-                "characterData": "Boss_Level4",
+                "characterData": "The Porcupine",
                 "useBossCharacter": true
               }
             ]
@@ -98,15 +98,15 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level4",
-      "Boss_Level4JunkerBoss",
-      "Boss_Level4Growth"
+      "The Porcupine",
+      "Thoughtbinder",
+      "Pyrelight Master"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl2Gold"
+    "Collector 2"
   ],
   "traitorUnitsPool": [
     null
@@ -129,8 +129,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-a68fc3fa6f507d2c-c0ab0d7198bf1f64ab905788f0079afd-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-6b6a5b9dfecc41e0-c0ab0d7198bf1f64ab905788f0079afd-v2",
   "displayedEnemies": [
-    "EnchanterT2Speed",
-    "HeavyT2Basic"
+    "Clipped Conduit",
+    "Clipped Guardian"
   ],
   "displayedEnemyOffsets": [
 

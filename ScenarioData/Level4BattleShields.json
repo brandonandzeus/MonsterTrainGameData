@@ -6,10 +6,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "HeavyT2SelfRepair"
+                "characterData": "Clipped Reflector"
               }
             ]
           }
@@ -20,10 +20,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -34,13 +34,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT2"
+                "characterData": "Clipped Shaman"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               },
               {
-                "characterData": "ShieldGuardT2",
+                "characterData": "Clipped Defender",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
@@ -52,14 +52,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2",
+                "characterData": "Quill Marksman",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "HeavyT2SelfRepair"
+                "characterData": "Clipped Reflector"
               }
             ]
           }
@@ -78,13 +78,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "Boss_Level4",
+                "characterData": "The Porcupine",
                 "useBossCharacter": true
               }
             ]
@@ -95,15 +95,15 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level4",
-      "Boss_Level4JunkerBoss",
-      "Boss_Level4Growth"
+      "The Porcupine",
+      "Thoughtbinder",
+      "Pyrelight Master"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl2Gold"
+    "Collector 2"
   ],
   "traitorUnitsPool": [
     null
@@ -126,8 +126,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-1d1be211abcea4de-91d082021a16a54408eed946fac846a2-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-b0a88e51d53b4d4f-91d082021a16a54408eed946fac846a2-v2",
   "displayedEnemies": [
-    "HeavyT2SelfRepair",
-    "AttackerT2"
+    "Clipped Reflector",
+    "Quill Marksman"
   ],
   "displayedEnemyOffsets": [
 

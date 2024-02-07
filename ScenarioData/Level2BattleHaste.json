@@ -6,16 +6,16 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Speed"
+                "characterData": "Conduit Infiltrator"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               }
             ]
           }
@@ -26,16 +26,16 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Speed"
+                "characterData": "Conduit Infiltrator"
               },
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1",
+                "characterData": "Clergyman",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
@@ -55,14 +55,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Speed"
+                "characterData": "Conduit Infiltrator"
               },
               {
-                "characterData": "Boss_Level2",
+                "characterData": "Last Knight of the Disciples",
                 "useBossCharacter": true
               },
               {
-                "characterData": "HordeT1",
+                "characterData": "Clergyman",
                 "requiredCovenant": "Ascension01StrongerEnemies"
               }
             ]
@@ -73,15 +73,15 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level2",
-      "Boss_Level2ShieldGuy",
-      "Boss_Level2AEMage"
+      "Last Knight of the Disciples",
+      "The Steel Slate",
+      "Highpriest to the Light"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl1Gold"
+    "Collector"
   ],
   "traitorUnitsPool": [
 
@@ -101,8 +101,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-4befddfea0b141b2-b64da36064afd3c408655677029a5ed1-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-00e37006abcab368-b64da36064afd3c408655677029a5ed1-v2",
   "displayedEnemies": [
-    "EnchanterT1Speed",
-    "HordeT1"
+    "Conduit Infiltrator",
+    "Clergyman"
   ],
   "displayedEnemyOffsets": [
 

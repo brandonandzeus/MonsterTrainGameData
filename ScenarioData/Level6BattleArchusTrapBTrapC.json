@@ -6,10 +6,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -20,14 +20,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2",
+                "characterData": "Quill Marksman",
                 "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               },
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "HeavyT2SelfRepair"
+                "characterData": "Clipped Reflector"
               }
             ]
           }
@@ -38,10 +38,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "HeavyT2GrowOnKill"
+                "characterData": "Master of Light"
               }
             ]
           }
@@ -52,11 +52,11 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2Basic",
+                "characterData": "Clipped Guardian",
                 "requiredCovenant": "Ascension01StrongerEnemies"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -67,11 +67,11 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2Basic",
+                "characterData": "Clipped Guardian",
                 "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT2GrowOnKill"
+                "characterData": "Master of Light"
               }
             ]
           }
@@ -82,10 +82,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -96,7 +96,7 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -110,8 +110,8 @@
       }
     ],
     "bossType": 1,
-    "bossCharacter": "Boss_Level6ArchusTrapBTrapC",
-    "hardBossCharacter": "Boss_Level6ArchusTrapBTrapC_Harder"
+    "bossCharacter": "Archus, Darkness Incarnate Sin of Failure",
+    "hardBossCharacter": "Archus, Darkness Incarnate Sin of Failure Hard"
   },
   "difficulty": 2,
   "enemyBlessingData": [
@@ -130,9 +130,9 @@
   "battleNameKey": "ScenarioData_battleNameKey-bfacf44f6e3b908e-8ef3577f8548b084a94cb409dcb8d978-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-8ccf1a64be48affe-8ef3577f8548b084a94cb409dcb8d978-v2",
   "displayedEnemies": [
-    "Boss_Level6ArchusTrapBTrapC",
-    "TrapB",
-    "TrapC"
+    "Archus, Darkness Incarnate Sin of Failure",
+    "Looming Darkshard",
+    "Shattering Darkshard"
   ],
   "displayedEnemyOffsets": [
     {

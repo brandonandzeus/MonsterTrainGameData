@@ -6,10 +6,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -20,14 +20,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2",
+                "characterData": "Quill Marksman",
                 "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               },
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "HeavyT2SelfRepair"
+                "characterData": "Clipped Reflector"
               }
             ]
           }
@@ -38,10 +38,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "HeavyT2GrowOnKill"
+                "characterData": "Master of Light"
               }
             ]
           }
@@ -52,11 +52,11 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2Basic",
+                "characterData": "Clipped Guardian",
                 "requiredCovenant": "Ascension01StrongerEnemies"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -67,11 +67,11 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2Basic",
+                "characterData": "Clipped Guardian",
                 "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT2GrowOnKill"
+                "characterData": "Master of Light"
               }
             ]
           }
@@ -82,10 +82,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -96,7 +96,7 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -110,8 +110,8 @@
       }
     ],
     "bossType": 1,
-    "bossCharacter": "Boss_Level6Rage",
-    "hardBossCharacter": "Boss_Level6Rage_Harder"
+    "bossCharacter": "Fel, the Wings of Light Wrath Crest",
+    "hardBossCharacter": "Fel, the Wings of Light Wrath Crest Hard"
   },
   "difficulty": 2,
   "enemyBlessingData": [

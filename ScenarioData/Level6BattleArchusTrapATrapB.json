@@ -6,13 +6,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               }
             ]
           }
@@ -23,10 +23,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "HeavyT2SelfRepair"
+                "characterData": "Clipped Reflector"
               }
             ]
           }
@@ -37,14 +37,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack",
+                "characterData": "Sycophant",
                 "requiredCovenant": "Ascension01StrongerEnemies"
               },
               {
-                "characterData": "HeavyT2SelfRepair"
+                "characterData": "Clipped Reflector"
               }
             ]
           }
@@ -55,11 +55,11 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2Basic",
+                "characterData": "Clipped Guardian",
                 "requiredCovenant": "Ascension01StrongerEnemies"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -70,14 +70,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               },
               {
-                "characterData": "HeavyT2Basic",
+                "characterData": "Clipped Guardian",
                 "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT2DeathHarvester"
+                "characterData": "Overcharged Tank"
               }
             ]
           }
@@ -88,10 +88,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "HeavyT2DeathHarvester"
+                "characterData": "Overcharged Tank"
               }
             ]
           }
@@ -102,7 +102,7 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2DeathHarvester"
+                "characterData": "Overcharged Tank"
               }
             ]
           }
@@ -116,8 +116,8 @@
       }
     ],
     "bossType": 1,
-    "bossCharacter": "Boss_Level6ArchusTrapATrapB",
-    "hardBossCharacter": "Boss_Level6ArchusTrapATrapB_Harder"
+    "bossCharacter": "Archus, Darkness Incarnate Sin of Darkness",
+    "hardBossCharacter": "Archus, Darkness Incarnate Sin of Darkness Hard"
   },
   "difficulty": 2,
   "enemyBlessingData": [
@@ -136,9 +136,9 @@
   "battleNameKey": "ScenarioData_battleNameKey-3fc9da929ef87660-11f04ab650f4115499f4833e77e210d2-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-afeaef73ec1e7ff3-11f04ab650f4115499f4833e77e210d2-v2",
   "displayedEnemies": [
-    "Boss_Level6ArchusTrapATrapB",
-    "TrapA",
-    "TrapB"
+    "Archus, Darkness Incarnate Sin of Darkness",
+    "Blinding Darkshard",
+    "Looming Darkshard"
   ],
   "displayedEnemyOffsets": [
     {

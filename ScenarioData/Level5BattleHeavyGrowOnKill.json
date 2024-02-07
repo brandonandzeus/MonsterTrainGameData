@@ -6,10 +6,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "HeavyT2GrowOnKill"
+                "characterData": "Master of Light"
               }
             ]
           }
@@ -20,10 +20,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT2"
+                "characterData": "Clipped Shaman"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -34,14 +34,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT2",
+                "characterData": "Clipped Shaman",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT2GrowOnKill"
+                "characterData": "Master of Light"
               },
               {
-                "characterData": "ShieldGuardT2"
+                "characterData": "Clipped Defender"
               }
             ]
           }
@@ -52,14 +52,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT2"
+                "characterData": "Clipped Shaman"
               },
               {
-                "characterData": "AttackerT2",
+                "characterData": "Quill Marksman",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -78,7 +78,7 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "Boss_Level5",
+                "characterData": "The Self-Made Harpy",
                 "useBossCharacter": true
               }
             ]
@@ -89,15 +89,15 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level5",
-      "Boss_Level5UltimateStealth",
-      "Boss_Level5Caster"
+      "The Self-Made Harpy",
+      "The Crystalcloak",
+      "Sower of Sorrow"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl2Gold"
+    "Collector 2"
   ],
   "traitorUnitsPool": [
     null
@@ -120,8 +120,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-0376312f464fc136-9e3b1ebdecc2452408d6b7dbdbb73512-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-417a3cf5641c1f9a-9e3b1ebdecc2452408d6b7dbdbb73512-v2",
   "displayedEnemies": [
-    "HeavyT2GrowOnKill",
-    "ClericT2"
+    "Master of Light",
+    "Clipped Shaman"
   ],
   "displayedEnemyOffsets": [
 

@@ -6,16 +6,16 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               }
             ]
           }
@@ -26,19 +26,19 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               }
             ]
           }
@@ -49,20 +49,20 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack",
+                "characterData": "Sycophant",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "ShieldGuardT2"
+                "characterData": "Clipped Defender"
               }
             ]
           }
@@ -73,20 +73,20 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               },
               {
-                "characterData": "HordeT2DeathGivesAttack",
+                "characterData": "Sycophant",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "ShieldGuardT2"
+                "characterData": "Clipped Defender"
               },
               {
-                "characterData": "ShieldGuardT2"
+                "characterData": "Clipped Defender"
               }
             ]
           }
@@ -105,14 +105,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT2DeathGivesAttack"
+                "characterData": "Sycophant"
               },
               {
-                "characterData": "Boss_Level5",
+                "characterData": "The Self-Made Harpy",
                 "useBossCharacter": true
               },
               {
-                "characterData": "ShieldGuardT1"
+                "characterData": "Disciple Protector"
               }
             ]
           }
@@ -122,15 +122,15 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level5",
-      "Boss_Level5UltimateStealth",
-      "Boss_Level5Caster"
+      "The Self-Made Harpy",
+      "The Crystalcloak",
+      "Sower of Sorrow"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl2Gold"
+    "Collector 2"
   ],
   "traitorUnitsPool": [
     null
@@ -153,8 +153,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-a44d782af40bb311-e63cc8bbd63736e4e839377fa340fff6-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-984d233833738f4f-e63cc8bbd63736e4e839377fa340fff6-v2",
   "displayedEnemies": [
-    "HeavyT2Basic",
-    "HordeT2DeathGivesAttack"
+    "Clipped Guardian",
+    "Sycophant"
   ],
   "displayedEnemyOffsets": [
 

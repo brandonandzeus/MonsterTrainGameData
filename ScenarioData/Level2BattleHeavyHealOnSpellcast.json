@@ -6,14 +6,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT1"
+                "characterData": "Trusted Priest"
               },
               {
-                "characterData": "AttackerT1",
+                "characterData": "Discipled Footsoldier",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT1GainAttackOnSpellcast"
+                "characterData": "Overcharged Apprentice"
               }
             ]
           }
@@ -24,13 +24,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT1"
+                "characterData": "Trusted Priest"
               },
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               },
               {
-                "characterData": "HeavyT1GainAttackOnSpellcast"
+                "characterData": "Overcharged Apprentice"
               }
             ]
           }
@@ -49,14 +49,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT1"
+                "characterData": "Trusted Priest"
               },
               {
-                "characterData": "AttackerT1",
+                "characterData": "Discipled Footsoldier",
                 "requiredCovenant": "Ascension01StrongerEnemies"
               },
               {
-                "characterData": "Boss_Level2",
+                "characterData": "Last Knight of the Disciples",
                 "useBossCharacter": true
               }
             ]
@@ -67,15 +67,15 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level2",
-      "Boss_Level2ShieldGuy",
-      "Boss_Level2AEMage"
+      "Last Knight of the Disciples",
+      "The Steel Slate",
+      "Highpriest to the Light"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl1Gold"
+    "Collector"
   ],
   "traitorUnitsPool": [
     null
@@ -96,8 +96,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-e4c185f58deef3bc-de0906f6d1c051840a70caebc8b2f04e-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-a570db16a91c727e-de0906f6d1c051840a70caebc8b2f04e-v2",
   "displayedEnemies": [
-    "ClericT1",
-    "HeavyT1GainAttackOnSpellcast"
+    "Trusted Priest",
+    "Overcharged Apprentice"
   ],
   "displayedEnemyOffsets": [
 

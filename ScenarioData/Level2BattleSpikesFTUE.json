@@ -6,10 +6,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Spikes"
+                "characterData": "Conduit Redirector"
               },
               {
-                "characterData": "ShieldGuardT1"
+                "characterData": "Disciple Protector"
               }
             ]
           }
@@ -20,13 +20,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Spikes"
+                "characterData": "Conduit Redirector"
               },
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               },
               {
-                "characterData": "ShieldGuardT1"
+                "characterData": "Disciple Protector"
               }
             ]
           }
@@ -45,10 +45,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Spikes"
+                "characterData": "Conduit Redirector"
               },
               {
-                "characterData": "Boss_Level2",
+                "characterData": "Last Knight of the Disciples",
                 "useBossCharacter": true
               }
             ]
@@ -59,9 +59,9 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level2",
-      "Boss_Level2ShieldGuy",
-      "Boss_Level2AEMage"
+      "Last Knight of the Disciples",
+      "The Steel Slate",
+      "Highpriest to the Light"
     ]
   },
   "treasureCharacterPool": [
@@ -76,8 +76,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-cfaa14ab0d97eba1-db2c82e1b31280647a0f5788705e2174-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-20627a01953f5ff6-db2c82e1b31280647a0f5788705e2174-v2",
   "displayedEnemies": [
-    "EnchanterT1Spikes",
-    "ShieldGuardT1"
+    "Conduit Redirector",
+    "Disciple Protector"
   ],
   "displayedEnemyOffsets": [
 

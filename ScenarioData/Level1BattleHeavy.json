@@ -6,10 +6,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT1"
+                "characterData": "Trusted Priest"
               },
               {
-                "characterData": "HeavyT1ChainedBrute"
+                "characterData": "Apprentice of Light"
               }
             ]
           }
@@ -20,14 +20,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT1",
+                "characterData": "Trusted Priest",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               },
               {
-                "characterData": "HeavyT1ChainedBrute"
+                "characterData": "Apprentice of Light"
               }
             ]
           }
@@ -46,10 +46,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               },
               {
-                "characterData": "Boss_Level1",
+                "characterData": "Discipled Inquisitor",
                 "useBossCharacter": true
               }
             ]
@@ -60,14 +60,14 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level1",
-      "Boss_Level1Junker"
+      "Discipled Inquisitor",
+      "Chains the Sighted"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl1Gold"
+    "Collector"
   ],
   "traitorUnitsPool": [
 
@@ -82,22 +82,22 @@
     ]
   },
   "ftueCardDrawData": [
-    "HornbreakerChampion",
-    "StarterTorch",
-    "TrainSteward",
-    "StarterTorch",
-    "StarterTorch",
-    "TrainSteward",
-    "StarterTorch",
-    "StarterHeal",
-    "StarterTorch",
-    "StarterHeal"
+    "Hornbreaker Prince",
+    "Torch",
+    "Train Steward",
+    "Torch",
+    "Torch",
+    "Train Steward",
+    "Torch",
+    "Restore",
+    "Torch",
+    "Restore"
   ],
   "battleNameKey": "ScenarioData_battleNameKey-df78bc21dee5ca2a-019da63a729c6aa43b83ebadc47461f4-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-fc2025c657f6f30f-019da63a729c6aa43b83ebadc47461f4-v2",
   "displayedEnemies": [
-    "AttackerT1",
-    "HeavyT1ChainedBrute"
+    "Discipled Footsoldier",
+    "Apprentice of Light"
   ],
   "displayedEnemyOffsets": [
 

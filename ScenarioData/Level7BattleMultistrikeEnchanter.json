@@ -6,13 +6,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT3Multistrike"
+                "characterData": "Winged Conduit"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "ShieldGuardT3",
+                "characterData": "Steelwings",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
@@ -24,13 +24,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT3Multistrike"
+                "characterData": "Winged Conduit"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
+                "characterData": "Wiltwings",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
@@ -42,16 +42,16 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT3Multistrike"
+                "characterData": "Winged Conduit"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
+                "characterData": "Wiltwings",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
@@ -63,13 +63,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT3Multistrike"
+                "characterData": "Winged Conduit"
               },
               {
-                "characterData": "AttackerT3"
+                "characterData": "Lightwings"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               }
             ]
           }
@@ -88,10 +88,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT3Multistrike"
+                "characterData": "Winged Conduit"
               },
               {
-                "characterData": "Boss_Level7",
+                "characterData": "Nephil, the Wingless General",
                 "useBossCharacter": true
               }
             ]
@@ -102,14 +102,14 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level7Shield",
-      "Boss_Level7"
+      "Living Armor",
+      "Nephil, the Wingless General"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl3Gold"
+    "Collector 3"
   ],
   "traitorUnitsPool": [
     null
@@ -131,8 +131,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-84e62201ef6f64f7-86dab0bd3bc44a34db99a9b9cead4279-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-28311997fc5e4510-86dab0bd3bc44a34db99a9b9cead4279-v2",
   "displayedEnemies": [
-    "EnchanterT3Multistrike",
-    "HeavyT3Basic"
+    "Winged Conduit",
+    "Gilded Wing"
   ],
   "displayedEnemyOffsets": [
 

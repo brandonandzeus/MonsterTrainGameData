@@ -6,10 +6,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker"
+                "characterData": "Absolver"
               },
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               }
             ]
           }
@@ -20,10 +20,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker"
+                "characterData": "Absolver"
               },
               {
-                "characterData": "MageT2Junker"
+                "characterData": "Absolver"
               }
             ]
           }
@@ -34,14 +34,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2",
+                "characterData": "Quill Marksman",
                 "requiredCovenant": "Ascension01StrongerEnemies"
               },
               {
-                "characterData": "MageT2Junker"
+                "characterData": "Absolver"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -52,14 +52,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker"
+                "characterData": "Absolver"
               },
               {
-                "characterData": "HeavyT2Basic",
+                "characterData": "Clipped Guardian",
                 "requiredCovenant": "Ascension01StrongerEnemies"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -70,14 +70,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "HeavyT2Basic",
+                "characterData": "Clipped Guardian",
                 "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -88,13 +88,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker"
+                "characterData": "Absolver"
               },
               {
-                "characterData": "AttackerT2"
+                "characterData": "Quill Marksman"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -105,10 +105,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT2"
+                "characterData": "Clipped Shaman"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -122,8 +122,8 @@
       }
     ],
     "bossType": 1,
-    "bossCharacter": "Boss_Level6ArchusTrapATrapC",
-    "hardBossCharacter": "Boss_Level6ArchusTrapATrapC_Harder"
+    "bossCharacter": "Archus, Darkness Incarnate Sin of Shadow",
+    "hardBossCharacter": "Archus, Darkness Incarnate Sin of Shadow Hard"
   },
   "difficulty": 2,
   "enemyBlessingData": [
@@ -142,9 +142,9 @@
   "battleNameKey": "ScenarioData_battleNameKey-cc9349fcb63c79cf-c71bf53409cc06d449a80532a1c34d89-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-b793c8963ed03ebf-c71bf53409cc06d449a80532a1c34d89-v2",
   "displayedEnemies": [
-    "Boss_Level6ArchusTrapATrapC",
-    "TrapA",
-    "TrapC"
+    "Archus, Darkness Incarnate Sin of Shadow",
+    "Blinding Darkshard",
+    "Shattering Darkshard"
   ],
   "displayedEnemyOffsets": [
     {

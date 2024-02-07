@@ -6,10 +6,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT1Basic"
+                "characterData": "Forged Disciple"
               },
               {
-                "characterData": "ShieldGuardT1"
+                "characterData": "Disciple Protector"
               }
             ]
           }
@@ -20,10 +20,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT1Basic"
+                "characterData": "Forged Disciple"
               },
               {
-                "characterData": "ShieldGuardT1"
+                "characterData": "Disciple Protector"
               }
             ]
           }
@@ -41,7 +41,7 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "Boss_Level2",
+                "characterData": "Last Knight of the Disciples",
                 "useBossCharacter": true
               }
             ]
@@ -52,9 +52,9 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level2",
-      "Boss_Level2ShieldGuy",
-      "Boss_Level2AEMage"
+      "Last Knight of the Disciples",
+      "The Steel Slate",
+      "Highpriest to the Light"
     ]
   },
   "minTreasureUnits": 1,
@@ -71,8 +71,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-08f7a8a47336d9f1-a5d88e9735e1b1646b9b88f9b8451330-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-ee59c0c244a1c741-a5d88e9735e1b1646b9b88f9b8451330-v2",
   "displayedEnemies": [
-    "ShieldGuardT1",
-    "HeavyT1Basic"
+    "Disciple Protector",
+    "Forged Disciple"
   ],
   "displayedEnemyOffsets": [
 

@@ -6,13 +6,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2Stealth"
+                "characterData": "Silent Marksman"
               },
               {
-                "characterData": "AttackerT2Stealth"
+                "characterData": "Silent Marksman"
               },
               {
-                "characterData": "AttackerT2Stealth"
+                "characterData": "Silent Marksman"
               }
             ]
           }
@@ -23,10 +23,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT2"
+                "characterData": "Clipped Shaman"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -37,13 +37,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT2Stealth"
+                "characterData": "Silent Marksman"
               },
               {
-                "characterData": "AttackerT2Stealth"
+                "characterData": "Silent Marksman"
               },
               {
-                "characterData": "ShieldGuardT2"
+                "characterData": "Clipped Defender"
               }
             ]
           }
@@ -54,13 +54,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT2"
+                "characterData": "Clipped Shaman"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -71,10 +71,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT2"
+                "characterData": "Clipped Shaman"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -82,7 +82,7 @@
       }
     ],
     "bossType": 1,
-    "bossCharacter": "Boss_Level6Junk"
+    "bossCharacter": "Fel, the Wings of Light Scouring Crest"
   },
   "difficulty": 2,
   "enemyBlessingData": [
@@ -92,7 +92,7 @@
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl3Gold"
+    "Collector 3"
   ],
   "traitorUnitsPool": [
 

@@ -6,13 +6,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3"
+                "characterData": "Lightwings"
               },
               {
-                "characterData": "MageT3Junker"
+                "characterData": "Purifier"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               }
             ]
           }
@@ -23,14 +23,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT3Junker"
+                "characterData": "Purifier"
               },
               {
-                "characterData": "AttackerT3",
+                "characterData": "Lightwings",
                 "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               }
             ]
           }
@@ -41,13 +41,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT3Junker"
+                "characterData": "Purifier"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               }
             ]
           }
@@ -58,14 +58,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "HeavyT3Basic",
+                "characterData": "Gilded Wing",
                 "requiredCovenant": "Ascension01StrongerEnemies"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               }
             ]
           }
@@ -76,13 +76,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT3Junker"
+                "characterData": "Purifier"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "HeavyT3Basic",
+                "characterData": "Gilded Wing",
                 "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               }
             ]
@@ -94,14 +94,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "HeavyT3Basic",
+                "characterData": "Gilded Wing",
                 "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               }
             ]
           }
@@ -112,13 +112,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT3Junker"
+                "characterData": "Purifier"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "ShieldGuardT3"
+                "characterData": "Steelwings"
               }
             ]
           }
@@ -129,10 +129,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3"
+                "characterData": "Lightwings"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               }
             ]
           }
@@ -140,8 +140,8 @@
       }
     ],
     "bossType": 1,
-    "bossCharacter": "Boss_Level8SpellConsume",
-    "hardBossCharacter": "Boss_Level8SpellConsume_Harder"
+    "bossCharacter": "Seraph the Diligent",
+    "hardBossCharacter": "Seraph the Diligent Hard"
   },
   "difficulty": 2,
   "enemyBlessingData": [

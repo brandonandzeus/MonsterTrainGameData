@@ -6,10 +6,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT3Junker"
+                "characterData": "Purifier"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               }
             ]
           }
@@ -20,13 +20,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT3Junker"
+                "characterData": "Purifier"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "ShieldGuardT3",
+                "characterData": "Steelwings",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
@@ -38,13 +38,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT3Junker"
+                "characterData": "Purifier"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "ShieldGuardT3"
+                "characterData": "Steelwings"
               }
             ]
           }
@@ -55,13 +55,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT3Junker"
+                "characterData": "Purifier"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "ShieldGuardT3",
+                "characterData": "Steelwings",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
@@ -73,14 +73,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT3Junker",
+                "characterData": "Purifier",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "ShieldGuardT3"
+                "characterData": "Steelwings"
               }
             ]
           }
@@ -99,7 +99,7 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "Boss_Level7",
+                "characterData": "Nephil, the Wingless General",
                 "useBossCharacter": true
               }
             ]
@@ -110,14 +110,14 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level7Shield",
-      "Boss_Level7"
+      "Living Armor",
+      "Nephil, the Wingless General"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl3Gold"
+    "Collector 3"
   ],
   "traitorUnitsPool": [
     null
@@ -139,8 +139,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-88a1caa8098b4a63-924e889d40571e348a27343ba735d2eb-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-cdd44684c2b0e042-924e889d40571e348a27343ba735d2eb-v2",
   "displayedEnemies": [
-    "ShieldGuardT3",
-    "MageT3Junker"
+    "Steelwings",
+    "Purifier"
   ],
   "displayedEnemyOffsets": [
 

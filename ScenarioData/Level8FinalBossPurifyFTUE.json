@@ -6,10 +6,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3"
+                "characterData": "Lightwings"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               }
             ]
           }
@@ -20,10 +20,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3"
+                "characterData": "Lightwings"
               },
               {
-                "characterData": "AttackerT3"
+                "characterData": "Lightwings"
               }
             ]
           }
@@ -34,10 +34,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3"
+                "characterData": "Lightwings"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               }
             ]
           }
@@ -48,10 +48,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3"
+                "characterData": "Lightwings"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               }
             ]
           }
@@ -62,13 +62,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3"
+                "characterData": "Lightwings"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "ShieldGuardT3"
+                "characterData": "Steelwings"
               }
             ]
           }
@@ -79,10 +79,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3"
+                "characterData": "Lightwings"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               }
             ]
           }
@@ -93,13 +93,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3"
+                "characterData": "Lightwings"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "ShieldGuardT3"
+                "characterData": "Steelwings"
               }
             ]
           }
@@ -110,10 +110,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3"
+                "characterData": "Lightwings"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               }
             ]
           }
@@ -121,8 +121,8 @@
       }
     ],
     "bossType": 1,
-    "bossCharacter": "Boss_Level8Purify_Harder",
-    "hardBossCharacter": "Boss_Level8Purify_Harder"
+    "bossCharacter": "Seraph the Chaste Hard",
+    "hardBossCharacter": "Seraph the Chaste Hard"
   },
   "difficulty": 2,
   "enemyBlessingData": [

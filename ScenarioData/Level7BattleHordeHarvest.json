@@ -6,16 +6,16 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               }
             ]
           }
@@ -26,13 +26,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               },
               {
-                "characterData": "HeavyT3DeathHarvester"
+                "characterData": "Darkwings"
               }
             ]
           }
@@ -43,16 +43,16 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               }
             ]
           }
@@ -63,16 +63,16 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               },
               {
-                "characterData": "HeavyT3DeathHarvester"
+                "characterData": "Darkwings"
               }
             ]
           }
@@ -83,17 +83,17 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3"
+                "characterData": "Lightwings"
               },
               {
-                "characterData": "AttackerT3"
+                "characterData": "Lightwings"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
+                "characterData": "Wiltwings",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT3DeathHarvester"
+                "characterData": "Darkwings"
               }
             ]
           }
@@ -112,15 +112,15 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "Boss_Level7",
+                "characterData": "Nephil, the Wingless General",
                 "useBossCharacter": true
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
+                "characterData": "Wiltwings",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
+                "characterData": "Wiltwings",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
@@ -131,14 +131,14 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level7Shield",
-      "Boss_Level7"
+      "Living Armor",
+      "Nephil, the Wingless General"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl3Gold"
+    "Collector 3"
   ],
   "traitorUnitsPool": [
     null
@@ -160,8 +160,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-8c5e5f6c207b820e-c96a061da73590046bcf3124d036ce78-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-407f06cd90334b00-c96a061da73590046bcf3124d036ce78-v2",
   "displayedEnemies": [
-    "HeavyT3DeathHarvester",
-    "HordeT3DeathDoesDamage"
+    "Darkwings",
+    "Wiltwings"
   ],
   "displayedEnemyOffsets": [
 

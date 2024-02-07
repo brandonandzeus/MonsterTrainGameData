@@ -6,13 +6,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               },
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               },
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               }
             ]
           }
@@ -23,13 +23,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               },
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               },
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               }
             ]
           }
@@ -48,13 +48,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               },
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               },
               {
-                "characterData": "Boss_Level2",
+                "characterData": "Last Knight of the Disciples",
                 "useBossCharacter": true
               }
             ]
@@ -65,15 +65,15 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level2",
-      "Boss_Level2ShieldGuy",
-      "Boss_Level2AEMage"
+      "Last Knight of the Disciples",
+      "The Steel Slate",
+      "Highpriest to the Light"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl1Gold"
+    "Collector"
   ],
   "traitorUnitsPool": [
     null
@@ -94,8 +94,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-bd77dfb04a2df733-ba29027417d6d8e4588ecd4cd4785af6-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-65df07f3c06470b3-ba29027417d6d8e4588ecd4cd4785af6-v2",
   "displayedEnemies": [
-    "AttackerT1",
-    "AttackerT1"
+    "Discipled Footsoldier",
+    "Discipled Footsoldier"
   ],
   "displayedEnemyOffsets": [
 

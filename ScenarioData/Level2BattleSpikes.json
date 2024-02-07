@@ -6,14 +6,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Spikes"
+                "characterData": "Conduit Redirector"
               },
               {
-                "characterData": "AttackerT1",
+                "characterData": "Discipled Footsoldier",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "ShieldGuardT1"
+                "characterData": "Disciple Protector"
               }
             ]
           }
@@ -24,14 +24,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Spikes"
+                "characterData": "Conduit Redirector"
               },
               {
-                "characterData": "ClericT1",
+                "characterData": "Trusted Priest",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT1Basic"
+                "characterData": "Forged Disciple"
               }
             ]
           }
@@ -50,14 +50,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Spikes"
+                "characterData": "Conduit Redirector"
               },
               {
-                "characterData": "Boss_Level2",
+                "characterData": "Last Knight of the Disciples",
                 "useBossCharacter": true
               },
               {
-                "characterData": "ShieldGuardT1",
+                "characterData": "Disciple Protector",
                 "requiredCovenant": "Ascension01StrongerEnemies"
               }
             ]
@@ -68,15 +68,15 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level2",
-      "Boss_Level2ShieldGuy",
-      "Boss_Level2AEMage"
+      "Last Knight of the Disciples",
+      "The Steel Slate",
+      "Highpriest to the Light"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl1Gold"
+    "Collector"
   ],
   "traitorUnitsPool": [
     null
@@ -97,8 +97,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-f7a3cbc80ebcbf0b-b93cb6d0de527fa43be9bc2c80b06c84-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-04f9be317a44dd1b-b93cb6d0de527fa43be9bc2c80b06c84-v2",
   "displayedEnemies": [
-    "EnchanterT1Spikes",
-    "ShieldGuardT1"
+    "Conduit Redirector",
+    "Disciple Protector"
   ],
   "displayedEnemyOffsets": [
 

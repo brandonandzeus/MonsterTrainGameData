@@ -6,7 +6,7 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker"
+                "characterData": "Absolver"
               }
             ]
           }
@@ -17,7 +17,7 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker"
+                "characterData": "Absolver"
               }
             ]
           }
@@ -28,10 +28,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker"
+                "characterData": "Absolver"
               },
               {
-                "characterData": "ShieldGuardT2"
+                "characterData": "Clipped Defender"
               }
             ]
           }
@@ -42,10 +42,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker"
+                "characterData": "Absolver"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -56,10 +56,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -70,10 +70,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker"
+                "characterData": "Absolver"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -84,7 +84,7 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               }
             ]
           }
@@ -98,8 +98,8 @@
       }
     ],
     "bossType": 1,
-    "bossCharacter": "Boss_Level6Junk_Harder",
-    "hardBossCharacter": "Boss_Level6Junk_Harder"
+    "bossCharacter": "Fel, the Wings of Light Scouring Crest Hard",
+    "hardBossCharacter": "Fel, the Wings of Light Scouring Crest Hard"
   },
   "difficulty": 2,
   "enemyBlessingData": [

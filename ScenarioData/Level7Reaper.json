@@ -6,13 +6,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               }
             ]
           }
@@ -23,13 +23,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "ShieldGuardT3"
+                "characterData": "Steelwings"
               }
             ]
           }
@@ -40,13 +40,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               }
             ]
           }
@@ -57,19 +57,19 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "ShieldGuardT3"
+                "characterData": "Steelwings"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
+                "characterData": "Wiltwings",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
@@ -81,16 +81,16 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "ShieldGuardT3"
+                "characterData": "Steelwings"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage",
+                "characterData": "Wiltwings",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
@@ -110,14 +110,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper",
+                "characterData": "Shadewings",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "Boss_Level7",
+                "characterData": "Nephil, the Wingless General",
                 "useBossCharacter": true
               }
             ]
@@ -128,14 +128,14 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level7Shield",
-      "Boss_Level7"
+      "Living Armor",
+      "Nephil, the Wingless General"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl3Gold"
+    "Collector 3"
   ],
   "traitorUnitsPool": [
     null
@@ -157,8 +157,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-efb815f77daa19cc-de58df12bfadb4f459040beb59ec2268-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-d0dd056727cc7e3f-de58df12bfadb4f459040beb59ec2268-v2",
   "displayedEnemies": [
-    "AttackerT3Reaper",
-    "HeavyT3Basic"
+    "Shadewings",
+    "Gilded Wing"
   ],
   "displayedEnemyOffsets": [
 

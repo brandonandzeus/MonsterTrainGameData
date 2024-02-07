@@ -6,16 +6,16 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               }
             ]
           }
@@ -26,13 +26,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               },
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               },
               {
-                "characterData": "HeavyT1Basic"
+                "characterData": "Forged Disciple"
               }
             ]
           }
@@ -43,11 +43,11 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT1Basic",
+                "characterData": "Forged Disciple",
                 "requiredCovenant": "Ascension01StrongerEnemies"
               },
               {
-                "characterData": "HeavyT1Basic"
+                "characterData": "Forged Disciple"
               }
             ]
           }
@@ -58,16 +58,16 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Speed"
+                "characterData": "Conduit Infiltrator"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               }
             ]
           }
@@ -78,10 +78,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Speed"
+                "characterData": "Conduit Infiltrator"
               },
               {
-                "characterData": "HeavyT1Basic"
+                "characterData": "Forged Disciple"
               }
             ]
           }
@@ -92,7 +92,7 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ShieldGuardT1",
+                "characterData": "Disciple Protector",
                 "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               }
             ]
@@ -101,8 +101,8 @@
       }
     ],
     "bossType": 1,
-    "bossCharacter": "Boss_Level3StrongerBarrels",
-    "hardBossCharacter": "Boss_Level3StrongerBarrels_Harder"
+    "bossCharacter": "Daedalus, the Professor Double Barrel",
+    "hardBossCharacter": "Daedalus, the Professor Double Barrel Hard"
   },
   "difficulty": 2,
   "enemyBlessingData": [

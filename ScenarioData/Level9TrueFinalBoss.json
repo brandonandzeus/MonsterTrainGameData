@@ -6,37 +6,37 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HeavyT1GainAttackOnSpellcast",
+                "characterData": "Overcharged Apprentice",
                 "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "HeavyT1GainAttackOnSpellcast"
+                "characterData": "Overcharged Apprentice"
               },
               {
-                "characterData": "HeavyT1GainAttackOnSpellcast"
+                "characterData": "Overcharged Apprentice"
               }
             ]
           },
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               },
               {
-                "characterData": "HeavyT1ChainedBrute",
+                "characterData": "Apprentice of Light",
                 "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "HeavyT1ChainedBrute"
+                "characterData": "Apprentice of Light"
               },
               {
-                "characterData": "HeavyT1ChainedBrute"
+                "characterData": "Apprentice of Light"
               }
             ]
           }
@@ -47,34 +47,34 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT2"
+                "characterData": "Clipped Shaman"
               },
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "HeavyT2SelfRepair",
+                "characterData": "Clipped Reflector",
                 "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "ShieldGuardT2"
+                "characterData": "Clipped Defender"
               }
             ]
           },
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT2"
+                "characterData": "Clipped Shaman"
               },
               {
-                "characterData": "AttackerT3"
+                "characterData": "Lightwings"
               },
               {
-                "characterData": "HeavyT2SelfRepair",
+                "characterData": "Clipped Reflector",
                 "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "ShieldGuardT3"
+                "characterData": "Steelwings"
               }
             ]
           }
@@ -85,40 +85,40 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Spikes"
+                "characterData": "Conduit Redirector"
               },
               {
-                "characterData": "HeavyT2Basic",
+                "characterData": "Clipped Guardian",
                 "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               },
               {
-                "characterData": "HeavyT3DeathHarvester"
+                "characterData": "Darkwings"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               }
             ]
           },
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Spikes"
+                "characterData": "Conduit Redirector"
               },
               {
-                "characterData": "HeavyT2Basic",
+                "characterData": "Clipped Guardian",
                 "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "HeavyT2DeathHarvester"
+                "characterData": "Overcharged Tank"
               },
               {
-                "characterData": "HeavyT2DeathHarvester"
+                "characterData": "Overcharged Tank"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               }
             ]
           }
@@ -129,10 +129,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "Boss_Level1JunkerForTLD"
+                "characterData": "Chains the Sighted TLD"
               },
               {
-                "characterData": "ShieldGuardT1",
+                "characterData": "Disciple Protector",
                 "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               }
             ]
@@ -140,65 +140,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "Boss_Level1ForTLD"
+                "characterData": "Discipled Inquisitor TLD"
               },
               {
-                "characterData": "HeavyT1GainAttackOnSpellcast",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "possibleGroups": [
-          {
-            "characterDataContainerList": [
-              {
-                "characterData": "AttackerT2Stealth"
-              },
-              {
-                "characterData": "AttackerT2Stealth"
-              },
-              {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
-              },
-              {
-                "characterData": "HeavyT3Basic"
-              }
-            ]
-          },
-          {
-            "characterDataContainerList": [
-              {
-                "characterData": "AttackerT3Reaper"
-              },
-              {
-                "characterData": "AttackerT3Reaper"
-              },
-              {
-                "characterData": "HeavyT3Basic",
-                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
-              },
-              {
-                "characterData": "HeavyT3Basic"
-              }
-            ]
-          },
-          {
-            "characterDataContainerList": [
-              {
-                "characterData": "HeavyT2GrowOnAscend"
-              },
-              {
-                "characterData": "HeavyT2GrowOnAscend"
-              },
-              {
-                "characterData": "HeavyT3Basic"
-              },
-              {
-                "characterData": "HeavyT3Basic",
+                "characterData": "Overcharged Apprentice",
                 "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               }
             ]
@@ -210,40 +155,51 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT3Multistrike"
+                "characterData": "Silent Marksman"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Silent Marksman"
               },
               {
-                "characterData": "HeavyT2SelfRepair"
-              },
-              {
-                "characterData": "HeavyT3DeathHarvester",
+                "characterData": "Gilded Wing",
                 "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "ShieldGuardT2"
+                "characterData": "Gilded Wing"
               }
             ]
           },
           {
             "characterDataContainerList": [
               {
-                "characterData": "EnchanterT1Spikes"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "HeavyT2SelfRepair"
-              },
-              {
-                "characterData": "HeavyT3EmberDrain",
+                "characterData": "Gilded Wing",
                 "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "ShieldGuardT2"
+                "characterData": "Gilded Wing"
+              }
+            ]
+          },
+          {
+            "characterDataContainerList": [
+              {
+                "characterData": "Light Harnesser"
+              },
+              {
+                "characterData": "Light Harnesser"
+              },
+              {
+                "characterData": "Gilded Wing"
+              },
+              {
+                "characterData": "Gilded Wing",
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               }
             ]
           }
@@ -254,33 +210,77 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT3DeathDoesDamage",
+                "characterData": "Winged Conduit"
+              },
+              {
+                "characterData": "Wiltwings"
+              },
+              {
+                "characterData": "Clipped Reflector"
+              },
+              {
+                "characterData": "Darkwings",
                 "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "Boss_Level2AEMageForTLD"
+                "characterData": "Clipped Defender"
               }
             ]
           },
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3",
+                "characterData": "Conduit Redirector"
+              },
+              {
+                "characterData": "Clipped Guardian"
+              },
+              {
+                "characterData": "Clipped Reflector"
+              },
+              {
+                "characterData": "Pyrewings",
                 "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "Boss_Level2ForTLD"
+                "characterData": "Clipped Defender"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "possibleGroups": [
+          {
+            "characterDataContainerList": [
+              {
+                "characterData": "Wiltwings",
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
+              },
+              {
+                "characterData": "Highpriest to the Light TLD"
               }
             ]
           },
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper",
+                "characterData": "Lightwings",
                 "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "Boss_Level2ShieldGuyForTLD"
+                "characterData": "Last Knight of the Disciples TLD"
+              }
+            ]
+          },
+          {
+            "characterDataContainerList": [
+              {
+                "characterData": "Shadewings",
+                "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
+              },
+              {
+                "characterData": "The Steel Slate TLD"
               }
             ]
           }
@@ -292,40 +292,40 @@
             "waveMessageKey": "ScenarioData_waveMessageKey-50e334a52b58e321-dc9482372c110624c9a441e43d9695a5-v2",
             "characterDataContainerList": [
               {
-                "characterData": "ClericT2"
+                "characterData": "Clipped Shaman"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               },
               {
-                "characterData": "HordeT3DeathDoesDamage"
+                "characterData": "Wiltwings"
               },
               {
-                "characterData": "HeavyT2SelfRepair",
+                "characterData": "Clipped Reflector",
                 "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "ShieldGuardT3"
+                "characterData": "Steelwings"
               }
             ]
           },
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT2"
+                "characterData": "Clipped Shaman"
               },
               {
-                "characterData": "HeavyT1GainAttackOnSpellcast"
+                "characterData": "Overcharged Apprentice"
               },
               {
-                "characterData": "HeavyT1GainAttackOnSpellcast"
+                "characterData": "Overcharged Apprentice"
               },
               {
-                "characterData": "HeavyT2SelfRepair",
+                "characterData": "Clipped Reflector",
                 "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "ShieldGuardT3"
+                "characterData": "Steelwings"
               }
             ]
           }
@@ -337,40 +337,40 @@
             "waveMessageKey": "ScenarioData_waveMessageKey-8b83b128d3642e02-dc9482372c110624c9a441e43d9695a5-v2",
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker"
+                "characterData": "Absolver"
               },
               {
-                "characterData": "MageT2Junker"
+                "characterData": "Absolver"
               },
               {
-                "characterData": "HeavyT3Basic",
+                "characterData": "Gilded Wing",
                 "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "HeavyT2Basic"
+                "characterData": "Clipped Guardian"
               },
               {
-                "characterData": "HeavyT1Basic"
+                "characterData": "Forged Disciple"
               }
             ]
           },
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT2Junker"
+                "characterData": "Absolver"
               },
               {
-                "characterData": "MageT2Junker"
+                "characterData": "Absolver"
               },
               {
-                "characterData": "HeavyT3Basic",
+                "characterData": "Gilded Wing",
                 "requiredCovenant": "Ascension20MinusCapacityMiddleFloor"
               },
               {
-                "characterData": "HeavyT2GrowOnAscend"
+                "characterData": "Light Harnesser"
               },
               {
-                "characterData": "HeavyT2GrowOnAscend"
+                "characterData": "Light Harnesser"
               }
             ]
           }
@@ -419,7 +419,7 @@
   "battleNameKey": "ScenarioData_battleNameKey-a407164e05a1589d-dc9482372c110624c9a441e43d9695a5-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-ef8d2903476db878-dc9482372c110624c9a441e43d9695a5-v2",
   "displayedEnemies": [
-    "Boss_Level9_Display"
+    "The Last Divinity Display"
   ],
   "displayedEnemyOffsets": [
     {

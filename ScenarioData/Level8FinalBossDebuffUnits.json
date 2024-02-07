@@ -6,10 +6,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "HeavyT3DeathHarvester"
+                "characterData": "Darkwings"
               }
             ]
           }
@@ -20,14 +20,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "AttackerT3Reaper",
+                "characterData": "Shadewings",
                 "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               }
             ]
           }
@@ -38,13 +38,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "HeavyT3DeathHarvester"
+                "characterData": "Darkwings"
               }
             ]
           }
@@ -55,14 +55,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "HeavyT3Basic",
+                "characterData": "Gilded Wing",
                 "requiredCovenant": "Ascension01StrongerEnemies"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               }
             ]
           }
@@ -73,13 +73,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "HeavyT3DeathHarvester"
+                "characterData": "Darkwings"
               }
             ]
           }
@@ -90,13 +90,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               },
               {
-                "characterData": "HeavyT3Basic",
+                "characterData": "Gilded Wing",
                 "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               }
             ]
@@ -108,13 +108,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "HeavyT3DeathHarvester"
+                "characterData": "Darkwings"
               },
               {
-                "characterData": "ShieldGuardT3"
+                "characterData": "Steelwings"
               }
             ]
           }
@@ -125,10 +125,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3Reaper"
+                "characterData": "Shadewings"
               },
               {
-                "characterData": "HeavyT3DeathHarvester"
+                "characterData": "Darkwings"
               }
             ]
           }
@@ -136,8 +136,8 @@
       }
     ],
     "bossType": 1,
-    "bossCharacter": "Boss_Level8DebuffUnits",
-    "hardBossCharacter": "Boss_Level8DebuffUnits_Harder"
+    "bossCharacter": "Seraph the Temperant",
+    "hardBossCharacter": "Seraph the Temperant Hard"
   },
   "difficulty": 2,
   "enemyBlessingData": [

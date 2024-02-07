@@ -6,13 +6,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               }
             ]
           }
@@ -23,13 +23,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HeavyT1Basic"
+                "characterData": "Forged Disciple"
               }
             ]
           }
@@ -40,11 +40,11 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT1Basic",
+                "characterData": "Forged Disciple",
                 "requiredCovenant": "Ascension01StrongerEnemies"
               },
               {
-                "characterData": "HeavyT1Basic"
+                "characterData": "Forged Disciple"
               }
             ]
           }
@@ -55,16 +55,16 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               }
             ]
           }
@@ -75,10 +75,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT1"
+                "characterData": "Trusted Priest"
               },
               {
-                "characterData": "HeavyT1Basic"
+                "characterData": "Forged Disciple"
               }
             ]
           }
@@ -89,7 +89,7 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ShieldGuardT1",
+                "characterData": "Disciple Protector",
                 "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               }
             ]
@@ -98,8 +98,8 @@
       }
     ],
     "bossType": 1,
-    "bossCharacter": "Boss_Level3TalosArmorOnKill",
-    "hardBossCharacter": "Boss_Level3TalosArmorOnKill_Harder"
+    "bossCharacter": "Talos, the Architect Empowering Offense",
+    "hardBossCharacter": "Talos, the Architect Empowering Offense Hard"
   },
   "difficulty": 2,
   "enemyBlessingData": [

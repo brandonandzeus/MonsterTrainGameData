@@ -6,10 +6,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT1Junker"
+                "characterData": "Reconciler"
               },
               {
-                "characterData": "HeavyT1Basic"
+                "characterData": "Forged Disciple"
               }
             ]
           }
@@ -20,13 +20,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT1Junker"
+                "characterData": "Reconciler"
               },
               {
-                "characterData": "HeavyT1Basic"
+                "characterData": "Forged Disciple"
               },
               {
-                "characterData": "ShieldGuardT1",
+                "characterData": "Disciple Protector",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
@@ -46,14 +46,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "MageT1Junker"
+                "characterData": "Reconciler"
               },
               {
-                "characterData": "MageT1Junker",
+                "characterData": "Reconciler",
                 "requiredCovenant": "Ascension01StrongerEnemies"
               },
               {
-                "characterData": "Boss_Level2",
+                "characterData": "Last Knight of the Disciples",
                 "useBossCharacter": true
               }
             ]
@@ -64,15 +64,15 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level2",
-      "Boss_Level2ShieldGuy",
-      "Boss_Level2AEMage"
+      "Last Knight of the Disciples",
+      "The Steel Slate",
+      "Highpriest to the Light"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl1Gold"
+    "Collector"
   ],
   "traitorUnitsPool": [
     null
@@ -93,8 +93,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-7c63848cd1a3269c-5cabbd1ac8063314085c2c84682f5c22-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-b10b156bfff2748a-5cabbd1ac8063314085c2c84682f5c22-v2",
   "displayedEnemies": [
-    "HeavyT1Basic",
-    "MageT1Junker"
+    "Forged Disciple",
+    "Reconciler"
   ],
   "displayedEnemyOffsets": [
 

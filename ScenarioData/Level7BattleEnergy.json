@@ -6,7 +6,7 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT3EmberDrain"
+                "characterData": "Pyrewings"
               }
             ]
           }
@@ -17,10 +17,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3"
+                "characterData": "Lightwings"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               }
             ]
           }
@@ -31,10 +31,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT3EmberDrain"
+                "characterData": "Pyrewings"
               },
               {
-                "characterData": "ShieldGuardT3"
+                "characterData": "Steelwings"
               }
             ]
           }
@@ -45,14 +45,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT3"
+                "characterData": "Lightwings"
               },
               {
-                "characterData": "AttackerT3",
+                "characterData": "Lightwings",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT3Basic"
+                "characterData": "Gilded Wing"
               }
             ]
           }
@@ -63,14 +63,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT3EmberDrain"
+                "characterData": "Pyrewings"
               },
               {
-                "characterData": "ShieldGuardT3",
+                "characterData": "Steelwings",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               },
               {
-                "characterData": "ShieldGuardT3"
+                "characterData": "Steelwings"
               }
             ]
           }
@@ -89,7 +89,7 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "Boss_Level7",
+                "characterData": "Nephil, the Wingless General",
                 "useBossCharacter": true
               }
             ]
@@ -100,14 +100,14 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level7Shield",
-      "Boss_Level7"
+      "Living Armor",
+      "Nephil, the Wingless General"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl3Gold"
+    "Collector 3"
   ],
   "traitorUnitsPool": [
     null
@@ -129,8 +129,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-8c1922910aa4c4a1-00b882db88aa62344b70a09cb80daf8f-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-5603b7b358a50675-00b882db88aa62344b70a09cb80daf8f-v2",
   "displayedEnemies": [
-    "ShieldGuardT3",
-    "HeavyT3EmberDrain"
+    "Steelwings",
+    "Pyrewings"
   ],
   "displayedEnemyOffsets": [
 

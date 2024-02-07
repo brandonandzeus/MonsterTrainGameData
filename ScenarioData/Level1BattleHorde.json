@@ -6,16 +6,16 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               }
             ]
           }
@@ -26,19 +26,19 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1",
+                "characterData": "Clergyman",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
@@ -58,17 +58,17 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "Boss_Level1",
+                "characterData": "Discipled Inquisitor",
                 "useBossCharacter": true
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1"
+                "characterData": "Clergyman"
               },
               {
-                "characterData": "HordeT1",
+                "characterData": "Clergyman",
                 "requiredCovenant": "Ascension05MinorBattlesNewEnemies"
               }
             ]
@@ -79,14 +79,14 @@
   },
   "bossVariant": {
     "bossVariants": [
-      "Boss_Level1",
-      "Boss_Level1Junker"
+      "Discipled Inquisitor",
+      "Chains the Sighted"
     ]
   },
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
-    "TreasureBagLvl1Gold"
+    "Collector"
   ],
   "traitorUnitsPool": [
 
@@ -106,8 +106,8 @@
   "battleNameKey": "ScenarioData_battleNameKey-e5a730f7f09fbbbc-8d8a789e58e63af4da7f1608078d7f89-v2",
   "battleDescriptionKey": "ScenarioData_battleDescriptionKey-7f9a7938c659a701-8d8a789e58e63af4da7f1608078d7f89-v2",
   "displayedEnemies": [
-    "HordeT1",
-    "HordeT1"
+    "Clergyman",
+    "Clergyman"
   ],
   "displayedEnemyOffsets": [
 

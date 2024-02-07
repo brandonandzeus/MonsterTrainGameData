@@ -6,13 +6,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ClericT1"
+                "characterData": "Trusted Priest"
               },
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               },
               {
-                "characterData": "HeavyT1Basic"
+                "characterData": "Forged Disciple"
               }
             ]
           }
@@ -23,14 +23,14 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               },
               {
-                "characterData": "ClericT1",
+                "characterData": "Trusted Priest",
                 "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               },
               {
-                "characterData": "HeavyT1GainAttackOnSpellcast"
+                "characterData": "Overcharged Apprentice"
               }
             ]
           }
@@ -41,10 +41,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "HeavyT1Basic"
+                "characterData": "Forged Disciple"
               },
               {
-                "characterData": "HeavyT1Basic",
+                "characterData": "Forged Disciple",
                 "requiredCovenant": "Ascension01StrongerEnemies"
               }
             ]
@@ -56,13 +56,13 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               },
               {
-                "characterData": "HeavyT1GainAttackOnSpellcast"
+                "characterData": "Overcharged Apprentice"
               },
               {
-                "characterData": "ShieldGuardT1"
+                "characterData": "Disciple Protector"
               }
             ]
           }
@@ -73,10 +73,10 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "AttackerT1"
+                "characterData": "Discipled Footsoldier"
               },
               {
-                "characterData": "HeavyT1Basic"
+                "characterData": "Forged Disciple"
               }
             ]
           }
@@ -87,7 +87,7 @@
           {
             "characterDataContainerList": [
               {
-                "characterData": "ShieldGuardT1",
+                "characterData": "Disciple Protector",
                 "requiredCovenant": "Ascension03MajorBattlesNewEnemies"
               }
             ]
@@ -96,8 +96,8 @@
       }
     ],
     "bossType": 1,
-    "bossCharacter": "Boss_Level3Armor",
-    "hardBossCharacter": "Boss_Level3Armor_Harder"
+    "bossCharacter": "Daedalus, the Professor Plating Seal",
+    "hardBossCharacter": "Daedalus, the Professor Plating Seal Hard"
   },
   "difficulty": 2,
   "enemyBlessingData": [
