@@ -388,18 +388,9 @@
     "forceCrystalVariant": true,
     "bossType": 2,
     "bossCharactersPerFloor": [
-      {
-        "m_FileID": 0,
-        "m_PathID": 16364
-      },
-      {
-        "m_FileID": 0,
-        "m_PathID": 16366
-      },
-      {
-        "m_FileID": 0,
-        "m_PathID": 16365
-      }
+      "The Last Divinity Feet",
+      "The Last Divinity Torso",
+      "The Last Divinity Head"
     ]
   },
   "difficulty": 2,
