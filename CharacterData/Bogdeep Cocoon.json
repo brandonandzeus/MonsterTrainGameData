@@ -2,7 +2,6 @@
   "nameKey": "CharacterData_nameKey-e76268dab3f00261-0e426e2c2b599dc4ab62b7e24310d2da-v2",
   "size": 3,
   "health": 1,
-  "attackDamage": 0,
   "startingStatusEffects": [
     {
       "statusId": "hatch",

@@ -1,7 +1,8 @@
 {
   "nameKey": "CharacterData_nameKey-5d0e718c21c5acf6-0067a292ba67a0b42850f47b3ffad1bd-v2",
   "pactCrystalsRequiredCount": 14,
-  "pactCrystalsVariantData": "MageT3Junker_Shard",
+  "pactCrystalsVariantData": "Purifier Shard",
+  "size": 2,
   "health": 10,
   "attackDamage": 3,
   "triggers": [

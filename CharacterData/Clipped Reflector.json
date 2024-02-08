@@ -1,7 +1,8 @@
 {
   "nameKey": "CharacterData_nameKey-4bbbf87c587d99fc-432fa1add4d502349855cd7f607737e6-v2",
   "pactCrystalsRequiredCount": 22,
-  "pactCrystalsVariantData": "HeavyT2SelfRepair_Shard",
+  "pactCrystalsVariantData": "Clipped Reflector Shard",
+  "size": 2,
   "health": 60,
   "attackDamage": 4,
   "triggers": [

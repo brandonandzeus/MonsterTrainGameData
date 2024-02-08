@@ -3,7 +3,6 @@
   "size": 3,
   "health": 100,
   "deathType": 1,
-  "attackDamage": 0,
   "startingStatusEffects": [
     {
       "statusId": "armor",

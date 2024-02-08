@@ -1,6 +1,8 @@
 {
   "nameKey": "CharacterData_nameKey-299a287205950208-c4afac1bf1d093a4f871cf7eb20d5f2b-v2",
+  "size": 2,
   "health": 5,
+  "attackDamage": 10,
   "startingStatusEffects": [
     {
       "statusId": "buff",

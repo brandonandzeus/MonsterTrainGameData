@@ -3,7 +3,6 @@
   "size": 1,
   "health": 10,
   "canAttack": false,
-  "attackDamage": 0,
   "triggers": [
     {
       "trigger": 19,

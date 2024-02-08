@@ -1,11 +1,10 @@
 {
   "nameKey": "CharacterData_nameKey-6b88892b747d1b29-b308bfdfc82f7c646ac1cf3972999b12-v2",
   "pactCrystalsRequiredCount": 16,
-  "pactCrystalsVariantData": "ShieldGuardT3_Shard",
+  "pactCrystalsVariantData": "Steelwings Shard",
   "size": 3,
   "health": 15,
   "deathType": 1,
-  "attackDamage": 0,
   "startingStatusEffects": [
     {
       "statusId": "armor",

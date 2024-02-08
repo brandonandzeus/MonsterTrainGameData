@@ -2,6 +2,7 @@
   "nameKey": "CharacterData_nameKey-a7e2055f3f2b09e5-b19f82feb13dc7543a9d66e592c59dd4-v2",
   "size": 3,
   "health": 15,
+  "attackDamage": 10,
   "startingStatusEffects": [
     {
       "statusId": "inert",

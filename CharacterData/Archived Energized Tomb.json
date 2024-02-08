@@ -3,7 +3,6 @@
   "size": 1,
   "health": 10,
   "canAttack": false,
-  "attackDamage": 0,
   "triggers": [
     {
       "descriptionKey": "CharacterData_descriptionKey-c1c6e31752b6446d-389bf8d127aaf9c4a9662c38b4f079b4-v2",

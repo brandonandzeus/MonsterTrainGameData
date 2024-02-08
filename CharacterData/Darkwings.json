@@ -1,8 +1,10 @@
 {
   "nameKey": "CharacterData_nameKey-e68ec85f5aba7002-9dff62cc719cd304f825ce2d8c208f23-v2",
   "pactCrystalsRequiredCount": 20,
-  "pactCrystalsVariantData": "HeavyT3DeathHarvester_Shard",
+  "pactCrystalsVariantData": "Darkwings Shard",
+  "size": 2,
   "health": 110,
+  "attackDamage": 10,
   "triggers": [
     {
       "trigger": 18,

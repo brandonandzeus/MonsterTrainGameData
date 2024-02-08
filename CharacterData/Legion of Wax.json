@@ -13,6 +13,7 @@
           "paramInt": 2,
           "paramCharacterData": {
             "nameKey": "CharacterData_nameKey-1c748e74b6aa8d31-98bea84b89758ed44af8374fd8e90280-v2",
+            "size": 2,
             "health": 4,
             "attackDamage": 4,
             "triggers": [

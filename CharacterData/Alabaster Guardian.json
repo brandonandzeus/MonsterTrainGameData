@@ -9,8 +9,8 @@
       }
     }
   ],
+  "size": 2,
   "health": 70,
-  "attackDamage": 0,
   "startingStatusEffects": [
     {
       "statusId": "immobile",

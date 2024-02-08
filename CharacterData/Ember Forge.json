@@ -3,7 +3,6 @@
   "size": 3,
   "health": 20,
   "deathType": 1,
-  "attackDamage": 0,
   "subtypeKeys": [
     "SubtypesData_Automaton"
   ],

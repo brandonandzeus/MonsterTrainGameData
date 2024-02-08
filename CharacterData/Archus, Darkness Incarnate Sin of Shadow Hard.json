@@ -64,7 +64,6 @@
                 "canBeHealed": false,
                 "canAttack": false,
                 "ascendsTrainAutomatically": false,
-                "attackDamage": 0,
                 "startingStatusEffects": [
                   {
                     "statusId": "untouchable",
@@ -127,7 +126,6 @@
                 "canBeHealed": false,
                 "canAttack": false,
                 "ascendsTrainAutomatically": false,
-                "attackDamage": 0,
                 "startingStatusEffects": [
                   {
                     "statusId": "untouchable",

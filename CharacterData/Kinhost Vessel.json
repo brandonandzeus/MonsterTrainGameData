@@ -2,7 +2,6 @@
   "nameKey": "CharacterData_nameKey-7f23d3f04cda86b0-92c3e0fbcdc57b441ae72be7873e503d-v2",
   "size": 1,
   "health": 1,
-  "attackDamage": 0,
   "startingStatusEffects": [
     {
       "statusId": "hatch",
@@ -45,6 +44,7 @@
           "targetMode": 5,
           "paramCharacterData": {
             "nameKey": "CharacterData_nameKey-c8974e656cd84d1e-f83d8a195ea0adf4697455f4280b567c-v2",
+            "size": 2,
             "health": 10,
             "attackDamage": 30,
             "startingStatusEffects": [

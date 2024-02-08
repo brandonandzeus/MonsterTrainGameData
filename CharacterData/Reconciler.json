@@ -1,7 +1,8 @@
 {
   "nameKey": "CharacterData_nameKey-12de9ff6ae24442e-df9db873cb68978489183d73421d5d90-v2",
   "pactCrystalsRequiredCount": 17,
-  "pactCrystalsVariantData": "MageT1Junker_Shard",
+  "pactCrystalsVariantData": "Reconciler Shard",
+  "size": 2,
   "health": 2,
   "attackDamage": 1,
   "triggers": [

@@ -1,7 +1,8 @@
 {
   "nameKey": "CharacterData_nameKey-fc06cd00d59a391d-8fb96538453aa4c4898a60e8fe8bc628-v2",
   "pactCrystalsRequiredCount": 25,
-  "pactCrystalsVariantData": "HeavyT2GrowOnKill_Shard",
+  "pactCrystalsVariantData": "Master of Light Shard",
+  "size": 2,
   "health": 65,
   "attackDamage": 3,
   "startingStatusEffects": [

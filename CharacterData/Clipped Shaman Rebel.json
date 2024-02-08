@@ -2,7 +2,6 @@
   "nameKey": "CharacterData_nameKey-511d4d189a8fbecb-bb64dd137c2c819468a3a22efce6717e-v2",
   "size": 1,
   "health": 20,
-  "attackDamage": 0,
   "startingStatusEffects": [
     {
       "statusId": "damage shield",

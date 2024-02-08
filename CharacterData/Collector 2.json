@@ -1,9 +1,9 @@
 {
   "nameKey": "CharacterData_nameKey-7c91a712b93f4d6b-066ba0847e31eff4f8dc782cfd61710d-v2",
+  "size": 2,
   "health": 3,
   "canAttack": false,
   "ascendsTrainAutomatically": false,
-  "attackDamage": 0,
   "triggers": [
     {
       "descriptionKey": "CharacterData_descriptionKey-f0d29aaba007d3ce-066ba0847e31eff4f8dc782cfd61710d-v2",

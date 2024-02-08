@@ -1,6 +1,8 @@
 {
   "nameKey": "CharacterData_nameKey-dc5a1f98c4389c55-9a735b0e897f3f4428d6c6b47309dff2-v2",
+  "size": 2,
   "health": 10,
+  "attackDamage": 10,
   "startingStatusEffects": [
     {
       "statusId": "rooted",

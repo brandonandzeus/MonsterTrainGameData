@@ -3,7 +3,6 @@
   "size": 4,
   "blockVisualSizeIncrease": true,
   "health": 200,
-  "attackDamage": 0,
   "triggers": [
     {
       "trigger": 32,

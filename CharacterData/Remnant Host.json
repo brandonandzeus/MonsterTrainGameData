@@ -2,7 +2,6 @@
   "nameKey": "CharacterData_nameKey-257590e80c9ae749-23caaea7ff575224bb27ebc4d40ec2b5-v2",
   "size": 1,
   "health": 1,
-  "attackDamage": 0,
   "deathSlidesBackwards": false,
   "triggers": [
     {
@@ -17,6 +16,7 @@
             "nameKey": "CharacterData_nameKey-a09582df06a6e0c4-633eff7c4b07bc543984e120636254b2-v2",
             "size": 1,
             "health": 5,
+            "attackDamage": 10,
             "startingStatusEffects": [
               {
                 "statusId": "ephemeral",

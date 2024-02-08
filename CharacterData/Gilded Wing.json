@@ -1,7 +1,8 @@
 {
   "nameKey": "CharacterData_nameKey-45172f622380e6a5-dd033c561bd0bfd4c88b3ababa14b0bf-v2",
   "pactCrystalsRequiredCount": 18,
-  "pactCrystalsVariantData": "HeavyT3Basic_Shard",
+  "pactCrystalsVariantData": "Gilded Wing Shard",
+  "size": 2,
   "health": 130,
   "attackDamage": 8,
   "subtypeKeys": [

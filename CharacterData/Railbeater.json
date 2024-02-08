@@ -1,6 +1,8 @@
 {
   "nameKey": "CharacterData_nameKey-b466fb1221595497-207bc586be04f2f40b7d1660dfcdb4ea-v2",
+  "size": 2,
   "health": 10,
+  "attackDamage": 10,
   "startingStatusEffects": [
     {
       "statusId": "armor",

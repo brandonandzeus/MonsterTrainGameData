@@ -42,6 +42,7 @@
   "health": 275,
   "isMiniboss": true,
   "deathType": 1,
+  "attackDamage": 10,
   "startingStatusEffects": [
     {
       "statusId": "relentless",

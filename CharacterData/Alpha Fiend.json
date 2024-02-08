@@ -3,6 +3,7 @@
   "size": 3,
   "health": 25,
   "deathType": 1,
+  "attackDamage": 10,
   "triggers": [
     {
       "trigger": 3,

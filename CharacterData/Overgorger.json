@@ -2,7 +2,6 @@
   "nameKey": "CharacterData_nameKey-4f4770de4b96da00-140f50614a678a94c8f80092cc660fa5-v2",
   "size": 3,
   "health": 15,
-  "attackDamage": 0,
   "subtypeKeys": [
     "SubtypesData_Forager",
     "SubtypesData_Chosen"

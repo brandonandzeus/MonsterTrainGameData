@@ -51,9 +51,10 @@
               "paramCharacterData": {
                 "nameKey": "CharacterData_nameKey-58f78255e06f0f66-380369b69e6b2aa478c2d40ad56b910e-v2",
                 "pactCrystalsRequiredCount": 10,
-                "pactCrystalsVariantData": "AttackerT3_Shard",
+                "pactCrystalsVariantData": "Lightwings Shard",
                 "size": 1,
                 "health": 3,
+                "attackDamage": 10,
                 "attackTeleportsToDefender": false,
                 "subtypeKeys": [
                   "SubtypesData_AttackerT3"

@@ -1,6 +1,8 @@
 {
   "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "size": 2,
   "health": 130,
+  "attackDamage": 10,
   "triggers": [
     {
       "trigger": 18,

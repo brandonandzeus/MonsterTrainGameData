@@ -63,7 +63,6 @@
                 "health": 1,
                 "canAttack": false,
                 "ascendsTrainAutomatically": false,
-                "attackDamage": 0,
                 "triggers": [
                   {
                     "trigger": 24,

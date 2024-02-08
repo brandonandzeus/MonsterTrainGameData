@@ -1,8 +1,8 @@
 {
   "nameKey": "CharacterData_nameKey-1e63648fbc1ec1c8-64ad234bf77ec8b41ad42fc905c71920-v2",
+  "size": 2,
   "health": 10,
   "deathType": 1,
-  "attackDamage": 0,
   "subtypeKeys": [
     "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
   ],

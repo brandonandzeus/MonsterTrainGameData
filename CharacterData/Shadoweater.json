@@ -2,7 +2,6 @@
   "nameKey": "CharacterData_nameKey-98e65039ba6b1a5b-2327020f80e424847ac8ee86603ac764-v2",
   "size": 3,
   "health": 50,
-  "attackDamage": 0,
   "triggers": [
     {
       "trigger": 22,

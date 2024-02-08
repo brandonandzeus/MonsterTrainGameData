@@ -1,6 +1,8 @@
 {
   "nameKey": "CharacterData_nameKey-fbba9c15201a4755-11a15f5949523af41804f162c783d725-v2",
+  "size": 2,
   "health": 5,
+  "attackDamage": 10,
   "attackTeleportsToDefender": false,
   "startingStatusEffects": [
     {

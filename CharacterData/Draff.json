@@ -2,6 +2,7 @@
   "nameKey": "CharacterData_nameKey-a09582df06a6e0c4-633eff7c4b07bc543984e120636254b2-v2",
   "size": 1,
   "health": 5,
+  "attackDamage": 10,
   "startingStatusEffects": [
     {
       "statusId": "ephemeral",

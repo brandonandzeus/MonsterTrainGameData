@@ -1,7 +1,8 @@
 {
   "nameKey": "CharacterData_nameKey-2ce012a84556c825-1bf4190929deb17459bc63c667811fe3-v2",
   "pactCrystalsRequiredCount": 22,
-  "pactCrystalsVariantData": "HeavyT1Basic_Shard",
+  "pactCrystalsVariantData": "Forged Disciple Shard",
+  "size": 2,
   "health": 25,
   "attackDamage": 2,
   "subtypeKeys": [

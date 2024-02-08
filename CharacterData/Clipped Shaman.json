@@ -1,11 +1,10 @@
 {
   "nameKey": "CharacterData_nameKey-7a6fa0cfbe1ecb14-5dd4342e9dba3834a8b93cccafbc6234-v2",
   "pactCrystalsRequiredCount": 12,
-  "pactCrystalsVariantData": "ClericT2_Shard",
+  "pactCrystalsVariantData": "Clipped Shaman Shard",
   "size": 1,
   "health": 2,
   "canAttack": false,
-  "attackDamage": 0,
   "attackTeleportsToDefender": false,
   "triggers": [
     {
