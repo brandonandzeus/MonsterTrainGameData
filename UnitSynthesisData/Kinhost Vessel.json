@@ -1,0 +1,138 @@
+{
+  "m_Name": "MonsterKinhostVesselSynthesis",
+  "id": "8b6e8c19-1d35-4482-88b3-7b8fbcf44af1",
+  "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-1d952ede12bce2ee-e5ba36e9c72efe94e954be18e7777f4c-v2",
+  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "upgradeIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "hideUpgradeIconOnCard": true,
+  "useUpgradeHighlightTextTags": true,
+  "isUnitSynthesisUpgrade": true,
+  "isUnique": false,
+  "sourceSynthesisUnit": "Kinhost Vessel",
+  "linkedPactDuplicateRarity": 2,
+  "bonusDamage": 0,
+  "bonusHP": 0,
+  "costReduction": 0,
+  "xCostReduction": 0,
+  "bonusHeal": 0,
+  "bonusSize": 0,
+  "statusEffectUpgrades": [
+    {
+      "statusId": "armor",
+      "count": 10
+    }
+  ],
+  "traitDataUpgrades": [
+
+  ],
+  "removeTraitUpgrades": [
+
+  ],
+  "triggerUpgrades": [
+    {
+      "trigger": 3,
+      "descriptionKey": "CardUpgradeData_descriptionKey-268b2420b42d4628-e5ba36e9c72efe94e954be18e7777f4c-v2",
+      "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "displayEffectHintText": false,
+      "hideTriggerTooltip": false,
+      "effects": [
+        {
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": 0,
+          "targetModeStatusEffectsFilter": [
+
+          ],
+          "targetModeHealthFilter": 0,
+          "targetIgnoreBosses": false,
+          "filterBasedOnMainSubClass": false,
+          "copyModifiersFromSource": false,
+          "ignoreTemporaryModifiersFromSource": false,
+          "targetTeamType": 1,
+          "targetCharacterSubtype": "SubtypesData_None",
+          "targetCardType": 0,
+          "targetCardSelectionMode": 0,
+          "animToPlay": 0,
+          "appliedToSelfVFX": {
+            "vfxPrefabLeft": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "vfxPrefabRight": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spawnLocation": 0,
+            "facing": 0
+          },
+          "appliedVFX": {
+            "vfxPrefabLeft": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "vfxPrefabRight": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spawnLocation": 0,
+            "facing": 0
+          },
+          "shouldTest": true,
+          "useIntRange": false,
+          "paramInt": 0,
+          "additionalParamInt": 0,
+          "paramStr": "",
+          "paramBool": false,
+          "paramSubtype": "SubtypesData_None",
+          "paramMinInt": 0,
+          "paramMaxInt": 0,
+          "paramMultiplier": 1.0,
+          "useStatusEffectStackMultiplier": false,
+          "statusEffectStackMultiplier": "",
+          "paramCharacterData": null,
+          "paramAdditionalCharacterData": null,
+          "paramCharacterDataPool": [
+
+          ],
+          "paramRoomData": null,
+          "paramCardPool": [
+
+          ],
+          "paramCardFilter": null,
+          "paramTrigger": 0,
+          "paramStatusEffects": [
+            {
+              "statusId": "corrupt_poison",
+              "count": 1
+            }
+          ],
+          "paramCardUpgradeData": null,
+          "paramTimingDelays": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "hideTooltip": false,
+          "additionalTooltips": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "cardTriggerUpgrades": [
+
+  ],
+  "roomModifierUpgrades": [
+
+  ],
+  "filters": [
+
+  ],
+  "upgradesToRemove": [
+
+  ]
+}

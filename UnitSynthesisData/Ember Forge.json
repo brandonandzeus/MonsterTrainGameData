@@ -1,0 +1,63 @@
+{
+  "m_Name": "MonsterEmberFurnaceSynthesis",
+  "id": "a8f5add0-0889-45aa-9075-c2ebc4ba43b8",
+  "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-03383473225ec113-54a1f5a8de28db44f8049e97094e306d-v2",
+  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "upgradeIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "hideUpgradeIconOnCard": true,
+  "useUpgradeHighlightTextTags": true,
+  "isUnitSynthesisUpgrade": true,
+  "isUnique": false,
+  "sourceSynthesisUnit": "Ember Forge",
+  "linkedPactDuplicateRarity": 2,
+  "bonusDamage": 0,
+  "bonusHP": 0,
+  "costReduction": 0,
+  "xCostReduction": 0,
+  "bonusHeal": 0,
+  "bonusSize": 0,
+  "statusEffectUpgrades": [
+
+  ],
+  "traitDataUpgrades": [
+
+  ],
+  "removeTraitUpgrades": [
+
+  ],
+  "triggerUpgrades": [
+
+  ],
+  "cardTriggerUpgrades": [
+
+  ],
+  "roomModifierUpgrades": [
+    {
+      "roomStateModifierClassName": "RoomStateEnergyModifier",
+      "descriptionKey": "CardUpgradeData_descriptionKey-32c0fbfbaabd6118-54a1f5a8de28db44f8049e97094e306d-v2",
+      "descriptionKeyInPlay": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+      "icon": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "paramInt": 1,
+      "paramSubtype": "SubtypesData_None",
+      "paramStatusEffects": [
+
+      ],
+      "extraTooltipTitleKey": "",
+      "extraTooltipBodyKey": "",
+      "paramCardUpgradeData": null
+    }
+  ],
+  "filters": [
+
+  ],
+  "upgradesToRemove": [
+
+  ]
+}

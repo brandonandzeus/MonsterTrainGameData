@@ -1,0 +1,47 @@
+{
+  "m_Name": "ConsumerOfCrownsSynthesis",
+  "id": "041ab0de-0817-4b39-aef2-8b6ddd5f2440",
+  "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-741e90e8ed5ab89f-2e4e71502afb00f4eb1f7035fe499b15-v2",
+  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "upgradeIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "hideUpgradeIconOnCard": true,
+  "useUpgradeHighlightTextTags": true,
+  "isUnitSynthesisUpgrade": true,
+  "isUnique": false,
+  "sourceSynthesisUnit": "Consumer of Crowns",
+  "linkedPactDuplicateRarity": 2,
+  "bonusDamage": 10,
+  "bonusHP": 10,
+  "costReduction": 3,
+  "xCostReduction": 0,
+  "bonusHeal": 0,
+  "bonusSize": 0,
+  "statusEffectUpgrades": [
+
+  ],
+  "traitDataUpgrades": [
+
+  ],
+  "removeTraitUpgrades": [
+
+  ],
+  "triggerUpgrades": [
+
+  ],
+  "cardTriggerUpgrades": [
+
+  ],
+  "roomModifierUpgrades": [
+
+  ],
+  "filters": [
+
+  ],
+  "upgradesToRemove": [
+
+  ]
+}

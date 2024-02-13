@@ -1,0 +1,54 @@
+{
+  "m_Name": "DraffSynthesis",
+  "id": "e08a30c1-6993-49ec-ab44-bbcad16b4ff4",
+  "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-248ded60c85f19b2-133569edb9cb71040be5fb032350983f-v2",
+  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "upgradeIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "hideUpgradeIconOnCard": true,
+  "useUpgradeHighlightTextTags": true,
+  "isUnitSynthesisUpgrade": true,
+  "isUnique": false,
+  "sourceSynthesisUnit": "Draff",
+  "linkedPactDuplicateRarity": 2,
+  "bonusDamage": 0,
+  "bonusHP": 0,
+  "costReduction": 0,
+  "xCostReduction": 0,
+  "bonusHeal": 0,
+  "bonusSize": 0,
+  "statusEffectUpgrades": [
+    {
+      "statusId": "multistrike",
+      "count": 1
+    },
+    {
+      "statusId": "ephemeral",
+      "count": 1
+    }
+  ],
+  "traitDataUpgrades": [
+
+  ],
+  "removeTraitUpgrades": [
+
+  ],
+  "triggerUpgrades": [
+
+  ],
+  "cardTriggerUpgrades": [
+
+  ],
+  "roomModifierUpgrades": [
+
+  ],
+  "filters": [
+
+  ],
+  "upgradesToRemove": [
+
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "m_Name": "MonsterEpicureSynthesis",
+  "id": "ddf89c88-9fa7-49bc-a8c0-cbcab2a4bc7d",
+  "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-20e2d9e90243dffa-ab633614e4fc57c4ba28c769b882adc1-v2",
+  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "upgradeIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "hideUpgradeIconOnCard": true,
+  "useUpgradeHighlightTextTags": true,
+  "isUnitSynthesisUpgrade": true,
+  "isUnique": false,
+  "sourceSynthesisUnit": "Overgorger",
+  "linkedPactDuplicateRarity": 2,
+  "bonusDamage": 0,
+  "bonusHP": 10,
+  "costReduction": 0,
+  "xCostReduction": 0,
+  "bonusHeal": 0,
+  "bonusSize": 0,
+  "statusEffectUpgrades": [
+
+  ],
+  "traitDataUpgrades": [
+
+  ],
+  "removeTraitUpgrades": [
+
+  ],
+  "triggerUpgrades": [
+
+  ],
+  "cardTriggerUpgrades": [
+    {
+      "trigger": 11,
+      "descriptionKey": "CardUpgradeData_descriptionKey-b00b305a2bab72ed-ab633614e4fc57c4ba28c769b882adc1-v2",
+      "cardTriggerEffects": [
+        {
+          "persistenceMode": 0,
+          "cardTriggerEffect": "CardTriggerEffectBuffCharacterDamage",
+          "buffEffectType": "None",
+          "paramInt": 1,
+          "paramUpgrade": null
+        }
+      ],
+      "cardEffects": [
+
+      ]
+    }
+  ],
+  "roomModifierUpgrades": [
+
+  ],
+  "filters": [
+
+  ],
+  "upgradesToRemove": [
+
+  ]
+}

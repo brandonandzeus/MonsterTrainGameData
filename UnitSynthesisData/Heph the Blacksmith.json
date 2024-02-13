@@ -1,0 +1,50 @@
+{
+  "m_Name": "MonsterHephSynthesis",
+  "id": "09070a52-394f-4372-8c66-39331ab5cfa4",
+  "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-7c0f173d8b1d1e01-ca7e8f613e39a6e4c9c1837f2bf6bb1e-v2",
+  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "upgradeIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "hideUpgradeIconOnCard": true,
+  "useUpgradeHighlightTextTags": true,
+  "isUnitSynthesisUpgrade": true,
+  "isUnique": false,
+  "sourceSynthesisUnit": "Heph the Blacksmith",
+  "linkedPactDuplicateRarity": 2,
+  "bonusDamage": 30,
+  "bonusHP": 30,
+  "costReduction": 0,
+  "xCostReduction": 0,
+  "bonusHeal": 0,
+  "bonusSize": 2,
+  "statusEffectUpgrades": [
+    {
+      "statusId": "trample",
+      "count": 1
+    }
+  ],
+  "traitDataUpgrades": [
+
+  ],
+  "removeTraitUpgrades": [
+
+  ],
+  "triggerUpgrades": [
+
+  ],
+  "cardTriggerUpgrades": [
+
+  ],
+  "roomModifierUpgrades": [
+
+  ],
+  "filters": [
+
+  ],
+  "upgradesToRemove": [
+
+  ]
+}
