@@ -1,50 +1,14 @@
 {
-  "m_Name": "MonsterAnimusBowSynthesis",
-  "id": "c7ec1441-9e95-4823-b2d0-3ad68f8c10dd",
-  "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-fb75b58f5a0e99b1-11a01517ca2b9404a98173262b43c752-v2",
-  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "upgradeIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "hideUpgradeIconOnCard": true,
-  "useUpgradeHighlightTextTags": true,
   "isUnitSynthesisUpgrade": true,
-  "isUnique": false,
   "sourceSynthesisUnit": "Animus of Will",
   "linkedPactDuplicateRarity": 2,
   "bonusDamage": -15,
-  "bonusHP": 0,
-  "costReduction": 0,
-  "xCostReduction": 0,
-  "bonusHeal": 0,
-  "bonusSize": 0,
   "statusEffectUpgrades": [
     {
       "statusId": "multistrike",
       "count": 1
     }
-  ],
-  "traitDataUpgrades": [
-
-  ],
-  "removeTraitUpgrades": [
-
-  ],
-  "triggerUpgrades": [
-
-  ],
-  "cardTriggerUpgrades": [
-
-  ],
-  "roomModifierUpgrades": [
-
-  ],
-  "filters": [
-
-  ],
-  "upgradesToRemove": [
-
   ]
 }

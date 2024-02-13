@@ -1,50 +1,16 @@
 {
-  "m_Name": "MonsterBogdeepCocoonSynthesis",
-  "id": "b7dcdf80-eff2-4d61-b923-22b5b8541462",
-  "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-445b8af41612f102-56ca2607a40557244ac1601f7b589c65-v2",
-  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "upgradeIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "hideUpgradeIconOnCard": true,
-  "useUpgradeHighlightTextTags": true,
   "isUnitSynthesisUpgrade": true,
-  "isUnique": false,
   "sourceSynthesisUnit": "Bogdeep Cocoon",
   "linkedPactDuplicateRarity": 2,
   "bonusDamage": 20,
   "bonusHP": 10,
-  "costReduction": 0,
-  "xCostReduction": 0,
-  "bonusHeal": 0,
   "bonusSize": 1,
   "statusEffectUpgrades": [
     {
       "statusId": "trample",
       "count": 1
     }
-  ],
-  "traitDataUpgrades": [
-
-  ],
-  "removeTraitUpgrades": [
-
-  ],
-  "triggerUpgrades": [
-
-  ],
-  "cardTriggerUpgrades": [
-
-  ],
-  "roomModifierUpgrades": [
-
-  ],
-  "filters": [
-
-  ],
-  "upgradesToRemove": [
-
   ]
 }

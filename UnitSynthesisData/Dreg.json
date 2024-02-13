@@ -1,50 +1,15 @@
 {
-  "m_Name": "DregSynthesis",
-  "id": "bf92018c-3ee8-4c5c-91b4-aef9c4890204",
-  "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-d41373f57151d17f-6e51e1dd92a0f334ba258fbb30850799-v2",
-  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "upgradeIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "hideUpgradeIconOnCard": true,
-  "useUpgradeHighlightTextTags": true,
   "isUnitSynthesisUpgrade": true,
-  "isUnique": false,
   "sourceSynthesisUnit": "Dreg",
   "linkedPactDuplicateRarity": 2,
   "bonusDamage": 10,
   "bonusHP": 10,
-  "costReduction": 0,
-  "xCostReduction": 0,
-  "bonusHeal": 0,
-  "bonusSize": 0,
   "statusEffectUpgrades": [
     {
       "statusId": "ephemeral",
       "count": 2
     }
-  ],
-  "traitDataUpgrades": [
-
-  ],
-  "removeTraitUpgrades": [
-
-  ],
-  "triggerUpgrades": [
-
-  ],
-  "cardTriggerUpgrades": [
-
-  ],
-  "roomModifierUpgrades": [
-
-  ],
-  "filters": [
-
-  ],
-  "upgradesToRemove": [
-
   ]
 }

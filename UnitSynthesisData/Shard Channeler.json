@@ -1,138 +1,32 @@
 {
-  "m_Name": "ShardChannelerSynthesis",
-  "id": "31a4dfbb-d52a-4d64-bc3f-d976ec1e5eeb",
-  "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-510fe2b66c36da1c-06465d9418210b7479be929e5901968b-v2",
-  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "upgradeIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "hideUpgradeIconOnCard": true,
-  "useUpgradeHighlightTextTags": true,
   "isUnitSynthesisUpgrade": true,
-  "isUnique": false,
   "sourceSynthesisUnit": "Shard Channeler",
   "linkedPactDuplicateRarity": 2,
-  "bonusDamage": 0,
-  "bonusHP": 0,
-  "costReduction": 0,
-  "xCostReduction": 0,
-  "bonusHeal": 0,
-  "bonusSize": 0,
   "statusEffectUpgrades": [
     {
       "statusId": "spikes",
       "count": 5
     }
   ],
-  "traitDataUpgrades": [
-
-  ],
-  "removeTraitUpgrades": [
-
-  ],
   "triggerUpgrades": [
     {
       "trigger": 1,
       "descriptionKey": "CardUpgradeData_descriptionKey-50589a6dfb7fd40d-06465d9418210b7479be929e5901968b-v2",
-      "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "displayEffectHintText": false,
-      "hideTriggerTooltip": false,
       "effects": [
         {
           "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 0,
-          "targetModeStatusEffectsFilter": [
-
-          ],
-          "targetModeHealthFilter": 0,
-          "targetIgnoreBosses": false,
-          "filterBasedOnMainSubClass": false,
-          "copyModifiersFromSource": false,
-          "ignoreTemporaryModifiersFromSource": false,
           "targetTeamType": 2,
-          "targetCharacterSubtype": "SubtypesData_None",
-          "targetCardType": 0,
-          "targetCardSelectionMode": 0,
-          "animToPlay": 0,
-          "appliedToSelfVFX": {
-            "vfxPrefabLeft": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "vfxPrefabRight": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "spawnLocation": 0,
-            "facing": 0
-          },
-          "appliedVFX": {
-            "vfxPrefabLeft": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "vfxPrefabRight": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "spawnLocation": 0,
-            "facing": 0
-          },
-          "shouldTest": true,
-          "useIntRange": false,
           "paramInt": 100,
-          "additionalParamInt": 0,
-          "paramStr": "",
-          "paramBool": false,
-          "paramSubtype": "SubtypesData_None",
-          "paramMinInt": 0,
-          "paramMaxInt": 0,
-          "paramMultiplier": 1.0,
-          "useStatusEffectStackMultiplier": false,
-          "statusEffectStackMultiplier": "",
-          "paramCharacterData": null,
-          "paramAdditionalCharacterData": null,
-          "paramCharacterDataPool": [
-
-          ],
-          "paramRoomData": null,
-          "paramCardPool": [
-
-          ],
-          "paramCardFilter": null,
-          "paramTrigger": 0,
           "paramStatusEffects": [
             {
               "statusId": "spikes",
               "count": 2
             }
-          ],
-          "paramCardUpgradeData": null,
-          "paramTimingDelays": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "hideTooltip": false,
-          "additionalTooltips": [
-
           ]
         }
       ]
     }
-  ],
-  "cardTriggerUpgrades": [
-
-  ],
-  "roomModifierUpgrades": [
-
-  ],
-  "filters": [
-
-  ],
-  "upgradesToRemove": [
-
   ]
 }

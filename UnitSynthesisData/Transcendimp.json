@@ -1,50 +1,13 @@
 {
-  "m_Name": "TranscendimpSynthesis",
-  "id": "3271635a-dfce-4e39-aca5-e9926cae619f",
-  "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-fc1426021b09a587-87a0e0124dea70345a51b2d8df18d9de-v2",
-  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "upgradeIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "hideUpgradeIconOnCard": true,
-  "useUpgradeHighlightTextTags": true,
   "isUnitSynthesisUpgrade": true,
-  "isUnique": false,
   "sourceSynthesisUnit": "Transcendimp",
   "linkedPactDuplicateRarity": 2,
-  "bonusDamage": 0,
-  "bonusHP": 0,
-  "costReduction": 0,
-  "xCostReduction": 0,
-  "bonusHeal": 0,
-  "bonusSize": 0,
   "statusEffectUpgrades": [
     {
       "statusId": "endless",
       "count": 1
     }
-  ],
-  "traitDataUpgrades": [
-
-  ],
-  "removeTraitUpgrades": [
-
-  ],
-  "triggerUpgrades": [
-
-  ],
-  "cardTriggerUpgrades": [
-
-  ],
-  "roomModifierUpgrades": [
-
-  ],
-  "filters": [
-
-  ],
-  "upgradesToRemove": [
-
   ]
 }

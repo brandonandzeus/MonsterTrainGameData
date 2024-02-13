@@ -1,63 +1,14 @@
 {
-  "m_Name": "WildwoodCustodianSynthesis",
-  "id": "baa69ed4-f7bc-4812-a565-c8bd71e701ea",
-  "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-8d97ed436a1502d9-e820006c0bd236649997a9933e8a050e-v2",
-  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "upgradeIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "hideUpgradeIconOnCard": true,
-  "useUpgradeHighlightTextTags": true,
   "isUnitSynthesisUpgrade": true,
-  "isUnique": false,
   "sourceSynthesisUnit": "Wildwood Custodian",
   "linkedPactDuplicateRarity": 2,
-  "bonusDamage": 0,
-  "bonusHP": 0,
-  "costReduction": 0,
-  "xCostReduction": 0,
-  "bonusHeal": 0,
-  "bonusSize": 0,
-  "statusEffectUpgrades": [
-
-  ],
-  "traitDataUpgrades": [
-
-  ],
-  "removeTraitUpgrades": [
-
-  ],
-  "triggerUpgrades": [
-
-  ],
-  "cardTriggerUpgrades": [
-
-  ],
   "roomModifierUpgrades": [
     {
       "roomStateModifierClassName": "RoomStateHandSizeModifier",
       "descriptionKey": "CardUpgradeData_descriptionKey-19de09f2fa4a5025-e820006c0bd236649997a9933e8a050e-v2",
-      "descriptionKeyInPlay": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "icon": {
-        "m_FileID": 0,
-        "m_PathID": 0
-      },
-      "paramInt": 1,
-      "paramSubtype": "SubtypesData_None",
-      "paramStatusEffects": [
-
-      ],
-      "extraTooltipTitleKey": "",
-      "extraTooltipBodyKey": "",
-      "paramCardUpgradeData": null
+      "paramInt": 1
     }
-  ],
-  "filters": [
-
-  ],
-  "upgradesToRemove": [
-
   ]
 }

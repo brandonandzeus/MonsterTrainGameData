@@ -1,109 +1,23 @@
 {
-  "m_Name": "MonsterMagicTotemSynthesis",
-  "id": "b20e7e1b-e035-4067-b3f6-b7a3a2bbbce3",
-  "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-cf3448cf40d50209-13f1e281737b32f448ebf4e6152caa15-v2",
-  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "upgradeIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "hideUpgradeIconOnCard": true,
-  "useUpgradeHighlightTextTags": true,
   "isUnitSynthesisUpgrade": true,
-  "isUnique": false,
   "sourceSynthesisUnit": "Molluscmage",
   "linkedPactDuplicateRarity": 2,
   "bonusDamage": 5,
   "bonusHP": 3,
-  "costReduction": 0,
-  "xCostReduction": 0,
-  "bonusHeal": 0,
-  "bonusSize": 0,
-  "statusEffectUpgrades": [
-
-  ],
-  "traitDataUpgrades": [
-
-  ],
-  "removeTraitUpgrades": [
-
-  ],
-  "triggerUpgrades": [
-
-  ],
-  "cardTriggerUpgrades": [
-
-  ],
   "roomModifierUpgrades": [
     {
       "roomStateModifierClassName": "RoomStateMagicalPowerModifier",
       "descriptionKey": "CardUpgradeData_descriptionKey-6fedf0985fef97b2-13f1e281737b32f448ebf4e6152caa15-v2",
-      "descriptionKeyInPlay": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "icon": {
-        "m_FileID": 0,
-        "m_PathID": 0
-      },
       "paramInt": 10,
-      "paramSubtype": "SubtypesData_None",
-      "paramStatusEffects": [
-
-      ],
       "extraTooltipTitleKey": "ModifyCard_MagicalPower_TooltipTitle",
       "extraTooltipBodyKey": "ModifyCard_MagicalPower_TooltipBody",
       "paramCardUpgradeData": {
-        "m_Name": "MolluscmageMagicPowerSynthesis",
-        "id": "8d49c1a3-c1e9-44d3-81f6-f4ae4c3a2bba",
-        "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "upgradeIcon": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
-        "hideUpgradeIconOnCard": false,
-        "useUpgradeHighlightTextTags": true,
         "isUnitSynthesisUpgrade": true,
-        "isUnique": false,
-        "sourceSynthesisUnit": null,
-        "linkedPactDuplicateRarity": 4,
         "bonusDamage": 10,
-        "bonusHP": 0,
-        "costReduction": 0,
-        "xCostReduction": 0,
-        "bonusHeal": 10,
-        "bonusSize": 0,
-        "statusEffectUpgrades": [
-
-        ],
-        "traitDataUpgrades": [
-
-        ],
-        "removeTraitUpgrades": [
-
-        ],
-        "triggerUpgrades": [
-
-        ],
-        "cardTriggerUpgrades": [
-
-        ],
-        "roomModifierUpgrades": [
-
-        ],
-        "filters": [
-
-        ],
-        "upgradesToRemove": [
-
-        ]
+        "bonusHeal": 10
       }
     }
-  ],
-  "filters": [
-
-  ],
-  "upgradesToRemove": [
-
   ]
 }

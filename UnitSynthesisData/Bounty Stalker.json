@@ -1,39 +1,14 @@
 {
-  "m_Name": "BountyStalkerSynthesis",
-  "id": "e03b31b4-3d79-4f27-9401-136889835021",
-  "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-a6b4080012b56435-44c2fcc9382d6ed47bf2f3d86baadd5f-v2",
-  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "upgradeIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "hideUpgradeIconOnCard": true,
-  "useUpgradeHighlightTextTags": true,
   "isUnitSynthesisUpgrade": true,
-  "isUnique": false,
   "sourceSynthesisUnit": "Bounty Stalker",
   "linkedPactDuplicateRarity": 2,
-  "bonusDamage": 0,
-  "bonusHP": 0,
-  "costReduction": 0,
-  "xCostReduction": 0,
-  "bonusHeal": 0,
-  "bonusSize": 0,
   "statusEffectUpgrades": [
     {
       "statusId": "stealth",
       "count": 1
     }
-  ],
-  "traitDataUpgrades": [
-
-  ],
-  "removeTraitUpgrades": [
-
-  ],
-  "triggerUpgrades": [
-
   ],
   "cardTriggerUpgrades": [
     {
@@ -41,25 +16,11 @@
       "descriptionKey": "CardUpgradeData_descriptionKey-3168b84ae238664d-44c2fcc9382d6ed47bf2f3d86baadd5f-v2",
       "cardTriggerEffects": [
         {
-          "persistenceMode": 0,
           "cardTriggerEffect": "CardTriggerEffectBuffCharacterDamage",
           "buffEffectType": "None",
-          "paramInt": 4,
-          "paramUpgrade": null
+          "paramInt": 4
         }
-      ],
-      "cardEffects": [
-
       ]
     }
-  ],
-  "roomModifierUpgrades": [
-
-  ],
-  "filters": [
-
-  ],
-  "upgradesToRemove": [
-
   ]
 }

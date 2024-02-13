@@ -1,50 +1,15 @@
 {
-  "m_Name": "MonsterEelGorgonSynthesis",
-  "id": "901b45f0-420f-4564-876d-48f3cd3cc0df",
   "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-9da882d387dc2e89-541bef90f0adb524686b3ffa0c2c0598-v2",
   "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-eda625d6dea2cce9-541bef90f0adb524686b3ffa0c2c0598-v2",
-  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "upgradeIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "hideUpgradeIconOnCard": true,
-  "useUpgradeHighlightTextTags": true,
   "isUnitSynthesisUpgrade": true,
-  "isUnique": false,
   "sourceSynthesisUnit": "Eel Gorgon",
   "linkedPactDuplicateRarity": 2,
-  "bonusDamage": 0,
-  "bonusHP": 0,
   "costReduction": -1,
-  "xCostReduction": 0,
-  "bonusHeal": 0,
-  "bonusSize": 0,
   "statusEffectUpgrades": [
     {
       "statusId": "multistrike",
       "count": 1
     }
-  ],
-  "traitDataUpgrades": [
-
-  ],
-  "removeTraitUpgrades": [
-
-  ],
-  "triggerUpgrades": [
-
-  ],
-  "cardTriggerUpgrades": [
-
-  ],
-  "roomModifierUpgrades": [
-
-  ],
-  "filters": [
-
-  ],
-  "upgradesToRemove": [
-
   ]
 }

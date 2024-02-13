@@ -1,178 +1,26 @@
 {
-  "m_Name": "WicklessBaronSynthesis",
-  "id": "7b8ab761-1547-4c9c-8d1a-8af2592e1e04",
-  "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-41d82cb80c6c2882-e1214798973c0624880ae39110a3cc6f-v2",
-  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "upgradeIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "hideUpgradeIconOnCard": true,
-  "useUpgradeHighlightTextTags": true,
   "isUnitSynthesisUpgrade": true,
-  "isUnique": false,
   "sourceSynthesisUnit": "Wickless Baron",
   "linkedPactDuplicateRarity": 2,
-  "bonusDamage": 0,
-  "bonusHP": 0,
-  "costReduction": 0,
-  "xCostReduction": 0,
-  "bonusHeal": 0,
-  "bonusSize": 0,
-  "statusEffectUpgrades": [
-
-  ],
-  "traitDataUpgrades": [
-
-  ],
-  "removeTraitUpgrades": [
-
-  ],
   "triggerUpgrades": [
     {
       "trigger": 18,
       "descriptionKey": "CardUpgradeData_descriptionKey-8f9e0658d62715c1-e1214798973c0624880ae39110a3cc6f-v2",
-      "additionalTextOnTriggerKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "displayEffectHintText": false,
-      "hideTriggerTooltip": false,
       "effects": [
         {
           "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
           "targetMode": 5,
-          "targetModeStatusEffectsFilter": [
-
-          ],
-          "targetModeHealthFilter": 0,
-          "targetIgnoreBosses": false,
-          "filterBasedOnMainSubClass": false,
-          "copyModifiersFromSource": false,
-          "ignoreTemporaryModifiersFromSource": false,
           "targetTeamType": 0,
-          "targetCharacterSubtype": "SubtypesData_None",
-          "targetCardType": 0,
-          "targetCardSelectionMode": 0,
-          "animToPlay": 0,
-          "appliedToSelfVFX": {
-            "vfxPrefabLeft": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "vfxPrefabRight": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "spawnLocation": 0,
-            "facing": 0
-          },
-          "appliedVFX": {
-            "vfxPrefabLeft": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "vfxPrefabRight": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "spawnLocation": 0,
-            "facing": 0
-          },
-          "shouldTest": true,
-          "useIntRange": false,
           "paramInt": 1,
-          "additionalParamInt": 0,
-          "paramStr": "",
-          "paramBool": false,
-          "paramSubtype": "SubtypesData_None",
-          "paramMinInt": 0,
-          "paramMaxInt": 0,
-          "paramMultiplier": 1.0,
-          "useStatusEffectStackMultiplier": false,
-          "statusEffectStackMultiplier": "",
-          "paramCharacterData": null,
-          "paramAdditionalCharacterData": null,
-          "paramCharacterDataPool": [
-
-          ],
-          "paramRoomData": null,
-          "paramCardPool": [
-
-          ],
-          "paramCardFilter": null,
-          "paramTrigger": 0,
-          "paramStatusEffects": [
-
-          ],
           "paramCardUpgradeData": {
-            "m_Name": "Plus2Attack2HealthSynthesis",
-            "id": "2bdd9c52-56ac-4c31-9b5f-5c4b80cb6f96",
-            "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "upgradeDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "upgradeIcon": {
-              "m_FileID": 0,
-              "m_PathID": 0
-            },
-            "hideUpgradeIconOnCard": false,
-            "useUpgradeHighlightTextTags": true,
             "isUnitSynthesisUpgrade": true,
-            "isUnique": false,
-            "sourceSynthesisUnit": null,
-            "linkedPactDuplicateRarity": 4,
             "bonusDamage": 2,
-            "bonusHP": 2,
-            "costReduction": 0,
-            "xCostReduction": 0,
-            "bonusHeal": 0,
-            "bonusSize": 0,
-            "statusEffectUpgrades": [
-
-            ],
-            "traitDataUpgrades": [
-
-            ],
-            "removeTraitUpgrades": [
-
-            ],
-            "triggerUpgrades": [
-
-            ],
-            "cardTriggerUpgrades": [
-
-            ],
-            "roomModifierUpgrades": [
-
-            ],
-            "filters": [
-
-            ],
-            "upgradesToRemove": [
-
-            ]
-          },
-          "paramTimingDelays": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "hideTooltip": false,
-          "additionalTooltips": [
-
-          ]
+            "bonusHP": 2
+          }
         }
       ]
     }
-  ],
-  "cardTriggerUpgrades": [
-
-  ],
-  "roomModifierUpgrades": [
-
-  ],
-  "filters": [
-
-  ],
-  "upgradesToRemove": [
-
   ]
 }

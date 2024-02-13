@@ -1,50 +1,16 @@
 {
-  "m_Name": "MonsterIronMaidenSynthesis",
-  "id": "0dc20680-315a-495e-9f98-9c9b16e16f88",
-  "upgradeTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
   "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-5fd770d4320f6e81-c475aab2a4d85eb4aabd9eb1aa69a13e-v2",
-  "upgradeNotificationKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "upgradeIcon": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
   "hideUpgradeIconOnCard": true,
-  "useUpgradeHighlightTextTags": true,
   "isUnitSynthesisUpgrade": true,
-  "isUnique": false,
   "sourceSynthesisUnit": "Thorned Hollow",
   "linkedPactDuplicateRarity": 2,
   "bonusDamage": 15,
   "bonusHP": 15,
-  "costReduction": 0,
-  "xCostReduction": 0,
-  "bonusHeal": 0,
   "bonusSize": 1,
   "statusEffectUpgrades": [
     {
       "statusId": "spikes",
       "count": 10
     }
-  ],
-  "traitDataUpgrades": [
-
-  ],
-  "removeTraitUpgrades": [
-
-  ],
-  "triggerUpgrades": [
-
-  ],
-  "cardTriggerUpgrades": [
-
-  ],
-  "roomModifierUpgrades": [
-
-  ],
-  "filters": [
-
-  ],
-  "upgradesToRemove": [
-
   ]
 }
