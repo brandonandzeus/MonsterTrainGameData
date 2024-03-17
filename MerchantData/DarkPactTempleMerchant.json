@@ -78,10 +78,6 @@
   "rewards": [
     {
       "rewardData": {
-        "_rewardSprite": {
-          "m_FileID": 0,
-          "m_PathID": 2239
-        },
         "_rewardTitleKey": "LevelUpUpgradeRewardData__rewardTitleKey-d772c5b9a093ef70-2cb45977f7cf2fb49b0d82e73069f71c-v2",
         "_rewardDescriptionKey": "LevelUpUpgradeRewardData__rewardDescriptionKey-73ecc7847594e116-2cb45977f7cf2fb49b0d82e73069f71c-v2",
         "costs": [
@@ -102,10 +98,6 @@
     },
     {
       "rewardData": {
-        "_rewardSprite": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
         "_rewardTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
         "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
         "_showRewardFlowInEvent": false,
@@ -127,10 +119,6 @@
     },
     {
       "rewardData": {
-        "_rewardSprite": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        },
         "_rewardTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
         "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
         "_showRewardFlowInEvent": false,

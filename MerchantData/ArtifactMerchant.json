@@ -78,10 +78,6 @@
   "rewards": [
     {
       "rewardData": {
-        "_rewardSprite": {
-          "m_FileID": 0,
-          "m_PathID": 2598
-        },
         "_rewardTitleKey": "RelicPoolRewardData__rewardTitleKey-fcae0a4cf750c954-e9c29a404e4775e4895e3843c0837a28-v2",
         "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
         "_showRewardFlowInEvent": false,
@@ -101,10 +97,6 @@
     },
     {
       "rewardData": {
-        "_rewardSprite": {
-          "m_FileID": 0,
-          "m_PathID": 2598
-        },
         "_rewardTitleKey": "RelicPoolRewardData__rewardTitleKey-fcae0a4cf750c954-e9c29a404e4775e4895e3843c0837a28-v2",
         "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
         "_showRewardFlowInEvent": false,
@@ -124,10 +116,6 @@
     },
     {
       "rewardData": {
-        "_rewardSprite": {
-          "m_FileID": 0,
-          "m_PathID": 2598
-        },
         "_rewardTitleKey": "RelicPoolRewardData__rewardTitleKey-fcae0a4cf750c954-e9c29a404e4775e4895e3843c0837a28-v2",
         "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
         "_showRewardFlowInEvent": false,
@@ -147,10 +135,6 @@
     },
     {
       "rewardData": {
-        "_rewardSprite": {
-          "m_FileID": 0,
-          "m_PathID": 2094
-        },
         "_rewardTitleKey": "PurgeRewardData__rewardTitleKey-5390ac522aaf2ee5-606fc10a139d918408e1f60139b29b7f-v2",
         "_rewardDescriptionKey": "PurgeRewardData__rewardDescriptionKey-e3c057b6689a405f-606fc10a139d918408e1f60139b29b7f-v2",
         "costs": [
@@ -175,10 +159,6 @@
     },
     {
       "rewardData": {
-        "_rewardSprite": {
-          "m_FileID": 0,
-          "m_PathID": 2010
-        },
         "_rewardTitleKey": "RerollMerchantRewardData__rewardTitleKey-8518708709209fd2-ae8cbe68cb002644bb1e00ef0ffb612b-v2",
         "_rewardDescriptionKey": "RerollMerchantRewardData__rewardDescriptionKey-c70bda70dc2c734f-ae8cbe68cb002644bb1e00ef0ffb612b-v2",
         "costs": [
@@ -196,10 +176,6 @@
     },
     {
       "rewardData": {
-        "_rewardSprite": {
-          "m_FileID": 0,
-          "m_PathID": 2608
-        },
         "_rewardTitleKey": "EnhancerRewardData__rewardTitleKey-ef7e03c6e6025a65-f44274301a34f614dbea737879859728-v2",
         "_rewardDescriptionKey": "EnhancerRewardData__rewardDescriptionKey-aaa6610ca67a7f15-f44274301a34f614dbea737879859728-v2",
         "costs": [
