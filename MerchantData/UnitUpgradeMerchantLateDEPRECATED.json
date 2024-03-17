@@ -1,0 +1,79 @@
+{
+  "skipCheckSettings": 2,
+  "ignoreIfNodesPresent": [
+
+  ],
+  "requiredDlc": 0,
+  "tooltipTitleKey": "MerchantData_tooltipTitleKey-7db66007e1a5dbda-f00a22162d7e6c241af1d449cc84f9de-v2",
+  "tooltipBodyKey": "MerchantData_tooltipBodyKey-3213c91bf6483d28-f00a22162d7e6c241af1d449cc84f9de-v2",
+  "nodeSelectedSfxCue": "Node_Merchant",
+  "currency": 0,
+  "characterData": {
+    "showInHR": true,
+    "lookAtThisAnimationName": "Look at this",
+    "sfxTimeoutTime": 3.0,
+    "greetings": [
+      {
+        "animation": 6,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-6628caba8c5dd09c-b571b22e550a32143975df60628c84ea-v2"
+      },
+      {
+        "animation": 6,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-8e86df27b0614feb-b571b22e550a32143975df60628c84ea-v2"
+      }
+    ],
+    "thanks": [
+      {
+        "animation": 5,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-19f8637301bcb1bf-b571b22e550a32143975df60628c84ea-v2"
+      },
+      {
+        "animation": 5,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-8cddede1cc2df13b-b571b22e550a32143975df60628c84ea-v2"
+      }
+    ],
+    "chatter": [
+      {
+        "animation": 5,
+        "chatterSfx": 3,
+        "dialogue": "MerchantCharacterData_dialogue-4680404412c4facb-b571b22e550a32143975df60628c84ea-v2"
+      },
+      {
+        "animation": 5,
+        "chatterSfx": 3,
+        "dialogue": "MerchantCharacterData_dialogue-76cd9df4a1c35021-b571b22e550a32143975df60628c84ea-v2"
+      },
+      {
+        "animation": 5,
+        "chatterSfx": 3,
+        "dialogue": "MerchantCharacterData_dialogue-73d45baabf7e9575-b571b22e550a32143975df60628c84ea-v2"
+      },
+      {
+        "animation": 4,
+        "chatterSfx": 2,
+        "dialogue": "MerchantCharacterData_dialogue-0724ac4f27ca8c41-b571b22e550a32143975df60628c84ea-v2"
+      },
+      {
+        "animation": 4,
+        "chatterSfx": 2,
+        "dialogue": "MerchantCharacterData_dialogue-2bc80777f2fd4bd5-b571b22e550a32143975df60628c84ea-v2"
+      },
+      {
+        "animation": 4,
+        "chatterSfx": 2,
+        "dialogue": "MerchantCharacterData_dialogue-e23465bc716fbe81-b571b22e550a32143975df60628c84ea-v2"
+      }
+    ],
+    "bothered": {
+      "animation": 1,
+      "chatterSfx": 1,
+      "dialogue": "MerchantCharacterData_dialogue-201ee277dc31ca5c-b571b22e550a32143975df60628c84ea-v2"
+    },
+    "canGiveBotherAchievement": true
+  },
+  "name": "UnitUpgradeMerchantLateDEPRECATED"
+}

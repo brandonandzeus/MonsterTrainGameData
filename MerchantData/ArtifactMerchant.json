@@ -1,0 +1,227 @@
+{
+  "skipCheckSettings": 2,
+  "ignoreIfNodesPresent": [
+
+  ],
+  "requiredDlc": 0,
+  "tooltipTitleKey": "MerchantData_tooltipTitleKey-4d0b067bf692ce25-8ebe4995b8fc83e4e88298d8c689b92b-v2",
+  "tooltipBodyKey": "MerchantData_tooltipBodyKey-86f6c90d55bf1803-8ebe4995b8fc83e4e88298d8c689b92b-v2",
+  "nodeSelectedSfxCue": "Node_Merchant",
+  "currency": 0,
+  "characterData": {
+    "showInHR": true,
+    "lookAtThisAnimationName": "Look at this",
+    "sfxTimeoutTime": 3.0,
+    "greetings": [
+      {
+        "animation": 6,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-90ae26eb894f49c1-38fd419cf40dcf944b15268af1eae3bf-v2"
+      },
+      {
+        "animation": 6,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-4ee0a43e20bfbc46-38fd419cf40dcf944b15268af1eae3bf-v2"
+      }
+    ],
+    "thanks": [
+      {
+        "animation": 5,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-7f2c9e7cdbd99263-38fd419cf40dcf944b15268af1eae3bf-v2"
+      },
+      {
+        "animation": 5,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-cd26a69b8a7a9d6c-38fd419cf40dcf944b15268af1eae3bf-v2"
+      }
+    ],
+    "chatter": [
+      {
+        "animation": 5,
+        "chatterSfx": 3,
+        "dialogue": "MerchantCharacterData_dialogue-b187564d501669b6-38fd419cf40dcf944b15268af1eae3bf-v2"
+      },
+      {
+        "animation": 5,
+        "chatterSfx": 3,
+        "dialogue": "MerchantCharacterData_dialogue-6017cb1fc2ef4f93-38fd419cf40dcf944b15268af1eae3bf-v2"
+      },
+      {
+        "animation": 5,
+        "chatterSfx": 3,
+        "dialogue": "MerchantCharacterData_dialogue-5585b8c916b6fc0a-38fd419cf40dcf944b15268af1eae3bf-v2"
+      },
+      {
+        "animation": 4,
+        "chatterSfx": 2,
+        "dialogue": "MerchantCharacterData_dialogue-e4252172a5ae6f7d-38fd419cf40dcf944b15268af1eae3bf-v2"
+      },
+      {
+        "animation": 4,
+        "chatterSfx": 2,
+        "dialogue": "MerchantCharacterData_dialogue-a87d08345c630c27-38fd419cf40dcf944b15268af1eae3bf-v2"
+      },
+      {
+        "animation": 4,
+        "chatterSfx": 2,
+        "dialogue": "MerchantCharacterData_dialogue-3bc48ba044a9951b-38fd419cf40dcf944b15268af1eae3bf-v2"
+      }
+    ],
+    "bothered": {
+      "animation": 1,
+      "chatterSfx": 1,
+      "dialogue": "MerchantCharacterData_dialogue-295df254dcde56a6-38fd419cf40dcf944b15268af1eae3bf-v2"
+    },
+    "canGiveBotherAchievement": true
+  },
+  "rewards": [
+    {
+      "rewardData": {
+        "_rewardSprite": {
+          "m_FileID": 0,
+          "m_PathID": 2598
+        },
+        "_rewardTitleKey": "RelicPoolRewardData__rewardTitleKey-fcae0a4cf750c954-e9c29a404e4775e4895e3843c0837a28-v2",
+        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "ignoreClassFilter": false,
+        "classFilter": -1,
+        "rarityFilter": -1,
+        "relicPool": {
+          "name": "MegaRelicPool",
+          "relicDataList": [
+            "..."
+          ]
+        }
+      },
+      "oncePerVisit": false
+    },
+    {
+      "rewardData": {
+        "_rewardSprite": {
+          "m_FileID": 0,
+          "m_PathID": 2598
+        },
+        "_rewardTitleKey": "RelicPoolRewardData__rewardTitleKey-fcae0a4cf750c954-e9c29a404e4775e4895e3843c0837a28-v2",
+        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "ignoreClassFilter": false,
+        "classFilter": -1,
+        "rarityFilter": -1,
+        "relicPool": {
+          "name": "MegaRelicPool",
+          "relicDataList": [
+            "..."
+          ]
+        }
+      },
+      "oncePerVisit": false
+    },
+    {
+      "rewardData": {
+        "_rewardSprite": {
+          "m_FileID": 0,
+          "m_PathID": 2598
+        },
+        "_rewardTitleKey": "RelicPoolRewardData__rewardTitleKey-fcae0a4cf750c954-e9c29a404e4775e4895e3843c0837a28-v2",
+        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "ignoreClassFilter": false,
+        "classFilter": -1,
+        "rarityFilter": -1,
+        "relicPool": {
+          "name": "MegaRelicPool",
+          "relicDataList": [
+            "..."
+          ]
+        }
+      },
+      "oncePerVisit": false
+    },
+    {
+      "rewardData": {
+        "_rewardSprite": {
+          "m_FileID": 0,
+          "m_PathID": 2094
+        },
+        "_rewardTitleKey": "PurgeRewardData__rewardTitleKey-5390ac522aaf2ee5-606fc10a139d918408e1f60139b29b7f-v2",
+        "_rewardDescriptionKey": "PurgeRewardData__rewardDescriptionKey-e3c057b6689a405f-606fc10a139d918408e1f60139b29b7f-v2",
+        "costs": [
+          50,
+          75,
+          100,
+          150,
+          200,
+          250
+        ],
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "CanBeSkippedOverride": false,
+        "ForceContentUnlocked": false,
+        "_isServiceMerchantReward": true,
+        "_merchantServiceIndex": 0,
+        "isCompulsory": false,
+        "numPurges": 1
+      },
+      "oncePerVisit": false
+    },
+    {
+      "rewardData": {
+        "_rewardSprite": {
+          "m_FileID": 0,
+          "m_PathID": 2010
+        },
+        "_rewardTitleKey": "RerollMerchantRewardData__rewardTitleKey-8518708709209fd2-ae8cbe68cb002644bb1e00ef0ffb612b-v2",
+        "_rewardDescriptionKey": "RerollMerchantRewardData__rewardDescriptionKey-c70bda70dc2c734f-ae8cbe68cb002644bb1e00ef0ffb612b-v2",
+        "costs": [
+          50
+        ],
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "CanBeSkippedOverride": false,
+        "ForceContentUnlocked": false,
+        "_isServiceMerchantReward": true,
+        "_merchantServiceIndex": 1
+      },
+      "oncePerVisit": true
+    },
+    {
+      "rewardData": {
+        "_rewardSprite": {
+          "m_FileID": 0,
+          "m_PathID": 2608
+        },
+        "_rewardTitleKey": "EnhancerRewardData__rewardTitleKey-ef7e03c6e6025a65-f44274301a34f614dbea737879859728-v2",
+        "_rewardDescriptionKey": "EnhancerRewardData__rewardDescriptionKey-aaa6610ca67a7f15-f44274301a34f614dbea737879859728-v2",
+        "costs": [
+          75,
+          125,
+          175,
+          225,
+          300,
+          375
+        ],
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "CanBeSkippedOverride": false,
+        "ForceContentUnlocked": false,
+        "_isServiceMerchantReward": true,
+        "_merchantServiceIndex": 2,
+        "_enhancerData": "GenericDuplicator"
+      },
+      "requiredMutator": "PurchaseDupes",
+      "oncePerVisit": false
+    }
+  ],
+  "name": "ArtifactMerchant"
+}

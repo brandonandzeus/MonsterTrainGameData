@@ -1,0 +1,79 @@
+{
+  "skipCheckSettings": 2,
+  "ignoreIfNodesPresent": [
+
+  ],
+  "requiredDlc": 0,
+  "tooltipTitleKey": "MerchantData_tooltipTitleKey-a5eae44bc9d32f5b-a186a1c9c4cc33f45a73cbe77fac1d2a-v2",
+  "tooltipBodyKey": "MerchantData_tooltipBodyKey-265f60de0c5e3a8d-a186a1c9c4cc33f45a73cbe77fac1d2a-v2",
+  "nodeSelectedSfxCue": "Node_Merchant",
+  "currency": 0,
+  "characterData": {
+    "showInHR": true,
+    "lookAtThisAnimationName": "Look at this",
+    "sfxTimeoutTime": 3.0,
+    "greetings": [
+      {
+        "animation": 6,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-284a3e80981ea0e1-e91715399eda43e499df9ec40695c899-v2"
+      },
+      {
+        "animation": 6,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-9402d9a5a51c6dc4-e91715399eda43e499df9ec40695c899-v2"
+      }
+    ],
+    "thanks": [
+      {
+        "animation": 5,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-d2ba3ff67e2e6ae5-e91715399eda43e499df9ec40695c899-v2"
+      },
+      {
+        "animation": 5,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-1f4cf469a7545a95-e91715399eda43e499df9ec40695c899-v2"
+      }
+    ],
+    "chatter": [
+      {
+        "animation": 5,
+        "chatterSfx": 3,
+        "dialogue": "MerchantCharacterData_dialogue-bc03f77c7b334945-e91715399eda43e499df9ec40695c899-v2"
+      },
+      {
+        "animation": 5,
+        "chatterSfx": 3,
+        "dialogue": "MerchantCharacterData_dialogue-9507a8a42cae31fc-e91715399eda43e499df9ec40695c899-v2"
+      },
+      {
+        "animation": 5,
+        "chatterSfx": 3,
+        "dialogue": "MerchantCharacterData_dialogue-af63f6dfd230f1d0-e91715399eda43e499df9ec40695c899-v2"
+      },
+      {
+        "animation": 4,
+        "chatterSfx": 2,
+        "dialogue": "MerchantCharacterData_dialogue-e9b502821ce7481f-e91715399eda43e499df9ec40695c899-v2"
+      },
+      {
+        "animation": 4,
+        "chatterSfx": 2,
+        "dialogue": "MerchantCharacterData_dialogue-dd6cfae6fc2df545-e91715399eda43e499df9ec40695c899-v2"
+      },
+      {
+        "animation": 4,
+        "chatterSfx": 2,
+        "dialogue": "MerchantCharacterData_dialogue-9a693898556e94a3-e91715399eda43e499df9ec40695c899-v2"
+      }
+    ],
+    "bothered": {
+      "animation": 1,
+      "chatterSfx": 1,
+      "dialogue": "MerchantCharacterData_dialogue-85597ac8a67991df-e91715399eda43e499df9ec40695c899-v2"
+    },
+    "canGiveBotherAchievement": true
+  },
+  "name": "SpellUpgradeMerchantLateDEPRECATED"
+}

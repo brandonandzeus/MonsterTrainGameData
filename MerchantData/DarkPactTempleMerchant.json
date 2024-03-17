@@ -1,0 +1,155 @@
+{
+  "skipCheckSettings": 1,
+  "ignoreIfNodesPresent": [
+
+  ],
+  "requiredDlc": 1,
+  "tooltipTitleKey": "MerchantData_tooltipTitleKey-917a221f50acf94a-518ac180d60e42c4f8336e4a747ad762-v2",
+  "tooltipBodyKey": "MerchantData_tooltipBodyKey-336b3be3d9ded27e-518ac180d60e42c4f8336e4a747ad762-v2",
+  "nodeSelectedSfxCue": "Node_Temple",
+  "currency": 1,
+  "characterData": {
+    "showInHR": true,
+    "lookAtThisAnimationName": "Look at this",
+    "sfxTimeoutTime": 3.0,
+    "greetings": [
+      {
+        "animation": 6,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-90ae26eb894f49c1-38fd419cf40dcf944b15268af1eae3bf-v2"
+      },
+      {
+        "animation": 6,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-4ee0a43e20bfbc46-38fd419cf40dcf944b15268af1eae3bf-v2"
+      }
+    ],
+    "thanks": [
+      {
+        "animation": 5,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-7f2c9e7cdbd99263-38fd419cf40dcf944b15268af1eae3bf-v2"
+      },
+      {
+        "animation": 5,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-cd26a69b8a7a9d6c-38fd419cf40dcf944b15268af1eae3bf-v2"
+      }
+    ],
+    "chatter": [
+      {
+        "animation": 5,
+        "chatterSfx": 3,
+        "dialogue": "MerchantCharacterData_dialogue-b187564d501669b6-38fd419cf40dcf944b15268af1eae3bf-v2"
+      },
+      {
+        "animation": 5,
+        "chatterSfx": 3,
+        "dialogue": "MerchantCharacterData_dialogue-6017cb1fc2ef4f93-38fd419cf40dcf944b15268af1eae3bf-v2"
+      },
+      {
+        "animation": 5,
+        "chatterSfx": 3,
+        "dialogue": "MerchantCharacterData_dialogue-5585b8c916b6fc0a-38fd419cf40dcf944b15268af1eae3bf-v2"
+      },
+      {
+        "animation": 4,
+        "chatterSfx": 2,
+        "dialogue": "MerchantCharacterData_dialogue-e4252172a5ae6f7d-38fd419cf40dcf944b15268af1eae3bf-v2"
+      },
+      {
+        "animation": 4,
+        "chatterSfx": 2,
+        "dialogue": "MerchantCharacterData_dialogue-a87d08345c630c27-38fd419cf40dcf944b15268af1eae3bf-v2"
+      },
+      {
+        "animation": 4,
+        "chatterSfx": 2,
+        "dialogue": "MerchantCharacterData_dialogue-3bc48ba044a9951b-38fd419cf40dcf944b15268af1eae3bf-v2"
+      }
+    ],
+    "bothered": {
+      "animation": 1,
+      "chatterSfx": 1,
+      "dialogue": "MerchantCharacterData_dialogue-295df254dcde56a6-38fd419cf40dcf944b15268af1eae3bf-v2"
+    },
+    "canGiveBotherAchievement": true
+  },
+  "rewards": [
+    {
+      "rewardData": {
+        "_rewardSprite": {
+          "m_FileID": 0,
+          "m_PathID": 2239
+        },
+        "_rewardTitleKey": "LevelUpUpgradeRewardData__rewardTitleKey-d772c5b9a093ef70-2cb45977f7cf2fb49b0d82e73069f71c-v2",
+        "_rewardDescriptionKey": "LevelUpUpgradeRewardData__rewardDescriptionKey-73ecc7847594e116-2cb45977f7cf2fb49b0d82e73069f71c-v2",
+        "costs": [
+          50
+        ],
+        "crystals": 25,
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "CanBeSkippedOverride": false,
+        "ForceContentUnlocked": false,
+        "_isServiceMerchantReward": false,
+        "_merchantServiceIndex": 0,
+        "purgeCardTitleKey": "LevelUpUpgradeRewardData_purgeCardTitleKey-5528d0f5555eccff-2cb45977f7cf2fb49b0d82e73069f71c-v2",
+        "upgradeUnitTitleKey": "LevelUpUpgradeRewardData_upgradeUnitTitleKey-a33db54bb124c225-2cb45977f7cf2fb49b0d82e73069f71c-v2"
+      },
+      "oncePerVisit": true
+    },
+    {
+      "rewardData": {
+        "_rewardSprite": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_rewardTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "ignoreClassFilter": false,
+        "classFilter": -1,
+        "rarityFilter": -1,
+        "relicPool": {
+          "name": "SpellUpgradePoolDarkPactCommon",
+          "relicDataList": [
+            "SpellUpgradeTraitAddIntrinsic",
+            "SpellUpgradeTraitAddPiercing",
+            "SpellReduceCostPurge"
+          ]
+        }
+      },
+      "oncePerVisit": true
+    },
+    {
+      "rewardData": {
+        "_rewardSprite": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_rewardTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "ignoreClassFilter": false,
+        "classFilter": -1,
+        "rarityFilter": -1,
+        "relicPool": {
+          "name": "SpellUpgradePoolDarkPactUncommon",
+          "relicDataList": [
+            "SpellMagicPowerHuge",
+            "SpellUpgradeCreateCopyWithPurge",
+            "SpellUpgradeLowCost"
+          ]
+        }
+      },
+      "oncePerVisit": true
+    }
+  ],
+  "name": "DarkPactTempleMerchant"
+}

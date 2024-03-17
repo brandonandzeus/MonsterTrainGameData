@@ -1,0 +1,231 @@
+{
+  "skipCheckSettings": 2,
+  "ignoreIfNodesPresent": [
+
+  ],
+  "requiredDlc": 0,
+  "tooltipTitleKey": "MerchantData_tooltipTitleKey-ffaae1f2529c6d08-102c4f629de0a6d46bc46156e2efc234-v2",
+  "tooltipBodyKey": "MerchantData_tooltipBodyKey-092cd25cb718a3c0-102c4f629de0a6d46bc46156e2efc234-v2",
+  "nodeSelectedSfxCue": "Node_Merchant",
+  "currency": 0,
+  "characterData": {
+    "showInHR": true,
+    "lookAtThisAnimationName": "Look at this",
+    "sfxTimeoutTime": 3.0,
+    "greetings": [
+      {
+        "animation": 6,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-284a3e80981ea0e1-e91715399eda43e499df9ec40695c899-v2"
+      },
+      {
+        "animation": 6,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-9402d9a5a51c6dc4-e91715399eda43e499df9ec40695c899-v2"
+      }
+    ],
+    "thanks": [
+      {
+        "animation": 5,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-d2ba3ff67e2e6ae5-e91715399eda43e499df9ec40695c899-v2"
+      },
+      {
+        "animation": 5,
+        "chatterSfx": 0,
+        "dialogue": "MerchantCharacterData_dialogue-1f4cf469a7545a95-e91715399eda43e499df9ec40695c899-v2"
+      }
+    ],
+    "chatter": [
+      {
+        "animation": 5,
+        "chatterSfx": 3,
+        "dialogue": "MerchantCharacterData_dialogue-bc03f77c7b334945-e91715399eda43e499df9ec40695c899-v2"
+      },
+      {
+        "animation": 5,
+        "chatterSfx": 3,
+        "dialogue": "MerchantCharacterData_dialogue-9507a8a42cae31fc-e91715399eda43e499df9ec40695c899-v2"
+      },
+      {
+        "animation": 5,
+        "chatterSfx": 3,
+        "dialogue": "MerchantCharacterData_dialogue-af63f6dfd230f1d0-e91715399eda43e499df9ec40695c899-v2"
+      },
+      {
+        "animation": 4,
+        "chatterSfx": 2,
+        "dialogue": "MerchantCharacterData_dialogue-e9b502821ce7481f-e91715399eda43e499df9ec40695c899-v2"
+      },
+      {
+        "animation": 4,
+        "chatterSfx": 2,
+        "dialogue": "MerchantCharacterData_dialogue-dd6cfae6fc2df545-e91715399eda43e499df9ec40695c899-v2"
+      },
+      {
+        "animation": 4,
+        "chatterSfx": 2,
+        "dialogue": "MerchantCharacterData_dialogue-9a693898556e94a3-e91715399eda43e499df9ec40695c899-v2"
+      }
+    ],
+    "bothered": {
+      "animation": 1,
+      "chatterSfx": 1,
+      "dialogue": "MerchantCharacterData_dialogue-85597ac8a67991df-e91715399eda43e499df9ec40695c899-v2"
+    },
+    "canGiveBotherAchievement": true
+  },
+  "rewards": [
+    {
+      "rewardData": {
+        "_rewardSprite": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_rewardTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "ignoreClassFilter": false,
+        "classFilter": -1,
+        "rarityFilter": -1,
+        "relicPool": {
+          "name": "SpellUpgradePoolCostReduction",
+          "relicDataList": [
+            "SpellUpgradeReduceCost"
+          ]
+        }
+      },
+      "oncePerVisit": false
+    },
+    {
+      "rewardData": {
+        "_rewardSprite": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_rewardTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "ignoreClassFilter": false,
+        "classFilter": -1,
+        "rarityFilter": -1,
+        "relicPool": {
+          "name": "SpellUpgradePoolCommon",
+          "relicDataList": [
+            "SpellMagicPower",
+            "SpellMagicPowerBigExtraCost"
+          ]
+        }
+      },
+      "oncePerVisit": false
+    },
+    {
+      "rewardData": {
+        "_rewardSprite": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_rewardTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "ignoreClassFilter": false,
+        "classFilter": -1,
+        "rarityFilter": -1,
+        "relicPool": {
+          "name": "SpellUpgradePool",
+          "relicDataList": [
+            "SpellUpgradeTraitAddRetain",
+            "SpellUpgradeTraitRemoveConsume",
+            "SpellUpgradeTraitAddPermafrost",
+            "SpellUpgradeTraitAddJuice"
+          ]
+        }
+      },
+      "oncePerVisit": false
+    },
+    {
+      "rewardData": {
+        "_rewardSprite": {
+          "m_FileID": 0,
+          "m_PathID": 2094
+        },
+        "_rewardTitleKey": "PurgeRewardData__rewardTitleKey-5390ac522aaf2ee5-606fc10a139d918408e1f60139b29b7f-v2",
+        "_rewardDescriptionKey": "PurgeRewardData__rewardDescriptionKey-e3c057b6689a405f-606fc10a139d918408e1f60139b29b7f-v2",
+        "costs": [
+          50,
+          75,
+          100,
+          150,
+          200,
+          250
+        ],
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "CanBeSkippedOverride": false,
+        "ForceContentUnlocked": false,
+        "_isServiceMerchantReward": true,
+        "_merchantServiceIndex": 0,
+        "isCompulsory": false,
+        "numPurges": 1
+      },
+      "oncePerVisit": false
+    },
+    {
+      "rewardData": {
+        "_rewardSprite": {
+          "m_FileID": 0,
+          "m_PathID": 2010
+        },
+        "_rewardTitleKey": "RerollMerchantRewardData__rewardTitleKey-5c939b3e59321dbb-bc435c2195581e5498dd7ab69bc5c759-v2",
+        "_rewardDescriptionKey": "RerollMerchantRewardData__rewardDescriptionKey-fc930650c1ab7eb7-bc435c2195581e5498dd7ab69bc5c759-v2",
+        "costs": [
+          50
+        ],
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "CanBeSkippedOverride": false,
+        "ForceContentUnlocked": false,
+        "_isServiceMerchantReward": true,
+        "_merchantServiceIndex": 1
+      },
+      "oncePerVisit": true
+    },
+    {
+      "rewardData": {
+        "_rewardSprite": {
+          "m_FileID": 0,
+          "m_PathID": 2608
+        },
+        "_rewardTitleKey": "EnhancerRewardData__rewardTitleKey-ef7e03c6e6025a65-f44274301a34f614dbea737879859728-v2",
+        "_rewardDescriptionKey": "EnhancerRewardData__rewardDescriptionKey-aaa6610ca67a7f15-f44274301a34f614dbea737879859728-v2",
+        "costs": [
+          75,
+          125,
+          175,
+          225,
+          300,
+          375
+        ],
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "CanBeSkippedOverride": false,
+        "ForceContentUnlocked": false,
+        "_isServiceMerchantReward": true,
+        "_merchantServiceIndex": 2,
+        "_enhancerData": "GenericDuplicator"
+      },
+      "requiredMutator": "PurchaseDupes",
+      "oncePerVisit": false
+    }
+  ],
+  "name": "SpellUpgradeMerchant"
+}
