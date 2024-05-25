@@ -1,0 +1,22 @@
+{
+  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-8d6e93996bd4f879-2de74259f50501b44ab076295d97a3fb-v2",
+  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-8653a8a08b6892e7-2de74259f50501b44ab076295d97a3fb-v2",
+  "bonusDamage": 5,
+  "statusEffectUpgrades": [
+    {
+      "statusId": "endless",
+      "count": 1
+    }
+  ],
+  "removeTraitUpgrades": [
+    "CardTraitExhaustState"
+  ],
+  "filters": [
+    {
+      "requiredCardTraits": [
+        "CardTraitExhaustState"
+      ]
+    }
+  ],
+  "name": "Delayed_RemoveConsumeFinal"
+}

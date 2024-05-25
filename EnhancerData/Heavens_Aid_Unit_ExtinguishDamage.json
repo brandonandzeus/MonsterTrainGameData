@@ -1,0 +1,23 @@
+{
+  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-d307f5a181b453cb-9e5275fd7dd75564baaa5191b7083033-v2",
+  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-5cb83a785081a717-9e5275fd7dd75564baaa5191b7083033-v2",
+  "triggerUpgrades": [
+    {
+      "descriptionKey": "CardUpgradeData_descriptionKey-31e4a465b611d433-9e5275fd7dd75564baaa5191b7083033-v2",
+      "effects": [
+        {
+          "effectStateName": "CardEffectDamage",
+          "targetMode": 2,
+          "filterBasedOnMainSubClass": true,
+          "paramInt": 40
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "cardType": 1
+    }
+  ],
+  "name": "Delayed_SpawnRandomUnit"
+}

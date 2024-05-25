@@ -1,0 +1,18 @@
+{
+  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-b13d5d2a52a5fbf7-558183daf9512954eb241d0c751a0233-v2",
+  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-4c3c3e3567df64a4-558183daf9512954eb241d0c751a0233-v2",
+  "bonusDamage": 10,
+  "costReduction": 99,
+  "statusEffectUpgrades": [
+    {
+      "statusId": "endless",
+      "count": 1
+    }
+  ],
+  "filters": [
+    {
+      "cardType": 1
+    }
+  ],
+  "name": "Delayed_BuffEndlessFinal"
+}

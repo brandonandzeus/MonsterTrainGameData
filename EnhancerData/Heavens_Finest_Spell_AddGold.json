@@ -1,0 +1,34 @@
+{
+  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-a2430c592acd9c21-f91de2c75d260e64c8b77fbb582cc41c-v2",
+  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-77f5694afda97fdf-f91de2c75d260e64c8b77fbb582cc41c-v2",
+  "costReduction": 99,
+  "cardTriggerUpgrades": [
+    {
+      "descriptionKey": "CardUpgradeData_descriptionKey-ec8024c2f37f1da4-f91de2c75d260e64c8b77fbb582cc41c-v2",
+      "cardEffects": [
+        {
+          "effectStateName": "CardEffectRewardGold",
+          "targetTeamType": 0,
+          "shouldTest": false,
+          "paramInt": 35,
+          "paramCardUpgradeData": {
+            "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-56438f7680712b32-b6f340fe59ca97241a48e4ce071e5e4f-v2",
+            "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-0dff24f5b5c8f569-b6f340fe59ca97241a48e4ce071e5e4f-v2",
+            "costReduction": 99,
+            "traitDataUpgrades": [
+              {
+                "traitStateName": "CardTraitSelfPurge"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "cardType": 0
+    }
+  ],
+  "name": "Delayed_AddGoldFinal"
+}

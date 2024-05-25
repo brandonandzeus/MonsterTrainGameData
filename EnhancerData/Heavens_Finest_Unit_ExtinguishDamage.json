@@ -1,0 +1,29 @@
+{
+  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-5bf19febd6c07a0e-3b49fef562f491a41902a5c32cc721eb-v2",
+  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-4125936216b196f1-3b49fef562f491a41902a5c32cc721eb-v2",
+  "statusEffectUpgrades": [
+    {
+      "statusId": "ambush",
+      "count": 1
+    }
+  ],
+  "triggerUpgrades": [
+    {
+      "descriptionKey": "CardUpgradeData_descriptionKey-0849cea82286c417-3b49fef562f491a41902a5c32cc721eb-v2",
+      "effects": [
+        {
+          "effectStateName": "CardEffectDamage",
+          "targetMode": 2,
+          "filterBasedOnMainSubClass": true,
+          "paramInt": 60
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "cardType": 1
+    }
+  ],
+  "name": "Delayed_SpawnRandomUnitFinal"
+}

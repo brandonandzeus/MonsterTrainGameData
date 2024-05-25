@@ -1,0 +1,28 @@
+{
+  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-b73f9aca9049974d-e5272c23914b7f24384274fc86c3cf46-v2",
+  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-dec2ad0bbaec971a-e5272c23914b7f24384274fc86c3cf46-v2",
+  "bonusHP": 30,
+  "triggerUpgrades": [
+    {
+      "trigger": 15,
+      "descriptionKey": "CardUpgradeData_descriptionKey-25e7d7a25f03b68d-e5272c23914b7f24384274fc86c3cf46-v2",
+      "effects": [
+        {
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetTeamType": 2,
+          "paramInt": 1,
+          "paramCardUpgradeData": {
+            "bonusDamage": 1
+          },
+          "hideTooltip": true
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "cardType": 1
+    }
+  ],
+  "name": "Delayed_RevengeHealFinal"
+}

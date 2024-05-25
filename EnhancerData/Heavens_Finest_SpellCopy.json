@@ -1,0 +1,25 @@
+{
+  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-ec27a02a43f3cd33-847ebdbc983bfb44997e0002e800c0e2-v2",
+  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-e18a900062201f10-847ebdbc983bfb44997e0002e800c0e2-v2",
+  "costReduction": 99,
+  "cardTriggerUpgrades": [
+    {
+      "descriptionKey": "CardUpgradeData_descriptionKey-b1628de8a0a940bc-847ebdbc983bfb44997e0002e800c0e2-v2",
+      "cardEffects": [
+        {
+          "effectStateName": "CardEffectAddUpgradedCopy",
+          "copyModifiersFromSource": true,
+          "targetTeamType": 0,
+          "shouldTest": false,
+          "paramInt": 1
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "cardType": 0
+    }
+  ],
+  "name": "Delayed_SpellCopyFinal"
+}

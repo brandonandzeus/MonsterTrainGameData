@@ -1,0 +1,26 @@
+{
+  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-f79364cdc14ad798-43acec15905c9b74383a4dcce77e04ac-v2",
+  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-ea7858207f61297e-43acec15905c9b74383a4dcce77e04ac-v2",
+  "cardTriggerUpgrades": [
+    {
+      "trigger": 10,
+      "descriptionKey": "CardUpgradeData_descriptionKey-385a6b2234204cdd-43acec15905c9b74383a4dcce77e04ac-v2",
+      "cardEffects": [
+        {
+          "effectStateName": "CardEffectHealTrain",
+          "targetMode": 21,
+          "filterBasedOnMainSubClass": true,
+          "targetTeamType": 0,
+          "shouldTest": false,
+          "paramInt": 5
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "cardType": 0
+    }
+  ],
+  "name": "Delayed_RandomSpellFinal"
+}
