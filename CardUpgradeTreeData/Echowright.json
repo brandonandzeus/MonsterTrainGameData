@@ -4,16 +4,18 @@
       "cardUpgrades": [
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-fa7a9e3b585bc111-c891aff37946223478db6026be5053fc-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 5,
           "bonusHP": 10,
           "triggerUpgrades": [
             {
-              "trigger": 35,
+              "trigger": "CharacterTriggerData.Trigger.CardExhausted",
               "descriptionKey": "CardUpgradeData_descriptionKey-f9d63af549e8d475-c891aff37946223478db6026be5053fc-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetTeamType": 2,
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.Monsters",
                   "paramStatusEffects": [
                     {
                       "statusId": "armor",
@@ -21,22 +23,26 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Apply [armor] 4 to friendly units."
             }
-          ]
+          ],
+          "upgradeTitle": "The Shellsmith"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-342638532fb4b0a8-59aba46fa9c4bf54fa7ecc05b205e797-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 20,
           "bonusHP": 20,
           "triggerUpgrades": [
             {
-              "trigger": 35,
+              "trigger": "CharacterTriggerData.Trigger.CardExhausted",
               "descriptionKey": "CardUpgradeData_descriptionKey-b5121a9968b8b0f6-59aba46fa9c4bf54fa7ecc05b205e797-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetTeamType": 2,
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.Monsters",
                   "paramStatusEffects": [
                     {
                       "statusId": "armor",
@@ -44,22 +50,26 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Apply [armor] 8 to friendly units."
             }
-          ]
+          ],
+          "upgradeTitle": "The Shellsmith II"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-a785c8f6ebe4e8bb-aa9c2ec975c61674f8f650268fb88808-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 50,
           "bonusHP": 30,
           "triggerUpgrades": [
             {
-              "trigger": 35,
+              "trigger": "CharacterTriggerData.Trigger.CardExhausted",
               "descriptionKey": "CardUpgradeData_descriptionKey-a06783103946158f-aa9c2ec975c61674f8f650268fb88808-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetTeamType": 2,
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.Monsters",
                   "paramStatusEffects": [
                     {
                       "statusId": "armor",
@@ -67,9 +77,11 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Apply [armor] 14 to friendly units."
             }
-          ]
+          ],
+          "upgradeTitle": "The Shellsmith III"
         }
       ]
     },
@@ -77,16 +89,18 @@
       "cardUpgrades": [
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-ca075b6f1d02b5c5-8144ef917b0c30a4d8b6c4c1487da986-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 10,
           "bonusHP": 5,
           "triggerUpgrades": [
             {
-              "trigger": 2,
+              "trigger": "CharacterTriggerData.Trigger.OnSpawn",
               "descriptionKey": "CardUpgradeData_descriptionKey-acecbbd90cfb8cf4-8144ef917b0c30a4d8b6c4c1487da986-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectSpawnMonster",
-                  "targetTeamType": 0,
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.None",
                   "paramInt": 1,
                   "additionalParamInt": 1,
                   "paramBool": true,
@@ -94,7 +108,6 @@
                     "nameKey": "CharacterData_nameKey-ae2a45bb7d9582aa-6a3f30d23203a1a4aaa2e865fd701ea5-v2",
                     "size": 1,
                     "health": 1,
-                    "attackDamage": 0,
                     "startingStatusEffects": [
                       {
                         "statusId": "hatch",
@@ -103,14 +116,14 @@
                     ],
                     "triggers": [
                       {
-                        "trigger": 37,
+                        "trigger": "CharacterTriggerData.Trigger.OnRemoveHatch",
                         "descriptionKey": "CharacterData_descriptionKey-3941e1a71e6e8397-6a3f30d23203a1a4aaa2e865fd701ea5-v2",
                         "hideTriggerTooltip": true,
                         "effects": [
                           {
                             "effectStateName": "CardEffectRemoveStatusEffectPerCorrupt",
-                            "targetMode": 5,
-                            "targetTeamType": 0,
+                            "targetMode": "TargetMode.Self",
+                            "targetTeamType": "Team.Type.None",
                             "paramInt": 1,
                             "paramStatusEffects": [
                               {
@@ -120,28 +133,29 @@
                             ],
                             "hideTooltip": true
                           }
-                        ]
+                        ],
+                        "description": ""
                       },
                       {
-                        "trigger": 30,
+                        "trigger": "CharacterTriggerData.Trigger.OnHatched",
                         "descriptionKey": "CharacterData_descriptionKey-75c2cc253b224c05-6a3f30d23203a1a4aaa2e865fd701ea5-v2",
                         "effects": [
                           {
                             "effectStateName": "CardEffectSacrifice",
-                            "targetMode": 5,
-                            "targetTeamType": 2,
+                            "targetMode": "TargetMode.Self",
+                            "targetTeamType": "Team.Type.Monsters",
                             "paramBool": true,
                             "hideTooltip": true
                           },
                           {
                             "effectStateName": "CardEffectSpawnMonster",
-                            "targetTeamType": 2,
+                            "targetMode": "TargetMode.Room",
+                            "targetTeamType": "Team.Type.Monsters",
                             "paramInt": 2,
                             "paramCharacterData": {
                               "nameKey": "CharacterData_nameKey-da5bc0cf9bb285e0-8be3987b12f5410469fc72f4cb2f3ee3-v2",
                               "size": 1,
                               "health": 5,
-                              "attackDamage": 0,
                               "subtypeKeys": [
                                 "SubtypesData_Wurm"
                               ],
@@ -155,18 +169,32 @@
                                   "descriptionKeyInPlay": "CharacterData_descriptionKeyInPlay-943432c6fc68631c-8be3987b12f5410469fc72f4cb2f3ee3-v2",
                                   "paramInt": 5,
                                   "extraTooltipTitleKey": "HudTooltip_RoomCorruption_Title",
-                                  "extraTooltipBodyKey": "HudTooltip_RoomCorruption_Body"
+                                  "extraTooltipBodyKey": "HudTooltip_RoomCorruption_Body",
+                                  "description": "+[paramint][attack] per [corrupt].",
+                                  "extraTooltipTitle": "Charged Echoes",
+                                  "extraTooltipBody": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                                 }
+                              ],
+                              "name": "Bog Fly",
+                              "subtype": [
+                                "Kin"
+                              ],
+                              "characterLoreTooltip": [
+                                "For the countless years that I trudged through the death and decay left above, there was no way I could’ve imagined the bustling life buzzing just underneath the surface. Isolation has given the Wurmkin time to innovate. Time to fly! And now their work within their cairns is completed without any need for outside assistance."
                               ]
                             },
                             "additionalTooltips": [
                               {
                                 "titleKey": "HudTooltip_RoomCorruption_Title",
-                                "descriptionKey": "HudTooltip_RoomCorruption_Body"
+                                "descriptionKey": "HudTooltip_RoomCorruption_Body",
+                                "statusId": "",
+                                "title": "Charged Echoes",
+                                "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                               }
                             ]
                           }
-                        ]
+                        ],
+                        "description": "Summon 2 <b>Bog Fly</b> units."
                       }
                     ],
                     "subtypeKeys": [
@@ -175,21 +203,32 @@
                     ],
                     "characterLoreTooltipKeys": [
                       "CharacterData_data-1e1605c31a16fbfc-6a3f30d23203a1a4aaa2e865fd701ea5-v2"
+                    ],
+                    "name": "Bog Chrysalis",
+                    "subtype": [
+                      "Egg",
+                      "Chosen"
+                    ],
+                    "characterLoreTooltip": [
+                      "The Wurmkin do not breed. At least, not anymore. Upon their decision to remain hidden, they created thousands of eggs, ready to hatch on command, eschewing the need for further reproduction. What a shame."
                     ]
                   },
                   "paramCardUpgradeData": {
+                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusHP": 20
                   }
                 }
-              ]
+              ],
+              "description": "Summon 1 <b>Bog Chrysalis</b> with +[effect0.upgrade.bonushp][health]."
             },
             {
-              "trigger": 35,
+              "trigger": "CharacterTriggerData.Trigger.CardExhausted",
               "descriptionKey": "CardUpgradeData_descriptionKey-8f2b9341cbfcd779-8144ef917b0c30a4d8b6c4c1487da986-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectRemoveStatusEffect",
-                  "targetTeamType": 3,
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
                   "additionalParamInt": 1,
                   "paramStatusEffects": [
                     {
@@ -198,22 +237,26 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Remove 1 [hatch] from Eggs."
             }
-          ]
+          ],
+          "upgradeTitle": "The Marshlord"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-251bf3a8f85401a0-00cee201a9a247543b6da2f6e1361e87-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 30,
           "bonusHP": 15,
           "triggerUpgrades": [
             {
-              "trigger": 2,
+              "trigger": "CharacterTriggerData.Trigger.OnSpawn",
               "descriptionKey": "CardUpgradeData_descriptionKey-0fdbe12cc7c298f7-00cee201a9a247543b6da2f6e1361e87-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectSpawnMonster",
-                  "targetTeamType": 0,
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.None",
                   "paramInt": 1,
                   "additionalParamInt": 2,
                   "paramBool": true,
@@ -221,7 +264,6 @@
                     "nameKey": "CharacterData_nameKey-7f23d3f04cda86b0-92c3e0fbcdc57b441ae72be7873e503d-v2",
                     "size": 1,
                     "health": 1,
-                    "attackDamage": 0,
                     "startingStatusEffects": [
                       {
                         "statusId": "hatch",
@@ -230,14 +272,14 @@
                     ],
                     "triggers": [
                       {
-                        "trigger": 37,
+                        "trigger": "CharacterTriggerData.Trigger.OnRemoveHatch",
                         "descriptionKey": "CharacterData_descriptionKey-1d8d9543e824aa7f-92c3e0fbcdc57b441ae72be7873e503d-v2",
                         "hideTriggerTooltip": true,
                         "effects": [
                           {
                             "effectStateName": "CardEffectRemoveStatusEffectPerCorrupt",
-                            "targetMode": 5,
-                            "targetTeamType": 0,
+                            "targetMode": "TargetMode.Self",
+                            "targetTeamType": "Team.Type.None",
                             "paramInt": 1,
                             "paramStatusEffects": [
                               {
@@ -246,24 +288,27 @@
                               }
                             ]
                           }
-                        ]
+                        ],
+                        "description": ""
                       },
                       {
-                        "trigger": 30,
+                        "trigger": "CharacterTriggerData.Trigger.OnHatched",
                         "descriptionKey": "CharacterData_descriptionKey-2b9f0a20c4d8d9e2-92c3e0fbcdc57b441ae72be7873e503d-v2",
                         "effects": [
                           {
                             "effectStateName": "CardEffectSacrifice",
-                            "targetMode": 5,
-                            "targetTeamType": 0,
+                            "targetMode": "TargetMode.Self",
+                            "targetTeamType": "Team.Type.None",
                             "paramBool": true,
                             "hideTooltip": true
                           },
                           {
                             "effectStateName": "CardEffectSpawnMonster",
-                            "targetMode": 5,
+                            "targetMode": "TargetMode.Self",
+                            "targetTeamType": "Team.Type.Heroes",
                             "paramCharacterData": {
                               "nameKey": "CharacterData_nameKey-c8974e656cd84d1e-f83d8a195ea0adf4697455f4280b567c-v2",
+                              "size": 2,
                               "health": 10,
                               "attackDamage": 30,
                               "startingStatusEffects": [
@@ -278,11 +323,13 @@
                               ],
                               "triggers": [
                                 {
-                                  "trigger": 3,
+                                  "trigger": "CharacterTriggerData.Trigger.OnAttacking",
                                   "descriptionKey": "CharacterData_descriptionKey-03ee3656ce7e7999-f83d8a195ea0adf4697455f4280b567c-v2",
                                   "effects": [
                                     {
                                       "effectStateName": "CardEffectAddStatusEffect",
+                                      "targetMode": "TargetMode.Room",
+                                      "targetTeamType": "Team.Type.Heroes",
                                       "paramStatusEffects": [
                                         {
                                           "statusId": "corrupt_poison",
@@ -292,11 +339,15 @@
                                       "additionalTooltips": [
                                         {
                                           "titleKey": "HudTooltip_RoomCorruption_Title",
-                                          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+                                          "descriptionKey": "HudTooltip_RoomCorruption_Body",
+                                          "statusId": "",
+                                          "title": "Charged Echoes",
+                                          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                                         }
                                       ]
                                     }
-                                  ]
+                                  ],
+                                  "description": "Apply [corruptpoison] [effect0.status0.power] to enemy units."
                                 }
                               ],
                               "subtypeKeys": [
@@ -304,16 +355,27 @@
                               ],
                               "characterLoreTooltipKeys": [
                                 "CharacterData_data-3ceb5786716ecb72-f83d8a195ea0adf4697455f4280b567c-v2"
+                              ],
+                              "name": "Kinhost Pupa",
+                              "subtype": [
+                                "Host"
+                              ],
+                              "characterLoreTooltip": [
+                                "The Wurmkin wait for Kinhost to fully mature before making them the mindless slaves more often seen throughout the tunnels. This allows the Wurmkin to breed the Kinhost for strength and size, making them perfect mobile transports for the many Echoes scattered around the tunnels."
                               ]
                             },
                             "additionalTooltips": [
                               {
                                 "titleKey": "HudTooltip_RoomCorruption_Title",
-                                "descriptionKey": "HudTooltip_RoomCorruption_Body"
+                                "descriptionKey": "HudTooltip_RoomCorruption_Body",
+                                "statusId": "",
+                                "title": "Charged Echoes",
+                                "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                               }
                             ]
                           }
-                        ]
+                        ],
+                        "description": "Summon Kinhost Pupa."
                       }
                     ],
                     "subtypeKeys": [
@@ -322,21 +384,32 @@
                     ],
                     "characterLoreTooltipKeys": [
                       "CharacterData_data-d0a793ca01632fe0-92c3e0fbcdc57b441ae72be7873e503d-v2"
+                    ],
+                    "name": "Kinhost Vessel",
+                    "subtype": [
+                      "Egg",
+                      "Chosen"
+                    ],
+                    "characterLoreTooltip": [
+                      "The vessels containing Kinhosts have been tended to by the Wurmkin since their discovery. By stretching out the vessels’ diet of Echoes, the Wurmkin are able to keep the vessels in a permanent state of hibernation and select the time of their hatching based on demand."
                     ]
                   },
                   "paramCardUpgradeData": {
+                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusHP": 40
                   }
                 }
-              ]
+              ],
+              "description": "Summon 1 <b>Kinhost Vessel</b> with +40[health]."
             },
             {
-              "trigger": 35,
+              "trigger": "CharacterTriggerData.Trigger.CardExhausted",
               "descriptionKey": "CardUpgradeData_descriptionKey-37d196449cfbbf96-00cee201a9a247543b6da2f6e1361e87-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectRemoveStatusEffect",
-                  "targetTeamType": 3,
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
                   "paramStatusEffects": [
                     {
                       "statusId": "hatch",
@@ -344,22 +417,26 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Remove 2 [hatch] from Eggs."
             }
-          ]
+          ],
+          "upgradeTitle": "The Marshlord II"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-867637696a3365d6-f9c519ea59195804aaf1fb516551eb13-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 70,
           "bonusHP": 25,
           "triggerUpgrades": [
             {
-              "trigger": 2,
+              "trigger": "CharacterTriggerData.Trigger.OnSpawn",
               "descriptionKey": "CardUpgradeData_descriptionKey-51ed3afb6f30f24a-f9c519ea59195804aaf1fb516551eb13-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectSpawnMonster",
-                  "targetTeamType": 0,
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.None",
                   "paramInt": 1,
                   "additionalParamInt": 3,
                   "paramBool": true,
@@ -367,7 +444,6 @@
                     "nameKey": "CharacterData_nameKey-e76268dab3f00261-0e426e2c2b599dc4ab62b7e24310d2da-v2",
                     "size": 3,
                     "health": 1,
-                    "attackDamage": 0,
                     "startingStatusEffects": [
                       {
                         "statusId": "hatch",
@@ -376,14 +452,14 @@
                     ],
                     "triggers": [
                       {
-                        "trigger": 37,
+                        "trigger": "CharacterTriggerData.Trigger.OnRemoveHatch",
                         "descriptionKey": "CharacterData_descriptionKey-1e1fb50cdb820133-0e426e2c2b599dc4ab62b7e24310d2da-v2",
                         "hideTriggerTooltip": true,
                         "effects": [
                           {
                             "effectStateName": "CardEffectRemoveStatusEffectPerCorrupt",
-                            "targetMode": 5,
-                            "targetTeamType": 0,
+                            "targetMode": "TargetMode.Self",
+                            "targetTeamType": "Team.Type.None",
                             "paramInt": 1,
                             "paramStatusEffects": [
                               {
@@ -393,16 +469,17 @@
                             ],
                             "hideTooltip": true
                           }
-                        ]
+                        ],
+                        "description": ""
                       },
                       {
-                        "trigger": 30,
+                        "trigger": "CharacterTriggerData.Trigger.OnHatched",
                         "descriptionKey": "CharacterData_descriptionKey-cf2c5f1ebcd193ca-0e426e2c2b599dc4ab62b7e24310d2da-v2",
                         "effects": [
                           {
                             "effectStateName": "CardEffectSacrifice",
-                            "targetMode": 5,
-                            "targetTeamType": 0,
+                            "targetMode": "TargetMode.Self",
+                            "targetTeamType": "Team.Type.None",
                             "paramBool": true,
                             "paramStatusEffects": [
                               {
@@ -414,8 +491,8 @@
                           },
                           {
                             "effectStateName": "CardEffectSpawnMonster",
-                            "targetMode": 5,
-                            "targetTeamType": 0,
+                            "targetMode": "TargetMode.Self",
+                            "targetTeamType": "Team.Type.None",
                             "paramCharacterData": {
                               "nameKey": "CharacterData_nameKey-219ee66c7261f969-c82a07efc532479489fd2f32c9fa9f4b-v2",
                               "size": 4,
@@ -430,19 +507,21 @@
                               ],
                               "triggers": [
                                 {
-                                  "trigger": 35,
+                                  "trigger": "CharacterTriggerData.Trigger.CardExhausted",
                                   "descriptionKey": "CharacterData_descriptionKey-72e5a8d9989c0ea8-c82a07efc532479489fd2f32c9fa9f4b-v2",
                                   "effects": [
                                     {
                                       "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                                      "targetMode": 5,
-                                      "targetTeamType": 0,
+                                      "targetMode": "TargetMode.Self",
+                                      "targetTeamType": "Team.Type.None",
                                       "paramCardUpgradeData": {
+                                        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                                         "bonusDamage": 10,
                                         "bonusHP": 10
                                       }
                                     }
-                                  ]
+                                  ],
+                                  "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health]."
                                 }
                               ],
                               "subtypeKeys": [
@@ -450,16 +529,27 @@
                               ],
                               "characterLoreTooltipKeys": [
                                 "CharacterData_data-6c8a9f9cb83b30ff-c82a07efc532479489fd2f32c9fa9f4b-v2"
+                              ],
+                              "name": "Bog Wurmling",
+                              "subtype": [
+                                "Kin"
+                              ],
+                              "characterLoreTooltip": [
+                                "Erth was the name posthumously given to the Bogwurm — a name of function. The Wurm’s remains have seeded much of the life now buzzing in its bowels. The dead Titan’s bones — another peculiarity for a usually boneless creature — create the structure the Wurmkin inhabit while the flesh decays just above. Even in death, there’s still some latent power in the Wurm as it has created spawn in its own likeness."
                               ]
                             },
                             "additionalTooltips": [
                               {
                                 "titleKey": "HudTooltip_RoomCorruption_Title",
-                                "descriptionKey": "HudTooltip_RoomCorruption_Body"
+                                "descriptionKey": "HudTooltip_RoomCorruption_Body",
+                                "statusId": "",
+                                "title": "Charged Echoes",
+                                "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                               }
                             ]
                           }
-                        ]
+                        ],
+                        "description": "Summon Bog Wurmling"
                       }
                     ],
                     "subtypeKeys": [
@@ -468,21 +558,32 @@
                     ],
                     "characterLoreTooltipKeys": [
                       "CharacterData_data-0dcb89178b9b5935-0e426e2c2b599dc4ab62b7e24310d2da-v2"
+                    ],
+                    "name": "Bogdeep Cocoon",
+                    "subtype": [
+                      "Egg",
+                      "Chosen"
+                    ],
+                    "characterLoreTooltip": [
+                      "In the places where the fleshy sludge has calcified, the Bogwurm’s Remains have concentrated and created new sentient life in its own image. Even in death, the Titans continue to save us."
                     ]
                   },
                   "paramCardUpgradeData": {
+                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusHP": 60
                   }
                 }
-              ]
+              ],
+              "description": "Summon 1 <b>Bogdeep Cocoon</b> with +60[health]."
             },
             {
-              "trigger": 35,
+              "trigger": "CharacterTriggerData.Trigger.CardExhausted",
               "descriptionKey": "CardUpgradeData_descriptionKey-8be4decead05d02c-f9c519ea59195804aaf1fb516551eb13-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectRemoveStatusEffect",
-                  "targetTeamType": 3,
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
                   "paramStatusEffects": [
                     {
                       "statusId": "hatch",
@@ -490,9 +591,11 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Remove 3 [hatch] from Eggs."
             }
-          ]
+          ],
+          "upgradeTitle": "The Marshlord III"
         }
       ]
     },
@@ -500,62 +603,71 @@
       "cardUpgrades": [
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-2de5f40b1808d061-9234e0eb0592748439a744f415591a48-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 15,
           "triggerUpgrades": [
             {
-              "trigger": 1,
+              "trigger": "CharacterTriggerData.Trigger.PostCombat",
               "descriptionKey": "CardUpgradeData_descriptionKey-79daac1254fa054b-9234e0eb0592748439a744f415591a48-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectRecursion",
-                  "targetMode": 15,
-                  "targetTeamType": 0,
-                  "targetCardSelectionMode": 1,
+                  "targetMode": "TargetMode.Exhaust",
+                  "targetTeamType": "Team.Type.None",
+                  "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
                   "paramInt": 1
                 }
-              ]
+              ],
+              "description": "Return a random consumed spell to your hand."
             }
-          ]
+          ],
+          "upgradeTitle": "The Repeater"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-1ad5b6bf9bad5a10-f521cc376c2dba8418a87d9bf907d65f-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 65,
           "bonusHP": 10,
           "triggerUpgrades": [
             {
-              "trigger": 1,
+              "trigger": "CharacterTriggerData.Trigger.PostCombat",
               "descriptionKey": "CardUpgradeData_descriptionKey-e602476833654269-f521cc376c2dba8418a87d9bf907d65f-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectRecursion",
-                  "targetMode": 15,
-                  "targetTeamType": 0,
-                  "targetCardSelectionMode": 1,
+                  "targetMode": "TargetMode.Exhaust",
+                  "targetTeamType": "Team.Type.None",
+                  "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
                   "paramInt": 1
                 }
-              ]
+              ],
+              "description": "Return a random consumed spell to your hand."
             }
-          ]
+          ],
+          "upgradeTitle": "The Repeater II"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-fba98a4efe12cc56-6239df680f96fc646a133e91b84c22b5-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 90,
           "bonusHP": 20,
           "triggerUpgrades": [
             {
-              "trigger": 1,
+              "trigger": "CharacterTriggerData.Trigger.PostCombat",
               "descriptionKey": "CardUpgradeData_descriptionKey-79e44a7bd75f12d0-6239df680f96fc646a133e91b84c22b5-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectRecursion",
-                  "targetMode": 15,
-                  "targetTeamType": 0,
-                  "targetCardSelectionMode": 1,
+                  "targetMode": "TargetMode.Exhaust",
+                  "targetTeamType": "Team.Type.None",
+                  "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
                   "paramInt": 2
                 }
-              ]
+              ],
+              "description": "Return 2 random consumed spells to your hand."
             }
-          ]
+          ],
+          "upgradeTitle": "The Repeater III"
         }
       ]
     }

@@ -5,16 +5,18 @@
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-576ae7343e83a0d8-746a66171f0346b4a8ef8d3c91faaac5-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-ef0308babaf3190a-746a66171f0346b4a8ef8d3c91faaac5-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 10,
           "bonusHP": 1,
           "triggerUpgrades": [
             {
-              "trigger": 3,
+              "trigger": "CharacterTriggerData.Trigger.OnAttacking",
               "descriptionKey": "CardUpgradeData_descriptionKey-3c6d74f3767378c8-746a66171f0346b4a8ef8d3c91faaac5-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": 6,
+                  "targetMode": "TargetMode.LastAttackedCharacter",
+                  "targetTeamType": "Team.Type.Heroes",
                   "paramInt": 100,
                   "paramStatusEffects": [
                     {
@@ -23,23 +25,28 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Apply [frostbite] [effect0.status0.power] to the attacked unit."
             }
-          ]
+          ],
+          "upgradeTitle": "Chillwind",
+          "upgradeDescription": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-01399b8e6257104d-d91b07969028f5d4dbf9c5939b9f3f42-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-5faa4a5d35b8a3c8-d91b07969028f5d4dbf9c5939b9f3f42-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 25,
           "bonusHP": 2,
           "triggerUpgrades": [
             {
-              "trigger": 3,
+              "trigger": "CharacterTriggerData.Trigger.OnAttacking",
               "descriptionKey": "CardUpgradeData_descriptionKey-38a1be74eb6955da-d91b07969028f5d4dbf9c5939b9f3f42-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": 6,
+                  "targetMode": "TargetMode.LastAttackedCharacter",
+                  "targetTeamType": "Team.Type.Heroes",
                   "paramInt": 100,
                   "paramStatusEffects": [
                     {
@@ -48,23 +55,28 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Apply [frostbite] [effect0.status0.power] to the attacked unit."
             }
-          ]
+          ],
+          "upgradeTitle": "Chillwind II",
+          "upgradeDescription": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-138944359b9c8ce1-3b898901bbd464241b5cb7c174ca656d-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-a51949de38658a8a-3b898901bbd464241b5cb7c174ca656d-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 55,
           "bonusHP": 3,
           "triggerUpgrades": [
             {
-              "trigger": 3,
+              "trigger": "CharacterTriggerData.Trigger.OnAttacking",
               "descriptionKey": "CardUpgradeData_descriptionKey-9514ddd188d310cc-3b898901bbd464241b5cb7c174ca656d-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": 6,
+                  "targetMode": "TargetMode.LastAttackedCharacter",
+                  "targetTeamType": "Team.Type.Heroes",
                   "paramInt": 100,
                   "paramStatusEffects": [
                     {
@@ -73,9 +85,12 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Apply [frostbite] [effect0.status0.power] to the attacked unit."
             }
-          ]
+          ],
+          "upgradeTitle": "Chillwind III",
+          "upgradeDescription": ""
         }
       ]
     },
@@ -84,41 +99,53 @@
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-9f644c92ae05dfbf-d06e7d763adad2540bc0c72027183b8b-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-b1090d9aa53c9115-d06e7d763adad2540bc0c72027183b8b-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 5,
           "bonusHP": 2,
           "roomModifierUpgrades": [
             {
               "roomStateModifierClassName": "RoomStateDamageCostModifier",
               "descriptionKey": "CardUpgradeData_descriptionKey-54b849bd3d058d7a-d06e7d763adad2540bc0c72027183b8b-v2",
-              "paramInt": -1
+              "paramInt": -1,
+              "description": "Damage spells cost -1[ember] on this floor."
             }
-          ]
+          ],
+          "upgradeTitle": "Conduit",
+          "upgradeDescription": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-cae7948829bf55fa-b1170c0c4c8813541ac2a6771ba387df-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-bb0c4777482bebc0-b1170c0c4c8813541ac2a6771ba387df-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 15,
           "bonusHP": 4,
           "roomModifierUpgrades": [
             {
               "roomStateModifierClassName": "RoomStateDamageCostModifier",
               "descriptionKey": "CardUpgradeData_descriptionKey-fe2cde36163e8cc1-b1170c0c4c8813541ac2a6771ba387df-v2",
-              "paramInt": -2
+              "paramInt": -2,
+              "description": "Damage spells cost -2[ember] on this floor."
             }
-          ]
+          ],
+          "upgradeTitle": "Conduit II",
+          "upgradeDescription": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-105de27ece254c84-b2ae7d24514bbb44a9809a29cfea3ec6-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-2a5cda9e8bd78849-b2ae7d24514bbb44a9809a29cfea3ec6-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 35,
           "bonusHP": 6,
           "roomModifierUpgrades": [
             {
               "roomStateModifierClassName": "RoomStateDamageCostModifier",
               "descriptionKey": "CardUpgradeData_descriptionKey-2a8c6840f97a2638-b2ae7d24514bbb44a9809a29cfea3ec6-v2",
-              "paramInt": -3
+              "paramInt": -3,
+              "description": "Damage spells cost -3[ember] on this floor."
             }
-          ]
+          ],
+          "upgradeTitle": "Conduit III",
+          "upgradeDescription": ""
         }
       ]
     },
@@ -127,6 +154,7 @@
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-f08d732264d360ca-e4f76edd40c74f24f8ca31eb7f22a01b-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-5fe059af3a762e25-e4f76edd40c74f24f8ca31eb7f22a01b-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusHP": 3,
           "statusEffectUpgrades": [
             {
@@ -136,12 +164,13 @@
           ],
           "triggerUpgrades": [
             {
-              "trigger": 3,
+              "trigger": "CharacterTriggerData.Trigger.OnAttacking",
               "descriptionKey": "CardUpgradeData_descriptionKey-77267f6bc4a06bd9-e4f76edd40c74f24f8ca31eb7f22a01b-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": 6,
+                  "targetMode": "TargetMode.LastAttackedCharacter",
+                  "targetTeamType": "Team.Type.Heroes",
                   "paramInt": 100,
                   "paramCardPool": {
                     "name": "ImpPool",
@@ -184,13 +213,17 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Apply [spellweakness] [effect0.status0.power] to the attacked unit."
             }
-          ]
+          ],
+          "upgradeTitle": "Handheld Totem",
+          "upgradeDescription": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-3dbfd3901c665a49-a68890119b4dda14dad4e14c2973affb-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-ca7b493832582645-a68890119b4dda14dad4e14c2973affb-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 5,
           "bonusHP": 6,
           "statusEffectUpgrades": [
@@ -201,12 +234,13 @@
           ],
           "triggerUpgrades": [
             {
-              "trigger": 3,
+              "trigger": "CharacterTriggerData.Trigger.OnAttacking",
               "descriptionKey": "CardUpgradeData_descriptionKey-059963fe3e24da28-a68890119b4dda14dad4e14c2973affb-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": 6,
+                  "targetMode": "TargetMode.LastAttackedCharacter",
+                  "targetTeamType": "Team.Type.Heroes",
                   "paramInt": 100,
                   "paramCardPool": {
                     "name": "ImpPool",
@@ -249,12 +283,16 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Apply [spellweakness] [effect0.status0.power] to the attacked unit."
             }
-          ]
+          ],
+          "upgradeTitle": "Handheld Totem II",
+          "upgradeDescription": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-0d3be0a39242c7a3-5354ee53c4b155343bfd1973812f4011-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 15,
           "bonusHP": 9,
           "statusEffectUpgrades": [
@@ -265,12 +303,13 @@
           ],
           "triggerUpgrades": [
             {
-              "trigger": 3,
+              "trigger": "CharacterTriggerData.Trigger.OnAttacking",
               "descriptionKey": "CardUpgradeData_descriptionKey-eff6cd9eb54af219-5354ee53c4b155343bfd1973812f4011-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": 6,
+                  "targetMode": "TargetMode.LastAttackedCharacter",
+                  "targetTeamType": "Team.Type.Heroes",
                   "paramInt": 100,
                   "paramCardPool": {
                     "name": "ImpPool",
@@ -313,9 +352,11 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Apply [spellweakness] [effect0.status0.power] to the attacked unit."
             }
-          ]
+          ],
+          "upgradeTitle": "Handheld Totem III"
         }
       ]
     }

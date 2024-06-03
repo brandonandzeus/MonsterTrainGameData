@@ -4,33 +4,39 @@
       "cardUpgrades": [
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-3cb1d195e63c9803-2df92a004e0c0b74ba273eccadbfbae0-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusHP": 7,
           "triggerUpgrades": [
             {
-              "trigger": 23,
+              "trigger": "CharacterTriggerData.Trigger.OnEaten",
               "descriptionKey": "CardUpgradeData_descriptionKey-1fb648282276ecd1-2df92a004e0c0b74ba273eccadbfbae0-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatsAndStatusEffectsFromSelf",
-                  "targetMode": 20,
-                  "targetTeamType": 0,
+                  "targetMode": "TargetMode.LastFeederCharacter",
+                  "targetTeamType": "Team.Type.None",
                   "additionalTooltips": [
                     {
                       "descriptionKey": "StatusEffect_TooltipText",
-                      "style": 0,
-                      "isTipTooltip": true
+                      "style": "TooltipDesigner.TooltipDesignType.Default",
+                      "statusId": "",
+                      "isTipTooltip": true,
+                      "description": "<b>Tip:</b> Status effects can be applied to units to adjust their stats and abilities in battle. Multiple stacks of a status effect increase its power and/or duration."
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Add this unit's [attack], [health], and status effects to the eater."
             }
           ],
           "upgradesToRemove": [
             "PrimordiumBaseOnEaten"
-          ]
+          ],
+          "upgradeTitle": "Superfood"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-c99711f6b356cb34-2c17659b34eb82d4398109742fc3aac8-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusHP": 7,
           "statusEffectUpgrades": [
             {
@@ -40,30 +46,35 @@
           ],
           "triggerUpgrades": [
             {
-              "trigger": 23,
+              "trigger": "CharacterTriggerData.Trigger.OnEaten",
               "descriptionKey": "CardUpgradeData_descriptionKey-30f0ccbdd71117cc-2c17659b34eb82d4398109742fc3aac8-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatsAndStatusEffectsFromSelf",
-                  "targetMode": 20,
-                  "targetTeamType": 0,
+                  "targetMode": "TargetMode.LastFeederCharacter",
+                  "targetTeamType": "Team.Type.None",
                   "additionalTooltips": [
                     {
                       "descriptionKey": "StatusEffect_TooltipText",
-                      "style": 0,
-                      "isTipTooltip": true
+                      "style": "TooltipDesigner.TooltipDesignType.Default",
+                      "statusId": "",
+                      "isTipTooltip": true,
+                      "description": "<b>Tip:</b> Status effects can be applied to units to adjust their stats and abilities in battle. Multiple stacks of a status effect increase its power and/or duration."
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Add this unit's [attack], [health], and status effects to the eater."
             }
           ],
           "upgradesToRemove": [
             "PrimordiumBaseOnEaten"
-          ]
+          ],
+          "upgradeTitle": "Superfood II"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-ac1f8bce810c9b05-f3af0d26416055a428fc7d5b3443dc07-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusHP": 7,
           "statusEffectUpgrades": [
             {
@@ -73,27 +84,31 @@
           ],
           "triggerUpgrades": [
             {
-              "trigger": 23,
+              "trigger": "CharacterTriggerData.Trigger.OnEaten",
               "descriptionKey": "CardUpgradeData_descriptionKey-265bc84f65289799-f3af0d26416055a428fc7d5b3443dc07-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatsAndStatusEffectsFromSelf",
-                  "targetMode": 20,
-                  "targetTeamType": 0,
+                  "targetMode": "TargetMode.LastFeederCharacter",
+                  "targetTeamType": "Team.Type.None",
                   "additionalTooltips": [
                     {
                       "descriptionKey": "StatusEffect_TooltipText",
-                      "style": 0,
-                      "isTipTooltip": true
+                      "style": "TooltipDesigner.TooltipDesignType.Default",
+                      "statusId": "",
+                      "isTipTooltip": true,
+                      "description": "<b>Tip:</b> Status effects can be applied to units to adjust their stats and abilities in battle. Multiple stacks of a status effect increase its power and/or duration."
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Add this unit's [attack], [health], and status effects to the eater."
             }
           ],
           "upgradesToRemove": [
             "PrimordiumBaseOnEaten"
-          ]
+          ],
+          "upgradeTitle": "Superfood III"
         }
       ]
     },
@@ -101,30 +116,36 @@
       "cardUpgrades": [
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-2c6c9b4c622567a9-afd3ace39a755f045b5a0b2fd06db484-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "statusEffectUpgrades": [
             {
               "statusId": "eatmany",
               "count": 2
             }
-          ]
+          ],
+          "upgradeTitle": "Stalwart Snack"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-a6d90e43a7ecfae7-94f2ff4c62823d049a2a09b5dba60ab3-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "statusEffectUpgrades": [
             {
               "statusId": "eatmany",
               "count": 5
             }
-          ]
+          ],
+          "upgradeTitle": "Stalwart Snack II"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-bc4f678d14d227ce-ab9e8545844e80440abf9ac6e406c080-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "statusEffectUpgrades": [
             {
               "statusId": "eatmany",
               "count": 9
             }
-          ]
+          ],
+          "upgradeTitle": "Stalwart Snack III"
         }
       ]
     },
@@ -132,15 +153,21 @@
       "cardUpgrades": [
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-a11943bce4a02e9d-5d1ffe8ab8144f44aa991f67d3c7e932-v2",
-          "bonusDamage": 7
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "bonusDamage": 7,
+          "upgradeTitle": "Aggressive Edible"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-38ea8d20fa5abba5-7c5278aa98f06a74f8fae4ec76649445-v2",
-          "bonusDamage": 17
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "bonusDamage": 17,
+          "upgradeTitle": "Aggressive Edible II"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-7ec05da2d927ef8e-8f7d5a5341f3a264cad3e6eff50124e9-v2",
-          "bonusDamage": 37
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "bonusDamage": 37,
+          "upgradeTitle": "Aggressive Edible III"
         }
       ]
     }

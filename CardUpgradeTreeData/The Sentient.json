@@ -5,56 +5,71 @@
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-e08d05ffb811d645-38b9c352edd27fa429dc7899ade0b632-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-a2c7906ce6d9e86a-38b9c352edd27fa429dc7899ade0b632-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusHP": 15,
           "triggerUpgrades": [
             {
-              "trigger": 7,
+              "trigger": "CharacterTriggerData.Trigger.OnHeal",
               "descriptionKey": "CardUpgradeData_descriptionKey-78260320b15df683-38b9c352edd27fa429dc7899ade0b632-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectDamage",
-                  "targetMode": 2,
+                  "targetMode": "TargetMode.FrontInRoom",
+                  "targetTeamType": "Team.Type.Heroes",
                   "paramInt": 20
                 }
-              ]
+              ],
+              "description": "Deal [effect0.power] damage to front enemy unit."
             }
-          ]
+          ],
+          "upgradeTitle": "Explosive",
+          "upgradeDescription": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-23c421ac5c4e19e0-df8fe8c2c07a07c4caf314dc703d0648-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-14fa50b72de8625f-df8fe8c2c07a07c4caf314dc703d0648-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusHP": 40,
           "triggerUpgrades": [
             {
-              "trigger": 7,
+              "trigger": "CharacterTriggerData.Trigger.OnHeal",
               "descriptionKey": "CardUpgradeData_descriptionKey-3522a1c59b3f779c-df8fe8c2c07a07c4caf314dc703d0648-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectDamage",
-                  "targetMode": 2,
+                  "targetMode": "TargetMode.FrontInRoom",
+                  "targetTeamType": "Team.Type.Heroes",
                   "paramInt": 40
                 }
-              ]
+              ],
+              "description": "Deal {[effect0.power]} damage to front enemy unit."
             }
-          ]
+          ],
+          "upgradeTitle": "Explosive II",
+          "upgradeDescription": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-09c2375e9f4fa19d-588c6a26af1774c429cff403c152322c-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-701f2e82b0b1cd12-588c6a26af1774c429cff403c152322c-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusHP": 90,
           "triggerUpgrades": [
             {
-              "trigger": 7,
+              "trigger": "CharacterTriggerData.Trigger.OnHeal",
               "descriptionKey": "CardUpgradeData_descriptionKey-402139c48567e81a-588c6a26af1774c429cff403c152322c-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectDamage",
-                  "targetMode": 2,
+                  "targetMode": "TargetMode.FrontInRoom",
+                  "targetTeamType": "Team.Type.Heroes",
                   "paramInt": 60
                 }
-              ]
+              ],
+              "description": "Deal {[effect0.power]} damage to front enemy unit."
             }
-          ]
+          ],
+          "upgradeTitle": "Explosive III",
+          "upgradeDescription": ""
         }
       ]
     },
@@ -64,107 +79,135 @@
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-45a61a38ad05b18d-7488261e3d4e3be4197596a96e7c7b66-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-77f0e8a7e9bcdd2d-7488261e3d4e3be4197596a96e7c7b66-v2",
           "upgradeNotificationKey": "CardUpgradeData_upgradeNotificationKey-733ed7c7fbd98217-7488261e3d4e3be4197596a96e7c7b66-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusHP": 30,
           "triggerUpgrades": [
             {
-              "trigger": 15,
+              "trigger": "CharacterTriggerData.Trigger.OnHit",
               "descriptionKey": "CardUpgradeData_descriptionKey-7572cca141c1515d-7488261e3d4e3be4197596a96e7c7b66-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                  "targetMode": 16,
-                  "targetTeamType": 2,
+                  "targetMode": "TargetMode.Weakest",
+                  "targetTeamType": "Team.Type.Monsters",
                   "paramCardUpgradeData": {
+                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 1,
                     "bonusHP": 1
                   },
                   "additionalTooltips": [
                     {
                       "titleKey": "CharacterAbility_Cultivate_CardText",
-                      "descriptionKey": "CharacterAbility_Cultivate_TooltipText"
+                      "descriptionKey": "CharacterAbility_Cultivate_TooltipText",
+                      "statusId": "",
+                      "title": "<b>Cultivate</b>",
+                      "description": "Increase the [attack] and [health] of the friendly unit with the lowest health by the <b>Cultivate</b> value."
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "<b><nobr>Cultivate 1</nobr></b>."
             }
           ],
           "roomModifierUpgrades": [
             {
               "roomStateModifierClassName": "RoomStateHandSizeModifier",
               "descriptionKey": "CardUpgradeData_descriptionKey-49348375e0def062-7488261e3d4e3be4197596a96e7c7b66-v2",
-              "paramInt": 1
+              "paramInt": 1,
+              "description": "Draw +[paramInt] each turn."
             }
-          ]
+          ],
+          "upgradeTitle": "Cultivating",
+          "upgradeDescription": "",
+          "upgradeNotification": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-77e279a13364937f-95ccdbde6ea9534419b4c4023dbb4fd1-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-5b459d9963327a98-95ccdbde6ea9534419b4c4023dbb4fd1-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusHP": 70,
           "triggerUpgrades": [
             {
-              "trigger": 15,
+              "trigger": "CharacterTriggerData.Trigger.OnHit",
               "descriptionKey": "CardUpgradeData_descriptionKey-dcda497ea9187382-95ccdbde6ea9534419b4c4023dbb4fd1-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                  "targetMode": 16,
-                  "targetTeamType": 2,
+                  "targetMode": "TargetMode.Weakest",
+                  "targetTeamType": "Team.Type.Monsters",
                   "paramCardUpgradeData": {
+                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 2,
                     "bonusHP": 2
                   },
                   "additionalTooltips": [
                     {
                       "titleKey": "CharacterAbility_Cultivate_CardText",
-                      "descriptionKey": "CharacterAbility_Cultivate_TooltipText"
+                      "descriptionKey": "CharacterAbility_Cultivate_TooltipText",
+                      "statusId": "",
+                      "title": "<b>Cultivate</b>",
+                      "description": "Increase the [attack] and [health] of the friendly unit with the lowest health by the <b>Cultivate</b> value."
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "<b><nobr>Cultivate 2</nobr></b>."
             }
           ],
           "roomModifierUpgrades": [
             {
               "roomStateModifierClassName": "RoomStateHandSizeModifier",
               "descriptionKey": "CardUpgradeData_descriptionKey-d9caf7b2d16bd373-95ccdbde6ea9534419b4c4023dbb4fd1-v2",
-              "paramInt": 1
+              "paramInt": 1,
+              "description": "Draw +[paramInt] each turn."
             }
-          ]
+          ],
+          "upgradeTitle": "Cultivating II",
+          "upgradeDescription": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-c8ef62a922699a66-cc9008ea34e91734c9a938a442d7abb6-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-7c8e902a3e3401a7-cc9008ea34e91734c9a938a442d7abb6-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusHP": 150,
           "triggerUpgrades": [
             {
-              "trigger": 15,
+              "trigger": "CharacterTriggerData.Trigger.OnHit",
               "descriptionKey": "CardUpgradeData_descriptionKey-2f899badff1c14cb-cc9008ea34e91734c9a938a442d7abb6-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                  "targetMode": 16,
-                  "targetTeamType": 2,
+                  "targetMode": "TargetMode.Weakest",
+                  "targetTeamType": "Team.Type.Monsters",
                   "paramCardUpgradeData": {
+                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 3,
                     "bonusHP": 3
                   },
                   "additionalTooltips": [
                     {
                       "titleKey": "CharacterAbility_Cultivate_CardText",
-                      "descriptionKey": "CharacterAbility_Cultivate_TooltipText"
+                      "descriptionKey": "CharacterAbility_Cultivate_TooltipText",
+                      "statusId": "",
+                      "title": "<b>Cultivate</b>",
+                      "description": "Increase the [attack] and [health] of the friendly unit with the lowest health by the <b>Cultivate</b> value."
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "<b><nobr>Cultivate 3</nobr></b>."
             }
           ],
           "roomModifierUpgrades": [
             {
               "roomStateModifierClassName": "RoomStateHandSizeModifier",
               "descriptionKey": "CardUpgradeData_descriptionKey-68422d649bc6ea13-cc9008ea34e91734c9a938a442d7abb6-v2",
-              "paramInt": 1
+              "paramInt": 1,
+              "description": "Draw +[paramInt] each turn."
             }
-          ]
+          ],
+          "upgradeTitle": "Cultivating III",
+          "upgradeDescription": ""
         }
       ]
     },
@@ -173,34 +216,42 @@
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-539b394efe115f32-898055f6817aeae42b5b70c3c4afd37f-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-417b3e6274e76702-898055f6817aeae42b5b70c3c4afd37f-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusHP": 20,
           "statusEffectUpgrades": [
             {
               "statusId": "spikes",
               "count": 10
             }
-          ]
+          ],
+          "upgradeTitle": "Bristling",
+          "upgradeDescription": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-96dd0ba1afa25975-57f80f25e514b234e9b249c5644f30d1-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-c934610b6cec4a63-57f80f25e514b234e9b249c5644f30d1-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusHP": 50,
           "statusEffectUpgrades": [
             {
               "statusId": "spikes",
               "count": 20
             }
-          ]
+          ],
+          "upgradeTitle": "Bristling II",
+          "upgradeDescription": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-32e9524c6e0b7756-d0172571b1d50ad4f88a89126478b276-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusHP": 110,
           "statusEffectUpgrades": [
             {
               "statusId": "spikes",
               "count": 40
             }
-          ]
+          ],
+          "upgradeTitle": "Bristling III"
         }
       ]
     }

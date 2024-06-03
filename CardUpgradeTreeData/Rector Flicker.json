@@ -5,6 +5,7 @@
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-0714befbca26c8b2-8bfafc3bb9c592b4f892ce98c94d59e0-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-f3fb37d91026aa5f-8bfafc3bb9c592b4f892ce98c94d59e0-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 40,
           "bonusHP": 40,
           "statusEffectUpgrades": [
@@ -12,11 +13,14 @@
               "statusId": "ephemeral",
               "count": 3
             }
-          ]
+          ],
+          "upgradeTitle": "Burn Bright",
+          "upgradeDescription": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-5abba02521e7e0ed-3d920ea868c877d419769886c419ad57-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-0c4f8e2226890547-3d920ea868c877d419769886c419ad57-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 70,
           "bonusHP": 70,
           "statusEffectUpgrades": [
@@ -24,11 +28,14 @@
               "statusId": "ephemeral",
               "count": 3
             }
-          ]
+          ],
+          "upgradeTitle": "Burn Bright II",
+          "upgradeDescription": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-9ae9f1ee159542a7-80030ddeb28f79b4aa31c334b90664d6-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-2d155efe95027aa3-80030ddeb28f79b4aa31c334b90664d6-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 135,
           "bonusHP": 135,
           "statusEffectUpgrades": [
@@ -36,7 +43,9 @@
               "statusId": "ephemeral",
               "count": 3
             }
-          ]
+          ],
+          "upgradeTitle": "Burn Bright III",
+          "upgradeDescription": ""
         }
       ]
     },
@@ -45,76 +54,91 @@
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-cec4ae6eb4885e41-269ad86781ade3a4589cc5536d018cf9-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-cf46fff3895ffba0-269ad86781ade3a4589cc5536d018cf9-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusHP": 5,
           "triggerUpgrades": [
             {
-              "trigger": 18,
+              "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor",
               "descriptionKey": "CardUpgradeData_descriptionKey-8c908e5a9eca27e2-269ad86781ade3a4589cc5536d018cf9-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                  "targetMode": 5,
-                  "targetTeamType": 0,
+                  "targetMode": "TargetMode.Self",
+                  "targetTeamType": "Team.Type.None",
                   "paramInt": 5,
                   "paramCardUpgradeData": {
+                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 1,
                     "bonusHP": 5
                   },
                   "hideTooltip": true
                 }
-              ]
+              ],
+              "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health]."
             }
-          ]
+          ],
+          "upgradeTitle": "Accumulator",
+          "upgradeDescription": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-6064c513307d08a2-26433560b6cd64144b13021c8ff9e8ed-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-91a18c2519588b50-26433560b6cd64144b13021c8ff9e8ed-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 5,
           "bonusHP": 15,
           "triggerUpgrades": [
             {
-              "trigger": 18,
+              "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor",
               "descriptionKey": "CardUpgradeData_descriptionKey-31b43f6b86be3aa8-26433560b6cd64144b13021c8ff9e8ed-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                  "targetMode": 5,
-                  "targetTeamType": 0,
+                  "targetMode": "TargetMode.Self",
+                  "targetTeamType": "Team.Type.None",
                   "paramInt": 10,
                   "paramCardUpgradeData": {
+                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 2,
                     "bonusHP": 10
                   },
                   "hideTooltip": true
                 }
-              ]
+              ],
+              "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health]."
             }
-          ]
+          ],
+          "upgradeTitle": "Accumulator II",
+          "upgradeDescription": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-6f1ca6ad0659333e-36a8bdfbe1e867e4795bd92052265335-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-34b3f3b36610c11d-36a8bdfbe1e867e4795bd92052265335-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 20,
           "bonusHP": 40,
           "triggerUpgrades": [
             {
-              "trigger": 18,
+              "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor",
               "descriptionKey": "CardUpgradeData_descriptionKey-3ef5a1bed82e3ccf-36a8bdfbe1e867e4795bd92052265335-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                  "targetMode": 5,
-                  "targetTeamType": 0,
+                  "targetMode": "TargetMode.Self",
+                  "targetTeamType": "Team.Type.None",
                   "paramInt": 20,
                   "paramCardUpgradeData": {
+                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 4,
                     "bonusHP": 20
                   },
                   "hideTooltip": true
                 }
-              ]
+              ],
+              "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health]."
             }
-          ]
+          ],
+          "upgradeTitle": "Accumulator III",
+          "upgradeDescription": ""
         }
       ]
     },
@@ -123,21 +147,23 @@
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-3fe925aef5dea875-ca8dcdd109eb4e54bbca0bc80ded5777-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-76e4e348af770b2a-ca8dcdd109eb4e54bbca0bc80ded5777-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 5,
           "bonusHP": 5,
           "triggerUpgrades": [
             {
-              "trigger": 1,
+              "trigger": "CharacterTriggerData.Trigger.PostCombat",
               "descriptionKey": "CardUpgradeData_descriptionKey-adb2e8151472b59f-ca8dcdd109eb4e54bbca0bc80ded5777-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectRecursion",
-                  "targetMode": 15,
-                  "targetTeamType": 0,
-                  "targetCardType": 1,
-                  "targetCardSelectionMode": 1,
+                  "targetMode": "TargetMode.Exhaust",
+                  "targetTeamType": "Team.Type.None",
+                  "targetCardType": "CardType.Monster",
+                  "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
                   "paramInt": 2,
                   "paramCardUpgradeData": {
+                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 10,
                     "bonusHP": 5,
                     "costReduction": 99,
@@ -149,28 +175,33 @@
                     ]
                   }
                 }
-              ]
+              ],
+              "description": "[raise] 2 random units and apply an additional +5[attack]."
             }
-          ]
+          ],
+          "upgradeTitle": "Dark Calling",
+          "upgradeDescription": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-105f1a8505b57c02-061d5ba1d51216648b61caaf0a3a5a14-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-afd55aa2c6b1703d-061d5ba1d51216648b61caaf0a3a5a14-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 20,
           "bonusHP": 20,
           "triggerUpgrades": [
             {
-              "trigger": 1,
+              "trigger": "CharacterTriggerData.Trigger.PostCombat",
               "descriptionKey": "CardUpgradeData_descriptionKey-e9f851f9e5b9c972-061d5ba1d51216648b61caaf0a3a5a14-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectRecursion",
-                  "targetMode": 15,
-                  "targetTeamType": 0,
-                  "targetCardType": 1,
-                  "targetCardSelectionMode": 1,
+                  "targetMode": "TargetMode.Exhaust",
+                  "targetTeamType": "Team.Type.None",
+                  "targetCardType": "CardType.Monster",
+                  "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
                   "paramInt": 2,
                   "paramCardUpgradeData": {
+                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 15,
                     "bonusHP": 5,
                     "costReduction": 99,
@@ -182,28 +213,33 @@
                     ]
                   }
                 }
-              ]
+              ],
+              "description": "[raise] 2 random units and apply an additional +10[attack]."
             }
-          ]
+          ],
+          "upgradeTitle": "Dark Calling II",
+          "upgradeDescription": ""
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-f21c05b3c51ff1ea-5f0e72228d221f94487fb590d81d69c5-v2",
           "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-468ecc0b0cf0af5b-5f0e72228d221f94487fb590d81d69c5-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 40,
           "bonusHP": 40,
           "triggerUpgrades": [
             {
-              "trigger": 1,
+              "trigger": "CharacterTriggerData.Trigger.PostCombat",
               "descriptionKey": "CardUpgradeData_descriptionKey-4a1d24adf4213378-5f0e72228d221f94487fb590d81d69c5-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectRecursion",
-                  "targetMode": 15,
-                  "targetTeamType": 0,
-                  "targetCardType": 1,
-                  "targetCardSelectionMode": 1,
+                  "targetMode": "TargetMode.Exhaust",
+                  "targetTeamType": "Team.Type.None",
+                  "targetCardType": "CardType.Monster",
+                  "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
                   "paramInt": 2,
                   "paramCardUpgradeData": {
+                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 20,
                     "bonusHP": 5,
                     "costReduction": 99,
@@ -215,9 +251,12 @@
                     ]
                   }
                 }
-              ]
+              ],
+              "description": "[raise] 2 random units and apply an additional +15[attack]."
             }
-          ]
+          ],
+          "upgradeTitle": "Dark Calling III",
+          "upgradeDescription": ""
         }
       ]
     }

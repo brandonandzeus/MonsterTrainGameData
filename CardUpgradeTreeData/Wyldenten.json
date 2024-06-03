@@ -4,15 +4,17 @@
       "cardUpgrades": [
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-1784775cbd5335cf-c68aed0837f4ac448a763b139e7deb6b-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusHP": 10,
           "triggerUpgrades": [
             {
-              "trigger": 2,
+              "trigger": "CharacterTriggerData.Trigger.OnSpawn",
               "descriptionKey": "CardUpgradeData_descriptionKey-ab5f804ae74bf4ff-c68aed0837f4ac448a763b139e7deb6b-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddBattleCard",
-                  "targetTeamType": 0,
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.None",
                   "paramInt": 3,
                   "additionalParamInt": 3,
                   "paramCardPool": {
@@ -22,37 +24,43 @@
                     ]
                   }
                 }
-              ]
+              ],
+              "description": "Add 3 <b>Sting</b> spells to your hand."
             },
             {
-              "trigger": 19,
+              "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed",
               "descriptionKey": "CardUpgradeData_descriptionKey-919833bc2deff88b-c68aed0837f4ac448a763b139e7deb6b-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                  "targetMode": 5,
-                  "targetTeamType": 2,
+                  "targetMode": "TargetMode.Self",
+                  "targetTeamType": "Team.Type.Monsters",
                   "paramInt": 100,
                   "additionalParamInt": 2,
                   "paramCardUpgradeData": {
+                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 1
                   }
                 }
-              ]
+              ],
+              "description": "+[effect0.upgrade.bonusdamage][attack]."
             }
-          ]
+          ],
+          "upgradeTitle": "Thornlord"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-3da2325ba71f200d-0dbdd189430530448931657bac2af911-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusHP": 40,
           "triggerUpgrades": [
             {
-              "trigger": 2,
+              "trigger": "CharacterTriggerData.Trigger.OnSpawn",
               "descriptionKey": "CardUpgradeData_descriptionKey-534930b89ebfe420-0dbdd189430530448931657bac2af911-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddBattleCard",
-                  "targetTeamType": 0,
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.None",
                   "paramInt": 3,
                   "additionalParamInt": 3,
                   "paramCardPool": {
@@ -62,37 +70,43 @@
                     ]
                   }
                 }
-              ]
+              ],
+              "description": "Add 3 <b>Sting</b> spells to your hand."
             },
             {
-              "trigger": 19,
+              "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed",
               "descriptionKey": "CardUpgradeData_descriptionKey-77a89bb2b082491c-0dbdd189430530448931657bac2af911-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                  "targetMode": 5,
-                  "targetTeamType": 2,
+                  "targetMode": "TargetMode.Self",
+                  "targetTeamType": "Team.Type.Monsters",
                   "paramInt": 100,
                   "additionalParamInt": 100,
                   "paramCardUpgradeData": {
+                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 2
                   }
                 }
-              ]
+              ],
+              "description": "+[effect0.upgrade.bonusdamage][attack]."
             }
-          ]
+          ],
+          "upgradeTitle": "Thornlord II"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-c09fe276f3c527db-8e26f6dfcce9e5d4c9868c2077345e3f-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusHP": 70,
           "triggerUpgrades": [
             {
-              "trigger": 2,
+              "trigger": "CharacterTriggerData.Trigger.OnSpawn",
               "descriptionKey": "CardUpgradeData_descriptionKey-e0d756819eb5f9c4-8e26f6dfcce9e5d4c9868c2077345e3f-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddBattleCard",
-                  "targetTeamType": 0,
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.None",
                   "paramInt": 3,
                   "additionalParamInt": 3,
                   "paramCardPool": {
@@ -102,25 +116,29 @@
                     ]
                   }
                 }
-              ]
+              ],
+              "description": "Add 3 <b>Sting</b> spells to your hand."
             },
             {
-              "trigger": 19,
+              "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed",
               "descriptionKey": "CardUpgradeData_descriptionKey-030f8546ec3495f5-8e26f6dfcce9e5d4c9868c2077345e3f-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                  "targetMode": 5,
-                  "targetTeamType": 2,
+                  "targetMode": "TargetMode.Self",
+                  "targetTeamType": "Team.Type.Monsters",
                   "paramInt": 100,
                   "additionalParamInt": 4,
                   "paramCardUpgradeData": {
+                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 3
                   }
                 }
-              ]
+              ],
+              "description": "+[effect0.upgrade.bonusdamage][attack]."
             }
-          ]
+          ],
+          "upgradeTitle": "Thornlord III"
         }
       ]
     },
@@ -128,6 +146,7 @@
       "cardUpgrades": [
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-4af857993ee0785a-c329ca88b555c584fb7f664df5b267ea-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 5,
           "statusEffectUpgrades": [
             {
@@ -137,12 +156,13 @@
           ],
           "triggerUpgrades": [
             {
-              "trigger": 3,
+              "trigger": "CharacterTriggerData.Trigger.OnAttacking",
               "descriptionKey": "CardUpgradeData_descriptionKey-abf2df8aa1812d7e-c329ca88b555c584fb7f664df5b267ea-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": 6,
+                  "targetMode": "TargetMode.LastAttackedCharacter",
+                  "targetTeamType": "Team.Type.Heroes",
                   "paramInt": 100,
                   "paramStatusEffects": [
                     {
@@ -151,12 +171,15 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Apply [rooted] to the attacked unit."
             }
-          ]
+          ],
+          "upgradeTitle": "Strangler"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-9be98e08a7958af1-f75f5e05d2bceae4ca41fbe0eb197789-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 15,
           "bonusHP": 20,
           "statusEffectUpgrades": [
@@ -167,12 +190,13 @@
           ],
           "triggerUpgrades": [
             {
-              "trigger": 3,
+              "trigger": "CharacterTriggerData.Trigger.OnAttacking",
               "descriptionKey": "CardUpgradeData_descriptionKey-738a39c56a6ff451-f75f5e05d2bceae4ca41fbe0eb197789-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": 6,
+                  "targetMode": "TargetMode.LastAttackedCharacter",
+                  "targetTeamType": "Team.Type.Heroes",
                   "paramInt": 100,
                   "paramStatusEffects": [
                     {
@@ -181,12 +205,15 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Apply [rooted] to the attacked unit."
             }
-          ]
+          ],
+          "upgradeTitle": "Strangler II"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-fb0539d305eaa7c4-aef8f1a9c362be14aa0be170bc41e9be-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 35,
           "bonusHP": 40,
           "statusEffectUpgrades": [
@@ -197,12 +224,13 @@
           ],
           "triggerUpgrades": [
             {
-              "trigger": 3,
+              "trigger": "CharacterTriggerData.Trigger.OnAttacking",
               "descriptionKey": "CardUpgradeData_descriptionKey-d0f0bde2166de427-aef8f1a9c362be14aa0be170bc41e9be-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": 6,
+                  "targetMode": "TargetMode.LastAttackedCharacter",
+                  "targetTeamType": "Team.Type.Heroes",
                   "paramInt": 100,
                   "paramStatusEffects": [
                     {
@@ -211,9 +239,11 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Apply [rooted] to the attacked unit."
             }
-          ]
+          ],
+          "upgradeTitle": "Strangler III"
         }
       ]
     },
@@ -221,6 +251,7 @@
       "cardUpgrades": [
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-191abfa53921d7d7-925f07fcf341a3040aba35f2775dcce2-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 15,
           "statusEffectUpgrades": [
             {
@@ -230,12 +261,13 @@
           ],
           "triggerUpgrades": [
             {
-              "trigger": 16,
+              "trigger": "CharacterTriggerData.Trigger.AfterSpawnEnchant",
               "descriptionKey": "CardUpgradeData_descriptionKey-8a71bab5ede5435f-925f07fcf341a3040aba35f2775dcce2-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectEnchant",
-                  "targetTeamType": 2,
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.Monsters",
                   "paramStatusEffects": [
                     {
                       "statusId": "ambush",
@@ -243,12 +275,15 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Grant [quick]."
             }
-          ]
+          ],
+          "upgradeTitle": "Predator"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-adbc6dafdbd4c58e-11c20beb1567ade409e2a933258f86ff-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 15,
           "statusEffectUpgrades": [
             {
@@ -262,12 +297,13 @@
           ],
           "triggerUpgrades": [
             {
-              "trigger": 16,
+              "trigger": "CharacterTriggerData.Trigger.AfterSpawnEnchant",
               "descriptionKey": "CardUpgradeData_descriptionKey-8907a52451acf0a6-11c20beb1567ade409e2a933258f86ff-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectEnchant",
-                  "targetTeamType": 2,
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.Monsters",
                   "paramStatusEffects": [
                     {
                       "statusId": "ambush",
@@ -275,12 +311,15 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Grant [quick]."
             }
-          ]
+          ],
+          "upgradeTitle": "Predator II"
         },
         {
           "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-03759c8ccbc41b0c-bc9cbe3a899ebc14186abe7bb4645835-v2",
+          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 20,
           "statusEffectUpgrades": [
             {
@@ -294,12 +333,13 @@
           ],
           "triggerUpgrades": [
             {
-              "trigger": 16,
+              "trigger": "CharacterTriggerData.Trigger.AfterSpawnEnchant",
               "descriptionKey": "CardUpgradeData_descriptionKey-fe7ec26e4f1b1e7d-bc9cbe3a899ebc14186abe7bb4645835-v2",
               "effects": [
                 {
                   "effectStateName": "CardEffectEnchant",
-                  "targetTeamType": 2,
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.Monsters",
                   "paramStatusEffects": [
                     {
                       "statusId": "ambush",
@@ -307,9 +347,11 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "description": "Grant [quick]."
             }
-          ]
+          ],
+          "upgradeTitle": "Predator III"
         }
       ]
     }
