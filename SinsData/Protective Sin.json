@@ -1,18 +1,19 @@
 {
-  "nameKey": "SinsData_nameKey-19ae250ca744178f-d43b9ae5ef3812142be6864a0ef5f43b-v2",
-  "descriptionKey": "SinsData_descriptionKey-482f80b65c405856-d43b9ae5ef3812142be6864a0ef5f43b-v2",
+  "name": "Protective Sin",
+  "description": "Enemy units enter with [armor] [effect0.status0.power]. Talos attacks every turn and pushes attacked units back.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
       "paramStatusEffects": [
         {
-          "statusId": "armor",
+          "statusId": "VanillaStatusEffectIDs.Armor",
           "count": 5
         }
       ],
-      "paramTrigger": 2
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
-  ],
-  "name": "Protective Sin"
+  ]
 }

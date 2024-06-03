@@ -1,18 +1,20 @@
 {
-  "nameKey": "SinsData_nameKey-77d87891b0160895-014df95ca4518ef4b9fc7f2e62d6de82-v2",
-  "descriptionKey": "SinsData_descriptionKey-5db1d6ca77404ddf-014df95ca4518ef4b9fc7f2e62d6de82-v2",
+  "name": "Plating Seal",
+  "description": "<b>Constructed Explosives</b> enter with [damageshield].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
-      "paramCharacterSubtype": "SubtypesData_ExplodingBarrel",
       "paramStatusEffects": [
         {
-          "statusId": "damage shield",
+          "statusId": "VanillaStatusEffectIDs.DamageShield",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramCharacterSubtype": "SubtypesData_ExplodingBarrel",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
-  ],
-  "name": "Plating Seal"
+  ]
 }

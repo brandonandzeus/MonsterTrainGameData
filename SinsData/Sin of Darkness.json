@@ -1,19 +1,26 @@
 {
-  "nameKey": "SinsData_nameKey-5e02d6cd8b1a1561-45a679cc855dcab48b3448b1db1254b0-v2",
-  "descriptionKey": "SinsData_descriptionKey-1251d3747e8b3044-45a679cc855dcab48b3448b1db1254b0-v2",
+  "name": "Sin of Darkness",
+  "description": "<b>Archus</b> will summon <b>Blinding Darkshard</b> and <b>Looming Darkshard</b>.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectOnlyTooltips",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "TrapA"
       ]
     },
     {
       "relicEffectClassName": "RelicEffectOnlyTooltips",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "TrapB"
       ]
     }
-  ],
-  "name": "Sin of Darkness"
+  ]
 }

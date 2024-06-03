@@ -1,49 +1,60 @@
 {
-  "nameKey": "SinsData_nameKey-a2faa76a5af83fe8-3bb2d34209d8b0e46ba016500747eb86-v2",
-  "descriptionKey": "SinsData_descriptionKey-8c2629e507e5bc20-3bb2d34209d8b0e46ba016500747eb86-v2",
+  "name": "Wrath Crest",
+  "description": "<b>Alabaster Guardians</b> have [multistrike]. <b>Fel</b> empowers units with [rage].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
-      "paramInt": 100,
-      "paramCharacterSubtype": "SubtypesData_Statue",
       "paramStatusEffects": [
         {
-          "statusId": "multistrike",
+          "statusId": "VanillaStatusEffectIDs.Multistrike",
           "count": 1
         }
       ],
       "additionalTooltips": [
         {
-          "style": 4,
+          "style": "TooltipDesigner.TooltipDesignType.Positive",
           "isStatusTooltip": true,
-          "statusId": "buff"
+          "statusId": "VanillaStatusEffectIDs.Rage"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 100,
+      "paramCharacterSubtype": "SubtypesData_Statue",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "AlabasterGuardian"
       ]
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "AlabasterGuardian"
       ]
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "AlabasterGuardian"
       ]
     }
-  ],
-  "name": "Wrath Crest"
+  ]
 }

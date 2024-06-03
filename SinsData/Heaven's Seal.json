@@ -1,16 +1,18 @@
 {
-  "nameKey": "SinsData_nameKey-ea2a93e0eba6be44-5a268a87653a9064ba547b1444b4c668-v2",
-  "descriptionKey": "SinsData_descriptionKey-d23d6de33eeeeebb-5a268a87653a9064ba547b1444b4c668-v2",
+  "name": "Heaven's Seal",
+  "description": "Non-boss enemy units restore all health when they move up a floor.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectHealEnemyOnAscend",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 999,
       "paramExcludeCharacterSubtypes": [
         "SubtypesData_Boss",
         "SubtypesData_TreasureCollector"
-      ]
+      ],
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
-  ],
-  "name": "Heaven's Seal"
+  ]
 }

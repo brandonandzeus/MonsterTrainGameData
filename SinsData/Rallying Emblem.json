@@ -1,29 +1,32 @@
 {
-  "nameKey": "SinsData_nameKey-37374703bc2716e5-664854b07b11c514d9aa8a35d64f320e-v2",
-  "descriptionKey": "SinsData_descriptionKey-54273a2c2157b06d-664854b07b11c514d9aa8a35d64f320e-v2",
+  "name": "Rallying Emblem",
+  "description": "<b>Seraph</b> attacks every turn, applies [meleeweakness] to your front unit, and gains attack on [rally] and [incant].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectOnlyTooltips",
       "additionalTooltips": [
         {
-          "style": 0,
+          "style": "TooltipDesigner.TooltipDesignType.Default",
           "isStatusTooltip": true,
-          "statusId": "melee weakness"
+          "statusId": "VanillaStatusEffectIDs.MeleeWeakness"
         },
         {
-          "style": 0,
-          "statusId": "melee weakness",
+          "style": "TooltipDesigner.TooltipDesignType.Default",
+          "statusId": "VanillaStatusEffectIDs.MeleeWeakness",
           "isTriggerTooltip": true,
-          "trigger": 20
+          "trigger": "CharacterTriggerData.Trigger.CardMonsterPlayed"
         },
         {
-          "style": 0,
-          "statusId": "melee weakness",
+          "style": "TooltipDesigner.TooltipDesignType.Default",
+          "statusId": "VanillaStatusEffectIDs.MeleeWeakness",
           "isTriggerTooltip": true,
-          "trigger": 19
+          "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectOnlyTooltips",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
-  ],
-  "name": "Rallying Emblem"
+  ]
 }

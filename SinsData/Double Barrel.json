@@ -1,27 +1,28 @@
 {
-  "nameKey": "SinsData_nameKey-e8668ad45fcefceb-4fbd021fee80a4b47a052dce2e09ddcd-v2",
-  "descriptionKey": "SinsData_descriptionKey-b15ca9e965493b22-4fbd021fee80a4b47a052dce2e09ddcd-v2",
+  "name": "Double Barrel",
+  "description": "<b>Constructed Explosives</b> explode twice.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTrigger",
-      "paramSourceTeam": 1,
-      "paramCharacterSubtype": "SubtypesData_ExplodingBarrel",
-      "paramCardType": 1,
       "triggers": [
         {
-          "trigger": 24,
-          "descriptionKey": "SinsData_descriptionKey-1fc24f3a406292b5-4fbd021fee80a4b47a052dce2e09ddcd-v2",
+          "description": "Deal another [effect0.power] damage to the front enemy unit.",
           "effects": [
             {
               "effectStateName": "CardEffectDamage",
-              "targetMode": 2,
-              "targetTeamType": 2,
+              "targetMode": "TargetMode.FrontInRoom",
+              "targetTeamType": "Team.Type.Monsters",
               "paramInt": 10
             }
-          ]
+          ],
+          "trigger": "CharacterTriggerData.Trigger.OnTurnBegin"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddTrigger",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramCharacterSubtype": "SubtypesData_ExplodingBarrel",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
-  ],
-  "name": "Double Barrel"
+  ]
 }

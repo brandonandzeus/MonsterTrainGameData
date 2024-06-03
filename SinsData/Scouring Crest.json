@@ -1,30 +1,38 @@
 {
-  "nameKey": "SinsData_nameKey-6ee93c477b401fef-47285db72591dd64a9ca45a66abe6843-v2",
-  "descriptionKey": "SinsData_descriptionKey-4842bfa5e2ca772f-47285db72591dd64a9ca45a66abe6843-v2",
+  "name": "Scouring Crest",
+  "description": "<b>Fel</b> and her allies will add <b>Scourge</b> cards to your hand and deck.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "AlabasterGuardian"
       ]
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "AlabasterGuardian"
       ]
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "AlabasterGuardian"
       ]
     }
-  ],
-  "name": "Scouring Crest"
+  ]
 }

@@ -1,49 +1,60 @@
 {
-  "nameKey": "SinsData_nameKey-0e59d2ec769c57c9-eb649a1b3cdbc734dac6c3edd45b474f-v2",
-  "descriptionKey": "SinsData_descriptionKey-cb8fdd9fa87fd3d2-eb649a1b3cdbc734dac6c3edd45b474f-v2",
+  "name": "Eternal Crest",
+  "description": "<b>Alabaster Guardians</b> have [spellshield] [effect0.status0.power]. <b>Fel</b> empowers units with [armor].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
-      "paramInt": 100,
-      "paramCharacterSubtype": "SubtypesData_Statue",
       "paramStatusEffects": [
         {
-          "statusId": "spell shield",
+          "statusId": "VanillaStatusEffectIDs.Spellshield",
           "count": 5
         }
       ],
       "additionalTooltips": [
         {
-          "style": 0,
+          "style": "TooltipDesigner.TooltipDesignType.Default",
           "isStatusTooltip": true,
-          "statusId": "armor"
+          "statusId": "VanillaStatusEffectIDs.Armor"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 100,
+      "paramCharacterSubtype": "SubtypesData_Statue",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "AlabasterGuardian"
       ]
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "AlabasterGuardian"
       ]
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "AlabasterGuardian"
       ]
     }
-  ],
-  "name": "Eternal Crest"
+  ]
 }

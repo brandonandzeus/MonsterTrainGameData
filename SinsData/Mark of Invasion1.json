@@ -1,11 +1,14 @@
 {
-  "nameKey": "SinsData_nameKey-25cca63665f8a5b0-c4764aa6756a6c8439cf0b64373557bb-v2",
-  "descriptionKey": "SinsData_descriptionKey-159675e67cbe51e5-c4764aa6756a6c8439cf0b64373557bb-v2",
+  "name": "Mark of Invasion1",
+  "description": "At the start of battle, enemy units appear on each floor.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "HordeT1",
         "HordeT1",
@@ -14,8 +17,11 @@
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "HordeT1",
         "HordeT1",
@@ -23,6 +29,5 @@
         "HordeT1"
       ]
     }
-  ],
-  "name": "Mark of Invasion1"
+  ]
 }

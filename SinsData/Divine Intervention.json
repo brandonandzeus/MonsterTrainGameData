@@ -1,36 +1,40 @@
 {
-  "nameKey": "SinsData_nameKey-539b5037e6160212-5a6d7ca03ba420f428958babea3b3621-v2",
-  "descriptionKey": "SinsData_descriptionKey-f19c67ce11b8c10d-5a6d7ca03ba420f428958babea3b3621-v2",
-  "relicActivatedKey": "SinsData_relicActivatedKey-b97ee1ea150545ab-5a6d7ca03ba420f428958babea3b3621-v2",
+  "name": "Divine Intervention",
+  "description": "<b>The Last Divinity</b> has different status effects on each floor and gains [effect1.power][attack] when it gains <b>Relentless</b>.",
   "effects": [
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Relentless",
+          "count": 1
+        }
+      ],
       "relicEffectClassName": "RelicEffectAddStatusEffectOnTurnStart",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 10,
       "paramCharacterSubtype": "SubtypesData_FinalBoss",
       "paramBool": true,
-      "paramStatusEffects": [
-        {
-          "statusId": "relentless",
-          "count": 1
-        }
-      ],
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramRelic": "PactArmor"
     },
     {
-      "relicEffectClassName": "RelicEffectAdjustAttackByStatusEffect",
-      "paramSourceTeam": 1,
-      "paramInt": 7,
-      "paramCharacterSubtype": "SubtypesData_FinalBoss",
-      "paramBool": true,
       "paramStatusEffects": [
         {
-          "statusId": "relentless",
+          "statusId": "VanillaStatusEffectIDs.Relentless",
           "count": 1
         }
       ],
+      "relicEffectClassName": "RelicEffectAdjustAttackByStatusEffect",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 7,
+      "paramCharacterSubtype": "SubtypesData_FinalBoss",
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramRelic": "PactArmor"
     }
-  ],
-  "name": "Divine Intervention"
+  ]
 }

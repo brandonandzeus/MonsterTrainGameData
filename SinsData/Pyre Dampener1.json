@@ -1,12 +1,14 @@
 {
-  "nameKey": "SinsData_nameKey-e8100c7d5513e3e1-5b62da16f60170b46bac1ba600fc3760-v2",
-  "descriptionKey": "SinsData_descriptionKey-41ec92ed98eafcbc-5b62da16f60170b46bac1ba600fc3760-v2",
+  "name": "Pyre Dampener1",
+  "description": "[effect0.power][ember] per turn.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyEnergy",
-      "paramSourceTeam": 2,
-      "paramInt": -1
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": -1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
-  ],
-  "name": "Pyre Dampener1"
+  ]
 }

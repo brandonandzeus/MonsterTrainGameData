@@ -1,31 +1,32 @@
 {
-  "nameKey": "SinsData_nameKey-e762961eaf6629f6-fb3428019612ba24fb6312d7c0966438-v2",
-  "descriptionKey": "SinsData_descriptionKey-04139cce5ee2f0e4-fb3428019612ba24fb6312d7c0966438-v2",
+  "name": "Empowering Offense",
+  "description": "Enemy units enter with [rage] [effect0.status0.power]. Talos attacks every turn and gains [armor] on <b>Slay</b>.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
       "paramStatusEffects": [
         {
-          "statusId": "buff",
+          "statusId": "VanillaStatusEffectIDs.Rage",
           "count": 2
         }
       ],
-      "paramCardType": 1,
       "additionalTooltips": [
         {
-          "style": 0,
+          "style": "TooltipDesigner.TooltipDesignType.Default",
           "isStatusTooltip": true,
-          "statusId": "armor"
+          "statusId": "VanillaStatusEffectIDs.Armor"
         },
         {
-          "style": 0,
-          "statusId": "armor",
+          "style": "TooltipDesigner.TooltipDesignType.Default",
+          "statusId": "VanillaStatusEffectIDs.Armor",
           "isTriggerTooltip": true,
-          "trigger": 4
+          "trigger": "CharacterTriggerData.Trigger.OnKill"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
-  ],
-  "name": "Empowering Offense"
+  ]
 }

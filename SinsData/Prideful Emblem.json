@@ -1,18 +1,19 @@
 {
-  "nameKey": "SinsData_nameKey-caa58e9ef6c68953-ce84397f90406a54096b63d32bc71829-v2",
-  "descriptionKey": "SinsData_descriptionKey-1860714becbf6a1d-ce84397f90406a54096b63d32bc71829-v2",
+  "name": "Prideful Emblem",
+  "description": "Friendly units enter with [sap] [effect0.status0.power].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
       "paramStatusEffects": [
         {
-          "statusId": "debuff",
+          "statusId": "VanillaStatusEffectIDs.Sap",
           "count": 3
         }
       ],
-      "paramCardType": 1
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
-  ],
-  "name": "Prideful Emblem"
+  ]
 }

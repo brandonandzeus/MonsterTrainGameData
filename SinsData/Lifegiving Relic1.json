@@ -1,16 +1,17 @@
 {
-  "nameKey": "SinsData_nameKey-db5d188d7d3488f0-3ce4501b741aff640b32caf50fb39000-v2",
-  "descriptionKey": "SinsData_descriptionKey-6a50c3532109c3dc-3ce4501b741aff640b32caf50fb39000-v2",
+  "name": "Lifegiving Relic1",
+  "description": "Enemy units get +[effect0.power][health].",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 5,
       "paramExcludeCharacterSubtypes": [
         "SubtypesData_TreasureCollector"
       ],
-      "paramTrigger": 2
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
-  ],
-  "name": "Lifegiving Relic1"
+  ]
 }

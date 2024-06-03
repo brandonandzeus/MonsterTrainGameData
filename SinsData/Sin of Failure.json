@@ -1,19 +1,26 @@
 {
-  "nameKey": "SinsData_nameKey-95e957d5a0b68af2-aea910ed871caec4d92ff09151778856-v2",
-  "descriptionKey": "SinsData_descriptionKey-0bec098bad5ef147-aea910ed871caec4d92ff09151778856-v2",
+  "name": "Sin of Failure",
+  "description": "<b>Archus</b> will summon <b>Looming Darkshard</b> and <b>Shattering Darkshard</b>.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectOnlyTooltips",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "TrapB"
       ]
     },
     {
       "relicEffectClassName": "RelicEffectOnlyTooltips",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "TrapC"
       ]
     }
-  ],
-  "name": "Sin of Failure"
+  ]
 }

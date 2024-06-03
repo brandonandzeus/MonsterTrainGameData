@@ -1,22 +1,25 @@
 {
-  "nameKey": "SinsData_nameKey-8a400cb0d64f28a4-262aa3c7f94fd5e479763b88fa425c9d-v2",
-  "descriptionKey": "SinsData_descriptionKey-0c459e22d0c64eac-262aa3c7f94fd5e479763b88fa425c9d-v2",
+  "name": "Purifying Emblem",
+  "description": "<b>Seraph</b> will remove half of any [buff] and [debuff] effect stacks.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTrait",
       "additionalTooltips": [
         {
-          "titleKey": "CardEffectBuff_TooltipTitle",
-          "descriptionKey": "CardEffectBuff_TooltipText",
-          "style": 4
+          "title": "Buff",
+          "description": "Buff effects are generally positive for their target and are represented by green icons.",
+          "style": "TooltipDesigner.TooltipDesignType.Positive"
         },
         {
-          "titleKey": "CardEffectDebuff_TooltipTitle",
-          "descriptionKey": "CardEffectDebuff_TooltipText",
-          "style": 5
+          "title": "Debuff",
+          "description": "Debuff effects are generally negative for their target and are represented by red icons.",
+          "style": "TooltipDesigner.TooltipDesignType.Negative"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddTrait",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
-  ],
-  "name": "Purifying Emblem"
+  ]
 }

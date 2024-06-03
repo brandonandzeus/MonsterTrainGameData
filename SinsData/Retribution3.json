@@ -1,21 +1,23 @@
 {
-  "nameKey": "SinsData_nameKey-93003dfb77487aac-f64b9e9f8b6be4b47b281ae43cb0beee-v2",
-  "descriptionKey": "SinsData_descriptionKey-1db7ae01e274b21d-f64b9e9f8b6be4b47b281ae43cb0beee-v2",
+  "name": "Retribution3",
+  "description": "Non-boss enemy units enter with [spikes] [effect0.status0.power].",
   "effects": [
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Spikes",
+          "count": 5
+        }
+      ],
       "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramExcludeCharacterSubtypes": [
         "SubtypesData_Boss",
         "SubtypesData_TreasureCollector"
       ],
-      "paramStatusEffects": [
-        {
-          "statusId": "spikes",
-          "count": 5
-        }
-      ]
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
-  ],
-  "name": "Retribution3"
+  ]
 }

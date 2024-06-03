@@ -1,11 +1,14 @@
 {
-  "nameKey": "SinsData_nameKey-e2a494b8e956b250-5c456da164569d548a8220102b014d3f-v2",
-  "descriptionKey": "SinsData_descriptionKey-82661624194bf369-5c456da164569d548a8220102b014d3f-v2",
+  "name": "Mark of Invasion3",
+  "description": "At the start of battle, enemy units appear on each floor.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "HordeT3DeathDoesDamage",
         "HordeT3DeathDoesDamage",
@@ -14,8 +17,11 @@
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "HordeT3DeathDoesDamage",
         "HordeT3DeathDoesDamage",
@@ -23,6 +29,5 @@
         "HordeT3DeathDoesDamage"
       ]
     }
-  ],
-  "name": "Mark of Invasion3"
+  ]
 }

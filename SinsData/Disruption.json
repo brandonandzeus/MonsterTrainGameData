@@ -1,34 +1,19 @@
 {
-  "nameKey": "SinsData_nameKey-a7af3e24fd3cef8f-cd96d86aa26b88c47b430b764a47dca6-v2",
-  "descriptionKey": "SinsData_descriptionKey-476386499ba198aa-cd96d86aa26b88c47b430b764a47dca6-v2",
+  "name": "Disruption",
+  "description": "Friendly units enter with [dazed].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTempUpgrade",
-      "paramSourceTeam": 2,
       "paramStatusEffects": [
         {
-          "statusId": "dazed",
+          "statusId": "VanillaStatusEffectIDs.Dazed",
           "count": 1
         }
       ],
-      "paramCardType": 1,
-      "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-23eee8f2830cdfcf-1acb49a230256014e9af1abde40c4446-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-d03f5e0ce5930226-1acb49a230256014e9af1abde40c4446-v2",
-        "hideUpgradeIconOnCard": true,
-        "statusEffectUpgrades": [
-          {
-            "statusId": "dazed",
-            "count": 1
-          }
-        ],
-        "filters": [
-          {
-            "cardType": 1
-          }
-        ]
-      }
+      "relicEffectClassName": "RelicEffectAddTempUpgrade",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
-  ],
-  "name": "Disruption"
+  ]
 }

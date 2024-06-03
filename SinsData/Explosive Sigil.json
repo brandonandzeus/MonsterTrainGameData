@@ -1,27 +1,30 @@
 {
-  "nameKey": "SinsData_nameKey-593e0722a5f33835-e9ca0d4ab3b86864683cebfce3648fde-v2",
-  "descriptionKey": "SinsData_descriptionKey-73e9b4c1d995a4ee-e9ca0d4ab3b86864683cebfce3648fde-v2",
+  "name": "Explosive Sigil",
+  "description": "Enemy units deal 1 damage to the front unit on death.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTriggerOnEnemySpawn",
-      "paramSourceTeam": 1,
-      "paramExcludeCharacterSubtypes": [
-        "SubtypesData_ExplodingBarrel"
-      ],
       "triggers": [
         {
-          "descriptionKey": "SinsData_descriptionKey-febccd5c3e23209a-e9ca0d4ab3b86864683cebfce3648fde-v2",
+          "description": "Deal [effect0.power] damage to the front enemy unit.",
           "effects": [
             {
               "effectStateName": "CardEffectDamage",
-              "targetMode": 2,
-              "targetTeamType": 2,
+              "targetMode": "TargetMode.FrontInRoom",
+              "targetTeamType": "Team.Type.Monsters",
               "paramInt": 1
             }
-          ]
+          ],
+          "trigger": "CharacterTriggerData.Trigger.OnDeath"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddTriggerOnEnemySpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramExcludeCharacterSubtypes": [
+        "SubtypesData_ExplodingBarrel"
+      ],
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
-  ],
-  "name": "Explosive Sigil"
+  ]
 }

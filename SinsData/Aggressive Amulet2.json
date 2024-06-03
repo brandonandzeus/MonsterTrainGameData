@@ -1,18 +1,18 @@
 {
-  "nameKey": "SinsData_nameKey-750495b3da0ae8f4-864d1103b8d121c4a906d6e685c9c4e4-v2",
-  "descriptionKey": "SinsData_descriptionKey-db357dcc076521a5-864d1103b8d121c4a906d6e685c9c4e4-v2",
+  "name": "Aggressive Amulet2",
+  "description": "Non-boss enemy units get +[effect0.power][attack].",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCharacterAttackDamage",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 6,
       "paramExcludeCharacterSubtypes": [
         "SubtypesData_Boss",
         "SubtypesData_TreasureCollector"
       ],
-      "paramTrigger": 2,
-      "paramCardType": 4
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Invalid"
     }
-  ],
-  "name": "Aggressive Amulet2"
+  ]
 }

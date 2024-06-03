@@ -1,31 +1,32 @@
 {
-  "nameKey": "SinsData_nameKey-3f66125d208311e7-a32a2f57ad5c1c842b6634b545ace87c-v2",
-  "descriptionKey": "SinsData_descriptionKey-2ab46295f405f1c7-a32a2f57ad5c1c842b6634b545ace87c-v2",
+  "name": "Soul Sucker",
+  "description": "Friendly units enter with [sap] [effect0.status0.power]. Talos attacks every turn and applies [dazed] on [strike].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
       "paramStatusEffects": [
         {
-          "statusId": "debuff",
+          "statusId": "VanillaStatusEffectIDs.Sap",
           "count": 1
         }
       ],
-      "paramCardType": 1,
       "additionalTooltips": [
         {
-          "style": 0,
+          "style": "TooltipDesigner.TooltipDesignType.Default",
           "isStatusTooltip": true,
-          "statusId": "dazed"
+          "statusId": "VanillaStatusEffectIDs.Dazed"
         },
         {
-          "style": 0,
-          "statusId": "dazed",
+          "style": "TooltipDesigner.TooltipDesignType.Default",
+          "statusId": "VanillaStatusEffectIDs.Dazed",
           "isTriggerTooltip": true,
-          "trigger": 3
+          "trigger": "CharacterTriggerData.Trigger.OnAttacking"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
-  ],
-  "name": "Soul Sucker"
+  ]
 }

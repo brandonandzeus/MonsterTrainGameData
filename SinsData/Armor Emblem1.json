@@ -1,21 +1,22 @@
 {
-  "nameKey": "SinsData_nameKey-2ec67f47b70516f0-96e61e7aadde3aa4c8cbfbd3ef9ec206-v2",
-  "descriptionKey": "SinsData_descriptionKey-ff9719abadf5673b-96e61e7aadde3aa4c8cbfbd3ef9ec206-v2",
+  "name": "Armor Emblem1",
+  "description": "Enemy units enter with [armor] [effect0.status0.power].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
-      "paramExcludeCharacterSubtypes": [
-        "SubtypesData_TreasureCollector"
-      ],
       "paramStatusEffects": [
         {
-          "statusId": "armor",
+          "statusId": "VanillaStatusEffectIDs.Armor",
           "count": 10
         }
       ],
-      "paramTrigger": 2
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramExcludeCharacterSubtypes": [
+        "SubtypesData_TreasureCollector"
+      ],
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
-  ],
-  "name": "Armor Emblem1"
+  ]
 }

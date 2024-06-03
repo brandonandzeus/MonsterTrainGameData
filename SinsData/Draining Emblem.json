@@ -1,15 +1,14 @@
 {
-  "nameKey": "SinsData_nameKey-b2aa5944093bad7f-bcb69f698cc2d1a4085171ad1c54711a-v2",
-  "descriptionKey": "SinsData_descriptionKey-7daa31e87d553197-bcb69f698cc2d1a4085171ad1c54711a-v2",
+  "name": "Draining Emblem",
+  "description": "The first spell card played each turn gets [consume].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTraitToHand",
-      "paramSourceTeam": 2,
       "effectConditions": [
         {
-          "paramTrackedValue": 12,
-          "paramCardType": 1,
-          "paramComparator": 3
+          "paramTrackedValue": "CardStatistics.TrackedValueType.AnyCardPlayed",
+          "paramCardType": "CardStatistics.CardTypeTarget.Spell",
+          "paramEntryDuration": "CardStatistics.EntryDuration.ThisTurn",
+          "paramComparator": "RelicEffectCondition.Comparator.LessThan | RelicEffectCondition.Comparator.Equal"
         }
       ],
       "traits": [
@@ -21,16 +20,20 @@
         {
           "traitStateName": "CardTraitSelfPurge"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddTraitToHand",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectRemoveTempTraitFromHandAfterPlay",
-      "paramSourceTeam": 2,
-      "paramBool": true,
       "effectConditions": [
         {
-          "paramTrackedValue": 12,
-          "paramCardType": 1,
+          "paramTrackedValue": "CardStatistics.TrackedValueType.AnyCardPlayed",
+          "paramCardType": "CardStatistics.CardTypeTarget.Spell",
+          "paramEntryDuration": "CardStatistics.EntryDuration.ThisTurn",
+          "paramComparator": "RelicEffectCondition.Comparator.GreaterThan | RelicEffectCondition.Comparator.Equal",
           "paramInt": 1,
           "allowMultipleTriggersPerDuration": false
         }
@@ -44,17 +47,25 @@
         {
           "traitStateName": "CardTraitSelfPurge"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectRemoveTempTraitFromHandAfterPlay",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectRemoveTempTraitPostDiscard",
-      "paramSourceTeam": 2,
       "traits": [
         {
           "traitStateName": "CardTraitExhaustState"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectRemoveTempTraitPostDiscard",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
-  ],
-  "name": "Draining Emblem"
+  ]
 }

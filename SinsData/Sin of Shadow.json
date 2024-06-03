@@ -1,19 +1,26 @@
 {
-  "nameKey": "SinsData_nameKey-b33f28b36817699e-20de19bbbba40fa478669bacd63d13f4-v2",
-  "descriptionKey": "SinsData_descriptionKey-581dac189b51de62-20de19bbbba40fa478669bacd63d13f4-v2",
+  "name": "Sin of Shadow",
+  "description": "<b>Archus</b> will summon <b>Blinding Darkshard</b> and <b>Shattering Darkshard</b>.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectOnlyTooltips",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "TrapA"
       ]
     },
     {
       "relicEffectClassName": "RelicEffectOnlyTooltips",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramCharacters": [
         "TrapC"
       ]
     }
-  ],
-  "name": "Sin of Shadow"
+  ]
 }

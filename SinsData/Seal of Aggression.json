@@ -1,21 +1,23 @@
 {
-  "nameKey": "SinsData_nameKey-a4339117f777101e-49586f167d311654eba7a4b77c5cb6b7-v2",
-  "descriptionKey": "SinsData_descriptionKey-567c8f876a3be1c4-49586f167d311654eba7a4b77c5cb6b7-v2",
+  "name": "Seal of Aggression",
+  "description": "Non-boss enemy units get [multistrike].",
   "effects": [
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Multistrike",
+          "count": 1
+        }
+      ],
       "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramExcludeCharacterSubtypes": [
         "SubtypesData_Boss",
         "SubtypesData_TreasureCollector"
       ],
-      "paramStatusEffects": [
-        {
-          "statusId": "multistrike",
-          "count": 1
-        }
-      ]
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
-  ],
-  "name": "Seal of Aggression"
+  ]
 }
