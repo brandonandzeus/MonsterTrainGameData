@@ -1,142 +1,132 @@
 {
-  "skipCheckSettings": 2,
-  "ignoreIfNodesPresent": [
-
-  ],
-  "requiredDlc": 0,
-  "tooltipTitleKey": "MerchantData_tooltipTitleKey-4d0b067bf692ce25-8ebe4995b8fc83e4e88298d8c689b92b-v2",
-  "tooltipBodyKey": "MerchantData_tooltipBodyKey-86f6c90d55bf1803-8ebe4995b8fc83e4e88298d8c689b92b-v2",
-  "nodeSelectedSfxCue": "Node_Merchant",
-  "currency": 0,
+  "tooltipTitle": "Merchant of Trinkets",
+  "tooltipBody": "Offers a random selection of artifacts.",
   "characterData": {
-    "showInHR": true,
-    "lookAtThisAnimationName": "Look at this",
-    "sfxTimeoutTime": 3.0,
     "greetings": [
       {
+        "dialogue": "Welcome!",
         "animation": 6,
-        "chatterSfx": 0,
-        "dialogue": "MerchantCharacterData_dialogue-90ae26eb894f49c1-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 0
       },
       {
+        "dialogue": "Welcome, Hellborne!",
         "animation": 6,
-        "chatterSfx": 0,
-        "dialogue": "MerchantCharacterData_dialogue-4ee0a43e20bfbc46-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 0
       }
     ],
     "thanks": [
       {
+        "dialogue": "Pleasure doing business with you!",
         "animation": 5,
-        "chatterSfx": 0,
-        "dialogue": "MerchantCharacterData_dialogue-7f2c9e7cdbd99263-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 0
       },
       {
+        "dialogue": "Thanks, and enjoy!",
         "animation": 5,
-        "chatterSfx": 0,
-        "dialogue": "MerchantCharacterData_dialogue-cd26a69b8a7a9d6c-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 0
       }
     ],
     "chatter": [
       {
+        "dialogue": "I don’t get many customers out here.",
         "animation": 5,
-        "chatterSfx": 3,
-        "dialogue": "MerchantCharacterData_dialogue-b187564d501669b6-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 3
       },
       {
+        "dialogue": "If you’re looking for something else, try my cousin’s store!",
         "animation": 5,
-        "chatterSfx": 3,
-        "dialogue": "MerchantCharacterData_dialogue-6017cb1fc2ef4f93-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 3
       },
       {
+        "dialogue": "Going to relight the fires of Hell, huh? Good luck!",
         "animation": 5,
-        "chatterSfx": 3,
-        "dialogue": "MerchantCharacterData_dialogue-5585b8c916b6fc0a-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 3
       },
       {
+        "dialogue": "Have you met my cousins? Our family is quite...eccentric.",
         "animation": 4,
-        "chatterSfx": 2,
-        "dialogue": "MerchantCharacterData_dialogue-e4252172a5ae6f7d-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 2
       },
       {
+        "dialogue": "Buy something, won't you?",
         "animation": 4,
-        "chatterSfx": 2,
-        "dialogue": "MerchantCharacterData_dialogue-a87d08345c630c27-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 2
       },
       {
+        "dialogue": "I've been building this collection for centuries.",
         "animation": 4,
-        "chatterSfx": 2,
-        "dialogue": "MerchantCharacterData_dialogue-3bc48ba044a9951b-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 2
       }
     ],
     "bothered": {
+      "dialogue": "That’s quite enough with you! I know I’m soft, but you can’t keep poking my fur like that!",
       "animation": 1,
-      "chatterSfx": 1,
-      "dialogue": "MerchantCharacterData_dialogue-295df254dcde56a6-38fd419cf40dcf944b15268af1eae3bf-v2"
+      "chatterSfx": 1
     },
+    "showInHR": true,
+    "lookAtThisAnimationName": "Look at this",
+    "sfxTimeoutTime": 3.0,
     "canGiveBotherAchievement": true
   },
   "rewards": [
     {
       "rewardData": {
-        "_rewardTitleKey": "RelicPoolRewardData__rewardTitleKey-fcae0a4cf750c954-e9c29a404e4775e4895e3843c0837a28-v2",
-        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "_showRewardFlowInEvent": false,
-        "ShowRewardAnimationInEvent": false,
-        "_showCancelOverride": false,
-        "ignoreClassFilter": false,
-        "classFilter": -1,
-        "rarityFilter": -1,
+        "_rewardTitle": "Random Artifact",
         "relicPool": {
           "name": "MegaRelicPool",
           "relicDataList": [
             "..."
           ]
-        }
-      },
-      "oncePerVisit": false
-    },
-    {
-      "rewardData": {
-        "_rewardTitleKey": "RelicPoolRewardData__rewardTitleKey-fcae0a4cf750c954-e9c29a404e4775e4895e3843c0837a28-v2",
-        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        },
         "_showRewardFlowInEvent": false,
         "ShowRewardAnimationInEvent": false,
         "_showCancelOverride": false,
         "ignoreClassFilter": false,
         "classFilter": -1,
-        "rarityFilter": -1,
-        "relicPool": {
-          "name": "MegaRelicPool",
-          "relicDataList": [
-            "..."
-          ]
-        }
+        "rarityFilter": -1
       },
       "oncePerVisit": false
     },
     {
       "rewardData": {
-        "_rewardTitleKey": "RelicPoolRewardData__rewardTitleKey-fcae0a4cf750c954-e9c29a404e4775e4895e3843c0837a28-v2",
-        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "_rewardTitle": "Random Artifact",
+        "relicPool": {
+          "name": "MegaRelicPool",
+          "relicDataList": [
+            "..."
+          ]
+        },
         "_showRewardFlowInEvent": false,
         "ShowRewardAnimationInEvent": false,
         "_showCancelOverride": false,
         "ignoreClassFilter": false,
         "classFilter": -1,
-        "rarityFilter": -1,
-        "relicPool": {
-          "name": "MegaRelicPool",
-          "relicDataList": [
-            "..."
-          ]
-        }
+        "rarityFilter": -1
       },
       "oncePerVisit": false
     },
     {
       "rewardData": {
-        "_rewardTitleKey": "PurgeRewardData__rewardTitleKey-5390ac522aaf2ee5-606fc10a139d918408e1f60139b29b7f-v2",
-        "_rewardDescriptionKey": "PurgeRewardData__rewardDescriptionKey-e3c057b6689a405f-606fc10a139d918408e1f60139b29b7f-v2",
+        "_rewardTitle": "Random Artifact",
+        "relicPool": {
+          "name": "MegaRelicPool",
+          "relicDataList": [
+            "..."
+          ]
+        },
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "ignoreClassFilter": false,
+        "classFilter": -1,
+        "rarityFilter": -1
+      },
+      "oncePerVisit": false
+    },
+    {
+      "rewardData": {
+        "_rewardTitle": "Purge Card",
+        "_rewardDescription": "Remove a card from your deck.",
         "costs": [
           50,
           75,
@@ -159,8 +149,8 @@
     },
     {
       "rewardData": {
-        "_rewardTitleKey": "RerollMerchantRewardData__rewardTitleKey-8518708709209fd2-ae8cbe68cb002644bb1e00ef0ffb612b-v2",
-        "_rewardDescriptionKey": "RerollMerchantRewardData__rewardDescriptionKey-c70bda70dc2c734f-ae8cbe68cb002644bb1e00ef0ffb612b-v2",
+        "_rewardTitle": "Re-roll",
+        "_rewardDescription": "Randomize and refresh the offered goods.",
         "costs": [
           50
         ],
@@ -176,8 +166,8 @@
     },
     {
       "rewardData": {
-        "_rewardTitleKey": "EnhancerRewardData__rewardTitleKey-ef7e03c6e6025a65-f44274301a34f614dbea737879859728-v2",
-        "_rewardDescriptionKey": "EnhancerRewardData__rewardDescriptionKey-aaa6610ca67a7f15-f44274301a34f614dbea737879859728-v2",
+        "_rewardTitle": "Card Duplicator",
+        "_rewardDescription": "Duplicate any card except your Champion.",
         "costs": [
           75,
           125,
@@ -199,5 +189,12 @@
       "oncePerVisit": false
     }
   ],
+  "skipCheckSettings": 2,
+  "ignoreIfNodesPresent": [
+
+  ],
+  "requiredDlc": 0,
+  "nodeSelectedSfxCue": "Node_Merchant",
+  "currency": "MerchantData.Currency.Gold",
   "name": "ArtifactMerchant"
 }

@@ -1,91 +1,76 @@
 {
-  "skipCheckSettings": 2,
-  "ignoreIfNodesPresent": [
-
-  ],
-  "requiredDlc": 0,
-  "tooltipTitleKey": "MerchantData_tooltipTitleKey-d1f600c52a3aa923-1187e1c379b5e8e4b882b188c3290ab6-v2",
-  "tooltipBodyKey": "MerchantData_tooltipBodyKey-fd33c005f5e5661e-1187e1c379b5e8e4b882b188c3290ab6-v2",
-  "nodeSelectedSfxCue": "Node_Merchant",
-  "currency": 0,
+  "tooltipTitle": "Merchant of Steel",
+  "tooltipBody": "Forge your units to gain new powers.",
   "characterData": {
-    "showInHR": true,
-    "lookAtThisAnimationName": "Look at this",
-    "sfxTimeoutTime": 3.0,
     "greetings": [
       {
+        "dialogue": "Ahh, a customer!",
         "animation": 6,
-        "chatterSfx": 0,
-        "dialogue": "MerchantCharacterData_dialogue-6628caba8c5dd09c-b571b22e550a32143975df60628c84ea-v2"
+        "chatterSfx": 0
       },
       {
+        "dialogue": "You've come to the right place!",
         "animation": 6,
-        "chatterSfx": 0,
-        "dialogue": "MerchantCharacterData_dialogue-8e86df27b0614feb-b571b22e550a32143975df60628c84ea-v2"
+        "chatterSfx": 0
       }
     ],
     "thanks": [
       {
+        "dialogue": "You purchased something? Well, thank you!",
         "animation": 5,
-        "chatterSfx": 0,
-        "dialogue": "MerchantCharacterData_dialogue-19f8637301bcb1bf-b571b22e550a32143975df60628c84ea-v2"
+        "chatterSfx": 0
       },
       {
+        "dialogue": "Wonderful! Let me just wipe it off for you first...",
         "animation": 5,
-        "chatterSfx": 0,
-        "dialogue": "MerchantCharacterData_dialogue-8cddede1cc2df13b-b571b22e550a32143975df60628c84ea-v2"
+        "chatterSfx": 0
       }
     ],
     "chatter": [
       {
+        "dialogue": "Don't mind the mess...",
         "animation": 5,
-        "chatterSfx": 3,
-        "dialogue": "MerchantCharacterData_dialogue-4680404412c4facb-b571b22e550a32143975df60628c84ea-v2"
+        "chatterSfx": 3
       },
       {
+        "dialogue": "Clutter adds character! Or something like that...",
         "animation": 5,
-        "chatterSfx": 3,
-        "dialogue": "MerchantCharacterData_dialogue-76cd9df4a1c35021-b571b22e550a32143975df60628c84ea-v2"
+        "chatterSfx": 3
       },
       {
+        "dialogue": "Don't listen to my cousins, I have more than just junk!",
         "animation": 5,
-        "chatterSfx": 3,
-        "dialogue": "MerchantCharacterData_dialogue-73d45baabf7e9575-b571b22e550a32143975df60628c84ea-v2"
+        "chatterSfx": 3
       },
       {
+        "dialogue": "Oh the webs? There's nothing dangerous in here...probably.",
         "animation": 4,
-        "chatterSfx": 2,
-        "dialogue": "MerchantCharacterData_dialogue-0724ac4f27ca8c41-b571b22e550a32143975df60628c84ea-v2"
+        "chatterSfx": 2
       },
       {
+        "dialogue": "Please, please! Let me know if you see something you like!",
         "animation": 4,
-        "chatterSfx": 2,
-        "dialogue": "MerchantCharacterData_dialogue-2bc80777f2fd4bd5-b571b22e550a32143975df60628c84ea-v2"
+        "chatterSfx": 2
       },
       {
+        "dialogue": "Ahh, you saw my cousins? How are those mangy merchants!?",
         "animation": 4,
-        "chatterSfx": 2,
-        "dialogue": "MerchantCharacterData_dialogue-e23465bc716fbe81-b571b22e550a32143975df60628c84ea-v2"
+        "chatterSfx": 2
       }
     ],
     "bothered": {
+      "dialogue": "Quit poking me or you'll be leaving here with one less finger!",
       "animation": 1,
-      "chatterSfx": 1,
-      "dialogue": "MerchantCharacterData_dialogue-201ee277dc31ca5c-b571b22e550a32143975df60628c84ea-v2"
+      "chatterSfx": 1
     },
+    "showInHR": true,
+    "lookAtThisAnimationName": "Look at this",
+    "sfxTimeoutTime": 3.0,
     "canGiveBotherAchievement": true
   },
   "rewards": [
     {
       "rewardData": {
-        "_rewardTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "_showRewardFlowInEvent": false,
-        "ShowRewardAnimationInEvent": false,
-        "_showCancelOverride": false,
-        "ignoreClassFilter": false,
-        "classFilter": -1,
-        "rarityFilter": -1,
         "relicPool": {
           "name": "UnitUpgradePoolCommon",
           "relicDataList": [
@@ -101,20 +86,18 @@
             "UnitUpgradeClanUmbraDamageShield",
             "UnitUpgradeClanWurmBuffCorruptcost"
           ]
-        }
-      },
-      "oncePerVisit": false
-    },
-    {
-      "rewardData": {
-        "_rewardTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        },
         "_showRewardFlowInEvent": false,
         "ShowRewardAnimationInEvent": false,
         "_showCancelOverride": false,
         "ignoreClassFilter": false,
         "classFilter": -1,
-        "rarityFilter": -1,
+        "rarityFilter": -1
+      },
+      "oncePerVisit": false
+    },
+    {
+      "rewardData": {
         "relicPool": {
           "name": "UnitUpgradePoolCommon",
           "relicDataList": [
@@ -130,20 +113,18 @@
             "UnitUpgradeClanUmbraDamageShield",
             "UnitUpgradeClanWurmBuffCorruptcost"
           ]
-        }
-      },
-      "oncePerVisit": false
-    },
-    {
-      "rewardData": {
-        "_rewardTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        },
         "_showRewardFlowInEvent": false,
         "ShowRewardAnimationInEvent": false,
         "_showCancelOverride": false,
         "ignoreClassFilter": false,
         "classFilter": -1,
-        "rarityFilter": -1,
+        "rarityFilter": -1
+      },
+      "oncePerVisit": false
+    },
+    {
+      "rewardData": {
         "relicPool": {
           "name": "UnitUpgradePool",
           "relicDataList": [
@@ -152,14 +133,20 @@
             "UnitUpgradeBiggerUmbra",
             "UnitUpgradeQuickAwoken"
           ]
-        }
+        },
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "ignoreClassFilter": false,
+        "classFilter": -1,
+        "rarityFilter": -1
       },
       "oncePerVisit": false
     },
     {
       "rewardData": {
-        "_rewardTitleKey": "PurgeRewardData__rewardTitleKey-5390ac522aaf2ee5-606fc10a139d918408e1f60139b29b7f-v2",
-        "_rewardDescriptionKey": "PurgeRewardData__rewardDescriptionKey-e3c057b6689a405f-606fc10a139d918408e1f60139b29b7f-v2",
+        "_rewardTitle": "Purge Card",
+        "_rewardDescription": "Remove a card from your deck.",
         "costs": [
           50,
           75,
@@ -182,8 +169,8 @@
     },
     {
       "rewardData": {
-        "_rewardTitleKey": "RerollMerchantRewardData__rewardTitleKey-5c939b3e59321dbb-bc435c2195581e5498dd7ab69bc5c759-v2",
-        "_rewardDescriptionKey": "RerollMerchantRewardData__rewardDescriptionKey-fc930650c1ab7eb7-bc435c2195581e5498dd7ab69bc5c759-v2",
+        "_rewardTitle": "Re-roll",
+        "_rewardDescription": "Randomize and refresh the offered goods.",
         "costs": [
           50
         ],
@@ -199,8 +186,8 @@
     },
     {
       "rewardData": {
-        "_rewardTitleKey": "EnhancerRewardData__rewardTitleKey-ef7e03c6e6025a65-f44274301a34f614dbea737879859728-v2",
-        "_rewardDescriptionKey": "EnhancerRewardData__rewardDescriptionKey-aaa6610ca67a7f15-f44274301a34f614dbea737879859728-v2",
+        "_rewardTitle": "Card Duplicator",
+        "_rewardDescription": "Duplicate any card except your Champion.",
         "costs": [
           75,
           125,
@@ -222,5 +209,12 @@
       "oncePerVisit": false
     }
   ],
+  "skipCheckSettings": 2,
+  "ignoreIfNodesPresent": [
+
+  ],
+  "requiredDlc": 0,
+  "nodeSelectedSfxCue": "Node_Merchant",
+  "currency": "MerchantData.Currency.Gold",
   "name": "UnitUpgradeMerchant"
 }

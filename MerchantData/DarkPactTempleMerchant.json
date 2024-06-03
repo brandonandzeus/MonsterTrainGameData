@@ -1,85 +1,80 @@
 {
-  "skipCheckSettings": 1,
-  "ignoreIfNodesPresent": [
-
-  ],
-  "requiredDlc": 1,
-  "tooltipTitleKey": "MerchantData_tooltipTitleKey-917a221f50acf94a-518ac180d60e42c4f8336e4a747ad762-v2",
-  "tooltipBodyKey": "MerchantData_tooltipBodyKey-336b3be3d9ded27e-518ac180d60e42c4f8336e4a747ad762-v2",
-  "nodeSelectedSfxCue": "Node_Temple",
-  "currency": 1,
+  "tooltipTitle": "Divine Temple",
+  "tooltipBody": "Accept shards in exchange for upgrading spells or combining units.",
   "characterData": {
-    "showInHR": true,
-    "lookAtThisAnimationName": "Look at this",
-    "sfxTimeoutTime": 3.0,
     "greetings": [
       {
+        "dialogue": "Welcome!",
         "animation": 6,
-        "chatterSfx": 0,
-        "dialogue": "MerchantCharacterData_dialogue-90ae26eb894f49c1-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 0
       },
       {
+        "dialogue": "Welcome, Hellborne!",
         "animation": 6,
-        "chatterSfx": 0,
-        "dialogue": "MerchantCharacterData_dialogue-4ee0a43e20bfbc46-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 0
       }
     ],
     "thanks": [
       {
+        "dialogue": "Pleasure doing business with you!",
         "animation": 5,
-        "chatterSfx": 0,
-        "dialogue": "MerchantCharacterData_dialogue-7f2c9e7cdbd99263-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 0
       },
       {
+        "dialogue": "Thanks, and enjoy!",
         "animation": 5,
-        "chatterSfx": 0,
-        "dialogue": "MerchantCharacterData_dialogue-cd26a69b8a7a9d6c-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 0
       }
     ],
     "chatter": [
       {
+        "dialogue": "I don’t get many customers out here.",
         "animation": 5,
-        "chatterSfx": 3,
-        "dialogue": "MerchantCharacterData_dialogue-b187564d501669b6-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 3
       },
       {
+        "dialogue": "If you’re looking for something else, try my cousin’s store!",
         "animation": 5,
-        "chatterSfx": 3,
-        "dialogue": "MerchantCharacterData_dialogue-6017cb1fc2ef4f93-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 3
       },
       {
+        "dialogue": "Going to relight the fires of Hell, huh? Good luck!",
         "animation": 5,
-        "chatterSfx": 3,
-        "dialogue": "MerchantCharacterData_dialogue-5585b8c916b6fc0a-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 3
       },
       {
+        "dialogue": "Have you met my cousins? Our family is quite...eccentric.",
         "animation": 4,
-        "chatterSfx": 2,
-        "dialogue": "MerchantCharacterData_dialogue-e4252172a5ae6f7d-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 2
       },
       {
+        "dialogue": "Buy something, won't you?",
         "animation": 4,
-        "chatterSfx": 2,
-        "dialogue": "MerchantCharacterData_dialogue-a87d08345c630c27-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 2
       },
       {
+        "dialogue": "I've been building this collection for centuries.",
         "animation": 4,
-        "chatterSfx": 2,
-        "dialogue": "MerchantCharacterData_dialogue-3bc48ba044a9951b-38fd419cf40dcf944b15268af1eae3bf-v2"
+        "chatterSfx": 2
       }
     ],
     "bothered": {
+      "dialogue": "That’s quite enough with you! I know I’m soft, but you can’t keep poking my fur like that!",
       "animation": 1,
-      "chatterSfx": 1,
-      "dialogue": "MerchantCharacterData_dialogue-295df254dcde56a6-38fd419cf40dcf944b15268af1eae3bf-v2"
+      "chatterSfx": 1
     },
+    "showInHR": true,
+    "lookAtThisAnimationName": "Look at this",
+    "sfxTimeoutTime": 3.0,
     "canGiveBotherAchievement": true
   },
   "rewards": [
     {
       "rewardData": {
-        "_rewardTitleKey": "LevelUpUpgradeRewardData__rewardTitleKey-d772c5b9a093ef70-2cb45977f7cf2fb49b0d82e73069f71c-v2",
-        "_rewardDescriptionKey": "LevelUpUpgradeRewardData__rewardDescriptionKey-73ecc7847594e116-2cb45977f7cf2fb49b0d82e73069f71c-v2",
+        "_rewardTitle": "Engage Pact",
+        "_rewardDescription": "Sacrifice a unit to infuse its essence into another unit.",
+        "purgeCardTitle": "Select a unit to sacrifice.",
+        "upgradeUnitTitle": "Select a unit to enhance.",
         "costs": [
           50
         ],
@@ -90,22 +85,12 @@
         "CanBeSkippedOverride": false,
         "ForceContentUnlocked": false,
         "_isServiceMerchantReward": false,
-        "_merchantServiceIndex": 0,
-        "purgeCardTitleKey": "LevelUpUpgradeRewardData_purgeCardTitleKey-5528d0f5555eccff-2cb45977f7cf2fb49b0d82e73069f71c-v2",
-        "upgradeUnitTitleKey": "LevelUpUpgradeRewardData_upgradeUnitTitleKey-a33db54bb124c225-2cb45977f7cf2fb49b0d82e73069f71c-v2"
+        "_merchantServiceIndex": 0
       },
       "oncePerVisit": true
     },
     {
       "rewardData": {
-        "_rewardTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "_showRewardFlowInEvent": false,
-        "ShowRewardAnimationInEvent": false,
-        "_showCancelOverride": false,
-        "ignoreClassFilter": false,
-        "classFilter": -1,
-        "rarityFilter": -1,
         "relicPool": {
           "name": "SpellUpgradePoolDarkPactCommon",
           "relicDataList": [
@@ -113,20 +98,18 @@
             "SpellUpgradeTraitAddPiercing",
             "SpellReduceCostPurge"
           ]
-        }
-      },
-      "oncePerVisit": true
-    },
-    {
-      "rewardData": {
-        "_rewardTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        },
         "_showRewardFlowInEvent": false,
         "ShowRewardAnimationInEvent": false,
         "_showCancelOverride": false,
         "ignoreClassFilter": false,
         "classFilter": -1,
-        "rarityFilter": -1,
+        "rarityFilter": -1
+      },
+      "oncePerVisit": true
+    },
+    {
+      "rewardData": {
         "relicPool": {
           "name": "SpellUpgradePoolDarkPactUncommon",
           "relicDataList": [
@@ -134,10 +117,23 @@
             "SpellUpgradeCreateCopyWithPurge",
             "SpellUpgradeLowCost"
           ]
-        }
+        },
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "ignoreClassFilter": false,
+        "classFilter": -1,
+        "rarityFilter": -1
       },
       "oncePerVisit": true
     }
   ],
+  "skipCheckSettings": 1,
+  "ignoreIfNodesPresent": [
+
+  ],
+  "requiredDlc": 1,
+  "nodeSelectedSfxCue": "Node_Temple",
+  "currency": "MerchantData.Currency.Crystals",
   "name": "DarkPactTempleMerchant"
 }

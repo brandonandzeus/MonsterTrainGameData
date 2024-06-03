@@ -1,130 +1,111 @@
 {
-  "skipCheckSettings": 2,
-  "ignoreIfNodesPresent": [
-
-  ],
-  "requiredDlc": 0,
-  "tooltipTitleKey": "MerchantData_tooltipTitleKey-ffaae1f2529c6d08-102c4f629de0a6d46bc46156e2efc234-v2",
-  "tooltipBodyKey": "MerchantData_tooltipBodyKey-092cd25cb718a3c0-102c4f629de0a6d46bc46156e2efc234-v2",
-  "nodeSelectedSfxCue": "Node_Merchant",
-  "currency": 0,
+  "tooltipTitle": "Merchant of Magic",
+  "tooltipBody": "Forge your spells to gain new powers.",
   "characterData": {
-    "showInHR": true,
-    "lookAtThisAnimationName": "Look at this",
-    "sfxTimeoutTime": 3.0,
     "greetings": [
       {
+        "dialogue": "Greetings, Hellborne.",
         "animation": 6,
-        "chatterSfx": 0,
-        "dialogue": "MerchantCharacterData_dialogue-284a3e80981ea0e1-e91715399eda43e499df9ec40695c899-v2"
+        "chatterSfx": 0
       },
       {
+        "dialogue": "Don't be shy, take a look!",
         "animation": 6,
-        "chatterSfx": 0,
-        "dialogue": "MerchantCharacterData_dialogue-9402d9a5a51c6dc4-e91715399eda43e499df9ec40695c899-v2"
+        "chatterSfx": 0
       }
     ],
     "thanks": [
       {
+        "dialogue": "That's a good one there!",
         "animation": 5,
-        "chatterSfx": 0,
-        "dialogue": "MerchantCharacterData_dialogue-d2ba3ff67e2e6ae5-e91715399eda43e499df9ec40695c899-v2"
+        "chatterSfx": 0
       },
       {
+        "dialogue": "One is good, but two is better!",
         "animation": 5,
-        "chatterSfx": 0,
-        "dialogue": "MerchantCharacterData_dialogue-1f4cf469a7545a95-e91715399eda43e499df9ec40695c899-v2"
+        "chatterSfx": 0
       }
     ],
     "chatter": [
       {
+        "dialogue": "Oh, I've pulled out the finest for you, Hellborne.",
         "animation": 5,
-        "chatterSfx": 3,
-        "dialogue": "MerchantCharacterData_dialogue-bc03f77c7b334945-e91715399eda43e499df9ec40695c899-v2"
+        "chatterSfx": 3
       },
       {
+        "dialogue": "My cousin's store isn't quite as pristine as mine, trust me.",
         "animation": 5,
-        "chatterSfx": 3,
-        "dialogue": "MerchantCharacterData_dialogue-9507a8a42cae31fc-e91715399eda43e499df9ec40695c899-v2"
+        "chatterSfx": 3
       },
       {
+        "dialogue": "Nothing but the finest of stones here!",
         "animation": 5,
-        "chatterSfx": 3,
-        "dialogue": "MerchantCharacterData_dialogue-af63f6dfd230f1d0-e91715399eda43e499df9ec40695c899-v2"
+        "chatterSfx": 3
       },
       {
+        "dialogue": "Anything catch your eye?",
         "animation": 4,
-        "chatterSfx": 2,
-        "dialogue": "MerchantCharacterData_dialogue-e9b502821ce7481f-e91715399eda43e499df9ec40695c899-v2"
+        "chatterSfx": 2
       },
       {
+        "dialogue": "Don't worry, I'll give you a great deal.",
         "animation": 4,
-        "chatterSfx": 2,
-        "dialogue": "MerchantCharacterData_dialogue-dd6cfae6fc2df545-e91715399eda43e499df9ec40695c899-v2"
+        "chatterSfx": 2
       },
       {
+        "dialogue": "You've met my cousins? My deepest apologies...",
         "animation": 4,
-        "chatterSfx": 2,
-        "dialogue": "MerchantCharacterData_dialogue-9a693898556e94a3-e91715399eda43e499df9ec40695c899-v2"
+        "chatterSfx": 2
       }
     ],
     "bothered": {
+      "dialogue": "Hey, be careful or you'll break something shiny!",
       "animation": 1,
-      "chatterSfx": 1,
-      "dialogue": "MerchantCharacterData_dialogue-85597ac8a67991df-e91715399eda43e499df9ec40695c899-v2"
+      "chatterSfx": 1
     },
+    "showInHR": true,
+    "lookAtThisAnimationName": "Look at this",
+    "sfxTimeoutTime": 3.0,
     "canGiveBotherAchievement": true
   },
   "rewards": [
     {
       "rewardData": {
-        "_rewardTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "_showRewardFlowInEvent": false,
-        "ShowRewardAnimationInEvent": false,
-        "_showCancelOverride": false,
-        "ignoreClassFilter": false,
-        "classFilter": -1,
-        "rarityFilter": -1,
         "relicPool": {
           "name": "SpellUpgradePoolCostReduction",
           "relicDataList": [
             "SpellUpgradeReduceCost"
           ]
-        }
-      },
-      "oncePerVisit": false
-    },
-    {
-      "rewardData": {
-        "_rewardTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        },
         "_showRewardFlowInEvent": false,
         "ShowRewardAnimationInEvent": false,
         "_showCancelOverride": false,
         "ignoreClassFilter": false,
         "classFilter": -1,
-        "rarityFilter": -1,
+        "rarityFilter": -1
+      },
+      "oncePerVisit": false
+    },
+    {
+      "rewardData": {
         "relicPool": {
           "name": "SpellUpgradePoolCommon",
           "relicDataList": [
             "SpellMagicPower",
             "SpellMagicPowerBigExtraCost"
           ]
-        }
-      },
-      "oncePerVisit": false
-    },
-    {
-      "rewardData": {
-        "_rewardTitleKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        },
         "_showRewardFlowInEvent": false,
         "ShowRewardAnimationInEvent": false,
         "_showCancelOverride": false,
         "ignoreClassFilter": false,
         "classFilter": -1,
-        "rarityFilter": -1,
+        "rarityFilter": -1
+      },
+      "oncePerVisit": false
+    },
+    {
+      "rewardData": {
         "relicPool": {
           "name": "SpellUpgradePool",
           "relicDataList": [
@@ -133,14 +114,20 @@
             "SpellUpgradeTraitAddPermafrost",
             "SpellUpgradeTraitAddJuice"
           ]
-        }
+        },
+        "_showRewardFlowInEvent": false,
+        "ShowRewardAnimationInEvent": false,
+        "_showCancelOverride": false,
+        "ignoreClassFilter": false,
+        "classFilter": -1,
+        "rarityFilter": -1
       },
       "oncePerVisit": false
     },
     {
       "rewardData": {
-        "_rewardTitleKey": "PurgeRewardData__rewardTitleKey-5390ac522aaf2ee5-606fc10a139d918408e1f60139b29b7f-v2",
-        "_rewardDescriptionKey": "PurgeRewardData__rewardDescriptionKey-e3c057b6689a405f-606fc10a139d918408e1f60139b29b7f-v2",
+        "_rewardTitle": "Purge Card",
+        "_rewardDescription": "Remove a card from your deck.",
         "costs": [
           50,
           75,
@@ -163,8 +150,8 @@
     },
     {
       "rewardData": {
-        "_rewardTitleKey": "RerollMerchantRewardData__rewardTitleKey-5c939b3e59321dbb-bc435c2195581e5498dd7ab69bc5c759-v2",
-        "_rewardDescriptionKey": "RerollMerchantRewardData__rewardDescriptionKey-fc930650c1ab7eb7-bc435c2195581e5498dd7ab69bc5c759-v2",
+        "_rewardTitle": "Re-roll",
+        "_rewardDescription": "Randomize and refresh the offered goods.",
         "costs": [
           50
         ],
@@ -180,8 +167,8 @@
     },
     {
       "rewardData": {
-        "_rewardTitleKey": "EnhancerRewardData__rewardTitleKey-ef7e03c6e6025a65-f44274301a34f614dbea737879859728-v2",
-        "_rewardDescriptionKey": "EnhancerRewardData__rewardDescriptionKey-aaa6610ca67a7f15-f44274301a34f614dbea737879859728-v2",
+        "_rewardTitle": "Card Duplicator",
+        "_rewardDescription": "Duplicate any card except your Champion.",
         "costs": [
           75,
           125,
@@ -203,5 +190,12 @@
       "oncePerVisit": false
     }
   ],
+  "skipCheckSettings": 2,
+  "ignoreIfNodesPresent": [
+
+  ],
+  "requiredDlc": 0,
+  "nodeSelectedSfxCue": "Node_Merchant",
+  "currency": "MerchantData.Currency.Gold",
   "name": "SpellUpgradeMerchant"
 }
