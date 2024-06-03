@@ -1,9 +1,6 @@
 {
-  "storyId": "HiddenUpgrade",
-  "knotName": "HiddenUpgrade",
   "followupEvents": [
     {
-      "followupEvent": "HiddenUpgrade_Followup",
       "conditions": [
         {
           "conditionName": "FollowupConditionBattleDelay",
@@ -15,10 +12,10 @@
           "paramCardData": "AnnhilateRoomDamageScaling",
           "paramCardDataId": "251c3fe2-3c6e-4640-9c98-532a568c5c22"
         }
-      ]
+      ],
+      "followupEvent": "HiddenUpgrade_Followup"
     },
     {
-      "followupEvent": "HiddenUpgrade_Followup",
       "conditions": [
         {
           "conditionName": "FollowupConditionBattleDelay",
@@ -30,10 +27,10 @@
           "paramCardData": "AnnhilateShieldHeal",
           "paramCardDataId": "b071165e-633e-40dd-a80e-5b1bca1ac218"
         }
-      ]
+      ],
+      "followupEvent": "HiddenUpgrade_Followup"
     },
     {
-      "followupEvent": "HiddenUpgrade_Followup",
       "conditions": [
         {
           "conditionName": "FollowupConditionBattleDelay",
@@ -45,9 +42,12 @@
           "paramCardData": "AnnhilateSingleKill",
           "paramCardDataId": "b7ea5e0b-c3a6-400e-825c-6e8973dd75dc"
         }
-      ]
+      ],
+      "followupEvent": "HiddenUpgrade_Followup"
     }
   ],
+  "storyId": "HiddenUpgrade",
+  "knotName": "HiddenUpgrade",
   "numRunsCompletedToSee": 10,
   "priorityTicketCount": 20,
   "minDistanceAllowed": 0,

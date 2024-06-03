@@ -1,10 +1,6 @@
 {
-  "storyId": "Shard_HephArtifact",
-  "knotName": "Shard_HephArtifact",
   "followupEvents": [
     {
-      "followupEvent": "Shards_HephTrueEnding",
-      "canShowAfterVictory": true,
       "conditions": [
         {
           "conditionName": "FollowupConditionBattleDelay",
@@ -17,16 +13,20 @@
         {
           "conditionName": "FollowupConditionTrueBossDefeated"
         }
-      ]
+      ],
+      "followupEvent": "Shards_HephTrueEnding",
+      "canShowAfterVictory": true
     }
   ],
+  "storyId": "Shard_HephArtifact",
+  "knotName": "Shard_HephArtifact",
   "numRunsCompletedToSee": 3,
   "priorityTicketCount": 0,
   "allClassesNeededToShow": true,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 7,
   "excludedMutator": "NoShards",
-  "associatedDLC": 1,
+  "associatedDLC": "ShinyShoe.DLC.Hellforged",
   "requireDlcModeActive": true,
   "possibleRewards": [
     "FinalArtifactReward",

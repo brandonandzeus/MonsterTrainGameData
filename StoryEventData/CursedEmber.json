@@ -1,9 +1,6 @@
 {
-  "storyId": "CursedEmber",
-  "knotName": "CursedEmber",
   "followupEvents": [
     {
-      "followupEvent": "CursedEmber_Followup",
       "conditions": [
         {
           "conditionName": "FollowupConditionBattleDelay",
@@ -20,9 +17,12 @@
           "paramString": "TookEmber",
           "paramCardDataId": "21038774-c0a4-413c-ab7e-27e458228e5f"
         }
-      ]
+      ],
+      "followupEvent": "CursedEmber_Followup"
     }
   ],
+  "storyId": "CursedEmber",
+  "knotName": "CursedEmber",
   "numRunsCompletedToSee": 7,
   "priorityTicketCount": 25,
   "minDistanceAllowed": 0,

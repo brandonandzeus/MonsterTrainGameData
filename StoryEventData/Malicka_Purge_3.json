@@ -1,17 +1,17 @@
 {
-  "storyId": "Malicka_Purge_3",
-  "knotName": "Malicka_Purge_3",
   "followupEvents": [
     {
-      "followupEvent": "Malicka_Purge_4",
       "conditions": [
         {
           "conditionName": "FollowupConditionBattleDelay",
           "paramInt": 2
         }
-      ]
+      ],
+      "followupEvent": "Malicka_Purge_4"
     }
   ],
+  "storyId": "Malicka_Purge_3",
+  "knotName": "Malicka_Purge_3",
   "numRunsCompletedToSee": 5,
   "priorityTicketCount": 50,
   "numClassesNeededToShow": 5,
@@ -19,7 +19,7 @@
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 3,
   "excludedMutator": "NoShards",
-  "associatedDLC": 1,
+  "associatedDLC": "ShinyShoe.DLC.Hellforged",
   "possibleRewards": [
     "MalickaHeal_3"
   ],

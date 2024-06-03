@@ -1,9 +1,6 @@
 {
-  "storyId": "HephRecruit",
-  "knotName": "HephRecruit",
   "followupEvents": [
     {
-      "followupEvent": "HephRecruit_Followup",
       "conditions": [
         {
           "conditionName": "FollowupConditionInkVariable",
@@ -14,13 +11,16 @@
           "conditionName": "FollowupConditionInkVariable",
           "paramString": "HammerTaken"
         }
-      ]
+      ],
+      "followupEvent": "HephRecruit_Followup"
     }
   ],
+  "storyId": "HephRecruit",
+  "knotName": "HephRecruit",
   "priorityTicketCount": 30,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 3,
-  "associatedDLC": 1,
+  "associatedDLC": "ShinyShoe.DLC.Hellforged",
   "possibleRewards": [
     "HephHammerReward",
     "HephRecruit_UpgradeAttack"

@@ -1,9 +1,6 @@
 {
-  "storyId": "PurgeableCurse",
-  "knotName": "PurgeableCurse",
   "followupEvents": [
     {
-      "followupEvent": "PurgeableCurse_Followup",
       "conditions": [
         {
           "conditionName": "FollowupConditionBattleDelay",
@@ -13,9 +10,12 @@
           "conditionName": "FollowupConditionInkVariable",
           "paramString": "PurgeableTookCurses"
         }
-      ]
+      ],
+      "followupEvent": "PurgeableCurse_Followup"
     }
   ],
+  "storyId": "PurgeableCurse",
+  "knotName": "PurgeableCurse",
   "numRunsCompletedToSee": 7,
   "priorityTicketCount": 25,
   "minDistanceAllowed": 0,

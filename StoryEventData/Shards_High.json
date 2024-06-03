@@ -7,7 +7,7 @@
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 7,
   "excludedMutator": "NoShards",
-  "associatedDLC": 1,
+  "associatedDLC": "ShinyShoe.DLC.Hellforged",
   "requireDlcModeActive": true,
   "possibleRewards": [
     "ShardEvent_BlessingDraftReward_3",

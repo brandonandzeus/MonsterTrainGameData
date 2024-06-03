@@ -5,7 +5,7 @@
   "priorityTicketCount": 50,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 2,
-  "associatedDLC": 1,
+  "associatedDLC": "ShinyShoe.DLC.Hellforged",
   "possibleRewards": [
     "HephUnitReward"
   ],

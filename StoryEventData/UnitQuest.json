@@ -1,9 +1,6 @@
 {
-  "storyId": "UnitQuest",
-  "knotName": "UnitQuest",
   "followupEvents": [
     {
-      "followupEvent": "UnitQuest_UnitFollowup",
       "conditions": [
         {
           "conditionName": "FollowupConditionCardCount",
@@ -11,10 +8,10 @@
           "paramCardData": "ReplicatingUnit",
           "paramCardDataId": "b089b640-b979-4f33-8524-89123f6d2bfe"
         }
-      ]
+      ],
+      "followupEvent": "UnitQuest_UnitFollowup"
     },
     {
-      "followupEvent": "UnitQuest_SpellFollowup",
       "conditions": [
         {
           "conditionName": "FollowupConditionCardCount",
@@ -22,9 +19,12 @@
           "paramCardData": "ReplicatingSpell",
           "paramCardDataId": "118b9c0c-48a6-4d9e-99e8-477ae571a18f"
         }
-      ]
+      ],
+      "followupEvent": "UnitQuest_SpellFollowup"
     }
   ],
+  "storyId": "UnitQuest",
+  "knotName": "UnitQuest",
   "numRunsCompletedToSee": 7,
   "priorityTicketCount": 25,
   "minDistanceAllowed": 0,

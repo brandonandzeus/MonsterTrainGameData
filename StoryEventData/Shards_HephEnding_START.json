@@ -1,7 +1,6 @@
 {
   "followupEvents": [
     {
-      "followupEvent": "Shards_HephArtifact",
       "conditions": [
         {
           "conditionName": "FollowupConditionBattleDelay",
@@ -15,7 +14,8 @@
           "conditionName": "FollowupConditionHellforgedBossDefeatedCount",
           "paramInt": 5
         }
-      ]
+      ],
+      "followupEvent": "Shards_HephArtifact"
     }
   ],
   "numRunsCompletedToSee": 5,
@@ -26,7 +26,7 @@
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 3,
   "excludedMutator": "NoShards",
-  "associatedDLC": 1,
+  "associatedDLC": "ShinyShoe.DLC.Hellforged",
   "requireDlcModeActive": true,
   "name": "Shards_HephEnding_START"
 }

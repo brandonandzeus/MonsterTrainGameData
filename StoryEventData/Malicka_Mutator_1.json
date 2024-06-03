@@ -1,9 +1,6 @@
 {
-  "storyId": "Malicka_Mutator_1",
-  "knotName": "Malicka_Mutator_1",
   "followupEvents": [
     {
-      "followupEvent": "Malicka_Mutator_2",
       "conditions": [
         {
           "conditionName": "FollowupConditionBattleDelay",
@@ -13,16 +10,19 @@
           "conditionName": "FollowupConditionInkVariable",
           "paramString": "TookAnything"
         }
-      ]
+      ],
+      "followupEvent": "Malicka_Mutator_2"
     }
   ],
+  "storyId": "Malicka_Mutator_1",
+  "knotName": "Malicka_Mutator_1",
   "numRunsCompletedToSee": 5,
   "priorityTicketCount": 50,
   "numClassesNeededToShow": 5,
   "allClassesNeededToShow": true,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 3,
-  "associatedDLC": 1,
+  "associatedDLC": "ShinyShoe.DLC.Hellforged",
   "possibleRewards": [
     "AcidRainRelicReward",
     "ShieldsUpRelicReward",

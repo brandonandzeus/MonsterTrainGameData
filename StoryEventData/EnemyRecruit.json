@@ -6,7 +6,7 @@
   "minDistanceAllowed": 4,
   "maxDistanceAllowed": 7,
   "excludedMutator": "NoShards",
-  "associatedDLC": 1,
+  "associatedDLC": "ShinyShoe.DLC.Hellforged",
   "requireDlcModeActive": true,
   "possibleRewards": [
     "EnemyRecruitReward"

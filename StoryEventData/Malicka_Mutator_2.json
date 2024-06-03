@@ -7,7 +7,7 @@
   "allClassesNeededToShow": true,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 3,
-  "associatedDLC": 1,
+  "associatedDLC": "ShinyShoe.DLC.Hellforged",
   "possibleRewards": [
     "WandWoundsRelicReward",
     "AllSpellsPiercingRelicReward",

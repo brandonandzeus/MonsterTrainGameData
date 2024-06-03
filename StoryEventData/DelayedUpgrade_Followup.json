@@ -1,9 +1,6 @@
 {
-  "storyId": "DelayedUpgrade_Followup",
-  "knotName": "DelayedUpgrade_Followup",
   "followupEvents": [
     {
-      "followupEvent": "DelayedUpgrade_Final",
       "conditions": [
         {
           "conditionName": "FollowupConditionInkVariable",
@@ -13,9 +10,12 @@
           "conditionName": "FollowupConditionBattleDelay",
           "paramInt": 1
         }
-      ]
+      ],
+      "followupEvent": "DelayedUpgrade_Final"
     }
   ],
+  "storyId": "DelayedUpgrade_Followup",
+  "knotName": "DelayedUpgrade_Followup",
   "priorityTicketCount": 0,
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 7,

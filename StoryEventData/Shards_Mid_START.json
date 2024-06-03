@@ -1,7 +1,6 @@
 {
   "followupEvents": [
     {
-      "followupEvent": "Shards_Mid",
       "conditions": [
         {
           "conditionName": "FollowupConditionBattleDelay",
@@ -16,7 +15,8 @@
           "conditionName": "FollowupConditionHellforgedBossDefeatedCount",
           "paramInt": 2
         }
-      ]
+      ],
+      "followupEvent": "Shards_Mid"
     }
   ],
   "numRunsCompletedToSee": 5,
@@ -27,7 +27,7 @@
   "minDistanceAllowed": 0,
   "maxDistanceAllowed": 3,
   "excludedMutator": "NoShards",
-  "associatedDLC": 1,
+  "associatedDLC": "ShinyShoe.DLC.Hellforged",
   "requireDlcModeActive": true,
   "name": "Shards_Mid_START"
 }

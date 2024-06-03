@@ -1,9 +1,6 @@
 {
-  "storyId": "DelayedUpgrade",
-  "knotName": "DelayedUpgrade",
   "followupEvents": [
     {
-      "followupEvent": "DelayedUpgrade_Followup",
       "conditions": [
         {
           "conditionName": "FollowupConditionInkVariable",
@@ -14,9 +11,12 @@
           "paramInt": 2,
           "paramString": "DelayedUpgradeTaken"
         }
-      ]
+      ],
+      "followupEvent": "DelayedUpgrade_Followup"
     }
   ],
+  "storyId": "DelayedUpgrade",
+  "knotName": "DelayedUpgrade",
   "numRunsCompletedToSee": 10,
   "priorityTicketCount": 20,
   "minDistanceAllowed": 0,
