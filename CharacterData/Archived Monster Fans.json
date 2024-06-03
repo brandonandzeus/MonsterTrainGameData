@@ -1,16 +1,12 @@
 {
-  "nameKey": "CharacterData_nameKey-151a7e787a1bdccc-ea89f4f516ff24d47ad35346928f06bd-v2",
-  "size": 2,
-  "health": 1,
-  "attackDamage": 1,
+  "name": "Archived Monster Fans",
   "startingStatusEffects": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 2
     }
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived Monster Fans"
+  "size": 2,
+  "health": 1,
+  "attackDamage": 1
 }

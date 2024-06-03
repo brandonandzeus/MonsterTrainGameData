@@ -1,16 +1,10 @@
 {
-  "nameKey": "CharacterData_nameKey-5a2f91c10c06cd4a-3fe353355232ce745968a39119e49726-v2",
-  "size": 3,
-  "health": 20,
-  "attackDamage": 1,
+  "name": "Rusty",
   "triggers": [
     {
-      "trigger": 11,
-      "descriptionKey": "CharacterData_descriptionKey-5ebb6af9eea0f24b-3fe353355232ce745968a39119e49726-v2",
+      "description": "Add random [snack] card to deck.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddBattleCard",
-          "targetTeamType": 0,
           "paramCardPool": {
             "name": "Class5Food",
             "cardDataList": [
@@ -34,16 +28,19 @@
               "VoidExcavator",
               "MorselMiner"
             ]
-          }
+          },
+          "effectStateName": "CardEffectAddBattleCard",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "trigger": "INVALID11"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Forager"
+  "subtypes": [
+    "Shroud"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Rusty"
+  "size": 3,
+  "health": 20,
+  "attackDamage": 1
 }

@@ -1,76 +1,74 @@
 {
-  "nameKey": "CharacterData_nameKey-fbdd755da0158b1e-5291c8ecc9a1bd5418e5d32c3e8dda54-v2",
+  "name": "Fel, the Wings of Light Eternal Crest Hard",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 9
-      }
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 15,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 15
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 20,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
-        "bonusDamage": 1,
         "statusEffectUpgrades": [
           {
-            "statusId": "armor",
+            "statusId": "VanillaStatusEffectIDs.Armor",
             "count": 50
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false,
+        "bonusDamage": 1
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 20
     }
   ],
-  "size": 6,
-  "health": 1300,
-  "isOuterTrainBoss": true,
-  "attackDamage": 10,
   "startingStatusEffects": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 1
     }
-  ],
-  "statusEffectImmunities": [
-    "rooted"
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BigBoss2_e3e6f1a2-34a7-4493-b9d7-a123e182241e"
   ],
   "bossActionGroups": [
     {
       "actions": [
         {
-          "actionBehaviorName": "RandomOccupiedBossActionBehavior",
           "actionEffects": [
             {
-              "effectStateName": "CardEffectAddStatusEffect",
-              "targetIgnoreBosses": true,
-              "paramInt": 100,
               "paramStatusEffects": [
                 {
-                  "statusId": "armor",
+                  "statusId": "VanillaStatusEffectIDs.Armor",
                   "count": 10
                 }
-              ]
+              ],
+              "effectStateName": "CardEffectAddStatusEffect",
+              "targetMode": "TargetMode.Room",
+              "targetIgnoreBosses": true,
+              "targetTeamType": "Team.Type.Heroes",
+              "paramInt": 100
             }
           ],
-          "paramTeamType": 1
+          "actionBehaviorName": "RandomOccupiedBossActionBehavior",
+          "paramTeamType": "Team.Type.Heroes"
         }
       ]
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-f70ae070295f6239-5291c8ecc9a1bd5418e5d32c3e8dda54-v2"
+  "characterLoreTooltips": [
+    "Once my closest ally, this Clipped legend has been able to create new wings out of the Light that Heaven uses. I admire her ingenuity, but I'll never be able to forgive her for abandoning the two of us."
   ],
-  "name": "Fel, the Wings of Light Eternal Crest Hard"
+  "size": 6,
+  "health": 1300,
+  "isOuterTrainBoss": true,
+  "attackDamage": 10,
+  "statusEffectImmunities": [
+    "VanillaStatusEffectIDs.Rooted"
+  ]
 }

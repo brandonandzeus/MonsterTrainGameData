@@ -1,22 +1,15 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 3,
-  "health": 30,
+  "name": "Disciple Protector Shard",
   "startingStatusEffects": [
     {
-      "statusId": "armor",
+      "statusId": "VanillaStatusEffectIDs.Armor",
       "count": 40
     },
     {
-      "statusId": "spikes",
+      "statusId": "VanillaStatusEffectIDs.Spikes",
       "count": 1
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_ShieldGuardT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Disciple Protector Shard"
+  "size": 3,
+  "health": 30
 }

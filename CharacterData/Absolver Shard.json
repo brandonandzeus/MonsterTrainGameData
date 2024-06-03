@@ -1,49 +1,43 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 2,
-  "health": 20,
-  "attackDamage": 6,
+  "name": "Absolver Shard",
   "triggers": [
     {
-      "trigger": 3,
-      "descriptionKey": "CharacterData_descriptionKey-208a46dbc2939ec0-d7f5f8c1cdf5aa549969ead0fcf7e198-v2",
+      "description": "Apply [sap] [effect0.status0.power] to the attacked unit.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 6,
-          "targetTeamType": 2,
           "paramStatusEffects": [
             {
-              "statusId": "debuff",
+              "statusId": "VanillaStatusEffectIDs.Sap",
               "count": 4
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.LastAttackedCharacter",
+          "targetTeamType": "Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
     },
     {
-      "trigger": 1,
-      "descriptionKey": "CharacterData_descriptionKey-e77bec95db49f77b-d7f5f8c1cdf5aa549969ead0fcf7e198-v2",
+      "description": "Add a <b>Weight of Contrition</b> card to the top of your draw pile",
       "effects": [
         {
-          "effectStateName": "CardEffectAddBattleCard",
-          "targetTeamType": 0,
-          "paramInt": 5,
           "paramCardPool": {
             "name": "JunkPoolT2",
             "cardDataList": [
               "ScourgeT2"
             ]
-          }
+          },
+          "effectStateName": "CardEffectAddBattleCard",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 5
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HordeT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Absolver Shard"
+  "size": 2,
+  "health": 20,
+  "attackDamage": 6
 }

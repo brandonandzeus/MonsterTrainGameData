@@ -1,15 +1,14 @@
 {
-  "nameKey": "CharacterData_nameKey-faa003a372237cce-4c6c2775352a2f14caf738ae68d9f1f6-v2",
+  "name": "Consumer of Crowns",
+  "subtypes": [
+    "Demon",
+    "Chosen"
+  ],
+  "characterLoreTooltips": [
+    "Truly a behemoth among beasts, this demon is the most decorated warrior in the Ring, having collected more horns than any living Demon. It is highly respected amongst the Hellhorned and frequently avoided by me."
+  ],
   "size": 3,
   "health": 40,
-  "deathType": 1,
-  "attackDamage": 100,
-  "subtypeKeys": [
-    "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12",
-    "SubtypesData_Chosen"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-61da12191fc14a28-4c6c2775352a2f14caf738ae68d9f1f6-v2"
-  ],
-  "name": "Consumer of Crowns"
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 100
 }

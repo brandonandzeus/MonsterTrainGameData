@@ -1,27 +1,24 @@
 {
-  "nameKey": "CharacterData_nameKey-55c5bb55dbc13299-389bf8d127aaf9c4a9662c38b4f079b4-v2",
-  "size": 1,
-  "health": 10,
-  "canAttack": false,
+  "name": "Archived Energized Tomb",
   "triggers": [
     {
-      "descriptionKey": "CharacterData_descriptionKey-c1c6e31752b6446d-389bf8d127aaf9c4a9662c38b4f079b4-v2",
       "effects": [
         {
           "effectStateName": "CardEffectRewardCards",
-          "targetTeamType": 0,
-          "targetCardType": 1,
-          "targetCardSelectionMode": 1,
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
+          "targetCardType": "CardType.Monster",
+          "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
           "paramInt": 3
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Tomb"
+  "subtypes": [
+    "Tomb"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived Energized Tomb"
+  "size": 1,
+  "health": 10,
+  "canAttack": false
 }

@@ -1,79 +1,76 @@
 {
-  "nameKey": "CharacterData_nameKey-f4617209c7eb96e9-289dd94ae2111df4a9a9eb976321380b-v2",
+  "name": "Talos, the Architect Empowering Offense Hard",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 5
-      }
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 15,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 15
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 5,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "armor",
+            "statusId": "VanillaStatusEffectIDs.Armor",
             "count": 10
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 5
     }
+  ],
+  "triggers": [
+    {
+      "description": "Gain [armor] [effect0.status0.power].",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Armor",
+              "count": 25
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 100
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnKill"
+    }
+  ],
+  "bossActionGroups": [
+    {
+      "actions": [
+        {
+          "actionBehaviorName": "RandomBossActionBehavior",
+          "paramTeamType": "Team.Type.None"
+        }
+      ],
+      "numRepeats": 0
+    }
+  ],
+  "characterLoreTooltips": [
+    "In these visions, I’ve seen crystals used as prisons for souls. “Shardsouls”, they’ve been called. It seems their creator, a human of some ancient renown, created them to split the Divine Titans, but it’s unclear why this happened, what became of the human Exile, or the importance of humans in this forgotten tragedy."
   ],
   "size": 6,
   "health": 450,
   "isOuterTrainBoss": true,
-  "validBossAttackPhase": -1,
-  "deathType": 2,
+  "validBossAttackPhase": "BossState.AttackPhase.Relentless",
+  "deathType": "CharacterDeathVFX.Type.Boss",
   "attackDamage": 7,
   "statusEffectImmunities": [
-    "rooted"
+    "VanillaStatusEffectIDs.Rooted"
   ],
-  "triggers": [
-    {
-      "trigger": 4,
-      "descriptionKey": "CharacterData_descriptionKey-ee34d4d988f1b07a-289dd94ae2111df4a9a9eb976321380b-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "paramInt": 100,
-          "paramStatusEffects": [
-            {
-              "statusId": "armor",
-              "count": 25
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BigBossT1_50952308-e0f3-4acb-b0cc-e0d662b868b8"
-  ],
-  "removeTriggersOnRelentlessChange": true,
-  "bossActionGroups": [
-    {
-      "numRepeats": 0,
-      "actions": [
-        {
-          "actionBehaviorName": "RandomBossActionBehavior"
-        }
-      ]
-    }
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-c7924baae6f87068-289dd94ae2111df4a9a9eb976321380b-v2"
-  ],
-  "name": "Talos, the Architect Empowering Offense Hard"
+  "removeTriggersOnRelentlessChange": true
 }

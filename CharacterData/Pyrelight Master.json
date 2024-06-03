@@ -1,78 +1,74 @@
 {
-  "nameKey": "CharacterData_nameKey-0712dcafccfbc8a3-6a49bdf13403376439bc6301d3780dca-v2",
+  "name": "Pyrelight Master",
   "bypassPactCrystalsUpgradeDataList": [
     {
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
-        "bonusHP": 6,
         "statusEffectUpgrades": [
           {
-            "statusId": "regen",
+            "statusId": "VanillaStatusEffectIDs.Regen",
             "count": 3
           }
-        ]
+        ],
+        "useUpgradeHighlightTextTags": false,
+        "bonusHP": 6
       }
     },
     {
-      "crystalsCount": 40,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 40
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 50,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "multistrike",
+            "statusId": "VanillaStatusEffectIDs.Multistrike",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 50
     },
     {
-      "isRepeatable": false,
-      "crystalsCount": 50,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusSize": 1
-      }
+      },
+      "isRepeatable": false,
+      "crystalsCount": 50
     }
   ],
-  "size": 5,
-  "health": 400,
-  "isMiniboss": true,
-  "deathType": 1,
-  "attackDamage": 6,
-  "attackTeleportsToDefender": false,
   "startingStatusEffects": [
     {
-      "statusId": "relentless",
+      "statusId": "VanillaStatusEffectIDs.Relentless",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 1,
-      "descriptionKey": "CharacterData_descriptionKey-71767cf0f039f648-6a49bdf13403376439bc6301d3780dca-v2",
+      "description": "Gain +5[attack].",
       "effects": [
         {
           "effectStateName": "CardEffectBuffDamage",
-          "targetMode": 5,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes",
           "paramInt": 5
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_BossT2_935b30b5-bb94-4fd4-b3be-2ed0eb73ccf6",
-    "SubtypesData_Boss"
+  "characterLoreTooltips": [
+    "Formerly a Light Harnesser, this curious Clipped recrafted his wings with an unholy combination made from shards of the Pyre and of Seraph's Light. The terrible result helped solidify the former Harnesser as a leader among Clipped and terror among Hellborne.   "
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-accc647d27af31d7-6a49bdf13403376439bc6301d3780dca-v2"
-  ],
-  "name": "Pyrelight Master"
+  "size": 5,
+  "health": 400,
+  "isMiniboss": true,
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 6,
+  "attackTeleportsToDefender": false
 }

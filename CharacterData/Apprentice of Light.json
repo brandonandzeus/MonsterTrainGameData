@@ -1,35 +1,31 @@
 {
-  "nameKey": "CharacterData_nameKey-e03c049dbc4b9ae6-9446045f9588ca14b858068084da524f-v2",
+  "name": "Apprentice of Light",
+  "triggers": [
+    {
+      "description": "Gain [damageshield].",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.DamageShield",
+              "count": 1
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 100
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnKill"
+    }
+  ],
+  "characterLoreTooltips": [
+    "Few humans have been trusted with shards of Seraph's Light. Those that have harness its energy to grow stronger with each passing moment. Sensing the impending conflict, I refused to create the armor for Heaven. What they've ended up creating is crude, but still effective."
+  ],
   "pactCrystalsRequiredCount": 25,
   "pactCrystalsVariantData": "Apprentice of Light Shard",
   "size": 2,
   "health": 20,
-  "attackDamage": 3,
-  "triggers": [
-    {
-      "trigger": 4,
-      "descriptionKey": "CharacterData_descriptionKey-700c14df9141f37b-9446045f9588ca14b858068084da524f-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "paramInt": 100,
-          "paramStatusEffects": [
-            {
-              "statusId": "damage shield",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_HeavyT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-86968b88d81e80e8-9446045f9588ca14b858068084da524f-v2"
-  ],
-  "name": "Apprentice of Light"
+  "attackDamage": 3
 }

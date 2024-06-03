@@ -1,34 +1,31 @@
 {
-  "nameKey": "CharacterData_nameKey-de244f748542de24-d9e7bec3dff64bc4c9939f511b03c2c5-v2",
-  "pactCrystalsRequiredCount": 17,
-  "pactCrystalsVariantData": "Absolver Shard",
-  "size": 2,
-  "health": 5,
-  "attackDamage": 1,
+  "name": "Absolver",
   "triggers": [
     {
-      "trigger": 1,
-      "descriptionKey": "CharacterData_descriptionKey-39ce0f70473fef93-d9e7bec3dff64bc4c9939f511b03c2c5-v2",
+      "description": "Add a <b>Weight of Contrition</b> card to the top of your draw pile.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddBattleCard",
-          "targetTeamType": 0,
-          "paramInt": 5,
           "paramCardPool": {
             "name": "JunkPoolT2",
             "cardDataList": [
               "ScourgeT2"
             ]
-          }
+          },
+          "effectStateName": "CardEffectAddBattleCard",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 5
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HordeT1"
+  "characterLoreTooltips": [
+    "Born with no wings, these creatures are only Clipped in name. Their breed has evolved to grow additional appendages instead, aiding them in their work as both prisoner and warden."
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-12699b98ebe20768-d9e7bec3dff64bc4c9939f511b03c2c5-v2"
-  ],
-  "name": "Absolver"
+  "pactCrystalsRequiredCount": 17,
+  "pactCrystalsVariantData": "Absolver Shard",
+  "size": 2,
+  "health": 5,
+  "attackDamage": 1
 }

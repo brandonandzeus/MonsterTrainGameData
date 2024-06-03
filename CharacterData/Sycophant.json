@@ -1,27 +1,26 @@
 {
-  "nameKey": "CharacterData_nameKey-962c11c74aed21b9-faba0e7cbbc646245a15270c22d486d9-v2",
+  "name": "Sycophant",
+  "triggers": [
+    {
+      "description": "Their units gain +[effect0.power][attack].",
+      "effects": [
+        {
+          "effectStateName": "CardEffectBuffDamage",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes",
+          "paramInt": 2
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
+    }
+  ],
+  "characterLoreTooltips": [
+    "Freshly Clipped, these outcasts were once Winged, but have been cast out for some ancient argument that has remained unknown to me. They still carry the feathers of their old selves, granting others the power they no longer have."
+  ],
   "pactCrystalsRequiredCount": 10,
   "pactCrystalsVariantData": "Sycophant Shard",
   "size": 1,
   "health": 1,
   "attackDamage": 2,
-  "attackTeleportsToDefender": false,
-  "triggers": [
-    {
-      "descriptionKey": "CharacterData_descriptionKey-f40b59ed14519224-faba0e7cbbc646245a15270c22d486d9-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectBuffDamage",
-          "paramInt": 2
-        }
-      ]
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_HordeT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-411e50cc7764740d-faba0e7cbbc646245a15270c22d486d9-v2"
-  ],
-  "name": "Sycophant"
+  "attackTeleportsToDefender": false
 }

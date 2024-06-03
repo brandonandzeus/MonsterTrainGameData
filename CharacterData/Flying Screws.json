@@ -1,38 +1,33 @@
 {
-  "nameKey": "CharacterData_nameKey-039e3a4e9c89135f-85d5bdcbc25b82044bc7ab95821eb4fd-v2",
-  "size": 1,
-  "health": 1,
-  "attackDamage": 1,
+  "name": "Flying Screws",
   "startingStatusEffects": [
     {
-      "statusId": "splash",
+      "statusId": "VanillaStatusEffectIDs.Splash",
       "count": 3
     }
   ],
   "triggers": [
     {
-      "trigger": 25,
-      "descriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 20,
-          "targetTeamType": 3,
           "paramStatusEffects": [
             {
-              "statusId": "splash",
+              "statusId": "VanillaStatusEffectIDs.Splash",
               "count": 5
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.LastFeederCharacter",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnBurnout"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Snack"
+  "subtypes": [
+    "Morsel"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Flying Screws"
+  "size": 1,
+  "health": 1,
+  "attackDamage": 1
 }

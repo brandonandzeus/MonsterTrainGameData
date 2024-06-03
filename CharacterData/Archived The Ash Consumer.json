@@ -1,44 +1,38 @@
 {
-  "nameKey": "CharacterData_nameKey-55ceae9c4c74ee8e-b744f9c90f5ee9043950619f1776b645-v2",
-  "size": 2,
-  "health": 14,
+  "name": "Archived The Ash Consumer",
   "triggers": [
     {
-      "trigger": 5,
-      "descriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
       "effects": [
         {
           "effectStateName": "CardEffectGainEnergyNextTurn",
-          "targetMode": 5,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAnyHeroDeathOnFloor"
     },
     {
-      "trigger": 5,
-      "descriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
       "effects": [
         {
-          "effectStateName": "CardEffectGainEnergyNextTurn",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "paramInt": 1,
           "paramStatusEffects": [
             {
-              "statusId": "regen",
+              "statusId": "VanillaStatusEffectIDs.Regen",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectGainEnergyNextTurn",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAnyHeroDeathOnFloor"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
+  "subtypes": [
+    "Champion"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived The Ash Consumer"
+  "size": 2,
+  "health": 14
 }

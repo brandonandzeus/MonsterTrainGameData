@@ -1,27 +1,22 @@
 {
-  "nameKey": "CharacterData_nameKey-4f0f241e6307959b-9a158786dc1294e4d8d9b060fd191874-v2",
-  "size": 1,
-  "health": 3,
-  "attackDamage": 6,
+  "name": "Archived Reaping Warrior",
   "triggers": [
     {
-      "trigger": 4,
-      "descriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
       "effects": [
         {
           "effectStateName": "CardEffectBuffDamage",
-          "targetMode": 5,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnKill"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
+  "subtypes": [
+    "Waxer"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived Reaping Warrior"
+  "size": 1,
+  "health": 3,
+  "attackDamage": 6
 }

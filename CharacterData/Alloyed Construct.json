@@ -1,44 +1,43 @@
 {
-  "nameKey": "CharacterData_nameKey-1e11de0500d18321-69b2e185d7f9a724aa86b2e6d46e8ae5-v2",
-  "size": 2,
-  "health": 25,
-  "deathType": 1,
-  "attackDamage": 25,
+  "name": "Alloyed Construct",
   "startingStatusEffects": [
     {
-      "statusId": "inert",
+      "statusId": "VanillaStatusEffectIDs.Inert",
       "count": 1
     },
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 22,
-      "descriptionKey": "CharacterData_descriptionKey-bf6c8e46ac8f77ff-69b2e185d7f9a724aa86b2e6d46e8ae5-v2",
+      "description": "Gain [spark] [effect0.status0.power].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
           "paramStatusEffects": [
             {
-              "statusId": "spark",
+              "statusId": "VanillaStatusEffectIDs.Fuel",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnFeed"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Automaton",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Construct",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-3d0d0f1624807e5c-69b2e185d7f9a724aa86b2e6d46e8ae5-v2"
+  "characterLoreTooltips": [
+    "As their understanding of the world around them grew, the Umbra were able to create autonomous machines to do the work of one thousand Morsels. They’ve since served the additional roles of Crucible defender and my personal guard into the depths of Hell."
   ],
-  "name": "Alloyed Construct"
+  "size": 2,
+  "health": 25,
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 25
 }

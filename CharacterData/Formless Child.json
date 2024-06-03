@@ -1,38 +1,38 @@
 {
-  "nameKey": "CharacterData_nameKey-d2186921e2684acd-ba8f8e05de9e05345bbe612def7145a6-v2",
-  "size": 1,
-  "health": 1,
-  "deathSlidesBackwards": false,
+  "name": "Formless Child",
   "triggers": [
     {
-      "descriptionKey": "CharacterData_descriptionKey-70b5a25b9ba1d806-ba8f8e05de9e05345bbe612def7145a6-v2",
+      "description": "Return a random defeated unit to your hand and apply +[effect0.upgrade.bonusdamage][attack].",
       "effects": [
         {
-          "effectStateName": "CardEffectRecursion",
-          "targetMode": 15,
-          "targetTeamType": 0,
-          "targetCardType": 1,
-          "targetCardSelectionMode": 1,
-          "paramInt": 1,
           "paramCardUpgradeData": {
             "bonusDamage": 40
           },
           "additionalTooltips": [
             {
-              "descriptionKey": "TipTooltip_StatChangesStick",
-              "style": 0,
+              "description": "<b>Tip:</b> Stat changes persist for the duration of battle.",
+              "style": "TooltipDesigner.TooltipDesignType.Default",
               "isTipTooltip": true
             }
-          ]
+          ],
+          "effectStateName": "CardEffectRecursion",
+          "targetMode": "TargetMode.Exhaust",
+          "targetTeamType": "Team.Type.None",
+          "targetCardType": "CardType.Monster",
+          "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
+          "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Tomb"
+  "subtypes": [
+    "Tomb"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-c6164b2378525322-ba8f8e05de9e05345bbe612def7145a6-v2"
+  "characterLoreTooltips": [
+    "Children are rarely seen in the Melting Remnant, but they're easy to spot by their transparent wax and inner glow. However, this unusual phenomenon makes these children less mobile, as this glass-like wax isn’t very flexible."
   ],
-  "name": "Formless Child"
+  "size": 1,
+  "health": 1,
+  "deathSlidesBackwards": false
 }

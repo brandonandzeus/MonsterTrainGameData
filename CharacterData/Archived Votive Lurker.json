@@ -1,19 +1,15 @@
 {
-  "nameKey": "CharacterData_nameKey-513f1bc00e895684-e5b2bb6038f7f92439ee4bddb77fc25d-v2",
-  "size": 1,
-  "health": 1,
-  "attackDamage": 1,
+  "name": "Archived Votive Lurker",
   "startingStatusEffects": [
     {
-      "statusId": "endless",
+      "statusId": "VanillaStatusEffectIDs.Endless",
       "count": 1
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
+  "subtypes": [
+    "Waxer"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-4bc231e2cea81879-e5b2bb6038f7f92439ee4bddb77fc25d-v2"
-  ],
-  "name": "Archived Votive Lurker"
+  "size": 1,
+  "health": 1,
+  "attackDamage": 1
 }

@@ -1,26 +1,26 @@
 {
-  "nameKey": "CharacterData_nameKey-baa3178c1a8ca2bc-a684b7dad566ef44a8a4a078dc5854ce-v2",
+  "name": "Light Harnesser",
+  "triggers": [
+    {
+      "description": "Gain +[effect0.power][attack].",
+      "effects": [
+        {
+          "effectStateName": "CardEffectBuffDamage",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes",
+          "paramInt": 3
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
+    }
+  ],
+  "characterLoreTooltips": [
+    "Few Clipped have been trusted with shards of Seraph's Light. Those that have harness its energy to grow stronger with each passing moment and further hinder our mission to restore Hell."
+  ],
   "pactCrystalsRequiredCount": 17,
   "pactCrystalsVariantData": "Light Harnesser Shard",
   "size": 2,
   "health": 35,
   "attackDamage": 2,
-  "attackTeleportsToDefender": false,
-  "triggers": [
-    {
-      "trigger": 1,
-      "descriptionKey": "CharacterData_descriptionKey-7d744bb1f67d55de-a684b7dad566ef44a8a4a078dc5854ce-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectBuffDamage",
-          "targetMode": 5,
-          "paramInt": 3
-        }
-      ]
-    }
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-987ee7c96b24aae5-a684b7dad566ef44a8a4a078dc5854ce-v2"
-  ],
-  "name": "Light Harnesser"
+  "attackTeleportsToDefender": false
 }

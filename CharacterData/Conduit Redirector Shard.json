@@ -1,40 +1,35 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 1,
-  "health": 10,
-  "attackDamage": 5,
+  "name": "Conduit Redirector Shard",
   "startingStatusEffects": [
     {
-      "statusId": "spell shield",
+      "statusId": "VanillaStatusEffectIDs.Spellshield",
       "count": 1
     },
     {
-      "statusId": "spikes",
+      "statusId": "VanillaStatusEffectIDs.Spikes",
       "count": 3
     }
   ],
   "triggers": [
     {
-      "trigger": 16,
-      "descriptionKey": "CharacterData_descriptionKey-03fcfd0f41b02d5e-6ffa49ae5c6048641ae6c65ff87864f7-v2",
+      "description": "Grant [spikes] [effect0.status0.power].",
       "effects": [
         {
-          "effectStateName": "CardEffectEnchant",
           "paramStatusEffects": [
             {
-              "statusId": "spikes",
+              "statusId": "VanillaStatusEffectIDs.Spikes",
               "count": 3
             }
-          ]
+          ],
+          "effectStateName": "CardEffectEnchant",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.AfterSpawnEnchant"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HordeT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Conduit Redirector Shard"
+  "size": 1,
+  "health": 10,
+  "attackDamage": 5
 }

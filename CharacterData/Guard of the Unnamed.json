@@ -1,34 +1,33 @@
 {
-  "nameKey": "CharacterData_nameKey-9f5cda850d71ca90-e0ee630d9703547419fe9f410026797c-v2",
-  "size": 2,
-  "health": 15,
-  "attackDamage": 5,
+  "name": "Guard of the Unnamed",
   "triggers": [
     {
-      "trigger": 19,
-      "descriptionKey": "CharacterData_descriptionKey-a265086f5e4882a9-e0ee630d9703547419fe9f410026797c-v2",
+      "description": "Gain [armor] [effect0.status0.power].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "paramInt": 100,
           "paramStatusEffects": [
             {
-              "statusId": "armor",
+              "statusId": "VanillaStatusEffectIDs.Armor",
               "count": 3
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 100
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Siren_727cf19f-3b27-4ad2-92ab-3552449e52da",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Siren",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-b6b6c12f523842f7-e0ee630d9703547419fe9f410026797c-v2"
+  "characterLoreTooltips": [
+    "Original captors and protectors of the Titan, these Sirens have existed almost since the creation of the sea itself. They were the first to follow Tethys in recognizing the importance of the Titan’s survival and that its imprisonment would be the only way to ensure it."
   ],
-  "name": "Guard of the Unnamed"
+  "size": 2,
+  "health": 15,
+  "attackDamage": 5
 }

@@ -1,42 +1,39 @@
 {
-  "nameKey": "CharacterData_nameKey-9aee378885ddf03d-d81a3a28d05604b40b0b4b08ad01abfc-v2",
-  "size": 1,
-  "health": 1,
-  "canAttack": false,
-  "ascendsTrainAutomatically": false,
+  "name": "Constructed Explosive Deprecated",
   "triggers": [
     {
-      "trigger": 24,
-      "descriptionKey": "CharacterData_descriptionKey-9e3d95c7844394b8-d81a3a28d05604b40b0b4b08ad01abfc-v2",
-      "additionalTextOnTriggerKey": "CharacterData_additionalTextOnTriggerKey-d7dd34cefd380f75-d81a3a28d05604b40b0b4b08ad01abfc-v2",
+      "description": "Despawn and deal [effect1.power] damage to the front enemy unit.",
+      "additionalTextOnTrigger": "Exploded!",
       "effects": [
         {
           "effectStateName": "CardEffectDespawnCharacter",
-          "targetMode": 5,
-          "targetCardType": 1,
-          "targetCardSelectionMode": 1
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes",
+          "targetCardType": "CardType.Monster",
+          "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand"
         },
         {
-          "effectStateName": "CardEffectDamage",
-          "targetMode": 2,
-          "targetTeamType": 2,
-          "targetCardType": 1,
-          "targetCardSelectionMode": 1,
-          "paramInt": 3,
           "paramTimingDelays": {
             "x": 0.5,
             "y": 0.25,
             "z": 0.125
-          }
+          },
+          "effectStateName": "CardEffectDamage",
+          "targetMode": "TargetMode.FrontInRoom",
+          "targetTeamType": "Team.Type.Monsters",
+          "targetCardType": "CardType.Monster",
+          "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
+          "paramInt": 3
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnTurnBegin"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_ExplodingBarrel"
+  "characterLoreTooltips": [
+    "Constructed by the Professor as part of his research to achieve Winged power. This exploding device was a failed experiment that has been repurposed for more practical means. I admire the Professor's handiwork, even if it is incredibly dangerous."
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-ea5561e565ff4da5-d81a3a28d05604b40b0b4b08ad01abfc-v2"
-  ],
-  "name": "Constructed Explosive Deprecated"
+  "size": 1,
+  "health": 1,
+  "canAttack": false,
+  "ascendsTrainAutomatically": false
 }

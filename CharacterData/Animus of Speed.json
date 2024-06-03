@@ -1,21 +1,20 @@
 {
-  "nameKey": "CharacterData_nameKey-827153bad18f30c9-3488e89a1f57d6348ab1cc4c99c70226-v2",
-  "size": 2,
-  "health": 3,
-  "attackDamage": 25,
-  "attackTeleportsToDefender": false,
+  "name": "Animus of Speed",
   "startingStatusEffects": [
     {
-      "statusId": "ambush",
+      "statusId": "VanillaStatusEffectIDs.Quick",
       "count": 1
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Animus_c0f95969-ae86-4477-9458-57bb235d965b",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Animus",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-a073a1257e85643b-3488e89a1f57d6348ab1cc4c99c70226-v2"
+  "characterLoreTooltips": [
+    "Newly formed, this Animus is no longer protected by its steel armor, making it quicker and deadlier. It is possessed by the soul of the Wildwood and the Channelers who guard it, often making my conversations with it obtuse and pointless."
   ],
-  "name": "Animus of Speed"
+  "size": 2,
+  "health": 3,
+  "attackDamage": 25,
+  "attackTeleportsToDefender": false
 }

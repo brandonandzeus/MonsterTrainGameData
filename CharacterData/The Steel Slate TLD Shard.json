@@ -1,52 +1,48 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "name": "The Steel Slate TLD Shard",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "armor",
+            "statusId": "VanillaStatusEffectIDs.Armor",
             "count": 5
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 20,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 20
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 30,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
-        "bonusHP": 40,
         "statusEffectUpgrades": [
           {
-            "statusId": "spikes",
+            "statusId": "VanillaStatusEffectIDs.Spikes",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false,
+        "bonusHP": 40
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 30
+    }
+  ],
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Spikes",
+      "count": 2
     }
   ],
   "size": 5,
   "health": 500,
-  "deathType": 1,
-  "attackDamage": 5,
-  "startingStatusEffects": [
-    {
-      "statusId": "spikes",
-      "count": 2
-    }
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "The Steel Slate TLD Shard"
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 5
 }

@@ -1,64 +1,59 @@
 {
-  "nameKey": "CharacterData_nameKey-c1f36a333d78e4e7-a7eedc149754e62499a07d3ecfcdb2f4-v2",
+  "name": "The Porcupine",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 5
-      }
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 20,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "spikes",
+            "statusId": "VanillaStatusEffectIDs.Spikes",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "crystalsCount": 20
     },
     {
+      "upgradeData": {
+        "statusEffectUpgrades": [
+          {
+            "statusId": "VanillaStatusEffectIDs.Rage",
+            "count": 1
+          }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
       "covenantUpgrade": true,
-      "crystalsCount": 12,
-      "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
-        "statusEffectUpgrades": [
-          {
-            "statusId": "buff",
-            "count": 1
-          }
-        ]
-      }
+      "crystalsCount": 12
     },
     {
-      "isRepeatable": false,
-      "crystalsCount": 50,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusSize": 1
-      }
+      },
+      "isRepeatable": false,
+      "crystalsCount": 50
     }
+  ],
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Relentless",
+      "count": 1
+    }
+  ],
+  "characterLoreTooltips": [
+    "Despite their punishment for an ancient feud, some Clipped refuse to give up their wings so easily. This one in particular, dubbed the Porcupine, has regrown her wings over and over each time they are clipped, creating the spiny back she has today."
   ],
   "size": 5,
   "health": 300,
   "isMiniboss": true,
-  "deathType": 1,
-  "attackDamage": 12,
-  "startingStatusEffects": [
-    {
-      "statusId": "relentless",
-      "count": 1
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BossT2_935b30b5-bb94-4fd4-b3be-2ed0eb73ccf6",
-    "SubtypesData_Boss"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-427bec85e15f0305-a7eedc149754e62499a07d3ecfcdb2f4-v2"
-  ],
-  "name": "The Porcupine"
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 12
 }

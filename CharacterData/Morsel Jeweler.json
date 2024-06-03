@@ -1,39 +1,38 @@
 {
-  "nameKey": "CharacterData_nameKey-2d03afca4a5a32b7-646877436ac9c9e49ba61895de863d97-v2",
-  "size": 1,
-  "health": 3,
+  "name": "Morsel Jeweler",
   "triggers": [
     {
-      "trigger": 23,
-      "descriptionKey": "CharacterData_descriptionKey-3b304ab6c1d9d0c7-646877436ac9c9e49ba61895de863d97-v2",
+      "description": "Eater gains +[effect0.upgrade.bonushp][health] and [damageshield] [effect1.status0.power].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 20,
-          "targetTeamType": 0,
           "paramCardUpgradeData": {
             "bonusHP": 3
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.LastFeederCharacter",
+          "targetTeamType": "Team.Type.None"
         },
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 20,
-          "targetTeamType": 0,
           "paramStatusEffects": [
             {
-              "statusId": "damage shield",
+              "statusId": "VanillaStatusEffectIDs.DamageShield",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.LastFeederCharacter",
+          "targetTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnEaten"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Snack"
+  "subtypes": [
+    "Morsel"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-09ecba557955c2d5-646877436ac9c9e49ba61895de863d97-v2"
+  "characterLoreTooltips": [
+    "At the very bottom of the mines, the rock has been compressed into beautiful gems. These gems are valued above all else by the Shroud for their allure as well as their mystical abilities. I've been able to hoard a few for myself, conveniently forgetting to notify the Umbra."
   ],
-  "name": "Morsel Jeweler"
+  "size": 1,
+  "health": 3
 }

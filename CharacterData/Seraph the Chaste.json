@@ -1,65 +1,64 @@
 {
-  "nameKey": "CharacterData_nameKey-e15cecab8e14259c-76c2bab7dc44be445bf7c265578994cd-v2",
-  "size": 6,
-  "health": 999,
-  "isOuterTrainBoss": true,
-  "attackDamage": 9,
-  "attackTeleportsToDefender": false,
+  "name": "Seraph the Chaste",
   "startingStatusEffects": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 2
     }
-  ],
-  "statusEffectImmunities": [
-    "rooted"
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BigBossT3_f7449215-5071-4671-909c-a02e2cceb821"
   ],
   "bossActionGroups": [
     {
       "actions": [
         {
-          "actionBehaviorName": "RandomOccupiedBossActionBehavior",
           "actionEffects": [
             {
               "effectStateName": "CardEffectRemoveAllStatusEffects",
-              "targetTeamType": 2,
+              "targetMode": "TargetMode.Room",
+              "targetTeamType": "Team.Type.Monsters",
               "paramBool": true
             },
             {
               "effectStateName": "CardEffectRemoveAllStatusEffects",
+              "targetMode": "TargetMode.Room",
+              "targetTeamType": "Team.Type.Heroes",
               "paramInt": 1,
               "paramBool": true
             },
             {
-              "effectStateName": "CardEffectSpawnHero",
-              "paramInt": 1,
               "paramCharacterData": {
+                "name": "Lightwings",
+                "characterLoreTooltips": [
+                  "The personal guard of Seraph. Protectors of his Light. Their blinding wings distract the less focused among us from their razor-sharp edges."
+                ],
                 "nameKey": "CharacterData_nameKey-58f78255e06f0f66-380369b69e6b2aa478c2d40ad56b910e-v2",
                 "pactCrystalsRequiredCount": 10,
                 "pactCrystalsVariantData": "Lightwings Shard",
                 "size": 1,
                 "health": 3,
                 "attackDamage": 10,
-                "attackTeleportsToDefender": false,
-                "subtypeKeys": [
-                  "SubtypesData_AttackerT3"
-                ],
-                "characterLoreTooltipKeys": [
-                  "CharacterData_data-c45e1acf932419fc-380369b69e6b2aa478c2d40ad56b910e-v2"
-                ]
-              }
+                "attackTeleportsToDefender": false
+              },
+              "effectStateName": "CardEffectSpawnHero",
+              "targetMode": "TargetMode.Room",
+              "targetTeamType": "Team.Type.Heroes",
+              "paramInt": 1
             }
           ],
-          "paramTeamType": 2
+          "actionBehaviorName": "RandomOccupiedBossActionBehavior",
+          "paramTeamType": "Team.Type.Monsters"
         }
       ]
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-1ad98c10692ee9e6-76c2bab7dc44be445bf7c265578994cd-v2"
+  "characterLoreTooltips": [
+    "Breaker of the Covenant. Invader of Hell. Once a savior of Hell and Guardian of Heaven, he worked with me to build the Rail. Now he's a worse monster than I ever could have imagined."
   ],
-  "name": "Seraph the Chaste"
+  "size": 6,
+  "health": 999,
+  "isOuterTrainBoss": true,
+  "attackDamage": 9,
+  "attackTeleportsToDefender": false,
+  "statusEffectImmunities": [
+    "VanillaStatusEffectIDs.Rooted"
+  ]
 }

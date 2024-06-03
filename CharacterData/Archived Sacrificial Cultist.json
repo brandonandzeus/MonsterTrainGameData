@@ -1,28 +1,24 @@
 {
-  "nameKey": "CharacterData_nameKey-2b94e112f73bee40-717e2fbea8a36684f91701f9e8c89ccd-v2",
-  "size": 1,
-  "health": 1,
-  "attackDamage": 1,
+  "name": "Archived Sacrificial Cultist",
   "triggers": [
     {
-      "descriptionKey": "CharacterData_descriptionKey-3f3d617f55f47c97-717e2fbea8a36684f91701f9e8c89ccd-v2",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 17,
-          "targetTeamType": 3,
           "paramStatusEffects": [
             {
-              "statusId": "dazed",
+              "statusId": "VanillaStatusEffectIDs.Dazed",
               "count": 5
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.LastAttackerCharacter",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived Sacrificial Cultist"
+  "size": 1,
+  "health": 1,
+  "attackDamage": 1
 }

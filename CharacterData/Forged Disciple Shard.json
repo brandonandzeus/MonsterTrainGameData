@@ -1,19 +1,12 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 2,
-  "health": 55,
-  "attackDamage": 4,
+  "name": "Forged Disciple Shard",
   "startingStatusEffects": [
     {
-      "statusId": "hunter",
+      "statusId": "VanillaStatusEffectIDs.Sweep",
       "count": 1
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HeavyT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Forged Disciple Shard"
+  "size": 2,
+  "health": 55,
+  "attackDamage": 4
 }

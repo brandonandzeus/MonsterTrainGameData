@@ -1,28 +1,27 @@
 {
-  "nameKey": "CharacterData_nameKey-86e3858f7673f79b-2e42ec35f441b494eabf0ea26811898c-v2",
+  "name": "Trusted Priest",
+  "triggers": [
+    {
+      "effects": [
+        {
+          "effectStateName": "CardEffectHeal",
+          "targetMode": "TargetMode.RoomHealTargets",
+          "targetTeamType": "Team.Type.Heroes",
+          "paramInt": 5
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombatHealing"
+    }
+  ],
+  "subtypes": [
+    "None"
+  ],
+  "characterLoreTooltips": [
+    "Few human Disciples have been granted direct communion with Seraph's Light. These priests are among this inner circle who have been taught to control Heaven’s power."
+  ],
   "pactCrystalsRequiredCount": 12,
   "pactCrystalsVariantData": "Trusted Priest Shard",
   "size": 1,
   "health": 1,
-  "canAttack": false,
-  "triggers": [
-    {
-      "trigger": 14,
-      "descriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectHeal",
-          "targetMode": 4,
-          "paramInt": 5
-        }
-      ]
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_None"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-be9e5b7ed5eef58e-2e42ec35f441b494eabf0ea26811898c-v2"
-  ],
-  "name": "Trusted Priest"
+  "canAttack": false
 }

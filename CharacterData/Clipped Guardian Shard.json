@@ -1,28 +1,22 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 2,
-  "health": 150,
-  "attackDamage": 8,
+  "name": "Clipped Guardian Shard",
   "triggers": [
     {
-      "trigger": 1,
-      "descriptionKey": "CharacterData_descriptionKey-f776c59b92156d99-dcd2427e2309e0848baa7e33f8218c26-v2",
+      "description": "Gain +[effect0.upgrade.bonusdamage][attack].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
           "paramCardUpgradeData": {
             "bonusDamage": 1
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HeavyT2"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Clipped Guardian Shard"
+  "size": 2,
+  "health": 150,
+  "attackDamage": 8
 }

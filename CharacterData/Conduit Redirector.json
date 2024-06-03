@@ -1,32 +1,30 @@
 {
-  "nameKey": "CharacterData_nameKey-087c24ed360cffb1-c222adcc9a78e7a4087acc274b1ea30b-v2",
+  "name": "Conduit Redirector",
+  "triggers": [
+    {
+      "description": "Grant [spikes] [effect0.status0.power].",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Spikes",
+              "count": 2
+            }
+          ],
+          "effectStateName": "CardEffectEnchant",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.AfterSpawnEnchant"
+    }
+  ],
+  "characterLoreTooltips": [
+    "I initially created the Conduits' armor to help them better harness the Pyre. I should have known they would twist this technology to ingest the energy of our Pyre and redirect the shards to their own benefit."
+  ],
   "pactCrystalsRequiredCount": 14,
   "pactCrystalsVariantData": "Conduit Redirector Shard",
   "size": 1,
   "health": 1,
-  "attackDamage": 1,
-  "triggers": [
-    {
-      "trigger": 16,
-      "descriptionKey": "CharacterData_descriptionKey-4e3c7be6b6eab0c4-c222adcc9a78e7a4087acc274b1ea30b-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectEnchant",
-          "paramStatusEffects": [
-            {
-              "statusId": "spikes",
-              "count": 2
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_HordeT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-283262f02e463128-c222adcc9a78e7a4087acc274b1ea30b-v2"
-  ],
-  "name": "Conduit Redirector"
+  "attackDamage": 1
 }

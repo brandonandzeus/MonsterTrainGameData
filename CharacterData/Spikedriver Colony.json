@@ -1,19 +1,18 @@
 {
-  "nameKey": "CharacterData_nameKey-5d989cfe52d2f056-7de12958b44f0c64488817931f4aac28-v2",
-  "size": 1,
-  "health": 1,
-  "attackDamage": 1,
+  "name": "Spikedriver Colony",
   "startingStatusEffects": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 1
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_TrainMachines"
+  "subtypes": [
+    "Machine"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-f24f0c298589e564-7de12958b44f0c64488817931f4aac28-v2"
+  "characterLoreTooltips": [
+    "I knew I couldn’t rely on anyone to build the Rail for me, so I set off to do it myself, creating automatic creatures to drive rail spikes into the ground and lay the track that would later be broken."
   ],
-  "name": "Spikedriver Colony"
+  "size": 1,
+  "health": 1,
+  "attackDamage": 1
 }

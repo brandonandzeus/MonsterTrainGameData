@@ -1,38 +1,38 @@
 {
-  "nameKey": "CharacterData_nameKey-8ad888312cfe407b-7950aac77d7d92343b181181dec60509-v2",
-  "size": 2,
-  "health": 10,
-  "attackDamage": 1,
+  "name": "Icy Cilophyte",
   "startingStatusEffects": [
     {
-      "statusId": "hunter",
+      "statusId": "VanillaStatusEffectIDs.Sweep",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 3,
-      "descriptionKey": "CharacterData_descriptionKey-5e46f1c65c7ec112-7950aac77d7d92343b181181dec60509-v2",
+      "description": "Apply [spellweakness] [effect0.status0.power] to the attacked unit.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 6,
           "paramStatusEffects": [
             {
-              "statusId": "spell weakness",
+              "statusId": "VanillaStatusEffectIDs.SpellWeakness",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.LastAttackedCharacter",
+          "targetTeamType": "Team.Type.Heroes"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Siren_727cf19f-3b27-4ad2-92ab-3552449e52da",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Siren",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-d80148813fc89cb3-7950aac77d7d92343b181181dec60509-v2"
+  "characterLoreTooltips": [
+    "Even further communion with the ice has allowed these Sirens to master its freezing nature. This leads me to believe that the Stygian may be the only clan that has benefited from the Freeze."
   ],
-  "name": "Icy Cilophyte"
+  "size": 2,
+  "health": 10,
+  "attackDamage": 1
 }

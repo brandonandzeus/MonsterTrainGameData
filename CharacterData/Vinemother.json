@@ -1,32 +1,32 @@
 {
-  "nameKey": "CharacterData_nameKey-242a5d834a103550-4897cd510030002429615e2de7c30d6d-v2",
-  "size": 2,
-  "health": 35,
+  "name": "Vinemother",
   "triggers": [
     {
-      "trigger": 1,
-      "descriptionKey": "CharacterData_descriptionKey-c2c91a088db7d48b-4897cd510030002429615e2de7c30d6d-v2",
+      "description": "Add a <b>Sting</b> spell to your hand.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddBattleCard",
-          "targetTeamType": 0,
-          "paramInt": 3,
           "paramCardPool": {
             "name": "StingOnlyPool",
             "cardDataList": [
               "Sting"
             ]
-          }
+          },
+          "effectStateName": "CardEffectAddBattleCard",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 3
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Golem_2d79cb56-4041-4d63-b7bf-8d2185923eda",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Hollow",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-e463578050345987-4897cd510030002429615e2de7c30d6d-v2"
+  "characterLoreTooltips": [
+    "These Awoken focus solely on the reproduction of the Wildwood, shedding their steel armor to further spread their thorns with each new surge of life. The Mothers are quite small in stature, but the shell around them provides immense natural protection. Along with the Channelers, they've been indispensable guides during my time in the Wildwood."
   ],
-  "name": "Vinemother"
+  "size": 2,
+  "health": 35
 }

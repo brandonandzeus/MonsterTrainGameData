@@ -1,44 +1,45 @@
 {
-  "nameKey": "CharacterData_nameKey-19061d605a114f77-e1fd2f19c4490be48bc61feb628780d2-v2",
-  "size": 2,
-  "health": 20,
-  "attackDamage": 5,
-  "attackTeleportsToDefender": false,
+  "name": "Glareminder",
   "startingStatusEffects": [
     {
-      "statusId": "hunter",
+      "statusId": "VanillaStatusEffectIDs.Sweep",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 35,
-      "descriptionKey": "CharacterData_descriptionKey-602d317e115708e1-e1fd2f19c4490be48bc61feb628780d2-v2",
+      "description": "Apply [corruptpoison] [effect0.status0.power] to enemy units.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
           "paramStatusEffects": [
             {
-              "statusId": "corrupt_poison",
+              "statusId": "VanillaStatusEffectIDs.Reap",
               "count": 2
             }
           ],
           "additionalTooltips": [
             {
-              "titleKey": "HudTooltip_RoomCorruption_Title",
-              "descriptionKey": "HudTooltip_RoomCorruption_Body"
+              "title": "Charged Echoes",
+              "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardExhausted"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Wurm",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Kin",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-1c9ec386107478e9-e1fd2f19c4490be48bc61feb628780d2-v2"
+  "characterLoreTooltips": [
+    "Few Wurmkin are given the role of defender and protector, the hidden nature of their dwelling a natural protection itself. But conflict still erupts within the factions of the Wurmkin and order must be upheld. Not to protect the Wurmkin of course, but to protect the Echoes and the knowledge they hold. Despite their independent development, even the Wurmkin cannot avoid the infighting that seemingly plagues all creatures of this Realm."
   ],
-  "name": "Glareminder"
+  "size": 2,
+  "health": 20,
+  "attackDamage": 5,
+  "attackTeleportsToDefender": false
 }

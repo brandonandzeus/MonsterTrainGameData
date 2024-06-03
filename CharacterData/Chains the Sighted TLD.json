@@ -1,13 +1,12 @@
 {
-  "nameKey": "CharacterData_nameKey-784f4082443dd52f-f12806a446f481243a000c11d800c897-v2",
+  "name": "Chains the Sighted TLD",
+  "characterLoreTooltips": [
+    "Most important of the Reconcilers, Chains personally imprisoned most of the Hellborne lost during Armageddon, many of them my friends. As a gift of thanks, Seraph gifted the blind man with the power to see through Light."
+  ],
   "pactCrystalsRequiredCount": 0,
   "pactCrystalsVariantData": "Chains the Sighted TLD Shard",
   "size": 4,
   "health": 350,
-  "deathType": 1,
-  "attackDamage": 12,
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-455c43bf5d89768b-f12806a446f481243a000c11d800c897-v2"
-  ],
-  "name": "Chains the Sighted TLD"
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 12
 }

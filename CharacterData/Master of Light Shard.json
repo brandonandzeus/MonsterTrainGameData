@@ -1,38 +1,31 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 2,
-  "health": 130,
-  "attackDamage": 5,
+  "name": "Master of Light Shard",
   "startingStatusEffects": [
     {
-      "statusId": "hunter",
+      "statusId": "VanillaStatusEffectIDs.Sweep",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 4,
-      "descriptionKey": "CharacterData_descriptionKey-f275589c3c70ee4b-356ad6dc327b60046bee60fb28bb8924-v2",
+      "description": "Gain [rage] [effect0.status0.power].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
           "paramStatusEffects": [
             {
-              "statusId": "buff",
+              "statusId": "VanillaStatusEffectIDs.Rage",
               "count": 2
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnKill"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HeavyT2"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Master of Light Shard"
+  "size": 2,
+  "health": 130,
+  "attackDamage": 5
 }

@@ -1,22 +1,21 @@
 {
-  "nameKey": "CharacterData_nameKey-61c36f1ee44ef263-e440732c1c6913444aa14863ce8caaed-v2",
-  "size": 1,
-  "health": 10,
-  "attackDamage": 10,
-  "attackTeleportsToDefender": false,
-  "subtypeKeys": [
-    "SubtypesData_Forager",
-    "SubtypesData_Chosen"
+  "name": "Morselmaster",
+  "subtypes": [
+    "Shroud",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-3a648c6b5d0e1db1-e440732c1c6913444aa14863ce8caaed-v2"
+  "characterLoreTooltips": [
+    "These Umbra rogues no longer have the need to create new Morsels from their own flesh. Instead, they attract existing ones to their nefarious calling by disrupting their connection to the hivemind. I have little other information on these creatures as I prefer not to spend more time with them than necessary."
   ],
   "roomModifiers": [
     {
+      "description": "When you summon a [snack] unit on this floor, create a copy.",
       "roomStateModifierClassName": "RoomStateSpawnUnitOnUnitSpawnModifier",
-      "descriptionKey": "CharacterData_descriptionKey-57977783cde4c7aa-e440732c1c6913444aa14863ce8caaed-v2",
       "paramSubtype": "SubtypesData_Snack"
     }
   ],
-  "name": "Morselmaster"
+  "size": 1,
+  "health": 10,
+  "attackDamage": 10,
+  "attackTeleportsToDefender": false
 }

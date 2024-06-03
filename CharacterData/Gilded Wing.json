@@ -1,15 +1,11 @@
 {
-  "nameKey": "CharacterData_nameKey-45172f622380e6a5-dd033c561bd0bfd4c88b3ababa14b0bf-v2",
+  "name": "Gilded Wing",
+  "characterLoreTooltips": [
+    "These Winged were the personal guard of Seraph and part of the initial raiding party into Hell. They have been ruthless in their assault of our lands and their exposure to the Pyre has warped them into something less than heavenly."
+  ],
   "pactCrystalsRequiredCount": 18,
   "pactCrystalsVariantData": "Gilded Wing Shard",
   "size": 2,
   "health": 130,
-  "attackDamage": 8,
-  "subtypeKeys": [
-    "SubtypesData_HeavyT3"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-576cff2e0a2a118f-dd033c561bd0bfd4c88b3ababa14b0bf-v2"
-  ],
-  "name": "Gilded Wing"
+  "attackDamage": 8
 }

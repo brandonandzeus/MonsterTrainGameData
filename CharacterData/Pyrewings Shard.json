@@ -1,42 +1,35 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 2,
-  "health": 180,
-  "attackDamage": 4,
+  "name": "Pyrewings Shard",
   "startingStatusEffects": [
     {
-      "statusId": "hunter",
+      "statusId": "VanillaStatusEffectIDs.Sweep",
       "count": 1
     },
     {
-      "statusId": "regen",
+      "statusId": "VanillaStatusEffectIDs.Regen",
       "count": 20
     }
   ],
   "triggers": [
     {
-      "trigger": 3,
-      "descriptionKey": "CharacterData_descriptionKey-783d29154122209f-c5c397f35a606e9408bc30e29b24f23d-v2",
+      "description": "Apply [emberdrain] [effect0.status0.power] to the attacked unit.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 6,
-          "targetTeamType": 3,
           "paramStatusEffects": [
             {
-              "statusId": "scorch",
+              "statusId": "VanillaStatusEffectIDs.Emberdrain",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.LastAttackedCharacter",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HeavyT3"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Pyrewings Shard"
+  "size": 2,
+  "health": 180,
+  "attackDamage": 4
 }

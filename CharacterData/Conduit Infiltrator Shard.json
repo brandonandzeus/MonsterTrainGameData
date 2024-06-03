@@ -1,40 +1,35 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 1,
-  "health": 2,
-  "attackDamage": 5,
+  "name": "Conduit Infiltrator Shard",
   "startingStatusEffects": [
     {
-      "statusId": "haste",
+      "statusId": "VanillaStatusEffectIDs.Haste",
       "count": 1
     },
     {
-      "statusId": "damage shield",
+      "statusId": "VanillaStatusEffectIDs.DamageShield",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 16,
-      "descriptionKey": "CharacterData_descriptionKey-acbd3e167465df33-ae1efc63fef61e14ba681d3458c16633-v2",
+      "description": "Grant [haste].",
       "effects": [
         {
-          "effectStateName": "CardEffectEnchant",
           "paramStatusEffects": [
             {
-              "statusId": "haste",
+              "statusId": "VanillaStatusEffectIDs.Haste",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectEnchant",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.AfterSpawnEnchant"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HordeT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Conduit Infiltrator Shard"
+  "size": 1,
+  "health": 2,
+  "attackDamage": 5
 }

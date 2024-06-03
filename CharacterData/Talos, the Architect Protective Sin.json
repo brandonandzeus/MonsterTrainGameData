@@ -1,44 +1,41 @@
 {
-  "nameKey": "CharacterData_nameKey-addd6413d0863a0c-c69cddeb0babc984785ff8e705dd1102-v2",
-  "size": 6,
-  "health": 250,
-  "isOuterTrainBoss": true,
-  "validBossAttackPhase": -1,
-  "deathType": 2,
-  "attackDamage": 6,
-  "statusEffectImmunities": [
-    "rooted"
-  ],
+  "name": "Talos, the Architect Protective Sin",
   "triggers": [
     {
-      "trigger": 3,
-      "descriptionKey": "CharacterData_descriptionKey-2f91707e94d9b7c8-c69cddeb0babc984785ff8e705dd1102-v2",
+      "description": "Push the attacked unit to the back.",
       "effects": [
         {
           "effectStateName": "CardEffectFloorRearrange",
-          "targetMode": 6,
-          "targetTeamType": 2,
+          "targetMode": "TargetMode.LastAttackedCharacter",
+          "targetTeamType": "Team.Type.Monsters",
           "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_BigBossT1_50952308-e0f3-4acb-b0cc-e0d662b868b8"
-  ],
-  "removeTriggersOnRelentlessChange": true,
   "bossActionGroups": [
     {
-      "numRepeats": 0,
       "actions": [
         {
-          "actionBehaviorName": "RandomBossActionBehavior"
+          "actionBehaviorName": "RandomBossActionBehavior",
+          "paramTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "numRepeats": 0
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-c0c46a883deb6564-c69cddeb0babc984785ff8e705dd1102-v2"
+  "characterLoreTooltips": [
+    "In these visions, I’ve seen crystals used as prisons for souls. “Shardsouls”, they’ve been called. It seems their creator, a human of some ancient renown, created them to split the Divine Titans, but it’s unclear why this happened, what became of the human Exile, or the importance of humans in this forgotten tragedy."
   ],
-  "name": "Talos, the Architect Protective Sin"
+  "size": 6,
+  "health": 250,
+  "isOuterTrainBoss": true,
+  "validBossAttackPhase": "BossState.AttackPhase.Relentless",
+  "deathType": "CharacterDeathVFX.Type.Boss",
+  "attackDamage": 6,
+  "statusEffectImmunities": [
+    "VanillaStatusEffectIDs.Rooted"
+  ],
+  "removeTriggersOnRelentlessChange": true
 }

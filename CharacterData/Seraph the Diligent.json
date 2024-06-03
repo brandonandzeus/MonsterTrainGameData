@@ -1,76 +1,75 @@
 {
-  "nameKey": "CharacterData_nameKey-0f799ad5918968f4-9de75cc6d24e90049840f21cec969bc3-v2",
-  "size": 6,
-  "health": 999,
-  "isOuterTrainBoss": true,
-  "attackDamage": 9,
-  "attackTeleportsToDefender": false,
+  "name": "Seraph the Diligent",
   "startingStatusEffects": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 2
     }
   ],
-  "statusEffectImmunities": [
-    "rooted"
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BigBossT3_f7449215-5071-4671-909c-a02e2cceb821"
-  ],
   "bossActionGroups": [
     {
-      "numRepeats": 0,
       "actions": [
         {
-          "actionBehaviorName": "RandomBossActionBehavior",
-          "tooltipOverrideKey": "CharacterData__tooltipOverrideKey-8b64bb41414b3149-9de75cc6d24e90049840f21cec969bc3-v2",
           "actionEffects": [
             {
-              "effectStateName": "CardEffectAddBattleCard",
-              "paramInt": 7,
-              "additionalParamInt": 3,
               "paramCardPool": {
                 "name": "VengefulShardOnlyPool",
                 "cardDataList": [
                   "BlightPyreDamageInHand"
                 ]
-              }
+              },
+              "effectStateName": "CardEffectAddBattleCard",
+              "targetMode": "TargetMode.Room",
+              "targetTeamType": "Team.Type.Heroes",
+              "paramInt": 7,
+              "additionalParamInt": 3
             }
-          ]
+          ],
+          "actionBehaviorName": "RandomBossActionBehavior",
+          "paramTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "numRepeats": 0
     },
     {
       "actions": [
         {
-          "actionBehaviorName": "RandomBossActionBehavior",
-          "tooltipOverrideKey": "CharacterData__tooltipOverrideKey-1677747e3de201a7-9de75cc6d24e90049840f21cec969bc3-v2",
+          "tooltipOverride": "Summon an enemy unit.",
           "actionEffects": [
             {
-              "effectStateName": "CardEffectSpawnHero",
               "paramCharacterData": {
+                "name": "Lightwings",
+                "characterLoreTooltips": [
+                  "The personal guard of Seraph. Protectors of his Light. Their blinding wings distract the less focused among us from their razor-sharp edges."
+                ],
                 "nameKey": "CharacterData_nameKey-58f78255e06f0f66-380369b69e6b2aa478c2d40ad56b910e-v2",
                 "pactCrystalsRequiredCount": 10,
                 "pactCrystalsVariantData": "Lightwings Shard",
                 "size": 1,
                 "health": 3,
                 "attackDamage": 10,
-                "attackTeleportsToDefender": false,
-                "subtypeKeys": [
-                  "SubtypesData_AttackerT3"
-                ],
-                "characterLoreTooltipKeys": [
-                  "CharacterData_data-c45e1acf932419fc-380369b69e6b2aa478c2d40ad56b910e-v2"
-                ]
-              }
+                "attackTeleportsToDefender": false
+              },
+              "effectStateName": "CardEffectSpawnHero",
+              "targetMode": "TargetMode.Room",
+              "targetTeamType": "Team.Type.Heroes"
             }
-          ]
+          ],
+          "actionBehaviorName": "RandomBossActionBehavior",
+          "paramTeamType": "Team.Type.None"
         }
       ]
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-ca47cca7db7274f0-9de75cc6d24e90049840f21cec969bc3-v2"
+  "characterLoreTooltips": [
+    "Breaker of the Covenant. Invader of Hell. Once a savior of Hell and Guardian of Heaven, he worked with me to build the Rail. Now he's a worse monster than I ever could have imagined."
   ],
-  "name": "Seraph the Diligent"
+  "size": 6,
+  "health": 999,
+  "isOuterTrainBoss": true,
+  "attackDamage": 9,
+  "attackTeleportsToDefender": false,
+  "statusEffectImmunities": [
+    "VanillaStatusEffectIDs.Rooted"
+  ]
 }

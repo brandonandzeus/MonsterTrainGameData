@@ -1,27 +1,23 @@
 {
-  "nameKey": "CharacterData_nameKey-766f3e1699d2fdad-7979c0abfaf2c5845bc5211f4ef16c70-v2",
+  "name": "Alabaster Guardian",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 15,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 5
-      }
+      },
+      "crystalsCount": 15
     }
   ],
-  "size": 2,
-  "health": 70,
   "startingStatusEffects": [
     {
-      "statusId": "immobile",
+      "statusId": "VanillaStatusEffectIDs.Immobile",
       "count": 1
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Statue"
+  "characterLoreTooltips": [
+    "Not all that have felt the warmth of Seraph's Light have been lucky enough to receive his power. These Disciples have been given the gift of wings but encased in alabaster. Don't be deceived by their stony demeanor, however, as they've still managed to cause us trouble."
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-602f27e73cbd88ec-7979c0abfaf2c5845bc5211f4ef16c70-v2"
-  ],
-  "name": "Alabaster Guardian"
+  "size": 2,
+  "health": 70
 }

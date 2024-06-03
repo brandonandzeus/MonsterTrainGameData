@@ -1,48 +1,47 @@
 {
-  "nameKey": "CharacterData_nameKey-2f5765f0a1edbb4e-66477c7273a28474e876959e2a66973f-v2",
-  "size": 6,
-  "health": 700,
-  "isOuterTrainBoss": true,
-  "attackDamage": 9,
+  "name": "Fel, the Wings of Light Scouring Crest",
   "startingStatusEffects": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 1
     }
-  ],
-  "statusEffectImmunities": [
-    "rooted"
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BigBoss2_e3e6f1a2-34a7-4493-b9d7-a123e182241e"
   ],
   "bossActionGroups": [
     {
       "actions": [
         {
-          "actionBehaviorName": "RandomBossActionBehavior",
           "actionEffects": [
             {
-              "effectStateName": "CardEffectAddBattleCard",
-              "targetTeamType": 0,
-              "paramInt": 3,
               "paramCardPool": {
                 "name": "JunkPoolUltimate",
                 "cardDataList": [
                   "ScourgeUltimate"
                 ]
-              }
+              },
+              "effectStateName": "CardEffectAddBattleCard",
+              "targetMode": "TargetMode.Room",
+              "targetTeamType": "Team.Type.None",
+              "paramInt": 3
             }
-          ]
+          ],
+          "actionBehaviorName": "RandomBossActionBehavior",
+          "paramTeamType": "Team.Type.None"
         },
         {
-          "actionBehaviorName": "RandomBossActionBehavior"
+          "actionBehaviorName": "RandomBossActionBehavior",
+          "paramTeamType": "Team.Type.None"
         }
       ]
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-cfc964aae496ab07-66477c7273a28474e876959e2a66973f-v2"
+  "characterLoreTooltips": [
+    "Once my closest ally, this Clipped legend has been able to create new wings out of the Light that Heaven uses. I admire her ingenuity, but I'll never be able to forgive her for abandoning the two of us."
   ],
-  "name": "Fel, the Wings of Light Scouring Crest"
+  "size": 6,
+  "health": 700,
+  "isOuterTrainBoss": true,
+  "attackDamage": 9,
+  "statusEffectImmunities": [
+    "VanillaStatusEffectIDs.Rooted"
+  ]
 }

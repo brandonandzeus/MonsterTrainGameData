@@ -1,79 +1,75 @@
 {
-  "nameKey": "CharacterData_nameKey-5ff155a95a9fd891-a914d27409d2b3d4b8c679dd4a8ca911-v2",
+  "name": "Thoughtbinder",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 4
-      }
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 15,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 15
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 50,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
-        "bonusHP": 50,
         "statusEffectUpgrades": [
           {
-            "statusId": "scorch",
+            "statusId": "VanillaStatusEffectIDs.Emberdrain",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false,
+        "bonusHP": 50
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 50
     },
     {
-      "isRepeatable": false,
-      "crystalsCount": 50,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusSize": 1
-      }
+      },
+      "isRepeatable": false,
+      "crystalsCount": 50
     }
   ],
-  "size": 4,
-  "health": 275,
-  "isMiniboss": true,
-  "deathType": 1,
-  "attackDamage": 10,
   "startingStatusEffects": [
     {
-      "statusId": "relentless",
+      "statusId": "VanillaStatusEffectIDs.Relentless",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 4,
-      "descriptionKey": "CharacterData_descriptionKey-b9bce9daa883eb7e-a914d27409d2b3d4b8c679dd4a8ca911-v2",
+      "description": "Add a <b>Self-Mutilation</b> card to the top of your draw pile.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddBattleCard",
-          "targetTeamType": 0,
-          "paramInt": 5,
           "paramCardPool": {
             "name": "JunkPoolT3",
             "cardDataList": [
               "ScourgeT3"
             ]
-          }
+          },
+          "effectStateName": "CardEffectAddBattleCard",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 5
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnKill"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_BossT2_935b30b5-bb94-4fd4-b3be-2ed0eb73ccf6",
-    "SubtypesData_Boss"
+  "characterLoreTooltips": [
+    "All Clipped are well acquainted with the physical pain of punishment, but few understand that the torture of the soul is stronger than the punishment of the body. The Thoughtbinder's precise control of these methods has destroyed our defenses when fighting the Clipped advances."
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-77e8363ebe51b30b-a914d27409d2b3d4b8c679dd4a8ca911-v2"
-  ],
-  "name": "Thoughtbinder"
+  "size": 4,
+  "health": 275,
+  "isMiniboss": true,
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 10
 }

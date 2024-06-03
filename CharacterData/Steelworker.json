@@ -1,33 +1,33 @@
 {
-  "nameKey": "CharacterData_nameKey-ad85f089c4b7fd31-0dbdfbcc89073344f9b0402c959eacd6-v2",
-  "size": 2,
-  "health": 15,
-  "attackDamage": 10,
+  "name": "Steelworker",
   "triggers": [
     {
-      "trigger": 1,
-      "descriptionKey": "CharacterData_descriptionKey-9d0bef6695b21c0e-0dbdfbcc89073344f9b0402c959eacd6-v2",
+      "description": "Apply [armor] [effect0.status0.power] to friendly units.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetTeamType": 2,
-          "paramInt": 100,
           "paramStatusEffects": [
             {
-              "statusId": "armor",
+              "statusId": "VanillaStatusEffectIDs.Armor",
               "count": 5
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Monsters",
+          "paramInt": 100
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Demon",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-d584662c63c00293-0dbdfbcc89073344f9b0402c959eacd6-v2"
+  "characterLoreTooltips": [
+    "Along with a team of imps, these demons are responsible for the creation of all Hellhorned armor and weapons. While not usually on the front lines, their centuries of working metal gives them a comfortable tendency towards combat."
   ],
-  "name": "Steelworker"
+  "size": 2,
+  "health": 15,
+  "attackDamage": 10
 }

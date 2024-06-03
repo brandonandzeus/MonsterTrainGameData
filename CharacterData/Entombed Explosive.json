@@ -1,27 +1,28 @@
 {
-  "nameKey": "CharacterData_nameKey-40ce699a854420ba-585e1205f6cc16144a303d0d7196ac7b-v2",
-  "size": 1,
-  "health": 1,
-  "deathSlidesBackwards": false,
+  "name": "Entombed Explosive",
   "triggers": [
     {
-      "descriptionKey": "CharacterData_descriptionKey-4c89ffab8280f20c-585e1205f6cc16144a303d0d7196ac7b-v2",
+      "description": "Deal [effect0.power] damage to the front enemy unit.",
       "effects": [
         {
           "effectStateName": "CardEffectDamage",
-          "targetMode": 2,
-          "targetCardType": 1,
-          "targetCardSelectionMode": 1,
+          "targetMode": "TargetMode.FrontInRoom",
+          "targetTeamType": "Team.Type.Heroes",
+          "targetCardType": "CardType.Monster",
+          "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
           "paramInt": 50
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Tomb"
+  "subtypes": [
+    "Tomb"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-883f04f9fe9c3ef4-585e1205f6cc16144a303d0d7196ac7b-v2"
+  "characterLoreTooltips": [
+    "A common, but unfortunate, occurrence for the Melting Remnant is the entrapment of inanimate objects within their melting wax. While often considered an inconvenience, the Wickless have utilized this phenomenon for more combat-focused applications."
   ],
-  "name": "Entombed Explosive"
+  "size": 1,
+  "health": 1,
+  "deathSlidesBackwards": false
 }

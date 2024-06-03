@@ -1,34 +1,31 @@
 {
-  "nameKey": "CharacterData_nameKey-4f0662430bab7e03-3c651af29c8547643b6cad6c548d7ca1-v2",
-  "size": 3,
-  "health": 50,
-  "attackDamage": 50,
-  "attackTeleportsToDefender": false,
+  "name": "Heph the Blacksmith",
   "startingStatusEffects": [
     {
-      "statusId": "trample",
+      "statusId": "VanillaStatusEffectIDs.Trample",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 1,
-      "descriptionKey": "CharacterData_descriptionKey-3c7f5fd4dcb92288-3c651af29c8547643b6cad6c548d7ca1-v2",
+      "description": "+1[capacity] on this floor.",
       "effects": [
         {
           "effectStateName": "CardEffectAdjustRoomCapacity",
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Heph",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Titanspawn",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Heph the Blacksmith"
+  "size": 3,
+  "health": 50,
+  "attackDamage": 50,
+  "attackTeleportsToDefender": false
 }

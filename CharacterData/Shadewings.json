@@ -1,42 +1,38 @@
 {
-  "nameKey": "CharacterData_nameKey-fa7e46a54b0bad47-79ee3af5fd5059848b46bcb39744ef2a-v2",
-  "pactCrystalsRequiredCount": 14,
-  "pactCrystalsVariantData": "Shadewings Shard",
-  "size": 1,
-  "health": 5,
-  "attackDamage": 10,
-  "attackTeleportsToDefender": false,
+  "name": "Shadewings",
   "startingStatusEffects": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 4,
-      "descriptionKey": "CharacterData_descriptionKey-e1896a54b2a50515-79ee3af5fd5059848b46bcb39744ef2a-v2",
+      "description": "+[effect1.power][attack] and restore [effect0.power] health.",
       "effects": [
         {
           "effectStateName": "CardEffectHeal",
-          "targetMode": 5,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 5
         },
         {
           "effectStateName": "CardEffectBuffDamage",
-          "targetMode": 5,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 2
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnKill"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_AttackerT3"
+  "characterLoreTooltips": [
+    "Even Heaven has darkness and those that live in it. The Shadewings gain power from death, making Hell a pleasant new home for them. We'd be happy to welcome them under different circumstances, but we could do without the freezing cold they brought with them."
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-45781d5b30856587-79ee3af5fd5059848b46bcb39744ef2a-v2"
-  ],
-  "name": "Shadewings"
+  "pactCrystalsRequiredCount": 14,
+  "pactCrystalsVariantData": "Shadewings Shard",
+  "size": 1,
+  "health": 5,
+  "attackDamage": 10,
+  "attackTeleportsToDefender": false
 }

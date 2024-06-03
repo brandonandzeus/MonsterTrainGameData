@@ -1,87 +1,83 @@
 {
-  "nameKey": "CharacterData_nameKey-f596f6cbc8dab639-7ac03f5eedc72f24287fc5c4bf811771-v2",
-  "size": 6,
-  "health": 999,
-  "isOuterTrainBoss": true,
-  "validBossAttackPhase": -1,
-  "attackDamage": 14,
-  "attackTeleportsToDefender": false,
-  "statusEffectImmunities": [
-    "rooted"
-  ],
+  "name": "Seraph the Patient",
   "triggers": [
     {
-      "trigger": 20,
-      "descriptionKey": "CharacterData_descriptionKey-8bda0bd9f88b60f5-7ac03f5eedc72f24287fc5c4bf811771-v2",
+      "description": "+3[attack].",
       "effects": [
         {
           "effectStateName": "CardEffectBuffDamage",
-          "targetMode": 5,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 3
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardMonsterPlayed"
     },
     {
-      "trigger": 19,
-      "descriptionKey": "CharacterData_descriptionKey-8b19c62b8a5dc65c-7ac03f5eedc72f24287fc5c4bf811771-v2",
+      "description": "+1[attack].",
       "effects": [
         {
           "effectStateName": "CardEffectBuffDamage",
-          "targetMode": 5,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
     }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BigBossT3_f7449215-5071-4671-909c-a02e2cceb821"
   ],
   "bossActionGroups": [
     {
-      "numRepeats": 0,
       "actions": [
         {
-          "actionBehaviorName": "RandomOccupiedBossActionBehavior",
           "actionEffects": [
             {
-              "effectStateName": "CardEffectAddStatusEffect",
-              "targetMode": 2,
-              "targetTeamType": 2,
               "paramStatusEffects": [
                 {
-                  "statusId": "melee weakness",
+                  "statusId": "VanillaStatusEffectIDs.MeleeWeakness",
                   "count": 1
                 }
-              ]
+              ],
+              "effectStateName": "CardEffectAddStatusEffect",
+              "targetMode": "TargetMode.FrontInRoom",
+              "targetTeamType": "Team.Type.Monsters"
             },
             {
-              "effectStateName": "CardEffectSpawnHero",
               "paramCharacterData": {
+                "name": "Lightwings",
+                "characterLoreTooltips": [
+                  "The personal guard of Seraph. Protectors of his Light. Their blinding wings distract the less focused among us from their razor-sharp edges."
+                ],
                 "nameKey": "CharacterData_nameKey-58f78255e06f0f66-380369b69e6b2aa478c2d40ad56b910e-v2",
                 "pactCrystalsRequiredCount": 10,
                 "pactCrystalsVariantData": "Lightwings Shard",
                 "size": 1,
                 "health": 3,
                 "attackDamage": 10,
-                "attackTeleportsToDefender": false,
-                "subtypeKeys": [
-                  "SubtypesData_AttackerT3"
-                ],
-                "characterLoreTooltipKeys": [
-                  "CharacterData_data-c45e1acf932419fc-380369b69e6b2aa478c2d40ad56b910e-v2"
-                ]
-              }
+                "attackTeleportsToDefender": false
+              },
+              "effectStateName": "CardEffectSpawnHero",
+              "targetMode": "TargetMode.Room",
+              "targetTeamType": "Team.Type.Heroes"
             }
           ],
-          "paramTeamType": 2
+          "actionBehaviorName": "RandomOccupiedBossActionBehavior",
+          "paramTeamType": "Team.Type.Monsters"
         }
-      ]
+      ],
+      "numRepeats": 0
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-40832903ea71e8ef-7ac03f5eedc72f24287fc5c4bf811771-v2"
+  "characterLoreTooltips": [
+    "Breaker of the Covenant. Invader of Hell. Once a savior of Hell and Guardian of Heaven, he worked with me to build the Rail. Now he's a worse monster than I ever could have imagined."
   ],
-  "name": "Seraph the Patient"
+  "size": 6,
+  "health": 999,
+  "isOuterTrainBoss": true,
+  "validBossAttackPhase": "BossState.AttackPhase.Relentless",
+  "attackDamage": 14,
+  "attackTeleportsToDefender": false,
+  "statusEffectImmunities": [
+    "VanillaStatusEffectIDs.Rooted"
+  ]
 }

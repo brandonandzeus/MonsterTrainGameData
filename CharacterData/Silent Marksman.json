@@ -1,22 +1,18 @@
 {
-  "nameKey": "CharacterData_nameKey-901a27f1b854e540-3d3fca5d24f619045919e26bab94eaf6-v2",
+  "name": "Silent Marksman",
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Stealth",
+      "count": 1
+    }
+  ],
+  "characterLoreTooltips": [
+    "Some Marksman choose to stay hidden, rejecting the traditional spear of the Guardians and sticking with their accurate feathers of steel. Their agility and dark coating have made them nearly impossible for us to see."
+  ],
   "pactCrystalsRequiredCount": 17,
   "pactCrystalsVariantData": "Silent Marksman Shard",
   "size": 1,
   "health": 2,
   "attackDamage": 7,
-  "attackTeleportsToDefender": false,
-  "startingStatusEffects": [
-    {
-      "statusId": "stealth",
-      "count": 1
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_AttackerT2"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-44cfa162a15f49a4-3d3fca5d24f619045919e26bab94eaf6-v2"
-  ],
-  "name": "Silent Marksman"
+  "attackTeleportsToDefender": false
 }

@@ -1,64 +1,59 @@
 {
-  "nameKey": "CharacterData_nameKey-ec6ad9efa85c698d-92683d2824cc6ac4aba625e7281740f5-v2",
+  "name": "The Self-Made Harpy",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 5
-      }
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 50,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 50
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 35,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
-        "bonusHP": 40,
         "statusEffectUpgrades": [
           {
-            "statusId": "multistrike",
+            "statusId": "VanillaStatusEffectIDs.Multistrike",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false,
+        "bonusHP": 40
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 35
     },
     {
-      "isRepeatable": false,
-      "crystalsCount": 65,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusSize": 1
-      }
+      },
+      "isRepeatable": false,
+      "crystalsCount": 65
     }
+  ],
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
+      "count": 4
+    },
+    {
+      "statusId": "VanillaStatusEffectIDs.Relentless",
+      "count": 1
+    }
+  ],
+  "characterLoreTooltips": [
+    "Created with no wings, she's taken to scavenging clipped ones and fastening them to her multiple arms. This gives her some reduced ability of flight, but only for moments at a time."
   ],
   "size": 5,
   "health": 500,
   "isMiniboss": true,
-  "deathType": 1,
-  "attackDamage": 4,
-  "startingStatusEffects": [
-    {
-      "statusId": "multistrike",
-      "count": 4
-    },
-    {
-      "statusId": "relentless",
-      "count": 1
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BossT2_935b30b5-bb94-4fd4-b3be-2ed0eb73ccf6",
-    "SubtypesData_Boss"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-dbc1bdda7dea8fbe-92683d2824cc6ac4aba625e7281740f5-v2"
-  ],
-  "name": "The Self-Made Harpy"
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 4
 }

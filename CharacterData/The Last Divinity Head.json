@@ -1,49 +1,45 @@
 {
-  "nameKey": "CharacterData_nameKey-6346aa29d5d5e56e-fe5700c5ae5cb3748b75664054ef575e-v2",
+  "name": "The Last Divinity Head",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "requiredCovenantLevel": 0,
-      "crystalsCount": 21,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "requiredCovenantLevel": 0,
+      "crystalsCount": 21
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 30,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 30
     }
+  ],
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Purify",
+      "count": 1
+    },
+    {
+      "statusId": "VanillaStatusEffectIDs.Sweep",
+      "count": 1
+    }
+  ],
+  "characterLoreTooltips": [
+    "A Divinity still exists, one of space and time. If you are ever to threaten it, it will likely use those powers against you, never allowing you to truly reach your goal, instead repeating your struggle over and over and over. I’ve looked for a way to broker peace, I’ve studied all I can, but I’ve still yet to come up with a solution. And if history is any guide, it may be best that I am not the one to find it."
   ],
   "size": 6,
   "health": 2500,
   "isOuterTrainBoss": true,
-  "validBossAttackPhase": -1,
-  "deathType": 3,
+  "validBossAttackPhase": "BossState.AttackPhase.Relentless",
+  "deathType": "CharacterDeathVFX.Type.NONE",
   "ascendsTrainAutomatically": false,
   "attackDamage": 2,
   "attackTeleportsToDefender": false,
-  "startingStatusEffects": [
-    {
-      "statusId": "cleardebuff",
-      "count": 1
-    },
-    {
-      "statusId": "hunter",
-      "count": 1
-    }
-  ],
   "statusEffectImmunities": [
-    "rooted"
-  ],
-  "subtypeKeys": [
-    "SubtypesData_FinalBoss"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-f0bcbb3e02514bce-fe5700c5ae5cb3748b75664054ef575e-v2"
-  ],
-  "name": "The Last Divinity Head"
+    "VanillaStatusEffectIDs.Rooted"
+  ]
 }

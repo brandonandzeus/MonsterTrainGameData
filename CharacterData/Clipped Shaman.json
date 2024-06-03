@@ -1,29 +1,28 @@
 {
-  "nameKey": "CharacterData_nameKey-7a6fa0cfbe1ecb14-5dd4342e9dba3834a8b93cccafbc6234-v2",
+  "name": "Clipped Shaman",
+  "triggers": [
+    {
+      "effects": [
+        {
+          "effectStateName": "CardEffectHeal",
+          "targetMode": "TargetMode.RoomHealTargets",
+          "targetTeamType": "Team.Type.Heroes",
+          "paramInt": 10
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombatHealing"
+    }
+  ],
+  "subtypes": [
+    "None"
+  ],
+  "characterLoreTooltips": [
+    "These Clipped ensure that no feather is left discarded. Creating their garments from the various clippings they find, they use them to heal their fellow wingless. "
+  ],
   "pactCrystalsRequiredCount": 12,
   "pactCrystalsVariantData": "Clipped Shaman Shard",
   "size": 1,
   "health": 2,
   "canAttack": false,
-  "attackTeleportsToDefender": false,
-  "triggers": [
-    {
-      "trigger": 14,
-      "descriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectHeal",
-          "targetMode": 4,
-          "paramInt": 10
-        }
-      ]
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_None"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-f86b47e341830ac9-5dd4342e9dba3834a8b93cccafbc6234-v2"
-  ],
-  "name": "Clipped Shaman"
+  "attackTeleportsToDefender": false
 }

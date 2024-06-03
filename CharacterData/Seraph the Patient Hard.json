@@ -1,124 +1,120 @@
 {
-  "nameKey": "CharacterData_nameKey-a9ed73c4f6134170-b3529d0c210895749be35161c29a89c8-v2",
+  "name": "Seraph the Patient Hard",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 20,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1,
         "bonusHP": 55
-      }
+      },
+      "crystalsCount": 20
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 30,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "buff",
+            "statusId": "VanillaStatusEffectIDs.Rage",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 30
     },
     {
+      "upgradeData": {
+        "statusEffectUpgrades": [
+          {
+            "statusId": "VanillaStatusEffectIDs.Trample",
+            "count": 1
+          }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
       "isRepeatable": false,
       "covenantUpgrade": true,
-      "crystalsCount": 130,
-      "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
-        "statusEffectUpgrades": [
-          {
-            "statusId": "trample",
-            "count": 1
-          }
-        ]
-      }
+      "crystalsCount": 130
     }
-  ],
-  "size": 6,
-  "health": 2300,
-  "isOuterTrainBoss": true,
-  "validBossAttackPhase": -1,
-  "attackDamage": 20,
-  "attackTeleportsToDefender": false,
-  "statusEffectImmunities": [
-    "rooted"
   ],
   "triggers": [
     {
-      "trigger": 20,
-      "descriptionKey": "CharacterData_descriptionKey-ae75b6fbc56315b6-b3529d0c210895749be35161c29a89c8-v2",
+      "description": "+3[attack].",
       "effects": [
         {
           "effectStateName": "CardEffectBuffDamage",
-          "targetMode": 5,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 3
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardMonsterPlayed"
     },
     {
-      "trigger": 19,
-      "descriptionKey": "CharacterData_descriptionKey-56e780e2ca77aaad-b3529d0c210895749be35161c29a89c8-v2",
+      "description": "+1[attack].",
       "effects": [
         {
           "effectStateName": "CardEffectBuffDamage",
-          "targetMode": 5,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
     }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BigBossT3_f7449215-5071-4671-909c-a02e2cceb821"
   ],
   "bossActionGroups": [
     {
-      "numRepeats": 0,
       "actions": [
         {
-          "actionBehaviorName": "RandomOccupiedBossActionBehavior",
           "actionEffects": [
             {
-              "effectStateName": "CardEffectAddStatusEffect",
-              "targetMode": 2,
-              "targetTeamType": 2,
               "paramStatusEffects": [
                 {
-                  "statusId": "melee weakness",
+                  "statusId": "VanillaStatusEffectIDs.MeleeWeakness",
                   "count": 1
                 }
-              ]
+              ],
+              "effectStateName": "CardEffectAddStatusEffect",
+              "targetMode": "TargetMode.FrontInRoom",
+              "targetTeamType": "Team.Type.Monsters"
             },
             {
-              "effectStateName": "CardEffectSpawnHero",
               "paramCharacterData": {
+                "name": "Lightwings",
+                "characterLoreTooltips": [
+                  "The personal guard of Seraph. Protectors of his Light. Their blinding wings distract the less focused among us from their razor-sharp edges."
+                ],
                 "nameKey": "CharacterData_nameKey-58f78255e06f0f66-380369b69e6b2aa478c2d40ad56b910e-v2",
                 "pactCrystalsRequiredCount": 10,
                 "pactCrystalsVariantData": "Lightwings Shard",
                 "size": 1,
                 "health": 3,
                 "attackDamage": 10,
-                "attackTeleportsToDefender": false,
-                "subtypeKeys": [
-                  "SubtypesData_AttackerT3"
-                ],
-                "characterLoreTooltipKeys": [
-                  "CharacterData_data-c45e1acf932419fc-380369b69e6b2aa478c2d40ad56b910e-v2"
-                ]
-              }
+                "attackTeleportsToDefender": false
+              },
+              "effectStateName": "CardEffectSpawnHero",
+              "targetMode": "TargetMode.Room",
+              "targetTeamType": "Team.Type.Heroes"
             }
           ],
-          "paramTeamType": 2
+          "actionBehaviorName": "RandomOccupiedBossActionBehavior",
+          "paramTeamType": "Team.Type.Monsters"
         }
-      ]
+      ],
+      "numRepeats": 0
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-eaf1a96c87417dc6-b3529d0c210895749be35161c29a89c8-v2"
+  "characterLoreTooltips": [
+    "Breaker of the Covenant. Invader of Hell. Once a savior of Hell and Guardian of Heaven, he worked with me to build the Rail. Now he's a worse monster than I ever could have imagined."
   ],
-  "name": "Seraph the Patient Hard"
+  "size": 6,
+  "health": 2300,
+  "isOuterTrainBoss": true,
+  "validBossAttackPhase": "BossState.AttackPhase.Relentless",
+  "attackDamage": 20,
+  "attackTeleportsToDefender": false,
+  "statusEffectImmunities": [
+    "VanillaStatusEffectIDs.Rooted"
+  ]
 }

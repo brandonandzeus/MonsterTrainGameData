@@ -1,31 +1,32 @@
 {
-  "nameKey": "CharacterData_nameKey-92846007e35c90b8-95031c6e57ffb4841994d669ae1824a5-v2",
-  "size": 2,
-  "health": 35,
+  "name": "Titan Sentry",
   "triggers": [
     {
-      "trigger": 15,
-      "descriptionKey": "CharacterData_descriptionKey-ee8c134207d91a83-95031c6e57ffb4841994d669ae1824a5-v2",
+      "description": "Apply [frostbite] [effect0.status0.power] to enemy units.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "paramInt": 100,
           "paramStatusEffects": [
             {
-              "statusId": "poison",
+              "statusId": "VanillaStatusEffectIDs.Frostbite",
               "count": 3
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes",
+          "paramInt": 100
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnHit"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Siren_727cf19f-3b27-4ad2-92ab-3552449e52da",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Siren",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-b3b0dcb3569040fe-95031c6e57ffb4841994d669ae1824a5-v2"
+  "characterLoreTooltips": [
+    "Stationed all across the Sea floor, generations of these Guardians have been tasked with the protection of the Unnamed Titan. Their role was entirely ceremonial until now."
   ],
-  "name": "Titan Sentry"
+  "size": 2,
+  "health": 35
 }

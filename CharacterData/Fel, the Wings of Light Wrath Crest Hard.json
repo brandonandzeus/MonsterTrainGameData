@@ -1,77 +1,75 @@
 {
-  "nameKey": "CharacterData_nameKey-3a07882386897809-f10770ce657487948988aefc92cf6889-v2",
+  "name": "Fel, the Wings of Light Wrath Crest Hard",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 9
-      }
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 15,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 15
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 50,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
-        "bonusHP": 80,
         "statusEffectUpgrades": [
           {
-            "statusId": "multistrike",
+            "statusId": "VanillaStatusEffectIDs.Multistrike",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false,
+        "bonusHP": 80
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 50
     }
+  ],
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
+      "count": 1
+    }
+  ],
+  "bossActionGroups": [
+    {
+      "actions": [
+        {
+          "actionEffects": [
+            {
+              "paramStatusEffects": [
+                {
+                  "statusId": "VanillaStatusEffectIDs.Rage",
+                  "count": 3
+                }
+              ],
+              "effectStateName": "CardEffectAddStatusEffect",
+              "targetMode": "TargetMode.Room",
+              "targetIgnoreBosses": true,
+              "targetTeamType": "Team.Type.Heroes",
+              "paramInt": 100
+            }
+          ],
+          "actionBehaviorName": "RandomOccupiedBossActionBehavior",
+          "paramTeamType": "Team.Type.Heroes"
+        }
+      ],
+      "numRepeats": 2
+    }
+  ],
+  "characterLoreTooltips": [
+    "Once my closest ally, this Clipped legend has been able to create new wings out of the Light that Heaven uses. I admire her ingenuity, but I'll never be able to forgive her for abandoning the two of us."
   ],
   "size": 6,
   "health": 1300,
   "isOuterTrainBoss": true,
   "attackDamage": 10,
-  "startingStatusEffects": [
-    {
-      "statusId": "multistrike",
-      "count": 1
-    }
-  ],
   "statusEffectImmunities": [
-    "rooted"
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BigBoss2_e3e6f1a2-34a7-4493-b9d7-a123e182241e"
-  ],
-  "bossActionGroups": [
-    {
-      "numRepeats": 2,
-      "actions": [
-        {
-          "actionBehaviorName": "RandomOccupiedBossActionBehavior",
-          "actionEffects": [
-            {
-              "effectStateName": "CardEffectAddStatusEffect",
-              "targetIgnoreBosses": true,
-              "paramInt": 100,
-              "paramStatusEffects": [
-                {
-                  "statusId": "buff",
-                  "count": 3
-                }
-              ]
-            }
-          ],
-          "paramTeamType": 1
-        }
-      ]
-    }
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-5f047c0d66570df2-f10770ce657487948988aefc92cf6889-v2"
-  ],
-  "name": "Fel, the Wings of Light Wrath Crest Hard"
+    "VanillaStatusEffectIDs.Rooted"
+  ]
 }

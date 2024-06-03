@@ -1,54 +1,54 @@
 {
-  "nameKey": "CharacterData_nameKey-0d4f6e1a22a4b616-0b55550bc0133814f8ed2726eeb718d8-v2",
-  "size": 1,
-  "health": 1,
-  "canBeHealed": false,
-  "canAttack": false,
-  "ascendsTrainAutomatically": false,
+  "name": "Blinding Darkshard",
   "startingStatusEffects": [
     {
-      "statusId": "untouchable",
+      "statusId": "VanillaStatusEffectIDs.Phased",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 20,
-      "descriptionKey": "CharacterData_descriptionKey-935f665591b8508e-0b55550bc0133814f8ed2726eeb718d8-v2",
+      "description": "Apply [dazed] [effect0.status0.power] to your units.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetTeamType": 2,
           "paramStatusEffects": [
             {
-              "statusId": "dazed",
+              "statusId": "VanillaStatusEffectIDs.Dazed",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardMonsterPlayed"
     },
     {
-      "trigger": 1,
-      "descriptionKey": "CharacterData_descriptionKey-76123bcd2b365300-0b55550bc0133814f8ed2726eeb718d8-v2",
-      "additionalTextOnTriggerKey": "CharacterData_additionalTextOnTriggerKey-eb45bd01c8a6092a-0b55550bc0133814f8ed2726eeb718d8-v2",
+      "description": "Despawn.",
+      "additionalTextOnTrigger": "Despawned!",
       "effects": [
         {
-          "effectStateName": "CardEffectDespawnCharacter",
-          "targetMode": 5,
-          "targetTeamType": 2,
           "paramStatusEffects": [
             {
-              "statusId": "dazed",
+              "statusId": "VanillaStatusEffectIDs.Dazed",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectDespawnCharacter",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-ce798c29e8cd3919-0b55550bc0133814f8ed2726eeb718d8-v2"
+  "characterLoreTooltips": [
+    "The Wurmkin speak in hushed tones of the Child’s Darkness trapped within these Shardsouls. The remains of a Divine Titan split into Light and Dark. If these shards are the result of that darkness, perhaps Seraph’s Light comes from the same source."
   ],
-  "name": "Blinding Darkshard"
+  "size": 1,
+  "health": 1,
+  "canBeHealed": false,
+  "canAttack": false,
+  "ascendsTrainAutomatically": false
 }

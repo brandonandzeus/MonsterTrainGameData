@@ -1,20 +1,13 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 1,
-  "health": 15,
-  "attackDamage": 22,
-  "attackTeleportsToDefender": false,
+  "name": "Silent Marksman Shard",
   "startingStatusEffects": [
     {
-      "statusId": "stealth",
+      "statusId": "VanillaStatusEffectIDs.Stealth",
       "count": 2
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_AttackerT2"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Silent Marksman Shard"
+  "size": 1,
+  "health": 15,
+  "attackDamage": 22,
+  "attackTeleportsToDefender": false
 }

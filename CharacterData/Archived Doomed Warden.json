@@ -1,19 +1,15 @@
 {
-  "nameKey": "CharacterData_nameKey-202fabddff5cdc3a-483e23b1ca17c3745af0d01695e8789a-v2",
-  "size": 2,
-  "health": 10,
-  "attackDamage": 8,
+  "name": "Archived Doomed Warden",
   "startingStatusEffects": [
     {
-      "statusId": "poison",
+      "statusId": "VanillaStatusEffectIDs.Frostbite",
       "count": 4
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Warden_191c4528-6efd-47b0-bdf8-9838047532cc"
+  "subtypes": [
+    "Warden"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived Doomed Warden"
+  "size": 2,
+  "health": 10,
+  "attackDamage": 8
 }

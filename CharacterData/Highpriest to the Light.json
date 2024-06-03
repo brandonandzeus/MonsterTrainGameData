@@ -1,65 +1,60 @@
 {
-  "nameKey": "CharacterData_nameKey-10a9d2c32f94b18a-2ccdf6e39344d244b95db43658a5a8ea-v2",
+  "name": "Highpriest to the Light",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 7,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 5
-      }
+      },
+      "crystalsCount": 7
     },
     {
-      "crystalsCount": 20,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "spell shield",
+            "statusId": "VanillaStatusEffectIDs.Spellshield",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "crystalsCount": 20
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 25,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1,
         "bonusHP": 5
-      }
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 25
     },
     {
-      "isRepeatable": false,
-      "crystalsCount": 30,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusSize": 1
-      }
+      },
+      "isRepeatable": false,
+      "crystalsCount": 30
     }
+  ],
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Relentless",
+      "count": 1
+    },
+    {
+      "statusId": "VanillaStatusEffectIDs.Sweep",
+      "count": 1
+    }
+  ],
+  "characterLoreTooltips": [
+    "Only a select few Disciple Priests have ever been admitted into Seraph's retinue. Ever eager to be the only one with Seraph's ear, the Highpriest discredited the others through well-placed lies or, in some cases, untimely deaths."
   ],
   "size": 4,
   "health": 90,
   "isMiniboss": true,
-  "deathType": 1,
+  "deathType": "CharacterDeathVFX.Type.Large",
   "attackDamage": 5,
-  "attackTeleportsToDefender": false,
-  "startingStatusEffects": [
-    {
-      "statusId": "relentless",
-      "count": 1
-    },
-    {
-      "statusId": "hunter",
-      "count": 1
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BossT1_8850292e-bda8-428e-8d71-c375c29838f8",
-    "SubtypesData_Boss"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-bc63fa0e025a2df8-2ccdf6e39344d244b95db43658a5a8ea-v2"
-  ],
-  "name": "Highpriest to the Light"
+  "attackTeleportsToDefender": false
 }

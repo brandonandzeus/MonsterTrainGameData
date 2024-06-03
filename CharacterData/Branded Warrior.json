@@ -1,38 +1,38 @@
 {
-  "nameKey": "CharacterData_nameKey-299a287205950208-c4afac1bf1d093a4f871cf7eb20d5f2b-v2",
-  "size": 2,
-  "health": 5,
-  "attackDamage": 10,
+  "name": "Branded Warrior",
   "startingStatusEffects": [
     {
-      "statusId": "buff",
+      "statusId": "VanillaStatusEffectIDs.Rage",
       "count": 4
     }
   ],
   "triggers": [
     {
-      "trigger": 4,
-      "descriptionKey": "CharacterData_descriptionKey-aab45c2138251e32-c4afac1bf1d093a4f871cf7eb20d5f2b-v2",
+      "description": "Apply [rage] [effect0.status0.power] to friendly units.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetTeamType": 2,
           "paramStatusEffects": [
             {
-              "statusId": "buff",
+              "statusId": "VanillaStatusEffectIDs.Rage",
               "count": 3
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnKill"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Demon",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-e066448099a05369-c4afac1bf1d093a4f871cf7eb20d5f2b-v2"
+  "characterLoreTooltips": [
+    "It is said that no one can match a fully matured Hellhorned Demon in combat. I have yet to see this proven false. Though I can't say I'm seeking out that opportunity..."
   ],
-  "name": "Branded Warrior"
+  "size": 2,
+  "health": 5,
+  "attackDamage": 10
 }

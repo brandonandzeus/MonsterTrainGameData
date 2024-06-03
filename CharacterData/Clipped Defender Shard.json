@@ -1,23 +1,16 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 3,
-  "health": 60,
-  "deathType": 1,
+  "name": "Clipped Defender Shard",
   "startingStatusEffects": [
     {
-      "statusId": "armor",
+      "statusId": "VanillaStatusEffectIDs.Armor",
       "count": 80
     },
     {
-      "statusId": "spikes",
+      "statusId": "VanillaStatusEffectIDs.Spikes",
       "count": 2
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_ShieldGuardT2"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Clipped Defender Shard"
+  "size": 3,
+  "health": 60,
+  "deathType": "CharacterDeathVFX.Type.Large"
 }

@@ -1,39 +1,32 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 2,
-  "health": 50,
-  "attackDamage": 6,
+  "name": "Apprentice of Light Shard",
   "startingStatusEffects": [
     {
-      "statusId": "damage shield",
+      "statusId": "VanillaStatusEffectIDs.DamageShield",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 4,
-      "descriptionKey": "CharacterData_descriptionKey-517b46ed46164b10-a7bf44a33e58d094f80e874b0669d01d-v2",
+      "description": "Gain [damageshield].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "paramInt": 100,
           "paramStatusEffects": [
             {
-              "statusId": "damage shield",
+              "statusId": "VanillaStatusEffectIDs.DamageShield",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 100
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnKill"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HeavyT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Apprentice of Light Shard"
+  "size": 2,
+  "health": 50,
+  "attackDamage": 6
 }

@@ -1,112 +1,109 @@
 {
-  "nameKey": "CharacterData_nameKey-2c46ae584a4ad388-ab9866e8d2111c84a8c989843eeda931-v2",
+  "name": "Seraph the Temperant Hard",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 15,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "armor",
+            "statusId": "VanillaStatusEffectIDs.Armor",
             "count": 20
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "crystalsCount": 15
     },
     {
-      "crystalsCount": 75,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "multistrike",
+            "statusId": "VanillaStatusEffectIDs.Multistrike",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "crystalsCount": 75
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 45,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1,
         "bonusHP": 50
-      }
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 45
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 35,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "damage shield",
+            "statusId": "VanillaStatusEffectIDs.DamageShield",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 35
     }
   ],
-  "size": 6,
-  "health": 2300,
-  "isOuterTrainBoss": true,
-  "attackDamage": 10,
-  "attackTeleportsToDefender": false,
   "startingStatusEffects": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 2
     }
-  ],
-  "statusEffectImmunities": [
-    "rooted"
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BigBossT3_f7449215-5071-4671-909c-a02e2cceb821"
   ],
   "bossActionGroups": [
     {
       "actions": [
         {
-          "actionBehaviorName": "RandomOccupiedBossActionBehavior",
           "actionEffects": [
             {
-              "effectStateName": "CardEffectAddStatusEffect",
-              "targetTeamType": 2,
               "paramStatusEffects": [
                 {
-                  "statusId": "debuff",
+                  "statusId": "VanillaStatusEffectIDs.Sap",
                   "count": 3
                 }
-              ]
+              ],
+              "effectStateName": "CardEffectAddStatusEffect",
+              "targetMode": "TargetMode.Room",
+              "targetTeamType": "Team.Type.Monsters"
             },
             {
-              "effectStateName": "CardEffectSpawnHero",
               "paramCharacterData": {
+                "name": "Lightwings",
+                "characterLoreTooltips": [
+                  "The personal guard of Seraph. Protectors of his Light. Their blinding wings distract the less focused among us from their razor-sharp edges."
+                ],
                 "nameKey": "CharacterData_nameKey-58f78255e06f0f66-380369b69e6b2aa478c2d40ad56b910e-v2",
                 "pactCrystalsRequiredCount": 10,
                 "pactCrystalsVariantData": "Lightwings Shard",
                 "size": 1,
                 "health": 3,
                 "attackDamage": 10,
-                "attackTeleportsToDefender": false,
-                "subtypeKeys": [
-                  "SubtypesData_AttackerT3"
-                ],
-                "characterLoreTooltipKeys": [
-                  "CharacterData_data-c45e1acf932419fc-380369b69e6b2aa478c2d40ad56b910e-v2"
-                ]
-              }
+                "attackTeleportsToDefender": false
+              },
+              "effectStateName": "CardEffectSpawnHero",
+              "targetMode": "TargetMode.Room",
+              "targetTeamType": "Team.Type.Heroes"
             }
           ],
-          "paramTeamType": 2
+          "actionBehaviorName": "RandomOccupiedBossActionBehavior",
+          "paramTeamType": "Team.Type.Monsters"
         }
       ]
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-815d7d65840368f3-ab9866e8d2111c84a8c989843eeda931-v2"
+  "characterLoreTooltips": [
+    "Breaker of the Covenant. Invader of Hell. Once a savior of Hell and Guardian of Heaven, he worked with me to build the Rail. Now he's a worse monster than I ever could have imagined."
   ],
-  "name": "Seraph the Temperant Hard"
+  "size": 6,
+  "health": 2300,
+  "isOuterTrainBoss": true,
+  "attackDamage": 10,
+  "attackTeleportsToDefender": false,
+  "statusEffectImmunities": [
+    "VanillaStatusEffectIDs.Rooted"
+  ]
 }

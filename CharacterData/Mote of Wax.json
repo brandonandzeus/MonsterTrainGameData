@@ -1,13 +1,12 @@
 {
-  "nameKey": "CharacterData_nameKey-484a18b6a06a30d1-5818e71fe5600b94a91c02786f8ce23a-v2",
+  "name": "Mote of Wax",
+  "subtypes": [
+    "Waxer"
+  ],
+  "characterLoreTooltips": [
+    "When Waxers are reduced to almost nothing, but still cling to what life is left within, they will sometimes band together for protection to create a new form that is controlled by this hivemind of dying Waxers."
+  ],
   "size": 1,
   "health": 2,
-  "attackDamage": 2,
-  "subtypeKeys": [
-    "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-7cf86cb693cc1d04-5818e71fe5600b94a91c02786f8ce23a-v2"
-  ],
-  "name": "Mote of Wax"
+  "attackDamage": 2
 }

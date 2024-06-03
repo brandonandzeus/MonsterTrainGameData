@@ -1,13 +1,12 @@
 {
-  "nameKey": "CharacterData_nameKey-4433cbe52d0c00cf-210f6c973e7f66d41ad1a55969ceed12-v2",
+  "name": "Last Knight of the Disciples TLD",
+  "characterLoreTooltips": [
+    "The Knights of the Disciples were the first humans to charge into battle when our Covenant was broken. Now only one remains to uphold their ancient creed."
+  ],
   "pactCrystalsRequiredCount": 0,
   "pactCrystalsVariantData": "Last Knight of the Disciples TLD Shard",
   "size": 5,
   "health": 110,
-  "deathType": 1,
-  "attackDamage": 7,
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-3673ee6866868a78-210f6c973e7f66d41ad1a55969ceed12-v2"
-  ],
-  "name": "Last Knight of the Disciples TLD"
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 7
 }

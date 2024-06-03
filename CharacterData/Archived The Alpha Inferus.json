@@ -1,37 +1,31 @@
 {
-  "nameKey": "CharacterData_nameKey-40dcf8a0917cd4ef-9ddbfd6c015b6e448a08f42243184f57-v2",
-  "size": 2,
-  "health": 14,
-  "attackDamage": 6,
+  "name": "Archived The Alpha Inferus",
   "triggers": [
     {
-      "trigger": 1,
-      "descriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
       "effects": [
         {
-          "effectStateName": "CardEffectSpawnMonster",
-          "targetTeamType": 0,
           "paramCharacterData": {
+            "name": "Horned Infery",
+            "subtypes": [
+              "Imp"
+            ],
             "nameKey": "CharacterData_nameKey-fef4f9ea3009a807-d6ebec7d3a746264aa45b74dd478cdda-v2",
             "size": 1,
             "health": 1,
-            "attackDamage": 2,
-            "subtypeKeys": [
-              "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
-            ],
-            "characterLoreTooltipKeys": [
-
-            ]
-          }
+            "attackDamage": 2
+          },
+          "effectStateName": "CardEffectSpawnMonster",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
+  "subtypes": [
+    "Champion"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived The Alpha Inferus"
+  "size": 2,
+  "health": 14,
+  "attackDamage": 6
 }

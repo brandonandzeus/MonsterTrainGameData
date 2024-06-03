@@ -1,73 +1,68 @@
 {
-  "nameKey": "CharacterData_nameKey-51e3c11923e2e7a3-a2409cdddc4d3a143b0a25ba002adaf9-v2",
+  "name": "Living Armor",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 15
-      }
+      },
+      "crystalsCount": 5
     },
     {
-      "covenantUpgrade": true,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "covenantUpgrade": true
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 5,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "armor",
+            "statusId": "VanillaStatusEffectIDs.Armor",
             "count": 15
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 5
     },
     {
-      "isRepeatable": false,
-      "crystalsCount": 80,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusSize": 1
-      }
+      },
+      "isRepeatable": false,
+      "crystalsCount": 80
     }
   ],
-  "size": 5,
-  "health": 900,
-  "isMiniboss": true,
-  "deathType": 1,
-  "attackDamage": 5,
   "startingStatusEffects": [
     {
-      "statusId": "relentless",
+      "statusId": "VanillaStatusEffectIDs.Relentless",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 15,
-      "descriptionKey": "CharacterData_descriptionKey-80023ed155fb0701-a2409cdddc4d3a143b0a25ba002adaf9-v2",
+      "description": "Gain +[effect0.power][attack].",
       "effects": [
         {
           "effectStateName": "CardEffectBuffDamage",
-          "targetMode": 5,
-          "targetTeamType": 3,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
           "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnHit"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_BossT3_ef0103da-a050-4ebb-af3a-b3e285db5e0c",
-    "SubtypesData_Boss"
+  "characterLoreTooltips": [
+    "The Captain of the Steelwings has never removed the armor hammered into his wings. With each blow taken during battle, the steel forms more tightly around the Winged. We have speculated that the armor has now fused to his body, making him indestructible."
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-7aab824bb3a92091-a2409cdddc4d3a143b0a25ba002adaf9-v2"
-  ],
-  "name": "Living Armor"
+  "size": 5,
+  "health": 900,
+  "isMiniboss": true,
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 5
 }

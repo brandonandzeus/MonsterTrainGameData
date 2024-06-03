@@ -1,16 +1,12 @@
 {
-  "nameKey": "CharacterData_nameKey-1ba907b1367ce12e-9b1b3fdc5a285d643b2b6c4ee971990d-v2",
+  "name": "Discipled Footsoldier",
+  "characterLoreTooltips": [
+    "Some of Seraph’s human disciples come from a combat background. This gave the Traitor an advantage in his defense of the newly captured Rings of Hell."
+  ],
   "pactCrystalsRequiredCount": 14,
   "pactCrystalsVariantData": "Discipled Footsoldier Shard",
   "size": 1,
   "health": 1,
   "attackDamage": 4,
-  "attackTeleportsToDefender": false,
-  "subtypeKeys": [
-    "SubtypesData_AttackerEnemy_b7a79da2-ded9-4e26-8702-555817499f07"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-5e539edad46e33e8-9b1b3fdc5a285d643b2b6c4ee971990d-v2"
-  ],
-  "name": "Discipled Footsoldier"
+  "attackTeleportsToDefender": false
 }

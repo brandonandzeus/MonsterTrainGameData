@@ -1,33 +1,30 @@
 {
-  "nameKey": "CharacterData_nameKey-624a6d8508c68f21-cd5e4693a8aa23d4e8d138b4c1d5d4f6-v2",
-  "size": 1,
-  "health": 6,
-  "canAttack": false,
+  "name": "Archived Burnout Tomb",
   "triggers": [
     {
-      "descriptionKey": "CharacterData_descriptionKey-70959e038cace24f-cd5e4693a8aa23d4e8d138b4c1d5d4f6-v2",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetModeStatusEffectsFilter": [
-            "ephemeral"
-          ],
-          "targetTeamType": 3,
           "paramStatusEffects": [
             {
-              "statusId": "ephemeral",
+              "statusId": "VanillaStatusEffectIDs.Burnout",
               "count": 3
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Room",
+          "targetModeStatusEffectsFilter": [
+            "VanillaStatusEffectIDs.Burnout"
+          ],
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Tomb"
+  "subtypes": [
+    "Tomb"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-c716b62a43378bfa-cd5e4693a8aa23d4e8d138b4c1d5d4f6-v2"
-  ],
-  "name": "Archived Burnout Tomb"
+  "size": 1,
+  "health": 6,
+  "canAttack": false
 }

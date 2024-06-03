@@ -1,14 +1,13 @@
 {
-  "nameKey": "CharacterData_nameKey-0d77bd0e843582a5-c3d87d4c5a8d72a45978159dc1587496-v2",
+  "name": "Penumbra",
+  "subtypes": [
+    "Champion"
+  ],
+  "characterLoreTooltips": [
+    "I have no hard facts on its origin, but it is rumoured to be the beginning of the Shroud itself, formed in the long forgotten depths of the Crucible and giving life to the rest of Hell. This would make it the first being of Hell. It has yet to confirm or deny my questioning on the matter."
+  ],
   "size": 3,
   "health": 20,
-  "deathType": 1,
-  "attackDamage": 20,
-  "subtypeKeys": [
-    "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-5e38e0fa274924e5-c3d87d4c5a8d72a45978159dc1587496-v2"
-  ],
-  "name": "Penumbra"
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 20
 }

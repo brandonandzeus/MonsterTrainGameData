@@ -1,60 +1,56 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "name": "Discipled Inquisitor TLD Shard",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "armor",
+            "statusId": "VanillaStatusEffectIDs.Armor",
             "count": 5
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 20,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 20
     },
     {
-      "isRepeatable": false,
-      "covenantUpgrade": true,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "trample",
+            "statusId": "VanillaStatusEffectIDs.Trample",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "isRepeatable": false,
+      "covenantUpgrade": true
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 20,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1,
         "bonusHP": 25
-      }
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 20
+    }
+  ],
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Rage",
+      "count": 2
     }
   ],
   "size": 5,
   "health": 450,
-  "deathType": 1,
-  "attackDamage": 5,
-  "startingStatusEffects": [
-    {
-      "statusId": "buff",
-      "count": 2
-    }
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Discipled Inquisitor TLD Shard"
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 5
 }

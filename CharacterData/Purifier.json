@@ -1,34 +1,31 @@
 {
-  "nameKey": "CharacterData_nameKey-5d0e718c21c5acf6-0067a292ba67a0b42850f47b3ffad1bd-v2",
-  "pactCrystalsRequiredCount": 14,
-  "pactCrystalsVariantData": "Purifier Shard",
-  "size": 2,
-  "health": 10,
-  "attackDamage": 3,
+  "name": "Purifier",
   "triggers": [
     {
-      "trigger": 1,
-      "descriptionKey": "CharacterData_descriptionKey-de61eaac27e4225d-0067a292ba67a0b42850f47b3ffad1bd-v2",
+      "description": "Add a <b>Self-Mutilation</b> card to the top of your draw pile.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddBattleCard",
-          "targetTeamType": 0,
-          "paramInt": 5,
           "paramCardPool": {
             "name": "JunkPoolT3",
             "cardDataList": [
               "ScourgeT3"
             ]
-          }
+          },
+          "effectStateName": "CardEffectAddBattleCard",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 5
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HordeT1"
+  "characterLoreTooltips": [
+    "The Winged have come to the strict belief that peace can only be gained through severe penance and punishment. Their propensity for prescribing pain has made them feared amongst all of us in Hell and even other Winged."
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-db5a29395e883f7c-0067a292ba67a0b42850f47b3ffad1bd-v2"
-  ],
-  "name": "Purifier"
+  "pactCrystalsRequiredCount": 14,
+  "pactCrystalsVariantData": "Purifier Shard",
+  "size": 2,
+  "health": 10,
+  "attackDamage": 3
 }

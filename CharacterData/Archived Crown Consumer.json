@@ -1,27 +1,22 @@
 {
-  "nameKey": "CharacterData_nameKey-c491d039c13baf02-fc209da26d0c19e4aa5b9c315d2abe59-v2",
-  "size": 1,
-  "health": 5,
-  "attackDamage": 2,
+  "name": "Archived Crown Consumer",
   "triggers": [
     {
-      "trigger": 5,
-      "descriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
       "effects": [
         {
           "effectStateName": "CardEffectBuffMaxHealth",
-          "targetMode": 5,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 2
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAnyHeroDeathOnFloor"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
+  "subtypes": [
+    "Waxer"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived Crown Consumer"
+  "size": 1,
+  "health": 5,
+  "attackDamage": 2
 }

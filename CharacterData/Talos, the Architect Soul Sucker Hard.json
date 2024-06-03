@@ -1,79 +1,76 @@
 {
-  "nameKey": "CharacterData_nameKey-a150107698193f3a-5cc0e0676e1e85149b3e021f45b3201b-v2",
+  "name": "Talos, the Architect Soul Sucker Hard",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 5
-      }
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 15,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 15
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 20,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "buff",
+            "statusId": "VanillaStatusEffectIDs.Rage",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 20
     }
+  ],
+  "triggers": [
+    {
+      "description": "Apply [dazed] [effect0.status0.power] to the attacked unit.",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Dazed",
+              "count": 1
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.LastAttackedCharacter",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 100
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
+    }
+  ],
+  "bossActionGroups": [
+    {
+      "actions": [
+        {
+          "actionBehaviorName": "RandomBossActionBehavior",
+          "paramTeamType": "Team.Type.None"
+        }
+      ],
+      "numRepeats": 0
+    }
+  ],
+  "characterLoreTooltips": [
+    "In these visions, I’ve seen crystals used as prisons for souls. “Shardsouls”, they’ve been called. It seems their creator, a human of some ancient renown, created them to split the Divine Titans, but it’s unclear why this happened, what became of the human Exile, or the importance of Humans in this forgotten tragedy."
   ],
   "size": 6,
   "health": 450,
   "isOuterTrainBoss": true,
-  "validBossAttackPhase": -1,
-  "deathType": 2,
+  "validBossAttackPhase": "BossState.AttackPhase.Relentless",
+  "deathType": "CharacterDeathVFX.Type.Boss",
   "attackDamage": 7,
   "statusEffectImmunities": [
-    "rooted"
+    "VanillaStatusEffectIDs.Rooted"
   ],
-  "triggers": [
-    {
-      "trigger": 3,
-      "descriptionKey": "CharacterData_descriptionKey-6e08254071871666-5cc0e0676e1e85149b3e021f45b3201b-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 6,
-          "targetTeamType": 0,
-          "paramInt": 100,
-          "paramStatusEffects": [
-            {
-              "statusId": "dazed",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BigBossT1_50952308-e0f3-4acb-b0cc-e0d662b868b8"
-  ],
-  "removeTriggersOnRelentlessChange": true,
-  "bossActionGroups": [
-    {
-      "numRepeats": 0,
-      "actions": [
-        {
-          "actionBehaviorName": "RandomBossActionBehavior"
-        }
-      ]
-    }
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-e568c6f70ebb12bf-5cc0e0676e1e85149b3e021f45b3201b-v2"
-  ],
-  "name": "Talos, the Architect Soul Sucker Hard"
+  "removeTriggersOnRelentlessChange": true
 }

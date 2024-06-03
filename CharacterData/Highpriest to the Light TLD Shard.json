@@ -1,66 +1,67 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "name": "Highpriest to the Light TLD Shard",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 7,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 5
-      }
+      },
+      "crystalsCount": 7
     },
     {
-      "crystalsCount": 36,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "spell shield",
+            "statusId": "VanillaStatusEffectIDs.Spellshield",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "crystalsCount": 36
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 30,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1,
         "bonusHP": 35
-      }
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 30
     }
   ],
-  "size": 4,
-  "health": 340,
-  "deathType": 1,
-  "attackDamage": 6,
-  "attackTeleportsToDefender": false,
   "startingStatusEffects": [
     {
-      "statusId": "hunter",
+      "statusId": "VanillaStatusEffectIDs.Sweep",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "descriptionKey": "CharacterData_descriptionKey-ca3cc893d9b9b5b3-ea30fcac778ccbd40834696abaa4a388-v2",
+      "description": "Add a <b>Vengeful Shard</b> card to the top of your draw pile.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddBattleCard",
-          "targetTeamType": 0,
-          "paramInt": 5,
           "paramCardPool": {
             "name": "VengefulShardOnlyPool",
             "cardDataList": [
               "BlightPyreDamageInHand"
             ]
-          }
+          },
+          "effectStateName": "CardEffectAddBattleCard",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 5
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-bc63fa0e025a2df8-2ccdf6e39344d244b95db43658a5a8ea-v2"
+  "characterLoreTooltips": [
+    "Only a select few Disciple Priests have ever been admitted into Seraph's retinue. Ever eager to be the only one with Seraph's ear, the Highpriest discredited the others through well-placed lies or, in some cases, untimely deaths."
   ],
-  "name": "Highpriest to the Light TLD Shard"
+  "size": 4,
+  "health": 340,
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 6,
+  "attackTeleportsToDefender": false
 }

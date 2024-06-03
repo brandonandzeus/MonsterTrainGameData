@@ -1,70 +1,65 @@
 {
-  "nameKey": "CharacterData_nameKey-d7d7404aded57c8b-e028b17d978d26648b22449636fd9172-v2",
+  "name": "Sower of Sorrow",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 4
-      }
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 30,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 30
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 25,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
-        "bonusDamage": 1,
-        "bonusHP": 25,
         "statusEffectUpgrades": [
           {
-            "statusId": "lifesteal",
+            "statusId": "VanillaStatusEffectIDs.Lifesteal",
             "count": 3
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false,
+        "bonusDamage": 1,
+        "bonusHP": 25
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 25
     },
     {
-      "isRepeatable": false,
-      "crystalsCount": 65,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusSize": 1
-      }
+      },
+      "isRepeatable": false,
+      "crystalsCount": 65
     }
+  ],
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Relentless",
+      "count": 1
+    },
+    {
+      "statusId": "VanillaStatusEffectIDs.Sweep",
+      "count": 1
+    },
+    {
+      "statusId": "VanillaStatusEffectIDs.Lifesteal",
+      "count": 10
+    }
+  ],
+  "characterLoreTooltips": [
+    "For ages, the Clipped were the weakest of those in Heaven. Now, the head of the Clipped Shamans preys upon the even weaker by reconcentrating his healing power into something much more sinister."
   ],
   "size": 4,
   "health": 550,
   "isMiniboss": true,
-  "deathType": 1,
+  "deathType": "CharacterDeathVFX.Type.Large",
   "attackDamage": 8,
-  "attackTeleportsToDefender": false,
-  "startingStatusEffects": [
-    {
-      "statusId": "relentless",
-      "count": 1
-    },
-    {
-      "statusId": "hunter",
-      "count": 1
-    },
-    {
-      "statusId": "lifesteal",
-      "count": 10
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BossT2_935b30b5-bb94-4fd4-b3be-2ed0eb73ccf6",
-    "SubtypesData_Boss"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-c0dbd222879aadff-e028b17d978d26648b22449636fd9172-v2"
-  ],
-  "name": "Sower of Sorrow"
+  "attackTeleportsToDefender": false
 }

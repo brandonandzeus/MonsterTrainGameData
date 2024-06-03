@@ -1,25 +1,26 @@
 {
-  "nameKey": "CharacterData_nameKey-0466c4a3b24b9eb1-148d3d07d98db814cb0bbbb144ca4aad-v2",
-  "size": 1,
-  "health": 1,
-  "attackDamage": 1,
+  "name": "Molting Imp",
   "triggers": [
     {
-      "trigger": 2,
-      "descriptionKey": "CharacterData_descriptionKey-112c90544ec0835b-148d3d07d98db814cb0bbbb144ca4aad-v2",
+      "description": "Deal [effect0.power] damage to enemy units.",
       "effects": [
         {
           "effectStateName": "CardEffectDamage",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes",
           "paramInt": 5
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
+  "subtypes": [
+    "Imp"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-b4bc28bc8b768f6b-148d3d07d98db814cb0bbbb144ca4aad-v2"
+  "characterLoreTooltips": [
+    "With each molting cycle comes a new body, one that inches the Imp closer to fully mutating into the more mature Horned Demons. After witnessing the process, it is not something for the faint of heart."
   ],
-  "name": "Molting Imp"
+  "size": 1,
+  "health": 1,
+  "attackDamage": 1
 }

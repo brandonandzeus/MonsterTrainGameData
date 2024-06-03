@@ -1,38 +1,34 @@
 {
-  "nameKey": "CharacterData_nameKey-63dd2054aa4d9058-38da38f293c5af6418161104cf537b61-v2",
-  "size": 3,
-  "health": 8,
-  "attackDamage": 15,
+  "name": "Simulatron",
   "startingStatusEffects": [
     {
-      "statusId": "inert",
+      "statusId": "VanillaStatusEffectIDs.Inert",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 20,
-      "descriptionKey": "CharacterData_descriptionKey-54c3825e06a7410a-38da38f293c5af6418161104cf537b61-v2",
+      "description": "Add [spark] to this unit.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
           "paramStatusEffects": [
             {
-              "statusId": "spark",
+              "statusId": "VanillaStatusEffectIDs.Fuel",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardMonsterPlayed"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Defunct"
+  "subtypes": [
+    "Defunct"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Simulatron"
+  "size": 3,
+  "health": 8,
+  "attackDamage": 15
 }

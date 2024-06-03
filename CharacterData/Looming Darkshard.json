@@ -1,51 +1,50 @@
 {
-  "nameKey": "CharacterData_nameKey-e95e500e07324c9f-016c5625f9e323245a1cad24a3eb7ad4-v2",
-  "size": 1,
-  "health": 1,
-  "canBeHealed": false,
-  "canAttack": false,
-  "ascendsTrainAutomatically": false,
+  "name": "Looming Darkshard",
   "startingStatusEffects": [
     {
-      "statusId": "untouchable",
+      "statusId": "VanillaStatusEffectIDs.Phased",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 19,
-      "descriptionKey": "CharacterData_descriptionKey-1f0e3411a141e03f-016c5625f9e323245a1cad24a3eb7ad4-v2",
+      "description": "Apply +[effect0.power][ember] to spells in hand.",
       "effects": [
         {
           "effectStateName": "CardEffectModifyCardCost",
-          "targetMode": 18,
-          "targetTeamType": 2,
+          "targetMode": "TargetMode.Hand",
+          "targetTeamType": "Team.Type.Monsters",
           "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
     },
     {
-      "trigger": 1,
-      "descriptionKey": "CharacterData_descriptionKey-b073b3ac46d0350e-016c5625f9e323245a1cad24a3eb7ad4-v2",
-      "additionalTextOnTriggerKey": "CharacterData_additionalTextOnTriggerKey-248819c4ae9f57e1-016c5625f9e323245a1cad24a3eb7ad4-v2",
+      "description": "Despawn.",
+      "additionalTextOnTrigger": "Despawned!",
       "effects": [
         {
-          "effectStateName": "CardEffectDespawnCharacter",
-          "targetMode": 5,
-          "targetTeamType": 2,
-          "paramInt": 1,
           "paramStatusEffects": [
             {
-              "statusId": "dazed",
+              "statusId": "VanillaStatusEffectIDs.Dazed",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectDespawnCharacter",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Monsters",
+          "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-5f1647f2aeeed31e-016c5625f9e323245a1cad24a3eb7ad4-v2"
+  "characterLoreTooltips": [
+    "The Wurmkin speak in hushed tones of the Child’s Darkness trapped within these Shardsouls. The remains of a Divine Titan split into Light and Dark. If these shards are the result of that darkness, perhaps Seraph’s Light comes from the same source."
   ],
-  "name": "Looming Darkshard"
+  "size": 1,
+  "health": 1,
+  "canBeHealed": false,
+  "canAttack": false,
+  "ascendsTrainAutomatically": false
 }

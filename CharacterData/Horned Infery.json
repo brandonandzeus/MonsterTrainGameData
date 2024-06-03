@@ -1,13 +1,9 @@
 {
-  "nameKey": "CharacterData_nameKey-fef4f9ea3009a807-d6ebec7d3a746264aa45b74dd478cdda-v2",
+  "name": "Horned Infery",
+  "subtypes": [
+    "Imp"
+  ],
   "size": 1,
   "health": 1,
-  "attackDamage": 2,
-  "subtypeKeys": [
-    "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
-  ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Horned Infery"
+  "attackDamage": 2
 }

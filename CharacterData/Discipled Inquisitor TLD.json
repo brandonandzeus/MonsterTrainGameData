@@ -1,13 +1,12 @@
 {
-  "nameKey": "CharacterData_nameKey-e9d34b6c40e8e582-52aeb9a3c9bf2f74ab8a2f652be33cd3-v2",
+  "name": "Discipled Inquisitor TLD",
+  "characterLoreTooltips": [
+    "A high-ranking officer within the combative ranks of the Disciples. The humans that had been admitted into Heaven banded together under the Inquisitor to join Seraph's cause when they broke our Rail."
+  ],
   "pactCrystalsRequiredCount": 0,
   "pactCrystalsVariantData": "Discipled Inquisitor TLD Shard",
   "size": 5,
   "health": 450,
-  "deathType": 1,
-  "attackDamage": 10,
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-4b0b12787019bfa5-52aeb9a3c9bf2f74ab8a2f652be33cd3-v2"
-  ],
-  "name": "Discipled Inquisitor TLD"
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 10
 }

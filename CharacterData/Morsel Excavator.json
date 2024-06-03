@@ -1,45 +1,43 @@
 {
-  "nameKey": "CharacterData_nameKey-381e72366d3f946f-b8e32e399a3fff5418d4d409754f004d-v2",
-  "size": 1,
-  "health": 1,
-  "attackDamage": 3,
+  "name": "Morsel Excavator",
   "triggers": [
     {
-      "trigger": 23,
-      "descriptionKey": "CharacterData_descriptionKey-d26052f276e67ce0-b8e32e399a3fff5418d4d409754f004d-v2",
-      "additionalTextOnTriggerKey": "CharacterData_additionalTextOnTriggerKey-d4ed8901ba9f1722-b8e32e399a3fff5418d4d409754f004d-v2",
+      "description": "Eater gains +[effect0.upgrade.bonusdamage][attack] and [lifesteal] [effect1.status0.power].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 20,
-          "targetTeamType": 3,
-          "paramInt": 1,
           "paramCardUpgradeData": {
             "bonusDamage": 3
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.LastFeederCharacter",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
+          "paramInt": 1
         },
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 20,
-          "targetTeamType": 3,
           "paramStatusEffects": [
             {
-              "statusId": "lifesteal",
+              "statusId": "VanillaStatusEffectIDs.Lifesteal",
               "count": 1
             }
           ],
           "paramCardUpgradeData": {
             "bonusDamage": 3
-          }
+          },
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.LastFeederCharacter",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnEaten"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Snack"
+  "subtypes": [
+    "Morsel"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-e909fc5e90c6c5de-b8e32e399a3fff5418d4d409754f004d-v2"
+  "characterLoreTooltips": [
+    "Before the Pyre was extinguished, it had rooted itself throughout the edges of the Crucible, creating volatile shards of crystal that were bursting with violent energy. The Shroud had no use for these Void Shards and chose to remove them to gain access to whatever they concealed."
   ],
-  "name": "Morsel Excavator"
+  "size": 1,
+  "health": 1,
+  "attackDamage": 3
 }

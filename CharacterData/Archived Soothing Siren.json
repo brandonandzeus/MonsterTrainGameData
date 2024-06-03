@@ -1,31 +1,27 @@
 {
-  "nameKey": "CharacterData_nameKey-b3a8b8fdfefdf7df-2a61651727153fe4daa24e6730233a10-v2",
-  "size": 2,
-  "health": 6,
-  "attackDamage": 1,
+  "name": "Archived Soothing Siren",
   "triggers": [
     {
-      "trigger": 19,
-      "descriptionKey": "CharacterData_descriptionKey-1d6c6e05f3edc8cb-2a61651727153fe4daa24e6730233a10-v2",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 2,
           "paramStatusEffects": [
             {
-              "statusId": "debuff",
+              "statusId": "VanillaStatusEffectIDs.Sap",
               "count": 2
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.FrontInRoom",
+          "targetTeamType": "Team.Type.Heroes"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Siren_727cf19f-3b27-4ad2-92ab-3552449e52da"
+  "subtypes": [
+    "Siren"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived Soothing Siren"
+  "size": 2,
+  "health": 6,
+  "attackDamage": 1
 }

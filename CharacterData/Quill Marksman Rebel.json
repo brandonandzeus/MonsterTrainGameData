@@ -1,25 +1,24 @@
 {
-  "nameKey": "CharacterData_nameKey-f46467a1347b78af-e9e7004c45621824a9a2232f691dba84-v2",
-  "size": 1,
-  "health": 15,
-  "attackDamage": 25,
-  "attackTeleportsToDefender": false,
+  "name": "Quill Marksman Rebel",
   "startingStatusEffects": [
     {
-      "statusId": "ambush",
+      "statusId": "VanillaStatusEffectIDs.Quick",
       "count": 1
     },
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 2
     },
     {
-      "statusId": "cardless",
+      "statusId": "VanillaStatusEffectIDs.Cardless",
       "count": 1
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-f0513274f74dbc1c-e9e7004c45621824a9a2232f691dba84-v2"
+  "characterLoreTooltips": [
+    "Younger Clipped coat their severed feathers in steel and sharpen them to use as hyper-accurate throwing knives. By the time they run out, they are usually old enough to pick up a spear and serve their duty as a Guardian."
   ],
-  "name": "Quill Marksman Rebel"
+  "size": 1,
+  "health": 15,
+  "attackDamage": 25,
+  "attackTeleportsToDefender": false
 }

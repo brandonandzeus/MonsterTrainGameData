@@ -1,27 +1,26 @@
 {
-  "nameKey": "CharacterData_nameKey-4d67de40f63fa3fd-2e9399d4a987b7149883d0deffbaa5f3-v2",
-  "size": 1,
-  "health": 1,
-  "attackDamage": 1,
+  "name": "Pyre Chomper",
   "triggers": [
     {
-      "trigger": 2,
-      "descriptionKey": "CharacterData_descriptionKey-c8c50e0ca96470a0-2e9399d4a987b7149883d0deffbaa5f3-v2",
+      "description": "<nobr>Gain [effect0.power][ember].</nobr>",
       "effects": [
         {
           "effectStateName": "CardEffectGainEnergy",
-          "targetMode": 5,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 4
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
+  "subtypes": [
+    "Imp"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-17a8ec1a815f5bad-2e9399d4a987b7149883d0deffbaa5f3-v2"
+  "characterLoreTooltips": [
+    "These imps have taken a rather strong liking to the Pyre as a snack food, making them horrible pests aboard my train. Though the sharp crystals don't digest well..."
   ],
-  "name": "Pyre Chomper"
+  "size": 1,
+  "health": 1,
+  "attackDamage": 1
 }

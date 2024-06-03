@@ -1,60 +1,56 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "name": "Last Knight of the Disciples TLD Shard",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 5
-      }
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 20,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 20
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 60,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "buff",
+            "statusId": "VanillaStatusEffectIDs.Rage",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 60
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 80,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
-        "bonusHP": 100,
         "statusEffectUpgrades": [
           {
-            "statusId": "multistrike",
+            "statusId": "VanillaStatusEffectIDs.Multistrike",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false,
+        "bonusHP": 100
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 80
+    }
+  ],
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Armor",
+      "count": 50
     }
   ],
   "size": 5,
   "health": 490,
-  "deathType": 1,
-  "attackDamage": 2,
-  "startingStatusEffects": [
-    {
-      "statusId": "armor",
-      "count": 50
-    }
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Last Knight of the Disciples TLD Shard"
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 2
 }

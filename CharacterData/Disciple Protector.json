@@ -1,20 +1,16 @@
 {
-  "nameKey": "CharacterData_nameKey-84213548a59226c2-f0f66451fd85646449c9aa1979266f97-v2",
-  "pactCrystalsRequiredCount": 20,
-  "pactCrystalsVariantData": "Disciple Protector Shard",
-  "size": 3,
-  "health": 5,
+  "name": "Disciple Protector",
   "startingStatusEffects": [
     {
-      "statusId": "armor",
+      "statusId": "VanillaStatusEffectIDs.Armor",
       "count": 25
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_ShieldGuardT1"
+  "characterLoreTooltips": [
+    "It takes certain insanity to volunteer for the defensive front lines, but Seraph instills that level of devotion in his Disciples. Having spent much time with the Traitor, I can say that he does demand a certain loyalty that can be hard to break."
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-469889fa2c1e9c3c-f0f66451fd85646449c9aa1979266f97-v2"
-  ],
-  "name": "Disciple Protector"
+  "pactCrystalsRequiredCount": 20,
+  "pactCrystalsVariantData": "Disciple Protector Shard",
+  "size": 3,
+  "health": 5
 }

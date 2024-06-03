@@ -1,26 +1,21 @@
 {
-  "nameKey": "CharacterData_nameKey-200e2322c022482c-4e1e4461086619144813d5e58ce994e4-v2",
-  "size": 1,
-  "health": 3,
+  "name": "Archived Restoring Channeler",
   "triggers": [
     {
-      "trigger": 14,
-      "descriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
       "effects": [
         {
           "effectStateName": "CardEffectHeal",
-          "targetMode": 4,
-          "targetTeamType": 2,
+          "targetMode": "TargetMode.RoomHealTargets",
+          "targetTeamType": "Team.Type.Monsters",
           "paramInt": 4
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombatHealing"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Cultist_8a3bb2b5-8c56-4c86-bb08-85b95c488f23"
+  "subtypes": [
+    "Channeler"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived Restoring Channeler"
+  "size": 1,
+  "health": 3
 }

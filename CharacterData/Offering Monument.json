@@ -1,37 +1,37 @@
 {
-  "nameKey": "CharacterData_nameKey-fca91c71c4cba5e5-3117c8273db87b248b6289f972b97dd8-v2",
-  "size": 1,
-  "health": 40,
-  "deathSlidesBackwards": false,
+  "name": "Offering Monument",
   "triggers": [
     {
-      "trigger": 19,
-      "descriptionKey": "CharacterData_descriptionKey-5826023a29a22152-3117c8273db87b248b6289f972b97dd8-v2",
+      "description": "[effect1.upgrade.bonushp][health]. <nobr>Draw [effect0.power].</nobr>",
       "effects": [
         {
           "effectStateName": "CardEffectDraw",
-          "targetTeamType": 0,
-          "animToPlay": 2,
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
+          "animToPlay": "CharacterUI.Anim.Attack",
           "paramInt": 1
         },
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
-          "targetTeamType": 2,
-          "paramInt": 1,
           "paramCardUpgradeData": {
             "bonusHP": -5
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Monsters",
+          "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Totem_7c4e7151-d042-49e2-9700-29e7c760b691",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Totem",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-838cb0eb0c7fae2f-3117c8273db87b248b6289f972b97dd8-v2"
+  "characterLoreTooltips": [
+    "I created monuments as signposts for the offering sites across the seafloor. But my shoddy work has made them vulnerable to the energy from the Unnamed below, destabilizing them entirely."
   ],
-  "name": "Offering Monument"
+  "size": 1,
+  "health": 40,
+  "deathSlidesBackwards": false
 }

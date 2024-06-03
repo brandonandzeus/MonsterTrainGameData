@@ -1,46 +1,44 @@
 {
-  "nameKey": "CharacterData_nameKey-c7cf311674b459c9-ca231f4af8d21424185f8e3764689499-v2",
-  "size": 6,
-  "health": 700,
-  "isOuterTrainBoss": true,
-  "attackDamage": 9,
+  "name": "Fel, the Wings of Light Eternal Crest",
   "startingStatusEffects": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 1
     }
-  ],
-  "statusEffectImmunities": [
-    "rooted"
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BigBoss2_e3e6f1a2-34a7-4493-b9d7-a123e182241e"
   ],
   "bossActionGroups": [
     {
       "actions": [
         {
-          "actionBehaviorName": "RandomOccupiedBossActionBehavior",
           "actionEffects": [
             {
-              "effectStateName": "CardEffectAddStatusEffect",
-              "targetIgnoreBosses": true,
-              "paramInt": 100,
               "paramStatusEffects": [
                 {
-                  "statusId": "armor",
+                  "statusId": "VanillaStatusEffectIDs.Armor",
                   "count": 10
                 }
-              ]
+              ],
+              "effectStateName": "CardEffectAddStatusEffect",
+              "targetMode": "TargetMode.Room",
+              "targetIgnoreBosses": true,
+              "targetTeamType": "Team.Type.Heroes",
+              "paramInt": 100
             }
           ],
-          "paramTeamType": 1
+          "actionBehaviorName": "RandomOccupiedBossActionBehavior",
+          "paramTeamType": "Team.Type.Heroes"
         }
       ]
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-03e179bfae32168d-ca231f4af8d21424185f8e3764689499-v2"
+  "characterLoreTooltips": [
+    "Once my closest ally, this Clipped legend has been able to create new wings out of the Light that Heaven uses. I admire her ingenuity, but I'll never be able to forgive her for abandoning the two of us."
   ],
-  "name": "Fel, the Wings of Light Eternal Crest"
+  "size": 6,
+  "health": 700,
+  "isOuterTrainBoss": true,
+  "attackDamage": 9,
+  "statusEffectImmunities": [
+    "VanillaStatusEffectIDs.Rooted"
+  ]
 }

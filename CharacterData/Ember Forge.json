@@ -1,20 +1,19 @@
 {
-  "nameKey": "CharacterData_nameKey-aca9bed3ffd92c25-7fddf4cdd7bf0f54d83d4b10e9c30b81-v2",
-  "size": 3,
-  "health": 20,
-  "deathType": 1,
-  "subtypeKeys": [
-    "SubtypesData_Automaton"
+  "name": "Ember Forge",
+  "subtypes": [
+    "Construct"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-bc657503e1d23378-7fddf4cdd7bf0f54d83d4b10e9c30b81-v2"
+  "characterLoreTooltips": [
+    "Both for improved construction and visibility, forges were built throughout the Crucible, but the Shroud was soon mining faster than they could build them. Instead of building new ones, Penumbra tasked Morsels with adding mobility. The technology is crude, but it is the first mobile engine I have on record. "
   ],
   "roomModifiers": [
     {
+      "description": "+[paramint][ember] per turn.",
       "roomStateModifierClassName": "RoomStateEnergyModifier",
-      "descriptionKey": "CharacterData_descriptionKey-385eca38528d9ff3-7fddf4cdd7bf0f54d83d4b10e9c30b81-v2",
       "paramInt": 2
     }
   ],
-  "name": "Ember Forge"
+  "size": 3,
+  "health": 20,
+  "deathType": "CharacterDeathVFX.Type.Large"
 }

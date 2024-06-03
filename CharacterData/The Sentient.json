@@ -1,13 +1,12 @@
 {
-  "nameKey": "CharacterData_nameKey-1e63648fbc1ec1c8-64ad234bf77ec8b41ad42fc905c71920-v2",
+  "name": "The Sentient",
+  "subtypes": [
+    "Champion"
+  ],
+  "characterLoreTooltips": [
+    "This Hollow was able to sever her connection to the Wildwood, slowly awakening to the prison her soul was trapped in, but still agreeing to champion our Covenant. Now she has repurposed her armor as makeshift shields to keep the rest of the vines at bay, becoming more aggressive with each attempt at recapture."
+  ],
   "size": 2,
   "health": 10,
-  "deathType": 1,
-  "subtypeKeys": [
-    "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-f5c5f39310bdb22c-64ad234bf77ec8b41ad42fc905c71920-v2"
-  ],
-  "name": "The Sentient"
+  "deathType": "CharacterDeathVFX.Type.Large"
 }

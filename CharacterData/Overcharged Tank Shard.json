@@ -1,30 +1,25 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 2,
-  "health": 130,
-  "attackDamage": 10,
+  "name": "Overcharged Tank Shard",
   "triggers": [
     {
-      "trigger": 18,
-      "descriptionKey": "CharacterData_descriptionKey-73d17422d1a04ec8-2da594ef453ad16469bf6832225a3c4e-v2",
+      "description": "Apply [armor] [effect0.status0.power] to their units.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
           "paramStatusEffects": [
             {
-              "statusId": "armor",
+              "statusId": "VanillaStatusEffectIDs.Armor",
               "count": 10
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HeavyT2"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Overcharged Tank Shard"
+  "size": 2,
+  "health": 130,
+  "attackDamage": 10
 }

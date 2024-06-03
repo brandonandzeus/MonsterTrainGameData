@@ -1,13 +1,12 @@
 {
-  "nameKey": "CharacterData_nameKey-920af4dfdbc83cfc-3dace7d512b341a43b1c80a8ddc8c7b7-v2",
+  "name": "Hornbreaker Prince",
+  "subtypes": [
+    "Champion"
+  ],
+  "characterLoreTooltips": [
+    "Cursed with no horns, the only son of Grrrg has taken to collecting the horns of his opponents, dispelling any doubt of his fighting prowess and convincing me of his rightful place as champion of the Hellhorned."
+  ],
   "size": 2,
   "health": 6,
-  "attackDamage": 6,
-  "subtypeKeys": [
-    "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-2b9392e6c983b9c3-3dace7d512b341a43b1c80a8ddc8c7b7-v2"
-  ],
-  "name": "Hornbreaker Prince"
+  "attackDamage": 6
 }

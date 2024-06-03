@@ -1,20 +1,19 @@
 {
-  "nameKey": "CharacterData_nameKey-9d6e56362af844e9-2bdf15d54745dde4dbeb851405ec4342-v2",
-  "size": 2,
-  "health": 5,
-  "attackDamage": 15,
+  "name": "Horned Warrior",
   "startingStatusEffects": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 1
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Demon",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-0dc06663794dea03-2bdf15d54745dde4dbeb851405ec4342-v2"
+  "characterLoreTooltips": [
+    "Though slightly unwieldy with the recent loss of their tails, these maturing demons have grown into their horns, making them valuable soldiers of the Hellhorned and of our Rail."
   ],
-  "name": "Horned Warrior"
+  "size": 2,
+  "health": 5,
+  "attackDamage": 15
 }

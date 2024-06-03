@@ -1,20 +1,13 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 1,
-  "health": 5,
-  "attackDamage": 8,
-  "attackTeleportsToDefender": false,
+  "name": "Discipled Footsoldier Shard",
   "startingStatusEffects": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 1
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_AttackerEnemy_b7a79da2-ded9-4e26-8702-555817499f07"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Discipled Footsoldier Shard"
+  "size": 1,
+  "health": 5,
+  "attackDamage": 8,
+  "attackTeleportsToDefender": false
 }

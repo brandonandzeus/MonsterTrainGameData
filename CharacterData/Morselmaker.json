@@ -1,85 +1,87 @@
 {
-  "nameKey": "CharacterData_nameKey-e1de3643e5433e91-d77a8ade152623a4ebb75fa1579408c4-v2",
-  "size": 1,
-  "health": 15,
-  "attackDamage": 5,
-  "attackTeleportsToDefender": false,
+  "name": "Morselmaker",
   "triggers": [
     {
-      "trigger": 1,
-      "descriptionKey": "CharacterData_descriptionKey-df5d28ee837a0ecc-d77a8ade152623a4ebb75fa1579408c4-v2",
+      "description": "Summon an <b>Antumbra Morsel</b> and a <b>Magma Morsel</b>.",
       "effects": [
         {
-          "effectStateName": "CardEffectSpawnMonster",
-          "targetTeamType": 0,
-          "paramInt": 1,
-          "paramBool": true,
           "paramCharacterData": {
-            "nameKey": "CharacterData_nameKey-5a4f54cc4e0739ad-91bff760f73827642b73e6aacef9c4c8-v2",
-            "size": 1,
-            "health": 6,
+            "name": "Antumbra Morsel",
             "triggers": [
               {
-                "trigger": 23,
-                "descriptionKey": "CharacterData_descriptionKey-da87b665853af570-91bff760f73827642b73e6aacef9c4c8-v2",
+                "description": "Eater gains +[effect0.upgrade.bonushp][health].",
                 "effects": [
                   {
-                    "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                    "targetMode": 20,
-                    "targetTeamType": 3,
                     "paramCardUpgradeData": {
                       "bonusHP": 6
-                    }
+                    },
+                    "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                    "targetMode": "TargetMode.LastFeederCharacter",
+                    "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
                   }
-                ]
+                ],
+                "trigger": "CharacterTriggerData.Trigger.OnEaten"
               }
             ],
-            "subtypeKeys": [
-              "SubtypesData_Snack"
+            "subtypes": [
+              "Morsel"
             ],
-            "characterLoreTooltipKeys": [
-              "CharacterData_data-892dd5a945dcdf3e-91bff760f73827642b73e6aacef9c4c8-v2"
-            ]
+            "characterLoreTooltips": [
+              "These precursors of the souls of Hell, called Antumbra, are fragments of the Umbra Shroud. Their friendly personalities make them my constant companions anytime I travel to the Crucible."
+            ],
+            "nameKey": "CharacterData_nameKey-5a4f54cc4e0739ad-91bff760f73827642b73e6aacef9c4c8-v2",
+            "size": 1,
+            "health": 6
           },
           "paramAdditionalCharacterData": {
+            "name": "Magma Morsel",
+            "triggers": [
+              {
+                "description": "Eater gains +[effect0.upgrade.bonusdamage][attack].",
+                "effects": [
+                  {
+                    "paramCardUpgradeData": {
+                      "bonusDamage": 6
+                    },
+                    "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                    "targetMode": "TargetMode.LastFeederCharacter",
+                    "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
+                    "paramInt": 100
+                  }
+                ],
+                "trigger": "CharacterTriggerData.Trigger.OnEaten"
+              }
+            ],
+            "subtypes": [
+              "Morsel"
+            ],
+            "characterLoreTooltips": [
+              "Originally heated by the nearby Pyre, molten rock can be found throughout the Crucible. Morsels excavate it like anything else, but there was no use for it until I showed them how to use the residual energy to strengthen themselves."
+            ],
             "nameKey": "CharacterData_nameKey-3a3626fba318bd69-851b86a59ea80b64f8226ccd6bbf915a-v2",
             "size": 1,
             "health": 1,
-            "attackDamage": 6,
-            "triggers": [
-              {
-                "trigger": 23,
-                "descriptionKey": "CharacterData_descriptionKey-7edc9add64ecc086-851b86a59ea80b64f8226ccd6bbf915a-v2",
-                "effects": [
-                  {
-                    "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                    "targetMode": 20,
-                    "targetTeamType": 3,
-                    "paramInt": 100,
-                    "paramCardUpgradeData": {
-                      "bonusDamage": 6
-                    }
-                  }
-                ]
-              }
-            ],
-            "subtypeKeys": [
-              "SubtypesData_Snack"
-            ],
-            "characterLoreTooltipKeys": [
-              "CharacterData_data-0b878e2dc749ca75-851b86a59ea80b64f8226ccd6bbf915a-v2"
-            ]
-          }
+            "attackDamage": 6
+          },
+          "effectStateName": "CardEffectSpawnMonster",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 1,
+          "paramBool": true
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Forager",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Shroud",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-6c8e4662ff873893-d77a8ade152623a4ebb75fa1579408c4-v2"
+  "characterLoreTooltips": [
+    "Neither Umbra nor Antumbra, these in-between shades roam the mines as independent troublemakers, often splitting their own Morsels to undo the work done in the Crucible. I’ve been unable to decipher any sort of motive other than spite.  "
   ],
-  "name": "Morselmaker"
+  "size": 1,
+  "health": 15,
+  "attackDamage": 5,
+  "attackTeleportsToDefender": false
 }

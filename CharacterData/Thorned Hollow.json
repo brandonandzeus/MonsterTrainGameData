@@ -1,47 +1,45 @@
 {
-  "nameKey": "CharacterData_nameKey-4bebc515c220d81d-177d4572e5dbc3846bb7f3196bacf680-v2",
-  "size": 3,
-  "health": 15,
-  "attackDamage": 15,
+  "name": "Thorned Hollow",
   "triggers": [
     {
-      "trigger": 2,
-      "descriptionKey": "CharacterData_descriptionKey-fd926ba1432a7f9e-177d4572e5dbc3846bb7f3196bacf680-v2",
-      "additionalTextOnTriggerKey": "CharacterData_additionalTextOnTriggerKey-587b25553390f25a-177d4572e5dbc3846bb7f3196bacf680-v2",
+      "description": "Gain [effect0.power] max health.",
       "effects": [
         {
           "effectStateName": "CardEffectAdjustMaxHealth",
-          "targetMode": 5,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 60
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
     },
     {
-      "trigger": 7,
-      "descriptionKey": "CharacterData_descriptionKey-cfdec10f023d4cae-177d4572e5dbc3846bb7f3196bacf680-v2",
+      "description": "Gain [spikes] [effect0.status0.power].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "paramInt": 100,
           "paramStatusEffects": [
             {
-              "statusId": "spikes",
+              "statusId": "VanillaStatusEffectIDs.Spikes",
               "count": 3
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 100
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnHeal"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Golem_2d79cb56-4041-4d63-b7bf-8d2185923eda",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Hollow",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-185bf761b01738c9-177d4572e5dbc3846bb7f3196bacf680-v2"
+  "characterLoreTooltips": [
+    "There is a clearing in the Wildwood where the vines turn brittle and become covered in thorns. While impossible for me to visit, I've heard that the Hollows that root there are afflicted with a similar transformation."
   ],
-  "name": "Thorned Hollow"
+  "size": 3,
+  "health": 15,
+  "attackDamage": 15
 }

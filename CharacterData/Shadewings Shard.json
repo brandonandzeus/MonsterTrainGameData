@@ -1,40 +1,33 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 1,
-  "health": 25,
-  "attackDamage": 10,
-  "attackTeleportsToDefender": false,
+  "name": "Shadewings Shard",
   "startingStatusEffects": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 2
     }
   ],
   "triggers": [
     {
-      "trigger": 4,
-      "descriptionKey": "CharacterData_descriptionKey-19e7e61d057b02c8-e7e67f9e4e0fcac45a69b92e381642f7-v2",
+      "description": "+[effect1.power][attack] and restore [effect0.power] health.",
       "effects": [
         {
           "effectStateName": "CardEffectHeal",
-          "targetMode": 5,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 20
         },
         {
           "effectStateName": "CardEffectBuffDamage",
-          "targetMode": 5,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 5
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnKill"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_AttackerT3"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Shadewings Shard"
+  "size": 1,
+  "health": 25,
+  "attackDamage": 10,
+  "attackTeleportsToDefender": false
 }

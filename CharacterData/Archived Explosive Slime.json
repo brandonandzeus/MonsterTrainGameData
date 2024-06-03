@@ -1,24 +1,22 @@
 {
-  "nameKey": "CharacterData_nameKey-7801be6b9c0ef9f8-81a7213ab76205049ae976d4b440797f-v2",
-  "size": 1,
-  "health": 10,
-  "attackDamage": 5,
+  "name": "Archived Explosive Slime",
   "triggers": [
     {
-      "descriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
       "effects": [
         {
           "effectStateName": "CardEffectDamage",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes",
           "paramInt": 15
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
+  "subtypes": [
+    "Waxer"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived Explosive Slime"
+  "size": 1,
+  "health": 10,
+  "attackDamage": 5
 }

@@ -1,15 +1,14 @@
 {
-  "nameKey": "CharacterData_nameKey-d2f29c5d395e6b9a-5e107b798f646454b9da085e88db99ff-v2",
+  "name": "Demon Fiend",
+  "subtypes": [
+    "Demon",
+    "Chosen"
+  ],
+  "characterLoreTooltips": [
+    "These demons, rumored to be the most ancient among the Hellhorned, do not speak in any known tongue. They don't appear to understand much, either, making any sort of relationship with them tricky to establish. Thankfully, they have a natural proclivity for fighting making communication unnecessary."
+  ],
   "size": 3,
   "health": 50,
-  "deathType": 1,
-  "attackDamage": 50,
-  "subtypeKeys": [
-    "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12",
-    "SubtypesData_Chosen"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-318c6b94e5e563d9-5e107b798f646454b9da085e88db99ff-v2"
-  ],
-  "name": "Demon Fiend"
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 50
 }

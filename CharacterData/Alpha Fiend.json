@@ -1,31 +1,30 @@
 {
-  "nameKey": "CharacterData_nameKey-3136c43ce835b000-d12e27b33d6c5c848b9f4a9ff82d845e-v2",
-  "size": 3,
-  "health": 25,
-  "deathType": 1,
-  "attackDamage": 10,
+  "name": "Alpha Fiend",
   "triggers": [
     {
-      "trigger": 3,
-      "descriptionKey": "CharacterData_descriptionKey-3ae21bd4270cca36-d12e27b33d6c5c848b9f4a9ff82d845e-v2",
+      "description": "+[effect0.upgrade.bonusdamage][attack].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
-          "targetTeamType": 0,
           "paramCardUpgradeData": {
             "bonusDamage": 5
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Demon",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-1f648e65e8da3dce-d12e27b33d6c5c848b9f4a9ff82d845e-v2"
+  "characterLoreTooltips": [
+    "These ancient demons of the Hellhorned live a reclusive life on the edge of the Scorched Plains. Their isolated existence has made them even more difficult to communicate with, but they seem to understand the peril their clan is in since they’ve joined me on this dangerous journey."
   ],
-  "name": "Alpha Fiend"
+  "size": 3,
+  "health": 25,
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 10
 }

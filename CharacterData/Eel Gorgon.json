@@ -1,65 +1,64 @@
 {
-  "nameKey": "CharacterData_nameKey-1e7ef9c2862bc2a8-8fe33a976b2baa442ae9b392e40d4212-v2",
-  "size": 2,
-  "health": 3,
-  "attackDamage": 5,
-  "attackTeleportsToDefender": false,
+  "name": "Eel Gorgon",
   "triggers": [
     {
-      "trigger": 19,
-      "descriptionKey": "CharacterData_descriptionKey-f35503a0a755e1d7-8fe33a976b2baa442ae9b392e40d4212-v2",
+      "description": "Gain [multistrike] [effect0.status0.power].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "paramInt": 100,
           "paramStatusEffects": [
             {
-              "statusId": "multistrike",
+              "statusId": "VanillaStatusEffectIDs.Multistrike",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 100
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
     },
     {
-      "trigger": 1,
-      "descriptionKey": "CharacterData_descriptionKey-31ea82bf8d13322b-8fe33a976b2baa442ae9b392e40d4212-v2",
+      "description": "Remove all status effects.",
       "effects": [
         {
           "effectStateName": "CardEffectRemoveAllStatusEffects",
-          "targetMode": 5,
-          "targetTeamType": 2,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Monsters",
           "paramInt": 2
         },
         {
           "effectStateName": "CardEffectRemoveAllStatusEffects",
-          "targetMode": 5,
-          "targetTeamType": 2,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Monsters",
           "paramInt": 1
         },
         {
-          "effectStateName": "CardEffectRemoveAllStatusEffects",
-          "targetMode": 5,
-          "targetTeamType": 2,
           "additionalTooltips": [
             {
-              "descriptionKey": "StatusEffect_TooltipText",
-              "style": 0,
+              "description": "<b>Tip:</b> Status effects can be applied to units to adjust their stats and abilities in battle. Multiple stacks of a status effect increase its power and/or duration.",
+              "style": "TooltipDesigner.TooltipDesignType.Default",
               "isTipTooltip": true
             }
-          ]
+          ],
+          "effectStateName": "CardEffectRemoveAllStatusEffects",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Mage",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Mage",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-3a98d07bf6edb519-8fe33a976b2baa442ae9b392e40d4212-v2"
+  "characterLoreTooltips": [
+    "The Titan's name has been lost to time, the Titan now trapped and harmless. But the name's power has lingered within the Sea and seeped into the life of all those within it. Creatures that once listened only to the needs of their survival have now become intelligent guardians of the Ring. The Power of the Name has not faded, only found new owners. It is a cycle unlike I've seen elsewhere."
   ],
-  "name": "Eel Gorgon"
+  "size": 2,
+  "health": 3,
+  "attackDamage": 5,
+  "attackTeleportsToDefender": false
 }

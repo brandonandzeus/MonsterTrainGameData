@@ -1,13 +1,9 @@
 {
-  "nameKey": "CharacterData_nameKey-d897761dc4603c5b-1b426871a8f7327408cb38febde71abd-v2",
+  "name": "Replicator",
+  "subtypes": [
+    "Splitter"
+  ],
   "size": 1,
   "health": 1,
-  "attackDamage": 2,
-  "subtypeKeys": [
-    "SubtypesData_ReplicatorEvent"
-  ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Replicator"
+  "attackDamage": 2
 }

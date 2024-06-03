@@ -1,33 +1,31 @@
 {
-  "nameKey": "CharacterData_nameKey-624ffe77cfb13b4f-734805f581b212f4499438af70e1fae4-v2",
+  "name": "Winged Conduit",
+  "triggers": [
+    {
+      "description": "Grant [multistrike] [effect0.status0.power].",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Multistrike",
+              "count": 1
+            }
+          ],
+          "effectStateName": "CardEffectEnchant",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.AfterSpawnEnchant"
+    }
+  ],
+  "characterLoreTooltips": [
+    "Created with some natural defense to the Pyre, the Winged are by no means immune to its power. After seeing the success of the Conduit armor with the Clipped, the Winged decided to use it for their own, taking credit for what was my invention all along."
+  ],
   "pactCrystalsRequiredCount": 14,
   "pactCrystalsVariantData": "Winged Conduit Shard",
   "size": 1,
   "health": 6,
   "attackDamage": 1,
-  "attackTeleportsToDefender": false,
-  "triggers": [
-    {
-      "trigger": 16,
-      "descriptionKey": "CharacterData_descriptionKey-af5c3c094dd84509-734805f581b212f4499438af70e1fae4-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectEnchant",
-          "paramStatusEffects": [
-            {
-              "statusId": "multistrike",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_HordeT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-5ce6aaa47943b1c1-734805f581b212f4499438af70e1fae4-v2"
-  ],
-  "name": "Winged Conduit"
+  "attackTeleportsToDefender": false
 }

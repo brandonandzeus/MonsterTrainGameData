@@ -1,30 +1,27 @@
 {
-  "nameKey": "CharacterData_nameKey-c59314824cde636e-eaeada156312ac74bb73a1381159fffe-v2",
-  "size": 2,
-  "health": 12,
-  "attackDamage": 2,
+  "name": "Archived High Priest Baphomet",
   "triggers": [
     {
-      "trigger": 11,
-      "descriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
       "effects": [
         {
-          "effectStateName": "CardEffectEnchant",
           "paramStatusEffects": [
             {
-              "statusId": "spell weakness",
+              "statusId": "VanillaStatusEffectIDs.SpellWeakness",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectEnchant",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes"
         }
-      ]
+      ],
+      "trigger": "INVALID11"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
+  "subtypes": [
+    "Champion"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived High Priest Baphomet"
+  "size": 2,
+  "health": 12,
+  "attackDamage": 2
 }

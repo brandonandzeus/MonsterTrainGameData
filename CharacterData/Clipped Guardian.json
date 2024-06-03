@@ -1,15 +1,11 @@
 {
-  "nameKey": "CharacterData_nameKey-e16c9233c4d85ca7-9f5f8610cda707544a84960347936b25-v2",
+  "name": "Clipped Guardian",
+  "characterLoreTooltips": [
+    "When Heaven was first formed, anyone stripped of their wings was referred to as “Clipped.” While these Clipped may fight for the same cause as Seraph and the Winged, resentment has been ingrained in them since the dawn of time. While we share a similar sentiment towards the Traitor, they've still chosen to take up arms against us."
+  ],
   "pactCrystalsRequiredCount": 22,
   "pactCrystalsVariantData": "Clipped Guardian Shard",
   "size": 2,
   "health": 75,
-  "attackDamage": 5,
-  "subtypeKeys": [
-    "SubtypesData_HeavyT2"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-ffb5272820fb299a-9f5f8610cda707544a84960347936b25-v2"
-  ],
-  "name": "Clipped Guardian"
+  "attackDamage": 5
 }

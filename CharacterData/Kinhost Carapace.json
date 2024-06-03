@@ -1,36 +1,34 @@
 {
-  "nameKey": "CharacterData_nameKey-c08b7ef3bb7dbc2c-c92e2b2ab06bce9418a76b855e4046a1-v2",
-  "size": 1,
-  "health": 10,
-  "attackDamage": 10,
+  "name": "Kinhost Carapace",
   "triggers": [
     {
-      "trigger": 27,
-      "descriptionKey": "CharacterData_descriptionKey-f957b3875500efb1-c92e2b2ab06bce9418a76b855e4046a1-v2",
-      "hideTriggerTooltip": true,
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
-          "targetTeamType": 0,
           "paramCardUpgradeData": {
           },
           "additionalTooltips": [
             {
-              "titleKey": "HudTooltip_RoomCorruption_Title",
-              "descriptionKey": "HudTooltip_RoomCorruption_Body"
+              "title": "Charged Echoes",
+              "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnUnscaledSpawn",
+      "hideTriggerTooltip": true
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Host",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Host",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-12ae0c8d5fc21aa9-c92e2b2ab06bce9418a76b855e4046a1-v2"
+  "characterLoreTooltips": [
+    "Once impaled with Echoes, the Kinhost lose all sense of self, their will entirely determined by the will of the Echoes that now reside within it. It’s hard to imagine that a soul can be so completely eradicated. In an earlier life I may have done more to find a peaceful compromise. Now, I’d rather stay as far away from Judgement as possible."
   ],
-  "name": "Kinhost Carapace"
+  "size": 1,
+  "health": 10,
+  "attackDamage": 10
 }

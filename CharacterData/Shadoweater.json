@@ -1,30 +1,32 @@
 {
-  "nameKey": "CharacterData_nameKey-98e65039ba6b1a5b-2327020f80e424847ac8ee86603ac764-v2",
-  "size": 3,
-  "health": 50,
+  "name": "Shadoweater",
   "triggers": [
     {
-      "trigger": 22,
-      "descriptionKey": "CharacterData_descriptionKey-7d4c53bfdc365988-2327020f80e424847ac8ee86603ac764-v2",
+      "description": "Restore [effect0.power] health. Deal [effect1.power] damage to enemy units.",
       "effects": [
         {
           "effectStateName": "CardEffectHeal",
-          "targetMode": 5,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes",
           "paramInt": 10
         },
         {
           "effectStateName": "CardEffectDamage",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes",
           "paramInt": 10
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnFeed"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Forager",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Shroud",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-c02d67e83afdaf37-2327020f80e424847ac8ee86603ac764-v2"
+  "characterLoreTooltips": [
+    "A piece of the Umbra Shroud, blindly searching for morsels and metals to collect, returning them to the collective Shroud consciousness. Though when I say collect, I really mean eat them whole."
   ],
-  "name": "Shadoweater"
+  "size": 3,
+  "health": 50
 }

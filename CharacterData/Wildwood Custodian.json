@@ -1,19 +1,18 @@
 {
-  "nameKey": "CharacterData_nameKey-207d81c5f9dc835e-1a611d74a82ff864591634f920c20477-v2",
-  "size": 1,
-  "health": 2,
-  "subtypeKeys": [
-    "SubtypesData_Cultist_8a3bb2b5-8c56-4c86-bb08-85b95c488f23"
+  "name": "Wildwood Custodian",
+  "subtypes": [
+    "Channeler"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-5a48c84aeeb96307-1a611d74a82ff864591634f920c20477-v2"
+  "characterLoreTooltips": [
+    "Once a soul has been transformed and released again from the vines, they are forever bound as a caretaker to the Wildwood. From my time with them it is clear that these Channelers take pride in aiding the souls who have yet to be released."
   ],
   "roomModifiers": [
     {
+      "description": "Draw +[paramInt] each turn.",
       "roomStateModifierClassName": "RoomStateHandSizeModifier",
-      "descriptionKey": "CharacterData_descriptionKey-f49cc223b99c069f-1a611d74a82ff864591634f920c20477-v2",
       "paramInt": 1
     }
   ],
-  "name": "Wildwood Custodian"
+  "size": 1,
+  "health": 2
 }

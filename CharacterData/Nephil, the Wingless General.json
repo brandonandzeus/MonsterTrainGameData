@@ -1,12 +1,12 @@
 {
-  "nameKey": "CharacterData_nameKey-5a1e1d7e2bbc95b8-ccc9bd8e0bb27fd43a61e34f4d159b15-v2",
+  "name": "Nephil, the Wingless General",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 10
-      }
+      },
+      "crystalsCount": 5
     },
     {
       "upgradeData": {
@@ -15,47 +15,42 @@
       }
     },
     {
-      "covenantUpgrade": true,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "buff",
+            "statusId": "VanillaStatusEffectIDs.Rage",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "covenantUpgrade": true
     },
     {
-      "isRepeatable": false,
-      "crystalsCount": 80,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusSize": 1
-      }
+      },
+      "isRepeatable": false,
+      "crystalsCount": 80
     }
+  ],
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Relentless",
+      "count": 1
+    },
+    {
+      "statusId": "VanillaStatusEffectIDs.Trample",
+      "count": 1
+    }
+  ],
+  "characterLoreTooltips": [
+    "Born with no wings, Nephil rose the ranks of Seraph’s army and earned the position of his trusted advisor through her shrewd strategic prowess. What she lacks in flying ability, she more than makes up for in unmatched speed with her halberd."
   ],
   "size": 5,
   "health": 800,
   "isMiniboss": true,
-  "deathType": 1,
-  "attackDamage": 25,
-  "startingStatusEffects": [
-    {
-      "statusId": "relentless",
-      "count": 1
-    },
-    {
-      "statusId": "trample",
-      "count": 1
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BossT3_ef0103da-a050-4ebb-af3a-b3e285db5e0c",
-    "SubtypesData_Boss"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-2d118bac26d8e784-ccc9bd8e0bb27fd43a61e34f4d159b15-v2"
-  ],
-  "name": "Nephil, the Wingless General"
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 25
 }

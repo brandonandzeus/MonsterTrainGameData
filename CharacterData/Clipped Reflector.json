@@ -1,35 +1,31 @@
 {
-  "nameKey": "CharacterData_nameKey-4bbbf87c587d99fc-432fa1add4d502349855cd7f607737e6-v2",
+  "name": "Clipped Reflector",
+  "triggers": [
+    {
+      "description": "Gain [armor] [effect0.status0.power].",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Armor",
+              "count": 10
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
+          "targetCharacterSubtype": "SubtypesData_ShieldGuardT2"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
+    }
+  ],
+  "characterLoreTooltips": [
+    "This Clipped’s highly reflective armor and glass barrier provide a unique defense of concentrated, physical light. We tried to employ a similar technique in Hell, but couldn't find a suitable substitute for the rare glass they used."
+  ],
   "pactCrystalsRequiredCount": 22,
   "pactCrystalsVariantData": "Clipped Reflector Shard",
   "size": 2,
   "health": 60,
-  "attackDamage": 4,
-  "triggers": [
-    {
-      "trigger": 19,
-      "descriptionKey": "CharacterData_descriptionKey-62ecac6acbe22c1b-432fa1add4d502349855cd7f607737e6-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "targetCharacterSubtype": "SubtypesData_ShieldGuardT2",
-          "paramStatusEffects": [
-            {
-              "statusId": "armor",
-              "count": 10
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_HeavyT2"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-be0b537f1e3c68fc-432fa1add4d502349855cd7f607737e6-v2"
-  ],
-  "name": "Clipped Reflector"
+  "attackDamage": 4
 }

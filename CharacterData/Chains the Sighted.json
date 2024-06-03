@@ -1,12 +1,12 @@
 {
-  "nameKey": "CharacterData_nameKey-e3d0193382718d58-cc4f1fcce6458a7499011193a9157b64-v2",
+  "name": "Chains the Sighted",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 7,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 5
-      }
+      },
+      "crystalsCount": 7
     },
     {
       "upgradeData": {
@@ -15,63 +15,59 @@
       }
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 7,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "lifesteal",
+            "statusId": "VanillaStatusEffectIDs.Lifesteal",
             "count": 3
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 7
     },
     {
-      "isRepeatable": false,
-      "crystalsCount": 15,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusSize": 1
-      }
+      },
+      "isRepeatable": false,
+      "crystalsCount": 15
     }
   ],
-  "size": 4,
-  "health": 50,
-  "isMiniboss": true,
-  "deathType": 1,
-  "attackDamage": 4,
   "startingStatusEffects": [
     {
-      "statusId": "relentless",
+      "statusId": "VanillaStatusEffectIDs.Relentless",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 1,
-      "descriptionKey": "CharacterData_descriptionKey-3866fb9210135a73-cc4f1fcce6458a7499011193a9157b64-v2",
+      "description": "Add a <b>Weight of Contrition</b> card to the top of your draw pile.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddBattleCard",
-          "targetTeamType": 0,
-          "paramInt": 5,
           "paramCardPool": {
             "name": "JunkPoolT2",
             "cardDataList": [
               "ScourgeT2"
             ]
-          }
+          },
+          "effectStateName": "CardEffectAddBattleCard",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 5
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_BossT1_8850292e-bda8-428e-8d71-c375c29838f8",
-    "SubtypesData_Boss"
+  "characterLoreTooltips": [
+    "Most important of the Reconcilers, Chains personally imprisoned most of the Hellborne lost during Armageddon, many of them my friends. As a gift of thanks, Seraph gifted the blind man with the power to see through Light."
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-6cc89c3115a0514b-cc4f1fcce6458a7499011193a9157b64-v2"
-  ],
-  "name": "Chains the Sighted"
+  "size": 4,
+  "health": 50,
+  "isMiniboss": true,
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 4
 }

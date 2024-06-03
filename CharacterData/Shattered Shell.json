@@ -1,36 +1,35 @@
 {
-  "nameKey": "CharacterData_nameKey-9cf218ea88d1e9af-4834dd190672177429a719136c12d90d-v2",
-  "size": 2,
-  "health": 10,
-  "attackDamage": 3,
+  "name": "Shattered Shell",
   "startingStatusEffects": [
     {
-      "statusId": "hunter",
+      "statusId": "VanillaStatusEffectIDs.Sweep",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 4,
-      "descriptionKey": "CharacterData_descriptionKey-6dbcd1fc17c3082e-4834dd190672177429a719136c12d90d-v2",
+      "description": "+[effect0.upgrade.bonusdamage][attack].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
-          "targetTeamType": 0,
           "paramCardUpgradeData": {
             "bonusDamage": 3
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnKill"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Animus_c0f95969-ae86-4477-9458-57bb235d965b",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Animus",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-91e99118d072cc2c-4834dd190672177429a719136c12d90d-v2"
+  "characterLoreTooltips": [
+    "When Husk Hermits grow too large for their already restrictive shell, they keep the shattered steel pieces for offensive use. Against my wishes, the Channelers have hoarded Pyre shards to further enhance the power of these creatures."
   ],
-  "name": "Shattered Shell"
+  "size": 2,
+  "health": 10,
+  "attackDamage": 3
 }

@@ -1,75 +1,72 @@
 {
-  "nameKey": "CharacterData_nameKey-5e5aec1c3fd0df43-3546b48934febda4f9b519cc804c9eb4-v2",
+  "name": "The Last Divinity Feet",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "requiredCovenantLevel": 0,
-      "crystalsCount": 21,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "requiredCovenantLevel": 0,
+      "crystalsCount": 21
     },
     {
-      "requiredCovenantLevel": 0,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 100
-      }
+      },
+      "requiredCovenantLevel": 0
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 25,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 25
     },
     {
-      "isRepeatable": false,
-      "covenantUpgrade": true,
-      "requiredCovenantLevel": 25,
-      "crystalsCount": 99,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 1500
-      }
+      },
+      "isRepeatable": false,
+      "covenantUpgrade": true,
+      "requiredCovenantLevel": 25,
+      "crystalsCount": 99
     }
   ],
-  "size": 6,
-  "health": 2500,
-  "isOuterTrainBoss": true,
-  "validBossAttackPhase": -1,
-  "deathType": 3,
-  "ascendsTrainAutomatically": false,
-  "attackDamage": 3,
-  "attackTeleportsToDefender": false,
   "startingStatusEffects": [
     {
-      "statusId": "cleardebuff",
+      "statusId": "VanillaStatusEffectIDs.Purify",
       "count": 1
     },
     {
-      "statusId": "trample",
+      "statusId": "VanillaStatusEffectIDs.Trample",
       "count": 1
     }
-  ],
-  "statusEffectImmunities": [
-    "rooted"
-  ],
-  "subtypeKeys": [
-    "SubtypesData_FinalBoss"
   ],
   "bossActionGroups": [
     {
       "actions": [
         {
-          "actionBehaviorName": "RandomBossActionBehavior"
+          "actionBehaviorName": "RandomBossActionBehavior",
+          "paramTeamType": "Team.Type.None"
         }
       ]
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-ab22b1b146347833-3546b48934febda4f9b519cc804c9eb4-v2"
+  "characterLoreTooltips": [
+    "A Divinity still exists, one of space and time. If you are ever to threaten it, it will likely use those powers against you, never allowing you to truly reach your goal, instead repeating your struggle over and over and over. I’ve looked for a way to broker peace, I’ve studied all I can, but I’ve still yet to come up with a solution. And if history is any guide, it may be best that I am not the one to find it."
   ],
-  "name": "The Last Divinity Feet"
+  "size": 6,
+  "health": 2500,
+  "isOuterTrainBoss": true,
+  "validBossAttackPhase": "BossState.AttackPhase.Relentless",
+  "deathType": "CharacterDeathVFX.Type.NONE",
+  "ascendsTrainAutomatically": false,
+  "attackDamage": 3,
+  "attackTeleportsToDefender": false,
+  "statusEffectImmunities": [
+    "VanillaStatusEffectIDs.Rooted"
+  ]
 }

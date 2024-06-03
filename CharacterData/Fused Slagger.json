@@ -1,19 +1,15 @@
 {
-  "nameKey": "CharacterData_nameKey-7b48861dba3eb3fc-87c5c6d55f7a2a34e9538b943e1a236b-v2",
-  "size": 3,
-  "health": 6,
-  "attackDamage": 1,
+  "name": "Fused Slagger",
   "startingStatusEffects": [
     {
-      "statusId": "splash",
+      "statusId": "VanillaStatusEffectIDs.Splash",
       "count": 3
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Automaton"
+  "subtypes": [
+    "Construct"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Fused Slagger"
+  "size": 3,
+  "health": 6,
+  "attackDamage": 1
 }

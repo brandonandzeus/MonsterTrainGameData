@@ -1,33 +1,26 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 2,
-  "health": 35,
-  "attackDamage": 3,
+  "name": "Overcharged Apprentice Shard",
   "startingStatusEffects": [
     {
-      "statusId": "armor",
+      "statusId": "VanillaStatusEffectIDs.Armor",
       "count": 20
     }
   ],
   "triggers": [
     {
-      "trigger": 19,
-      "descriptionKey": "CharacterData_descriptionKey-347bb067a2974455-a3b2410ff2680074b91757e67d14be61-v2",
+      "description": "+2[attack].",
       "effects": [
         {
           "effectStateName": "CardEffectBuffDamage",
-          "targetMode": 5,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 2
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HeavyT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Overcharged Apprentice Shard"
+  "size": 2,
+  "health": 35,
+  "attackDamage": 3
 }

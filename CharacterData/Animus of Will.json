@@ -1,21 +1,20 @@
 {
-  "nameKey": "CharacterData_nameKey-d84b8a6cabf1a7ad-e213e225193344b459319e9f31b2b1f3-v2",
-  "size": 2,
-  "health": 3,
-  "attackDamage": 3,
-  "attackTeleportsToDefender": false,
+  "name": "Animus of Will",
   "startingStatusEffects": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 2
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Animus_c0f95969-ae86-4477-9458-57bb235d965b",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Animus",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-f4c9b3ccfd426440-e213e225193344b459319e9f31b2b1f3-v2"
+  "characterLoreTooltips": [
+    "These Animus have grown to see beyond their Ring. Preternaturally aware of the actions of their enemies, they can predict their movements and strike accordingly. I've learned that they are rarely created by Channelers since their gift of sight can expose them to the reality of their imprisonment."
   ],
-  "name": "Animus of Will"
+  "size": 2,
+  "health": 3,
+  "attackDamage": 3,
+  "attackTeleportsToDefender": false
 }

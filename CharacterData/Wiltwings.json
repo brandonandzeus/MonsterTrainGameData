@@ -1,29 +1,26 @@
 {
-  "nameKey": "CharacterData_nameKey-0bb513123f9803d1-9100997906fa49f4e80b8bfbe0c73fa1-v2",
+  "name": "Wiltwings",
+  "triggers": [
+    {
+      "description": "Deal [effect0.power] damage to your front unit.",
+      "effects": [
+        {
+          "effectStateName": "CardEffectDamage",
+          "targetMode": "TargetMode.FrontInRoom",
+          "targetTeamType": "Team.Type.Monsters",
+          "paramInt": 5
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
+    }
+  ],
+  "characterLoreTooltips": [
+    "Many lowly Winged have become weak and frail, a direct result of the overcrowded living situation I hoped the Covenant could help to improve. Sadly, this has caused their wings to wilt, no longer strong enough to lift them off the ground."
+  ],
   "pactCrystalsRequiredCount": 12,
   "pactCrystalsVariantData": "Wiltwings Shard",
   "size": 1,
   "health": 3,
   "attackDamage": 5,
-  "attackTeleportsToDefender": false,
-  "triggers": [
-    {
-      "descriptionKey": "CharacterData_descriptionKey-884a85469759de10-9100997906fa49f4e80b8bfbe0c73fa1-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectDamage",
-          "targetMode": 2,
-          "targetTeamType": 2,
-          "paramInt": 5
-        }
-      ]
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_HordeT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-54e9d427e1bb6636-9100997906fa49f4e80b8bfbe0c73fa1-v2"
-  ],
-  "name": "Wiltwings"
+  "attackTeleportsToDefender": false
 }

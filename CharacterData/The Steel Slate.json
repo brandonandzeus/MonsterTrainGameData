@@ -1,68 +1,63 @@
 {
-  "nameKey": "CharacterData_nameKey-d648cb6a1f08ea1c-b203fe2170f931e4e8c63ddda9249774-v2",
+  "name": "The Steel Slate",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "armor",
+            "statusId": "VanillaStatusEffectIDs.Armor",
             "count": 5
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 35,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 35
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 20,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "spikes",
+            "statusId": "VanillaStatusEffectIDs.Spikes",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 20
     },
     {
-      "isRepeatable": false,
-      "crystalsCount": 30,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusSize": 1
-      }
+      },
+      "isRepeatable": false,
+      "crystalsCount": 30
     }
+  ],
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Relentless",
+      "count": 1
+    },
+    {
+      "statusId": "VanillaStatusEffectIDs.Spikes",
+      "count": 2
+    }
+  ],
+  "characterLoreTooltips": [
+    "To further improve the shield he bears, the Slate melts down and reforges it after every battle using whatever metal remains of the fallen. Once his shield shuts in protection, it's almost impossible to open again. Almost."
   ],
   "size": 5,
   "health": 120,
   "isMiniboss": true,
-  "deathType": 1,
-  "attackDamage": 3,
-  "startingStatusEffects": [
-    {
-      "statusId": "relentless",
-      "count": 1
-    },
-    {
-      "statusId": "spikes",
-      "count": 2
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BossT1_8850292e-bda8-428e-8d71-c375c29838f8",
-    "SubtypesData_Boss"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-a4423da1b433247d-b203fe2170f931e4e8c63ddda9249774-v2"
-  ],
-  "name": "The Steel Slate"
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 3
 }

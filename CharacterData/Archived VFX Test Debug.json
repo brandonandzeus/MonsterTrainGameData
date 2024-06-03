@@ -1,35 +1,31 @@
 {
-  "nameKey": "CharacterData_nameKey-b1d18fe7d56f3761-fbc2d1eeb4bae584e90c0506f6a60103-v2",
-  "size": 2,
-  "health": 99,
-  "attackDamage": 1,
+  "name": "Archived VFX Test Debug",
   "startingStatusEffects": [
     {
-      "statusId": "spikes",
+      "statusId": "VanillaStatusEffectIDs.Spikes",
       "count": 1
     },
     {
-      "statusId": "dazed",
+      "statusId": "VanillaStatusEffectIDs.Dazed",
       "count": 1
     },
     {
-      "statusId": "regen",
+      "statusId": "VanillaStatusEffectIDs.Regen",
       "count": 2
     },
     {
-      "statusId": "rooted",
+      "statusId": "VanillaStatusEffectIDs.Rooted",
       "count": 3
     },
     {
-      "statusId": "buff",
+      "statusId": "VanillaStatusEffectIDs.Rage",
       "count": 4
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12"
+  "subtypes": [
+    "Demon"
   ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Archived VFX Test Debug"
+  "size": 2,
+  "health": 99,
+  "attackDamage": 1
 }

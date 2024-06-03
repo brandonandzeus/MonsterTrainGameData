@@ -1,38 +1,34 @@
 {
-  "nameKey": "CharacterData_nameKey-a7e2055f3f2b09e5-b19f82feb13dc7543a9d66e592c59dd4-v2",
-  "size": 3,
-  "health": 15,
-  "attackDamage": 10,
+  "name": "Smoke and Mirrors",
   "startingStatusEffects": [
     {
-      "statusId": "inert",
+      "statusId": "VanillaStatusEffectIDs.Inert",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 2,
-      "descriptionKey": "CharacterData_descriptionKey-dc5ca2173696bffc-b19f82feb13dc7543a9d66e592c59dd4-v2",
+      "description": "Apply [spark] [effect0.status0.power].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 3,
           "paramStatusEffects": [
             {
-              "statusId": "spark",
+              "statusId": "VanillaStatusEffectIDs.Fuel",
               "count": 3
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Defunct"
+  "subtypes": [
+    "Defunct"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Smoke and Mirrors"
+  "size": 3,
+  "health": 15,
+  "attackDamage": 10
 }

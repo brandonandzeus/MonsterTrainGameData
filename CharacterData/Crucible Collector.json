@@ -1,33 +1,32 @@
 {
-  "nameKey": "CharacterData_nameKey-0f1ef7f5d2873816-c0959083bc36955498e139131d33a354-v2",
-  "size": 2,
-  "health": 20,
-  "attackDamage": 20,
+  "name": "Crucible Collector",
   "triggers": [
     {
-      "trigger": 22,
-      "descriptionKey": "CharacterData_descriptionKey-fe5bba31130c8984-c0959083bc36955498e139131d33a354-v2",
+      "description": "Gain [lifesteal] [effect0.status0.power].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
           "paramStatusEffects": [
             {
-              "statusId": "lifesteal",
+              "statusId": "VanillaStatusEffectIDs.Lifesteal",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnFeed"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Forager",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Shroud",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-8e300a59c048d5bb-c0959083bc36955498e139131d33a354-v2"
+  "characterLoreTooltips": [
+    "These former Wardens have left their post as an overseer of Morsel workers to become a collector of all variety of gems. They’ve found that ingesting the metals of the Crucible gives them strength they’ve never known otherwise. The rest of the Umbra Shroud, however, does not seem to appreciate their newfound independence as much as I do."
   ],
-  "name": "Crucible Collector"
+  "size": 2,
+  "health": 20,
+  "attackDamage": 20
 }

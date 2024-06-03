@@ -1,33 +1,29 @@
 {
-  "nameKey": "CharacterData_nameKey-daa5f7add7e4789e-c756ebbc28dbb214e90415b29dc1cb9e-v2",
+  "name": "Last Shard of the Pyre",
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Relentless",
+      "count": 1
+    },
+    {
+      "statusId": "VanillaStatusEffectIDs.Sweep",
+      "count": 1
+    },
+    {
+      "statusId": "VanillaStatusEffectIDs.Immobile",
+      "count": 1
+    },
+    {
+      "statusId": "VanillaStatusEffectIDs.Immunity",
+      "count": 1
+    }
+  ],
+  "characterLoreTooltips": [
+    "When the Pyre was extinguished, I was able to rescue one shard still burning. Now housed in the Boneshaker, it powers our train and is our last hope to reignite the flames of Hell and restore some semblance of peace across the Rings."
+  ],
   "size": 2,
   "health": 1,
   "canBeHealed": false,
   "attackDamage": 1,
-  "attackTeleportsToDefender": false,
-  "startingStatusEffects": [
-    {
-      "statusId": "relentless",
-      "count": 1
-    },
-    {
-      "statusId": "hunter",
-      "count": 1
-    },
-    {
-      "statusId": "immobile",
-      "count": 1
-    },
-    {
-      "statusId": "immune",
-      "count": 1
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_Pyre"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-254007ca9b7d843a-c756ebbc28dbb214e90415b29dc1cb9e-v2"
-  ],
-  "name": "Last Shard of the Pyre"
+  "attackTeleportsToDefender": false
 }

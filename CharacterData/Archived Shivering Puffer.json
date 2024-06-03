@@ -1,28 +1,23 @@
 {
-  "nameKey": "CharacterData_nameKey-379252db818c70eb-672d3d2be9640dd44831620687ff77e9-v2",
-  "size": 2,
-  "health": 10,
+  "name": "Archived Shivering Puffer",
   "triggers": [
     {
-      "trigger": 15,
-      "descriptionKey": "CharacterData_descriptionKey-f05da96e055cf2d4-672d3d2be9640dd44831620687ff77e9-v2",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 17,
-          "targetTeamType": 3,
           "paramStatusEffects": [
             {
-              "statusId": "poison",
+              "statusId": "VanillaStatusEffectIDs.Frostbite",
               "count": 2
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.LastAttackerCharacter",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnHit"
     }
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived Shivering Puffer"
+  "size": 2,
+  "health": 10
 }

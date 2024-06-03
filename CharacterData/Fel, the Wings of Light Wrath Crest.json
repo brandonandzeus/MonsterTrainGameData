@@ -1,48 +1,45 @@
 {
-  "nameKey": "CharacterData_nameKey-41bdfbfc479afdca-7bb9f5e41f1f9ea4f85b1d81e743ab15-v2",
+  "name": "Fel, the Wings of Light Wrath Crest",
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
+      "count": 1
+    }
+  ],
+  "bossActionGroups": [
+    {
+      "actions": [
+        {
+          "actionEffects": [
+            {
+              "paramStatusEffects": [
+                {
+                  "statusId": "VanillaStatusEffectIDs.Rage",
+                  "count": 3
+                }
+              ],
+              "effectStateName": "CardEffectAddStatusEffect",
+              "targetMode": "TargetMode.Room",
+              "targetIgnoreBosses": true,
+              "targetTeamType": "Team.Type.Heroes",
+              "paramInt": 100
+            }
+          ],
+          "actionBehaviorName": "RandomOccupiedBossActionBehavior",
+          "paramTeamType": "Team.Type.Heroes"
+        }
+      ],
+      "numRepeats": 2
+    }
+  ],
+  "characterLoreTooltips": [
+    "Once my closest ally, this Clipped legend has been able to create new wings out of the Light that Heaven uses. I admire her ingenuity, but I'll never be able to forgive her for abandoning the two of us."
+  ],
   "size": 6,
   "health": 700,
   "isOuterTrainBoss": true,
   "attackDamage": 9,
-  "startingStatusEffects": [
-    {
-      "statusId": "multistrike",
-      "count": 1
-    }
-  ],
   "statusEffectImmunities": [
-    "rooted"
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BigBoss2_e3e6f1a2-34a7-4493-b9d7-a123e182241e"
-  ],
-  "bossActionGroups": [
-    {
-      "numRepeats": 2,
-      "actions": [
-        {
-          "actionBehaviorName": "RandomOccupiedBossActionBehavior",
-          "tooltipOverrideKey": "CharacterData__tooltipOverrideKey-4c3061c447089b6e-7bb9f5e41f1f9ea4f85b1d81e743ab15-v2",
-          "actionEffects": [
-            {
-              "effectStateName": "CardEffectAddStatusEffect",
-              "targetIgnoreBosses": true,
-              "paramInt": 100,
-              "paramStatusEffects": [
-                {
-                  "statusId": "buff",
-                  "count": 3
-                }
-              ]
-            }
-          ],
-          "paramTeamType": 1
-        }
-      ]
-    }
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-8a1057734ff71bfb-7bb9f5e41f1f9ea4f85b1d81e743ab15-v2"
-  ],
-  "name": "Fel, the Wings of Light Wrath Crest"
+    "VanillaStatusEffectIDs.Rooted"
+  ]
 }

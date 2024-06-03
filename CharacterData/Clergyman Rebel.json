@@ -1,37 +1,39 @@
 {
-  "nameKey": "CharacterData_nameKey-7a214acd4b2dcd89-93149c15e84d7024e8af7c09f52f9497-v2",
-  "size": 1,
-  "health": 5,
-  "attackDamage": 3,
-  "attackTeleportsToDefender": false,
+  "name": "Clergyman Rebel",
   "startingStatusEffects": [
     {
-      "statusId": "buff",
+      "statusId": "VanillaStatusEffectIDs.Rage",
       "count": 2
     },
     {
-      "statusId": "cardless",
+      "statusId": "VanillaStatusEffectIDs.Cardless",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "descriptionKey": "CharacterData_descriptionKey-2c493788b8aca80e-93149c15e84d7024e8af7c09f52f9497-v2",
+      "description": "Enemy units gain [meleeweakness] 1.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
           "paramStatusEffects": [
             {
-              "statusId": "melee weakness",
+              "statusId": "VanillaStatusEffectIDs.MeleeWeakness",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-a6e504ec2fa8e9bc-93149c15e84d7024e8af7c09f52f9497-v2"
+  "characterLoreTooltips": [
+    "Disciple in training. They’ve heeded the call to invade our lands, and now they support Seraph and his Disciples through aggressive prayer."
   ],
-  "name": "Clergyman Rebel"
+  "size": 1,
+  "health": 5,
+  "attackDamage": 3,
+  "attackTeleportsToDefender": false
 }

@@ -1,33 +1,31 @@
 {
-  "nameKey": "CharacterData_nameKey-b8504eae1880b9ce-d6fd6eba624e4924ab30230f90f02a1d-v2",
-  "size": 1,
-  "health": 10,
-  "attackDamage": 40,
-  "attackTeleportsToDefender": false,
+  "name": "Sycophant Rebel",
   "startingStatusEffects": [
     {
-      "statusId": "ambush",
+      "statusId": "VanillaStatusEffectIDs.Quick",
       "count": 1
     },
     {
-      "statusId": "cardless",
+      "statusId": "VanillaStatusEffectIDs.Cardless",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "descriptionKey": "CharacterData_descriptionKey-4c39f1a0c606f3da-d6fd6eba624e4924ab30230f90f02a1d-v2",
+      "description": "Friendly units gain +[effect0.power][attack].",
       "effects": [
         {
           "effectStateName": "CardEffectBuffDamage",
-          "targetTeamType": 2,
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Monsters",
           "paramInt": 5
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-4a8b898cf8e44fc4-d6fd6eba624e4924ab30230f90f02a1d-v2"
-  ],
-  "name": "Sycophant Rebel"
+  "size": 1,
+  "health": 10,
+  "attackDamage": 40,
+  "attackTeleportsToDefender": false
 }

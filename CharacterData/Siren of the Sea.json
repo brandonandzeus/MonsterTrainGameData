@@ -1,32 +1,31 @@
 {
-  "nameKey": "CharacterData_nameKey-9cf9513f783e1cf4-aaf6ff6dc9da03a48985f18b3310db9e-v2",
-  "size": 2,
-  "health": 10,
-  "attackDamage": 5,
+  "name": "Siren of the Sea",
   "triggers": [
     {
-      "trigger": 19,
-      "descriptionKey": "CharacterData_descriptionKey-94a29c4b145a9693-aaf6ff6dc9da03a48985f18b3310db9e-v2",
+      "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "paramInt": 1,
           "paramCardUpgradeData": {
             "bonusDamage": 2,
             "bonusHP": 2
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Siren_727cf19f-3b27-4ad2-92ab-3552449e52da",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Siren",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-abadaf38ec0fef37-aaf6ff6dc9da03a48985f18b3310db9e-v2"
+  "characterLoreTooltips": [
+    "While most of the Stygian Guard is magic focused, these Sirens form a melee contingent of the clan. I've still helped them to enchant their blades to reap the benefits of the Titan's power."
   ],
-  "name": "Siren of the Sea"
+  "size": 2,
+  "health": 10,
+  "attackDamage": 5
 }

@@ -1,41 +1,35 @@
 {
-  "nameKey": "CharacterData_nameKey-3b812e960768b221-19ff4ef619e80b943bced80212f8c5de-v2",
-  "size": 1,
-  "health": 10,
-  "deathSlidesBackwards": false,
+  "name": "Archived Reformed Servant",
   "triggers": [
     {
-      "descriptionKey": "CharacterData_descriptionKey-856383afb2f1a40f-19ff4ef619e80b943bced80212f8c5de-v2",
       "effects": [
         {
-          "effectStateName": "CardEffectRecursion",
-          "targetMode": 15,
-          "targetTeamType": 0,
-          "targetCardType": 1,
-          "targetCardSelectionMode": 1,
-          "paramInt": 2,
           "paramCardUpgradeData": {
-            "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-f05d56acd65c0682-341b8d96f6526364c8b6abd34089ac9e-v2",
-            "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-3fd316fe18de4b5b-341b8d96f6526364c8b6abd34089ac9e-v2",
-            "bonusDamage": 5,
-            "bonusHP": 5,
-            "costReduction": 99,
             "statusEffectUpgrades": [
               {
-                "statusId": "ephemeral",
+                "statusId": "VanillaStatusEffectIDs.Burnout",
                 "count": 1
               }
-            ]
-          }
+            ],
+            "bonusDamage": 5,
+            "bonusHP": 5,
+            "costReduction": 99
+          },
+          "effectStateName": "CardEffectRecursion",
+          "targetMode": "TargetMode.Exhaust",
+          "targetTeamType": "Team.Type.None",
+          "targetCardType": "CardType.Monster",
+          "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
+          "paramInt": 2
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Tomb"
+  "subtypes": [
+    "Tomb"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-8c0ae9197db600bd-19ff4ef619e80b943bced80212f8c5de-v2"
-  ],
-  "name": "Archived Reformed Servant"
+  "size": 1,
+  "health": 10,
+  "deathSlidesBackwards": false
 }

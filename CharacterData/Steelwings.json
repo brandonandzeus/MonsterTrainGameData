@@ -1,21 +1,17 @@
 {
-  "nameKey": "CharacterData_nameKey-6b88892b747d1b29-b308bfdfc82f7c646ac1cf3972999b12-v2",
+  "name": "Steelwings",
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Armor",
+      "count": 100
+    }
+  ],
+  "characterLoreTooltips": [
+    "Their focus on defense has caused them to evolve into smaller beings with oversized wings, making them perfect shields for the rest of Seraph’s army. We've found brute force to be the best way past them."
+  ],
   "pactCrystalsRequiredCount": 16,
   "pactCrystalsVariantData": "Steelwings Shard",
   "size": 3,
   "health": 15,
-  "deathType": 1,
-  "startingStatusEffects": [
-    {
-      "statusId": "armor",
-      "count": 100
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_ShieldGuardT3"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-17d88e05ae67ff69-b308bfdfc82f7c646ac1cf3972999b12-v2"
-  ],
-  "name": "Steelwings"
+  "deathType": "CharacterDeathVFX.Type.Large"
 }

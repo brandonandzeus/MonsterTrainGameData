@@ -1,41 +1,36 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 1,
-  "health": 20,
-  "attackDamage": 5,
-  "attackTeleportsToDefender": false,
+  "name": "Winged Conduit Shard",
   "startingStatusEffects": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 1
     },
     {
-      "statusId": "stealth",
+      "statusId": "VanillaStatusEffectIDs.Stealth",
       "count": 2
     }
   ],
   "triggers": [
     {
-      "trigger": 16,
-      "descriptionKey": "CharacterData_descriptionKey-29f8bb4c6ebf9c0a-626e922b3e0a1f444a80bea6007b495a-v2",
+      "description": "Grant [multistrike] [effect0.status0.power].",
       "effects": [
         {
-          "effectStateName": "CardEffectEnchant",
           "paramStatusEffects": [
             {
-              "statusId": "multistrike",
+              "statusId": "VanillaStatusEffectIDs.Multistrike",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectEnchant",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.AfterSpawnEnchant"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HordeT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Winged Conduit Shard"
+  "size": 1,
+  "health": 20,
+  "attackDamage": 5,
+  "attackTeleportsToDefender": false
 }

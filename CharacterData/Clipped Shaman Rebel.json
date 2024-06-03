@@ -1,31 +1,32 @@
 {
-  "nameKey": "CharacterData_nameKey-511d4d189a8fbecb-bb64dd137c2c819468a3a22efce6717e-v2",
-  "size": 1,
-  "health": 20,
+  "name": "Clipped Shaman Rebel",
   "startingStatusEffects": [
     {
-      "statusId": "damage shield",
+      "statusId": "VanillaStatusEffectIDs.DamageShield",
       "count": 1
     },
     {
-      "statusId": "cardless",
+      "statusId": "VanillaStatusEffectIDs.Cardless",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "descriptionKey": "CharacterData_descriptionKey-fd83c12185017e9f-bb64dd137c2c819468a3a22efce6717e-v2",
+      "description": "Restore friendly units to full health.",
       "effects": [
         {
           "effectStateName": "CardEffectHeal",
-          "targetTeamType": 2,
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Monsters",
           "paramInt": 9999
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-a50aa29c037737fc-bb64dd137c2c819468a3a22efce6717e-v2"
+  "characterLoreTooltips": [
+    "These Clipped ensure that no feather is left discarded. Creating their garments from the various clippings they find, they use them to heal their fellow wingless. "
   ],
-  "name": "Clipped Shaman Rebel"
+  "size": 1,
+  "health": 20
 }

@@ -1,31 +1,30 @@
 {
-  "nameKey": "CharacterData_nameKey-72ebf807e75ef088-1871d5d88e32047478c0e3c189257e5e-v2",
+  "name": "First of Kin",
+  "triggers": [
+    {
+      "description": "+5[attack].",
+      "effects": [
+        {
+          "paramCardUpgradeData": {
+            "bonusDamage": 5
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Monsters"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardExhausted"
+    }
+  ],
+  "subtypes": [
+    "Kin",
+    "Chosen"
+  ],
+  "characterLoreTooltips": [
+    "Stoneform refers to these Kin as the first intelligent Wurmkin to spawn from the remains of the Titan. They were doomed to turn into Echoes themselves after they eradicated the Kinhost for control of the Ring. Most knowledge of the mechanics of Echoes was lost in the transition. Though there is a sort of justice in the punishment of conquerors."
+  ],
   "size": 3,
   "health": 55,
   "attackDamage": 30,
-  "attackTeleportsToDefender": false,
-  "triggers": [
-    {
-      "trigger": 35,
-      "descriptionKey": "CharacterData_descriptionKey-a18ba4f58ca11b43-1871d5d88e32047478c0e3c189257e5e-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
-          "targetTeamType": 2,
-          "paramCardUpgradeData": {
-            "bonusDamage": 5
-          }
-        }
-      ]
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_Wurm",
-    "SubtypesData_Chosen"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-aec85294695a48e5-1871d5d88e32047478c0e3c189257e5e-v2"
-  ],
-  "name": "First of Kin"
+  "attackTeleportsToDefender": false
 }

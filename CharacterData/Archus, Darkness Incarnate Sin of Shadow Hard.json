@@ -1,181 +1,185 @@
 {
-  "nameKey": "CharacterData_nameKey-5f875ca650bd3a25-0928a2d5f64fb0c42a803b9f56adf7f3-v2",
+  "name": "Archus, Darkness Incarnate Sin of Shadow Hard",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 10
-      }
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 15,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "stealth",
+            "statusId": "VanillaStatusEffectIDs.Stealth",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "crystalsCount": 15
     },
     {
-      "crystalsCount": 20,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1,
         "bonusHP": 5
-      }
+      },
+      "crystalsCount": 20
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 20,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1,
         "bonusHP": 30
-      }
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 20
     }
+  ],
+  "bossActionGroups": [
+    {
+      "actions": [
+        {
+          "actionEffects": [
+            {
+              "paramCharacterData": {
+                "name": "Blinding Darkshard",
+                "startingStatusEffects": [
+                  {
+                    "statusId": "VanillaStatusEffectIDs.Phased",
+                    "count": 1
+                  }
+                ],
+                "triggers": [
+                  {
+                    "description": "Apply [dazed] [effect0.status0.power] to your units.",
+                    "effects": [
+                      {
+                        "paramStatusEffects": [
+                          {
+                            "statusId": "VanillaStatusEffectIDs.Dazed",
+                            "count": 1
+                          }
+                        ],
+                        "effectStateName": "CardEffectAddStatusEffect",
+                        "targetMode": "TargetMode.Room",
+                        "targetTeamType": "Team.Type.Monsters"
+                      }
+                    ],
+                    "trigger": "CharacterTriggerData.Trigger.CardMonsterPlayed"
+                  },
+                  {
+                    "description": "Despawn.",
+                    "additionalTextOnTrigger": "Despawned!",
+                    "effects": [
+                      {
+                        "paramStatusEffects": [
+                          {
+                            "statusId": "VanillaStatusEffectIDs.Dazed",
+                            "count": 1
+                          }
+                        ],
+                        "effectStateName": "CardEffectDespawnCharacter",
+                        "targetMode": "TargetMode.Self",
+                        "targetTeamType": "Team.Type.Monsters"
+                      }
+                    ],
+                    "trigger": "CharacterTriggerData.Trigger.PostCombat"
+                  }
+                ],
+                "characterLoreTooltips": [
+                  "The Wurmkin speak in hushed tones of the Child’s Darkness trapped within these Shardsouls. The remains of a Divine Titan split into Light and Dark. If these shards are the result of that darkness, perhaps Seraph’s Light comes from the same source."
+                ],
+                "nameKey": "CharacterData_nameKey-0d4f6e1a22a4b616-0b55550bc0133814f8ed2726eeb718d8-v2",
+                "size": 1,
+                "health": 1,
+                "canBeHealed": false,
+                "canAttack": false,
+                "ascendsTrainAutomatically": false
+              },
+              "effectStateName": "CardEffectSpawnHero",
+              "targetMode": "TargetMode.Room",
+              "targetTeamType": "Team.Type.None"
+            }
+          ],
+          "actionBehaviorName": "RandomBossActionBehavior",
+          "paramTeamType": "Team.Type.None"
+        },
+        {
+          "actionEffects": [
+            {
+              "paramCharacterData": {
+                "name": "Shattering Darkshard",
+                "startingStatusEffects": [
+                  {
+                    "statusId": "VanillaStatusEffectIDs.Phased",
+                    "count": 1
+                  }
+                ],
+                "triggers": [
+                  {
+                    "description": "Add a <b>Weight of Contrition</b> card to the top of your draw pile.",
+                    "effects": [
+                      {
+                        "paramCardPool": {
+                          "name": "JunkPoolT2",
+                          "cardDataList": [
+                            "ScourgeT2"
+                          ]
+                        },
+                        "effectStateName": "CardEffectAddBattleCard",
+                        "targetMode": "TargetMode.Room",
+                        "targetTeamType": "Team.Type.Monsters",
+                        "paramInt": 5
+                      }
+                    ],
+                    "trigger": "CharacterTriggerData.Trigger.OnAnyMonsterDeathOnFloor"
+                  },
+                  {
+                    "description": "Despawn.",
+                    "additionalTextOnTrigger": "Despawned!",
+                    "effects": [
+                      {
+                        "effectStateName": "CardEffectDespawnCharacter",
+                        "targetMode": "TargetMode.Self",
+                        "targetTeamType": "Team.Type.Monsters",
+                        "paramInt": 1
+                      }
+                    ],
+                    "trigger": "CharacterTriggerData.Trigger.PostCombat"
+                  }
+                ],
+                "characterLoreTooltips": [
+                  "The Wurmkin speak in hushed tones of the Child’s Darkness trapped within these Shardsouls. The remains of a Divine Titan split into Light and Dark. If these shards are the result of that darkness, perhaps Seraph’s Light comes from the same source."
+                ],
+                "nameKey": "CharacterData_nameKey-595434482a512b26-bd1537d8334505242b4cc80d1b6a9469-v2",
+                "size": 1,
+                "health": 1,
+                "canBeHealed": false,
+                "canAttack": false,
+                "ascendsTrainAutomatically": false
+              },
+              "effectStateName": "CardEffectSpawnHero",
+              "targetMode": "TargetMode.Room",
+              "targetTeamType": "Team.Type.None"
+            }
+          ],
+          "actionBehaviorName": "RandomBossActionBehavior",
+          "paramTeamType": "Team.Type.None"
+        }
+      ]
+    }
+  ],
+  "characterLoreTooltips": [
+    "Fel spoke of another sibling only once, saying he was both dark of wing and of mind. Seraph has also alluded to the imprisonment of their “forsaken brother,” but my memory fails to provide more details on the mysterious Archus."
   ],
   "size": 6,
   "health": 1600,
   "isOuterTrainBoss": true,
   "attackDamage": 25,
   "statusEffectImmunities": [
-    "rooted"
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BigBoss2_e3e6f1a2-34a7-4493-b9d7-a123e182241e"
-  ],
-  "bossActionGroups": [
-    {
-      "actions": [
-        {
-          "actionBehaviorName": "RandomBossActionBehavior",
-          "actionEffects": [
-            {
-              "effectStateName": "CardEffectSpawnHero",
-              "targetTeamType": 0,
-              "paramCharacterData": {
-                "nameKey": "CharacterData_nameKey-0d4f6e1a22a4b616-0b55550bc0133814f8ed2726eeb718d8-v2",
-                "size": 1,
-                "health": 1,
-                "canBeHealed": false,
-                "canAttack": false,
-                "ascendsTrainAutomatically": false,
-                "startingStatusEffects": [
-                  {
-                    "statusId": "untouchable",
-                    "count": 1
-                  }
-                ],
-                "triggers": [
-                  {
-                    "trigger": 20,
-                    "descriptionKey": "CharacterData_descriptionKey-935f665591b8508e-0b55550bc0133814f8ed2726eeb718d8-v2",
-                    "effects": [
-                      {
-                        "effectStateName": "CardEffectAddStatusEffect",
-                        "targetTeamType": 2,
-                        "paramStatusEffects": [
-                          {
-                            "statusId": "dazed",
-                            "count": 1
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "trigger": 1,
-                    "descriptionKey": "CharacterData_descriptionKey-76123bcd2b365300-0b55550bc0133814f8ed2726eeb718d8-v2",
-                    "additionalTextOnTriggerKey": "CharacterData_additionalTextOnTriggerKey-eb45bd01c8a6092a-0b55550bc0133814f8ed2726eeb718d8-v2",
-                    "effects": [
-                      {
-                        "effectStateName": "CardEffectDespawnCharacter",
-                        "targetMode": 5,
-                        "targetTeamType": 2,
-                        "paramStatusEffects": [
-                          {
-                            "statusId": "dazed",
-                            "count": 1
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "characterLoreTooltipKeys": [
-                  "CharacterData_data-ce798c29e8cd3919-0b55550bc0133814f8ed2726eeb718d8-v2"
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "actionBehaviorName": "RandomBossActionBehavior",
-          "actionEffects": [
-            {
-              "effectStateName": "CardEffectSpawnHero",
-              "targetTeamType": 0,
-              "paramCharacterData": {
-                "nameKey": "CharacterData_nameKey-595434482a512b26-bd1537d8334505242b4cc80d1b6a9469-v2",
-                "size": 1,
-                "health": 1,
-                "canBeHealed": false,
-                "canAttack": false,
-                "ascendsTrainAutomatically": false,
-                "startingStatusEffects": [
-                  {
-                    "statusId": "untouchable",
-                    "count": 1
-                  }
-                ],
-                "triggers": [
-                  {
-                    "trigger": 6,
-                    "descriptionKey": "CharacterData_descriptionKey-16f320acb98b30f0-bd1537d8334505242b4cc80d1b6a9469-v2",
-                    "effects": [
-                      {
-                        "effectStateName": "CardEffectAddBattleCard",
-                        "targetTeamType": 2,
-                        "paramInt": 5,
-                        "paramCardPool": {
-                          "name": "JunkPoolT2",
-                          "cardDataList": [
-                            "ScourgeT2"
-                          ]
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "trigger": 1,
-                    "descriptionKey": "CharacterData_descriptionKey-f090f3181df66257-bd1537d8334505242b4cc80d1b6a9469-v2",
-                    "additionalTextOnTriggerKey": "CharacterData_additionalTextOnTriggerKey-27d2e71021145174-bd1537d8334505242b4cc80d1b6a9469-v2",
-                    "effects": [
-                      {
-                        "effectStateName": "CardEffectDespawnCharacter",
-                        "targetMode": 5,
-                        "targetTeamType": 2,
-                        "paramInt": 1
-                      }
-                    ]
-                  }
-                ],
-                "characterLoreTooltipKeys": [
-                  "CharacterData_data-b25dd647bdb0de20-bd1537d8334505242b4cc80d1b6a9469-v2"
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-fb73faa23ae7d6b1-0928a2d5f64fb0c42a803b9f56adf7f3-v2"
-  ],
-  "name": "Archus, Darkness Incarnate Sin of Shadow Hard"
+    "VanillaStatusEffectIDs.Rooted"
+  ]
 }

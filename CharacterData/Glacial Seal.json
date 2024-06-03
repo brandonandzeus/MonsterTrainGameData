@@ -1,31 +1,32 @@
 {
-  "nameKey": "CharacterData_nameKey-c3287ae9aa6cb9f6-fe204451b4721c445870b04950df0056-v2",
-  "size": 1,
-  "health": 1,
-  "deathSlidesBackwards": false,
+  "name": "Glacial Seal",
   "triggers": [
     {
-      "trigger": 19,
-      "descriptionKey": "CharacterData_descriptionKey-3dcba55fd60eeb1f-fe204451b4721c445870b04950df0056-v2",
+      "description": "Apply [frostbite] [effect0.status0.power] to enemy units.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "animToPlay": 2,
           "paramStatusEffects": [
             {
-              "statusId": "poison",
+              "statusId": "VanillaStatusEffectIDs.Frostbite",
               "count": 2
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes",
+          "animToPlay": "CharacterUI.Anim.Attack"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Totem_7c4e7151-d042-49e2-9700-29e7c760b691"
+  "subtypes": [
+    "Totem"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-1623cefadd80e788-fe204451b4721c445870b04950df0056-v2"
+  "characterLoreTooltips": [
+    "Enchanted granite pegs were used in the sealing of the Titan’s tomb. When the Sea froze, ice formed around each bolt, prying it loose to drift through the open water."
   ],
-  "name": "Glacial Seal"
+  "size": 1,
+  "health": 1,
+  "deathSlidesBackwards": false
 }

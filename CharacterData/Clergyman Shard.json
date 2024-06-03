@@ -1,24 +1,17 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 1,
-  "health": 5,
-  "attackDamage": 3,
-  "attackTeleportsToDefender": false,
+  "name": "Clergyman Shard",
   "startingStatusEffects": [
     {
-      "statusId": "buff",
+      "statusId": "VanillaStatusEffectIDs.Rage",
       "count": 2
     },
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 1
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HordeT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Clergyman Shard"
+  "size": 1,
+  "health": 5,
+  "attackDamage": 3,
+  "attackTeleportsToDefender": false
 }

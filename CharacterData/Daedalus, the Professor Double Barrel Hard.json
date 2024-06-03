@@ -1,51 +1,37 @@
 {
-  "nameKey": "CharacterData_nameKey-4158c157ee950db4-c8668ee740b3b5e4ca9cf5aa0f16920c-v2",
+  "name": "Daedalus, the Professor Double Barrel Hard",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 8
-      }
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 80,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 80
     },
     {
+      "upgradeData": {
+        "useUpgradeHighlightTextTags": false,
+        "bonusDamage": 1
+      },
       "covenantUpgrade": true,
-      "crystalsCount": 50,
-      "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
-        "bonusDamage": 1
-      }
+      "crystalsCount": 50
     }
-  ],
-  "size": 6,
-  "health": 450,
-  "isOuterTrainBoss": true,
-  "deathType": 2,
-  "attackDamage": 9,
-  "statusEffectImmunities": [
-    "rooted"
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BigBossT1_50952308-e0f3-4acb-b0cc-e0d662b868b8"
   ],
   "bossActionGroups": [
     {
       "actions": [
         {
-          "actionBehaviorName": "RandomBossActionBehavior",
           "actionEffects": [
             {
-              "effectStateName": "CardEffectSpawnHero",
-              "paramInt": 100,
               "paramCharacterData": {
-                "nameKey": "CharacterData_nameKey-19145def485cd5db-eba52d8197695e34b9fa42c19073fa61-v2",
+                "name": "Constructed Explosive",
                 "bypassPactCrystalsUpgradeDataList": [
                   {
                     "upgradeData": {
@@ -54,53 +40,65 @@
                     }
                   }
                 ],
-                "size": 1,
-                "health": 1,
-                "canAttack": false,
-                "ascendsTrainAutomatically": false,
                 "triggers": [
                   {
-                    "trigger": 24,
-                    "descriptionKey": "CharacterData_descriptionKey-82b70e5cd5db1ce1-eba52d8197695e34b9fa42c19073fa61-v2",
-                    "additionalTextOnTriggerKey": "CharacterData_additionalTextOnTriggerKey-e8d482c24bc6277c-eba52d8197695e34b9fa42c19073fa61-v2",
+                    "description": "Despawn and deal [effect1.power] damage to your front unit.",
+                    "additionalTextOnTrigger": "Exploded!",
                     "effects": [
                       {
                         "effectStateName": "CardEffectDespawnCharacter",
-                        "targetMode": 5,
-                        "targetCardType": 1,
-                        "targetCardSelectionMode": 1
+                        "targetMode": "TargetMode.Self",
+                        "targetTeamType": "Team.Type.Heroes",
+                        "targetCardType": "CardType.Monster",
+                        "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand"
                       },
                       {
-                        "effectStateName": "CardEffectDamage",
-                        "targetMode": 2,
-                        "targetTeamType": 2,
-                        "targetCardType": 1,
-                        "targetCardSelectionMode": 1,
-                        "paramInt": 10,
                         "paramTimingDelays": {
                           "x": 0.5,
                           "y": 0.25,
                           "z": 0.125
-                        }
+                        },
+                        "effectStateName": "CardEffectDamage",
+                        "targetMode": "TargetMode.FrontInRoom",
+                        "targetTeamType": "Team.Type.Monsters",
+                        "targetCardType": "CardType.Monster",
+                        "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
+                        "paramInt": 10
                       }
-                    ]
+                    ],
+                    "trigger": "CharacterTriggerData.Trigger.OnTurnBegin"
                   }
                 ],
-                "subtypeKeys": [
-                  "SubtypesData_ExplodingBarrel"
+                "characterLoreTooltips": [
+                  "Constructed by the Professor as part of his research to achieve Winged power. This exploding device was a failed experiment that has been repurposed for more practical means. I admire the Professor's handiwork, even if it is incredibly dangerous."
                 ],
-                "characterLoreTooltipKeys": [
-                  "CharacterData_data-9d272894cc0217eb-eba52d8197695e34b9fa42c19073fa61-v2"
-                ]
-              }
+                "nameKey": "CharacterData_nameKey-19145def485cd5db-eba52d8197695e34b9fa42c19073fa61-v2",
+                "size": 1,
+                "health": 1,
+                "canAttack": false,
+                "ascendsTrainAutomatically": false
+              },
+              "effectStateName": "CardEffectSpawnHero",
+              "targetMode": "TargetMode.Room",
+              "targetTeamType": "Team.Type.Heroes",
+              "paramInt": 100
             }
-          ]
+          ],
+          "actionBehaviorName": "RandomBossActionBehavior",
+          "paramTeamType": "Team.Type.None"
         }
       ]
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-183d4529f51da29e-c8668ee740b3b5e4ca9cf5aa0f16920c-v2"
+  "characterLoreTooltips": [
+    "Original engineer of the armor and weapons used by the Disciples, with specific knowledge of Seraph's Light and how to harness its energy. He was a chief contributor to the breaking of the Rail, something that impresses me almost as much as it angers me."
   ],
-  "name": "Daedalus, the Professor Double Barrel Hard"
+  "size": 6,
+  "health": 450,
+  "isOuterTrainBoss": true,
+  "deathType": "CharacterDeathVFX.Type.Boss",
+  "attackDamage": 9,
+  "statusEffectImmunities": [
+    "VanillaStatusEffectIDs.Rooted"
+  ]
 }

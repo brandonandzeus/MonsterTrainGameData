@@ -1,28 +1,27 @@
 {
-  "nameKey": "CharacterData_nameKey-5a4f54cc4e0739ad-91bff760f73827642b73e6aacef9c4c8-v2",
-  "size": 1,
-  "health": 6,
+  "name": "Antumbra Morsel",
   "triggers": [
     {
-      "trigger": 23,
-      "descriptionKey": "CharacterData_descriptionKey-da87b665853af570-91bff760f73827642b73e6aacef9c4c8-v2",
+      "description": "Eater gains +[effect0.upgrade.bonushp][health].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 20,
-          "targetTeamType": 3,
           "paramCardUpgradeData": {
             "bonusHP": 6
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.LastFeederCharacter",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnEaten"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Snack"
+  "subtypes": [
+    "Morsel"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-892dd5a945dcdf3e-91bff760f73827642b73e6aacef9c4c8-v2"
+  "characterLoreTooltips": [
+    "These precursors of the souls of Hell, called Antumbra, are fragments of the Umbra Shroud. Their friendly personalities make them my constant companions anytime I travel to the Crucible."
   ],
-  "name": "Antumbra Morsel"
+  "size": 1,
+  "health": 6
 }

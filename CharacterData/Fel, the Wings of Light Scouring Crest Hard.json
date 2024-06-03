@@ -1,79 +1,78 @@
 {
-  "nameKey": "CharacterData_nameKey-b3c3a0aa8b180f02-1a7dfd777b4d1e84eac029618b50d8d0-v2",
+  "name": "Fel, the Wings of Light Scouring Crest Hard",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 9
-      }
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 15,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 15
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 20,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
-        "bonusDamage": 1,
-        "bonusHP": 40,
         "statusEffectUpgrades": [
           {
-            "statusId": "spell shield",
+            "statusId": "VanillaStatusEffectIDs.Spellshield",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false,
+        "bonusDamage": 1,
+        "bonusHP": 40
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 20
     }
   ],
-  "size": 6,
-  "health": 1300,
-  "isOuterTrainBoss": true,
-  "attackDamage": 10,
   "startingStatusEffects": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 1
     }
-  ],
-  "statusEffectImmunities": [
-    "rooted"
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BigBoss2_e3e6f1a2-34a7-4493-b9d7-a123e182241e"
   ],
   "bossActionGroups": [
     {
       "actions": [
         {
-          "actionBehaviorName": "RandomBossActionBehavior",
           "actionEffects": [
             {
-              "effectStateName": "CardEffectAddBattleCard",
-              "targetTeamType": 0,
-              "paramInt": 3,
               "paramCardPool": {
                 "name": "JunkPoolUltimate",
                 "cardDataList": [
                   "ScourgeUltimate"
                 ]
-              }
+              },
+              "effectStateName": "CardEffectAddBattleCard",
+              "targetMode": "TargetMode.Room",
+              "targetTeamType": "Team.Type.None",
+              "paramInt": 3
             }
-          ]
+          ],
+          "actionBehaviorName": "RandomBossActionBehavior",
+          "paramTeamType": "Team.Type.None"
         },
         {
-          "actionBehaviorName": "RandomBossActionBehavior"
+          "actionBehaviorName": "RandomBossActionBehavior",
+          "paramTeamType": "Team.Type.None"
         }
       ]
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-198b9f907acea807-1a7dfd777b4d1e84eac029618b50d8d0-v2"
+  "characterLoreTooltips": [
+    "Once my closest ally, this Clipped legend has been able to create new wings out of the Light that Heaven uses. I admire her ingenuity, but I'll never be able to forgive her for abandoning the two of us."
   ],
-  "name": "Fel, the Wings of Light Scouring Crest Hard"
+  "size": 6,
+  "health": 1300,
+  "isOuterTrainBoss": true,
+  "attackDamage": 10,
+  "statusEffectImmunities": [
+    "VanillaStatusEffectIDs.Rooted"
+  ]
 }

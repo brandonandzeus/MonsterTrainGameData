@@ -1,59 +1,56 @@
 {
-  "nameKey": "CharacterData_nameKey-32c734686a72bae4-ddc95f1af17f5474fb633fb45564bb50-v2",
+  "name": "The Last Divinity Torso",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "requiredCovenantLevel": 0,
-      "crystalsCount": 27,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "requiredCovenantLevel": 0,
+      "crystalsCount": 27
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 40,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 40
     }
+  ],
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Purify",
+      "count": 1
+    },
+    {
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
+      "count": 1
+    }
+  ],
+  "bossActionGroups": [
+    {
+      "actions": [
+        {
+          "actionBehaviorName": "RandomBossActionBehavior",
+          "paramTeamType": "Team.Type.None"
+        }
+      ],
+      "numRepeats": 0
+    }
+  ],
+  "characterLoreTooltips": [
+    "A Divinity still exists, one of space and time. If you are ever to threaten it, it will likely use those powers against you, never allowing you to truly reach your goal, instead repeating your struggle over and over and over. I’ve looked for a way to broker peace, I’ve studied all I can, but I’ve still yet to come up with a solution. And if history is any guide, it may be best that I am not the one to find it."
   ],
   "size": 6,
   "health": 2500,
   "isOuterTrainBoss": true,
-  "validBossAttackPhase": -1,
-  "deathType": 3,
+  "validBossAttackPhase": "BossState.AttackPhase.Relentless",
+  "deathType": "CharacterDeathVFX.Type.NONE",
   "ascendsTrainAutomatically": false,
   "attackDamage": 2,
   "attackTeleportsToDefender": false,
-  "startingStatusEffects": [
-    {
-      "statusId": "cleardebuff",
-      "count": 1
-    },
-    {
-      "statusId": "multistrike",
-      "count": 1
-    }
-  ],
   "statusEffectImmunities": [
-    "rooted"
-  ],
-  "subtypeKeys": [
-    "SubtypesData_FinalBoss"
-  ],
-  "bossActionGroups": [
-    {
-      "numRepeats": 0,
-      "actions": [
-        {
-          "actionBehaviorName": "RandomBossActionBehavior"
-        }
-      ]
-    }
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-fad341ecb84fb3e1-ddc95f1af17f5474fb633fb45564bb50-v2"
-  ],
-  "name": "The Last Divinity Torso"
+    "VanillaStatusEffectIDs.Rooted"
+  ]
 }

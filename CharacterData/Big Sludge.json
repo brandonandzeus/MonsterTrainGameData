@@ -1,33 +1,33 @@
 {
-  "nameKey": "CharacterData_nameKey-84b1076c93f5a108-58bd4aa941e1c4e49b9390f55338d418-v2",
-  "size": 3,
-  "health": 30,
-  "attackDamage": 10,
+  "name": "Big Sludge",
   "triggers": [
     {
-      "trigger": 18,
-      "descriptionKey": "CharacterData_descriptionKey-ddafa2d805a136b2-58bd4aa941e1c4e49b9390f55338d418-v2",
+      "description": "Gain [rage] [effect0.status0.power].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "paramInt": 100,
           "paramStatusEffects": [
             {
-              "statusId": "buff",
+              "statusId": "VanillaStatusEffectIDs.Rage",
               "count": 5
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes",
+          "paramInt": 100
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Wickless_517faf2f-8836-42d3-b84d-75a99b7dc735",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Wickless",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-0130d5385b1a9ff2-58bd4aa941e1c4e49b9390f55338d418-v2"
+  "characterLoreTooltips": [
+    "Even wax dripping has its limits. While it makes the target incredibly large and near unkillable, it also forces them into an eternal state of dripping. Wick or no, this compels them to continue to gutter more and more wax if they wish to retain this power."
   ],
-  "name": "Big Sludge"
+  "size": 3,
+  "health": 30,
+  "attackDamage": 10
 }

@@ -1,84 +1,83 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+  "name": "Chains the Sighted TLD Shard",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 7,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 5
-      }
+      },
+      "crystalsCount": 7
     },
     {
-      "crystalsCount": 20,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 20
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 20,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1,
         "bonusHP": 15
-      }
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 20
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 36,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "lifesteal",
+            "statusId": "VanillaStatusEffectIDs.Lifesteal",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 36
     }
   ],
-  "size": 4,
-  "health": 390,
-  "deathType": 1,
-  "attackDamage": 4,
   "triggers": [
     {
-      "trigger": 1,
-      "descriptionKey": "CharacterData_descriptionKey-ff96d5f47e8491ff-563c3b0487792f14cab138eb8c8c013c-v2",
+      "description": "Add a <b>Weight of Contrition</b> card to the top of your draw pile.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddBattleCard",
-          "targetTeamType": 0,
-          "paramInt": 5,
           "paramCardPool": {
             "name": "JunkPoolT2",
             "cardDataList": [
               "ScourgeT2"
             ]
-          }
+          },
+          "effectStateName": "CardEffectAddBattleCard",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 5
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     },
     {
-      "descriptionKey": "CharacterData_descriptionKey-c151b1d95cabb310-563c3b0487792f14cab138eb8c8c013c-v2",
+      "description": "Add a <b>Vengeful Shard</b> card to the top of your draw pile.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddBattleCard",
-          "targetTeamType": 0,
-          "paramInt": 5,
           "paramCardPool": {
             "name": "VengefulShardOnlyPool",
             "cardDataList": [
               "BlightPyreDamageInHand"
             ]
-          }
+          },
+          "effectStateName": "CardEffectAddBattleCard",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 5
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Chains the Sighted TLD Shard"
+  "size": 4,
+  "health": 390,
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 4
 }

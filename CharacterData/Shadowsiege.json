@@ -1,15 +1,14 @@
 {
-  "nameKey": "CharacterData_nameKey-37ee0a54555210a8-6f836f95d2fbdc64ca711ec5c482306a-v2",
+  "name": "Shadowsiege",
+  "subtypes": [
+    "Construct",
+    "Chosen"
+  ],
+  "characterLoreTooltips": [
+    "I was told that the first Constructs were made of discarded stone and a coordinated Antumbra effort. It is considered a prestigious position among Morsels. These were able to speed up the excavation of the Crucible tenfold. "
+  ],
   "size": 6,
   "health": 150,
-  "deathType": 1,
-  "attackDamage": 200,
-  "subtypeKeys": [
-    "SubtypesData_Automaton",
-    "SubtypesData_Chosen"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-f518bc76211e0e3c-6f836f95d2fbdc64ca711ec5c482306a-v2"
-  ],
-  "name": "Shadowsiege"
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 200
 }

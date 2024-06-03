@@ -1,38 +1,34 @@
 {
-  "nameKey": "CharacterData_nameKey-37e6fcf32de60618-3fc63b4e45ac60746bd7cc33b8dd819d-v2",
-  "size": 1,
-  "health": 2,
-  "attackDamage": 5,
+  "name": "Squashed Morsel",
   "startingStatusEffects": [
     {
-      "statusId": "trample",
+      "statusId": "VanillaStatusEffectIDs.Trample",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 23,
-      "descriptionKey": "CharacterData_descriptionKey-3cb5f895dad14b1e-3fc63b4e45ac60746bd7cc33b8dd819d-v2",
+      "description": "Eater gains [trample].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 20,
-          "targetTeamType": 3,
           "paramStatusEffects": [
             {
-              "statusId": "trample",
+              "statusId": "VanillaStatusEffectIDs.Trample",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.LastFeederCharacter",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnEaten"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Snack"
+  "subtypes": [
+    "Morsel"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Squashed Morsel"
+  "size": 1,
+  "health": 2,
+  "attackDamage": 5
 }

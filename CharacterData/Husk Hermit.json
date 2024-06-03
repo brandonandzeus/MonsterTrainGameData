@@ -1,20 +1,19 @@
 {
-  "nameKey": "CharacterData_nameKey-a88577320b3de739-42c38ef504e15af428455c5e06db7f24-v2",
-  "size": 2,
-  "health": 30,
-  "attackDamage": 5,
+  "name": "Husk Hermit",
   "startingStatusEffects": [
     {
-      "statusId": "hunter",
+      "statusId": "VanillaStatusEffectIDs.Sweep",
       "count": 1
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Animus_c0f95969-ae86-4477-9458-57bb235d965b",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Animus",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-8f535ac87fbe685a-42c38ef504e15af428455c5e06db7f24-v2"
+  "characterLoreTooltips": [
+    "Using Wildwood sap to expedite the growth of their vines, these Animus inhabit the remains of their armor. Their larger vines allow them to strike multiple enemies at once, while still being able to retreat into their shell if necessary."
   ],
-  "name": "Husk Hermit"
+  "size": 2,
+  "health": 30,
+  "attackDamage": 5
 }

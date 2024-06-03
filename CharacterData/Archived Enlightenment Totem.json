@@ -1,26 +1,21 @@
 {
-  "nameKey": "CharacterData_nameKey-c796ec25702742e4-36028a538ba98a44bbd9572843c54689-v2",
-  "size": 1,
-  "health": 10,
-  "canAttack": false,
+  "name": "Archived Enlightenment Totem",
   "triggers": [
     {
-      "trigger": 19,
-      "descriptionKey": "CharacterData_descriptionKey-a62b350fde51f616-36028a538ba98a44bbd9572843c54689-v2",
       "effects": [
         {
           "effectStateName": "CardEffectDraw",
-          "targetMode": 5,
-          "targetTeamType": 2
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Totem_7c4e7151-d042-49e2-9700-29e7c760b691"
+  "subtypes": [
+    "Totem"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived Enlightenment Totem"
+  "size": 1,
+  "health": 10,
+  "canAttack": false
 }

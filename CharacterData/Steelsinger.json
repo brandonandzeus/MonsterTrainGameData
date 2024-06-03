@@ -1,29 +1,28 @@
 {
-  "nameKey": "CharacterData_nameKey-0210fabb1c035ffc-6516db0c15d7daf49a506d35e5779a2f-v2",
-  "size": 4,
-  "blockVisualSizeIncrease": true,
-  "health": 40,
-  "attackDamage": 20,
+  "name": "Steelsinger",
   "triggers": [
     {
-      "trigger": 2,
-      "descriptionKey": "CharacterData_descriptionKey-a618df478f808745-6516db0c15d7daf49a506d35e5779a2f-v2",
+      "description": "Gain [effect0.power] max health.",
       "effects": [
         {
           "effectStateName": "CardEffectAdjustMaxHealth",
-          "targetMode": 5,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 80
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Golem_2d79cb56-4041-4d63-b7bf-8d2185923eda",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Hollow",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-539777d650a42f40-6516db0c15d7daf49a506d35e5779a2f-v2"
+  "characterLoreTooltips": [
+    "“Not of us, but of the Mother,” as the Edge Priory says of Steelsingers. I often just nod at their rambling words, accepting them for the insanity they are, but their strange mention of the Mother — a Divinity no doubt — adds an air of validity to this crazy claim. "
   ],
-  "name": "Steelsinger"
+  "size": 4,
+  "blockVisualSizeIncrease": true,
+  "health": 40,
+  "attackDamage": 20
 }

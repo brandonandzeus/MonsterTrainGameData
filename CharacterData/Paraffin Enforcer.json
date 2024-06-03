@@ -1,35 +1,35 @@
 {
-  "nameKey": "CharacterData_nameKey-18710078b1ac1b9a-76133b80e16423d48b8c011dd15f276b-v2",
-  "size": 2,
-  "health": 25,
-  "attackDamage": 15,
+  "name": "Paraffin Enforcer",
   "triggers": [
     {
-      "trigger": 3,
-      "descriptionKey": "CharacterData_descriptionKey-74f79aa2d5dd7831-76133b80e16423d48b8c011dd15f276b-v2",
+      "description": "Apply [rage] [effect0.status0.power] to friendly [burnout] units.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetModeStatusEffectsFilter": [
-            "ephemeral"
-          ],
-          "targetTeamType": 2,
           "paramStatusEffects": [
             {
-              "statusId": "buff",
+              "statusId": "VanillaStatusEffectIDs.Rage",
               "count": 3
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Room",
+          "targetModeStatusEffectsFilter": [
+            "VanillaStatusEffectIDs.Burnout"
+          ],
+          "targetTeamType": "Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Wickless_517faf2f-8836-42d3-b84d-75a99b7dc735",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Wickless",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-bd62a216d6461982-76133b80e16423d48b8c011dd15f276b-v2"
+  "characterLoreTooltips": [
+    "Once a footsoldier has been promoted to an Enforcer, they are no longer considered the punching bags of the Wickless Remains. But that doesn’t mean that they won’t haze any new recruits the same way they were."
   ],
-  "name": "Paraffin Enforcer"
+  "size": 2,
+  "health": 25,
+  "attackDamage": 15
 }

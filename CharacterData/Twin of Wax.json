@@ -1,37 +1,39 @@
 {
-  "nameKey": "CharacterData_nameKey-1c748e74b6aa8d31-98bea84b89758ed44af8374fd8e90280-v2",
-  "size": 2,
-  "health": 4,
-  "attackDamage": 4,
+  "name": "Twin of Wax",
   "triggers": [
     {
-      "descriptionKey": "CharacterData_descriptionKey-71d773411a2a1bc1-98bea84b89758ed44af8374fd8e90280-v2",
+      "description": "Summon 2 <nobr><b>Mote of Wax</b></nobr> and apply this unit's upgrades and stat changes.",
       "effects": [
         {
-          "effectStateName": "CardEffectSpawnMonster",
-          "targetTeamType": 0,
-          "paramInt": 2,
           "paramCharacterData": {
+            "name": "Mote of Wax",
+            "subtypes": [
+              "Waxer"
+            ],
+            "characterLoreTooltips": [
+              "When Waxers are reduced to almost nothing, but still cling to what life is left within, they will sometimes band together for protection to create a new form that is controlled by this hivemind of dying Waxers."
+            ],
             "nameKey": "CharacterData_nameKey-484a18b6a06a30d1-5818e71fe5600b94a91c02786f8ce23a-v2",
             "size": 1,
             "health": 2,
-            "attackDamage": 2,
-            "subtypeKeys": [
-              "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
-            ],
-            "characterLoreTooltipKeys": [
-              "CharacterData_data-7cf86cb693cc1d04-5818e71fe5600b94a91c02786f8ce23a-v2"
-            ]
-          }
+            "attackDamage": 2
+          },
+          "effectStateName": "CardEffectSpawnMonster",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 2
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
+  "subtypes": [
+    "Waxer"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-e619c0c4ee3f6fc7-98bea84b89758ed44af8374fd8e90280-v2"
+  "characterLoreTooltips": [
+    "When Waxers are reduced to almost nothing, but still cling to what life is left within, they will sometimes band together for protection to create a new form that is controlled by this hivemind of dying Waxers."
   ],
-  "name": "Twin of Wax"
+  "size": 2,
+  "health": 4,
+  "attackDamage": 4
 }

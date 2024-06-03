@@ -1,38 +1,38 @@
 {
-  "nameKey": "CharacterData_nameKey-bea799cc72bdddd1-4662d8efeb786184986f83a6da8d07e7-v2",
-  "size": 2,
-  "health": 15,
-  "attackDamage": 1,
+  "name": "Coldcaelia",
   "startingStatusEffects": [
     {
-      "statusId": "hunter",
+      "statusId": "VanillaStatusEffectIDs.Sweep",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 3,
-      "descriptionKey": "CharacterData_descriptionKey-0500506631b8ead3-4662d8efeb786184986f83a6da8d07e7-v2",
+      "description": "Apply [frostbite] {[effect0.status0.power]} to the attacked unit.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 6,
           "paramStatusEffects": [
             {
-              "statusId": "poison",
+              "statusId": "VanillaStatusEffectIDs.Frostbite",
               "count": 3
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.LastAttackedCharacter",
+          "targetTeamType": "Team.Type.Heroes"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Siren_727cf19f-3b27-4ad2-92ab-3552449e52da",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Siren",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-24dfff950f65d94a-4662d8efeb786184986f83a6da8d07e7-v2"
+  "characterLoreTooltips": [
+    "These Sirens have used the freezing of Hell to their advantage, enchanting their blades with ice to damage their enemies more deeply. They lack formal training in classical combat, but make up for it in their magical prowess."
   ],
-  "name": "Coldcaelia"
+  "size": 2,
+  "health": 15,
+  "attackDamage": 1
 }

@@ -1,34 +1,30 @@
 {
-  "nameKey": "CharacterData_nameKey-e68ec85f5aba7002-9dff62cc719cd304f825ce2d8c208f23-v2",
+  "name": "Darkwings",
+  "triggers": [
+    {
+      "description": "Gain [armor] [effect0.status0.power].",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Armor",
+              "count": 15
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor"
+    }
+  ],
+  "characterLoreTooltips": [
+    "These Winged are known for their silence and their ruthlessness, taking the armor of their opponents and strapping it onto their own with dark solemnity. I first believed their silence to come from reverence for their work, but have since become convinced they've just become numb to the violence."
+  ],
   "pactCrystalsRequiredCount": 20,
   "pactCrystalsVariantData": "Darkwings Shard",
   "size": 2,
   "health": 110,
-  "attackDamage": 10,
-  "triggers": [
-    {
-      "trigger": 18,
-      "descriptionKey": "CharacterData_descriptionKey-663b67b2ac0ba453-9dff62cc719cd304f825ce2d8c208f23-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "paramStatusEffects": [
-            {
-              "statusId": "armor",
-              "count": 15
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_HeavyT2"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-ec260a4f57261a6a-9dff62cc719cd304f825ce2d8c208f23-v2"
-  ],
-  "name": "Darkwings"
+  "attackDamage": 10
 }

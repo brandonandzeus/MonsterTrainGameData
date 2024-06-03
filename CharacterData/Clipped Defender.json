@@ -1,21 +1,17 @@
 {
-  "nameKey": "CharacterData_nameKey-5dda450afdb409ee-fdb13e5ecc0aac34782dd948ea711f62-v2",
+  "name": "Clipped Defender",
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Armor",
+      "count": 50
+    }
+  ],
+  "characterLoreTooltips": [
+    "These massive Clipped strongmen use slabs to protect those behind them. Their quiet nature lends itself well to hiding behind the steel wall."
+  ],
   "pactCrystalsRequiredCount": 20,
   "pactCrystalsVariantData": "Clipped Defender Shard",
   "size": 3,
   "health": 10,
-  "deathType": 1,
-  "startingStatusEffects": [
-    {
-      "statusId": "armor",
-      "count": 50
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_ShieldGuardT2"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-e8c3ba67c003e8f4-fdb13e5ecc0aac34782dd948ea711f62-v2"
-  ],
-  "name": "Clipped Defender"
+  "deathType": "CharacterDeathVFX.Type.Large"
 }

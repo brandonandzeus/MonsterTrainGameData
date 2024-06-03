@@ -1,39 +1,37 @@
 {
-  "nameKey": "CharacterData_nameKey-bf641ee5e4d1fee7-6ebe55c9b3487be4480f1f71caa49930-v2",
-  "pactCrystalsRequiredCount": 14,
-  "pactCrystalsVariantData": "Clipped Conduit Shard",
-  "size": 1,
-  "health": 1,
-  "attackDamage": 1,
-  "attackTeleportsToDefender": false,
+  "name": "Clipped Conduit",
   "startingStatusEffects": [
     {
-      "statusId": "haste",
+      "statusId": "VanillaStatusEffectIDs.Haste",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 16,
-      "descriptionKey": "CharacterData_descriptionKey-34928f83c7ddc654-6ebe55c9b3487be4480f1f71caa49930-v2",
+      "description": "Grant [haste].",
       "effects": [
         {
-          "effectStateName": "CardEffectEnchant",
           "paramStatusEffects": [
             {
-              "statusId": "haste",
+              "statusId": "VanillaStatusEffectIDs.Haste",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectEnchant",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.AfterSpawnEnchant"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HordeT1"
+  "characterLoreTooltips": [
+    "Rarely have those above benefited from the knowledge of those beneath them, but the invention of Conduit armor was widely adopted among the Clipped when Fel saw the power of my invention."
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-30ec378004b52bdb-6ebe55c9b3487be4480f1f71caa49930-v2"
-  ],
-  "name": "Clipped Conduit"
+  "pactCrystalsRequiredCount": 14,
+  "pactCrystalsVariantData": "Clipped Conduit Shard",
+  "size": 1,
+  "health": 1,
+  "attackDamage": 1,
+  "attackTeleportsToDefender": false
 }

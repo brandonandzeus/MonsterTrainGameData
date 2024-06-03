@@ -1,42 +1,39 @@
 {
-  "nameKey": "CharacterData_nameKey-cba6aca335a8969e-549965c69ea54de419d30547d76060f7-v2",
-  "size": 1,
-  "health": 10,
-  "attackDamage": 5,
+  "name": "Conduit Redirector Rebel",
   "startingStatusEffects": [
     {
-      "statusId": "armor",
+      "statusId": "VanillaStatusEffectIDs.Armor",
       "count": 30
     },
     {
-      "statusId": "spikes",
+      "statusId": "VanillaStatusEffectIDs.Spikes",
       "count": 27
     },
     {
-      "statusId": "cardless",
+      "statusId": "VanillaStatusEffectIDs.Cardless",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 2,
-      "descriptionKey": "CharacterData_descriptionKey-308b10f461bc1936-549965c69ea54de419d30547d76060f7-v2",
+      "description": "Friendly units gain [spikes] 3.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetTeamType": 2,
           "paramStatusEffects": [
             {
-              "statusId": "spikes",
+              "statusId": "VanillaStatusEffectIDs.Spikes",
               "count": 3
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-76f0855584258990-549965c69ea54de419d30547d76060f7-v2"
-  ],
-  "name": "Conduit Redirector Rebel"
+  "size": 1,
+  "health": 10,
+  "attackDamage": 5
 }

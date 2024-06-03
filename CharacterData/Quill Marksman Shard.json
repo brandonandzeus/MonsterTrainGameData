@@ -1,20 +1,13 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 1,
-  "health": 10,
-  "attackDamage": 12,
-  "attackTeleportsToDefender": false,
+  "name": "Quill Marksman Shard",
   "startingStatusEffects": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 1
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_AttackerT2"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Quill Marksman Shard"
+  "size": 1,
+  "health": 10,
+  "attackDamage": 12,
+  "attackTeleportsToDefender": false
 }

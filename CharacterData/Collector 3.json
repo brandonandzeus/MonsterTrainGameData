@@ -1,38 +1,37 @@
 {
-  "nameKey": "CharacterData_nameKey-5d37ad74f1b288b7-22bc4b5fa4dac3b46bf1412d9c1324ab-v2",
-  "size": 2,
-  "health": 5,
-  "canAttack": false,
-  "ascendsTrainAutomatically": false,
+  "name": "Collector 3",
   "triggers": [
     {
-      "descriptionKey": "CharacterData_descriptionKey-1ec9491cb6f9f4f2-22bc4b5fa4dac3b46bf1412d9c1324ab-v2",
+      "description": "Gain [effect0.power] [coin].",
       "effects": [
         {
           "effectStateName": "CardEffectRewardGold",
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 100
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     },
     {
-      "trigger": 1,
-      "descriptionKey": "CharacterData_descriptionKey-72db0f13d9f334a2-22bc4b5fa4dac3b46bf1412d9c1324ab-v2",
-      "additionalTextOnTriggerKey": "CharacterData_additionalTextOnTriggerKey-acda7965e91293e0-22bc4b5fa4dac3b46bf1412d9c1324ab-v2",
+      "description": "Flees from battle if not [rooted] or [dazed].",
+      "additionalTextOnTrigger": "Escaped!",
       "effects": [
         {
           "effectStateName": "CardEffectDespawnCharacter",
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_TreasureCollector"
+  "characterLoreTooltips": [
+    "These entrepreneurial Winged scavengers don't subscribe to the traitorous ways of their flying brethren, but that doesn't mean they don't intend to profit off of it! They often find their way onto our train, looking for loose valuables, but if we trap them inside they'll give up whatever they've found."
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-741dea57dc79bf74-22bc4b5fa4dac3b46bf1412d9c1324ab-v2"
-  ],
-  "name": "Collector 3"
+  "size": 2,
+  "health": 5,
+  "canAttack": false,
+  "ascendsTrainAutomatically": false
 }

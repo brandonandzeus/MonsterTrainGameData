@@ -1,31 +1,28 @@
 {
-  "nameKey": "CharacterData_nameKey-25aef366811521cf-1d451c01bb0ae0946869c96220e72416-v2",
-  "size": 1,
-  "health": 2,
-  "attackDamage": 2,
+  "name": "Seething Gears",
   "triggers": [
     {
-      "trigger": 23,
-      "descriptionKey": "CharacterData_descriptionKey-f7479634b283617d-1d451c01bb0ae0946869c96220e72416-v2",
+      "description": "Eater gains [spark] [effect0.status0.power].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 20,
           "paramStatusEffects": [
             {
-              "statusId": "spark",
+              "statusId": "VanillaStatusEffectIDs.Fuel",
               "count": 5
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.LastFeederCharacter",
+          "targetTeamType": "Team.Type.Heroes"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnEaten"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Snack"
+  "subtypes": [
+    "Morsel"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Seething Gears"
+  "size": 1,
+  "health": 2,
+  "attackDamage": 2
 }

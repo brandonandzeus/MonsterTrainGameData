@@ -1,27 +1,27 @@
 {
-  "nameKey": "CharacterData_nameKey-501d4b9cb7035256-d72003bdcddf847408c7e2636a6ce623-v2",
-  "size": 2,
-  "health": 25,
-  "attackDamage": 10,
+  "name": "Wickless Tycoon",
   "triggers": [
     {
-      "trigger": 18,
-      "descriptionKey": "CharacterData_descriptionKey-43989df5155b1661-d72003bdcddf847408c7e2636a6ce623-v2",
+      "description": "Gain [effect0.power][coin].",
       "effects": [
         {
           "effectStateName": "CardEffectRewardGold",
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 5
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Wickless_517faf2f-8836-42d3-b84d-75a99b7dc735",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Wickless",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-8cd443f0e05c5477-d72003bdcddf847408c7e2636a6ce623-v2"
+  "characterLoreTooltips": [
+    "These wealthy residents of Hell are considered among the few to reside in the upper echelon of Remnant Society. They pay the bills for the endeavors of the Wickless, partial to the benefits it allows them. And since the Rail has brought them much business, some of that coin has made its way to our train."
   ],
-  "name": "Wickless Tycoon"
+  "size": 2,
+  "health": 25,
+  "attackDamage": 10
 }

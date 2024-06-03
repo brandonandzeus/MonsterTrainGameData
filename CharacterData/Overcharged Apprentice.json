@@ -1,29 +1,25 @@
 {
-  "nameKey": "CharacterData_nameKey-04515141a638f1e6-9d6838a0070331c46a6f355ef5e5e77e-v2",
+  "name": "Overcharged Apprentice",
+  "triggers": [
+    {
+      "description": "+1[attack].",
+      "effects": [
+        {
+          "effectStateName": "CardEffectBuffDamage",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 1
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
+    }
+  ],
+  "characterLoreTooltips": [
+    "Some Light Apprentices are not as strict with their reverence of the Light shards they’ve been granted, tampering with them to gain improved effects. I did agree to assist in the creation of this armor, but only to sabotage its construction, making this increased effect only last for short amounts of time. "
+  ],
   "pactCrystalsRequiredCount": 25,
   "pactCrystalsVariantData": "Overcharged Apprentice Shard",
   "size": 2,
   "health": 25,
-  "attackDamage": 2,
-  "triggers": [
-    {
-      "trigger": 19,
-      "descriptionKey": "CharacterData_descriptionKey-54572a3ac3c3299d-9d6838a0070331c46a6f355ef5e5e77e-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectBuffDamage",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "paramInt": 1
-        }
-      ]
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_HeavyT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-ed283a8b66604b8c-9d6838a0070331c46a6f355ef5e5e77e-v2"
-  ],
-  "name": "Overcharged Apprentice"
+  "attackDamage": 2
 }

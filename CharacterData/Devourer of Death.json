@@ -1,44 +1,46 @@
 {
-  "nameKey": "CharacterData_nameKey-d06e49cad2006d23-c5fb54b6c2cb6b44eb87dd468e302e7b-v2",
-  "size": 1,
-  "health": 5,
-  "deathSlidesBackwards": false,
+  "name": "Devourer of Death",
   "triggers": [
     {
-      "trigger": 18,
-      "descriptionKey": "CharacterData_descriptionKey-e850c25829d12dd3-c5fb54b6c2cb6b44eb87dd468e302e7b-v2",
+      "description": "Gain <nobr><b>Soul 1</b></nobr>.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 3,
           "paramStatusEffects": [
             {
-              "statusId": "captured_soul",
+              "statusId": "VanillaStatusEffectIDs.Soul",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor"
     },
     {
-      "descriptionKey": "CharacterData_descriptionKey-cc3453d2b3db8598-c5fb54b6c2cb6b44eb87dd468e302e7b-v2",
-      "displayEffectHintText": true,
+      "description": "Deal damage to enemy units equal to [effect0.power]x the <b>Soul</b> count.",
       "effects": [
         {
           "effectStateName": "CardEffectDamage",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes",
           "paramInt": 15,
           "useStatusEffectStackMultiplier": true,
-          "statusEffectStackMultiplier": "captured_soul"
+          "statusEffectStackMultiplier": "VanillaStatusEffectIDs.Soul"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath",
+      "displayEffectHintText": true
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Wickless_517faf2f-8836-42d3-b84d-75a99b7dc735"
+  "subtypes": [
+    "Wickless"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-712321a08e018526-c5fb54b6c2cb6b44eb87dd468e302e7b-v2"
+  "characterLoreTooltips": [
+    "The unfortunate souls who are unable to melt must instead feed off the deaths of those around them. They accumulate more energy as others' souls are freed from their waxen forms, but they are doomed to never be able to free their own."
   ],
-  "name": "Devourer of Death"
+  "size": 1,
+  "health": 5,
+  "deathSlidesBackwards": false
 }

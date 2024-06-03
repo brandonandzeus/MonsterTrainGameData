@@ -1,49 +1,44 @@
 {
-  "nameKey": "CharacterData_nameKey-533f289e43ac2cb4-357094bc51eab1e41b563945fbad00fa-v2",
-  "size": 2,
-  "health": 20,
-  "attackDamage": 5,
+  "name": "Archived Frigid Warden",
   "startingStatusEffects": [
     {
-      "statusId": "poison",
+      "statusId": "VanillaStatusEffectIDs.Frostbite",
       "count": 6
     }
   ],
   "triggers": [
     {
-      "trigger": 3,
-      "descriptionKey": "CharacterData_descriptionKey-970c15fba45ad122-357094bc51eab1e41b563945fbad00fa-v2",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 6,
-          "targetTeamType": 3,
           "paramStatusEffects": [
             {
-              "statusId": "poison",
+              "statusId": "VanillaStatusEffectIDs.Frostbite",
               "count": 2
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.LastAttackedCharacter",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
         },
         {
-          "effectStateName": "CardEffectRemoveStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 3,
           "paramStatusEffects": [
             {
-              "statusId": "poison",
+              "statusId": "VanillaStatusEffectIDs.Frostbite",
               "count": 2
             }
-          ]
+          ],
+          "effectStateName": "CardEffectRemoveStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Warden_191c4528-6efd-47b0-bdf8-9838047532cc"
+  "subtypes": [
+    "Warden"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived Frigid Warden"
+  "size": 2,
+  "health": 20,
+  "attackDamage": 5
 }

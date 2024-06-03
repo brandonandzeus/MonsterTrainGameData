@@ -1,14 +1,13 @@
 {
-  "nameKey": "CharacterData_nameKey-04eac18bd1570de2-d6b89273b595c5644912192bdead4089-v2",
+  "name": "Highpriest to the Light TLD",
+  "characterLoreTooltips": [
+    "Only a select few Disciple Priests have ever been admitted into Seraph's retinue. Ever eager to be the only one with Seraph's ear, the Highpriest discredited the others through well-placed lies or, in some cases, untimely deaths."
+  ],
   "pactCrystalsRequiredCount": 0,
   "pactCrystalsVariantData": "Highpriest to the Light TLD Shard",
   "size": 4,
   "health": 90,
-  "deathType": 1,
+  "deathType": "CharacterDeathVFX.Type.Large",
   "attackDamage": 5,
-  "attackTeleportsToDefender": false,
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-c714fde81117fc36-d6b89273b595c5644912192bdead4089-v2"
-  ],
-  "name": "Highpriest to the Light TLD"
+  "attackTeleportsToDefender": false
 }

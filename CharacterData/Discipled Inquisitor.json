@@ -1,64 +1,59 @@
 {
-  "nameKey": "CharacterData_nameKey-d590816fbc483e03-d3a228dfe0d5d2e4a828083fbc969db6-v2",
+  "name": "Discipled Inquisitor",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "armor",
+            "statusId": "VanillaStatusEffectIDs.Armor",
             "count": 5
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 15,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 15
     },
     {
-      "isRepeatable": false,
-      "covenantUpgrade": true,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "trample",
+            "statusId": "VanillaStatusEffectIDs.Trample",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "isRepeatable": false,
+      "covenantUpgrade": true
     },
     {
-      "isRepeatable": false,
-      "crystalsCount": 15,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusSize": 1
-      }
+      },
+      "isRepeatable": false,
+      "crystalsCount": 15
     }
+  ],
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Relentless",
+      "count": 1
+    }
+  ],
+  "characterLoreTooltips": [
+    "A high-ranking officer within the combative ranks of the Disciples. The humans that had been admitted into Heaven banded together under the Inquisitor to join Seraph's cause when they broke our Rail."
   ],
   "size": 5,
   "health": 50,
   "isMiniboss": true,
-  "deathType": 1,
-  "attackDamage": 4,
-  "startingStatusEffects": [
-    {
-      "statusId": "relentless",
-      "count": 1
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BossT1_8850292e-bda8-428e-8d71-c375c29838f8",
-    "SubtypesData_Boss"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-2c87bcd57492b623-d3a228dfe0d5d2e4a828083fbc969db6-v2"
-  ],
-  "name": "Discipled Inquisitor"
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 4
 }

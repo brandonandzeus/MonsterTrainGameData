@@ -1,48 +1,50 @@
 {
-  "nameKey": "CharacterData_nameKey-257590e80c9ae749-23caaea7ff575224bb27ebc4d40ec2b5-v2",
-  "size": 1,
-  "health": 1,
-  "deathSlidesBackwards": false,
+  "name": "Remnant Host",
   "triggers": [
     {
-      "descriptionKey": "CharacterData_descriptionKey-5bc881d6cbd85b06-23caaea7ff575224bb27ebc4d40ec2b5-v2",
+      "description": "Summon 2 <b>Draff</b> units.",
       "effects": [
         {
-          "effectStateName": "CardEffectSpawnMonster",
-          "targetTeamType": 0,
-          "paramInt": 2,
-          "paramBool": true,
           "paramCharacterData": {
-            "nameKey": "CharacterData_nameKey-a09582df06a6e0c4-633eff7c4b07bc543984e120636254b2-v2",
-            "size": 1,
-            "health": 5,
-            "attackDamage": 10,
+            "name": "Draff",
             "startingStatusEffects": [
               {
-                "statusId": "ephemeral",
+                "statusId": "VanillaStatusEffectIDs.Burnout",
                 "count": 1
               },
               {
-                "statusId": "multistrike",
+                "statusId": "VanillaStatusEffectIDs.Multistrike",
                 "count": 1
               }
             ],
-            "subtypeKeys": [
-              "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
+            "subtypes": [
+              "Waxer"
             ],
-            "characterLoreTooltipKeys": [
-              "CharacterData_data-d50e0cde41338b6d-633eff7c4b07bc543984e120636254b2-v2"
-            ]
-          }
+            "characterLoreTooltips": [
+              "When wax has been melted and reapplied over and over again, it can turn into a fragile resin. This makes the edges of a Waxer sharper and more dangerous, but much more brittle."
+            ],
+            "nameKey": "CharacterData_nameKey-a09582df06a6e0c4-633eff7c4b07bc543984e120636254b2-v2",
+            "size": 1,
+            "health": 5,
+            "attackDamage": 10
+          },
+          "effectStateName": "CardEffectSpawnMonster",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 2,
+          "paramBool": true
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Tomb"
+  "subtypes": [
+    "Tomb"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-3e3c63f9acc31af8-23caaea7ff575224bb27ebc4d40ec2b5-v2"
+  "characterLoreTooltips": [
+    "Tombs are usually formed as the consequence of some horrible accident when guttering. If a Waxer happens to be caught in the wax drip of another, they can be trapped inside until their host melts away."
   ],
-  "name": "Remnant Host"
+  "size": 1,
+  "health": 1,
+  "deathSlidesBackwards": false
 }

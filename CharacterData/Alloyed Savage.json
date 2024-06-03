@@ -1,38 +1,34 @@
 {
-  "nameKey": "CharacterData_nameKey-ede5e6c36047e447-6cc13f467b648cb4dba95d703c6db4f9-v2",
-  "size": 1,
-  "health": 20,
-  "attackDamage": 20,
+  "name": "Alloyed Savage",
   "startingStatusEffects": [
     {
-      "statusId": "inert",
+      "statusId": "VanillaStatusEffectIDs.Inert",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 18,
-      "descriptionKey": "CharacterData_descriptionKey-a29421ee5e4a65cf-6cc13f467b648cb4dba95d703c6db4f9-v2",
+      "description": "Gain [spark] [effect0.status0.power].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
           "paramStatusEffects": [
             {
-              "statusId": "spark",
+              "statusId": "VanillaStatusEffectIDs.Fuel",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Defunct"
+  "subtypes": [
+    "Defunct"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Alloyed Savage"
+  "size": 1,
+  "health": 20,
+  "attackDamage": 20
 }

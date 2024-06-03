@@ -1,22 +1,18 @@
 {
-  "nameKey": "CharacterData_nameKey-e7e9ebe61d5877fe-da6492806535571418e639f3dd175346-v2",
+  "name": "Clergyman",
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Rage",
+      "count": 2
+    }
+  ],
+  "characterLoreTooltips": [
+    "Disciple in training. They’ve heeded the call to invade our lands, and now they support Seraph and his Disciples through aggressive prayer."
+  ],
   "pactCrystalsRequiredCount": 10,
   "pactCrystalsVariantData": "Clergyman Shard",
   "size": 1,
   "health": 1,
   "attackDamage": 1,
-  "attackTeleportsToDefender": false,
-  "startingStatusEffects": [
-    {
-      "statusId": "buff",
-      "count": 2
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_HordeT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-8539555900c4ce81-da6492806535571418e639f3dd175346-v2"
-  ],
-  "name": "Clergyman"
+  "attackTeleportsToDefender": false
 }

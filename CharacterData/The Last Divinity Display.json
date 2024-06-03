@@ -1,27 +1,23 @@
 {
-  "nameKey": "CharacterData_nameKey-17f667d969439c09-ada8a9a8aea68eb42b9c76bae4a7afc4-v2",
-  "size": 6,
-  "health": 2500,
-  "isOuterTrainBoss": true,
-  "validBossAttackPhase": -1,
-  "deathType": 3,
-  "ascendsTrainAutomatically": false,
-  "attackDamage": 3,
-  "attackTeleportsToDefender": false,
+  "name": "The Last Divinity Display",
   "startingStatusEffects": [
     {
-      "statusId": "cleardebuff",
+      "statusId": "VanillaStatusEffectIDs.Purify",
       "count": 1
     }
   ],
+  "characterLoreTooltips": [
+    "A Divinity still exists, one of space and time. If you are ever to threaten it, it will likely use those powers against you, never allowing you to truly reach your goal, instead repeating your struggle over and over and over. I’ve looked for a way to broker peace, I’ve studied all I can, but I’ve still yet to come up with a solution. And if history is any guide, it may be best that I am not the one to find it."
+  ],
+  "size": 6,
+  "health": 2500,
+  "isOuterTrainBoss": true,
+  "validBossAttackPhase": "BossState.AttackPhase.Relentless",
+  "deathType": "CharacterDeathVFX.Type.NONE",
+  "ascendsTrainAutomatically": false,
+  "attackDamage": 3,
+  "attackTeleportsToDefender": false,
   "statusEffectImmunities": [
-    "rooted"
-  ],
-  "subtypeKeys": [
-    "SubtypesData_FinalBoss"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-902eff6a56391d73-ada8a9a8aea68eb42b9c76bae4a7afc4-v2"
-  ],
-  "name": "The Last Divinity Display"
+    "VanillaStatusEffectIDs.Rooted"
+  ]
 }

@@ -1,25 +1,21 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 1,
-  "health": 10,
-  "attackDamage": 12,
-  "attackTeleportsToDefender": false,
+  "name": "Sycophant Shard",
   "triggers": [
     {
-      "descriptionKey": "CharacterData_descriptionKey-73f81540d0f8d2d1-b6109fa25aba7e14fbbfe20cff9cdca7-v2",
+      "description": "Their units gain +[effect0.power][attack].",
       "effects": [
         {
           "effectStateName": "CardEffectBuffDamage",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes",
           "paramInt": 2
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HordeT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Sycophant Shard"
+  "size": 1,
+  "health": 10,
+  "attackDamage": 12,
+  "attackTeleportsToDefender": false
 }

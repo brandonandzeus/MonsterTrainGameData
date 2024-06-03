@@ -1,34 +1,34 @@
 {
-  "nameKey": "CharacterData_nameKey-12de9ff6ae24442e-df9db873cb68978489183d73421d5d90-v2",
-  "pactCrystalsRequiredCount": 17,
-  "pactCrystalsVariantData": "Reconciler Shard",
-  "size": 2,
-  "health": 2,
-  "attackDamage": 1,
+  "name": "Reconciler",
   "triggers": [
     {
-      "trigger": 1,
-      "descriptionKey": "CharacterData_descriptionKey-5441c23c5735b645-df9db873cb68978489183d73421d5d90-v2",
+      "description": "Add a <b>Sinner’s Burden</b> card to the top of your draw pile.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddBattleCard",
-          "targetTeamType": 0,
-          "paramInt": 5,
           "paramCardPool": {
             "name": "JunkPoolT1",
             "cardDataList": [
               "ScourgeT1"
             ]
-          }
+          },
+          "effectStateName": "CardEffectAddBattleCard",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 5
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_None"
+  "subtypes": [
+    "None"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-d94d2a0784202403-df9db873cb68978489183d73421d5d90-v2"
+  "characterLoreTooltips": [
+    "The Reconciler is the administrator of all Acts of Penance, requiring atonement for the sins perceived by the Winged, though they often are more liberal with their “reconciliation” than I might consider just."
   ],
-  "name": "Reconciler"
+  "pactCrystalsRequiredCount": 17,
+  "pactCrystalsVariantData": "Reconciler Shard",
+  "size": 2,
+  "health": 2,
+  "attackDamage": 1
 }

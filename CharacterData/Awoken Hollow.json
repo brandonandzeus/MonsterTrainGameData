@@ -1,49 +1,48 @@
 {
-  "nameKey": "CharacterData_nameKey-6acc6a42067bb9e0-0b15ea59d59e1e44a949e54d7274fb65-v2",
-  "size": 3,
-  "health": 15,
-  "attackDamage": 15,
+  "name": "Awoken Hollow",
   "triggers": [
     {
-      "trigger": 2,
-      "descriptionKey": "CharacterData_descriptionKey-71b0459bc6d08a05-0b15ea59d59e1e44a949e54d7274fb65-v2",
+      "description": "Gain [effect0.power] max health.",
       "effects": [
         {
           "effectStateName": "CardEffectAdjustMaxHealth",
-          "targetMode": 5,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 60
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
     },
     {
-      "trigger": 7,
-      "descriptionKey": "CharacterData_descriptionKey-116088e5850e4d52-0b15ea59d59e1e44a949e54d7274fb65-v2",
+      "description": "<b><nobr>Cultivate 2</nobr></b>.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 16,
-          "targetTeamType": 2,
           "paramCardUpgradeData": {
             "bonusDamage": 2,
             "bonusHP": 2
           },
           "additionalTooltips": [
             {
-              "titleKey": "CharacterAbility_Cultivate_CardText",
-              "descriptionKey": "CharacterAbility_Cultivate_TooltipText"
+              "title": "<b>Cultivate</b>",
+              "description": "Increase the [attack] and [health] of the friendly unit with the lowest health by the <b>Cultivate</b> value."
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Weakest",
+          "targetTeamType": "Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnHeal"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Golem_2d79cb56-4041-4d63-b7bf-8d2185923eda",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Hollow",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-a1b3503436037b78-0b15ea59d59e1e44a949e54d7274fb65-v2"
+  "characterLoreTooltips": [
+    "These souls, imprisoned in steel, try to break free before they lose their minds to the Wildwood. I had no idea of this until the Channelers told me. It took me some time to trust them again after that revelation. "
   ],
-  "name": "Awoken Hollow"
+  "size": 3,
+  "health": 15,
+  "attackDamage": 15
 }

@@ -1,19 +1,15 @@
 {
-  "nameKey": "CharacterData_nameKey-2e74cc5e87cfcf0f-76ef949555b3a664682c340d5dc355c6-v2",
-  "size": 2,
-  "health": 6,
-  "attackDamage": 2,
+  "name": "Archived Raven Knight",
   "startingStatusEffects": [
     {
-      "statusId": "exploit poison",
+      "statusId": null,
       "count": 1
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Witch_eadb3cce-94b3-42ed-9385-c1d20172e861"
+  "subtypes": [
+    "Witch"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived Raven Knight"
+  "size": 2,
+  "health": 6,
+  "attackDamage": 2
 }

@@ -1,44 +1,41 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 1,
-  "health": 20,
-  "canAttack": false,
-  "attackTeleportsToDefender": false,
+  "name": "Clipped Shaman Shard",
   "startingStatusEffects": [
     {
-      "statusId": "spell shield",
+      "statusId": "VanillaStatusEffectIDs.Spellshield",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 14,
-      "descriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
       "effects": [
         {
           "effectStateName": "CardEffectHeal",
-          "targetMode": 4,
+          "targetMode": "TargetMode.RoomHealTargets",
+          "targetTeamType": "Team.Type.Heroes",
           "paramInt": 20
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombatHealing"
     },
     {
-      "descriptionKey": "CharacterData_descriptionKey-328cd8b0bf1f2edc-d1c8f531716ad1449ae9302e0f06d388-v2",
+      "description": "Deal [effect0.power] damage to your front unit.",
       "effects": [
         {
           "effectStateName": "CardEffectDamage",
-          "targetMode": 2,
-          "targetTeamType": 2,
+          "targetMode": "TargetMode.FrontInRoom",
+          "targetTeamType": "Team.Type.Monsters",
           "paramInt": 5
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_None"
+  "subtypes": [
+    "None"
   ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Clipped Shaman Shard"
+  "size": 1,
+  "health": 20,
+  "canAttack": false,
+  "attackTeleportsToDefender": false
 }

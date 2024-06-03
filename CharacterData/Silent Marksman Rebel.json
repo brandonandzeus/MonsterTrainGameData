@@ -1,35 +1,35 @@
 {
-  "nameKey": "CharacterData_nameKey-614fa61ecdcff4f6-a93c99507dde8cf45825d7f145f84fd0-v2",
-  "size": 1,
-  "health": 25,
-  "attackDamage": 32,
-  "attackTeleportsToDefender": false,
+  "name": "Silent Marksman Rebel",
   "startingStatusEffects": [
     {
-      "statusId": "cardless",
+      "statusId": "VanillaStatusEffectIDs.Cardless",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 2,
-      "descriptionKey": "CharacterData_descriptionKey-26975ba04f834e66-a93c99507dde8cf45825d7f145f84fd0-v2",
+      "description": "Friendly units gain [stealth] 1.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetTeamType": 2,
           "paramStatusEffects": [
             {
-              "statusId": "stealth",
+              "statusId": "VanillaStatusEffectIDs.Stealth",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
     }
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-c31c6860ca204371-a93c99507dde8cf45825d7f145f84fd0-v2"
+  "characterLoreTooltips": [
+    "Some Marksman choose to stay hidden, rejecting the traditional spear of the Guardians and sticking with their accurate feathers of steel. Their agility and dark coating have made them nearly impossible for us to see."
   ],
-  "name": "Silent Marksman Rebel"
+  "size": 1,
+  "health": 25,
+  "attackDamage": 32,
+  "attackTeleportsToDefender": false
 }

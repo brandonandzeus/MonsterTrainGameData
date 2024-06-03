@@ -1,40 +1,36 @@
 {
-  "nameKey": "CharacterData_nameKey-4e445e80040c2a58-cfb7ef752b75b184e993c028b3369989-v2",
-  "pactCrystalsRequiredCount": 20,
-  "pactCrystalsVariantData": "Pyrewings Shard",
-  "size": 2,
-  "health": 90,
-  "attackDamage": 2,
+  "name": "Pyrewings",
   "startingStatusEffects": [
     {
-      "statusId": "hunter",
+      "statusId": "VanillaStatusEffectIDs.Sweep",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 3,
-      "descriptionKey": "CharacterData_descriptionKey-dd4665c7f8c7e37a-cfb7ef752b75b184e993c028b3369989-v2",
+      "description": "Apply [emberdrain] [effect0.status0.power] to the attacked unit.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 6,
-          "targetTeamType": 3,
           "paramStatusEffects": [
             {
-              "statusId": "scorch",
+              "statusId": "VanillaStatusEffectIDs.Emberdrain",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.LastAttackedCharacter",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HeavyT3"
+  "characterLoreTooltips": [
+    "During the fights of Armageddon, these Winged scoured Hell to extinguish all traces of the Pyre. However, they decided to keep shards of it for themselves, giving them an unusual control over our energy source."
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-97db006c05db23c7-cfb7ef752b75b184e993c028b3369989-v2"
-  ],
-  "name": "Pyrewings"
+  "pactCrystalsRequiredCount": 20,
+  "pactCrystalsVariantData": "Pyrewings Shard",
+  "size": 2,
+  "health": 90,
+  "attackDamage": 2
 }

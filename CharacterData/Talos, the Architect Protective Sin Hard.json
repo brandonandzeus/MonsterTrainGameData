@@ -1,74 +1,71 @@
 {
-  "nameKey": "CharacterData_nameKey-e0277895a4997cc6-e82109d76e258f441afd5cc9b0a95bfe-v2",
+  "name": "Talos, the Architect Protective Sin Hard",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 5
-      }
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 15,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 15
     },
     {
-      "covenantUpgrade": true,
-      "crystalsCount": 20,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
-        "bonusDamage": 1,
         "statusEffectUpgrades": [
           {
-            "statusId": "lifesteal",
+            "statusId": "VanillaStatusEffectIDs.Lifesteal",
             "count": 4
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false,
+        "bonusDamage": 1
+      },
+      "covenantUpgrade": true,
+      "crystalsCount": 20
     }
+  ],
+  "triggers": [
+    {
+      "description": "Push the attacked unit to the back.",
+      "effects": [
+        {
+          "effectStateName": "CardEffectFloorRearrange",
+          "targetMode": "TargetMode.LastAttackedCharacter",
+          "targetTeamType": "Team.Type.Monsters",
+          "paramInt": 1
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
+    }
+  ],
+  "bossActionGroups": [
+    {
+      "actions": [
+        {
+          "actionBehaviorName": "RandomBossActionBehavior",
+          "paramTeamType": "Team.Type.None"
+        }
+      ],
+      "numRepeats": 0
+    }
+  ],
+  "characterLoreTooltips": [
+    "In these visions, I’ve seen crystals used as prisons for souls. “Shardsouls”, they’ve been called. It seems their creator, a human of some ancient renown, created them to split the Divine Titans, but it’s unclear why this happened, what became of the human Exile, or the importance of Humans in this forgotten tragedy."
   ],
   "size": 6,
   "health": 450,
   "isOuterTrainBoss": true,
-  "validBossAttackPhase": -1,
-  "deathType": 2,
+  "validBossAttackPhase": "BossState.AttackPhase.Relentless",
+  "deathType": "CharacterDeathVFX.Type.Boss",
   "attackDamage": 7,
   "statusEffectImmunities": [
-    "rooted"
+    "VanillaStatusEffectIDs.Rooted"
   ],
-  "triggers": [
-    {
-      "trigger": 3,
-      "descriptionKey": "CharacterData_descriptionKey-9091f378cee8be27-e82109d76e258f441afd5cc9b0a95bfe-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectFloorRearrange",
-          "targetMode": 6,
-          "targetTeamType": 2,
-          "paramInt": 1
-        }
-      ]
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BigBossT1_50952308-e0f3-4acb-b0cc-e0d662b868b8"
-  ],
-  "removeTriggersOnRelentlessChange": true,
-  "bossActionGroups": [
-    {
-      "numRepeats": 0,
-      "actions": [
-        {
-          "actionBehaviorName": "RandomBossActionBehavior"
-        }
-      ]
-    }
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-fb0e80ed7e5e3743-e82109d76e258f441afd5cc9b0a95bfe-v2"
-  ],
-  "name": "Talos, the Architect Protective Sin Hard"
+  "removeTriggersOnRelentlessChange": true
 }

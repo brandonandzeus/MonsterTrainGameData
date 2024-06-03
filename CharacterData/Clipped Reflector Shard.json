@@ -1,48 +1,43 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 2,
-  "health": 120,
-  "attackDamage": 6,
+  "name": "Clipped Reflector Shard",
   "triggers": [
     {
-      "trigger": 2,
-      "descriptionKey": "CharacterData_descriptionKey-9302f95523a7bb6b-64a63a032e46a15449c55c3f74be4ba0-v2",
+      "description": "Apply [spellshield] [effect0.status0.power] to their units.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
           "paramStatusEffects": [
             {
-              "statusId": "spell shield",
+              "statusId": "VanillaStatusEffectIDs.Spellshield",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
     },
     {
-      "trigger": 19,
-      "descriptionKey": "CharacterData_descriptionKey-48a8b5e9bd36a559-64a63a032e46a15449c55c3f74be4ba0-v2",
+      "description": "Gain [armor] [effect0.status0.power].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "targetCharacterSubtype": "SubtypesData_ShieldGuardT2",
           "paramStatusEffects": [
             {
-              "statusId": "armor",
+              "statusId": "VanillaStatusEffectIDs.Armor",
               "count": 10
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
+          "targetCharacterSubtype": "SubtypesData_ShieldGuardT2"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HeavyT2"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Clipped Reflector Shard"
+  "size": 2,
+  "health": 120,
+  "attackDamage": 6
 }

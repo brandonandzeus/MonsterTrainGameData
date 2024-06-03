@@ -1,38 +1,37 @@
 {
-  "nameKey": "CharacterData_nameKey-b084d75ef9ffa418-f5f4b81d8412b634db4570217c39c5b9-v2",
-  "size": 2,
-  "health": 20,
-  "attackDamage": 5,
+  "name": "Keeper of Echoes",
   "triggers": [
     {
-      "trigger": 32,
-      "descriptionKey": "CharacterData_descriptionKey-162f36d76e8c07f7-f5f4b81d8412b634db4570217c39c5b9-v2",
-      "additionalTextOnTriggerKey": "CharacterData_additionalTextOnTriggerKey-7c53bb73b20ed5ea-f5f4b81d8412b634db4570217c39c5b9-v2",
+      "description": "Apply +[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health] to friendly units.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetTeamType": 2,
-          "paramInt": 1,
           "paramCardUpgradeData": {
             "bonusDamage": 1,
             "bonusHP": 1
           },
           "additionalTooltips": [
             {
-              "titleKey": "HudTooltip_RoomCorruption_Title",
-              "descriptionKey": "HudTooltip_RoomCorruption_Body"
+              "title": "Charged Echoes",
+              "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Monsters",
+          "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CorruptionAdded"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Wurm",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Kin",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-44ab366f203b7fe7-f5f4b81d8412b634db4570217c39c5b9-v2"
+  "characterLoreTooltips": [
+    "The stones the Wurmkin carry, simply called Kinstones, represent their life’s work. A single line of inquiry that they utilize the Echoes’ knowledge to complete. Kinstones aren’t often completed by a single Wurmkin, but passed down over time. When they are completed, the Wurmkin retire into a position as a custodian of Echoes and eggs."
   ],
-  "name": "Keeper of Echoes"
+  "size": 2,
+  "health": 20,
+  "attackDamage": 5
 }

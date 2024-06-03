@@ -1,16 +1,12 @@
 {
-  "nameKey": "CharacterData_nameKey-58f78255e06f0f66-380369b69e6b2aa478c2d40ad56b910e-v2",
+  "name": "Lightwings",
+  "characterLoreTooltips": [
+    "The personal guard of Seraph. Protectors of his Light. Their blinding wings distract the less focused among us from their razor-sharp edges."
+  ],
   "pactCrystalsRequiredCount": 10,
   "pactCrystalsVariantData": "Lightwings Shard",
   "size": 1,
   "health": 3,
   "attackDamage": 10,
-  "attackTeleportsToDefender": false,
-  "subtypeKeys": [
-    "SubtypesData_AttackerT3"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-c45e1acf932419fc-380369b69e6b2aa478c2d40ad56b910e-v2"
-  ],
-  "name": "Lightwings"
+  "attackTeleportsToDefender": false
 }

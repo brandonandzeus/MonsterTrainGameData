@@ -1,38 +1,36 @@
 {
-  "nameKey": "CharacterData_nameKey-04672fc70f11f86e-7eae959035e4a9b40b3baaa0c65f315e-v2",
-  "pactCrystalsRequiredCount": 14,
-  "pactCrystalsVariantData": "Conduit Infiltrator Shard",
-  "size": 1,
-  "health": 1,
-  "attackDamage": 1,
+  "name": "Conduit Infiltrator",
   "startingStatusEffects": [
     {
-      "statusId": "haste",
+      "statusId": "VanillaStatusEffectIDs.Haste",
       "count": 1
     }
   ],
   "triggers": [
     {
-      "trigger": 16,
-      "descriptionKey": "CharacterData_descriptionKey-802a41a6b831a640-7eae959035e4a9b40b3baaa0c65f315e-v2",
+      "description": "Grant [haste].",
       "effects": [
         {
-          "effectStateName": "CardEffectEnchant",
           "paramStatusEffects": [
             {
-              "statusId": "haste",
+              "statusId": "VanillaStatusEffectIDs.Haste",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectEnchant",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.Heroes"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.AfterSpawnEnchant"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HordeT1"
+  "characterLoreTooltips": [
+    "Instead of direct control of Seraph's Light, these laypeople act as conduits through which the Light can enhance their allies. Conduits, as they've come to be known, have stolen important knowledge of our train, allowing them to infiltrate more quickly."
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-fd95010968ad1528-7eae959035e4a9b40b3baaa0c65f315e-v2"
-  ],
-  "name": "Conduit Infiltrator"
+  "pactCrystalsRequiredCount": 14,
+  "pactCrystalsVariantData": "Conduit Infiltrator Shard",
+  "size": 1,
+  "health": 1,
+  "attackDamage": 1
 }

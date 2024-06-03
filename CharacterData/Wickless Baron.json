@@ -1,32 +1,31 @@
 {
-  "nameKey": "CharacterData_nameKey-837d46c859c1aa30-82836a82286061a4aa74ea48a84ddb78-v2",
-  "size": 2,
-  "health": 15,
-  "attackDamage": 5,
+  "name": "Wickless Baron",
   "triggers": [
     {
-      "trigger": 18,
-      "descriptionKey": "CharacterData_descriptionKey-c3034e4db125c612-82836a82286061a4aa74ea48a84ddb78-v2",
+      "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "paramInt": 1,
           "paramCardUpgradeData": {
             "bonusDamage": 3,
             "bonusHP": 3
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Wickless_517faf2f-8836-42d3-b84d-75a99b7dc735",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Wickless",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-f589f8ccc23217a4-82836a82286061a4aa74ea48a84ddb78-v2"
+  "characterLoreTooltips": [
+    "Some Waxers would prefer to stay in this Ring of Hell, finding their current predicament to be rather comfortable. Even fewer will decide to make that choice more permanent by removing their wicks entirely."
   ],
-  "name": "Wickless Baron"
+  "size": 2,
+  "health": 15,
+  "attackDamage": 5
 }

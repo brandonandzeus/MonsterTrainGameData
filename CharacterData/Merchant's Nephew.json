@@ -1,28 +1,25 @@
 {
-  "nameKey": "CharacterData_nameKey-9bb9753c07b4abe2-0125d85fca9248b40a1dfd86873b7548-v2",
-  "size": 1,
-  "health": 1,
-  "attackDamage": 1,
-  "attackTeleportsToDefender": false,
+  "name": "Merchant's Nephew",
   "triggers": [
     {
-      "trigger": 3,
-      "descriptionKey": "CharacterData_descriptionKey-c52cf84f299f6ad3-0125d85fca9248b40a1dfd86873b7548-v2",
+      "description": "+1[coin]",
       "effects": [
         {
           "effectStateName": "CardEffectRewardGold",
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Heph",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Titanspawn",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Merchant's Nephew"
+  "size": 1,
+  "health": 1,
+  "attackDamage": 1,
+  "attackTeleportsToDefender": false
 }

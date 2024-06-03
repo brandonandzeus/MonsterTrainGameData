@@ -1,18 +1,14 @@
 {
-  "nameKey": "CharacterData_nameKey-c509c5639fcd5324-a4895eb08cd519946afd8d4106576001-v2",
-  "size": 2,
-  "health": 15,
+  "name": "Archived Phantom",
   "startingStatusEffects": [
     {
-      "statusId": "ephemeral",
+      "statusId": "VanillaStatusEffectIDs.Burnout",
       "count": 1
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Wickless_517faf2f-8836-42d3-b84d-75a99b7dc735"
+  "subtypes": [
+    "Wickless"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived Phantom"
+  "size": 2,
+  "health": 15
 }

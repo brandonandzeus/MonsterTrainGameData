@@ -1,21 +1,20 @@
 {
-  "nameKey": "CharacterData_nameKey-fbba9c15201a4755-11a15f5949523af41804f162c783d725-v2",
-  "size": 2,
-  "health": 5,
-  "attackDamage": 10,
-  "attackTeleportsToDefender": false,
+  "name": "Bounty Stalker",
   "startingStatusEffects": [
     {
-      "statusId": "stealth",
+      "statusId": "VanillaStatusEffectIDs.Stealth",
       "count": 1
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Wickless_517faf2f-8836-42d3-b84d-75a99b7dc735",
-    "SubtypesData_Chosen"
+  "subtypes": [
+    "Wickless",
+    "Chosen"
   ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-ff8dd14fb5d5c8ac-11a15f5949523af41804f162c783d725-v2"
+  "characterLoreTooltips": [
+    "Contracted assassins often employed by the Wickless to accomplish what even they cannot. Their incredible prowess in hunting Waxers has made them feared across the entire Ring, from Reformed to Wickless alike. I can't say I much like them myself."
   ],
-  "name": "Bounty Stalker"
+  "size": 2,
+  "health": 5,
+  "attackDamage": 10,
+  "attackTeleportsToDefender": false
 }

@@ -1,33 +1,28 @@
 {
-  "nameKey": "CharacterData_nameKey-8c3197b7197ea468-13991488da512424ca11318bcb1ce8eb-v2",
-  "size": 1,
-  "health": 4,
-  "attackDamage": 1,
+  "name": "Archived Initiate",
   "triggers": [
     {
-      "trigger": 3,
-      "descriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 6,
-          "targetTeamType": 0,
-          "shouldTest": false,
           "paramStatusEffects": [
             {
-              "statusId": "spell weakness",
+              "statusId": "VanillaStatusEffectIDs.SpellWeakness",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.LastAttackedCharacter",
+          "targetTeamType": "Team.Type.None",
+          "shouldTest": false
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_Cultist_8a3bb2b5-8c56-4c86-bb08-85b95c488f23"
+  "subtypes": [
+    "Channeler"
   ],
-  "characterLoreTooltipKeys": [
-
-  ],
-  "name": "Archived Initiate"
+  "size": 1,
+  "health": 4,
+  "attackDamage": 1
 }

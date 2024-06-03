@@ -1,34 +1,30 @@
 {
-  "nameKey": "CharacterData_nameKey-739856f144753c44-97bf07aed3e4c77408d5be8edd14c9a8-v2",
+  "name": "Overcharged Tank",
+  "triggers": [
+    {
+      "description": "Gain [armor] [effect0.status0.power].",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Armor",
+              "count": 10
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor"
+    }
+  ],
+  "characterLoreTooltips": [
+    "Further additions to the Light armor worn by these Clipped has made the crystal within it very unstable. To combat these effects, the Clipped have strapped on even more armor to contain the decay."
+  ],
   "pactCrystalsRequiredCount": 25,
   "pactCrystalsVariantData": "Overcharged Tank Shard",
   "size": 2,
   "health": 65,
-  "attackDamage": 5,
-  "triggers": [
-    {
-      "trigger": 18,
-      "descriptionKey": "CharacterData_descriptionKey-b18bcb4d71e432ce-97bf07aed3e4c77408d5be8edd14c9a8-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "paramStatusEffects": [
-            {
-              "statusId": "armor",
-              "count": 10
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_HeavyT2"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-6d31b2652cc8ecf2-97bf07aed3e4c77408d5be8edd14c9a8-v2"
-  ],
-  "name": "Overcharged Tank"
+  "attackDamage": 5
 }

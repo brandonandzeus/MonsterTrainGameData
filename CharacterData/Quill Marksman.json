@@ -1,16 +1,12 @@
 {
-  "nameKey": "CharacterData_nameKey-3e712cb94708837f-46c73a0241b99a248ab60559466dd97e-v2",
+  "name": "Quill Marksman",
+  "characterLoreTooltips": [
+    "Younger Clipped coat their severed feathers in steel and sharpen them to use as hyper-accurate throwing knives. By the time they run out, they are usually old enough to pick up a spear and serve their duty as a Guardian."
+  ],
   "pactCrystalsRequiredCount": 14,
   "pactCrystalsVariantData": "Quill Marksman Shard",
   "size": 1,
   "health": 2,
   "attackDamage": 6,
-  "attackTeleportsToDefender": false,
-  "subtypeKeys": [
-    "SubtypesData_AttackerT2"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-e22c921a9d045849-46c73a0241b99a248ab60559466dd97e-v2"
-  ],
-  "name": "Quill Marksman"
+  "attackTeleportsToDefender": false
 }

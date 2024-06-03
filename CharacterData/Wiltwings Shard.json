@@ -1,27 +1,21 @@
 {
-  "nameKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-  "size": 1,
-  "health": 15,
-  "attackDamage": 20,
-  "attackTeleportsToDefender": false,
+  "name": "Wiltwings Shard",
   "triggers": [
     {
-      "descriptionKey": "CharacterData_descriptionKey-6afef68b1a0e6f75-713c294288c6a2e48a69c7a5a1ae445a-v2",
+      "description": "Deal [effect0.power] damage to your front unit.",
       "effects": [
         {
           "effectStateName": "CardEffectDamage",
-          "targetMode": 2,
-          "targetTeamType": 2,
+          "targetMode": "TargetMode.FrontInRoom",
+          "targetTeamType": "Team.Type.Monsters",
           "paramInt": 10
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
-  "subtypeKeys": [
-    "SubtypesData_HordeT1"
-  ],
-  "characterLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
-  "name": "Wiltwings Shard"
+  "size": 1,
+  "health": 15,
+  "attackDamage": 20,
+  "attackTeleportsToDefender": false
 }

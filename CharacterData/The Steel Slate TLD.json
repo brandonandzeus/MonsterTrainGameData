@@ -1,13 +1,12 @@
 {
-  "nameKey": "CharacterData_nameKey-8f45bef3e43af7f2-557bd0a4143dca94caf24a07e1ae417f-v2",
+  "name": "The Steel Slate TLD",
+  "characterLoreTooltips": [
+    "To further improve the shield he bears, the Slate melts down and reforges it after every battle using whatever metal remains of the fallen. Once his shield shuts in protection, it's almost impossible to open again. Almost."
+  ],
   "pactCrystalsRequiredCount": 0,
   "pactCrystalsVariantData": "The Steel Slate TLD Shard",
   "size": 5,
   "health": 120,
-  "deathType": 1,
-  "attackDamage": 3,
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-f98d794ab379a095-557bd0a4143dca94caf24a07e1ae417f-v2"
-  ],
-  "name": "The Steel Slate TLD"
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 3
 }

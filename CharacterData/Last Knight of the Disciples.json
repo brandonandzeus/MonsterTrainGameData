@@ -1,58 +1,53 @@
 {
-  "nameKey": "CharacterData_nameKey-199588ce70bb1d9f-8686235b31131b643973e859c87a5caa-v2",
+  "name": "Last Knight of the Disciples",
   "bypassPactCrystalsUpgradeDataList": [
     {
-      "crystalsCount": 5,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusHP": 5
-      }
+      },
+      "crystalsCount": 5
     },
     {
-      "crystalsCount": 25,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusDamage": 1
-      }
+      },
+      "crystalsCount": 25
     },
     {
-      "covenantUpgrade": true,
       "upgradeData": {
-        "useUpgradeHighlightTextTags": false,
         "statusEffectUpgrades": [
           {
-            "statusId": "buff",
+            "statusId": "VanillaStatusEffectIDs.Rage",
             "count": 1
           }
-        ]
-      }
+        ],
+        "useUpgradeHighlightTextTags": false
+      },
+      "covenantUpgrade": true
     },
     {
-      "isRepeatable": false,
-      "crystalsCount": 30,
       "upgradeData": {
         "useUpgradeHighlightTextTags": false,
         "bonusSize": 1
-      }
+      },
+      "isRepeatable": false,
+      "crystalsCount": 30
     }
+  ],
+  "startingStatusEffects": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Relentless",
+      "count": 1
+    }
+  ],
+  "characterLoreTooltips": [
+    "The Knights of the Disciples were the first humans to charge into battle when our Covenant was broken. Now only one remains to uphold their ancient creed."
   ],
   "size": 5,
   "health": 110,
   "isMiniboss": true,
-  "deathType": 1,
-  "attackDamage": 7,
-  "startingStatusEffects": [
-    {
-      "statusId": "relentless",
-      "count": 1
-    }
-  ],
-  "subtypeKeys": [
-    "SubtypesData_BossT1_8850292e-bda8-428e-8d71-c375c29838f8",
-    "SubtypesData_Boss"
-  ],
-  "characterLoreTooltipKeys": [
-    "CharacterData_data-c7230d62296a5c20-8686235b31131b643973e859c87a5caa-v2"
-  ],
-  "name": "Last Knight of the Disciples"
+  "deathType": "CharacterDeathVFX.Type.Large",
+  "attackDamage": 7
 }
