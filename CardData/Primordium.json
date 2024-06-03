@@ -1,40 +1,34 @@
 {
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Champion",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
+        "name": "Primordium",
+        "startingStatusEffects": [
+          {
+            "statusId": "VanillaStatusEffectIDs.Buffet",
+            "count": 3
+          }
+        ],
+        "subtypes": [
+          "Champion"
+        ],
+        "characterLoreTooltips": [
+          "I can feel the end of my days loom near as these visions become more frequent and more confusing. It seems even the Umbra Shroud has origins beyond my prior knowledge. This Primordial shadow rumbles with the weight of the entire Shroud under its cloak. But what happened to this ancient creature?"
+        ],
         "nameKey": "CharacterData_nameKey-bf34131a14621d7e-d3ffad653d077d244b2bd1942e189126-v2",
         "size": 2,
         "health": 3,
         "deathType": "CharacterDeathVFX.Type.Large",
-        "attackDamage": 3,
-        "startingStatusEffects": [
-          {
-            "statusId": "eatmany",
-            "count": 3
-          }
-        ],
-        "subtypeKeys": [
-          "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-8bdd633f5291b83a-d3ffad653d077d244b2bd1942e189126-v2"
-        ],
-        "name": "Primordium",
-        "subtype": [
-          "Champion"
-        ],
-        "characterLoreTooltip": [
-          "I can feel the end of my days loom near as these visions become more frequent and more confusing. It seems even the Umbra Shroud has origins beyond my prior knowledge. This Primordial shadow rumbles with the weight of the entire Shroud under its cloak. But what happened to this ancient creature?"
-        ]
-      }
+        "attackDamage": 3
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Champion",
   "startingUpgrades": [
     null
   ],

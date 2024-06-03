@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-88c040336a16771d-8469d3accf3a7ba469d06aaffe093c08-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-1606de134efbb673-8469d3accf3a7ba469d06aaffe093c08-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Rare",
+  "name": "Channelsong",
+  "overrideDescription": "Draw a unit and apply +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], and 0[ember].",
   "traits": [
     {
       "traitStateName": "CardTraitShowCardTargets"
@@ -14,17 +11,7 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddTempCardUpgradeToNextDrawnCard",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "shouldTest": false,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-f2da164f7340ca62-25777e6ac79c2604ab934b6df60eeccd-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-ff2f5dd867e961a8-25777e6ac79c2604ab934b6df60eeccd-v2",
-        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-        "bonusDamage": 20,
-        "bonusHP": 20,
-        "costReduction": 99,
         "filters": [
           {
             "cardType": "CardType.Monster",
@@ -40,9 +27,14 @@
             "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ],
-        "upgradeTitle": "",
-        "upgradeDescription": ""
-      }
+        "bonusDamage": 20,
+        "bonusHP": 20,
+        "costReduction": 99
+      },
+      "effectStateName": "CardEffectAddTempCardUpgradeToNextDrawnCard",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
+      "shouldTest": false
     },
     {
       "effectStateName": "CardEffectDrawType",
@@ -52,14 +44,12 @@
       "paramInt": 1
     }
   ],
-  "linkedClass": "ClassAwoken",
-  "cardLoreTooltipKeys": [
-    "CardData_data-2fc5a834e5a68fde-8469d3accf3a7ba469d06aaffe093c08-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Channelsong",
-  "overrideDescription": "Draw a unit and apply +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], and 0[ember].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "The Channelers of the Wildwood prefer to keep their involvement in its growth to a minimum. However, their intervention is sometimes required to achieve more “aggressive” expansion."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
+  "linkedClass": "ClassAwoken",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

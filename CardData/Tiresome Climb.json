@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-401acda746a54983-36a045372c769384cbdc8090464740fa-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-b6cd10f4920af4f8-36a045372c769384cbdc8090464740fa-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Tiresome Climb",
+  "overrideDescription": "[ascend] a unit and apply [dazed] [effect1.status0.power].",
   "effects": [
     {
       "effectStateName": "CardEffectBump",
@@ -13,26 +9,25 @@
       "paramInt": 1
     },
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.LastTargetedCharacters",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "dazed",
+          "statusId": "VanillaStatusEffectIDs.Dazed",
           "count": 2
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
+  "cardLoreTooltips": [
+    "Alongside the few remaining Hellhorned scholars, I designed the Boneshaker to change its shape at will, creating hallways that stretch to near infinity for the Winged who choose to walk them."
+  ],
+  "cost": 2,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassHellhorned",
   "unlockLevel": 5,
-  "cardLoreTooltipKeys": [
-    "CardData_data-0c80e6a10774f8ee-36a045372c769384cbdc8090464740fa-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Tiresome Climb",
-  "overrideDescription": "[ascend] a unit and apply [dazed] [effect1.status0.power].",
-  "cardLoreTooltip": [
-    "Alongside the few remaining Hellhorned scholars, I designed the Boneshaker to change its shape at will, creating hallways that stretch to near infinity for the Winged who choose to walk them."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

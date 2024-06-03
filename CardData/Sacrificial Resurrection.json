@@ -1,8 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-974cf17403b21af7-d2941895122edb745b043cd26f10adb8-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-18b7c46f330a1d48-d2941895122edb745b043cd26f10adb8-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Rare",
+  "name": "Sacrificial Resurrection",
+  "overrideDescription": "[consume] cards in hand. Add a <b>Draff</b> unit to your hand and apply +[effect1.upgrade.bonusdamage][attack] for each card consumed.",
   "traits": [
     {
       "traitStateName": "CardTraitScalingByConsumedTempCardUpgradeToCard",
@@ -12,26 +10,18 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectDiscardHand",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "paramInt": 1,
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitExhaustState_CardText",
-          "descriptionKey": "CardTraitExhaustState_TooltipText",
           "title": "Consume",
           "description": "Can only be played once per battle."
         }
-      ]
-    },
-    {
-      "effectStateName": "CardEffectAddBattleCard",
+      ],
+      "effectStateName": "CardEffectDiscardHand",
       "targetMode": "TargetMode.Room",
       "targetTeamType": "Team.Type.None",
-      "targetCardType": "CardType.Monster",
-      "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
-      "paramInt": 3,
+      "paramInt": 1
+    },
+    {
       "paramCardPool": {
         "name": "DraffOnlyPool",
         "cardDataList": [
@@ -39,24 +29,22 @@
         ]
       },
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-4b0b92c35b0118fe-ecfb2e06fb0f4b34dacdecf81b92e2a3-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-9b93a22e0e7aef54-ecfb2e06fb0f4b34dacdecf81b92e2a3-v2",
-        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-        "bonusDamage": 10,
-        "upgradeTitle": "",
-        "upgradeDescription": ""
-      }
+        "bonusDamage": 10
+      },
+      "effectStateName": "CardEffectAddBattleCard",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
+      "targetCardType": "CardType.Monster",
+      "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
+      "paramInt": 3
     }
   ],
+  "cardLoreTooltips": [
+    "When new wax is unavailable to reform a fallen Waxer, the more selfless Reformed choose to donate a portion of their own form to the resurrection."
+  ],
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassRemnant",
   "unlockLevel": 9,
-  "cardLoreTooltipKeys": [
-    "CardData_data-7df8f3e4b05a4434-d2941895122edb745b043cd26f10adb8-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Sacrificial Resurrection",
-  "overrideDescription": "[consume] cards in hand. Add a <b>Draff</b> unit to your hand and apply +[effect1.upgrade.bonusdamage][attack] for each card consumed.",
-  "cardLoreTooltip": [
-    "When new wax is unavailable to reform a fallen Waxer, the more selfless Reformed choose to donate a portion of their own form to the resurrection."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

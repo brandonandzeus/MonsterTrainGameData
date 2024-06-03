@@ -1,15 +1,8 @@
 {
-  "nameKey": "CardData_nameKey-9f5e09b1524d8334-2476514d2d3dfa6448a472d2da7a76d3-v2",
-  "cost": 4,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-89b29ab5139884da-2476514d2d3dfa6448a472d2da7a76d3-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Gem Trove",
+  "overrideDescription": "Apply [damageshield] [effect0.status0.power] to friendly units. Add 3 uncommon or rare [snack] units to your hand.",
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.Monsters",
-      "additionalParamInt": 3,
       "paramCardPool": {
         "name": "Class5Food",
         "cardDataList": [
@@ -36,17 +29,16 @@
       },
       "paramStatusEffects": [
         {
-          "statusId": "damage shield",
+          "statusId": "VanillaStatusEffectIDs.DamageShield",
           "count": 1
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Monsters",
+      "additionalParamInt": 3
     },
     {
-      "effectStateName": "CardEffectAddBattleCard",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "paramInt": 3,
-      "additionalParamInt": 3,
       "paramCardPool": {
         "name": "Class5Food",
         "cardDataList": [
@@ -70,17 +62,20 @@
           "VoidExcavator",
           "MorselMiner"
         ]
-      }
+      },
+      "effectStateName": "CardEffectAddBattleCard",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
+      "paramInt": 3,
+      "additionalParamInt": 3
     }
   ],
-  "linkedClass": "ClassUmbra",
-  "cardLoreTooltipKeys": [
-    "CardData_data-1cae6727d69c01ff-2476514d2d3dfa6448a472d2da7a76d3-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Gem Trove",
-  "overrideDescription": "Apply [damageshield] [effect0.status0.power] to friendly units. Add 3 uncommon or rare [snack] units to your hand.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "It is said that the Crucible was formed when the Pyre first ignited, molding and melting the nearby ground to create endless, winding caverns. The Umbra have done their best to direct me through these tunnels, but the maze of caves has still been enough to trap me for days at a time."
-  ]
+  ],
+  "cost": 4,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassUmbra",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

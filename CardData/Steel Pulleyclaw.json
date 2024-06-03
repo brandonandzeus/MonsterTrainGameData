@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-c96276f175c949f1-8431768d8be902f48a64ef357ea2d8d9-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-8ddd3c0d5e13a597-8431768d8be902f48a64ef357ea2d8d9-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Steel Pulleyclaw",
+  "overrideDescription": "[ascend] an enemy unit to the Pyre Room. Apply [dazed] [effect0.status0.power].",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -12,36 +8,35 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes",
       "paramStatusEffects": [
         {
-          "statusId": "dazed",
+          "statusId": "VanillaStatusEffectIDs.Dazed",
           "count": 3
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes"
     },
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Dazed",
+          "count": 3
+        }
+      ],
       "effectStateName": "CardEffectBump",
       "targetMode": "TargetMode.LastTargetedCharacters",
       "targetTeamType": "Team.Type.Heroes",
-      "paramInt": 100,
-      "paramStatusEffects": [
-        {
-          "statusId": "dazed",
-          "count": 3
-        }
-      ]
+      "paramInt": 100
     }
   ],
-  "cardLoreTooltipKeys": [
-    "CardData_data-a0c2cd11d1444748-8431768d8be902f48a64ef357ea2d8d9-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Steel Pulleyclaw",
-  "overrideDescription": "[ascend] an enemy unit to the Pyre Room. Apply [dazed] [effect0.status0.power].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Found in an abandoned train yard, this Steel Pulleyclaw was used to assemble the trains themselves. With minimal adjustments, I was able to modify it for a more combative purpose."
-  ]
+  ],
+  "cost": 2,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

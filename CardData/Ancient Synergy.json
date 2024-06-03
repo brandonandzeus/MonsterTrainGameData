@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-513e36984202ea82-6cc3e26efa971d840bae0d4045e1efd3-v2",
-  "cost": 3,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-c00aff79b22f47f5-6cc3e26efa971d840bae0d4045e1efd3-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Rare",
+  "name": "Ancient Synergy",
+  "overrideDescription": "Deal damage to the front enemy unit equal to [trait0.power]x the number of spells in your deck, three times.",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddDamage",
@@ -32,15 +29,13 @@
       "targetTeamType": "Team.Type.Heroes"
     }
   ],
+  "cardLoreTooltips": [
+    "When mages channel the energy of the Titan, it is often released uncontrollably and violently at first. It takes many years of studying to control the flow, and while I've studied with the Stygian for a long time, the power still escapes me."
+  ],
+  "cost": 3,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassStygian",
   "unlockLevel": 10,
-  "cardLoreTooltipKeys": [
-    "CardData_data-e03109b2fe44977e-6cc3e26efa971d840bae0d4045e1efd3-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Ancient Synergy",
-  "overrideDescription": "Deal damage to the front enemy unit equal to [trait0.power]x the number of spells in your deck, three times.",
-  "cardLoreTooltip": [
-    "When mages channel the energy of the Titan, it is often released uncontrollably and violently at first. It takes many years of studying to control the flow, and while I've studied with the Stygian for a long time, the power still escapes me."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

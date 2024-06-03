@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-21a7819c35ff5b29-66cabaadb48c52b40b33eb5633d92ec6-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-b8de1afaecbd3441-66cabaadb48c52b40b33eb5633d92ec6-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Invigorating Solution",
+  "overrideDescription": "Draw +[effect0.power] next turn.",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -17,14 +14,12 @@
       "paramInt": 3
     }
   ],
-  "linkedClass": "ClassAwoken",
-  "cardLoreTooltipKeys": [
-    "CardData_data-f267d8b416f7893f-66cabaadb48c52b40b33eb5633d92ec6-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Invigorating Solution",
-  "overrideDescription": "Draw +[effect0.power] next turn.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "After their first visit aboard my train, the Edge Priory concocted a solution of Wildwood sap and condensed train steam to coax more performance from the Boneshaker’s engines."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassAwoken",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

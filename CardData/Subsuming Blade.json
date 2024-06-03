@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-6eadd4af74d50d0b-532a6c597cb19d24c9c8931e8581e6b5-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-9f50a3427cfc670c-532a6c597cb19d24c9c8931e8581e6b5-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Subsuming Blade",
+  "overrideDescription": "Deal [effect0.power] damage.",
   "traits": [
     {
       "traitStateName": "CardTraitIgnoreArmor"
@@ -20,8 +16,7 @@
   ],
   "triggers": [
     {
-      "trigger": "CardTriggerType.OnKill",
-      "descriptionKey": "CardData_descriptionKey-dfc26191c1e20cd2-532a6c597cb19d24c9c8931e8581e6b5-v2",
+      "description": "Increase damage by 3 permanently.",
       "cardTriggerEffects": [
         {
           "persistenceMode": "PersistenceMode.SingleRun",
@@ -30,18 +25,17 @@
           "paramInt": 3
         }
       ],
-      "description": "Increase damage by 3 permanently."
+      "trigger": "CardTriggerType.OnKill"
     }
   ],
+  "cardLoreTooltips": [
+    "This blade grows larger with each use, slowly accumulating more wax and becoming more dangerous. Reluctantly, I created it with the Wickless when Hell was invaded to defend against the advancing Winged."
+  ],
+  "cost": 2,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassRemnant",
   "unlockLevel": 2,
-  "cardLoreTooltipKeys": [
-    "CardData_data-d50e754c60fffe23-532a6c597cb19d24c9c8931e8581e6b5-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
-  "name": "Subsuming Blade",
-  "overrideDescription": "Deal [effect0.power] damage.",
-  "cardLoreTooltip": [
-    "This blade grows larger with each use, slowly accumulating more wax and becoming more dangerous. Reluctantly, I created it with the Wickless when Hell was invaded to defend against the advancing Winged."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy"
 }

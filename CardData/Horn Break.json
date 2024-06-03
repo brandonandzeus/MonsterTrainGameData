@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-9c948cf02f3e0288-cb7f8f1805d4cd4449185ec893355baa-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-cea726817805edf9-cb7f8f1805d4cd4449185ec893355baa-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Common",
+  "name": "Horn Break",
+  "overrideDescription": "Deal [effect0.power] damage, twice.",
   "traits": [
     {
       "traitStateName": "CardTraitIgnoreArmor"
@@ -24,14 +20,13 @@
       "paramInt": 5
     }
   ],
-  "linkedClass": "ClassHellhorned",
-  "cardLoreTooltipKeys": [
-    "CardData_data-067fe5812e42fe8b-cb7f8f1805d4cd4449185ec893355baa-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
-  "name": "Horn Break",
-  "overrideDescription": "Deal [effect0.power] damage, twice.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "A defeated opponent's horns are broken as a ritualistic act of dominance. The horns are then collected by the victor as a trophy."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassHellhorned",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy"
 }

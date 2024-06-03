@@ -1,35 +1,20 @@
 {
-  "nameKey": "CardData_nameKey-7654bc7dfea23fb3-68ca3acafc6f4de4b907525dd8c0d88b-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-f257e56d71769740-68ca3acafc6f4de4b907525dd8c0d88b-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Common",
+  "name": "Sharpen",
+  "overrideDescription": "Apply +[effect0.upgrade.bonusdamage][attack] and [spikes] [effect1.status0.power].",
   "effects": [
     {
+      "paramCardUpgradeData": {
+        "bonusDamage": 4
+      },
       "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
       "targetMode": "TargetMode.DropTargetCharacter",
       "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "paramInt": 100,
-      "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-dde91dfb9de7d850-cff7c75a6723c984380d4cc9a608ff06-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-bef4c926473516af-cff7c75a6723c984380d4cc9a608ff06-v2",
-        "upgradeNotificationKey": "CardUpgradeData_upgradeNotificationKey-5f614bd4fb20e9fc-cff7c75a6723c984380d4cc9a608ff06-v2",
-        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-        "bonusDamage": 4,
-        "upgradeTitle": "",
-        "upgradeDescription": "",
-        "upgradeNotification": ""
-      }
+      "paramInt": 100
     },
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.LastTargetedCharacters",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "paramInt": 100,
       "paramStatusEffects": [
         {
-          "statusId": "spikes",
+          "statusId": "VanillaStatusEffectIDs.Spikes",
           "count": 4
         }
       ],
@@ -37,17 +22,20 @@
         "x": 0.1,
         "y": 0.1,
         "z": 0.1
-      }
+      },
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
+      "paramInt": 100
     }
   ],
-  "linkedClass": "ClassAwoken",
-  "cardLoreTooltipKeys": [
-    "CardData_data-a5822a1420d5cfb8-68ca3acafc6f4de4b907525dd8c0d88b-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Sharpen",
-  "overrideDescription": "Apply +[effect0.upgrade.bonusdamage][attack] and [spikes] [effect1.status0.power].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "I've found discarded Hollow armor serves as a perfect tool to sharpen dull weapons."
-  ]
+  ],
+  "cost": 2,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassAwoken",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

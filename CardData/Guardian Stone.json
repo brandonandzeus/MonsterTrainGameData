@@ -1,56 +1,49 @@
 {
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-1ff9c51bf6a24cf4-9753104f58db2f14caea0965e30e3538-v2",
-        "size": 1,
-        "health": 1,
-        "deathSlidesBackwards": false,
+        "name": "Guardian Stone",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed",
-            "descriptionKey": "CharacterData_descriptionKey-b167abe297bb57e4-9753104f58db2f14caea0965e30e3538-v2",
+            "description": "Apply [armor] [effect0.status0.power] to friendly units.",
             "effects": [
               {
+                "paramStatusEffects": [
+                  {
+                    "statusId": "VanillaStatusEffectIDs.Armor",
+                    "count": 1
+                  }
+                ],
                 "effectStateName": "CardEffectAddStatusEffect",
                 "targetMode": "TargetMode.Room",
                 "targetTeamType": "Team.Type.Monsters",
                 "animToPlay": "CharacterUI.Anim.Attack",
-                "paramInt": 100,
-                "paramStatusEffects": [
-                  {
-                    "statusId": "armor",
-                    "count": 1
-                  }
-                ]
+                "paramInt": 100
               }
             ],
-            "description": "Apply [armor] [effect0.status0.power] to friendly units."
+            "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Totem_7c4e7151-d042-49e2-9700-29e7c760b691"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-d40b317dedb99ed1-9753104f58db2f14caea0965e30e3538-v2"
-        ],
-        "name": "Guardian Stone",
-        "subtype": [
+        "subtypes": [
           "Totem"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "I've been told these stones predate even the Guard. They have been etched by its various members, marking the only true record of each Stygian who has been inducted."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-1ff9c51bf6a24cf4-9753104f58db2f14caea0965e30e3538-v2",
+        "size": 1,
+        "health": 1,
+        "deathSlidesBackwards": false
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassStygian",
   "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Guardian Stone"

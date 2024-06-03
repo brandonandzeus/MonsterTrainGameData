@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-879dd972576878b1-6a6aa10d51490e4408554211ab13fe2b-v2",
-  "cost": 10,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-e0a9ba500e0473e3-6a6aa10d51490e4408554211ab13fe2b-v2",
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Consumer of Crowns",
+  "overrideDescription": "Costs -[trait1.power][ember] per [imp] unit in play.",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -18,35 +14,30 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
+        "name": "Consumer of Crowns",
+        "subtypes": [
+          "Demon",
+          "Chosen"
+        ],
+        "characterLoreTooltips": [
+          "Truly a behemoth among beasts, this demon is the most decorated warrior in the Ring, having collected more horns than any living Demon. It is highly respected amongst the Hellhorned and frequently avoided by me."
+        ],
         "nameKey": "CharacterData_nameKey-faa003a372237cce-4c6c2775352a2f14caf738ae68d9f1f6-v2",
         "size": 3,
         "health": 40,
         "deathType": "CharacterDeathVFX.Type.Large",
-        "attackDamage": 100,
-        "subtypeKeys": [
-          "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-61da12191fc14a28-4c6c2775352a2f14caf738ae68d9f1f6-v2"
-        ],
-        "name": "Consumer of Crowns",
-        "subtype": [
-          "Demon",
-          "Chosen"
-        ],
-        "characterLoreTooltip": [
-          "Truly a behemoth among beasts, this demon is the most decorated warrior in the Ring, having collected more horns than any living Demon. It is highly respected amongst the Hellhorned and frequently avoided by me."
-        ]
-      }
+        "attackDamage": 100
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 10,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassHellhorned",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Consumer of Crowns",
-  "overrideDescription": "Costs -[trait1.power][ember] per [imp] unit in play."
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

@@ -1,23 +1,12 @@
 {
-  "nameKey": "CardData_nameKey-384e03f328a02efe-12b7e8dc8f09a3148a4b98feaf16538c-v2",
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Pyre Chomper",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-4d67de40f63fa3fd-2e9399d4a987b7149883d0deffbaa5f3-v2",
-        "size": 1,
-        "health": 1,
-        "attackDamage": 1,
+        "name": "Pyre Chomper",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnSpawn",
-            "descriptionKey": "CharacterData_descriptionKey-c8c50e0ca96470a0-2e9399d4a987b7149883d0deffbaa5f3-v2",
+            "description": "<nobr>Gain [effect0.power][ember].</nobr>",
             "effects": [
               {
                 "effectStateName": "CardEffectGainEnergy",
@@ -26,26 +15,29 @@
                 "paramInt": 4
               }
             ],
-            "description": "<nobr>Gain [effect0.power][ember].</nobr>"
+            "trigger": "CharacterTriggerData.Trigger.OnSpawn"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-17a8ec1a815f5bad-2e9399d4a987b7149883d0deffbaa5f3-v2"
-        ],
-        "name": "Pyre Chomper",
-        "subtype": [
+        "subtypes": [
           "Imp"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "These imps have taken a rather strong liking to the Pyre as a snack food, making them horrible pests aboard my train. Though the sharp crystals don't digest well..."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-4d67de40f63fa3fd-2e9399d4a987b7149883d0deffbaa5f3-v2",
+        "size": 1,
+        "health": 1,
+        "attackDamage": 1
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassHellhorned",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Pyre Chomper"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

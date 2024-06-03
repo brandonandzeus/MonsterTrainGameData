@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-ba4bc8e440ed76bb-42e873e0f49d91144bcaeb0a488debb3-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-8c620eba94567a55-42e873e0f49d91144bcaeb0a488debb3-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Pyre Shards",
+  "overrideDescription": "Apply [spikes] [effect0.status0.power].",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -12,25 +8,24 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "spikes",
+          "statusId": "VanillaStatusEffectIDs.Spikes",
           "count": 4
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
-  "linkedClass": "ClassAwoken",
-  "cardLoreTooltipKeys": [
-    "CardData_data-3cc0958db71c9445-42e873e0f49d91144bcaeb0a488debb3-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Pyre Shards",
-  "overrideDescription": "Apply [spikes] [effect0.status0.power].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "To protect the Pyre should it ever feel threatened, I enhanced it to change its shape into something sharper that would damage the attacker. If broken off, these shards can be ingested by the Awoken to achieve the same effect."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassAwoken",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

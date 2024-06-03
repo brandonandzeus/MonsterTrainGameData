@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-cf98d38af789ae23-337a4227e5d4cce41aafe3304937a72f-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-d8e87d13cee59cc9-337a4227e5d4cce41aafe3304937a72f-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Common",
+  "name": "Frozen Lance",
+  "overrideDescription": "Deal [effect0.power] damage to the front enemy unit.",
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
@@ -12,14 +9,12 @@
       "paramInt": 6
     }
   ],
-  "linkedClass": "ClassStygian",
-  "cardLoreTooltipKeys": [
-    "CardData_data-fb9bb1cbabc7a7d0-337a4227e5d4cce41aafe3304937a72f-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Frozen Lance",
-  "overrideDescription": "Deal [effect0.power] damage to the front enemy unit.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "An ancient relic of a time before the Covenant. When I first came to the Stygian Sea, every resident of the Ring carried one to aid in their defense of the reigning Titan. There still lies some magic within the surrounding ice."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassStygian",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

@@ -1,41 +1,34 @@
 {
-  "nameKey": "CardData_nameKey-719fd7b0afe48fe8-3b5032ff7ee11044ea5907066e712440-v2",
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Champion",
+  "name": "Rector Flicker",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-dc5a1f98c4389c55-9a735b0e897f3f4428d6c6b47309dff2-v2",
-        "size": 2,
-        "health": 10,
-        "attackDamage": 10,
+        "name": "Rector Flicker",
         "startingStatusEffects": [
           {
-            "statusId": "rooted",
+            "statusId": "VanillaStatusEffectIDs.Rooted",
             "count": 0
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-effe665977c02103-9a735b0e897f3f4428d6c6b47309dff2-v2"
-        ],
-        "name": "Rector Flicker",
-        "subtype": [
+        "subtypes": [
           "Champion"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "Both priest and gang leader, Rector Flicker has taken advantage of the Armageddon at hand and played the Reformed and the Wickless off each other, creating an endless cycle of profit through deceit. I don't agree much with his methods, but his charm is hard to ignore."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-dc5a1f98c4389c55-9a735b0e897f3f4428d6c6b47309dff2-v2",
+        "size": 2,
+        "health": 10,
+        "attackDamage": 10
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Champion",
   "linkedClass": "ClassRemnant",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Rector Flicker"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

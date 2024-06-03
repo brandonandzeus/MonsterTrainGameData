@@ -1,69 +1,58 @@
 {
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-381e72366d3f946f-b8e32e399a3fff5418d4d409754f004d-v2",
-        "size": 1,
-        "health": 1,
-        "attackDamage": 3,
+        "name": "Morsel Excavator",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnEaten",
-            "descriptionKey": "CharacterData_descriptionKey-d26052f276e67ce0-b8e32e399a3fff5418d4d409754f004d-v2",
-            "additionalTextOnTriggerKey": "CharacterData_additionalTextOnTriggerKey-d4ed8901ba9f1722-b8e32e399a3fff5418d4d409754f004d-v2",
+            "description": "Eater gains +[effect0.upgrade.bonusdamage][attack] and [lifesteal] [effect1.status0.power].",
             "effects": [
               {
+                "paramCardUpgradeData": {
+                  "bonusDamage": 3
+                },
                 "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
                 "targetMode": "TargetMode.LastFeederCharacter",
                 "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-                "paramInt": 1,
-                "paramCardUpgradeData": {
-                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-                  "bonusDamage": 3
-                }
+                "paramInt": 1
               },
               {
-                "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": "TargetMode.LastFeederCharacter",
-                "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
                 "paramStatusEffects": [
                   {
-                    "statusId": "lifesteal",
+                    "statusId": "VanillaStatusEffectIDs.Lifesteal",
                     "count": 1
                   }
                 ],
                 "paramCardUpgradeData": {
-                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                   "bonusDamage": 3
-                }
+                },
+                "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.LastFeederCharacter",
+                "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
               }
             ],
-            "description": "Eater gains +[effect0.upgrade.bonusdamage][attack] and [lifesteal] [effect1.status0.power].",
-            "additionalTextOnTrigger": ""
+            "trigger": "CharacterTriggerData.Trigger.OnEaten"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Snack"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-e909fc5e90c6c5de-b8e32e399a3fff5418d4d409754f004d-v2"
-        ],
-        "name": "Morsel Excavator",
-        "subtype": [
+        "subtypes": [
           "Morsel"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "Before the Pyre was extinguished, it had rooted itself throughout the edges of the Crucible, creating volatile shards of crystal that were bursting with violent energy. The Shroud had no use for these Void Shards and chose to remove them to gain access to whatever they concealed."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-381e72366d3f946f-b8e32e399a3fff5418d4d409754f004d-v2",
+        "size": 1,
+        "health": 1,
+        "attackDamage": 3
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassUmbra",
   "ignoreWhenCountingMastery": true,
   "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",

@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-2de9537bbec73d0f-65dfc97031828804597743693a4567fe-v2",
-  "cost": 3,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-9e253c10d7b2067e-65dfc97031828804597743693a4567fe-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Awake",
+  "overrideDescription": "Restore [effect0.power] health. Apply [regen] [effect1.status0.power].",
   "effects": [
     {
       "effectStateName": "CardEffectHeal",
@@ -13,25 +9,24 @@
       "paramInt": 30
     },
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.LastTargetedCharacters",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "regen",
+          "statusId": "VanillaStatusEffectIDs.Regen",
           "count": 3
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
-  "linkedClass": "ClassAwoken",
-  "cardLoreTooltipKeys": [
-    "CardData_data-6436465cf8b48980-65dfc97031828804597743693a4567fe-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Awake",
-  "overrideDescription": "Restore [effect0.power] health. Apply [regen] [effect1.status0.power].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "A soul, once put to sleep by spores, is trapped by the vines of the Wildwood only to become Awoken. It's not a very pleasant event to witness, but there is a certain beauty in it all."
-  ]
+  ],
+  "cost": 3,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassAwoken",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

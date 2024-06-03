@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-e26ffa62033a4905-fd0d896437a8bfe499966721b0e51c7c-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-2d576bcdae534dc3-fd0d896437a8bfe499966721b0e51c7c-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Symphony of the Soul",
+  "overrideDescription": "Double buffs and [armor] on a unit.",
   "traits": [
     {
       "traitStateName": "CardTraitCorruptRestricted",
@@ -13,50 +9,46 @@
   ],
   "effects": [
     {
+      "additionalTooltips": [
+        {
+          "title": "Buff",
+          "description": "Buff effects are generally positive for their target and are represented by green icons.",
+          "style": "TooltipDesigner.TooltipDesignType.Positive"
+        }
+      ],
       "effectStateName": "CardEffectMultiplyAllPositiveStatusEffects",
       "targetMode": "TargetMode.DropTargetCharacter",
       "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "paramInt": 2,
-      "additionalTooltips": [
-        {
-          "titleKey": "CardEffectBuff_TooltipTitle",
-          "descriptionKey": "CardEffectBuff_TooltipText",
-          "style": "TooltipDesigner.TooltipDesignType.Positive",
-          "title": "Buff",
-          "description": "Buff effects are generally positive for their target and are represented by green icons."
-        }
-      ]
+      "paramInt": 2
     },
     {
-      "effectStateName": "CardEffectMultiplyStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Monsters",
-      "paramInt": 100,
       "paramStatusEffects": [
         {
-          "statusId": "armor",
+          "statusId": "VanillaStatusEffectIDs.Armor",
           "count": 2
         }
       ],
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body",
           "title": "Charged Echoes",
           "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
-      ]
+      ],
+      "effectStateName": "CardEffectMultiplyStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Monsters",
+      "paramInt": 100
     }
   ],
+  "cardLoreTooltips": [
+    "It is a shame that the Wurmkin cannot see. These Echoes live in the walls of the Bogwurm’s Remains, creating beautiful displays of light and sound in their harmony almost as if these Echoes speak to one another, creating more knowledge in their communion. I suppose the Wurmkin sense this in their own way."
+  ],
+  "cost": 2,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
   "linkedClass": "ClassWurm",
   "unlockLevel": 9,
-  "cardLoreTooltipKeys": [
-    "CardData_data-fe6b7b466dd00142-fd0d896437a8bfe499966721b0e51c7c-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Symphony of the Soul",
-  "overrideDescription": "Double buffs and [armor] on a unit.",
-  "cardLoreTooltip": [
-    "It is a shame that the Wurmkin cannot see. These Echoes live in the walls of the Bogwurm’s Remains, creating beautiful displays of light and sound in their harmony almost as if these Echoes speak to one another, creating more knowledge in their communion. I suppose the Wurmkin sense this in their own way."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

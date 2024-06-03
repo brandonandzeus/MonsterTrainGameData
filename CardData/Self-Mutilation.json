@@ -1,8 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-27702b4a9b863ff1-19e3971abc1f11249ac8fded65a3fa32-v2",
-  "cost": 1,
-  "cardType": "CardType.Junk",
-  "rarity": "CollectableRarity.Common",
+  "name": "Self-Mutilation",
   "traits": [
     {
       "traitStateName": "CardTraitSelfPurge"
@@ -10,8 +7,7 @@
   ],
   "triggers": [
     {
-      "trigger": "CardTriggerType.OnUnplayed",
-      "descriptionKey": "CardData_descriptionKey-1e5013e062d40e66-19e3971abc1f11249ac8fded65a3fa32-v2",
+      "description": "Your Pyre takes [effect0.power] damage.",
       "cardEffects": [
         {
           "effectStateName": "CardEffectDamage",
@@ -20,15 +16,14 @@
           "paramInt": 5
         }
       ],
-      "description": "Your Pyre takes [effect0.power] damage."
+      "trigger": "CardTriggerType.OnUnplayed"
     }
   ],
-  "cardLoreTooltipKeys": [
-    "CardData_data-147b36044cde475c-19e3971abc1f11249ac8fded65a3fa32-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Self-Mutilation",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "For the devout, pain is the ultimate penance for their sins. For the rest of us, it is just another reminder of our need to restore peace."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Junk",
+  "rarity": "CollectableRarity.Common",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

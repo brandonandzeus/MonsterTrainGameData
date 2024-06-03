@@ -1,9 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-5b618e2aa53eb163-43a7b6d61468c6740a1ed362b41385da-v2",
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Shattered Shell",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -11,58 +7,52 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-9cf218ea88d1e9af-4834dd190672177429a719136c12d90d-v2",
-        "size": 2,
-        "health": 10,
-        "attackDamage": 3,
+        "name": "Shattered Shell",
         "startingStatusEffects": [
           {
-            "statusId": "hunter",
+            "statusId": "VanillaStatusEffectIDs.Sweep",
             "count": 1
           }
         ],
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnKill",
-            "descriptionKey": "CharacterData_descriptionKey-6dbcd1fc17c3082e-4834dd190672177429a719136c12d90d-v2",
+            "description": "+[effect0.upgrade.bonusdamage][attack].",
             "effects": [
               {
+                "paramCardUpgradeData": {
+                  "bonusDamage": 3
+                },
                 "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
                 "targetMode": "TargetMode.Self",
-                "targetTeamType": "Team.Type.None",
-                "paramCardUpgradeData": {
-                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-                  "bonusDamage": 3
-                }
+                "targetTeamType": "Team.Type.None"
               }
             ],
-            "description": "+[effect0.upgrade.bonusdamage][attack]."
+            "trigger": "CharacterTriggerData.Trigger.OnKill"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Animus_c0f95969-ae86-4477-9458-57bb235d965b",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-91e99118d072cc2c-4834dd190672177429a719136c12d90d-v2"
-        ],
-        "name": "Shattered Shell",
-        "subtype": [
+        "subtypes": [
           "Animus",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "When Husk Hermits grow too large for their already restrictive shell, they keep the shattered steel pieces for offensive use. Against my wishes, the Channelers have hoarded Pyre shards to further enhance the power of these creatures."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-9cf218ea88d1e9af-4834dd190672177429a719136c12d90d-v2",
+        "size": 2,
+        "health": 10,
+        "attackDamage": 3
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassAwoken",
   "unlockLevel": 7,
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Shattered Shell"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

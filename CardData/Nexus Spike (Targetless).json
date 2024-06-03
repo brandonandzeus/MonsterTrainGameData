@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-eaa6607d717ceec7-e8f4d7309950b9f47937210ab15d1b9f-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-a8c7e371df025096-e8f4d7309950b9f47937210ab15d1b9f-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Rare",
+  "name": "Nexus Spike (Targetless)",
+  "overrideDescription": "Does not affect bosses.",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -18,14 +15,13 @@
       "paramBool": true
     }
   ],
-  "linkedMasteryCard": "Nexus Spike (Target)",
-  "cardLoreTooltipKeys": [
-    "CardData_data-2c57fac1b1bd5e9f-e8f4d7309950b9f47937210ab15d1b9f-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Nexus Spike (Targetless)",
-  "overrideDescription": "Does not affect bosses.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "These Divinities don’t exist on any physical plane known to Heaven or Hell, but their power leaks from their existence to ours as brief flickers of light. With each Divinity felled, those flickers became more static, and now the last remaining Divinity holds our Realm hostage for my mistakes."
-  ]
+  ],
+  "cost": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
+  "linkedMasteryCard": "Nexus Spike (Target)",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

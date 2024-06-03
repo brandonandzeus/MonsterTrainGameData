@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-0923aba4c823c61e-aa8bb0c5275780846b41943e95da8fa3-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-0b3aa35f38644c80-aa8bb0c5275780846b41943e95da8fa3-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Intent on Death",
+  "overrideDescription": "Trigger a unit's [extinguish] ability without killing it.",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -17,15 +13,14 @@
       "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
+  "cardLoreTooltips": [
+    "Votive Houses can become crowded and melting away is a long process. To avoid the wait, I've seen some Waxers increase the intensity of their flame through extreme focus, though they typically lose consciousness briefly after doing it."
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassRemnant",
   "unlockLevel": 8,
-  "cardLoreTooltipKeys": [
-    "CardData_data-9267700eef198b82-aa8bb0c5275780846b41943e95da8fa3-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Intent on Death",
-  "overrideDescription": "Trigger a unit's [extinguish] ability without killing it.",
-  "cardLoreTooltip": [
-    "Votive Houses can become crowded and melting away is a long process. To avoid the wait, I've seen some Waxers increase the intensity of their flame through extreme focus, though they typically lose consciousness briefly after doing it."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

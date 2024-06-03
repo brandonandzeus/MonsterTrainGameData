@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-7c3047d3494b0daa-abedeb7bd63e2af458ab26601a848fa2-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-d0853e65ffc2e50f-abedeb7bd63e2af458ab26601a848fa2-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Common",
+  "name": "Vine Grasp",
+  "overrideDescription": "Deal [effect0.power] damage. Move that unit to the front.",
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
@@ -13,24 +10,22 @@
       "paramInt": 3
     },
     {
-      "effectStateName": "CardEffectFloorRearrange",
-      "targetMode": "TargetMode.LastTargetedCharacters",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramTimingDelays": {
         "x": 0.1,
         "y": 0.1,
         "z": 0.1
-      }
+      },
+      "effectStateName": "CardEffectFloorRearrange",
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
-  "linkedClass": "ClassAwoken",
-  "cardLoreTooltipKeys": [
-    "CardData_data-30e8ac98389fe66c-abedeb7bd63e2af458ab26601a848fa2-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Vine Grasp",
-  "overrideDescription": "Deal [effect0.power] damage. Move that unit to the front.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Vined Awoken have been known to lash out to control their enemies. While not an enemy, I too have been lashed and it is a less than pleasant experience."
-  ]
+  ],
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassAwoken",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

@@ -1,9 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-ac59d4009a024426-a05bfacf46f9e9a41bd857f67591371e-v2",
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Lady of the House",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -11,39 +7,35 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-a2e6aa66d3bddd1f-df3ea7cd9cfe467489bf928cfde6834d-v2",
-        "size": 2,
-        "health": 45,
-        "attackDamage": 35,
+        "name": "Lady of the House",
         "startingStatusEffects": [
           {
-            "statusId": "ephemeral",
+            "statusId": "VanillaStatusEffectIDs.Burnout",
             "count": 3
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-d40229566bd0968e-df3ea7cd9cfe467489bf928cfde6834d-v2"
-        ],
-        "name": "Lady of the House",
-        "subtype": [
+        "subtypes": [
           "Waxer",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "In a cruel joke, the souls trapped as Remnants retained their wealth, or lack of it, from their previous life, making Hell either very comfortable or very punishing. Some of the more generous Remnants decide to fund the Votive Houses scattered throughout the Ring, though I have long suspected that their motives are less than selfless."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-a2e6aa66d3bddd1f-df3ea7cd9cfe467489bf928cfde6834d-v2",
+        "size": 2,
+        "health": 45,
+        "attackDamage": 35
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassRemnant",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Lady of the House"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

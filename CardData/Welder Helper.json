@@ -1,57 +1,49 @@
 {
-  "nameKey": "CardData_nameKey-867eaa7b6e70023d-8acded8d1fc4e1d40a1a048ff379bf46-v2",
+  "name": "Welder Helper",
+  "effects": [
+    {
+      "paramCharacterData": {
+        "name": "Welder Helper",
+        "triggers": [
+          {
+            "description": "Apply [armor] [effect0.status0.power] to the front friendly unit.",
+            "effects": [
+              {
+                "paramStatusEffects": [
+                  {
+                    "statusId": "VanillaStatusEffectIDs.Armor",
+                    "count": 20
+                  }
+                ],
+                "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.FrontInRoom",
+                "targetTeamType": "Team.Type.Monsters",
+                "paramInt": 100
+              }
+            ],
+            "trigger": "CharacterTriggerData.Trigger.OnSpawn"
+          }
+        ],
+        "subtypes": [
+          "Imp"
+        ],
+        "characterLoreTooltips": [
+          "It was a surprise to learn that even the imps craft weapons and armor for the Hellhorned. Instead of hammers, they use their innate control of fire."
+        ],
+        "nameKey": "CharacterData_nameKey-fd58491aba13bbdd-fbdb9442f0ec2054caf79f7b7c646a87-v2",
+        "size": 1,
+        "health": 1,
+        "attackDamage": 1
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
+    }
+  ],
   "cost": 1,
   "cardType": "CardType.Monster",
   "targetless": false,
   "rarity": "CollectableRarity.Common",
-  "effects": [
-    {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-fd58491aba13bbdd-fbdb9442f0ec2054caf79f7b7c646a87-v2",
-        "size": 1,
-        "health": 1,
-        "attackDamage": 1,
-        "triggers": [
-          {
-            "trigger": "CharacterTriggerData.Trigger.OnSpawn",
-            "descriptionKey": "CharacterData_descriptionKey-453049304ba03be6-fbdb9442f0ec2054caf79f7b7c646a87-v2",
-            "effects": [
-              {
-                "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": "TargetMode.FrontInRoom",
-                "targetTeamType": "Team.Type.Monsters",
-                "paramInt": 100,
-                "paramStatusEffects": [
-                  {
-                    "statusId": "armor",
-                    "count": 20
-                  }
-                ]
-              }
-            ],
-            "description": "Apply [armor] [effect0.status0.power] to the front friendly unit."
-          }
-        ],
-        "subtypeKeys": [
-          "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-2ec7a30f4987b58a-fbdb9442f0ec2054caf79f7b7c646a87-v2"
-        ],
-        "name": "Welder Helper",
-        "subtype": [
-          "Imp"
-        ],
-        "characterLoreTooltip": [
-          "It was a surprise to learn that even the imps craft weapons and armor for the Hellhorned. Instead of hammers, they use their innate control of fire."
-        ]
-      }
-    }
-  ],
   "linkedClass": "ClassHellhorned",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Welder Helper"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

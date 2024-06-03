@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-677bc31b218dfb38-08b4cd2e3d143754095e47b4da964836-v2",
-  "cost": 3,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-46cb9140a4a283fc-08b4cd2e3d143754095e47b4da964836-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Memento Mori",
+  "overrideDescription": "Deal damage to the front enemy unit equal to [trait0.power]x the number of friendly unit deaths this battle.",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddDamage",
@@ -21,14 +18,12 @@
       "targetTeamType": "Team.Type.Heroes"
     }
   ],
-  "linkedClass": "ClassRemnant",
-  "cardLoreTooltipKeys": [
-    "CardData_data-133570319df1ff17-08b4cd2e3d143754095e47b4da964836-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Memento Mori",
-  "overrideDescription": "Deal damage to the front enemy unit equal to [trait0.power]x the number of friendly unit deaths this battle.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "In memory, a Waxer is never truly dead. Through a process we developed together, their faces are embossed on deadly weapons and serve as a reminder of what once was and what will be."
-  ]
+  ],
+  "cost": 3,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassRemnant",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

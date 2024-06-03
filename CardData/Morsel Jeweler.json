@@ -1,64 +1,55 @@
 {
-  "nameKey": "CardData_nameKey-eb7188451bc031d6-e6e56076ef4890e4ca3441fdf2a6a7ec-v2",
+  "name": "Morsel Jeweler",
+  "effects": [
+    {
+      "paramCharacterData": {
+        "name": "Morsel Jeweler",
+        "triggers": [
+          {
+            "description": "Eater gains +[effect0.upgrade.bonushp][health] and [damageshield] [effect1.status0.power].",
+            "effects": [
+              {
+                "paramCardUpgradeData": {
+                  "bonusHP": 3
+                },
+                "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                "targetMode": "TargetMode.LastFeederCharacter",
+                "targetTeamType": "Team.Type.None"
+              },
+              {
+                "paramStatusEffects": [
+                  {
+                    "statusId": "VanillaStatusEffectIDs.DamageShield",
+                    "count": 1
+                  }
+                ],
+                "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.LastFeederCharacter",
+                "targetTeamType": "Team.Type.None"
+              }
+            ],
+            "trigger": "CharacterTriggerData.Trigger.OnEaten"
+          }
+        ],
+        "subtypes": [
+          "Morsel"
+        ],
+        "characterLoreTooltips": [
+          "At the very bottom of the mines, the rock has been compressed into beautiful gems. These gems are valued above all else by the Shroud for their allure as well as their mystical abilities. I've been able to hoard a few for myself, conveniently forgetting to notify the Umbra."
+        ],
+        "nameKey": "CharacterData_nameKey-2d03afca4a5a32b7-646877436ac9c9e49ba61895de863d97-v2",
+        "size": 1,
+        "health": 3
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
+    }
+  ],
   "cardType": "CardType.Monster",
   "targetless": false,
   "rarity": "CollectableRarity.Uncommon",
-  "effects": [
-    {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-2d03afca4a5a32b7-646877436ac9c9e49ba61895de863d97-v2",
-        "size": 1,
-        "health": 3,
-        "triggers": [
-          {
-            "trigger": "CharacterTriggerData.Trigger.OnEaten",
-            "descriptionKey": "CharacterData_descriptionKey-3b304ab6c1d9d0c7-646877436ac9c9e49ba61895de863d97-v2",
-            "effects": [
-              {
-                "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                "targetMode": "TargetMode.LastFeederCharacter",
-                "targetTeamType": "Team.Type.None",
-                "paramCardUpgradeData": {
-                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-                  "bonusHP": 3
-                }
-              },
-              {
-                "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": "TargetMode.LastFeederCharacter",
-                "targetTeamType": "Team.Type.None",
-                "paramStatusEffects": [
-                  {
-                    "statusId": "damage shield",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "description": "Eater gains +[effect0.upgrade.bonushp][health] and [damageshield] [effect1.status0.power]."
-          }
-        ],
-        "subtypeKeys": [
-          "SubtypesData_Snack"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-09ecba557955c2d5-646877436ac9c9e49ba61895de863d97-v2"
-        ],
-        "name": "Morsel Jeweler",
-        "subtype": [
-          "Morsel"
-        ],
-        "characterLoreTooltip": [
-          "At the very bottom of the mines, the rock has been compressed into beautiful gems. These gems are valued above all else by the Shroud for their allure as well as their mystical abilities. I've been able to hoard a few for myself, conveniently forgetting to notify the Umbra."
-        ]
-      }
-    }
-  ],
   "linkedClass": "ClassUmbra",
   "ignoreWhenCountingMastery": true,
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Morsel Jeweler"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

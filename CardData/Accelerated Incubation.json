@@ -1,8 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-2900ff2fca59f713-91bea19e8426e624b892196b545c3e85-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-96488c7b9245aa65-91bea19e8426e624b892196b545c3e85-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Rare",
+  "name": "Accelerated Incubation",
+  "overrideDescription": "Remove [effect0.status0.power] [hatch] from Eggs.",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -10,34 +8,30 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectRemoveStatusEffect",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "hatch",
+          "statusId": "VanillaStatusEffectIDs.Shell",
           "count": 3
         }
       ],
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body",
           "title": "Charged Echoes",
           "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
-      ]
+      ],
+      "effectStateName": "CardEffectRemoveStatusEffect",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
+  "cardLoreTooltips": [
+    "Stoneform dictates strict control of Wurmkin population. I’ve seen thousands of eggs hibernating throughout the tunnels, but never realized that the Wurmkin directly control the time of their hatching. The Rail was my solution to this immortal overpopulation, so it’s exciting to see another."
+  ],
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
   "linkedClass": "ClassWurm",
   "unlockLevel": 4,
-  "cardLoreTooltipKeys": [
-    "CardData_data-d757628f3898b315-91bea19e8426e624b892196b545c3e85-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Accelerated Incubation",
-  "overrideDescription": "Remove [effect0.status0.power] [hatch] from Eggs.",
-  "cardLoreTooltip": [
-    "Stoneform dictates strict control of Wurmkin population. I’ve seen thousands of eggs hibernating throughout the tunnels, but never realized that the Wurmkin directly control the time of their hatching. The Rail was my solution to this immortal overpopulation, so it’s exciting to see another."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

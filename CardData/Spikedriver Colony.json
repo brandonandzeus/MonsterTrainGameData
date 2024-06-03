@@ -1,72 +1,60 @@
 {
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-5d989cfe52d2f056-7de12958b44f0c64488817931f4aac28-v2",
-        "size": 1,
-        "health": 1,
-        "attackDamage": 1,
+        "name": "Spikedriver Colony",
         "startingStatusEffects": [
           {
-            "statusId": "multistrike",
+            "statusId": "VanillaStatusEffectIDs.Multistrike",
             "count": 1
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_TrainMachines"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-f24f0c298589e564-7de12958b44f0c64488817931f4aac28-v2"
-        ],
-        "name": "Spikedriver Colony",
-        "subtype": [
+        "subtypes": [
           "Machine"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "I knew I couldn’t rely on anyone to build the Rail for me, so I set off to do it myself, creating automatic creatures to drive rail spikes into the ground and lay the track that would later be broken."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-5d989cfe52d2f056-7de12958b44f0c64488817931f4aac28-v2",
+        "size": 1,
+        "health": 1,
+        "attackDamage": 1
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
   "startingUpgrades": [
     {
-      "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-647ff11f8eab0596-17847182a612588438ce2a53963638c2-v2",
-      "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-618cf6c751c886d3-17847182a612588438ce2a53963638c2-v2",
-      "useUpgradeHighlightTextTags": false,
-      "linkedPactDuplicateRarity": "CollectableRarity.Starter",
       "triggerUpgrades": [
         {
-          "trigger": "CharacterTriggerData.Trigger.OnDeath",
-          "descriptionKey": "CardUpgradeData_descriptionKey-338829e25d26d99c-17847182a612588438ce2a53963638c2-v2",
+          "description": "Add a permanent copy of this card to your discard pile.",
           "effects": [
             {
-              "effectStateName": "CardEffectAddRunCard",
-              "targetMode": "TargetMode.Room",
-              "copyModifiersFromSource": true,
-              "targetTeamType": "Team.Type.None",
-              "paramInt": 1,
               "paramCardPool": {
                 "name": "ReplicatingUnitPool",
                 "cardDataList": [
                   "ReplicatingUnit"
                 ]
               },
+              "effectStateName": "CardEffectAddRunCard",
+              "targetMode": "TargetMode.Room",
+              "copyModifiersFromSource": true,
+              "targetTeamType": "Team.Type.None",
+              "paramInt": 1,
               "hideTooltip": true
             }
           ],
-          "description": "Add a permanent copy of this card to your discard pile."
+          "trigger": "CharacterTriggerData.Trigger.OnDeath"
         }
       ],
-      "upgradeTitle": "",
-      "upgradeDescription": ""
+      "useUpgradeHighlightTextTags": false
     }
   ],
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Spikedriver Colony"
 }

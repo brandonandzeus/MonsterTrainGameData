@@ -1,56 +1,49 @@
 {
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Common",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-c4e66bfd378e2b2f-debc5a829dca42c4992d3ce94470c8a4-v2",
-        "size": 1,
-        "health": 1,
-        "deathSlidesBackwards": false,
+        "name": "Molten Encasement",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnDeath",
-            "descriptionKey": "CharacterData_descriptionKey-259dc79b99524b22-debc5a829dca42c4992d3ce94470c8a4-v2",
+            "description": "Apply [stealth] [effect0.status0.power] to friendly units.",
             "effects": [
               {
+                "paramStatusEffects": [
+                  {
+                    "statusId": "VanillaStatusEffectIDs.Stealth",
+                    "count": 2
+                  }
+                ],
                 "effectStateName": "CardEffectAddStatusEffect",
                 "targetMode": "TargetMode.Room",
                 "targetTeamType": "Team.Type.Monsters",
                 "targetCardType": "CardType.Monster",
-                "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
-                "paramStatusEffects": [
-                  {
-                    "statusId": "stealth",
-                    "count": 2
-                  }
-                ]
+                "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand"
               }
             ],
-            "description": "Apply [stealth] [effect0.status0.power] to friendly units."
+            "trigger": "CharacterTriggerData.Trigger.OnDeath"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Tomb"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-be2ada1c09a5c4e8-debc5a829dca42c4992d3ce94470c8a4-v2"
-        ],
-        "name": "Molten Encasement",
-        "subtype": [
+        "subtypes": [
           "Tomb"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "If a Waxer gutters too quickly, a rare phenomenon can occur where the wax trapped inside is still molten. Over time, the heat generates an enormous amount of pressure and steam. When the host's exterior has finally cracked, the steam bursts out and engulfs all those around it."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-c4e66bfd378e2b2f-debc5a829dca42c4992d3ce94470c8a4-v2",
+        "size": 1,
+        "health": 1,
+        "deathSlidesBackwards": false
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassRemnant",
   "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Molten Encasement"

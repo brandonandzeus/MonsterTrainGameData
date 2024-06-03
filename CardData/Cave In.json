@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-7021e7ac7b9dc56d-32ee291f9d982a244b4c5080708eb43f-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-c5b089a1cd1eefb1-32ee291f9d982a244b4c5080708eb43f-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Cave In",
+  "overrideDescription": "[descend] friendly and enemy units on this floor.",
   "effects": [
     {
       "effectStateName": "CardEffectBump",
@@ -12,15 +9,13 @@
       "paramInt": -1
     }
   ],
+  "cardLoreTooltips": [
+    "I've only seen the aftermath, but when a level of the Crucible collapses, very few Morsels survive. The Umbra don’t even care to check for survivors, choosing instead to spawn new Morsels."
+  ],
+  "cost": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassUmbra",
   "unlockLevel": 3,
-  "cardLoreTooltipKeys": [
-    "CardData_data-cfec7e762231e3dd-32ee291f9d982a244b4c5080708eb43f-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Cave In",
-  "overrideDescription": "[descend] friendly and enemy units on this floor.",
-  "cardLoreTooltip": [
-    "I've only seen the aftermath, but when a level of the Crucible collapses, very few Morsels survive. The Umbra don’t even care to check for survivors, choosing instead to spawn new Morsels."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-10b363ec1fd799ac-248e90a3f4c113b4fa4457837a4e2814-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-030ef29c673f1af0-248e90a3f4c113b4fa4457837a4e2814-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Trap Chute",
+  "overrideDescription": "[descend] a unit to the bottom floor. Apply [dazed] [effect1.status0.power].",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -17,25 +14,23 @@
       "paramInt": -100
     },
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Dazed",
+          "count": 2
+        }
+      ],
       "effectStateName": "CardEffectAddStatusEffect",
       "targetMode": "TargetMode.LastTargetedCharacters",
       "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "paramInt": 100,
-      "paramStatusEffects": [
-        {
-          "statusId": "dazed",
-          "count": 2
-        }
-      ]
+      "paramInt": 100
     }
   ],
-  "cardLoreTooltipKeys": [
-    "CardData_data-76a04d2b3d67544d-248e90a3f4c113b4fa4457837a4e2814-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
-  "name": "Trap Chute",
-  "overrideDescription": "[descend] a unit to the bottom floor. Apply [dazed] [effect1.status0.power].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "The installation of the Trap Chute found in an abandoned trainyard has allowed for the quick ejection of invaders who've made their way into the Boneshaker. The mechanism is clever, though crude by my standards."
-  ]
+  ],
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy"
 }

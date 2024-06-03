@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-5ad8e5857407f6b5-22a9c031d2fbdd84b8ebf64fa7c4dd01-v2",
-  "cost": 3,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-4326c7f14a4e18f0-22a9c031d2fbdd84b8ebf64fa7c4dd01-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Mortal Entrapment",
+  "overrideDescription": "Deal [effect0.power] damage and apply [dazed] [effect1.status0.power] to an already damaged unit.",
   "traits": [
     {
       "traitStateName": "CardTraitStrongerMagicPower"
@@ -19,29 +15,28 @@
       "paramInt": 25
     },
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Dazed",
+          "count": 3
+        }
+      ],
       "effectStateName": "CardEffectAddStatusEffect",
       "targetMode": "TargetMode.LastTargetedCharacters",
       "targetModeHealthFilter": "CardEffectData.HealthFilter.Damaged",
       "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "shouldTest": false,
-      "paramInt": 100,
-      "paramStatusEffects": [
-        {
-          "statusId": "dazed",
-          "count": 3
-        }
-      ]
+      "paramInt": 100
     }
   ],
+  "cardLoreTooltips": [
+    "While molds are used in the resurrection of Waxen, the invasion of Hell has forced the Waxen to repurpose these molds for a more deadly effect. They are now positioned to trap unsuspecting targets who’ve already been injured, making them easier to encase in the hot wax."
+  ],
+  "cost": 3,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassRemnant",
   "unlockLevel": 5,
-  "cardLoreTooltipKeys": [
-    "CardData_data-5161fd05e6c83c01-22a9c031d2fbdd84b8ebf64fa7c4dd01-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
-  "name": "Mortal Entrapment",
-  "overrideDescription": "Deal [effect0.power] damage and apply [dazed] [effect1.status0.power] to an already damaged unit.",
-  "cardLoreTooltip": [
-    "While molds are used in the resurrection of Waxen, the invasion of Hell has forced the Waxen to repurpose these molds for a more deadly effect. They are now positioned to trap unsuspecting targets who’ve already been injured, making them easier to encase in the hot wax."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy"
 }

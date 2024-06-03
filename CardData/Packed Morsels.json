@@ -1,8 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-453b51ab61028c96-640e235cd3039c045b57f2c4025e35f3-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-cd8ff41bc711e42b-640e235cd3039c045b57f2c4025e35f3-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Common",
+  "name": "Packed Morsels",
+  "overrideDescription": "Add 3 uncommon or rare [snack] units to your hand.",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -10,11 +8,6 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddBattleCard",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "paramInt": 3,
-      "additionalParamInt": 3,
       "paramCardPool": {
         "name": "Class5Food",
         "cardDataList": [
@@ -38,9 +31,19 @@
           "VoidExcavator",
           "MorselMiner"
         ]
-      }
+      },
+      "effectStateName": "CardEffectAddBattleCard",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
+      "paramInt": 3,
+      "additionalParamInt": 3
     }
   ],
+  "cardLoreTooltips": [
+    "Through an unusual course of events, I’ve found that bottling many Morsels together allows them to be easily transported to quickly provide labor where it's needed. It also had the added benefit of soothing the little creatures."
+  ],
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassUmbra",
   "sharedMasteryCards": [
     "Morsel Jeweler",
@@ -50,13 +53,5 @@
     "Antumbra Morsel",
     "Morsel Excavator"
   ],
-  "cardLoreTooltipKeys": [
-    "CardData_data-24df50888286669c-640e235cd3039c045b57f2c4025e35f3-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Packed Morsels",
-  "overrideDescription": "Add 3 uncommon or rare [snack] units to your hand.",
-  "cardLoreTooltip": [
-    "Through an unusual course of events, I’ve found that bottling many Morsels together allows them to be easily transported to quickly provide labor where it's needed. It also had the added benefit of soothing the little creatures."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

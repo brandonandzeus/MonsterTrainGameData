@@ -1,48 +1,43 @@
 {
-  "nameKey": "CardData_nameKey-827256d495157a67-7d23b35671b6a2744933e3b9be68541d-v2",
-  "costType": "CardData.CostType.ConsumeRemainingEnergy",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-2f8ab0a14e517087-7d23b35671b6a2744933e3b9be68541d-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Thy Holiest Shield",
+  "overrideDescription": "Apply [trait1.statusmultiplier][x] [damageshield].",
   "traits": [
     {
       "traitStateName": "CardTraitSelfPurge"
     },
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.DamageShield",
+          "count": 0
+        }
+      ],
       "traitStateName": "CardTraitScalingAddStatusEffect",
       "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
       "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 2,
-      "paramUseScalingParams": true,
-      "paramStatusEffects": [
-        {
-          "statusId": "damage shield",
-          "count": 0
-        }
-      ]
+      "paramUseScalingParams": true
     }
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "damage shield",
+          "statusId": "VanillaStatusEffectIDs.DamageShield",
           "count": 0
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
-  "cardLoreTooltipKeys": [
-    "CardData_data-ea45af37391f58cd-7d23b35671b6a2744933e3b9be68541d-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Thy Holiest Shield",
-  "overrideDescription": "Apply [trait1.statusmultiplier][x] [damageshield].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Driven by some misplaced sense of virtue, the Winged broke the Covenant we worked so hard to create. But they cannot achieve peace through blood."
-  ]
+  ],
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

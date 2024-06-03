@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-8f0e507986bf95f5-be9c823be1b68e846baaf929e2a41a8b-v2",
-  "costType": "CardData.CostType.ConsumeRemainingEnergy",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-9dc310db6cd117ac-be9c823be1b68e846baaf929e2a41a8b-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Rare",
+  "name": "Awoken's Rail Spike",
+  "overrideDescription": "Draw [x] and apply <nobr>-[effect0.upgrade.costreduction][ember]</nobr> to those cards.",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -19,18 +16,13 @@
   ],
   "effects": [
     {
+      "paramCardUpgradeData": {
+        "costReduction": 1
+      },
       "effectStateName": "CardEffectAddTempCardUpgradeToNextDrawnCard",
       "targetMode": "TargetMode.Room",
       "targetTeamType": "Team.Type.None",
-      "shouldTest": false,
-      "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-8c0b048e935f7a5f-542fabd3c3dbd604f848ffb1a4e32699-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-e3c1d380d660b43b-542fabd3c3dbd604f848ffb1a4e32699-v2",
-        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-        "costReduction": 1,
-        "upgradeTitle": "",
-        "upgradeDescription": ""
-      }
+      "shouldTest": false
     },
     {
       "effectStateName": "CardEffectDraw",
@@ -38,15 +30,13 @@
       "targetTeamType": "Team.Type.None"
     }
   ],
+  "cardLoreTooltips": [
+    "Though reluctant at first to allow the Rail to come through the Wildwood, the Edge Priory eventually agreed with me to let it pass and uphold the Covenant with Seraph."
+  ],
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassAwoken",
   "unlockLevel": 8,
-  "cardLoreTooltipKeys": [
-    "CardData_data-2384230e408a7750-be9c823be1b68e846baaf929e2a41a8b-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Awoken's Rail Spike",
-  "overrideDescription": "Draw [x] and apply <nobr>-[effect0.upgrade.costreduction][ember]</nobr> to those cards.",
-  "cardLoreTooltip": [
-    "Though reluctant at first to allow the Rail to come through the Wildwood, the Edge Priory eventually agreed with me to let it pass and uphold the Covenant with Seraph."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

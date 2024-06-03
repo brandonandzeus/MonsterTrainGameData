@@ -1,24 +1,12 @@
 {
-  "nameKey": "CardData_nameKey-07f654165fd37ce0-a5867d172d44e2e4986a76e31608523d-v2",
-  "cost": 3,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Steelsinger",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-0210fabb1c035ffc-6516db0c15d7daf49a506d35e5779a2f-v2",
-        "size": 4,
-        "blockVisualSizeIncrease": true,
-        "health": 40,
-        "attackDamage": 20,
+        "name": "Steelsinger",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnSpawn",
-            "descriptionKey": "CharacterData_descriptionKey-a618df478f808745-6516db0c15d7daf49a506d35e5779a2f-v2",
+            "description": "Gain [effect0.power] max health.",
             "effects": [
               {
                 "effectStateName": "CardEffectAdjustMaxHealth",
@@ -27,31 +15,30 @@
                 "paramInt": 80
               }
             ],
-            "description": "Gain [effect0.power] max health."
+            "trigger": "CharacterTriggerData.Trigger.OnSpawn"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Golem_2d79cb56-4041-4d63-b7bf-8d2185923eda",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-539777d650a42f40-6516db0c15d7daf49a506d35e5779a2f-v2"
-        ],
-        "name": "Steelsinger",
-        "subtype": [
+        "subtypes": [
           "Hollow",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "“Not of us, but of the Mother,” as the Edge Priory says of Steelsingers. I often just nod at their rambling words, accepting them for the insanity they are, but their strange mention of the Mother — a Divinity no doubt — adds an air of validity to this crazy claim. "
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-0210fabb1c035ffc-6516db0c15d7daf49a506d35e5779a2f-v2",
+        "size": 4,
+        "blockVisualSizeIncrease": true,
+        "health": 40,
+        "attackDamage": 20
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
   "triggers": [
     {
-      "trigger": "CardTriggerType.OnHealed",
-      "descriptionKey": "CardData_descriptionKey-49032afb884e3cc9-ad4dcb537c642f141b6461d5ed7c1f96-v2",
+      "description": "+1[attack] permanently.",
       "cardTriggerEffects": [
         {
           "persistenceMode": "PersistenceMode.SingleRun",
@@ -60,10 +47,14 @@
           "paramInt": 1
         }
       ],
-      "description": "+1[attack] permanently."
+      "trigger": "CardTriggerType.OnHealed"
     }
   ],
+  "cost": 3,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
   "linkedClass": "ClassAwoken",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Steelsinger"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

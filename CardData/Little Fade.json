@@ -1,41 +1,34 @@
 {
-  "nameKey": "CardData_nameKey-719fd7b0afe48fe8-3b5032ff7ee11044ea5907066e712440-v2",
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Champion",
+  "name": "Little Fade",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-d84429255b353e19-3cfcb947bf8e31a47a5ba4149cad65f1-v2",
-        "size": 1,
-        "health": 1,
-        "attackDamage": 5,
+        "name": "Little Fade",
         "startingStatusEffects": [
           {
-            "statusId": "rooted",
+            "statusId": "VanillaStatusEffectIDs.Rooted",
             "count": 0
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-2734d8b482fe7af3-3cfcb947bf8e31a47a5ba4149cad65f1-v2"
-        ],
-        "name": "Little Fade",
-        "subtype": [
+        "subtypes": [
           "Champion"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "For all that I’ve learned of these Exiles, It should be no surprise to me that the Exile of the Melting Remnant is a thieving child. My visions with her have been brief, but she looks to be free of the wax for which her Ring is known. Perhaps her sacrifice, and the sacrifice of each Exile, granted immortality to the clans."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-d84429255b353e19-3cfcb947bf8e31a47a5ba4149cad65f1-v2",
+        "size": 1,
+        "health": 1,
+        "attackDamage": 5
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Champion",
   "linkedClass": "ClassRemnant",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Little Fade"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

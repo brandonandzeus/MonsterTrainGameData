@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-b5630d91c2307632-8c5bb20681197714fbcb0d113aafd816-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-e38c7977745b1ba8-8c5bb20681197714fbcb0d113aafd816-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Common",
+  "name": "Echo Transfer",
+  "overrideDescription": "Apply +[effect0.upgrade.bonusdamage][attack].",
   "traits": [
     {
       "traitStateName": "CardTraitCorruptRestricted",
@@ -12,31 +9,27 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCardUpgradeData": {
-        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
         "bonusDamage": 15
       },
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body",
           "title": "Charged Echoes",
           "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
-  "linkedClass": "ClassWurm",
-  "cardLoreTooltipKeys": [
-    "CardData_data-6b1507367ad693ec-8c5bb20681197714fbcb0d113aafd816-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Echo Transfer",
-  "overrideDescription": "Apply +[effect0.upgrade.bonusdamage][attack].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "I cannot yet decipher all of their symbols etched into the stone, but the Wurmkin’s stoneforms describe the creation of these Echoes as part of a great Titan sacrifice. The Titan's knowledge lives on in the perfect crystalline structures. More sacrifice and exile, but for what?"
-  ]
+  ],
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Common",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
+  "linkedClass": "ClassWurm",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

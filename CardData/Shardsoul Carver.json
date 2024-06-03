@@ -1,9 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-bae6bc6def352826-96194a2008449ca4fb3ca6b15b605454-v2",
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Shardsoul Carver",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -11,71 +7,64 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-c0a435ee7fb880aa-71af267861714f14ea18a1eb9a739092-v2",
-        "size": 3,
-        "health": 30,
-        "attackDamage": 20,
+        "name": "Shardsoul Carver",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.CorruptionAdded",
-            "descriptionKey": "CharacterData_descriptionKey-4f39b3a09a0c5efd-71af267861714f14ea18a1eb9a739092-v2",
+            "description": "+[effect0.upgrade.bonusdamage][attack] and [armor] [effect1.status0.power].",
             "effects": [
               {
-                "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                "targetMode": "TargetMode.Self",
-                "targetTeamType": "Team.Type.Monsters",
-                "paramInt": 1,
                 "paramCardUpgradeData": {
-                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                   "bonusDamage": 2
                 },
                 "additionalTooltips": [
                   {
-                    "titleKey": "HudTooltip_RoomCorruption_Title",
-                    "descriptionKey": "HudTooltip_RoomCorruption_Body",
                     "title": "Charged Echoes",
                     "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                   }
-                ]
-              },
-              {
-                "effectStateName": "CardEffectAddStatusEffect",
+                ],
+                "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
                 "targetMode": "TargetMode.Self",
                 "targetTeamType": "Team.Type.Monsters",
+                "paramInt": 1
+              },
+              {
                 "paramStatusEffects": [
                   {
-                    "statusId": "armor",
+                    "statusId": "VanillaStatusEffectIDs.Armor",
                     "count": 2
                   }
-                ]
+                ],
+                "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.Monsters"
               }
             ],
-            "description": "+[effect0.upgrade.bonusdamage][attack] and [armor] [effect1.status0.power]."
+            "trigger": "CharacterTriggerData.Trigger.CorruptionAdded"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Wurm",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-e4a54f72141f75fd-71af267861714f14ea18a1eb9a739092-v2"
-        ],
-        "name": "Shardsoul Carver",
-        "subtype": [
+        "subtypes": [
           "Kin",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "For all I’ve learned of the Realm, I’ve come to know little of the Wurmkin, but here’s what I’ve gathered: they carry stones etched in strange runes, their lack of sight and speech seems to only strengthen their intellectual prowess, and they are solitary even within their ranks. Knowledge is the highest purpose a Wurmkin can strive towards. In another life, this could have been a home for us."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-c0a435ee7fb880aa-71af267861714f14ea18a1eb9a739092-v2",
+        "size": 3,
+        "health": 30,
+        "attackDamage": 20
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
   "linkedClass": "ClassWurm",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Shardsoul Carver"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

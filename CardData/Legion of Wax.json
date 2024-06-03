@@ -1,9 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-431689405149dc70-922825f387065a6408a98da5320cb1b3-v2",
-  "cost": 2,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Legion of Wax",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -11,102 +7,84 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-b637953c3591b379-70952ffb07782ff4ba5ba8f1838c1586-v2",
-        "size": 4,
-        "health": 8,
-        "attackDamage": 8,
+        "name": "Legion of Wax",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnDeath",
-            "descriptionKey": "CharacterData_descriptionKey-4c3816bde9b7d1f1-70952ffb07782ff4ba5ba8f1838c1586-v2",
+            "description": "Summon 2 <nobr><b>Twin of Wax</b></nobr> and apply this unit's upgrades and stat changes.",
             "effects": [
               {
-                "effectStateName": "CardEffectSpawnMonster",
-                "targetMode": "TargetMode.Room",
-                "targetTeamType": "Team.Type.None",
-                "paramInt": 2,
                 "paramCharacterData": {
-                  "nameKey": "CharacterData_nameKey-1c748e74b6aa8d31-98bea84b89758ed44af8374fd8e90280-v2",
-                  "size": 2,
-                  "health": 4,
-                  "attackDamage": 4,
+                  "name": "Twin of Wax",
                   "triggers": [
                     {
-                      "trigger": "CharacterTriggerData.Trigger.OnDeath",
-                      "descriptionKey": "CharacterData_descriptionKey-71d773411a2a1bc1-98bea84b89758ed44af8374fd8e90280-v2",
+                      "description": "Summon 2 <nobr><b>Mote of Wax</b></nobr> and apply this unit's upgrades and stat changes.",
                       "effects": [
                         {
-                          "effectStateName": "CardEffectSpawnMonster",
-                          "targetMode": "TargetMode.Room",
-                          "targetTeamType": "Team.Type.None",
-                          "paramInt": 2,
                           "paramCharacterData": {
+                            "name": "Mote of Wax",
+                            "subtypes": [
+                              "Waxer"
+                            ],
+                            "characterLoreTooltips": [
+                              "When Waxers are reduced to almost nothing, but still cling to what life is left within, they will sometimes band together for protection to create a new form that is controlled by this hivemind of dying Waxers."
+                            ],
                             "nameKey": "CharacterData_nameKey-484a18b6a06a30d1-5818e71fe5600b94a91c02786f8ce23a-v2",
                             "size": 1,
                             "health": 2,
-                            "attackDamage": 2,
-                            "subtypeKeys": [
-                              "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
-                            ],
-                            "characterLoreTooltipKeys": [
-                              "CharacterData_data-7cf86cb693cc1d04-5818e71fe5600b94a91c02786f8ce23a-v2"
-                            ],
-                            "name": "Mote of Wax",
-                            "subtype": [
-                              "Waxer"
-                            ],
-                            "characterLoreTooltip": [
-                              "When Waxers are reduced to almost nothing, but still cling to what life is left within, they will sometimes band together for protection to create a new form that is controlled by this hivemind of dying Waxers."
-                            ]
-                          }
+                            "attackDamage": 2
+                          },
+                          "effectStateName": "CardEffectSpawnMonster",
+                          "targetMode": "TargetMode.Room",
+                          "targetTeamType": "Team.Type.None",
+                          "paramInt": 2
                         }
                       ],
-                      "description": "Summon 2 <nobr><b>Mote of Wax</b></nobr> and apply this unit's upgrades and stat changes."
+                      "trigger": "CharacterTriggerData.Trigger.OnDeath"
                     }
                   ],
-                  "subtypeKeys": [
-                    "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
-                  ],
-                  "characterLoreTooltipKeys": [
-                    "CharacterData_data-e619c0c4ee3f6fc7-98bea84b89758ed44af8374fd8e90280-v2"
-                  ],
-                  "name": "Twin of Wax",
-                  "subtype": [
+                  "subtypes": [
                     "Waxer"
                   ],
-                  "characterLoreTooltip": [
+                  "characterLoreTooltips": [
                     "When Waxers are reduced to almost nothing, but still cling to what life is left within, they will sometimes band together for protection to create a new form that is controlled by this hivemind of dying Waxers."
-                  ]
-                }
+                  ],
+                  "nameKey": "CharacterData_nameKey-1c748e74b6aa8d31-98bea84b89758ed44af8374fd8e90280-v2",
+                  "size": 2,
+                  "health": 4,
+                  "attackDamage": 4
+                },
+                "effectStateName": "CardEffectSpawnMonster",
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.None",
+                "paramInt": 2
               }
             ],
-            "description": "Summon 2 <nobr><b>Twin of Wax</b></nobr> and apply this unit's upgrades and stat changes."
+            "trigger": "CharacterTriggerData.Trigger.OnDeath"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-c7500f3999c3e129-70952ffb07782ff4ba5ba8f1838c1586-v2"
-        ],
-        "name": "Legion of Wax",
-        "subtype": [
+        "subtypes": [
           "Waxer",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "When Waxers are reduced to almost nothing, but still cling to what life is left within, they will sometimes band together for protection. This creates a new form that is collectively controlled by this collection of dying Waxers."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-b637953c3591b379-70952ffb07782ff4ba5ba8f1838c1586-v2",
+        "size": 4,
+        "health": 8,
+        "attackDamage": 8
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 2,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassRemnant",
   "unlockLevel": 4,
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Legion of Wax"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

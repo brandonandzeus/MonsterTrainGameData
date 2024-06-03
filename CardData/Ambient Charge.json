@@ -1,8 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-c9397cd852bb9ebb-660f91d49adca314ebcb87d9f424ca4c-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-bd2697bb4fdc4c7d-660f91d49adca314ebcb87d9f424ca4c-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Ambient Charge",
+  "overrideDescription": "Draw [effect1.power].<br>Apply [consume] to drawn spells.",
   "traits": [
     {
       "traitStateName": "CardTraitCorruptRestricted",
@@ -12,11 +10,7 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddTempCardUpgradeToNextDrawnCard",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCardUpgradeData": {
-        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitExhaustState"
@@ -37,37 +31,34 @@
             "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "effectStateName": "CardEffectAddTempCardUpgradeToNextDrawnCard",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     },
     {
-      "effectStateName": "CardEffectDraw",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "paramInt": 3,
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body",
           "title": "Charged Echoes",
           "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         },
         {
-          "titleKey": "CardTraitExhaustState_CardText",
-          "descriptionKey": "CardTraitExhaustState_TooltipText",
           "title": "Consume",
           "description": "Can only be played once per battle."
         }
-      ]
+      ],
+      "effectStateName": "CardEffectDraw",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
+      "paramInt": 3
     }
   ],
-  "linkedClass": "ClassWurm",
-  "cardLoreTooltipKeys": [
-    "CardData_data-bb73daa32da895d5-660f91d49adca314ebcb87d9f424ca4c-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Ambient Charge",
-  "overrideDescription": "Draw [effect1.power].<br>Apply [consume] to drawn spells.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "There is a large gap in the Wurmkin’s record of their history, an odd occurence for beings so intent on the preservation of knowledge. I’ve pieced together that during the Wurmkin’s rise to power, many Echoes were left unaccounted for, sealed away by the Kinhost in forgotten tunnels. Many that have been found have gone dark, their knowledge lost forever, but occasionally some are found that have fed off the passing souls above. It seems even this latent charge has been enough to preserve them."
-  ]
+  ],
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
+  "linkedClass": "ClassWurm",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

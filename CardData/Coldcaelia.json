@@ -1,8 +1,4 @@
 {
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState",
@@ -11,58 +7,54 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-bea799cc72bdddd1-4662d8efeb786184986f83a6da8d07e7-v2",
-        "size": 2,
-        "health": 15,
-        "attackDamage": 1,
+        "name": "Coldcaelia",
         "startingStatusEffects": [
           {
-            "statusId": "hunter",
+            "statusId": "VanillaStatusEffectIDs.Sweep",
             "count": 1
           }
         ],
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnAttacking",
-            "descriptionKey": "CharacterData_descriptionKey-0500506631b8ead3-4662d8efeb786184986f83a6da8d07e7-v2",
+            "description": "Apply [frostbite] {[effect0.status0.power]} to the attacked unit.",
             "effects": [
               {
-                "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": "TargetMode.LastAttackedCharacter",
-                "targetTeamType": "Team.Type.Heroes",
                 "paramStatusEffects": [
                   {
-                    "statusId": "poison",
+                    "statusId": "VanillaStatusEffectIDs.Frostbite",
                     "count": 3
                   }
-                ]
+                ],
+                "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.LastAttackedCharacter",
+                "targetTeamType": "Team.Type.Heroes"
               }
             ],
-            "description": "Apply [frostbite] {[effect0.status0.power]} to the attacked unit."
+            "trigger": "CharacterTriggerData.Trigger.OnAttacking"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Siren_727cf19f-3b27-4ad2-92ab-3552449e52da",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-24dfff950f65d94a-4662d8efeb786184986f83a6da8d07e7-v2"
-        ],
-        "name": "Coldcaelia",
-        "subtype": [
+        "subtypes": [
           "Siren",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "These Sirens have used the freezing of Hell to their advantage, enchanting their blades with ice to damage their enemies more deeply. They lack formal training in classical combat, but make up for it in their magical prowess."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-bea799cc72bdddd1-4662d8efeb786184986f83a6da8d07e7-v2",
+        "size": 2,
+        "health": 15,
+        "attackDamage": 1
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassStygian",
   "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Coldcaelia"

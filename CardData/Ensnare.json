@@ -1,43 +1,38 @@
 {
-  "nameKey": "CardData_nameKey-e8c5d35496f7eb9c-9a04d7ad84d2eb045b12d424615fd059-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-a1a80861b0ea26cc-9a04d7ad84d2eb045b12d424615fd059-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Ensnare",
+  "overrideDescription": "Apply [rooted] [effect0.status0.power] to an enemy unit.  [halfbreak]Draw +[effect1.power] next turn.",
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes",
       "paramStatusEffects": [
         {
-          "statusId": "rooted",
+          "statusId": "VanillaStatusEffectIDs.Rooted",
           "count": 1
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes"
     },
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Rooted",
+          "count": 1
+        }
+      ],
       "effectStateName": "CardEffectDrawAdditionalNextTurn",
       "targetMode": "TargetMode.DropTargetCharacter",
       "targetTeamType": "Team.Type.Heroes",
       "shouldTest": false,
-      "paramInt": 1,
-      "paramStatusEffects": [
-        {
-          "statusId": "rooted",
-          "count": 1
-        }
-      ]
+      "paramInt": 1
     }
   ],
-  "linkedClass": "ClassAwoken",
-  "cardLoreTooltipKeys": [
-    "CardData_data-1294053a9a6f737c-9a04d7ad84d2eb045b12d424615fd059-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
-  "name": "Ensnare",
-  "overrideDescription": "Apply [rooted] [effect0.status0.power] to an enemy unit.  [halfbreak]Draw +[effect1.power] next turn.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "The Wildwood of Hell encases those that linger too long underneath its draping canopy. These living trees scare me more than I care to admit."
-  ]
+  ],
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassAwoken",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy"
 }

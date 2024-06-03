@@ -1,40 +1,28 @@
 {
-  "nameKey": "CardData_nameKey-ad9aa016417bf0e7-cd5dc584a6f69214091c6123b9fa9de7-v2",
-  "cost": 2,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Overgorger",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-4f4770de4b96da00-140f50614a678a94c8f80092cc660fa5-v2",
-        "size": 3,
-        "health": 15,
-        "subtypeKeys": [
-          "SubtypesData_Forager",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-3797ad5f0102fb94-140f50614a678a94c8f80092cc660fa5-v2"
-        ],
         "name": "Overgorger",
-        "subtype": [
+        "subtypes": [
           "Shroud",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "A seasoned collector of Antumbra Morsels to the detriment of its own well-being. I've learned to steer clear of these creatures, as each new morsel they eat is a danger to all around them."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-4f4770de4b96da00-140f50614a678a94c8f80092cc660fa5-v2",
+        "size": 3,
+        "health": 15
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
   "triggers": [
     {
-      "trigger": "CardTriggerType.OnFeed",
-      "descriptionKey": "CardData_descriptionKey-28061a75296c8235-cd5dc584a6f69214091c6123b9fa9de7-v2",
+      "description": "+2[attack] permanently.",
       "cardTriggerEffects": [
         {
           "persistenceMode": "PersistenceMode.SingleRun",
@@ -43,10 +31,13 @@
           "paramInt": 2
         }
       ],
-      "description": "+2[attack] permanently."
+      "trigger": "CardTriggerType.OnFeed"
     }
   ],
+  "cost": 2,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassUmbra",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Overgorger"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

@@ -1,51 +1,43 @@
 {
+  "effects": [
+    {
+      "paramCharacterData": {
+        "name": "Morsel Miner",
+        "triggers": [
+          {
+            "description": "Eater gains +[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
+            "effects": [
+              {
+                "paramCardUpgradeData": {
+                  "bonusDamage": 6,
+                  "bonusHP": 6
+                },
+                "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                "targetMode": "TargetMode.LastFeederCharacter",
+                "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
+              }
+            ],
+            "trigger": "CharacterTriggerData.Trigger.OnEaten"
+          }
+        ],
+        "subtypes": [
+          "Morsel"
+        ],
+        "characterLoreTooltips": [
+          "Antumbra Morsels are tasked with the bulk of the physical labor throughout the mines of the Crucible, collecting precious metals and returning them to the main stockpile for smelting and smithing. They don't say much, but they've been quite friendly during my time in the Crucible."
+        ],
+        "nameKey": "CharacterData_nameKey-ec9ef2f3735a843c-5b60854f2562566449b0f132e23e1352-v2",
+        "size": 1,
+        "health": 1
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
+    }
+  ],
   "cardType": "CardType.Monster",
   "targetless": false,
   "rarity": "CollectableRarity.Rare",
-  "effects": [
-    {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-ec9ef2f3735a843c-5b60854f2562566449b0f132e23e1352-v2",
-        "size": 1,
-        "health": 1,
-        "triggers": [
-          {
-            "trigger": "CharacterTriggerData.Trigger.OnEaten",
-            "descriptionKey": "CharacterData_descriptionKey-628cc0dcc982f122-5b60854f2562566449b0f132e23e1352-v2",
-            "effects": [
-              {
-                "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                "targetMode": "TargetMode.LastFeederCharacter",
-                "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-                "paramCardUpgradeData": {
-                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-                  "bonusDamage": 6,
-                  "bonusHP": 6
-                }
-              }
-            ],
-            "description": "Eater gains +[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health]."
-          }
-        ],
-        "subtypeKeys": [
-          "SubtypesData_Snack"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-40e6dc66aa6f716a-5b60854f2562566449b0f132e23e1352-v2"
-        ],
-        "name": "Morsel Miner",
-        "subtype": [
-          "Morsel"
-        ],
-        "characterLoreTooltip": [
-          "Antumbra Morsels are tasked with the bulk of the physical labor throughout the mines of the Crucible, collecting precious metals and returning them to the main stockpile for smelting and smithing. They don't say much, but they've been quite friendly during my time in the Crucible."
-        ]
-      }
-    }
-  ],
   "linkedClass": "ClassUmbra",
   "ignoreWhenCountingMastery": true,
   "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",

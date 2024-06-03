@@ -1,37 +1,33 @@
 {
-  "nameKey": "CardData_nameKey-614e2109f9a924a9-bb91494edd79b7744bc1f3adc7f58977-v2",
-  "costType": "CardData.CostType.ConsumeRemainingEnergy",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-e3b3d96dac3d509d-bb91494edd79b7744bc1f3adc7f58977-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Spike of the Hellhorned",
+  "overrideDescription": "Apply [trait0.statusmultiplier][x] [rage] and [trait0.statusmultiplier][x] [armor].",
   "traits": [
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Rage",
+          "count": 0
+        }
+      ],
       "traitStateName": "CardTraitScalingAddStatusEffect",
       "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
       "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 2,
       "paramUseScalingParams": true,
-      "paramStatusEffects": [
-        {
-          "statusId": "buff",
-          "count": 0
-        }
-      ],
       "paramTeamType": "Team.Type.Heroes"
     },
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Armor",
+          "count": 0
+        }
+      ],
       "traitStateName": "CardTraitScalingAddStatusEffect",
       "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
       "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 2,
       "paramUseScalingParams": true,
-      "paramStatusEffects": [
-        {
-          "statusId": "armor",
-          "count": 0
-        }
-      ],
       "paramTeamType": "Team.Type.Heroes"
     },
     {
@@ -40,36 +36,35 @@
   ],
   "effects": [
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Rage",
+          "count": 0
+        }
+      ],
       "effectStateName": "CardEffectAddStatusEffect",
       "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "paramStatusEffects": [
-        {
-          "statusId": "buff",
-          "count": 0
-        }
-      ]
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     },
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.LastTargetedCharacters",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "armor",
+          "statusId": "VanillaStatusEffectIDs.Armor",
           "count": 0
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
-  "linkedClass": "ClassHellhorned",
-  "cardLoreTooltipKeys": [
-    "CardData_data-59d1a6437c5deca6-bb91494edd79b7744bc1f3adc7f58977-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Spike of the Hellhorned",
-  "overrideDescription": "Apply [trait0.statusmultiplier][x] [rage] and [trait0.statusmultiplier][x] [armor].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "In an act of unity unheard of in Hellhorned culture, Grrrg the Railbeater snapped his own horn to seal the Rail in their Ring, bringing the Hellhorned into our Covenant. Grrrg the Railbeater was thereafter known as Grrrg Onehorn."
-  ]
+  ],
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "linkedClass": "ClassHellhorned",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

@@ -1,63 +1,55 @@
 {
-  "nameKey": "CardData_nameKey-4f6709fb2fca059e-36c5fb3d022e5cf498deebb1daeb4b42-v2",
-  "costType": "CardData.CostType.NonPlayable",
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Bog Wurmling",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-219ee66c7261f969-c82a07efc532479489fd2f32c9fa9f4b-v2",
-        "size": 4,
-        "blockVisualSizeIncrease": true,
-        "health": 60,
-        "attackDamage": 90,
+        "name": "Bog Wurmling",
         "startingStatusEffects": [
           {
-            "statusId": "trample",
+            "statusId": "VanillaStatusEffectIDs.Trample",
             "count": 1
           }
         ],
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.CardExhausted",
-            "descriptionKey": "CharacterData_descriptionKey-72e5a8d9989c0ea8-c82a07efc532479489fd2f32c9fa9f4b-v2",
+            "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
             "effects": [
               {
-                "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                "targetMode": "TargetMode.Self",
-                "targetTeamType": "Team.Type.None",
                 "paramCardUpgradeData": {
-                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                   "bonusDamage": 10,
                   "bonusHP": 10
-                }
+                },
+                "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None"
               }
             ],
-            "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health]."
+            "trigger": "CharacterTriggerData.Trigger.CardExhausted"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Wurm"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-6c8a9f9cb83b30ff-c82a07efc532479489fd2f32c9fa9f4b-v2"
-        ],
-        "name": "Bog Wurmling",
-        "subtype": [
+        "subtypes": [
           "Kin"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "Erth was the name posthumously given to the Bogwurm — a name of function. The Wurm’s remains have seeded much of the life now buzzing in its bowels. The dead Titan’s bones — another peculiarity for a usually boneless creature — create the structure the Wurmkin inhabit while the flesh decays just above. Even in death, there’s still some latent power in the Wurm as it has created spawn in its own likeness."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-219ee66c7261f969-c82a07efc532479489fd2f32c9fa9f4b-v2",
+        "size": 4,
+        "blockVisualSizeIncrease": true,
+        "health": 60,
+        "attackDamage": 90
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "costType": "CardData.CostType.NonPlayable",
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
   "linkedClass": "ClassWurm",
   "ignoreWhenCountingMastery": true,
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Bog Wurmling"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

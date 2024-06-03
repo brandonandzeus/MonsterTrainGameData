@@ -1,51 +1,45 @@
 {
-  "nameKey": "CardData_nameKey-3fa6a7dec7246d89-a8a975a6ce290e14eaa3d2e2cf0d8e07-v2",
-  "cost": 3,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-3907c5e7b67120a6-a8a975a6ce290e14eaa3d2e2cf0d8e07-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Hoarfrost Effigy",
+  "overrideDescription": "Transfer all [frostbite] on this floor to a unit, then double the amount of [frostbite].",
   "effects": [
     {
-      "effectStateName": "CardEffectTransferAllStatusEffects",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "poison",
+          "statusId": "VanillaStatusEffectIDs.Frostbite",
           "count": 0
         }
-      ]
+      ],
+      "effectStateName": "CardEffectTransferAllStatusEffects",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     },
     {
-      "effectStateName": "CardEffectMultiplyStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "paramInt": 100,
       "paramStatusEffects": [
         {
-          "statusId": "poison",
+          "statusId": "VanillaStatusEffectIDs.Frostbite",
           "count": 2
         }
       ],
       "additionalTooltips": [
         {
-          "descriptionKey": "TipTooltip_RoomTargetSpell",
+          "description": "<b>Tip:</b> Spells only affect one floor.",
           "style": "TooltipDesigner.TooltipDesignType.Default",
-          "isTipTooltip": true,
-          "description": "<b>Tip:</b> Spells only affect one floor."
+          "isTipTooltip": true
         }
-      ]
+      ],
+      "effectStateName": "CardEffectMultiplyStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
+      "paramInt": 100
     }
   ],
-  "linkedClass": "ClassStygian",
-  "cardLoreTooltipKeys": [
-    "CardData_data-8503115d019e48b6-a8a975a6ce290e14eaa3d2e2cf0d8e07-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
-  "name": "Hoarfrost Effigy",
-  "overrideDescription": "Transfer all [frostbite] on this floor to a unit, then double the amount of [frostbite].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Even before the freeze, the granite monuments of the Titan dotting the sea were cold structures. Now they’ve become permanently frozen fixtures of the seascape, ominous presences easily recognizable by their sharp profiles."
-  ]
+  ],
+  "cost": 3,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "linkedClass": "ClassStygian",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy"
 }

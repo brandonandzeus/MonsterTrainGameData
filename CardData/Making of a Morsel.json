@@ -1,23 +1,26 @@
 {
-  "nameKey": "CardData_nameKey-8df6bc148b83cb5e-e95add7f3c3be9e4ab07369e81613bdd-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-a5da5b21d03da84d-e95add7f3c3be9e4ab07369e81613bdd-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Common",
+  "name": "Making of a Morsel",
+  "overrideDescription": "Add a <b>Morsel Miner</b> to your hand.",
   "effects": [
     {
-      "effectStateName": "CardEffectAddBattleCard",
-      "targetMode": "TargetMode.Hand",
-      "targetTeamType": "Team.Type.None",
-      "paramInt": 3,
       "paramCardPool": {
         "name": "Class5MorselMinerOnly",
         "cardDataList": [
           "MorselMiner"
         ]
-      }
+      },
+      "effectStateName": "CardEffectAddBattleCard",
+      "targetMode": "TargetMode.Hand",
+      "targetTeamType": "Team.Type.None",
+      "paramInt": 3
     }
   ],
+  "cardLoreTooltips": [
+    "Only the most trusted of Morsels are allowed to mine the most precious of metals. Even fewer are allowed to forge the valuable creations of the Umbra Shroud. So, to be allowed into these sacred forges was an honor indeed."
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassUmbra",
   "unlockLevel": 2,
   "sharedMasteryCards": [
@@ -28,13 +31,5 @@
     "Antumbra Morsel",
     "Morsel Excavator"
   ],
-  "cardLoreTooltipKeys": [
-    "CardData_data-30afcbb1e2ab1b58-e95add7f3c3be9e4ab07369e81613bdd-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Making of a Morsel",
-  "overrideDescription": "Add a <b>Morsel Miner</b> to your hand.",
-  "cardLoreTooltip": [
-    "Only the most trusted of Morsels are allowed to mine the most precious of metals. Even fewer are allowed to forge the valuable creations of the Umbra Shroud. So, to be allowed into these sacred forges was an honor indeed."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

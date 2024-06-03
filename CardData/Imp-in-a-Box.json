@@ -1,8 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-293a222250a8f49c-7085f6b4c2b0e164988527c0a8a1c83b-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-c6e6b0670a8dd71f-7085f6b4c2b0e164988527c0a8a1c83b-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Imp-in-a-Box",
+  "overrideDescription": "Add 2 random [imp] units to your hand.",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -10,11 +8,6 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddBattleCard",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "paramInt": 3,
-      "additionalParamInt": 2,
       "paramCardPool": {
         "name": "ImpPool",
         "cardDataList": [
@@ -48,18 +41,20 @@
           "EnlightenedInfery",
           "TranscendImp"
         ]
-      }
+      },
+      "effectStateName": "CardEffectAddBattleCard",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
+      "paramInt": 3,
+      "additionalParamInt": 2
     }
   ],
+  "cardLoreTooltips": [
+    "Whoever thought to put imps in a confined space had clearly never interacted with the little devils. That didn't stop me from keeping a few boxes. Though, every once in a while, one finally does get out."
+  ],
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassHellhorned",
   "unlockLevel": 8,
-  "cardLoreTooltipKeys": [
-    "CardData_data-30c860df355c46a5-7085f6b4c2b0e164988527c0a8a1c83b-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Imp-in-a-Box",
-  "overrideDescription": "Add 2 random [imp] units to your hand.",
-  "cardLoreTooltip": [
-    "Whoever thought to put imps in a confined space had clearly never interacted with the little devils. That didn't stop me from keeping a few boxes. Though, every once in a while, one finally does get out."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

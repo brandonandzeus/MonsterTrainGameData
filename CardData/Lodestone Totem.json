@@ -1,57 +1,49 @@
 {
+  "effects": [
+    {
+      "paramCharacterData": {
+        "name": "Lodestone Totem",
+        "triggers": [
+          {
+            "description": "Apply [sap] [effect0.status0.power] to enemy units.",
+            "effects": [
+              {
+                "paramStatusEffects": [
+                  {
+                    "statusId": "VanillaStatusEffectIDs.Sap",
+                    "count": 1
+                  }
+                ],
+                "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.Heroes",
+                "animToPlay": "CharacterUI.Anim.Attack"
+              }
+            ],
+            "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
+          }
+        ],
+        "subtypes": [
+          "Totem",
+          "Chosen"
+        ],
+        "characterLoreTooltips": [
+          "Of the totems that the founding Guard built, the Lodestones are possibly the most important. They provide energy for the Stygian Guard by siphoning power from those around them using some ancient technology that's eluded my understanding."
+        ],
+        "nameKey": "CharacterData_nameKey-d9a4ce6ba0011908-a80164732cd24ff4cbab53919bda7231-v2",
+        "size": 1,
+        "health": 1,
+        "deathSlidesBackwards": false
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
+    }
+  ],
   "cost": 3,
   "cardType": "CardType.Monster",
   "targetless": false,
   "rarity": "CollectableRarity.Rare",
-  "effects": [
-    {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-d9a4ce6ba0011908-a80164732cd24ff4cbab53919bda7231-v2",
-        "size": 1,
-        "health": 1,
-        "deathSlidesBackwards": false,
-        "triggers": [
-          {
-            "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed",
-            "descriptionKey": "CharacterData_descriptionKey-3a118f161d7b86c4-a80164732cd24ff4cbab53919bda7231-v2",
-            "effects": [
-              {
-                "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": "TargetMode.Room",
-                "targetTeamType": "Team.Type.Heroes",
-                "animToPlay": "CharacterUI.Anim.Attack",
-                "paramStatusEffects": [
-                  {
-                    "statusId": "debuff",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "description": "Apply [sap] [effect0.status0.power] to enemy units."
-          }
-        ],
-        "subtypeKeys": [
-          "SubtypesData_Totem_7c4e7151-d042-49e2-9700-29e7c760b691",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-d8930cf3c08fee52-a80164732cd24ff4cbab53919bda7231-v2"
-        ],
-        "name": "Lodestone Totem",
-        "subtype": [
-          "Totem",
-          "Chosen"
-        ],
-        "characterLoreTooltip": [
-          "Of the totems that the founding Guard built, the Lodestones are possibly the most important. They provide energy for the Stygian Guard by siphoning power from those around them using some ancient technology that's eluded my understanding."
-        ]
-      }
-    }
-  ],
   "linkedClass": "ClassStygian",
   "unlockLevel": 8,
   "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",

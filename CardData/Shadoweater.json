@@ -1,9 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-37721acde909e046-3171369909d8c6049981275fdb2f2654-v2",
-  "cost": 2,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Shadoweater",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState",
@@ -12,17 +8,11 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-98e65039ba6b1a5b-2327020f80e424847ac8ee86603ac764-v2",
-        "size": 3,
-        "health": 50,
+        "name": "Shadoweater",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnFeed",
-            "descriptionKey": "CharacterData_descriptionKey-7d4c53bfdc365988-2327020f80e424847ac8ee86603ac764-v2",
+            "description": "Restore [effect0.power] health. Deal [effect1.power] damage to enemy units.",
             "effects": [
               {
                 "effectStateName": "CardEffectHeal",
@@ -37,29 +27,30 @@
                 "paramInt": 10
               }
             ],
-            "description": "Restore [effect0.power] health. Deal [effect1.power] damage to enemy units."
+            "trigger": "CharacterTriggerData.Trigger.OnFeed"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Forager",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-c02d67e83afdaf37-2327020f80e424847ac8ee86603ac764-v2"
-        ],
-        "name": "Shadoweater",
-        "subtype": [
+        "subtypes": [
           "Shroud",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "A piece of the Umbra Shroud, blindly searching for morsels and metals to collect, returning them to the collective Shroud consciousness. Though when I say collect, I really mean eat them whole."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-98e65039ba6b1a5b-2327020f80e424847ac8ee86603ac764-v2",
+        "size": 3,
+        "health": 50
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 2,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassUmbra",
   "unlockLevel": 7,
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Shadoweater"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

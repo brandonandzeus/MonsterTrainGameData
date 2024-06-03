@@ -1,21 +1,18 @@
 {
-  "nameKey": "CardData_nameKey-cae6a084899f7e21-da9115369e8dc514ea47303658355de3-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-0a42449824acaaaf-da9115369e8dc514ea47303658355de3-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Dark Deal",
+  "overrideDescription": "Deal [effect1.power] damage. Apply [rage] [effect0.status0.power].",
   "effects": [
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Rage",
+          "count": 7
+        }
+      ],
       "effectStateName": "CardEffectAddStatusEffect",
       "targetMode": "TargetMode.DropTargetCharacter",
       "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "paramInt": 100,
-      "paramStatusEffects": [
-        {
-          "statusId": "buff",
-          "count": 7
-        }
-      ]
+      "paramInt": 100
     },
     {
       "effectStateName": "CardEffectDamage",
@@ -24,15 +21,13 @@
       "paramInt": 5
     }
   ],
+  "cardLoreTooltips": [
+    "Even the residents of Hell serve something darker and more ancient than themselves. They make deals with the Shroud of the Crucible for metals they can find nowhere else."
+  ],
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassHellhorned",
   "unlockLevel": 7,
-  "cardLoreTooltipKeys": [
-    "CardData_data-adc637858b377800-da9115369e8dc514ea47303658355de3-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Dark Deal",
-  "overrideDescription": "Deal [effect1.power] damage. Apply [rage] [effect0.status0.power].",
-  "cardLoreTooltip": [
-    "Even the residents of Hell serve something darker and more ancient than themselves. They make deals with the Shroud of the Crucible for metals they can find nowhere else."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

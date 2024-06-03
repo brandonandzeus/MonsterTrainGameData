@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-49e362a7bca6c73c-261d608a7986819418926c34206687ab-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-8a311e6866239bc0-261d608a7986819418926c34206687ab-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Common",
+  "name": "Echo Infusion",
+  "overrideDescription": "Apply +[effect0.upgrade.bonushp][health].",
   "traits": [
     {
       "traitStateName": "CardTraitCorruptRestricted",
@@ -12,31 +9,27 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCardUpgradeData": {
-        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
         "bonusHP": 10
       },
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body",
           "title": "Charged Echoes",
           "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
-  "linkedClass": "ClassWurm",
-  "cardLoreTooltipKeys": [
-    "CardData_data-d5729734e46fcb72-261d608a7986819418926c34206687ab-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Echo Infusion",
-  "overrideDescription": "Apply +[effect0.upgrade.bonushp][health].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "I’ve only just arrived and, yet, I feel as though I’ve spent a lifetime here. When I sleep, I dream of Titans I’ve never met and Divinities creating worlds on a whim. I did not know of Exiles until they revealed themselves to me, yet now I see the very crystals that made up their Shardsouls. Am I losing my mind, or worse… am I finding it again?"
-  ]
+  ],
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Common",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
+  "linkedClass": "ClassWurm",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

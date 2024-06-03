@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-30a627a28b75e42d-40c6a5a18c8df4948afab1b79a2a37b0-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-802e6b5279bfd27f-40c6a5a18c8df4948afab1b79a2a37b0-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Umbra Stone",
+  "overrideDescription": "Apply [trample].",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -12,25 +8,24 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "trample",
+          "statusId": "VanillaStatusEffectIDs.Trample",
           "count": 1
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
-  "linkedClass": "ClassUmbra",
-  "cardLoreTooltipKeys": [
-    "CardData_data-18e253667ccaadee-40c6a5a18c8df4948afab1b79a2a37b0-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Umbra Stone",
-  "overrideDescription": "Apply [trample].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "As a single mind, the Umbra had no need for written text. But when I finally discovered them, they created a language to converse with me and the other lowly residents of Hell."
-  ]
+  ],
+  "cost": 2,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "linkedClass": "ClassUmbra",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

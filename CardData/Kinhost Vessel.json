@@ -1,9 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-1a75086433b22b4a-be3b48dcc4082fb43a0f92bf8e5a75e1-v2",
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Kinhost Vessel",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -11,43 +7,35 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-7f23d3f04cda86b0-92c3e0fbcdc57b441ae72be7873e503d-v2",
-        "size": 1,
-        "health": 1,
+        "name": "Kinhost Vessel",
         "startingStatusEffects": [
           {
-            "statusId": "hatch",
+            "statusId": "VanillaStatusEffectIDs.Shell",
             "count": 8
           }
         ],
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnRemoveHatch",
-            "descriptionKey": "CharacterData_descriptionKey-1d8d9543e824aa7f-92c3e0fbcdc57b441ae72be7873e503d-v2",
-            "hideTriggerTooltip": true,
             "effects": [
               {
+                "paramStatusEffects": [
+                  {
+                    "statusId": "VanillaStatusEffectIDs.Shell",
+                    "count": 1
+                  }
+                ],
                 "effectStateName": "CardEffectRemoveStatusEffectPerCorrupt",
                 "targetMode": "TargetMode.Self",
                 "targetTeamType": "Team.Type.None",
-                "paramInt": 1,
-                "paramStatusEffects": [
-                  {
-                    "statusId": "hatch",
-                    "count": 1
-                  }
-                ]
+                "paramInt": 1
               }
             ],
-            "description": ""
+            "trigger": "CharacterTriggerData.Trigger.OnRemoveHatch",
+            "hideTriggerTooltip": true
           },
           {
-            "trigger": "CharacterTriggerData.Trigger.OnHatched",
-            "descriptionKey": "CharacterData_descriptionKey-2b9f0a20c4d8d9e2-92c3e0fbcdc57b441ae72be7873e503d-v2",
+            "description": "Summon Kinhost Pupa.",
             "effects": [
               {
                 "effectStateName": "CardEffectSacrifice",
@@ -57,97 +45,89 @@
                 "hideTooltip": true
               },
               {
-                "effectStateName": "CardEffectSpawnMonster",
-                "targetMode": "TargetMode.Self",
-                "targetTeamType": "Team.Type.Heroes",
                 "paramCharacterData": {
-                  "nameKey": "CharacterData_nameKey-c8974e656cd84d1e-f83d8a195ea0adf4697455f4280b567c-v2",
-                  "size": 2,
-                  "health": 10,
-                  "attackDamage": 30,
+                  "name": "Kinhost Pupa",
                   "startingStatusEffects": [
                     {
-                      "statusId": "armor",
+                      "statusId": "VanillaStatusEffectIDs.Armor",
                       "count": 20
                     },
                     {
-                      "statusId": "multistrike",
+                      "statusId": "VanillaStatusEffectIDs.Multistrike",
                       "count": 1
                     }
                   ],
                   "triggers": [
                     {
-                      "trigger": "CharacterTriggerData.Trigger.OnAttacking",
-                      "descriptionKey": "CharacterData_descriptionKey-03ee3656ce7e7999-f83d8a195ea0adf4697455f4280b567c-v2",
+                      "description": "Apply [corruptpoison] [effect0.status0.power] to enemy units.",
                       "effects": [
                         {
-                          "effectStateName": "CardEffectAddStatusEffect",
-                          "targetMode": "TargetMode.Room",
-                          "targetTeamType": "Team.Type.Heroes",
                           "paramStatusEffects": [
                             {
-                              "statusId": "corrupt_poison",
+                              "statusId": "VanillaStatusEffectIDs.Reap",
                               "count": 1
                             }
                           ],
                           "additionalTooltips": [
                             {
-                              "titleKey": "HudTooltip_RoomCorruption_Title",
-                              "descriptionKey": "HudTooltip_RoomCorruption_Body",
                               "title": "Charged Echoes",
                               "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                             }
-                          ]
+                          ],
+                          "effectStateName": "CardEffectAddStatusEffect",
+                          "targetMode": "TargetMode.Room",
+                          "targetTeamType": "Team.Type.Heroes"
                         }
                       ],
-                      "description": "Apply [corruptpoison] [effect0.status0.power] to enemy units."
+                      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
                     }
                   ],
-                  "subtypeKeys": [
-                    "SubtypesData_Host"
-                  ],
-                  "characterLoreTooltipKeys": [
-                    "CharacterData_data-3ceb5786716ecb72-f83d8a195ea0adf4697455f4280b567c-v2"
-                  ],
-                  "name": "Kinhost Pupa",
-                  "subtype": [
+                  "subtypes": [
                     "Host"
                   ],
-                  "characterLoreTooltip": [
+                  "characterLoreTooltips": [
                     "The Wurmkin wait for Kinhost to fully mature before making them the mindless slaves more often seen throughout the tunnels. This allows the Wurmkin to breed the Kinhost for strength and size, making them perfect mobile transports for the many Echoes scattered around the tunnels."
-                  ]
+                  ],
+                  "nameKey": "CharacterData_nameKey-c8974e656cd84d1e-f83d8a195ea0adf4697455f4280b567c-v2",
+                  "size": 2,
+                  "health": 10,
+                  "attackDamage": 30
                 },
                 "additionalTooltips": [
                   {
-                    "titleKey": "HudTooltip_RoomCorruption_Title",
-                    "descriptionKey": "HudTooltip_RoomCorruption_Body",
                     "title": "Charged Echoes",
                     "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                   }
-                ]
+                ],
+                "effectStateName": "CardEffectSpawnMonster",
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.Heroes"
               }
             ],
-            "description": "Summon Kinhost Pupa."
+            "trigger": "CharacterTriggerData.Trigger.OnHatched"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Egg",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-d0a793ca01632fe0-92c3e0fbcdc57b441ae72be7873e503d-v2"
-        ],
-        "name": "Kinhost Vessel",
-        "subtype": [
+        "subtypes": [
           "Egg",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "The vessels containing Kinhosts have been tended to by the Wurmkin since their discovery. By stretching out the vessels’ diet of Echoes, the Wurmkin are able to keep the vessels in a permanent state of hibernation and select the time of their hatching based on demand."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-7f23d3f04cda86b0-92c3e0fbcdc57b441ae72be7873e503d-v2",
+        "size": 1,
+        "health": 1
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
   "linkedClass": "ClassWurm",
   "sharedDiscoveryCards": [
     "Kinhost Pupa"
@@ -155,6 +135,5 @@
   "sharedMasteryCards": [
     "Kinhost Pupa"
   ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Kinhost Vessel"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

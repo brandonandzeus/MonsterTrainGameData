@@ -1,9 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-0cc048750988fedf-8d1f59b6c641f3142b7a9847f6e22c10-v2",
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Siren of the Sea",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState",
@@ -13,53 +9,47 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-9cf9513f783e1cf4-aaf6ff6dc9da03a48985f18b3310db9e-v2",
-        "size": 2,
-        "health": 10,
-        "attackDamage": 5,
+        "name": "Siren of the Sea",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed",
-            "descriptionKey": "CharacterData_descriptionKey-94a29c4b145a9693-aaf6ff6dc9da03a48985f18b3310db9e-v2",
+            "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
             "effects": [
               {
+                "paramCardUpgradeData": {
+                  "bonusDamage": 2,
+                  "bonusHP": 2
+                },
                 "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
                 "targetMode": "TargetMode.Self",
                 "targetTeamType": "Team.Type.None",
-                "paramInt": 1,
-                "paramCardUpgradeData": {
-                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-                  "bonusDamage": 2,
-                  "bonusHP": 2
-                }
+                "paramInt": 1
               }
             ],
-            "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health]."
+            "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Siren_727cf19f-3b27-4ad2-92ab-3552449e52da",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-abadaf38ec0fef37-aaf6ff6dc9da03a48985f18b3310db9e-v2"
-        ],
-        "name": "Siren of the Sea",
-        "subtype": [
+        "subtypes": [
           "Siren",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "While most of the Stygian Guard is magic focused, these Sirens form a melee contingent of the clan. I've still helped them to enchant their blades to reap the benefits of the Titan's power."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-9cf9513f783e1cf4-aaf6ff6dc9da03a48985f18b3310db9e-v2",
+        "size": 2,
+        "health": 10,
+        "attackDamage": 5
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassStygian",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Siren of the Sea"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

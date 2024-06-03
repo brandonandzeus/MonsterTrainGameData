@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-220e2e4c1f8fd2ab-b10f0d1c44f2aac4e9dd3855084c14fd-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-6c087e92c10a7ecb-b10f0d1c44f2aac4e9dd3855084c14fd-v2",
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Kinhost Carapace",
+  "overrideDescription": "When played, gain +10[attack], +10[health], and +1[size] per [corrupt].",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -30,60 +26,51 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-c08b7ef3bb7dbc2c-c92e2b2ab06bce9418a76b855e4046a1-v2",
-        "size": 1,
-        "health": 10,
-        "attackDamage": 10,
+        "name": "Kinhost Carapace",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnUnscaledSpawn",
-            "descriptionKey": "CharacterData_descriptionKey-f957b3875500efb1-c92e2b2ab06bce9418a76b855e4046a1-v2",
-            "hideTriggerTooltip": true,
             "effects": [
               {
-                "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                "targetMode": "TargetMode.Self",
-                "targetTeamType": "Team.Type.None",
                 "paramCardUpgradeData": {
-                  "linkedPactDuplicateRarity": "CollectableRarity.Starter"
                 },
                 "additionalTooltips": [
                   {
-                    "titleKey": "HudTooltip_RoomCorruption_Title",
-                    "descriptionKey": "HudTooltip_RoomCorruption_Body",
                     "title": "Charged Echoes",
                     "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                   }
-                ]
+                ],
+                "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None"
               }
             ],
-            "description": ""
+            "trigger": "CharacterTriggerData.Trigger.OnUnscaledSpawn",
+            "hideTriggerTooltip": true
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Host",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-12ae0c8d5fc21aa9-c92e2b2ab06bce9418a76b855e4046a1-v2"
-        ],
-        "name": "Kinhost Carapace",
-        "subtype": [
+        "subtypes": [
           "Host",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "Once impaled with Echoes, the Kinhost lose all sense of self, their will entirely determined by the will of the Echoes that now reside within it. It’s hard to imagine that a soul can be so completely eradicated. In an earlier life I may have done more to find a peaceful compromise. Now, I’d rather stay as far away from Judgement as possible."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-c08b7ef3bb7dbc2c-c92e2b2ab06bce9418a76b855e4046a1-v2",
+        "size": 1,
+        "health": 10,
+        "attackDamage": 10
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 2,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
   "linkedClass": "ClassWurm",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Kinhost Carapace",
-  "overrideDescription": "When played, gain +10[attack], +10[health], and +1[size] per [corrupt]."
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-662a527cc5fd38dd-525cd9b993504c24c9df662efaf68822-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-6472a188bb7327a0-525cd9b993504c24c9df662efaf68822-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Rare",
+  "name": "Hallowed Halls",
+  "overrideDescription": "Kill friendly units. [halfbreak]<b>Reform</b> random units to this floor until it exceeds its [size].",
   "traits": [
     {
       "traitStateName": "CardTraitShowCardTargets"
@@ -11,60 +8,49 @@
   ],
   "effects": [
     {
+      "paramCardUpgradeData": {
+        "statusEffectUpgrades": [
+          {
+            "statusId": "VanillaStatusEffectIDs.Burnout",
+            "count": 1
+          }
+        ],
+        "bonusDamage": 5,
+        "bonusHP": 5,
+        "costReduction": 99
+      },
       "effectStateName": "CardEffectKill",
       "targetMode": "TargetMode.Room",
       "targetTeamType": "Team.Type.Monsters",
       "targetCardType": "CardType.Monster",
-      "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToRoomUntilCapacityFull",
+      "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToRoomUntilCapacityFull"
+    },
+    {
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-f05d56acd65c0682-341b8d96f6526364c8b6abd34089ac9e-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-3fd316fe18de4b5b-341b8d96f6526364c8b6abd34089ac9e-v2",
-        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-        "bonusDamage": 5,
-        "bonusHP": 5,
-        "costReduction": 99,
         "statusEffectUpgrades": [
           {
-            "statusId": "ephemeral",
+            "statusId": "VanillaStatusEffectIDs.Burnout",
             "count": 1
           }
         ],
-        "upgradeTitle": "",
-        "upgradeDescription": ""
-      }
-    },
-    {
+        "bonusDamage": 5,
+        "bonusHP": 5,
+        "costReduction": 99
+      },
       "effectStateName": "CardEffectRecursion",
       "targetMode": "TargetMode.Exhaust",
       "targetTeamType": "Team.Type.None",
       "targetCardType": "CardType.Monster",
-      "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToRoomUntilCapacityFull",
-      "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-f05d56acd65c0682-341b8d96f6526364c8b6abd34089ac9e-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-3fd316fe18de4b5b-341b8d96f6526364c8b6abd34089ac9e-v2",
-        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-        "bonusDamage": 5,
-        "bonusHP": 5,
-        "costReduction": 99,
-        "statusEffectUpgrades": [
-          {
-            "statusId": "ephemeral",
-            "count": 1
-          }
-        ],
-        "upgradeTitle": "",
-        "upgradeDescription": ""
-      }
+      "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToRoomUntilCapacityFull"
     }
   ],
-  "linkedClass": "ClassRemnant",
-  "cardLoreTooltipKeys": [
-    "CardData_data-c3eff01a4a24e031-525cd9b993504c24c9df662efaf68822-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Hallowed Halls",
-  "overrideDescription": "Kill friendly units. [halfbreak]<b>Reform</b> random units to this floor until it exceeds its [size].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Wurmkin stoneform speaks of passageways deep below those controlled by the Wickless, further even than the caverns of the Reformed. These halls of stone sleep in the dark, their floors covered in the wicks of lost Waxers. Should Wax ever fall from the Ring above, and flame come to the wicks that lay there, a soul is said to live again for a brief moment of time. In my darkest nightmares, I rest in these wicked halls forever flickering between life and death."
-  ]
+  ],
+  "cost": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
+  "linkedClass": "ClassRemnant",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

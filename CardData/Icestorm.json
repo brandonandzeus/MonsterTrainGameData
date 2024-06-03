@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-1c1b608b2ad5e576-8e0c380ec486ae14cbc8563cb983c714-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-48fb531de2390764-8e0c380ec486ae14cbc8563cb983c714-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Icestorm",
+  "overrideDescription": "Deal [effect0.power] damage to a random enemy unit, five times.",
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
@@ -12,58 +9,56 @@
       "paramInt": 1
     },
     {
-      "effectStateName": "CardEffectDamage",
-      "targetMode": "TargetMode.RandomInRoom",
-      "targetTeamType": "Team.Type.Heroes",
-      "paramInt": 1,
       "paramTimingDelays": {
         "x": 0.1,
         "y": 0.1,
         "z": 0.1
-      }
+      },
+      "effectStateName": "CardEffectDamage",
+      "targetMode": "TargetMode.RandomInRoom",
+      "targetTeamType": "Team.Type.Heroes",
+      "paramInt": 1
     },
     {
-      "effectStateName": "CardEffectDamage",
-      "targetMode": "TargetMode.RandomInRoom",
-      "targetTeamType": "Team.Type.Heroes",
-      "paramInt": 1,
       "paramTimingDelays": {
         "x": 0.1,
         "y": 0.1,
         "z": 0.1
-      }
+      },
+      "effectStateName": "CardEffectDamage",
+      "targetMode": "TargetMode.RandomInRoom",
+      "targetTeamType": "Team.Type.Heroes",
+      "paramInt": 1
     },
     {
-      "effectStateName": "CardEffectDamage",
-      "targetMode": "TargetMode.RandomInRoom",
-      "targetTeamType": "Team.Type.Heroes",
-      "paramInt": 1,
       "paramTimingDelays": {
         "x": 0.1,
         "y": 0.1,
         "z": 0.1
-      }
+      },
+      "effectStateName": "CardEffectDamage",
+      "targetMode": "TargetMode.RandomInRoom",
+      "targetTeamType": "Team.Type.Heroes",
+      "paramInt": 1
     },
     {
-      "effectStateName": "CardEffectDamage",
-      "targetMode": "TargetMode.RandomInRoom",
-      "targetTeamType": "Team.Type.Heroes",
-      "paramInt": 1,
       "paramTimingDelays": {
         "x": 0.1,
         "y": 0.1,
         "z": 0.1
-      }
+      },
+      "effectStateName": "CardEffectDamage",
+      "targetMode": "TargetMode.RandomInRoom",
+      "targetTeamType": "Team.Type.Heroes",
+      "paramInt": 1
     }
   ],
-  "linkedClass": "ClassStygian",
-  "cardLoreTooltipKeys": [
-    "CardData_data-c9a27868489164ea-8e0c380ec486ae14cbc8563cb983c714-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Icestorm",
-  "overrideDescription": "Deal [effect0.power] damage to a random enemy unit, five times.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "When Hell was frozen, the Stygian Sea was cursed with an eternal storm, making my travel across it near impossible. Fortunately, I was later saved by the Guard, but the invaders of Hell were not so lucky."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassStygian",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

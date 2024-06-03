@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-afa867f54f335d6b-0494b3aaff86c5c4681944d663dfb0b7-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-e8be78cac15876a6-0494b3aaff86c5c4681944d663dfb0b7-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Common",
+  "name": "Helical Crystalis",
+  "overrideDescription": "Deal {[effect0.power]} damage to the front enemy unit, twice.",
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
@@ -12,25 +9,23 @@
       "paramInt": 25
     },
     {
-      "effectStateName": "CardEffectDamage",
-      "targetMode": "TargetMode.FrontInRoom",
-      "targetTeamType": "Team.Type.Heroes",
-      "paramInt": 25,
       "paramTimingDelays": {
         "x": 0.1,
         "y": 0.1,
         "z": 0.1
-      }
+      },
+      "effectStateName": "CardEffectDamage",
+      "targetMode": "TargetMode.FrontInRoom",
+      "targetTeamType": "Team.Type.Heroes",
+      "paramInt": 25
     }
   ],
-  "linkedClass": "ClassStygian",
-  "cardLoreTooltipKeys": [
-    "CardData_data-a83d65663cd24502-0494b3aaff86c5c4681944d663dfb0b7-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Helical Crystalis",
-  "overrideDescription": "Deal {[effect0.power]} damage to the front enemy unit, twice.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Physical combat has never been a strong suit of the Stygian Guard. Thankfully, their control of the energy coming from the Unnamed has made them deadly protectors of the inner Rings of Hell."
-  ]
+  ],
+  "cost": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassStygian",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

@@ -1,9 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-1b213ca9eb9fbad8-6c931b5b1bdd2bf4aa56bbde8b7abb5e-v2",
-  "cost": 1,
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Olde Magic",
   "effects": [
     {
       "effectStateName": "CardEffectNULL",
@@ -11,12 +7,13 @@
       "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
-  "cardLoreTooltipKeys": [
-    "CardData_data-6d775fecee8411d0-6c931b5b1bdd2bf4aa56bbde8b7abb5e-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Olde Magic",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "The Pyre did not always exist, that much I know for sure. But the mechanics of its creation aren’t exactly clear. There is a machine and a sacrifice of Titans. I was involved in the creation, possibly even the creator myself, but like many others, this memory has been lost to me."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

@@ -1,27 +1,17 @@
 {
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-318675633a459d29-5450ff25b9ec0494aa937c06b6443284-v2",
-        "size": 1,
-        "health": 1,
-        "attackDamage": 1,
+        "name": "Votivary",
         "startingStatusEffects": [
           {
-            "statusId": "endless",
+            "statusId": "VanillaStatusEffectIDs.Endless",
             "count": 1
           }
         ],
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnDeath",
-            "descriptionKey": "CharacterData_descriptionKey-78420f72dddc25b2-5450ff25b9ec0494aa937c06b6443284-v2",
+            "description": "Draw [effect0.power].",
             "effects": [
               {
                 "effectStateName": "CardEffectDraw",
@@ -30,25 +20,28 @@
                 "paramInt": 1
               }
             ],
-            "description": "Draw [effect0.power]."
+            "trigger": "CharacterTriggerData.Trigger.OnDeath"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-d12d20e9efededca-5450ff25b9ec0494aa937c06b6443284-v2"
-        ],
-        "name": "Votivary",
-        "subtype": [
+        "subtypes": [
           "Waxer"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "These Reformed attendants of the Votive Houses are some of my closest allies throughout the Ring. Their reduced stature gives them a natural affinity for the weak, finding them to be kindred spirits of sorts. Their sharp resin hands, however, make their embrace of these fellow souls considerably more dangerous."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-318675633a459d29-5450ff25b9ec0494aa937c06b6443284-v2",
+        "size": 1,
+        "health": 1,
+        "attackDamage": 1
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassRemnant",
   "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Votivary"

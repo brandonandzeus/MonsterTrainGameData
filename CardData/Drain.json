@@ -1,21 +1,17 @@
 {
-  "nameKey": "CardData_nameKey-221ed567845142ed-6c5c32706719bdc4f91591c52c1dcc97-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-466e32a3572ddbaa-6c5c32706719bdc4f91591c52c1dcc97-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Drain",
+  "overrideDescription": "Apply [sap] [effect0.status0.power]. [halfbreak]Discard a card at random.",
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "debuff",
+          "statusId": "VanillaStatusEffectIDs.Sap",
           "count": 3
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     },
     {
       "effectStateName": "CardEffectRandomDiscard",
@@ -26,14 +22,13 @@
       "paramInt": 1
     }
   ],
-  "linkedClass": "ClassStygian",
-  "cardLoreTooltipKeys": [
-    "CardData_data-6033d6e3f6231a15-6c5c32706719bdc4f91591c52c1dcc97-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
-  "name": "Drain",
-  "overrideDescription": "Apply [sap] [effect0.status0.power]. [halfbreak]Discard a card at random.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "While the Guard claims that the Titan still sleeps, it seems to show a base level awareness when it is near another soul, helping its kin and hurting everyone else. I've yet to be subjected to either, so I can't say which I am considered."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassStygian",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy"
 }

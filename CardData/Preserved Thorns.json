@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-633bb212d3c0c215-f721b88f5ac4baa4aa3f0cc08c2265bd-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-f74a5980245aded6-f721b88f5ac4baa4aa3f0cc08c2265bd-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Preserved Thorns",
+  "overrideDescription": "Add [effect0.power] <b>Sting</b> spells to your hand.",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -11,27 +8,25 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddBattleCard",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "paramInt": 3,
-      "additionalParamInt": 3,
       "paramCardPool": {
         "name": "StingOnlyPool",
         "cardDataList": [
           "Sting"
         ]
-      }
+      },
+      "effectStateName": "CardEffectAddBattleCard",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
+      "paramInt": 3,
+      "additionalParamInt": 3
     }
   ],
-  "linkedClass": "ClassAwoken",
-  "cardLoreTooltipKeys": [
-    "CardData_data-e8dfc777b3326d11-f721b88f5ac4baa4aa3f0cc08c2265bd-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Preserved Thorns",
-  "overrideDescription": "Add [effect0.power] <b>Sting</b> spells to your hand.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Through my research, I've learned that Wildwood sap can extend the efficacy of thorns. This has led to my preservation of thorns in sap for later use."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassAwoken",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

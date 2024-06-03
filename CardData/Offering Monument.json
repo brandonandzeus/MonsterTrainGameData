@@ -1,22 +1,11 @@
 {
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-fca91c71c4cba5e5-3117c8273db87b248b6289f972b97dd8-v2",
-        "size": 1,
-        "health": 40,
-        "deathSlidesBackwards": false,
+        "name": "Offering Monument",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed",
-            "descriptionKey": "CharacterData_descriptionKey-5826023a29a22152-3117c8273db87b248b6289f972b97dd8-v2",
+            "description": "[effect1.upgrade.bonushp][health]. <nobr>Draw [effect0.power].</nobr>",
             "effects": [
               {
                 "effectStateName": "CardEffectDraw",
@@ -26,37 +15,39 @@
                 "paramInt": 1
               },
               {
+                "paramCardUpgradeData": {
+                  "bonusHP": -5
+                },
                 "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
                 "targetMode": "TargetMode.Self",
                 "targetTeamType": "Team.Type.Monsters",
-                "paramInt": 1,
-                "paramCardUpgradeData": {
-                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-                  "bonusHP": -5
-                }
+                "paramInt": 1
               }
             ],
-            "description": "[effect1.upgrade.bonushp][health]. <nobr>Draw [effect0.power].</nobr>"
+            "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Totem_7c4e7151-d042-49e2-9700-29e7c760b691",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-838cb0eb0c7fae2f-3117c8273db87b248b6289f972b97dd8-v2"
-        ],
-        "name": "Offering Monument",
-        "subtype": [
+        "subtypes": [
           "Totem",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "I created monuments as signposts for the offering sites across the seafloor. But my shoddy work has made them vulnerable to the energy from the Unnamed below, destabilizing them entirely."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-fca91c71c4cba5e5-3117c8273db87b248b6289f972b97dd8-v2",
+        "size": 1,
+        "health": 40,
+        "deathSlidesBackwards": false
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassStygian",
   "unlockLevel": 4,
   "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",

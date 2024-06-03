@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-83e604c9cb4b9274-cc23c6594cc18ab4f9f0426dbd2b8a3c-v2",
-  "costType": "CardData.CostType.ConsumeRemainingEnergy",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-36aa748f6c6dc2e9-cc23c6594cc18ab4f9f0426dbd2b8a3c-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Automatic Railspikes",
+  "overrideDescription": "Deal [trait0.power][x] damage.",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddDamage",
@@ -22,43 +18,36 @@
   ],
   "startingUpgrades": [
     {
-      "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-b2b3472d948616a7-4572c98ab2c0b304e99ad9b1f0d3ceea-v2",
-      "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-edd25fab23f64de0-4572c98ab2c0b304e99ad9b1f0d3ceea-v2",
-      "useUpgradeHighlightTextTags": false,
-      "linkedPactDuplicateRarity": "CollectableRarity.Starter",
       "cardTriggerUpgrades": [
         {
-          "trigger": "CardTriggerType.OnKill",
-          "descriptionKey": "CardUpgradeData_descriptionKey-cfcf296da64eb0ae-4572c98ab2c0b304e99ad9b1f0d3ceea-v2",
+          "description": "Add a permanent copy of this card to your discard pile.",
           "cardEffects": [
             {
-              "effectStateName": "CardEffectAddRunCard",
-              "targetMode": "TargetMode.Room",
-              "copyModifiersFromSource": true,
-              "targetTeamType": "Team.Type.None",
-              "paramInt": 1,
               "paramCardPool": {
                 "name": "ReplicatingSpellPool",
                 "cardDataList": [
                   "ReplicatingSpell"
                 ]
-              }
+              },
+              "effectStateName": "CardEffectAddRunCard",
+              "targetMode": "TargetMode.Room",
+              "copyModifiersFromSource": true,
+              "targetTeamType": "Team.Type.None",
+              "paramInt": 1
             }
           ],
-          "description": "Add a permanent copy of this card to your discard pile."
+          "trigger": "CardTriggerType.OnKill"
         }
       ],
-      "upgradeTitle": "",
-      "upgradeDescription": ""
+      "useUpgradeHighlightTextTags": false
     }
   ],
-  "cardLoreTooltipKeys": [
-    "CardData_data-4edd482449214ed1-cc23c6594cc18ab4f9f0426dbd2b8a3c-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
-  "name": "Automatic Railspikes",
-  "overrideDescription": "Deal [trait0.power][x] damage.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "These railspikes can replicate themselves through technology I developed in the Crucible. They made the construction of the Rail a quick process. Some lubrication is needed to make sure that the spikes can emerge easily, but oil has become hard to come by. Thankfully, brutal combat has allowed for other sources."
-  ]
+  ],
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy"
 }

@@ -1,9 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-be699d0a8e3724a2-8c3260da9fee95641a39b1f5a0004824-v2",
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Animus of Will",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -11,40 +7,36 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCharacterData": {
+        "name": "Animus of Will",
+        "startingStatusEffects": [
+          {
+            "statusId": "VanillaStatusEffectIDs.Multistrike",
+            "count": 2
+          }
+        ],
+        "subtypes": [
+          "Animus",
+          "Chosen"
+        ],
+        "characterLoreTooltips": [
+          "These Animus have grown to see beyond their Ring. Preternaturally aware of the actions of their enemies, they can predict their movements and strike accordingly. I've learned that they are rarely created by Channelers since their gift of sight can expose them to the reality of their imprisonment."
+        ],
         "nameKey": "CharacterData_nameKey-d84b8a6cabf1a7ad-e213e225193344b459319e9f31b2b1f3-v2",
         "size": 2,
         "health": 3,
         "attackDamage": 3,
-        "attackTeleportsToDefender": false,
-        "startingStatusEffects": [
-          {
-            "statusId": "multistrike",
-            "count": 2
-          }
-        ],
-        "subtypeKeys": [
-          "SubtypesData_Animus_c0f95969-ae86-4477-9458-57bb235d965b",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-f4c9b3ccfd426440-e213e225193344b459319e9f31b2b1f3-v2"
-        ],
-        "name": "Animus of Will",
-        "subtype": [
-          "Animus",
-          "Chosen"
-        ],
-        "characterLoreTooltip": [
-          "These Animus have grown to see beyond their Ring. Preternaturally aware of the actions of their enemies, they can predict their movements and strike accordingly. I've learned that they are rarely created by Channelers since their gift of sight can expose them to the reality of their imprisonment."
-        ]
-      }
+        "attackTeleportsToDefender": false
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassAwoken",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Animus of Will"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

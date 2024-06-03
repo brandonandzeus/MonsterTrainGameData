@@ -1,8 +1,4 @@
 {
-  "cost": 2,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -10,138 +6,123 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-e76268dab3f00261-0e426e2c2b599dc4ab62b7e24310d2da-v2",
-        "size": 3,
-        "health": 1,
+        "name": "Bogdeep Cocoon",
         "startingStatusEffects": [
           {
-            "statusId": "hatch",
+            "statusId": "VanillaStatusEffectIDs.Shell",
             "count": 12
           }
         ],
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnRemoveHatch",
-            "descriptionKey": "CharacterData_descriptionKey-1e1fb50cdb820133-0e426e2c2b599dc4ab62b7e24310d2da-v2",
-            "hideTriggerTooltip": true,
             "effects": [
               {
+                "paramStatusEffects": [
+                  {
+                    "statusId": "VanillaStatusEffectIDs.Shell",
+                    "count": 1
+                  }
+                ],
                 "effectStateName": "CardEffectRemoveStatusEffectPerCorrupt",
                 "targetMode": "TargetMode.Self",
                 "targetTeamType": "Team.Type.None",
                 "paramInt": 1,
-                "paramStatusEffects": [
-                  {
-                    "statusId": "hatch",
-                    "count": 1
-                  }
-                ],
                 "hideTooltip": true
               }
             ],
-            "description": ""
+            "trigger": "CharacterTriggerData.Trigger.OnRemoveHatch",
+            "hideTriggerTooltip": true
           },
           {
-            "trigger": "CharacterTriggerData.Trigger.OnHatched",
-            "descriptionKey": "CharacterData_descriptionKey-cf2c5f1ebcd193ca-0e426e2c2b599dc4ab62b7e24310d2da-v2",
+            "description": "Summon Bog Wurmling",
             "effects": [
               {
+                "paramStatusEffects": [
+                  {
+                    "statusId": "VanillaStatusEffectIDs.Shell",
+                    "count": 1
+                  }
+                ],
                 "effectStateName": "CardEffectSacrifice",
                 "targetMode": "TargetMode.Self",
                 "targetTeamType": "Team.Type.None",
                 "paramBool": true,
-                "paramStatusEffects": [
-                  {
-                    "statusId": "hatch",
-                    "count": 1
-                  }
-                ],
                 "hideTooltip": true
               },
               {
-                "effectStateName": "CardEffectSpawnMonster",
-                "targetMode": "TargetMode.Self",
-                "targetTeamType": "Team.Type.None",
                 "paramCharacterData": {
-                  "nameKey": "CharacterData_nameKey-219ee66c7261f969-c82a07efc532479489fd2f32c9fa9f4b-v2",
-                  "size": 4,
-                  "blockVisualSizeIncrease": true,
-                  "health": 60,
-                  "attackDamage": 90,
+                  "name": "Bog Wurmling",
                   "startingStatusEffects": [
                     {
-                      "statusId": "trample",
+                      "statusId": "VanillaStatusEffectIDs.Trample",
                       "count": 1
                     }
                   ],
                   "triggers": [
                     {
-                      "trigger": "CharacterTriggerData.Trigger.CardExhausted",
-                      "descriptionKey": "CharacterData_descriptionKey-72e5a8d9989c0ea8-c82a07efc532479489fd2f32c9fa9f4b-v2",
+                      "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
                       "effects": [
                         {
-                          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                          "targetMode": "TargetMode.Self",
-                          "targetTeamType": "Team.Type.None",
                           "paramCardUpgradeData": {
-                            "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                             "bonusDamage": 10,
                             "bonusHP": 10
-                          }
+                          },
+                          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                          "targetMode": "TargetMode.Self",
+                          "targetTeamType": "Team.Type.None"
                         }
                       ],
-                      "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health]."
+                      "trigger": "CharacterTriggerData.Trigger.CardExhausted"
                     }
                   ],
-                  "subtypeKeys": [
-                    "SubtypesData_Wurm"
-                  ],
-                  "characterLoreTooltipKeys": [
-                    "CharacterData_data-6c8a9f9cb83b30ff-c82a07efc532479489fd2f32c9fa9f4b-v2"
-                  ],
-                  "name": "Bog Wurmling",
-                  "subtype": [
+                  "subtypes": [
                     "Kin"
                   ],
-                  "characterLoreTooltip": [
+                  "characterLoreTooltips": [
                     "Erth was the name posthumously given to the Bogwurm — a name of function. The Wurm’s remains have seeded much of the life now buzzing in its bowels. The dead Titan’s bones — another peculiarity for a usually boneless creature — create the structure the Wurmkin inhabit while the flesh decays just above. Even in death, there’s still some latent power in the Wurm as it has created spawn in its own likeness."
-                  ]
+                  ],
+                  "nameKey": "CharacterData_nameKey-219ee66c7261f969-c82a07efc532479489fd2f32c9fa9f4b-v2",
+                  "size": 4,
+                  "blockVisualSizeIncrease": true,
+                  "health": 60,
+                  "attackDamage": 90
                 },
                 "additionalTooltips": [
                   {
-                    "titleKey": "HudTooltip_RoomCorruption_Title",
-                    "descriptionKey": "HudTooltip_RoomCorruption_Body",
                     "title": "Charged Echoes",
                     "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                   }
-                ]
+                ],
+                "effectStateName": "CardEffectSpawnMonster",
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None"
               }
             ],
-            "description": "Summon Bog Wurmling"
+            "trigger": "CharacterTriggerData.Trigger.OnHatched"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Egg",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-0dcb89178b9b5935-0e426e2c2b599dc4ab62b7e24310d2da-v2"
-        ],
-        "name": "Bogdeep Cocoon",
-        "subtype": [
+        "subtypes": [
           "Egg",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "In the places where the fleshy sludge has calcified, the Bogwurm’s Remains have concentrated and created new sentient life in its own image. Even in death, the Titans continue to save us."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-e76268dab3f00261-0e426e2c2b599dc4ab62b7e24310d2da-v2",
+        "size": 3,
+        "health": 1
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 2,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
   "linkedClass": "ClassWurm",
   "unlockLevel": 4,
   "sharedDiscoveryCards": [

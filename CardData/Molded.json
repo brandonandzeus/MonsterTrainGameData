@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-81eb6900391f3649-facb5114b919fdd449a692612d1c3126-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-7dd32381b4f22a3c-facb5114b919fdd449a692612d1c3126-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Common",
+  "name": "Molded",
+  "overrideDescription": "[raise] a unit.",
   "traits": [
     {
       "traitStateName": "CardTraitShowCardTargets"
@@ -11,37 +8,30 @@
   ],
   "effects": [
     {
+      "paramCardUpgradeData": {
+        "statusEffectUpgrades": [
+          {
+            "statusId": "VanillaStatusEffectIDs.Burnout",
+            "count": 1
+          }
+        ],
+        "bonusDamage": 5,
+        "bonusHP": 5,
+        "costReduction": 99
+      },
       "effectStateName": "CardEffectRecursion",
       "targetMode": "TargetMode.Exhaust",
       "targetTeamType": "Team.Type.None",
       "targetCardType": "CardType.Monster",
-      "paramInt": 1,
-      "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-f05d56acd65c0682-341b8d96f6526364c8b6abd34089ac9e-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-3fd316fe18de4b5b-341b8d96f6526364c8b6abd34089ac9e-v2",
-        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-        "bonusDamage": 5,
-        "bonusHP": 5,
-        "costReduction": 99,
-        "statusEffectUpgrades": [
-          {
-            "statusId": "ephemeral",
-            "count": 1
-          }
-        ],
-        "upgradeTitle": "",
-        "upgradeDescription": ""
-      }
+      "paramInt": 1
     }
   ],
-  "linkedClass": "ClassRemnant",
-  "cardLoreTooltipKeys": [
-    "CardData_data-ce06157e29861a87-facb5114b919fdd449a692612d1c3126-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Molded",
-  "overrideDescription": "[raise] a unit.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Once a Waxer has melted away, only the wick remains. Should these Waxers choose to return to their previous forms, the Reformed will pour new wax into the original molds to revive the remaining wicks’ soul."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassRemnant",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

@@ -1,22 +1,11 @@
 {
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Common",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-40ce699a854420ba-585e1205f6cc16144a303d0d7196ac7b-v2",
-        "size": 1,
-        "health": 1,
-        "deathSlidesBackwards": false,
+        "name": "Entombed Explosive",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnDeath",
-            "descriptionKey": "CharacterData_descriptionKey-4c89ffab8280f20c-585e1205f6cc16144a303d0d7196ac7b-v2",
+            "description": "Deal [effect0.power] damage to the front enemy unit.",
             "effects": [
               {
                 "effectStateName": "CardEffectDamage",
@@ -27,25 +16,29 @@
                 "paramInt": 50
               }
             ],
-            "description": "Deal [effect0.power] damage to the front enemy unit."
+            "trigger": "CharacterTriggerData.Trigger.OnDeath"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Tomb"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-883f04f9fe9c3ef4-585e1205f6cc16144a303d0d7196ac7b-v2"
-        ],
-        "name": "Entombed Explosive",
-        "subtype": [
+        "subtypes": [
           "Tomb"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "A common, but unfortunate, occurrence for the Melting Remnant is the entrapment of inanimate objects within their melting wax. While often considered an inconvenience, the Wickless have utilized this phenomenon for more combat-focused applications."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-40ce699a854420ba-585e1205f6cc16144a303d0d7196ac7b-v2",
+        "size": 1,
+        "health": 1,
+        "deathSlidesBackwards": false
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassRemnant",
   "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Entombed Explosive"

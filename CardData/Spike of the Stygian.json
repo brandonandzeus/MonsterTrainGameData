@@ -1,37 +1,33 @@
 {
-  "nameKey": "CardData_nameKey-d32760fa86f0963f-7987deaa29ff16e4891e8f14aac2d45e-v2",
-  "costType": "CardData.CostType.ConsumeRemainingEnergy",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-e6d3068eb68b320e-7987deaa29ff16e4891e8f14aac2d45e-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Spike of the Stygian",
+  "overrideDescription": "Apply [trait0.statusmultiplier][x] [sap] and [trait1.statusmultiplier][x] [frostbite].",
   "traits": [
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Sap",
+          "count": 0
+        }
+      ],
       "traitStateName": "CardTraitScalingAddStatusEffect",
       "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
       "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 1,
       "paramUseScalingParams": true,
-      "paramStatusEffects": [
-        {
-          "statusId": "debuff",
-          "count": 0
-        }
-      ],
       "paramTeamType": "Team.Type.Heroes"
     },
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Frostbite",
+          "count": 0
+        }
+      ],
       "traitStateName": "CardTraitScalingAddStatusEffect",
       "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
       "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 5,
       "paramUseScalingParams": true,
-      "paramStatusEffects": [
-        {
-          "statusId": "poison",
-          "count": 0
-        }
-      ],
       "paramTeamType": "Team.Type.Heroes"
     },
     {
@@ -40,36 +36,35 @@
   ],
   "effects": [
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Sap",
+          "count": 0
+        }
+      ],
       "effectStateName": "CardEffectAddStatusEffect",
       "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "paramStatusEffects": [
-        {
-          "statusId": "debuff",
-          "count": 0
-        }
-      ]
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     },
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.LastTargetedCharacters",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "poison",
+          "statusId": "VanillaStatusEffectIDs.Frostbite",
           "count": 0
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
-  "linkedClass": "ClassStygian",
-  "cardLoreTooltipKeys": [
-    "CardData_data-6e95ad1428fb76f2-7987deaa29ff16e4891e8f14aac2d45e-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
-  "name": "Spike of the Stygian",
-  "overrideDescription": "Apply [trait0.statusmultiplier][x] [sap] and [trait1.statusmultiplier][x] [frostbite].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "The Stygian Guard was formed with our Rail of the Covenant, created by Tethys to protect the sealed Unnamed Titan. The Guard was wary of our Covenant from the beginning, worried that it would make the Pyre vulnerable to outside attacks. Unfortunately, they were correct."
-  ]
+  ],
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "linkedClass": "ClassStygian",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy"
 }

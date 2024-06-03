@@ -1,7 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-fd46bcb23f8b055b-976d27dafa269524e921685a48bae1ed-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Rare",
+  "name": "Bone Dog's Favor",
   "traits": [
     {
       "traitStateName": "CardTraitUnplayable"
@@ -9,8 +7,7 @@
   ],
   "triggers": [
     {
-      "trigger": "CardTriggerType.OnUnplayed",
-      "descriptionKey": "CardData_descriptionKey-0f2a16957464d6e8-976d27dafa269524e921685a48bae1ed-v2",
+      "description": "Restore [effect0.power] Pyre health.",
       "cardEffects": [
         {
           "effectStateName": "CardEffectHealTrain",
@@ -19,15 +16,13 @@
           "paramInt": 5
         }
       ],
-      "description": "Restore [effect0.power] Pyre health."
+      "trigger": "CardTriggerType.OnUnplayed"
     }
   ],
-  "cardLoreTooltipKeys": [
-    "CardData_data-bc158a5fd188e5e4-976d27dafa269524e921685a48bae1ed-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Bone Dog's Favor",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "As hellish as he is, Bone Dog isn't from this realm. The Awoken Channelers have traced him back to some unknown land ruled by one with no face. When we found him, we almost left him behind, but he's such a good boy."
-  ]
+  ],
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

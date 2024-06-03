@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-6c68b4eff1a48446-2293183512c0d144fa0a94449a2069b3-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-445f56a0e62f0650-2293183512c0d144fa0a94449a2069b3-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Common",
+  "name": "Hosting Kin",
+  "overrideDescription": "Deal [effect0.power] damage to a unit and move it to the back.",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -23,14 +20,13 @@
       "paramInt": 1
     }
   ],
-  "linkedClass": "ClassWurm",
-  "cardLoreTooltipKeys": [
-    "CardData_data-ed832c97eb8e2e92-2293183512c0d144fa0a94449a2069b3-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
-  "name": "Hosting Kin",
-  "overrideDescription": "Deal [effect0.power] damage to a unit and move it to the back.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "There is no mistaking the lineage connecting the Wurmkin to the Bogwurm Titan, but the hard-shelled Kinhosts do strike me as odd residents of this place. Some discarded stoneform mentions that they were the original inhabitants of this Ring, once a verdant place, but were enslaved by the Wurmkin as Echo vessels. Stoneform claims this was a blessing to the previously languishing Kinhost, an elevation of their lowly status. However, these discarded records and dismissive rationales make me think them to be downplayed atrocities."
-  ]
+  ],
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Common",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
+  "linkedClass": "ClassWurm",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy"
 }

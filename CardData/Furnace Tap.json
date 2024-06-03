@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-cf0ae9d9f1f68630-09758e7ac6f943948a70eacaa04d01f4-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-49951b7aff6b974b-09758e7ac6f943948a70eacaa04d01f4-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Furnace Tap",
+  "overrideDescription": "Apply [multistrike] [effect0.status0.power] and [emberdrain] [effect1.status0.power].",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -12,23 +8,20 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "multistrike",
+          "statusId": "VanillaStatusEffectIDs.Multistrike",
           "count": 1
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Monsters"
     },
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.LastTargetedCharacters",
-      "targetTeamType": "Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "scorch",
+          "statusId": "VanillaStatusEffectIDs.Emberdrain",
           "count": 4
         }
       ],
@@ -36,17 +29,19 @@
         "x": 0.1,
         "y": 0.1,
         "z": 0.1
-      }
+      },
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Monsters"
     }
   ],
-  "linkedClass": "ClassUmbra",
-  "cardLoreTooltipKeys": [
-    "CardData_data-065155aecede7d1e-09758e7ac6f943948a70eacaa04d01f4-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Furnace Tap",
-  "overrideDescription": "Apply [multistrike] [effect0.status0.power] and [emberdrain] [effect1.status0.power].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Much to my dismay, the Umbra are able to withstand the heat output from the furnaces on the Boneshaker, allowing them to commune with its power and use it for themselves - at the cost of energy to the train."
-  ]
+  ],
+  "cost": 2,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "linkedClass": "ClassUmbra",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

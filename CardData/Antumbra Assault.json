@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-d31d7f084860258e-aaeeaf72d5e646440889d74125d943ce-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-1f8266ceb6c7425f-aaeeaf72d5e646440889d74125d943ce-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Common",
+  "name": "Antumbra Assault",
+  "overrideDescription": "Deal [effect0.power] damage.",
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
@@ -15,15 +11,9 @@
   ],
   "triggers": [
     {
-      "trigger": "CardTriggerType.OnKill",
-      "descriptionKey": "CardData_descriptionKey-b409d6555292d690-aaeeaf72d5e646440889d74125d943ce-v2",
+      "description": "Add 2 uncommon or rare [snack] units to your hand.",
       "cardEffects": [
         {
-          "effectStateName": "CardEffectAddBattleCard",
-          "targetMode": "TargetMode.Hand",
-          "targetTeamType": "Team.Type.None",
-          "paramInt": 3,
-          "additionalParamInt": 2,
           "paramCardPool": {
             "name": "Class5Food",
             "cardDataList": [
@@ -47,12 +37,24 @@
               "VoidExcavator",
               "MorselMiner"
             ]
-          }
+          },
+          "effectStateName": "CardEffectAddBattleCard",
+          "targetMode": "TargetMode.Hand",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 3,
+          "additionalParamInt": 2
         }
       ],
-      "description": "Add 2 uncommon or rare [snack] units to your hand."
+      "trigger": "CardTriggerType.OnKill"
     }
   ],
+  "cardLoreTooltips": [
+    "As the first line of defense in the Crucible, Morsels will rocket towards an intruder, often sacrificing themselves in the process. If they succeed in their defense, they live to mine another day."
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassUmbra",
   "sharedMasteryCards": [
     "Morsel Jeweler",
@@ -62,13 +64,5 @@
     "Antumbra Morsel",
     "Morsel Excavator"
   ],
-  "cardLoreTooltipKeys": [
-    "CardData_data-12d38371dc555b10-aaeeaf72d5e646440889d74125d943ce-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
-  "name": "Antumbra Assault",
-  "overrideDescription": "Deal [effect0.power] damage.",
-  "cardLoreTooltip": [
-    "As the first line of defense in the Crucible, Morsels will rocket towards an intruder, often sacrificing themselves in the process. If they succeed in their defense, they live to mine another day."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy"
 }

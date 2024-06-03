@@ -1,19 +1,14 @@
 {
-  "nameKey": "CardData_nameKey-1e0345136eea7880-6757db998f7279743be5e849a3f29fa4-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-3635c32966b3e70b-6757db998f7279743be5e849a3f29fa4-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Common",
+  "name": "Rootseeds",
+  "overrideDescription": "Apply +[effect0.upgrade.bonusdamage][attack].[halfbreak]Draw +[effect1.power] next turn.",
   "effects": [
     {
+      "paramCardUpgradeData": {
+        "bonusDamage": 2
+      },
       "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
       "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "paramCardUpgradeData": {
-        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-        "bonusDamage": 2
-      }
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     },
     {
       "effectStateName": "CardEffectDrawAdditionalNextTurn",
@@ -23,14 +18,13 @@
       "paramInt": 1
     }
   ],
-  "linkedClass": "ClassAwoken",
-  "cardLoreTooltipKeys": [
-    "CardData_data-2c87eaad8f1a6731-6757db998f7279743be5e849a3f29fa4-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Rootseeds",
-  "overrideDescription": "Apply +[effect0.upgrade.bonusdamage][attack].[halfbreak]Draw +[effect1.power] next turn.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "In one of these dreams, that I'm beginning to believe are visions of the past, Wyldenten showed me the creation of the Wildwood itself: seeds taken from Wyldenten's own body. His final gift before his Exile."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassAwoken",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

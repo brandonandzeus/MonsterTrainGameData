@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-cfe8289bb1bc14bf-7cb1ccddd7c45204999a78128b6fb996-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-2b6f26a0d7370537-7cb1ccddd7c45204999a78128b6fb996-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Focused Growth",
+  "overrideDescription": "Restore [effect0.power] health. [halfbreak]Draw +[effect1.power] next turn.",
   "effects": [
     {
       "effectStateName": "CardEffectHeal",
@@ -20,14 +16,13 @@
       "paramInt": 2
     }
   ],
-  "linkedClass": "ClassAwoken",
-  "cardLoreTooltipKeys": [
-    "CardData_data-34193035c4467cd3-7cb1ccddd7c45204999a78128b6fb996-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Focused Growth",
-  "overrideDescription": "Restore [effect0.power] health. [halfbreak]Draw +[effect1.power] next turn.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "I've observed from those of the Wildwood that with great concentration comes great healing. The Awoken can channel their will into sprouting spores on the surface of their form to heal broken parts of their vined bodies."
-  ]
+  ],
+  "cost": 2,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassAwoken",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

@@ -1,44 +1,36 @@
 {
-  "nameKey": "CardData_nameKey-0365e0cff88bb9fb-1262c64980e68164692c030401093117-v2",
+  "name": "Shard Channeler",
+  "effects": [
+    {
+      "paramCharacterData": {
+        "name": "Shard Channeler",
+        "subtypes": [
+          "Channeler"
+        ],
+        "characterLoreTooltips": [
+          "Rather than nurture and care for the growth of the Wildwood, some Channelers choose to defend and protect it by channeling the power of the Pyre shards embedded throughout the forest, using a method I developed for them. "
+        ],
+        "roomModifiers": [
+          {
+            "description": "[spikes] on friendly units deal +[paramint] damage per stack.",
+            "roomStateModifierClassName": "RoomStateSpikesDamageModifier",
+            "paramInt": 1
+          }
+        ],
+        "nameKey": "CharacterData_nameKey-44800192a2ad89e1-07bef0b8712e5374e9f1e20f1b06367a-v2",
+        "size": 1,
+        "health": 2
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
+    }
+  ],
   "cost": 1,
   "cardType": "CardType.Monster",
   "targetless": false,
   "rarity": "CollectableRarity.Rare",
-  "effects": [
-    {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-44800192a2ad89e1-07bef0b8712e5374e9f1e20f1b06367a-v2",
-        "size": 1,
-        "health": 2,
-        "subtypeKeys": [
-          "SubtypesData_Cultist_8a3bb2b5-8c56-4c86-bb08-85b95c488f23"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-7b928b4a2375a76a-07bef0b8712e5374e9f1e20f1b06367a-v2"
-        ],
-        "roomModifiers": [
-          {
-            "roomStateModifierClassName": "RoomStateSpikesDamageModifier",
-            "descriptionKey": "CharacterData_descriptionKey-edcc8beca986d582-07bef0b8712e5374e9f1e20f1b06367a-v2",
-            "paramInt": 1,
-            "description": "[spikes] on friendly units deal +[paramint] damage per stack."
-          }
-        ],
-        "name": "Shard Channeler",
-        "subtype": [
-          "Channeler"
-        ],
-        "characterLoreTooltip": [
-          "Rather than nurture and care for the growth of the Wildwood, some Channelers choose to defend and protect it by channeling the power of the Pyre shards embedded throughout the forest, using a method I developed for them. "
-        ]
-      }
-    }
-  ],
   "linkedClass": "ClassAwoken",
   "unlockLevel": 6,
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Shard Channeler"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

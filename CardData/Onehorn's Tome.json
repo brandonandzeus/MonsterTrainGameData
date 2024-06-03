@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-5ed4b3175df2a164-6ab7fbf8e59453c458c54f2393234964-v2",
-  "cost": 5,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-504aeea65d84ae94-6ab7fbf8e59453c458c54f2393234964-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Onehorn's Tome",
+  "overrideDescription": "Apply [fragile] and [multistrike] [effect0.status0.power] to a friendly unit.",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -12,39 +8,38 @@
   ],
   "effects": [
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Multistrike",
+          "count": 1
+        }
+      ],
       "effectStateName": "CardEffectAddStatusEffect",
       "targetMode": "TargetMode.DropTargetCharacter",
       "targetTeamType": "Team.Type.Monsters",
-      "paramInt": 100,
-      "paramStatusEffects": [
-        {
-          "statusId": "multistrike",
-          "count": 1
-        }
-      ]
+      "paramInt": 100
     },
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Fragile",
+          "count": 1
+        }
+      ],
       "effectStateName": "CardEffectAddStatusEffect",
       "targetMode": "TargetMode.LastTargetedCharacters",
       "targetTeamType": "Team.Type.Monsters",
-      "paramInt": 100,
-      "paramStatusEffects": [
-        {
-          "statusId": "fragile",
-          "count": 1
-        }
-      ]
+      "paramInt": 100
     }
   ],
+  "cardLoreTooltips": [
+    "\"Hell's Horns, History of the Hellhorned\", by Grrrg Onehorn. The terrible handwriting of the imp scribes has made this tome an excruciating read and something I don't plan on returning to soon."
+  ],
+  "cost": 5,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassHellhorned",
   "unlockLevel": 10,
-  "cardLoreTooltipKeys": [
-    "CardData_data-4e37d600b226ab74-6ab7fbf8e59453c458c54f2393234964-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Onehorn's Tome",
-  "overrideDescription": "Apply [fragile] and [multistrike] [effect0.status0.power] to a friendly unit.",
-  "cardLoreTooltip": [
-    "\"Hell's Horns, History of the Hellhorned\", by Grrrg Onehorn. The terrible handwriting of the imp scribes has made this tome an excruciating read and something I don't plan on returning to soon."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

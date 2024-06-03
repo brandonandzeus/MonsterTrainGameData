@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-e758f9750abc3f66-c30eba51ff5bd0945a71292ec210d719-v2",
-  "cost": 3,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-f28d5be01b7a0ec6-c30eba51ff5bd0945a71292ec210d719-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Reinforce",
+  "overrideDescription": "Double the amount of [armor] on a unit.",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -12,26 +8,25 @@
   ],
   "effects": [
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Armor",
+          "count": 2
+        }
+      ],
       "effectStateName": "CardEffectMultiplyStatusEffect",
       "targetMode": "TargetMode.DropTargetCharacter",
       "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "paramInt": 100,
-      "paramStatusEffects": [
-        {
-          "statusId": "armor",
-          "count": 2
-        }
-      ]
+      "paramInt": 100
     }
   ],
-  "linkedClass": "ClassHellhorned",
-  "cardLoreTooltipKeys": [
-    "CardData_data-818db1554b7820a6-c30eba51ff5bd0945a71292ec210d719-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Reinforce",
-  "overrideDescription": "Double the amount of [armor] on a unit.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Armor forged by Hellhorned steelworkers is among the sturdiest defense known to Hell. It is not, however, known to be particularly comfortable, so the Hellhorned wear it only when absolutely necessary."
-  ]
+  ],
+  "cost": 3,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "linkedClass": "ClassHellhorned",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

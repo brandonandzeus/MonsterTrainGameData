@@ -1,9 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-3062b57b46822440-7476b800821cef44a8b2536ea449af94-v2",
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Bog Chrysalis",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -11,44 +7,36 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-ae2a45bb7d9582aa-6a3f30d23203a1a4aaa2e865fd701ea5-v2",
-        "size": 1,
-        "health": 1,
+        "name": "Bog Chrysalis",
         "startingStatusEffects": [
           {
-            "statusId": "hatch",
+            "statusId": "VanillaStatusEffectIDs.Shell",
             "count": 5
           }
         ],
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnRemoveHatch",
-            "descriptionKey": "CharacterData_descriptionKey-3941e1a71e6e8397-6a3f30d23203a1a4aaa2e865fd701ea5-v2",
-            "hideTriggerTooltip": true,
             "effects": [
               {
+                "paramStatusEffects": [
+                  {
+                    "statusId": "VanillaStatusEffectIDs.Shell",
+                    "count": 1
+                  }
+                ],
                 "effectStateName": "CardEffectRemoveStatusEffectPerCorrupt",
                 "targetMode": "TargetMode.Self",
                 "targetTeamType": "Team.Type.None",
                 "paramInt": 1,
-                "paramStatusEffects": [
-                  {
-                    "statusId": "hatch",
-                    "count": 1
-                  }
-                ],
                 "hideTooltip": true
               }
             ],
-            "description": ""
+            "trigger": "CharacterTriggerData.Trigger.OnRemoveHatch",
+            "hideTriggerTooltip": true
           },
           {
-            "trigger": "CharacterTriggerData.Trigger.OnHatched",
-            "descriptionKey": "CharacterData_descriptionKey-75c2cc253b224c05-6a3f30d23203a1a4aaa2e865fd701ea5-v2",
+            "description": "Summon 2 <b>Bog Fly</b> units.",
             "effects": [
               {
                 "effectStateName": "CardEffectSacrifice",
@@ -58,76 +46,67 @@
                 "hideTooltip": true
               },
               {
-                "effectStateName": "CardEffectSpawnMonster",
-                "targetMode": "TargetMode.Room",
-                "targetTeamType": "Team.Type.Monsters",
-                "paramInt": 2,
                 "paramCharacterData": {
-                  "nameKey": "CharacterData_nameKey-da5bc0cf9bb285e0-8be3987b12f5410469fc72f4cb2f3ee3-v2",
-                  "size": 1,
-                  "health": 5,
-                  "subtypeKeys": [
-                    "SubtypesData_Wurm"
+                  "name": "Bog Fly",
+                  "subtypes": [
+                    "Kin"
                   ],
-                  "characterLoreTooltipKeys": [
-                    "CharacterData_data-38de566bbe2fbd44-8be3987b12f5410469fc72f4cb2f3ee3-v2"
+                  "characterLoreTooltips": [
+                    "For the countless years that I trudged through the death and decay left above, there was no way I could’ve imagined the bustling life buzzing just underneath the surface. Isolation has given the Wurmkin time to innovate. Time to fly! And now their work within their cairns is completed without any need for outside assistance."
                   ],
                   "roomModifiers": [
                     {
-                      "roomStateModifierClassName": "RoomStateSelfDamagePerCorruptionModifier",
-                      "descriptionKey": "CharacterData_descriptionKey-1d5e545eedc361dc-8be3987b12f5410469fc72f4cb2f3ee3-v2",
-                      "descriptionKeyInPlay": "CharacterData_descriptionKeyInPlay-943432c6fc68631c-8be3987b12f5410469fc72f4cb2f3ee3-v2",
-                      "paramInt": 5,
-                      "extraTooltipTitleKey": "HudTooltip_RoomCorruption_Title",
-                      "extraTooltipBodyKey": "HudTooltip_RoomCorruption_Body",
                       "description": "+[paramint][attack] per [corrupt].",
                       "extraTooltipTitle": "Charged Echoes",
-                      "extraTooltipBody": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
+                      "extraTooltipBody": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn.",
+                      "roomStateModifierClassName": "RoomStateSelfDamagePerCorruptionModifier",
+                      "descriptionKeyInPlay": "CharacterData_descriptionKeyInPlay-943432c6fc68631c-8be3987b12f5410469fc72f4cb2f3ee3-v2",
+                      "paramInt": 5
                     }
                   ],
-                  "name": "Bog Fly",
-                  "subtype": [
-                    "Kin"
-                  ],
-                  "characterLoreTooltip": [
-                    "For the countless years that I trudged through the death and decay left above, there was no way I could’ve imagined the bustling life buzzing just underneath the surface. Isolation has given the Wurmkin time to innovate. Time to fly! And now their work within their cairns is completed without any need for outside assistance."
-                  ]
+                  "nameKey": "CharacterData_nameKey-da5bc0cf9bb285e0-8be3987b12f5410469fc72f4cb2f3ee3-v2",
+                  "size": 1,
+                  "health": 5
                 },
                 "additionalTooltips": [
                   {
-                    "titleKey": "HudTooltip_RoomCorruption_Title",
-                    "descriptionKey": "HudTooltip_RoomCorruption_Body",
                     "title": "Charged Echoes",
                     "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                   }
-                ]
+                ],
+                "effectStateName": "CardEffectSpawnMonster",
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.Monsters",
+                "paramInt": 2
               }
             ],
-            "description": "Summon 2 <b>Bog Fly</b> units."
+            "trigger": "CharacterTriggerData.Trigger.OnHatched"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Egg",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-1e1605c31a16fbfc-6a3f30d23203a1a4aaa2e865fd701ea5-v2"
-        ],
-        "name": "Bog Chrysalis",
-        "subtype": [
+        "subtypes": [
           "Egg",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "The Wurmkin do not breed. At least, not anymore. Upon their decision to remain hidden, they created thousands of eggs, ready to hatch on command, eschewing the need for further reproduction. What a shame."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-ae2a45bb7d9582aa-6a3f30d23203a1a4aaa2e865fd701ea5-v2",
+        "size": 1,
+        "health": 1
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
   "linkedClass": "ClassWurm",
   "sharedDiscoveryCards": [
     "Bog Fly"
   ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Bog Chrysalis"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

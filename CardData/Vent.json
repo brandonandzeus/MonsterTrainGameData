@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-3a4216d3ba22561a-fc3ab4b5fb3e22e44be42f96a62edbf6-v2",
-  "costType": "CardData.CostType.ConsumeRemainingEnergy",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-ba1f4236475ea94c-fc3ab4b5fb3e22e44be42f96a62edbf6-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Common",
+  "name": "Vent",
+  "overrideDescription": "Deal [trait0.power][x] damage to enemy units.",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddDamage",
@@ -20,14 +17,12 @@
       "targetTeamType": "Team.Type.Heroes"
     }
   ],
-  "linkedClass": "ClassHellhorned",
-  "cardLoreTooltipKeys": [
-    "CardData_data-90fff73f719b4a57-fc3ab4b5fb3e22e44be42f96a62edbf6-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Vent",
-  "overrideDescription": "Deal [trait0.power][x] damage to enemy units.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "The Boneshaker is of my own design. Fueled by the last shards of the Pyre, the train is robust and dependable. One of its lesser-known features is the ability to unleash pressurized steam on invaders."
-  ]
+  ],
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassHellhorned",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

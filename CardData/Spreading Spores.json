@@ -1,29 +1,22 @@
 {
-  "nameKey": "CardData_nameKey-39141423231d15b5-4304897c778c4fc488b84d90b9a72b48-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-864c4859c3ebd110-4304897c778c4fc488b84d90b9a72b48-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Spreading Spores",
+  "overrideDescription": "Apply [regen] [effect0.status0.power] and [spikes] [effect1.status0.power]. Add a copy of this card to your discard pile.",
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "regen",
+          "statusId": "VanillaStatusEffectIDs.Regen",
           "count": 2
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     },
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.LastTargetedCharacters",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "spikes",
+          "statusId": "VanillaStatusEffectIDs.Spikes",
           "count": 2
         }
       ],
@@ -31,32 +24,34 @@
         "x": 0.2,
         "y": 0.2,
         "z": 0.2
-      }
+      },
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     },
     {
-      "effectStateName": "CardEffectAddBattleCard",
-      "targetMode": "TargetMode.Room",
-      "copyModifiersFromSource": true,
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "shouldTest": false,
-      "paramInt": 1,
       "paramCardPool": {
         "name": "ReplicatingHeal",
         "cardDataList": [
           "SpreadingSpores"
         ]
-      }
+      },
+      "effectStateName": "CardEffectAddBattleCard",
+      "targetMode": "TargetMode.Room",
+      "copyModifiersFromSource": true,
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
+      "shouldTest": false,
+      "paramInt": 1
     }
   ],
+  "cardLoreTooltips": [
+    "When thorns find their mark, they release spores into the air to incapacitate unsuspecting victims. These poor souls soon transform into Awoken and feed the vines that first spread the spores. On the embarrassingly frequent occasions that I'm stung by these thorns, I remove them before any real damage occurs."
+  ],
+  "cost": 2,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassAwoken",
   "unlockLevel": 2,
-  "cardLoreTooltipKeys": [
-    "CardData_data-a67cf0750c61fb6f-4304897c778c4fc488b84d90b9a72b48-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Spreading Spores",
-  "overrideDescription": "Apply [regen] [effect0.status0.power] and [spikes] [effect1.status0.power]. Add a copy of this card to your discard pile.",
-  "cardLoreTooltip": [
-    "When thorns find their mark, they release spores into the air to incapacitate unsuspecting victims. These poor souls soon transform into Awoken and feed the vines that first spread the spores. On the embarrassingly frequent occasions that I'm stung by these thorns, I remove them before any real damage occurs."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

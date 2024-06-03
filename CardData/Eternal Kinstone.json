@@ -1,34 +1,28 @@
 {
-  "nameKey": "CardData_nameKey-790480efa93ed6d5-a08638bede208ed478570abdecc967fb-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-b0257fd1565367a1-a08638bede208ed478570abdecc967fb-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Rare",
+  "name": "Eternal Kinstone",
+  "overrideDescription": "Add [effect0.power][corrupt] that cannot be removed.",
   "effects": [
     {
-      "effectStateName": "CardEffectAddPermanentCorruption",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "paramInt": 1,
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body",
           "title": "Charged Echoes",
           "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddPermanentCorruption",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
+      "paramInt": 1
     }
   ],
+  "cardLoreTooltips": [
+    "Once the Wurmkin have completed their kinstone, they commit that knowledge to a cairn. “Truth, Forever” as they put it. Do you think they account for the truths that rip you open inside? No, they put a stone in a crypt for all to see and to know. For all eternity, damn the consequences. Some things are best left forgotten."
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
   "linkedClass": "ClassWurm",
   "unlockLevel": 10,
-  "cardLoreTooltipKeys": [
-    "CardData_data-ef21db1945f0770b-a08638bede208ed478570abdecc967fb-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Eternal Kinstone",
-  "overrideDescription": "Add [effect0.power][corrupt] that cannot be removed.",
-  "cardLoreTooltip": [
-    "Once the Wurmkin have completed their kinstone, they commit that knowledge to a cairn. “Truth, Forever” as they put it. Do you think they account for the truths that rip you open inside? No, they put a stone in a crypt for all to see and to know. For all eternity, damn the consequences. Some things are best left forgotten."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

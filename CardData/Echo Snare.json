@@ -1,8 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-c60e6fea0e77930f-fc592ff03785ffe439c110111fd9d7da-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-e4bc266b36fdd674-fc592ff03785ffe439c110111fd9d7da-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Common",
+  "name": "Echo Snare",
+  "overrideDescription": "Apply [corruptpoison] [effect0.status0.power] to enemy units.",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -10,34 +8,30 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.Heroes",
       "paramStatusEffects": [
         {
-          "statusId": "corrupt_poison",
+          "statusId": "VanillaStatusEffectIDs.Reap",
           "count": 2
         }
       ],
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body",
           "title": "Charged Echoes",
           "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes"
     }
   ],
+  "cardLoreTooltips": [
+    "The tunnels below the Bogwurm are some of the best protected I’ve ever encountered. Should intruders somehow stumble upon the underground clan, Echoes act as natural guardians. Given the time I’ve been unaware of this place, I suspect that these “intruders” rarely stumble upon it on their own and are lured into these snares instead."
+  ],
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
   "linkedClass": "ClassWurm",
   "unlockLevel": 2,
-  "cardLoreTooltipKeys": [
-    "CardData_data-9afc5ef1a76447a0-fc592ff03785ffe439c110111fd9d7da-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Echo Snare",
-  "overrideDescription": "Apply [corruptpoison] [effect0.status0.power] to enemy units.",
-  "cardLoreTooltip": [
-    "The tunnels below the Bogwurm are some of the best protected I’ve ever encountered. Should intruders somehow stumble upon the underground clan, Echoes act as natural guardians. Given the time I’ve been unaware of this place, I suspect that these “intruders” rarely stumble upon it on their own and are lured into these snares instead."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

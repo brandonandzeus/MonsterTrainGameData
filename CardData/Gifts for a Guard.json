@@ -1,44 +1,32 @@
 {
-  "nameKey": "CardData_nameKey-66c5c91406eb8d61-dfc4a87d625488d4d8731402fdd2449e-v2",
-  "cost": 3,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-7f2324bc6ebae7ec-dfc4a87d625488d4d8731402fdd2449e-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Rare",
+  "name": "Gifts for a Guard",
+  "overrideDescription": "Draw [effect1.power] spells and apply [consume], +[effect0.upgrade.bonusdamage] [magicpower], and 0[ember].",
   "effects": [
     {
-      "effectStateName": "CardEffectAddTempCardUpgradeToNextDrawnCard",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "shouldTest": false,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-2d5109a605051955-7b5bdb0d606511d408e684387b5427e6-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-915bbba81b0988e5-7b5bdb0d606511d408e684387b5427e6-v2",
-        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-        "bonusDamage": 20,
-        "costReduction": 99,
-        "bonusHeal": 20,
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitExhaustState"
           }
         ],
-        "upgradeTitle": "",
-        "upgradeDescription": ""
+        "bonusDamage": 20,
+        "costReduction": 99,
+        "bonusHeal": 20
       },
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitExhaustState_CardText",
-          "descriptionKey": "CardTraitExhaustState_TooltipText",
           "title": "Consume",
           "description": "Can only be played once per battle."
         },
         {
-          "titleKey": "ModifyCard_MagicalPower_TooltipTitle",
-          "descriptionKey": "ModifyCard_MagicalPower_TooltipBody",
           "title": "Magic Power",
           "description": "Increases the amount of damage dealt and health restored by spells."
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddTempCardUpgradeToNextDrawnCard",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
+      "shouldTest": false
     },
     {
       "effectStateName": "CardEffectDrawType",
@@ -47,15 +35,13 @@
       "paramInt": 3
     }
   ],
+  "cardLoreTooltips": [
+    "Induction into the Guard is considered each Stygian’s last step before becoming a fully mature member of the Sea. They are asked to give up all possessions and only carry the tools of their creed. A different life than I would prefer to lead, but most likely much more honorable."
+  ],
+  "cost": 3,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassStygian",
   "unlockLevel": 9,
-  "cardLoreTooltipKeys": [
-    "CardData_data-2bc38308f131c061-dfc4a87d625488d4d8731402fdd2449e-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Gifts for a Guard",
-  "overrideDescription": "Draw [effect1.power] spells and apply [consume], +[effect0.upgrade.bonusdamage] [magicpower], and 0[ember].",
-  "cardLoreTooltip": [
-    "Induction into the Guard is considered each Stygian’s last step before becoming a fully mature member of the Sea. They are asked to give up all possessions and only carry the tools of their creed. A different life than I would prefer to lead, but most likely much more honorable."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-cbc8e1ef124984f5-f605999bafee3b0499b95fadc7c3cb7e-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-12f93b9fdb0f1767-f605999bafee3b0499b95fadc7c3cb7e-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Echoes of the Past",
+  "overrideDescription": "Apply +[trait0.power][attack] per [corrupt]. Clear [corrupt].",
   "traits": [
     {
       "traitStateName": "CardTraitScalingUpgradeUnitAttack",
@@ -15,44 +11,40 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCardUpgradeData": {
-        "linkedPactDuplicateRarity": "CollectableRarity.Starter"
       },
       "additionalTooltips": [
         {
-          "descriptionKey": "TipTooltip_StatChangesStick",
+          "description": "<b>Tip:</b> Stat changes persist for the duration of battle.",
           "style": "TooltipDesigner.TooltipDesignType.Default",
-          "isTipTooltip": true,
-          "description": "<b>Tip:</b> Stat changes persist for the duration of battle."
+          "isTipTooltip": true
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     },
     {
-      "effectStateName": "CardEffectAdjustCorruption",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "paramInt": -1,
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body",
           "title": "Charged Echoes",
           "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAdjustCorruption",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
+      "paramInt": -1
     }
   ],
-  "linkedClass": "ClassWurm",
-  "cardLoreTooltipKeys": [
-    "CardData_data-d768409d6fe76c92-f605999bafee3b0499b95fadc7c3cb7e-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Echoes of the Past",
-  "overrideDescription": "Apply +[trait0.power][attack] per [corrupt]. Clear [corrupt].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "I cannot remember its entirety, but here are the pieces I’ve put together: in the beginning there were Three Divinities. Father, Mother, Child. They created the world for sport, to placate an idle Child needing distraction. Father created the structure of space and time while the Mother provided life as pieces. So, the Realm spun on for the Child, with life created and tossed aside just as plainly. Even the thinnest of these facts will drain the purpose out of the most willful; I understand the Wurmkin's decision to keep our meaningless creation a secret."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
+  "linkedClass": "ClassWurm",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

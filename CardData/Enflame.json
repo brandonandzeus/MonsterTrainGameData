@@ -1,42 +1,37 @@
 {
-  "nameKey": "CardData_nameKey-99900715881b5eea-57d677f0ad91e3f4e941368947afc336-v2",
+  "name": "Enflame",
+  "overrideDescription": "Apply [rage] [effect0.status0.power] and [armor] [effect1.status0.power].",
+  "effects": [
+    {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Rage",
+          "count": 4
+        }
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
+    },
+    {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Armor",
+          "count": 5
+        }
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
+    }
+  ],
+  "cardLoreTooltips": [
+    "Deep within the Scorched Plains, Hellhorned Demons can sometimes be seen performing a \"magma-walk\" - a bizarre coming-of-age ritual involving full submersion into lava and a focused trek across the Plain. It's unbelievable that any Demons survive the ritual, but those that do are stronger for it. "
+  ],
   "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-3ebda5999a6c760b-57d677f0ad91e3f4e941368947afc336-v2",
   "cardType": "CardType.Spell",
   "targetless": false,
   "rarity": "CollectableRarity.Uncommon",
-  "effects": [
-    {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "paramStatusEffects": [
-        {
-          "statusId": "buff",
-          "count": 4
-        }
-      ]
-    },
-    {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.LastTargetedCharacters",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "paramStatusEffects": [
-        {
-          "statusId": "armor",
-          "count": 5
-        }
-      ]
-    }
-  ],
   "linkedClass": "ClassHellhorned",
-  "cardLoreTooltipKeys": [
-    "CardData_data-c3d513c568c1e966-57d677f0ad91e3f4e941368947afc336-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Enflame",
-  "overrideDescription": "Apply [rage] [effect0.status0.power] and [armor] [effect1.status0.power].",
-  "cardLoreTooltip": [
-    "Deep within the Scorched Plains, Hellhorned Demons can sometimes be seen performing a \"magma-walk\" - a bizarre coming-of-age ritual involving full submersion into lava and a focused trek across the Plain. It's unbelievable that any Demons survive the ritual, but those that do are stronger for it. "
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

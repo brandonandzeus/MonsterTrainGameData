@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-1a7644af7a7314b5-8197c93d465e52749b322e1b4aa3503e-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-47495c996a6fbe0c-8197c93d465e52749b322e1b4aa3503e-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Forced Contamination",
+  "overrideDescription": "Apply [meleeweakness] [effect0.status0.power].",
   "traits": [
     {
       "traitStateName": "CardTraitCorruptRestricted",
@@ -13,34 +10,31 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "melee weakness",
+          "statusId": "VanillaStatusEffectIDs.MeleeWeakness",
           "count": 3
         }
       ],
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body",
           "title": "Charged Echoes",
           "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
+  "cardLoreTooltips": [
+    "The Echoes’ hunger for souls is what ultimately led to my discovery of this place. Their appetite had grown beyond the souls that were lured below so the Echoes had begun to extend their powers to the surface, leeching souls directly from those that would choose to wander the Bogs."
+  ],
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
   "linkedClass": "ClassWurm",
   "unlockLevel": 3,
-  "cardLoreTooltipKeys": [
-    "CardData_data-10f315427d82be47-8197c93d465e52749b322e1b4aa3503e-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
-  "name": "Forced Contamination",
-  "overrideDescription": "Apply [meleeweakness] [effect0.status0.power].",
-  "cardLoreTooltip": [
-    "The Echoes’ hunger for souls is what ultimately led to my discovery of this place. Their appetite had grown beyond the souls that were lured below so the Echoes had begun to extend their powers to the surface, leeching souls directly from those that would choose to wander the Bogs."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy"
 }

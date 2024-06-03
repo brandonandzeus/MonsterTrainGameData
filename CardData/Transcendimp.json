@@ -1,34 +1,24 @@
 {
-  "nameKey": "CardData_nameKey-6cb278fdf9648c35-5a05d8c0c0c261b458e7cdfc7291a3f7-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-c97499dca5c30676-5a05d8c0c0c261b458e7cdfc7291a3f7-v2",
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Transcendimp",
+  "overrideDescription": "When played, repeat all [summon] effects triggered so far this battle.",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
+        "name": "Transcendimp",
+        "subtypes": [
+          "Imp"
+        ],
+        "characterLoreTooltips": [
+          "When a demon dies under the weight of their horns, they are reborn as impish infants, restarting their molting cycle. These imps are quite possibly the most powerful Hellhorned in existence - seeing all that has come before and all that will come after. While this power is lost upon their first molting, they've been crucial in my research of their Ring."
+        ],
         "nameKey": "CharacterData_nameKey-c87606535bedccce-ebd31838e68ddb64d9e059209ef07fe7-v2",
         "size": 1,
         "health": 1,
-        "attackDamage": 1,
-        "subtypeKeys": [
-          "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-afe3ce2e67edf5f2-ebd31838e68ddb64d9e059209ef07fe7-v2"
-        ],
-        "name": "Transcendimp",
-        "subtype": [
-          "Imp"
-        ],
-        "characterLoreTooltip": [
-          "When a demon dies under the weight of their horns, they are reborn as impish infants, restarting their molting cycle. These imps are quite possibly the most powerful Hellhorned in existence - seeing all that has come before and all that will come after. While this power is lost upon their first molting, they've been crucial in my research of their Ring."
-        ]
-      }
+        "attackDamage": 1
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     },
     {
       "effectStateName": "CardEffectReplayTrigger",
@@ -38,9 +28,11 @@
       "paramTrigger": 2
     }
   ],
+  "cost": 2,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassHellhorned",
   "unlockLevel": 9,
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Transcendimp",
-  "overrideDescription": "When played, repeat all [summon] effects triggered so far this battle."
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

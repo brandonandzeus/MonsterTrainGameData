@@ -1,9 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-07f654165fd37ce0-a5867d172d44e2e4986a76e31608523d-v2",
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Awoken Hollow",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState",
@@ -12,18 +8,11 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-6acc6a42067bb9e0-0b15ea59d59e1e44a949e54d7274fb65-v2",
-        "size": 3,
-        "health": 15,
-        "attackDamage": 15,
+        "name": "Awoken Hollow",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnSpawn",
-            "descriptionKey": "CharacterData_descriptionKey-71b0459bc6d08a05-0b15ea59d59e1e44a949e54d7274fb65-v2",
+            "description": "Gain [effect0.power] max health.",
             "effects": [
               {
                 "effectStateName": "CardEffectAdjustMaxHealth",
@@ -32,53 +21,51 @@
                 "paramInt": 60
               }
             ],
-            "description": "Gain [effect0.power] max health."
+            "trigger": "CharacterTriggerData.Trigger.OnSpawn"
           },
           {
-            "trigger": "CharacterTriggerData.Trigger.OnHeal",
-            "descriptionKey": "CharacterData_descriptionKey-116088e5850e4d52-0b15ea59d59e1e44a949e54d7274fb65-v2",
+            "description": "<b><nobr>Cultivate 2</nobr></b>.",
             "effects": [
               {
-                "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                "targetMode": "TargetMode.Weakest",
-                "targetTeamType": "Team.Type.Monsters",
                 "paramCardUpgradeData": {
-                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                   "bonusDamage": 2,
                   "bonusHP": 2
                 },
                 "additionalTooltips": [
                   {
-                    "titleKey": "CharacterAbility_Cultivate_CardText",
-                    "descriptionKey": "CharacterAbility_Cultivate_TooltipText",
                     "title": "<b>Cultivate</b>",
                     "description": "Increase the [attack] and [health] of the friendly unit with the lowest health by the <b>Cultivate</b> value."
                   }
-                ]
+                ],
+                "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                "targetMode": "TargetMode.Weakest",
+                "targetTeamType": "Team.Type.Monsters"
               }
             ],
-            "description": "<b><nobr>Cultivate 2</nobr></b>."
+            "trigger": "CharacterTriggerData.Trigger.OnHeal"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Golem_2d79cb56-4041-4d63-b7bf-8d2185923eda",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-a1b3503436037b78-0b15ea59d59e1e44a949e54d7274fb65-v2"
-        ],
-        "name": "Awoken Hollow",
-        "subtype": [
+        "subtypes": [
           "Hollow",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "These souls, imprisoned in steel, try to break free before they lose their minds to the Wildwood. I had no idea of this until the Channelers told me. It took me some time to trust them again after that revelation. "
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-6acc6a42067bb9e0-0b15ea59d59e1e44a949e54d7274fb65-v2",
+        "size": 3,
+        "health": 15,
+        "attackDamage": 15
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassAwoken",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Awoken Hollow"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

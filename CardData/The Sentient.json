@@ -1,35 +1,28 @@
 {
-  "nameKey": "CardData_nameKey-3c00b8a3fbccc151-bfb81afb901a5564fb8780e62974cd4d-v2",
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Champion",
+  "name": "The Sentient",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCharacterData": {
+        "name": "The Sentient",
+        "subtypes": [
+          "Champion"
+        ],
+        "characterLoreTooltips": [
+          "This Hollow was able to sever her connection to the Wildwood, slowly awakening to the prison her soul was trapped in, but still agreeing to champion our Covenant. Now she has repurposed her armor as makeshift shields to keep the rest of the vines at bay, becoming more aggressive with each attempt at recapture."
+        ],
         "nameKey": "CharacterData_nameKey-1e63648fbc1ec1c8-64ad234bf77ec8b41ad42fc905c71920-v2",
         "size": 2,
         "health": 10,
-        "deathType": "CharacterDeathVFX.Type.Large",
-        "subtypeKeys": [
-          "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-f5c5f39310bdb22c-64ad234bf77ec8b41ad42fc905c71920-v2"
-        ],
-        "name": "The Sentient",
-        "subtype": [
-          "Champion"
-        ],
-        "characterLoreTooltip": [
-          "This Hollow was able to sever her connection to the Wildwood, slowly awakening to the prison her soul was trapped in, but still agreeing to champion our Covenant. Now she has repurposed her armor as makeshift shields to keep the rest of the vines at bay, becoming more aggressive with each attempt at recapture."
-        ]
-      }
+        "deathType": "CharacterDeathVFX.Type.Large"
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Champion",
   "linkedClass": "ClassAwoken",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "The Sentient"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

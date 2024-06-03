@@ -1,39 +1,33 @@
 {
-  "nameKey": "CardData_nameKey-8b9e3c629f170573-6fe10c6c2ed768343b97d85ca499e5ff-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-fed628fda52961e9-6fe10c6c2ed768343b97d85ca499e5ff-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Common",
+  "name": "Fracture",
+  "overrideDescription": "Apply [corruptpoison] [effect0.status0.power].",
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "corrupt_poison",
+          "statusId": "VanillaStatusEffectIDs.Reap",
           "count": 2
         }
       ],
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body",
           "title": "Charged Echoes",
           "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
-  "linkedClass": "ClassWurm",
-  "cardLoreTooltipKeys": [
-    "CardData_data-c40acf861fa340f2-6fe10c6c2ed768343b97d85ca499e5ff-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
-  "name": "Fracture",
-  "overrideDescription": "Apply [corruptpoison] [effect0.status0.power].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "The glowing crystals found throughout the tunnels below — Echoes as the Wurmkin call them — hold a dormant power. This power is ancient, to be sure, but strangely familiar. Yet, the more I walk these musty tunnels, the more I begin to feel these Echoes stir."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Common",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
+  "linkedClass": "ClassWurm",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy"
 }

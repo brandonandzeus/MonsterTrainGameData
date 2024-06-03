@@ -1,89 +1,73 @@
 {
-  "nameKey": "CardData_nameKey-6dca5eb35442afb3-7a7260dca28076c46afe22beee19a8ef-v2",
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Apex Imp",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-766daded001111e6-5ea0328fb52d79d4cad8a658a82feb03-v2",
-        "size": 2,
-        "health": 10,
-        "attackDamage": 10,
+        "name": "Apex Imp",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnArmorAdded",
-            "descriptionKey": "CharacterData_descriptionKey-13d4731536bf0de3-5ea0328fb52d79d4cad8a658a82feb03-v2",
+            "description": "Gain [rage] equal to gained [armor].",
             "effects": [
               {
-                "effectStateName": "CardEffectSynergizeStatusEffects",
-                "targetMode": "TargetMode.Self",
-                "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
                 "paramStatusEffects": [
                   {
-                    "statusId": "armor",
+                    "statusId": "VanillaStatusEffectIDs.Armor",
                     "count": 0
                   },
                   {
-                    "statusId": "buff",
+                    "statusId": "VanillaStatusEffectIDs.Rage",
                     "count": 0
                   }
-                ]
+                ],
+                "effectStateName": "CardEffectSynergizeStatusEffects",
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
               }
             ],
-            "description": "Gain [rage] equal to gained [armor]."
+            "trigger": "CharacterTriggerData.Trigger.OnArmorAdded"
           },
           {
-            "trigger": "CharacterTriggerData.Trigger.OnSpawn",
-            "descriptionKey": "CharacterData_descriptionKey-b3fdee1a00b4a0d7-5ea0328fb52d79d4cad8a658a82feb03-v2",
+            "description": "Gain [armor] [effect0.status0.power].",
             "effects": [
               {
+                "paramStatusEffects": [
+                  {
+                    "statusId": "VanillaStatusEffectIDs.Armor",
+                    "count": 5
+                  }
+                ],
                 "effectStateName": "CardEffectAddStatusEffect",
                 "targetMode": "TargetMode.Self",
                 "targetTeamType": "Team.Type.Monsters",
-                "paramInt": 100,
-                "paramStatusEffects": [
-                  {
-                    "statusId": "armor",
-                    "count": 5
-                  }
-                ]
+                "paramInt": 100
               }
             ],
-            "description": "Gain [armor] [effect0.status0.power]."
+            "trigger": "CharacterTriggerData.Trigger.OnSpawn"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c",
-          "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-
-        ],
-        "name": "Apex Imp",
-        "subtype": [
+        "subtypes": [
           "Imp",
           "Demon",
           "Chosen"
         ],
-        "characterLoreTooltip": [
-
-        ]
-      }
+        "nameKey": "CharacterData_nameKey-766daded001111e6-5ea0328fb52d79d4cad8a658a82feb03-v2",
+        "size": 2,
+        "health": 10,
+        "attackDamage": 10
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
-  "linkedClass": "ClassHellhorned",
-  "cardLoreTooltipKeys": [
-    "CardData_data-5e040407addaf212-7a7260dca28076c46afe22beee19a8ef-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Apex Imp",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "As I have recorded at great length, the cycling of Imps to Demons and back again is an often observed phenomenon. Their existence in a sort of “transition state,” however, is rarely seen. These Imps, almost Demons, exhibit reserved behavior and a sort of misplaced confidence that I’ve only seen in human adolescents on their way to adulthood. I can understand the Hellhorned’s hesitance to make these Imps known..."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
+  "linkedClass": "ClassHellhorned",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

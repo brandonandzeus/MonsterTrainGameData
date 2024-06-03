@@ -1,8 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-7c6420e298826d81-a74ace2972b6868498545bad596e982a-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-9f02b5d9784c342d-a74ace2972b6868498545bad596e982a-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Common",
+  "name": "Excavated Ember",
+  "overrideDescription": "Gain [effect0.power][ember]. Draw [effect1.power].",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -22,13 +20,10 @@
       "paramInt": 1
     }
   ],
-  "cardLoreTooltipKeys": [
-    "CardData_data-b6b80055fb0e7a25-a74ace2972b6868498545bad596e982a-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Excavated Ember",
-  "overrideDescription": "Gain [effect0.power][ember]. Draw [effect1.power].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Even the pressures of time can reverse the effects of calcified Ember. It only takes a worthy soul to carry the load, but one much worthier than myself."
-  ]
+  ],
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

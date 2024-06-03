@@ -1,59 +1,50 @@
 {
-  "nameKey": "CardData_nameKey-88b78c7b62d223dc-b1af09035a6f94f4e92db1a1d2dc9a5e-v2",
+  "name": "Nameless Siren",
+  "effects": [
+    {
+      "paramCharacterData": {
+        "name": "Nameless Siren",
+        "triggers": [
+          {
+            "description": "Gain [rage] [effect0.status0.power].",
+            "effects": [
+              {
+                "paramStatusEffects": [
+                  {
+                    "statusId": "VanillaStatusEffectIDs.Rage",
+                    "count": 2
+                  }
+                ],
+                "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
+                "paramInt": 100
+              }
+            ],
+            "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
+          }
+        ],
+        "subtypes": [
+          "Siren",
+          "Chosen"
+        ],
+        "characterLoreTooltips": [
+          "Those that enter the resting place of the Titan rarely emerge. But those that do are permanently imbued with some of its power, relinquishing their names as part of this new communion. While I've tried to wring an account from them on their time with the Titan, their minds seem to have expelled any contact with this Unnamed power. "
+        ],
+        "nameKey": "CharacterData_nameKey-257dc8e4ad101d1b-6cfd716ef6cdf6d46b48d23b4441100c-v2",
+        "size": 2,
+        "health": 10,
+        "attackDamage": 5
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
+    }
+  ],
   "cost": 1,
   "cardType": "CardType.Monster",
   "targetless": false,
   "rarity": "CollectableRarity.Uncommon",
-  "effects": [
-    {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-257dc8e4ad101d1b-6cfd716ef6cdf6d46b48d23b4441100c-v2",
-        "size": 2,
-        "health": 10,
-        "attackDamage": 5,
-        "triggers": [
-          {
-            "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed",
-            "descriptionKey": "CharacterData_descriptionKey-d947ca400c832c27-6cfd716ef6cdf6d46b48d23b4441100c-v2",
-            "effects": [
-              {
-                "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": "TargetMode.Self",
-                "targetTeamType": "Team.Type.None",
-                "paramInt": 100,
-                "paramStatusEffects": [
-                  {
-                    "statusId": "buff",
-                    "count": 2
-                  }
-                ]
-              }
-            ],
-            "description": "Gain [rage] [effect0.status0.power]."
-          }
-        ],
-        "subtypeKeys": [
-          "SubtypesData_Siren_727cf19f-3b27-4ad2-92ab-3552449e52da",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-a486c197ff8bafc8-6cfd716ef6cdf6d46b48d23b4441100c-v2"
-        ],
-        "name": "Nameless Siren",
-        "subtype": [
-          "Siren",
-          "Chosen"
-        ],
-        "characterLoreTooltip": [
-          "Those that enter the resting place of the Titan rarely emerge. But those that do are permanently imbued with some of its power, relinquishing their names as part of this new communion. While I've tried to wring an account from them on their time with the Titan, their minds seem to have expelled any contact with this Unnamed power. "
-        ]
-      }
-    }
-  ],
   "linkedClass": "ClassStygian",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Nameless Siren"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

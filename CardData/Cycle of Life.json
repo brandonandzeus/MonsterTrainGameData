@@ -1,46 +1,34 @@
 {
-  "nameKey": "CardData_nameKey-973e41fafaca5a3a-3a7d38deb3364664cab4ec6fe3dd27e3-v2",
+  "name": "Cycle of Life",
+  "overrideDescription": "Apply +[effect0.upgrade.bonushp][health] and [spikes] [effect1.status0.power].",
+  "effects": [
+    {
+      "paramCardUpgradeData": {
+        "bonusHP": 10
+      },
+      "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
+    },
+    {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Spikes",
+          "count": 3
+        }
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
+    }
+  ],
+  "cardLoreTooltips": [
+    "When a soul is trapped by vines, the Wildwood gives it new life. And when the soul is released after the vines wilt away, that life is returned to the Wildwood and the others trapped within it."
+  ],
   "cost": 3,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-fcb9d8eff3725588-3a7d38deb3364664cab4ec6fe3dd27e3-v2",
   "cardType": "CardType.Spell",
   "targetless": false,
   "rarity": "CollectableRarity.Rare",
-  "effects": [
-    {
-      "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-7398a58295db0e80-2b57807dc9cc5904db2e734028f288c3-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-729552afff409fd6-2b57807dc9cc5904db2e734028f288c3-v2",
-        "upgradeNotificationKey": "CardUpgradeData_upgradeNotificationKey-c734cfb04db312d9-2b57807dc9cc5904db2e734028f288c3-v2",
-        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-        "bonusHP": 10,
-        "upgradeTitle": "",
-        "upgradeDescription": "",
-        "upgradeNotification": ""
-      }
-    },
-    {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.LastTargetedCharacters",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "paramStatusEffects": [
-        {
-          "statusId": "spikes",
-          "count": 3
-        }
-      ]
-    }
-  ],
   "linkedClass": "ClassAwoken",
-  "cardLoreTooltipKeys": [
-    "CardData_data-4fa6dd5548612804-3a7d38deb3364664cab4ec6fe3dd27e3-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Cycle of Life",
-  "overrideDescription": "Apply +[effect0.upgrade.bonushp][health] and [spikes] [effect1.status0.power].",
-  "cardLoreTooltip": [
-    "When a soul is trapped by vines, the Wildwood gives it new life. And when the soul is released after the vines wilt away, that life is returned to the Wildwood and the others trapped within it."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

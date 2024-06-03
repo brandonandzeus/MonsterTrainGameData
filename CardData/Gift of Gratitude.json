@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-086eca8b85559639-e5762dc0b6f10c34eb1cab9d81ebf374-v2",
-  "costType": "CardData.CostType.ConsumeRemainingEnergy",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-ed1458c0d6c8605f-e5762dc0b6f10c34eb1cab9d81ebf374-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Rare",
+  "name": "Gift of Gratitude",
+  "overrideDescription": "Gain <nobr>[trait0.power][x][coin].</nobr>",
   "traits": [
     {
       "traitStateName": "CardTraitScalingRewardGold",
@@ -17,13 +14,11 @@
       "traitStateName": "CardTraitSelfPurge"
     }
   ],
-  "cardLoreTooltipKeys": [
-    "CardData_data-f9fcc395c6a122e8-e5762dc0b6f10c34eb1cab9d81ebf374-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Gift of Gratitude",
-  "overrideDescription": "Gain <nobr>[trait0.power][x][coin].</nobr>",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Known for his generous offerings of thanks to those participating in his research, the Historian seems to have coin to spare for pursuits considered unproductive in these times."
-  ]
+  ],
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

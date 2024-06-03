@@ -1,35 +1,28 @@
 {
-  "nameKey": "CardData_nameKey-a8c148b6bfa14c5f-c811e069530f55e419ad7b7c33e0975d-v2",
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Champion",
+  "name": "Shardtail Queen",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
+        "name": "Shardtail Queen",
+        "subtypes": [
+          "Champion"
+        ],
+        "characterLoreTooltips": [
+          "In my dreams, I see a demon more powerful than any of the Hellhorned. One with sharded tail and command over all imps. Did she save the Hellhorned from total destruction, this forgotten Queen?"
+        ],
         "nameKey": "CharacterData_nameKey-013100f1a2deef6c-aa82776c51ec63743bf477e75529c921-v2",
         "size": 2,
         "health": 10,
-        "attackDamage": 10,
-        "subtypeKeys": [
-          "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-46c2d9842b4e5338-aa82776c51ec63743bf477e75529c921-v2"
-        ],
-        "name": "Shardtail Queen",
-        "subtype": [
-          "Champion"
-        ],
-        "characterLoreTooltip": [
-          "In my dreams, I see a demon more powerful than any of the Hellhorned. One with sharded tail and command over all imps. Did she save the Hellhorned from total destruction, this forgotten Queen?"
-        ]
-      }
+        "attackDamage": 10
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Champion",
   "linkedClass": "ClassHellhorned",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Shardtail Queen"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

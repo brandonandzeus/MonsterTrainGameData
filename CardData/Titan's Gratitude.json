@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-cca70a056e834fc7-3c9dd685e31f6ad4bb5887066fec0e24-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-16a2f55f8ac6be68-3c9dd685e31f6ad4bb5887066fec0e24-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Common",
+  "name": "Titan's Gratitude",
+  "overrideDescription": "Deal [effect0.power] damage to the front enemy unit.[halfbreak]Discard a card at random.",
   "traits": [
     {
       "traitStateName": "CardTraitStrongerMagicPower"
@@ -24,14 +21,12 @@
       "paramInt": 1
     }
   ],
-  "linkedClass": "ClassStygian",
-  "cardLoreTooltipKeys": [
-    "CardData_data-767e39762e3c9311-3c9dd685e31f6ad4bb5887066fec0e24-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Titan's Gratitude",
-  "overrideDescription": "Deal [effect0.power] damage to the front enemy unit.[halfbreak]Discard a card at random.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "From what Tethys has told me, the Unnamed below is not dead, but it is also not quite alive. The Stygian take responsibility for its well-being by providing sustenance, in return for occasional protection in the form of expelled energy."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassStygian",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

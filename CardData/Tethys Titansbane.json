@@ -1,36 +1,29 @@
 {
-  "nameKey": "CardData_nameKey-32d7fabe915df42e-c9f84437f6221594eb281fed679c6f63-v2",
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Champion",
+  "name": "Tethys Titansbane",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
+        "name": "Tethys Titansbane",
+        "subtypes": [
+          "Champion"
+        ],
+        "characterLoreTooltips": [
+          "Do not be fooled by her harmless demeanor. Tethys was the first to agree to the containment of the Titan for our Covenant’s sake. She has since become the most revered member of the Stygian Guard and my most helpful supporter in the defense of Hell."
+        ],
         "nameKey": "CharacterData_nameKey-ae382bb421ff7e09-26a1204af0c297b46874c1589f99f7bf-v2",
         "size": 1,
         "health": 3,
         "attackDamage": 5,
-        "attackTeleportsToDefender": false,
-        "subtypeKeys": [
-          "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-133289e3c5188632-26a1204af0c297b46874c1589f99f7bf-v2"
-        ],
-        "name": "Tethys Titansbane",
-        "subtype": [
-          "Champion"
-        ],
-        "characterLoreTooltip": [
-          "Do not be fooled by her harmless demeanor. Tethys was the first to agree to the containment of the Titan for our Covenant’s sake. She has since become the most revered member of the Stygian Guard and my most helpful supporter in the defense of Hell."
-        ]
-      }
+        "attackTeleportsToDefender": false
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Champion",
   "linkedClass": "ClassStygian",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Tethys Titansbane"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

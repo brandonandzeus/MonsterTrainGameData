@@ -1,9 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-7e81bc25de3f062c-8229781d9c9996f4f9f39a7b2ca007af-v2",
-  "cost": 2,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Alpha Fiend",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -11,53 +7,47 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCharacterData": {
+        "name": "Alpha Fiend",
+        "triggers": [
+          {
+            "description": "+[effect0.upgrade.bonusdamage][attack].",
+            "effects": [
+              {
+                "paramCardUpgradeData": {
+                  "bonusDamage": 5
+                },
+                "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None"
+              }
+            ],
+            "trigger": "CharacterTriggerData.Trigger.OnAttacking"
+          }
+        ],
+        "subtypes": [
+          "Demon",
+          "Chosen"
+        ],
+        "characterLoreTooltips": [
+          "These ancient demons of the Hellhorned live a reclusive life on the edge of the Scorched Plains. Their isolated existence has made them even more difficult to communicate with, but they seem to understand the peril their clan is in since they’ve joined me on this dangerous journey."
+        ],
         "nameKey": "CharacterData_nameKey-3136c43ce835b000-d12e27b33d6c5c848b9f4a9ff82d845e-v2",
         "size": 3,
         "health": 25,
         "deathType": "CharacterDeathVFX.Type.Large",
-        "attackDamage": 10,
-        "triggers": [
-          {
-            "trigger": "CharacterTriggerData.Trigger.OnAttacking",
-            "descriptionKey": "CharacterData_descriptionKey-3ae21bd4270cca36-d12e27b33d6c5c848b9f4a9ff82d845e-v2",
-            "effects": [
-              {
-                "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                "targetMode": "TargetMode.Self",
-                "targetTeamType": "Team.Type.None",
-                "paramCardUpgradeData": {
-                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-                  "bonusDamage": 5
-                }
-              }
-            ],
-            "description": "+[effect0.upgrade.bonusdamage][attack]."
-          }
-        ],
-        "subtypeKeys": [
-          "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-1f648e65e8da3dce-d12e27b33d6c5c848b9f4a9ff82d845e-v2"
-        ],
-        "name": "Alpha Fiend",
-        "subtype": [
-          "Demon",
-          "Chosen"
-        ],
-        "characterLoreTooltip": [
-          "These ancient demons of the Hellhorned live a reclusive life on the edge of the Scorched Plains. Their isolated existence has made them even more difficult to communicate with, but they seem to understand the peril their clan is in since they’ve joined me on this dangerous journey."
-        ]
-      }
+        "attackDamage": 10
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
+  "cost": 2,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassHellhorned",
   "unlockLevel": 7,
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Alpha Fiend"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

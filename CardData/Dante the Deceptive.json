@@ -1,78 +1,67 @@
 {
-  "nameKey": "CardData_nameKey-eed41f7b0da2fcef-603ccbb89d259dc40bd235b513ed79fa-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-65aceedb69edfea9-603ccbb89d259dc40bd235b513ed79fa-v2",
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Dante the Deceptive",
+  "overrideDescription": "When played, gain a stack of [multistrike] for each [blight] card in your deck.",
   "traits": [
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Multistrike",
+          "count": 0
+        }
+      ],
       "traitStateName": "CardTraitScalingAddStatusEffect",
       "paramTrackedValue": "CardStatistics.TrackedValueType.TypeInDeck",
       "paramCardType": "CardStatistics.CardTypeTarget.Blight",
       "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 1,
       "paramUseScalingParams": true,
-      "paramStatusEffects": [
-        {
-          "statusId": "multistrike",
-          "count": 0
-        }
-      ],
       "paramTeamType": "Team.Type.Heroes"
     }
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
+        "name": "Dante the Deceptive",
+        "triggers": [
+          {
+            "effects": [
+              {
+                "paramStatusEffects": [
+                  {
+                    "statusId": "VanillaStatusEffectIDs.Multistrike",
+                    "count": 0
+                  }
+                ],
+                "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None"
+              }
+            ],
+            "trigger": "CharacterTriggerData.Trigger.OnUnscaledSpawn",
+            "hideTriggerTooltip": true
+          }
+        ],
+        "subtypes": [
+          "Dante",
+          "Chosen"
+        ],
+        "characterLoreTooltips": [
+          "Little is known of Dante, and what I do know I can't truly trust. While he seems to reign from Hell, he's made friends with many Winged, casting doubt on the place of his origin. But, he's always provided his help in the most dire of times, so I will not question his allegiance."
+        ],
         "nameKey": "CharacterData_nameKey-d19e229ee7e15d33-1323c86550e408d43aa87fc1cd078ba6-v2",
         "size": 2,
         "health": 10,
         "attackDamage": 3,
-        "attackTeleportsToDefender": false,
-        "triggers": [
-          {
-            "trigger": "CharacterTriggerData.Trigger.OnUnscaledSpawn",
-            "descriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
-            "hideTriggerTooltip": true,
-            "effects": [
-              {
-                "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": "TargetMode.Self",
-                "targetTeamType": "Team.Type.None",
-                "paramStatusEffects": [
-                  {
-                    "statusId": "multistrike",
-                    "count": 0
-                  }
-                ]
-              }
-            ],
-            "description": ""
-          }
-        ],
-        "subtypeKeys": [
-          "SubtypesData_Dante",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-a06e64b3399e8bd1-1323c86550e408d43aa87fc1cd078ba6-v2"
-        ],
-        "name": "Dante the Deceptive",
-        "subtype": [
-          "Dante",
-          "Chosen"
-        ],
-        "characterLoreTooltip": [
-          "Little is known of Dante, and what I do know I can't truly trust. While he seems to reign from Hell, he's made friends with many Winged, casting doubt on the place of his origin. But, he's always provided his help in the most dire of times, so I will not question his allegiance."
-        ]
-      }
+        "attackTeleportsToDefender": false
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Dante the Deceptive",
-  "overrideDescription": "When played, gain a stack of [multistrike] for each [blight] card in your deck."
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

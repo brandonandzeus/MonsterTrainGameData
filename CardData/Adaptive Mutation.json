@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-a1d8a07d8a76e659-f875c76a5472e7b4884119c6afb89392-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-ffa229a2ce62bd86-f875c76a5472e7b4884119c6afb89392-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Adaptive Mutation",
+  "overrideDescription": "Restore a friendly unit to full health then swap [attack] and [health].",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -18,29 +14,27 @@
       "paramInt": 999
     },
     {
+      "additionalTooltips": [
+        {
+          "description": "<b>Tip:</b> This spell can reduce a unit's [health] to 0 and kill it.",
+          "style": "TooltipDesigner.TooltipDesignType.Default",
+          "isTipTooltip": true
+        }
+      ],
       "effectStateName": "CardEffectAddTempSwapStats",
       "targetMode": "TargetMode.LastTargetedCharacters",
       "targetTeamType": "Team.Type.Monsters",
-      "shouldTest": false,
-      "additionalTooltips": [
-        {
-          "descriptionKey": "TipTooltip_CanReduceHealthToZero",
-          "style": "TooltipDesigner.TooltipDesignType.Default",
-          "isTipTooltip": true,
-          "description": "<b>Tip:</b> This spell can reduce a unit's [health] to 0 and kill it."
-        }
-      ]
+      "shouldTest": false
     }
   ],
+  "cardLoreTooltips": [
+    "After the soul within has succumbed to the will of the Wildwood, a Hollow is free to evolve into something more suitable for its eventual purpose, growing new vines or sloughing them off as necessary."
+  ],
+  "cost": 2,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassAwoken",
   "unlockLevel": 10,
-  "cardLoreTooltipKeys": [
-    "CardData_data-8a9f2e910aaaf93e-f875c76a5472e7b4884119c6afb89392-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Adaptive Mutation",
-  "overrideDescription": "Restore a friendly unit to full health then swap [attack] and [health].",
-  "cardLoreTooltip": [
-    "After the soul within has succumbed to the will of the Wildwood, a Hollow is free to evolve into something more suitable for its eventual purpose, growing new vines or sloughing them off as necessary."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

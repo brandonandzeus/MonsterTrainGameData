@@ -1,19 +1,17 @@
 {
-  "nameKey": "CardData_nameKey-7e6e3e77df782709-0b3e3cb4f647cdb46939903e53c95fd3-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-8710e064626091ef-0b3e3cb4f647cdb46939903e53c95fd3-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Common",
+  "name": "Forgone Power",
+  "overrideDescription": "Apply [frostbite] [effect0.status0.power] to the front enemy unit.[halfbreak]Discard a card at random.",
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.FrontInRoom",
-      "targetTeamType": "Team.Type.Heroes",
       "paramStatusEffects": [
         {
-          "statusId": "poison",
+          "statusId": "VanillaStatusEffectIDs.Frostbite",
           "count": 6
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.FrontInRoom",
+      "targetTeamType": "Team.Type.Heroes"
     },
     {
       "effectStateName": "CardEffectRandomDiscard",
@@ -24,14 +22,11 @@
       "paramInt": 1
     }
   ],
-  "linkedClass": "ClassStygian",
-  "cardLoreTooltipKeys": [
-    "CardData_data-4a850150572d2fda-0b3e3cb4f647cdb46939903e53c95fd3-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Forgone Power",
-  "overrideDescription": "Apply [frostbite] [effect0.status0.power] to the front enemy unit.[halfbreak]Discard a card at random.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "The Martyr speaks of the power a name has over the soul, that the Titan released its name for the good of Heaven, Hell, and Humans. Perhaps the same practice observed by the Stygian Guard is an evolution of this and grants them some minimal power as well."
-  ]
+  ],
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassStygian",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

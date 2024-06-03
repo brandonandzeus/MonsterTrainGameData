@@ -1,46 +1,39 @@
 {
-  "nameKey": "CardData_nameKey-70cd73e4510d3c08-7619c0d8710486c4f8b7228982716f52-v2",
+  "name": "Draff",
+  "effects": [
+    {
+      "paramCharacterData": {
+        "name": "Draff",
+        "startingStatusEffects": [
+          {
+            "statusId": "VanillaStatusEffectIDs.Burnout",
+            "count": 1
+          },
+          {
+            "statusId": "VanillaStatusEffectIDs.Multistrike",
+            "count": 1
+          }
+        ],
+        "subtypes": [
+          "Waxer"
+        ],
+        "characterLoreTooltips": [
+          "When wax has been melted and reapplied over and over again, it can turn into a fragile resin. This makes the edges of a Waxer sharper and more dangerous, but much more brittle."
+        ],
+        "nameKey": "CharacterData_nameKey-a09582df06a6e0c4-633eff7c4b07bc543984e120636254b2-v2",
+        "size": 1,
+        "health": 5,
+        "attackDamage": 10
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
+    }
+  ],
   "cost": 1,
   "cardType": "CardType.Monster",
   "targetless": false,
   "rarity": "CollectableRarity.Common",
-  "effects": [
-    {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-a09582df06a6e0c4-633eff7c4b07bc543984e120636254b2-v2",
-        "size": 1,
-        "health": 5,
-        "attackDamage": 10,
-        "startingStatusEffects": [
-          {
-            "statusId": "ephemeral",
-            "count": 1
-          },
-          {
-            "statusId": "multistrike",
-            "count": 1
-          }
-        ],
-        "subtypeKeys": [
-          "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-d50e0cde41338b6d-633eff7c4b07bc543984e120636254b2-v2"
-        ],
-        "name": "Draff",
-        "subtype": [
-          "Waxer"
-        ],
-        "characterLoreTooltip": [
-          "When wax has been melted and reapplied over and over again, it can turn into a fragile resin. This makes the edges of a Waxer sharper and more dangerous, but much more brittle."
-        ]
-      }
-    }
-  ],
   "linkedClass": "ClassRemnant",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Draff"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

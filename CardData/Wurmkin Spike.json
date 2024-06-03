@@ -1,55 +1,49 @@
 {
-  "nameKey": "CardData_nameKey-7db94d050223ae5c-a4822d495ef76ae4b9ea61ccaa4a494a-v2",
-  "costType": "CardData.CostType.ConsumeRemainingEnergy",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-df3e8d35866e48ff-a4822d495ef76ae4b9ea61ccaa4a494a-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Rare",
+  "name": "Wurmkin Spike",
+  "overrideDescription": "Apply [trait1.statusmultiplier][x] [corruptpoison] to enemy units.",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
     },
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Reap",
+          "count": 0
+        }
+      ],
       "traitStateName": "CardTraitScalingAddStatusEffect",
       "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
       "paramInt": 4,
-      "paramUseScalingParams": true,
-      "paramStatusEffects": [
-        {
-          "statusId": "corrupt_poison",
-          "count": 0
-        }
-      ]
+      "paramUseScalingParams": true
     }
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.Heroes",
       "paramStatusEffects": [
         {
-          "statusId": "corrupt_poison",
+          "statusId": "VanillaStatusEffectIDs.Reap",
           "count": 0
         }
       ],
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body",
           "title": "Charged Echoes",
           "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes"
     }
   ],
-  "linkedClass": "ClassWurm",
-  "cardLoreTooltipKeys": [
-    "CardData_data-a6fb1cc6b7bf9f4e-a4822d495ef76ae4b9ea61ccaa4a494a-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Wurmkin Spike",
-  "overrideDescription": "Apply [trait1.statusmultiplier][x] [corruptpoison] to enemy units.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "The creation of the Wurmkin Spike was an appreciated gesture, but symbolic nonetheless. The Wurmkin never opted into the Rail and had made it clear that they would continue to preserve their anonymity. When I leave — when I forget — the Spike will remain with them, their symbolic support returned along with the memory of my mistakes."
-  ]
+  ],
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
+  "linkedClass": "ClassWurm",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

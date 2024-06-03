@@ -1,8 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-2e2670360464d35d-8e430f400627be44fb5ce3d564fb2566-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-5aefafac8922f4f9-8e430f400627be44fb5ce3d564fb2566-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Memories of the Melted",
+  "overrideDescription": "Gain 1[ember] for each friendly unit death this battle.",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddEnergy",
@@ -23,14 +21,11 @@
       "targetTeamType": "Team.Type.None"
     }
   ],
-  "linkedClass": "ClassRemnant",
-  "cardLoreTooltipKeys": [
-    "CardData_data-70af95e9355646b7-8e430f400627be44fb5ce3d564fb2566-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Memories of the Melted",
-  "overrideDescription": "Gain 1[ember] for each friendly unit death this battle.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "The Reformed, a group of Waxers dedicated to the melting of others, believe in respecting the already melted. The Reformed keep the wicks of each Waxer they’ve helped to melt, burning the wicks briefly to remind themselves of their own impermanence, but extinguishing the wicks quickly to remember that their purpose is not yet fulfilled."
-  ]
+  ],
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassRemnant",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

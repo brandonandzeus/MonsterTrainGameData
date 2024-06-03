@@ -1,39 +1,33 @@
 {
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Common",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-d506f4f505585e8c-aeaaf31b62556d54fb47acbc2981644f-v2",
-        "size": 1,
-        "health": 3,
-        "attackDamage": 9,
+        "name": "Dreg",
         "startingStatusEffects": [
           {
-            "statusId": "ephemeral",
+            "statusId": "VanillaStatusEffectIDs.Burnout",
             "count": 2
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-93f02e2362c935b7-aeaaf31b62556d54fb47acbc2981644f-v2"
-        ],
-        "name": "Dreg",
-        "subtype": [
+        "subtypes": [
           "Waxer"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "Waxers believe that once they’ve melted away their bodies, they will be released from Hell. Unfortunately, there seems to be little evidence to support this belief, though I will not be the one to tell them that."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-d506f4f505585e8c-aeaaf31b62556d54fb47acbc2981644f-v2",
+        "size": 1,
+        "health": 3,
+        "attackDamage": 9
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassRemnant",
   "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Dreg"

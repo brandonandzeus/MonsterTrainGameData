@@ -1,9 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-7e81bc25de3f062c-8229781d9c9996f4f9f39a7b2ca007af-v2",
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Railbeater",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -11,60 +7,55 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-b466fb1221595497-207bc586be04f2f40b7d1660dfcdb4ea-v2",
-        "size": 2,
-        "health": 10,
-        "attackDamage": 10,
+        "name": "Railbeater",
         "startingStatusEffects": [
           {
-            "statusId": "armor",
+            "statusId": "VanillaStatusEffectIDs.Armor",
             "count": 30
           }
         ],
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnAttacking",
-            "descriptionKey": "CharacterData_descriptionKey-5a91e55c372c21b8-207bc586be04f2f40b7d1660dfcdb4ea-v2",
+            "description": "Apply [meleeweakness] [effect0.status0.power] to the attacked unit.",
             "effects": [
               {
-                "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": "TargetMode.LastAttackedCharacter",
-                "targetTeamType": "Team.Type.Heroes",
                 "paramStatusEffects": [
                   {
-                    "statusId": "melee weakness",
+                    "statusId": "VanillaStatusEffectIDs.MeleeWeakness",
                     "count": 1
                   }
-                ]
+                ],
+                "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.LastAttackedCharacter",
+                "targetTeamType": "Team.Type.Heroes"
               }
             ],
-            "description": "Apply [meleeweakness] [effect0.status0.power] to the attacked unit."
+            "trigger": "CharacterTriggerData.Trigger.OnAttacking"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-dac4e90a38965a8a-207bc586be04f2f40b7d1660dfcdb4ea-v2"
-        ],
-        "name": "Railbeater",
-        "subtype": [
+        "subtypes": [
           "Demon",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "These Hellhorned are some of the most respected blacksmiths in Hell from spending several cycles on steelwork. Not to mention, they're a fantastic help in the construction of our Rail."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-b466fb1221595497-207bc586be04f2f40b7d1660dfcdb4ea-v2",
+        "size": 2,
+        "health": 10,
+        "attackDamage": 10
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassHellhorned",
   "unlockLevel": 4,
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Railbeater"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

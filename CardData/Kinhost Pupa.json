@@ -1,75 +1,66 @@
 {
-  "nameKey": "CardData_nameKey-4f6709fb2fca059e-36c5fb3d022e5cf498deebb1daeb4b42-v2",
-  "costType": "CardData.CostType.NonPlayable",
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Kinhost Pupa",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-c8974e656cd84d1e-f83d8a195ea0adf4697455f4280b567c-v2",
-        "size": 2,
-        "health": 10,
-        "attackDamage": 30,
+        "name": "Kinhost Pupa",
         "startingStatusEffects": [
           {
-            "statusId": "armor",
+            "statusId": "VanillaStatusEffectIDs.Armor",
             "count": 20
           },
           {
-            "statusId": "multistrike",
+            "statusId": "VanillaStatusEffectIDs.Multistrike",
             "count": 1
           }
         ],
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnAttacking",
-            "descriptionKey": "CharacterData_descriptionKey-03ee3656ce7e7999-f83d8a195ea0adf4697455f4280b567c-v2",
+            "description": "Apply [corruptpoison] [effect0.status0.power] to enemy units.",
             "effects": [
               {
-                "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": "TargetMode.Room",
-                "targetTeamType": "Team.Type.Heroes",
                 "paramStatusEffects": [
                   {
-                    "statusId": "corrupt_poison",
+                    "statusId": "VanillaStatusEffectIDs.Reap",
                     "count": 1
                   }
                 ],
                 "additionalTooltips": [
                   {
-                    "titleKey": "HudTooltip_RoomCorruption_Title",
-                    "descriptionKey": "HudTooltip_RoomCorruption_Body",
                     "title": "Charged Echoes",
                     "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                   }
-                ]
+                ],
+                "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.Heroes"
               }
             ],
-            "description": "Apply [corruptpoison] [effect0.status0.power] to enemy units."
+            "trigger": "CharacterTriggerData.Trigger.OnAttacking"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Host"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-3ceb5786716ecb72-f83d8a195ea0adf4697455f4280b567c-v2"
-        ],
-        "name": "Kinhost Pupa",
-        "subtype": [
+        "subtypes": [
           "Host"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "The Wurmkin wait for Kinhost to fully mature before making them the mindless slaves more often seen throughout the tunnels. This allows the Wurmkin to breed the Kinhost for strength and size, making them perfect mobile transports for the many Echoes scattered around the tunnels."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-c8974e656cd84d1e-f83d8a195ea0adf4697455f4280b567c-v2",
+        "size": 2,
+        "health": 10,
+        "attackDamage": 30
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "costType": "CardData.CostType.NonPlayable",
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
   "linkedClass": "ClassWurm",
   "ignoreWhenCountingMastery": true,
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Kinhost Pupa"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

@@ -1,9 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-f711c253e1bfcffd-a5aa817aa0d9d8c4fb53384f6eb606f4-v2",
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Animus of Speed",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState",
@@ -12,41 +8,37 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCharacterData": {
+        "name": "Animus of Speed",
+        "startingStatusEffects": [
+          {
+            "statusId": "VanillaStatusEffectIDs.Quick",
+            "count": 1
+          }
+        ],
+        "subtypes": [
+          "Animus",
+          "Chosen"
+        ],
+        "characterLoreTooltips": [
+          "Newly formed, this Animus is no longer protected by its steel armor, making it quicker and deadlier. It is possessed by the soul of the Wildwood and the Channelers who guard it, often making my conversations with it obtuse and pointless."
+        ],
         "nameKey": "CharacterData_nameKey-827153bad18f30c9-3488e89a1f57d6348ab1cc4c99c70226-v2",
         "size": 2,
         "health": 3,
         "attackDamage": 25,
-        "attackTeleportsToDefender": false,
-        "startingStatusEffects": [
-          {
-            "statusId": "ambush",
-            "count": 1
-          }
-        ],
-        "subtypeKeys": [
-          "SubtypesData_Animus_c0f95969-ae86-4477-9458-57bb235d965b",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-a073a1257e85643b-3488e89a1f57d6348ab1cc4c99c70226-v2"
-        ],
-        "name": "Animus of Speed",
-        "subtype": [
-          "Animus",
-          "Chosen"
-        ],
-        "characterLoreTooltip": [
-          "Newly formed, this Animus is no longer protected by its steel armor, making it quicker and deadlier. It is possessed by the soul of the Wildwood and the Channelers who guard it, often making my conversations with it obtuse and pointless."
-        ]
-      }
+        "attackTeleportsToDefender": false
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassAwoken",
   "unlockLevel": 4,
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Animus of Speed"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

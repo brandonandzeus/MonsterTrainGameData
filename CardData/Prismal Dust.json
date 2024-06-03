@@ -1,49 +1,44 @@
 {
-  "nameKey": "CardData_nameKey-8905b5765cf97bad-60e64958fe11330488ec2df330078826-v2",
-  "costType": "CardData.CostType.ConsumeRemainingEnergy",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-01ff3111cc2fa91a-60e64958fe11330488ec2df330078826-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Common",
+  "name": "Prismal Dust",
+  "overrideDescription": "Apply [trait1.statusmultiplier][x] [damageshield].",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
     },
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.DamageShield",
+          "count": 0
+        }
+      ],
       "traitStateName": "CardTraitScalingAddStatusEffect",
       "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
       "paramInt": 1,
       "paramUseScalingParams": true,
-      "paramStatusEffects": [
-        {
-          "statusId": "damage shield",
-          "count": 0
-        }
-      ],
       "paramTeamType": "Team.Type.Heroes"
     }
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "damage shield",
+          "statusId": "VanillaStatusEffectIDs.DamageShield",
           "count": 0
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
-  "linkedClass": "ClassUmbra",
-  "cardLoreTooltipKeys": [
-    "CardData_data-1e7089ad5e230b4d-60e64958fe11330488ec2df330078826-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Prismal Dust",
-  "overrideDescription": "Apply [trait1.statusmultiplier][x] [damageshield].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "The dust gathered from mining Prism stones can be collected to create a similar, though less effective, defensive support around the owner."
-  ]
+  ],
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassUmbra",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

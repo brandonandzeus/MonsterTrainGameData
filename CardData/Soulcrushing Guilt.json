@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-45569c5ca43b2051-bb07cd5f6f70d5c489a161b706b6e137-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-b2f7f3c5dd29fc08-bb07cd5f6f70d5c489a161b706b6e137-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Soulcrushing Guilt",
+  "overrideDescription": "Apply [dazed] [effect0.status0.power] to a unit and move it to the back.",
   "traits": [
     {
       "traitStateName": "CardTraitCorruptRestricted",
@@ -12,39 +9,36 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "dazed",
+          "statusId": "VanillaStatusEffectIDs.Dazed",
           "count": 3
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     },
     {
-      "effectStateName": "CardEffectFloorRearrange",
-      "targetMode": "TargetMode.LastTargetedCharacters",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "paramInt": 1,
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body",
           "title": "Charged Echoes",
           "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
-      ]
+      ],
+      "effectStateName": "CardEffectFloorRearrange",
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
+      "paramInt": 1
     }
   ],
-  "linkedClass": "ClassWurm",
-  "cardLoreTooltipKeys": [
-    "CardData_data-b46713a959ab4200-bb07cd5f6f70d5c489a161b706b6e137-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
-  "name": "Soulcrushing Guilt",
-  "overrideDescription": "Apply [dazed] [effect0.status0.power] to a unit and move it to the back.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Four Titans for Four Elements: that was the rule created by the Divinities before. Their sacrifice led to our Pyre, our survival. The only knowledge of this has been kept locked in these Wurmkin tunnels. Those that learn of our mistakes are broken with guilt, unable to process the magnitude of what once was. The Wurmkin have removed themselves from blame, seeing their roles as custodians of knowledge penance enough for the original sins."
-  ]
+  ],
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
+  "linkedClass": "ClassWurm",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy"
 }

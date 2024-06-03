@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-a411afafcd2d351d-da5170ff394a9c54b80bb679894606a7-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-32290977b7251669-da5170ff394a9c54b80bb679894606a7-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Rage Serum",
+  "overrideDescription": "Apply [rage] [effect0.status0.power].",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -11,26 +8,24 @@
   ],
   "effects": [
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Rage",
+          "count": 3
+        }
+      ],
       "effectStateName": "CardEffectAddStatusEffect",
       "targetMode": "TargetMode.DropTargetCharacter",
       "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "paramInt": 100,
-      "paramStatusEffects": [
-        {
-          "statusId": "buff",
-          "count": 3
-        }
-      ]
+      "paramInt": 100
     }
   ],
-  "linkedClass": "ClassHellhorned",
-  "cardLoreTooltipKeys": [
-    "CardData_data-43de87bb59cd14fd-da5170ff394a9c54b80bb679894606a7-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Rage Serum",
-  "overrideDescription": "Apply [rage] [effect0.status0.power].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Some Hellhorned grind the horns they’ve won and steep a potion for additional strength. It is a foul substance that I've had the distinct misfortune to try, but the Hellhorned can't seem to get enough."
-  ]
+  ],
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassHellhorned",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

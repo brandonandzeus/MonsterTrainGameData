@@ -1,35 +1,23 @@
 {
-  "nameKey": "CardData_nameKey-8ad35ee5ff40f26c-bac0951f3615f55489d639cc5908492d-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-440239709cc90543-bac0951f3615f55489d639cc5908492d-v2",
+  "name": "Steel Enhancer",
+  "overrideDescription": "Apply +[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
+  "effects": [
+    {
+      "paramCardUpgradeData": {
+        "bonusDamage": 3,
+        "bonusHP": 3
+      },
+      "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
+    }
+  ],
+  "cardLoreTooltips": [
+    "I've used Wildwood sap as a mild steel polish as well, providing combat benefits to the Awoken that receive my treatment."
+  ],
   "cardType": "CardType.Spell",
   "targetless": false,
   "rarity": "CollectableRarity.Common",
-  "effects": [
-    {
-      "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-      "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-314207f2f95c87d1-914d84ac106d9004784d8eb71f6bc0a9-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-cd7d1c4d3c3e1dbd-914d84ac106d9004784d8eb71f6bc0a9-v2",
-        "upgradeNotificationKey": "CardUpgradeData_upgradeNotificationKey-c3530e3745590a92-914d84ac106d9004784d8eb71f6bc0a9-v2",
-        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-        "bonusDamage": 3,
-        "bonusHP": 3,
-        "upgradeTitle": "",
-        "upgradeDescription": "",
-        "upgradeNotification": ""
-      }
-    }
-  ],
   "linkedClass": "ClassAwoken",
-  "cardLoreTooltipKeys": [
-    "CardData_data-ab6348aab3a871e4-bac0951f3615f55489d639cc5908492d-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Steel Enhancer",
-  "overrideDescription": "Apply +[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
-  "cardLoreTooltip": [
-    "I've used Wildwood sap as a mild steel polish as well, providing combat benefits to the Awoken that receive my treatment."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

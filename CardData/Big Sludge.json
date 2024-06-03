@@ -1,9 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-7c7bfc4972a718ec-5bb2071122deea94ba6855eda9a5ab38-v2",
-  "cost": 2,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Big Sludge",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -11,55 +7,50 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-84b1076c93f5a108-58bd4aa941e1c4e49b9390f55338d418-v2",
-        "size": 3,
-        "health": 30,
-        "attackDamage": 10,
+        "name": "Big Sludge",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor",
-            "descriptionKey": "CharacterData_descriptionKey-ddafa2d805a136b2-58bd4aa941e1c4e49b9390f55338d418-v2",
+            "description": "Gain [rage] [effect0.status0.power].",
             "effects": [
               {
+                "paramStatusEffects": [
+                  {
+                    "statusId": "VanillaStatusEffectIDs.Rage",
+                    "count": 5
+                  }
+                ],
                 "effectStateName": "CardEffectAddStatusEffect",
                 "targetMode": "TargetMode.Self",
                 "targetTeamType": "Team.Type.Heroes",
-                "paramInt": 100,
-                "paramStatusEffects": [
-                  {
-                    "statusId": "buff",
-                    "count": 5
-                  }
-                ]
+                "paramInt": 100
               }
             ],
-            "description": "Gain [rage] [effect0.status0.power]."
+            "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Wickless_517faf2f-8836-42d3-b84d-75a99b7dc735",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-0130d5385b1a9ff2-58bd4aa941e1c4e49b9390f55338d418-v2"
-        ],
-        "name": "Big Sludge",
-        "subtype": [
+        "subtypes": [
           "Wickless",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "Even wax dripping has its limits. While it makes the target incredibly large and near unkillable, it also forces them into an eternal state of dripping. Wick or no, this compels them to continue to gutter more and more wax if they wish to retain this power."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-84b1076c93f5a108-58bd4aa941e1c4e49b9390f55338d418-v2",
+        "size": 3,
+        "health": 30,
+        "attackDamage": 10
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 2,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassRemnant",
   "unlockLevel": 6,
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Big Sludge"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

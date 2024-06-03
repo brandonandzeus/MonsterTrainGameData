@@ -1,20 +1,9 @@
 {
-  "nameKey": "CardData_nameKey-f83fedd556178c56-f9cc829ea91ec914cbdd3e3b5b834f32-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-304966733f1f925c-f9cc829ea91ec914cbdd3e3b5b834f32-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Rare",
+  "name": "Harness the Titan",
+  "overrideDescription": "Apply +[effect0.upgrade.bonusdamage] [magicpower] to spells in hand.",
   "effects": [
     {
-      "effectStateName": "CardEffectAddTempCardUpgradeToCardsInHand",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-ffbfdde469914275-615ea85946e2cd24692e6bc8d8d5cb9b-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-bec6408a58fb89ce-615ea85946e2cd24692e6bc8d8d5cb9b-v2",
-        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-        "bonusDamage": 5,
-        "bonusHeal": 5,
         "filters": [
           {
             "cardType": "CardType.Spell",
@@ -52,28 +41,27 @@
             "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ],
-        "upgradeTitle": "",
-        "upgradeDescription": ""
+        "bonusDamage": 5,
+        "bonusHeal": 5
       },
       "additionalTooltips": [
         {
-          "titleKey": "ModifyCard_MagicalPower_TooltipTitle",
-          "descriptionKey": "ModifyCard_MagicalPower_TooltipBody",
           "title": "Magic Power",
           "description": "Increases the amount of damage dealt and health restored by spells."
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddTempCardUpgradeToCardsInHand",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cardLoreTooltips": [
+    "“When the Titan whose name has been sealed is released again, the Sea shall be illuminated with its awesome power.” - Tethys Titansbane's account of the Titan's return to our defense."
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassStygian",
   "unlockLevel": 4,
-  "cardLoreTooltipKeys": [
-    "CardData_data-743e08a162c70276-f9cc829ea91ec914cbdd3e3b5b834f32-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Harness the Titan",
-  "overrideDescription": "Apply +[effect0.upgrade.bonusdamage] [magicpower] to spells in hand.",
-  "cardLoreTooltip": [
-    "“When the Titan whose name has been sealed is released again, the Sea shall be illuminated with its awesome power.” - Tethys Titansbane's account of the Titan's return to our defense."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

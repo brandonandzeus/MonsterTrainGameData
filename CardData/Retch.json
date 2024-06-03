@@ -1,8 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-98be9a402c73c3d1-6c5f6c837e91bd84ab7cde7b6e401f5b-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-fb3f0dc22ee0feb2-6c5f6c837e91bd84ab7cde7b6e401f5b-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Rare",
+  "name": "Retch",
+  "overrideDescription": "Return eaten units to your hand.",
   "effects": [
     {
       "effectStateName": "CardEffectRecursion",
@@ -14,14 +12,11 @@
       "hideTooltip": true
     }
   ],
-  "linkedClass": "ClassUmbra",
-  "cardLoreTooltipKeys": [
-    "CardData_data-a1748d0b0fd93652-6c5f6c837e91bd84ab7cde7b6e401f5b-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Retch",
-  "overrideDescription": "Return eaten units to your hand.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Even the Shroud knows little restraint, sometimes consuming Morsels when, as far as I can tell, no hunger remains. This compulsion, unfortunately, can lead to… ”involuntary expulsion.”"
-  ]
+  ],
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
+  "linkedClass": "ClassUmbra",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

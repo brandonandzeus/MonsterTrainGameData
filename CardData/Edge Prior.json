@@ -1,44 +1,36 @@
 {
-  "nameKey": "CardData_nameKey-7c73fca045502379-2a828c3f56439ab4bb6619ae59209ad5-v2",
+  "name": "Edge Prior",
+  "effects": [
+    {
+      "paramCharacterData": {
+        "name": "Edge Prior",
+        "subtypes": [
+          "Channeler"
+        ],
+        "characterLoreTooltips": [
+          "A Channeler cannot die, but it can fade away, though I've yet to see this firsthand. Many choose to spend their fading time at the secluded edge of the Wildwood as part of the Edge Priory, crafting the armor that will protect new Awoken in their infancy."
+        ],
+        "roomModifiers": [
+          {
+            "description": "Healing spells cost <nobr>-[paramintabs][ember]</nobr> on this floor.",
+            "roomStateModifierClassName": "RoomStateHealCostModifier",
+            "paramInt": -1
+          }
+        ],
+        "nameKey": "CharacterData_nameKey-045ee7473fbab8df-3b6233b623ad808489dd5ee3277c5551-v2",
+        "size": 1,
+        "health": 5
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
+    }
+  ],
   "cost": 1,
   "cardType": "CardType.Monster",
   "targetless": false,
   "rarity": "CollectableRarity.Uncommon",
-  "effects": [
-    {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-045ee7473fbab8df-3b6233b623ad808489dd5ee3277c5551-v2",
-        "size": 1,
-        "health": 5,
-        "subtypeKeys": [
-          "SubtypesData_Cultist_8a3bb2b5-8c56-4c86-bb08-85b95c488f23"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-df219e2a2df63087-3b6233b623ad808489dd5ee3277c5551-v2"
-        ],
-        "roomModifiers": [
-          {
-            "roomStateModifierClassName": "RoomStateHealCostModifier",
-            "descriptionKey": "CharacterData_descriptionKey-f981823b47d978f4-3b6233b623ad808489dd5ee3277c5551-v2",
-            "paramInt": -1,
-            "description": "Healing spells cost <nobr>-[paramintabs][ember]</nobr> on this floor."
-          }
-        ],
-        "name": "Edge Prior",
-        "subtype": [
-          "Channeler"
-        ],
-        "characterLoreTooltip": [
-          "A Channeler cannot die, but it can fade away, though I've yet to see this firsthand. Many choose to spend their fading time at the secluded edge of the Wildwood as part of the Edge Priory, crafting the armor that will protect new Awoken in their infancy."
-        ]
-      }
-    }
-  ],
   "linkedClass": "ClassAwoken",
   "unlockLevel": 9,
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Edge Prior"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

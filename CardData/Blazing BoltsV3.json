@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-f6e5f419fd84360c-23ddcbce05d7112428b00b0e406840f9-v2",
-  "cost": 3,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-5ce8f9638f2d94a5-23ddcbce05d7112428b00b0e406840f9-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Rare",
+  "name": "Blazing BoltsV3",
+  "overrideDescription": "Deal [effect0.power] damage to a random enemy unit, four times.",
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
@@ -12,48 +9,46 @@
       "paramInt": 30
     },
     {
-      "effectStateName": "CardEffectDamage",
-      "targetMode": "TargetMode.RandomInRoom",
-      "targetTeamType": "Team.Type.Heroes",
-      "paramInt": 30,
       "paramTimingDelays": {
         "x": 0.1,
         "y": 0.1,
         "z": 0.1
-      }
+      },
+      "effectStateName": "CardEffectDamage",
+      "targetMode": "TargetMode.RandomInRoom",
+      "targetTeamType": "Team.Type.Heroes",
+      "paramInt": 30
     },
     {
-      "effectStateName": "CardEffectDamage",
-      "targetMode": "TargetMode.RandomInRoom",
-      "targetTeamType": "Team.Type.Heroes",
-      "paramInt": 30,
       "paramTimingDelays": {
         "x": 0.1,
         "y": 0.1,
         "z": 0.1
-      }
+      },
+      "effectStateName": "CardEffectDamage",
+      "targetMode": "TargetMode.RandomInRoom",
+      "targetTeamType": "Team.Type.Heroes",
+      "paramInt": 30
     },
     {
-      "effectStateName": "CardEffectDamage",
-      "targetMode": "TargetMode.RandomInRoom",
-      "targetTeamType": "Team.Type.Heroes",
-      "paramInt": 30,
       "paramTimingDelays": {
         "x": 0.1,
         "y": 0.1,
         "z": 0.1
-      }
+      },
+      "effectStateName": "CardEffectDamage",
+      "targetMode": "TargetMode.RandomInRoom",
+      "targetTeamType": "Team.Type.Heroes",
+      "paramInt": 30
     }
   ],
+  "cardLoreTooltips": [
+    "Constructed bolts I gifted to the Umbra to dig deeper into the stone. When Morsels cannot break through it, these white-hot steel bolts should get the job done."
+  ],
+  "cost": 3,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassUmbra",
   "linkedMasteryCard": "Blazing Bolts",
-  "cardLoreTooltipKeys": [
-    "CardData_data-532d7799940132c3-23ddcbce05d7112428b00b0e406840f9-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Blazing BoltsV3",
-  "overrideDescription": "Deal [effect0.power] damage to a random enemy unit, four times.",
-  "cardLoreTooltip": [
-    "Constructed bolts I gifted to the Umbra to dig deeper into the stone. When Morsels cannot break through it, these white-hot steel bolts should get the job done."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

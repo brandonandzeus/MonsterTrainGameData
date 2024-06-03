@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-ea55a184d47794f5-2f68ec93d5b662945a10ecd57e494057-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-f25c0687002b55b0-2f68ec93d5b662945a10ecd57e494057-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Rare",
+  "name": "Siren's Song",
+  "overrideDescription": "[ascend] enemy units on this floor and apply [dazed] [effect0.status0.power].",
   "traits": [
     {
       "traitStateName": "CardTraitLimitedRange"
@@ -11,16 +8,16 @@
   ],
   "effects": [
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Dazed",
+          "count": 3
+        }
+      ],
       "effectStateName": "CardEffectAddStatusEffect",
       "targetMode": "TargetMode.Room",
       "targetTeamType": "Team.Type.Heroes",
-      "paramInt": 100,
-      "paramStatusEffects": [
-        {
-          "statusId": "dazed",
-          "count": 3
-        }
-      ]
+      "paramInt": 100
     },
     {
       "effectStateName": "CardEffectBump",
@@ -29,15 +26,13 @@
       "paramInt": 1
     }
   ],
+  "cardLoreTooltips": [
+    "I’ve heard no song as beautiful or as deadly as that of the Sirens of the Stygian. Their luring voices can disarm even the most hardened of hearts. "
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "linkedClass": "ClassStygian",
   "unlockLevel": 5,
-  "cardLoreTooltipKeys": [
-    "CardData_data-5ca5332f073c34d2-2f68ec93d5b662945a10ecd57e494057-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Siren's Song",
-  "overrideDescription": "[ascend] enemy units on this floor and apply [dazed] [effect0.status0.power].",
-  "cardLoreTooltip": [
-    "I’ve heard no song as beautiful or as deadly as that of the Sirens of the Stygian. Their luring voices can disarm even the most hardened of hearts. "
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

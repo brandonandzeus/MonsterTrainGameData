@@ -1,49 +1,40 @@
 {
-  "nameKey": "CardData_nameKey-7ff09630bbdc9db0-790efa17530b9ad449906821c848523f-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-d4913905a470a255-790efa17530b9ad449906821c848523f-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Resin Removal",
+  "overrideDescription": "Remove all [debuff] effects from friendly units and all [buff] effects from enemy units.",
   "effects": [
     {
+      "additionalTooltips": [
+        {
+          "title": "Debuff",
+          "description": "Debuff effects are generally negative for their target and are represented by red icons.",
+          "style": "TooltipDesigner.TooltipDesignType.Negative"
+        }
+      ],
       "effectStateName": "CardEffectRemoveAllStatusEffects",
       "targetMode": "TargetMode.Room",
       "targetTeamType": "Team.Type.Monsters",
-      "paramInt": 1,
-      "additionalTooltips": [
-        {
-          "titleKey": "CardEffectDebuff_TooltipTitle",
-          "descriptionKey": "CardEffectDebuff_TooltipText",
-          "style": "TooltipDesigner.TooltipDesignType.Negative",
-          "title": "Debuff",
-          "description": "Debuff effects are generally negative for their target and are represented by red icons."
-        }
-      ]
+      "paramInt": 1
     },
     {
-      "effectStateName": "CardEffectRemoveAllStatusEffects",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.Heroes",
       "additionalTooltips": [
         {
-          "titleKey": "CardEffectBuff_TooltipTitle",
-          "descriptionKey": "CardEffectBuff_TooltipText",
-          "style": "TooltipDesigner.TooltipDesignType.Positive",
           "title": "Buff",
-          "description": "Buff effects are generally positive for their target and are represented by green icons."
+          "description": "Buff effects are generally positive for their target and are represented by green icons.",
+          "style": "TooltipDesigner.TooltipDesignType.Positive"
         }
-      ]
+      ],
+      "effectStateName": "CardEffectRemoveAllStatusEffects",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes"
     }
   ],
+  "cardLoreTooltips": [
+    "When wax hardens into resin, it is possible to chip away the crystallized exterior to expose the soft wax underneath. The process does not come without risks, though."
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassRemnant",
   "unlockLevel": 3,
-  "cardLoreTooltipKeys": [
-    "CardData_data-42f442c651add2eb-790efa17530b9ad449906821c848523f-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Resin Removal",
-  "overrideDescription": "Remove all [debuff] effects from friendly units and all [buff] effects from enemy units.",
-  "cardLoreTooltip": [
-    "When wax hardens into resin, it is possible to chip away the crystallized exterior to expose the soft wax underneath. The process does not come without risks, though."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

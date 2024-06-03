@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-008f06c426d70e3a-eab2c81fbabe4e747b14588954a82f05-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-7c79cbca083765ec-eab2c81fbabe4e747b14588954a82f05-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Soul Cripple",
+  "overrideDescription": "Apply [corruptpoison] [effect0.status0.power].",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -12,33 +8,31 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "corrupt_poison",
+          "statusId": "VanillaStatusEffectIDs.Reap",
           "count": 13
         }
       ],
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body",
           "title": "Charged Echoes",
           "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
-  "linkedClass": "ClassWurm",
-  "cardLoreTooltipKeys": [
-    "CardData_data-06c1ea8faf9e9cf8-eab2c81fbabe4e747b14588954a82f05-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
-  "name": "Soul Cripple",
-  "overrideDescription": "Apply [corruptpoison] [effect0.status0.power].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "The Wurmkin claim to be a clan of knowledge and peace while they hoard the lore of Titans as the world around them dies. However, no amount of clever words can write over the violent truth on which they live: Echoes need Souls. For a clan so obsessed with its own secrecy, those who will volunteer their souls are hard to come by. With so many Echoes breathing, the number of souls required to keep them alive is... unsettling. But I can no longer judge on these scales — that time has passed."
-  ]
+  ],
+  "cost": 2,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
+  "linkedClass": "ClassWurm",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy"
 }

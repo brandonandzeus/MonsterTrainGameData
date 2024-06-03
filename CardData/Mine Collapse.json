@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-8a3e4e97ecf5868c-25030a572163ea543ab21badb74f68a7-v2",
-  "costType": "CardData.CostType.ConsumeRemainingEnergy",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-359a1372eb25d75f-25030a572163ea543ab21badb74f68a7-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Common",
+  "name": "Mine Collapse",
+  "overrideDescription": "Deal [trait0.power][x] damage to an enemy unit.",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddDamage",
@@ -22,8 +18,7 @@
   ],
   "triggers": [
     {
-      "trigger": "CardTriggerType.OnKill",
-      "descriptionKey": "CardData_descriptionKey-40f8144c32692807-25030a572163ea543ab21badb74f68a7-v2",
+      "description": "Gain [effect0.power][ember].",
       "cardEffects": [
         {
           "effectStateName": "CardEffectGainEnergy",
@@ -32,17 +27,16 @@
           "paramInt": 2
         }
       ],
-      "description": "Gain [effect0.power][ember]."
+      "trigger": "CardTriggerType.OnKill"
     }
   ],
-  "linkedClass": "ClassUmbra",
-  "cardLoreTooltipKeys": [
-    "CardData_data-0b8c964c2a59382d-25030a572163ea543ab21badb74f68a7-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
-  "name": "Mine Collapse",
-  "overrideDescription": "Deal [trait0.power][x] damage to an enemy unit.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "While Morsels seem to be quick workers in their mine, they do not appear to be the most intelligent and have been the cause of many easily avoided accidents. I can only hope this will not be the case aboard the train."
-  ]
+  ],
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassUmbra",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy"
 }

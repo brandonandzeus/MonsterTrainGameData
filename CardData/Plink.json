@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-795f54f86efcba7e-250076515ad4c12458a78941994b450d-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-f3f639080aa3af37-250076515ad4c12458a78941994b450d-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Common",
+  "name": "Plink",
+  "overrideDescription": "Deal [effect0.power] damage to a random enemy unit, twice.",
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
@@ -12,29 +9,22 @@
       "paramInt": 1
     },
     {
-      "effectStateName": "CardEffectDamage",
-      "targetMode": "TargetMode.RandomInRoom",
-      "targetTeamType": "Team.Type.Heroes",
-      "paramInt": 1,
       "paramTimingDelays": {
         "x": 0.1,
         "y": 0.1,
         "z": 0.1
-      }
+      },
+      "effectStateName": "CardEffectDamage",
+      "targetMode": "TargetMode.RandomInRoom",
+      "targetTeamType": "Team.Type.Heroes",
+      "paramInt": 1
     }
   ],
   "triggers": [
     {
-      "trigger": "CardTriggerType.OnKill",
-      "descriptionKey": "CardData_descriptionKey-1f7ea17ab909c7b6-250076515ad4c12458a78941994b450d-v2",
+      "description": "Add a common or uncommon [snack] unit to your hand.",
       "cardEffects": [
         {
-          "effectStateName": "CardEffectAddBattleCard",
-          "targetMode": "TargetMode.Room",
-          "targetTeamType": "Team.Type.None",
-          "shouldTest": false,
-          "paramInt": 3,
-          "additionalParamInt": 1,
           "paramCardPool": {
             "name": "Class5StarterFoodCard",
             "cardDataList": [
@@ -47,20 +37,24 @@
               "RubbleRaiser",
               "RubbleRaiser"
             ]
-          }
+          },
+          "effectStateName": "CardEffectAddBattleCard",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
+          "shouldTest": false,
+          "paramInt": 3,
+          "additionalParamInt": 1
         }
       ],
-      "description": "Add a common or uncommon [snack] unit to your hand."
+      "trigger": "CardTriggerType.OnKill"
     }
   ],
-  "linkedClass": "ClassUmbra",
-  "cardLoreTooltipKeys": [
-    "CardData_data-583d17b261239c79-250076515ad4c12458a78941994b450d-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Plink",
-  "overrideDescription": "Deal [effect0.power] damage to a random enemy unit, twice.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "The Primordium does not speak through words but through floods of feeling. The bounds of its mind seem endless. It’s no wonder that the ultimate split of the Primordium created a varying number of personalities, not the least of which are my friendly Morsels."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassUmbra",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

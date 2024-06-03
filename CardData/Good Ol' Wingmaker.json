@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-1ff20539abd398cc-d283855196175814ea5f80fc516db7c5-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-7044df6b1206855e-d283855196175814ea5f80fc516db7c5-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Rare",
+  "name": "Good Ol' Wingmaker",
+  "overrideDescription": "Deal [effect0.power] damage to enemy units, two times.",
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
@@ -27,8 +24,7 @@
   ],
   "triggers": [
     {
-      "trigger": "CardTriggerType.OnKill",
-      "descriptionKey": "CardData_descriptionKey-d059eb37796c3bc8-d283855196175814ea5f80fc516db7c5-v2",
+      "description": "+1[capacity] on this floor.",
       "cardEffects": [
         {
           "effectStateName": "CardEffectAdjustRoomCapacity",
@@ -38,16 +34,15 @@
           "paramInt": 1
         }
       ],
-      "description": "+1[capacity] on this floor."
+      "trigger": "CardTriggerType.OnKill"
     }
   ],
-  "cardLoreTooltipKeys": [
-    "CardData_data-7b0493bb2faec8a3-d283855196175814ea5f80fc516db7c5-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Good Ol' Wingmaker",
-  "overrideDescription": "Deal [effect0.power] damage to enemy units, two times.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Creating Wings from Light is no small task, and doing it the right way requires the right tools. I was able to make her wings with this hammer, but its power is too unstable for normal work. Odd that the things we build end up tearing us down in the end."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

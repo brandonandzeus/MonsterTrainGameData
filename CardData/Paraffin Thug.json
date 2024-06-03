@@ -1,8 +1,4 @@
 {
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState",
@@ -11,18 +7,11 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-76485405abeb1780-97fcbe42d1869a847932661b8dbf43d2-v2",
-        "size": 2,
-        "health": 10,
-        "attackDamage": 20,
+        "name": "Paraffin Thug",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnKill",
-            "descriptionKey": "CharacterData_descriptionKey-173955cbd2c852c8-97fcbe42d1869a847932661b8dbf43d2-v2",
+            "description": "Gain [effect0.power][coin].",
             "effects": [
               {
                 "effectStateName": "CardEffectRewardGold",
@@ -31,27 +20,30 @@
                 "paramInt": 20
               }
             ],
-            "description": "Gain [effect0.power][coin]."
+            "trigger": "CharacterTriggerData.Trigger.OnKill"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Wickless_517faf2f-8836-42d3-b84d-75a99b7dc735",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-123a99cf24f8ea7c-97fcbe42d1869a847932661b8dbf43d2-v2"
-        ],
-        "name": "Paraffin Thug",
-        "subtype": [
+        "subtypes": [
           "Wickless",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "A part of the Wickless Remains who have shaped themselves into lowly foot soldiers. They collect the remains of those they slay to add to their own, and they'll pick a fight with you to get it. Even though I am without wax, I've still been the target of many Wickless hasslings."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-76485405abeb1780-97fcbe42d1869a847932661b8dbf43d2-v2",
+        "size": 2,
+        "health": 10,
+        "attackDamage": 20
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassRemnant",
   "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Paraffin Thug"

@@ -1,29 +1,19 @@
 {
-  "nameKey": "CardData_nameKey-06f9bba5787be0d8-82b5df425338ac3498e60d63a0986c1d-v2",
-  "cost": 2,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-509ab3dc32eb11fe-82b5df425338ac3498e60d63a0986c1d-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Grovel",
+  "overrideDescription": "Apply [damageshield] [effect0.status0.power]. Add 2 uncommon or rare [snack] units to your hand.",
   "effects": [
     {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
-          "statusId": "damage shield",
+          "statusId": "VanillaStatusEffectIDs.DamageShield",
           "count": 1
         }
-      ]
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     },
     {
-      "effectStateName": "CardEffectAddBattleCard",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.Monsters",
-      "shouldTest": false,
-      "paramInt": 3,
-      "additionalParamInt": 2,
       "paramCardPool": {
         "name": "Class5Food",
         "cardDataList": [
@@ -47,9 +37,22 @@
           "VoidExcavator",
           "MorselMiner"
         ]
-      }
+      },
+      "effectStateName": "CardEffectAddBattleCard",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Monsters",
+      "shouldTest": false,
+      "paramInt": 3,
+      "additionalParamInt": 2
     }
   ],
+  "cardLoreTooltips": [
+    "Some errant Morsels, in an effort to please the Wardens, will offer their valuable jewels to try and get in their good graces. This behavior has been noted for future bribes that occur within the Boneshaker."
+  ],
+  "cost": 2,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassUmbra",
   "sharedMasteryCards": [
     "Morsel Jeweler",
@@ -59,13 +62,5 @@
     "Antumbra Morsel",
     "Morsel Excavator"
   ],
-  "cardLoreTooltipKeys": [
-    "CardData_data-b3054236f7d48669-82b5df425338ac3498e60d63a0986c1d-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Grovel",
-  "overrideDescription": "Apply [damageshield] [effect0.status0.power]. Add 2 uncommon or rare [snack] units to your hand.",
-  "cardLoreTooltip": [
-    "Some errant Morsels, in an effort to please the Wardens, will offer their valuable jewels to try and get in their good graces. This behavior has been noted for future bribes that occur within the Boneshaker."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

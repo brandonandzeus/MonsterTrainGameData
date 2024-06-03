@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-74dec2fba7f4e090-48354b6f10e0b7a47a3440c20be30dc0-v2",
-  "cost": 3,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-a81982ab05d61068-48354b6f10e0b7a47a3440c20be30dc0-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Titanstooth",
+  "overrideDescription": "Deal [effect0.power] damage to enemy units and apply [frostbite] [effect1.status0.power].",
   "traits": [
     {
       "traitStateName": "CardTraitTreasure"
@@ -17,27 +14,25 @@
       "paramInt": 5
     },
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Frostbite",
+          "count": 10
+        }
+      ],
       "effectStateName": "CardEffectAddStatusEffect",
       "targetMode": "TargetMode.Room",
       "targetTeamType": "Team.Type.Heroes",
       "shouldTest": false,
-      "paramInt": 100,
-      "paramStatusEffects": [
-        {
-          "statusId": "poison",
-          "count": 10
-        }
-      ]
+      "paramInt": 100
     }
   ],
-  "linkedClass": "ClassStygian",
-  "cardLoreTooltipKeys": [
-    "CardData_data-1e023cb6a80b1e5e-48354b6f10e0b7a47a3440c20be30dc0-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Titanstooth",
-  "overrideDescription": "Deal [effect0.power] damage to enemy units and apply [frostbite] [effect1.status0.power].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Ceremonial spears are given to the Stygian Guard to aid them in their protection of the Unnamed’s resting place. Originally just part of tradition, these spears have recently become essential in our defense of Hell."
-  ]
+  ],
+  "cost": 3,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassStygian",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

@@ -1,47 +1,35 @@
 {
-  "nameKey": "CardData_nameKey-4d6b89d3f35cd2d1-0a8521d528e582d49b7cf2ac5e41dde3-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-7aae18d2a8ea4f3e-0a8521d528e582d49b7cf2ac5e41dde3-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Common",
+  "name": "Wicklash",
+  "overrideDescription": "Apply +[effect0.upgrade.bonusdamage][attack] and [burnout] [effect1.status0.power] to a friendly unit.",
   "effects": [
     {
+      "paramCardUpgradeData": {
+        "bonusDamage": 10
+      },
       "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
       "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Monsters",
-      "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-683bb7fc4bc73269-8d82455db50244741bc863d9e8aa1575-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-1077a11e416e25c2-8d82455db50244741bc863d9e8aa1575-v2",
-        "upgradeNotificationKey": "CardUpgradeData_upgradeNotificationKey-a324ee2076479ebc-8d82455db50244741bc863d9e8aa1575-v2",
-        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-        "bonusDamage": 10,
-        "upgradeTitle": "",
-        "upgradeDescription": "",
-        "upgradeNotification": ""
-      }
+      "targetTeamType": "Team.Type.Monsters"
     },
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Burnout",
+          "count": 2
+        }
+      ],
       "effectStateName": "CardEffectAddStatusEffect",
       "targetMode": "TargetMode.LastTargetedCharacters",
       "targetTeamType": "Team.Type.Monsters",
-      "paramInt": 100,
-      "paramStatusEffects": [
-        {
-          "statusId": "ephemeral",
-          "count": 2
-        }
-      ]
+      "paramInt": 100
     }
   ],
-  "linkedClass": "ClassRemnant",
-  "cardLoreTooltipKeys": [
-    "CardData_data-2a3f7bcac43c93f4-0a8521d528e582d49b7cf2ac5e41dde3-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Wicklash",
-  "overrideDescription": "Apply +[effect0.upgrade.bonusdamage][attack] and [burnout] [effect1.status0.power] to a friendly unit.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Those who truly cannot wait for their wax to melt can fasten additional wicks to their bodies, ensuring they burn with a brief, but beautiful, light."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassRemnant",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

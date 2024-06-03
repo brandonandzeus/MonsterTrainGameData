@@ -1,9 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-b654bb56817e211d-52f66f3c193c7b14099c10f30aa67a83-v2",
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Crucible Warden",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState",
@@ -12,53 +8,48 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-3aff1edfc78f308a-ff326df83cc365b4a90e2437d1dbb013-v2",
-        "size": 2,
-        "health": 20,
-        "attackDamage": 20,
+        "name": "Crucible Warden",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnFeed",
-            "descriptionKey": "CharacterData_descriptionKey-d311b5b391a6602b-ff326df83cc365b4a90e2437d1dbb013-v2",
+            "description": "Gain [damageshield] [effect0.status0.power].",
             "effects": [
               {
-                "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": "TargetMode.Self",
-                "targetTeamType": "Team.Type.None",
                 "paramStatusEffects": [
                   {
-                    "statusId": "damage shield",
+                    "statusId": "VanillaStatusEffectIDs.DamageShield",
                     "count": 1
                   }
-                ]
+                ],
+                "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None"
               }
             ],
-            "description": "Gain [damageshield] [effect0.status0.power]."
+            "trigger": "CharacterTriggerData.Trigger.OnFeed"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Forager",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-450dda5cc549345b-ff326df83cc365b4a90e2437d1dbb013-v2"
-        ],
-        "name": "Crucible Warden",
-        "subtype": [
+        "subtypes": [
           "Shroud",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "The dreaded patrols of the Crucible Mines, wandering the long pathways in search of slacking Morsels and idle researchers. Though originally a mark of their lowly status, the Void that protrudes from their shadowed torso serves as a useful guard against worker uprisings."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-3aff1edfc78f308a-ff326df83cc365b4a90e2437d1dbb013-v2",
+        "size": 2,
+        "health": 20,
+        "attackDamage": 20
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassUmbra",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Crucible Warden"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

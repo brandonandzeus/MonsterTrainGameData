@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-92007f3dfdb11056-8061ceb164b39704b8ee3d4638070fc5-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-999b23a11bbba9d1-8061ceb164b39704b8ee3d4638070fc5-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Common",
+  "name": "Echo Break",
+  "overrideDescription": "Deal [trait0.power] damage per [corrupt].",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddDamage",
@@ -15,27 +11,25 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectDamage",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body",
           "title": "Charged Echoes",
           "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
-      ]
+      ],
+      "effectStateName": "CardEffectDamage",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
-  "linkedClass": "ClassWurm",
-  "cardLoreTooltipKeys": [
-    "CardData_data-86656347afd1efad-8061ceb164b39704b8ee3d4638070fc5-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
-  "name": "Echo Break",
-  "overrideDescription": "Deal [trait0.power] damage per [corrupt].",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "I, along with all of Hell, had assumed the Bogwurm’s Remains to hold nothing but death and decay. The Rail had been built without the Ring’s consent, the life found above ground appearing to show no sentience. So, when I found a clan, a civilization even, that existed within the excavated remains of the Bogwurm, I realized that there are more holes to my knowledge than I previously assumed."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Common",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
+  "linkedClass": "ClassWurm",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy"
 }

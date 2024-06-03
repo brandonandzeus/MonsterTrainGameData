@@ -1,36 +1,29 @@
 {
-  "nameKey": "CardData_nameKey-3c00b8a3fbccc151-bfb81afb901a5564fb8780e62974cd4d-v2",
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Champion",
+  "name": "Wyldenten",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCharacterData": {
+        "name": "Wyldenten",
+        "subtypes": [
+          "Champion"
+        ],
+        "characterLoreTooltips": [
+          "Something in the Wildwood unsettles my mind, granting me visions of its very Roots when I rest there. But these Roots form a creature predating both Hollows and Channelers. Was there some soul before the Wildwood?"
+        ],
         "nameKey": "CharacterData_nameKey-d24b1712ab5166e5-9f502c0f32fc7b240b43372ea2a7b9f2-v2",
         "size": 3,
         "health": 30,
         "deathType": "CharacterDeathVFX.Type.Large",
-        "attackDamage": 5,
-        "subtypeKeys": [
-          "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-eafcdc0b547f71c9-9f502c0f32fc7b240b43372ea2a7b9f2-v2"
-        ],
-        "name": "Wyldenten",
-        "subtype": [
-          "Champion"
-        ],
-        "characterLoreTooltip": [
-          "Something in the Wildwood unsettles my mind, granting me visions of its very Roots when I rest there. But these Roots form a creature predating both Hollows and Channelers. Was there some soul before the Wildwood?"
-        ]
-      }
+        "attackDamage": 5
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Champion",
   "linkedClass": "ClassAwoken",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Wyldenten"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

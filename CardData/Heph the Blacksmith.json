@@ -1,30 +1,18 @@
 {
-  "nameKey": "CardData_nameKey-eed41f7b0da2fcef-603ccbb89d259dc40bd235b513ed79fa-v2",
-  "cost": 2,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Rare",
+  "name": "Heph the Blacksmith",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-4f0662430bab7e03-3c651af29c8547643b6cad6c548d7ca1-v2",
-        "size": 3,
-        "health": 50,
-        "attackDamage": 50,
-        "attackTeleportsToDefender": false,
+        "name": "Heph the Blacksmith",
         "startingStatusEffects": [
           {
-            "statusId": "trample",
+            "statusId": "VanillaStatusEffectIDs.Trample",
             "count": 1
           }
         ],
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.PostCombat",
-            "descriptionKey": "CharacterData_descriptionKey-3c7f5fd4dcb92288-3c651af29c8547643b6cad6c548d7ca1-v2",
+            "description": "+1[capacity] on this floor.",
             "effects": [
               {
                 "effectStateName": "CardEffectAdjustRoomCapacity",
@@ -33,42 +21,37 @@
                 "paramInt": 1
               }
             ],
-            "description": "+1[capacity] on this floor."
+            "trigger": "CharacterTriggerData.Trigger.PostCombat"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Heph",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-        ],
-        "name": "Heph the Blacksmith",
-        "subtype": [
+        "subtypes": [
           "Titanspawn",
           "Chosen"
         ],
-        "characterLoreTooltip": [
-          ""
-        ]
-      }
+        "nameKey": "CharacterData_nameKey-4f0662430bab7e03-3c651af29c8547643b6cad6c548d7ca1-v2",
+        "size": 3,
+        "health": 50,
+        "attackDamage": 50,
+        "attackTeleportsToDefender": false
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
   "startingUpgrades": [
     {
-      "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-bd8dd1f691dbde76-fdbccea001531c043b23173a8d272d7d-v2",
-      "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-6896444018e5bef7-fdbccea001531c043b23173a8d272d7d-v2",
-      "linkedPactDuplicateRarity": "CollectableRarity.Starter",
       "upgradeTitle": "Made to Fit",
       "upgradeDescription": "-3[capacity]."
     }
   ],
-  "cardLoreTooltipKeys": [
-    "CardData_data-9be2d6b2bd76ff50-2d334d75be772964db38134fad4372e9-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Heph the Blacksmith",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "There are no words that I can write to describe the unbreakable force that is my daughter, so I will refrain from further staining her name by trying."
-  ]
+  ],
+  "cost": 2,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Rare",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

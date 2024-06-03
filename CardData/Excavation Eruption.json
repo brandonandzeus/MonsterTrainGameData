@@ -1,48 +1,44 @@
 {
-  "nameKey": "CardData_nameKey-73baa0a8ee08b8ba-caae2c1c84c8e884ca65fd3c1572d1da-v2",
-  "cost": 3,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-601479eba280387d-caae2c1c84c8e884ca65fd3c1572d1da-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Excavation Eruption",
+  "overrideDescription": "Deal [effect0.power] damage to a random enemy unit, three times.",
   "effects": [
     {
-      "effectStateName": "CardEffectDamage",
-      "targetMode": "TargetMode.RandomInRoom",
-      "targetTeamType": "Team.Type.Heroes",
-      "paramInt": 20,
       "paramTimingDelays": {
         "x": 0.2,
         "y": 0.1,
         "z": 0.0
-      }
-    },
-    {
+      },
       "effectStateName": "CardEffectDamage",
       "targetMode": "TargetMode.RandomInRoom",
       "targetTeamType": "Team.Type.Heroes",
-      "paramInt": 20,
+      "paramInt": 20
+    },
+    {
       "paramTimingDelays": {
         "x": 0.5,
         "y": 0.2,
         "z": 0.0
-      }
-    },
-    {
+      },
       "effectStateName": "CardEffectDamage",
       "targetMode": "TargetMode.RandomInRoom",
       "targetTeamType": "Team.Type.Heroes",
-      "paramInt": 20,
+      "paramInt": 20
+    },
+    {
       "paramTimingDelays": {
         "x": 0.5,
         "y": 0.2,
         "z": 0.0
-      }
+      },
+      "effectStateName": "CardEffectDamage",
+      "targetMode": "TargetMode.RandomInRoom",
+      "targetTeamType": "Team.Type.Heroes",
+      "paramInt": 20
     }
   ],
   "triggers": [
     {
-      "trigger": "CardTriggerType.OnKill",
-      "descriptionKey": "CardData_descriptionKey-2dd17db6d41ec0fa-caae2c1c84c8e884ca65fd3c1572d1da-v2",
+      "description": "Gain 2[ember].",
       "cardEffects": [
         {
           "effectStateName": "CardEffectGainEnergy",
@@ -51,17 +47,15 @@
           "paramInt": 2
         }
       ],
-      "description": "Gain 2[ember]."
+      "trigger": "CardTriggerType.OnKill"
     }
   ],
-  "linkedClass": "ClassUmbra",
-  "cardLoreTooltipKeys": [
-    "CardData_data-ab86f5a6d1c5ec58-caae2c1c84c8e884ca65fd3c1572d1da-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Excavation Eruption",
-  "overrideDescription": "Deal [effect0.power] damage to a random enemy unit, three times.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "With little regard for their own lives, these Morsels seem to explode carelessly in the mines, paying no mind to the possible consequences of their actions. I’ve seen this backfire on more than one occasion..."
-  ]
+  ],
+  "cost": 3,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassUmbra",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

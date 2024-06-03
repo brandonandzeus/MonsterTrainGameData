@@ -1,62 +1,54 @@
 {
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-8ad888312cfe407b-7950aac77d7d92343b181181dec60509-v2",
-        "size": 2,
-        "health": 10,
-        "attackDamage": 1,
+        "name": "Icy Cilophyte",
         "startingStatusEffects": [
           {
-            "statusId": "hunter",
+            "statusId": "VanillaStatusEffectIDs.Sweep",
             "count": 1
           }
         ],
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnAttacking",
-            "descriptionKey": "CharacterData_descriptionKey-5e46f1c65c7ec112-7950aac77d7d92343b181181dec60509-v2",
+            "description": "Apply [spellweakness] [effect0.status0.power] to the attacked unit.",
             "effects": [
               {
-                "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": "TargetMode.LastAttackedCharacter",
-                "targetTeamType": "Team.Type.Heroes",
                 "paramStatusEffects": [
                   {
-                    "statusId": "spell weakness",
+                    "statusId": "VanillaStatusEffectIDs.SpellWeakness",
                     "count": 1
                   }
-                ]
+                ],
+                "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.LastAttackedCharacter",
+                "targetTeamType": "Team.Type.Heroes"
               }
             ],
-            "description": "Apply [spellweakness] [effect0.status0.power] to the attacked unit."
+            "trigger": "CharacterTriggerData.Trigger.OnAttacking"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Siren_727cf19f-3b27-4ad2-92ab-3552449e52da",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-d80148813fc89cb3-7950aac77d7d92343b181181dec60509-v2"
-        ],
-        "name": "Icy Cilophyte",
-        "subtype": [
+        "subtypes": [
           "Siren",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "Even further communion with the ice has allowed these Sirens to master its freezing nature. This leads me to believe that the Stygian may be the only clan that has benefited from the Freeze."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-8ad888312cfe407b-7950aac77d7d92343b181181dec60509-v2",
+        "size": 2,
+        "health": 10,
+        "attackDamage": 1
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassStygian",
   "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Icy Cilophyte"

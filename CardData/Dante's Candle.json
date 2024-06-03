@@ -1,8 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-c3f5da0c544fd8d4-971447df26f39ea4a8deb8215baa8d73-v2",
-  "cost": 1,
-  "cardType": "CardType.Blight",
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Dante's Candle",
   "traits": [
     {
       "traitStateName": "CardTraitUnpurgable"
@@ -10,8 +7,7 @@
   ],
   "triggers": [
     {
-      "trigger": "CardTriggerType.OnUnplayed",
-      "descriptionKey": "CardData_descriptionKey-8cafc865becae7d0-971447df26f39ea4a8deb8215baa8d73-v2",
+      "description": "Your Pyre takes [effect0.power] damage.",
       "cardEffects": [
         {
           "effectStateName": "CardEffectDamage",
@@ -20,15 +16,14 @@
           "paramInt": 3
         }
       ],
-      "description": "Your Pyre takes [effect0.power] damage."
+      "trigger": "CardTriggerType.OnUnplayed"
     }
   ],
-  "cardLoreTooltipKeys": [
-    "CardData_data-e75347fba8e953a9-971447df26f39ea4a8deb8215baa8d73-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Dante's Candle",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "Ornate candles carried by the unusual fellow known as Dante. He’s never revealed their true purpose and, knowing him, I’ve half a mind to think it’s all an elaborate scheme. Regardless, they’re hotter than Hell used to be and can burn you if you’re not careful."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Blight",
+  "rarity": "CollectableRarity.Uncommon",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

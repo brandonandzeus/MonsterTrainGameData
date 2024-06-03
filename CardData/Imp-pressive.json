@@ -1,10 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-840658138460e357-9eb35a410438eb1418a7eca66acded00-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-248844da872c636f-9eb35a410438eb1418a7eca66acded00-v2",
-  "cardType": "CardType.Spell",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Imp-pressive",
+  "overrideDescription": "Deal [effect1.power] damage to the front enemy unit.",
   "traits": [
     {
       "traitStateName": "CardTraitStrongerMagicPower"
@@ -25,15 +21,14 @@
       "paramInt": 50
     }
   ],
+  "cardLoreTooltips": [
+    "“Some Imps eat Pyre. While Pyre tasty, Pyre not endless. Hungry imps then eaten by Pyre. And life continues.” -excerpt from Hell’s Horns by Grrrg Onehorn on Pyre-eating etiquette."
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassHellhorned",
   "unlockLevel": 3,
-  "cardLoreTooltipKeys": [
-    "CardData_data-18dd64152b267ec1-9eb35a410438eb1418a7eca66acded00-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Imp-pressive",
-  "overrideDescription": "Deal [effect1.power] damage to the front enemy unit.",
-  "cardLoreTooltip": [
-    "“Some Imps eat Pyre. While Pyre tasty, Pyre not endless. Hungry imps then eaten by Pyre. And life continues.” -excerpt from Hell’s Horns by Grrrg Onehorn on Pyre-eating etiquette."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

@@ -1,52 +1,44 @@
 {
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-3a3626fba318bd69-851b86a59ea80b64f8226ccd6bbf915a-v2",
-        "size": 1,
-        "health": 1,
-        "attackDamage": 6,
+        "name": "Magma Morsel",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.OnEaten",
-            "descriptionKey": "CharacterData_descriptionKey-7edc9add64ecc086-851b86a59ea80b64f8226ccd6bbf915a-v2",
+            "description": "Eater gains +[effect0.upgrade.bonusdamage][attack].",
             "effects": [
               {
+                "paramCardUpgradeData": {
+                  "bonusDamage": 6
+                },
                 "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
                 "targetMode": "TargetMode.LastFeederCharacter",
                 "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
-                "paramInt": 100,
-                "paramCardUpgradeData": {
-                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-                  "bonusDamage": 6
-                }
+                "paramInt": 100
               }
             ],
-            "description": "Eater gains +[effect0.upgrade.bonusdamage][attack]."
+            "trigger": "CharacterTriggerData.Trigger.OnEaten"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Snack"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-0b878e2dc749ca75-851b86a59ea80b64f8226ccd6bbf915a-v2"
-        ],
-        "name": "Magma Morsel",
-        "subtype": [
+        "subtypes": [
           "Morsel"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "Originally heated by the nearby Pyre, molten rock can be found throughout the Crucible. Morsels excavate it like anything else, but there was no use for it until I showed them how to use the residual energy to strengthen themselves."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-3a3626fba318bd69-851b86a59ea80b64f8226ccd6bbf915a-v2",
+        "size": 1,
+        "health": 1,
+        "attackDamage": 6
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassUmbra",
   "ignoreWhenCountingMastery": true,
   "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",

@@ -1,9 +1,6 @@
 {
-  "nameKey": "CardData_nameKey-1c0bbcb8b7ae3010-2addebb941e1aac4ba142869befa20b4-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-c1fbd139a4e70195-2addebb941e1aac4ba142869befa20b4-v2",
-  "cardType": "CardType.Spell",
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Ember Cache",
+  "overrideDescription": "Add 3 <b>Excavated Ember</b> cards to your discard pile.",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -11,27 +8,25 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectAddBattleCard",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.None",
-      "paramInt": 1,
-      "additionalParamInt": 3,
       "paramCardPool": {
         "name": "ExcavatedEmberOnlyPool",
         "cardDataList": [
           "SelfPurgeEnergyGain"
         ]
-      }
+      },
+      "effectStateName": "CardEffectAddBattleCard",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
+      "paramInt": 1,
+      "additionalParamInt": 3
     }
   ],
-  "linkedClass": "ClassUmbra",
-  "cardLoreTooltipKeys": [
-    "CardData_data-684ccb567c1f1af9-2addebb941e1aac4ba142869befa20b4-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Ember Cache",
-  "overrideDescription": "Add 3 <b>Excavated Ember</b> cards to your discard pile.",
-  "cardLoreTooltip": [
+  "cardLoreTooltips": [
     "I created fortified steel boxes to house the dormant Ember mined in the Crucible, increasing its effectiveness through pressure and time."
-  ]
+  ],
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassUmbra",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

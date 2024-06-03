@@ -1,41 +1,36 @@
 {
-  "nameKey": "CardData_nameKey-a779514c32cab04a-78b4b576f0678924ca2854191a5a1d5d-v2",
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-455795612cb20edf-78b4b576f0678924ca2854191a5a1d5d-v2",
+  "name": "Immortal Trade",
+  "overrideDescription": "Apply [lifesteal] [effect0.status0.power] and [emberdrain] [effect1.status0.power] to a friendly unit.",
+  "effects": [
+    {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Lifesteal",
+          "count": 4
+        }
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Monsters"
+    },
+    {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Emberdrain",
+          "count": 2
+        }
+      ],
+      "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Monsters"
+    }
+  ],
+  "cardLoreTooltips": [
+    "An unfortunate outcome of our invention, Void consumption has become an addictive practice amongst the Umbra. When that no longer satiates their hunger, the entire replacement of self with these Void shards becomes the only way to gain any satisfaction."
+  ],
   "cardType": "CardType.Spell",
   "targetless": false,
   "rarity": "CollectableRarity.Common",
-  "effects": [
-    {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.DropTargetCharacter",
-      "targetTeamType": "Team.Type.Monsters",
-      "paramStatusEffects": [
-        {
-          "statusId": "lifesteal",
-          "count": 4
-        }
-      ]
-    },
-    {
-      "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": "TargetMode.LastTargetedCharacters",
-      "targetTeamType": "Team.Type.Monsters",
-      "paramStatusEffects": [
-        {
-          "statusId": "scorch",
-          "count": 2
-        }
-      ]
-    }
-  ],
   "linkedClass": "ClassUmbra",
-  "cardLoreTooltipKeys": [
-    "CardData_data-477642ab4886a980-78b4b576f0678924ca2854191a5a1d5d-v2"
-  ],
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Immortal Trade",
-  "overrideDescription": "Apply [lifesteal] [effect0.status0.power] and [emberdrain] [effect1.status0.power] to a friendly unit.",
-  "cardLoreTooltip": [
-    "An unfortunate outcome of our invention, Void consumption has become an addictive practice amongst the Umbra. When that no longer satiates their hunger, the entire replacement of self with these Void shards becomes the only way to gain any satisfaction."
-  ]
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }

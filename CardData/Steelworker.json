@@ -1,9 +1,5 @@
 {
-  "nameKey": "CardData_nameKey-34dca9aea9db1abf-4c8b8b661464c97459fb3b5ab8c9bf01-v2",
-  "cost": 1,
-  "cardType": "CardType.Monster",
-  "targetless": false,
-  "rarity": "CollectableRarity.Uncommon",
+  "name": "Steelworker",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState",
@@ -12,54 +8,49 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectSpawnMonster",
-      "targetMode": "TargetMode.Room",
-      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCharacterData": {
-        "nameKey": "CharacterData_nameKey-ad85f089c4b7fd31-0dbdfbcc89073344f9b0402c959eacd6-v2",
-        "size": 2,
-        "health": 15,
-        "attackDamage": 10,
+        "name": "Steelworker",
         "triggers": [
           {
-            "trigger": "CharacterTriggerData.Trigger.PostCombat",
-            "descriptionKey": "CharacterData_descriptionKey-9d0bef6695b21c0e-0dbdfbcc89073344f9b0402c959eacd6-v2",
+            "description": "Apply [armor] [effect0.status0.power] to friendly units.",
             "effects": [
               {
+                "paramStatusEffects": [
+                  {
+                    "statusId": "VanillaStatusEffectIDs.Armor",
+                    "count": 5
+                  }
+                ],
                 "effectStateName": "CardEffectAddStatusEffect",
                 "targetMode": "TargetMode.Room",
                 "targetTeamType": "Team.Type.Monsters",
-                "paramInt": 100,
-                "paramStatusEffects": [
-                  {
-                    "statusId": "armor",
-                    "count": 5
-                  }
-                ]
+                "paramInt": 100
               }
             ],
-            "description": "Apply [armor] [effect0.status0.power] to friendly units."
+            "trigger": "CharacterTriggerData.Trigger.PostCombat"
           }
         ],
-        "subtypeKeys": [
-          "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12",
-          "SubtypesData_Chosen"
-        ],
-        "characterLoreTooltipKeys": [
-          "CharacterData_data-d584662c63c00293-0dbdfbcc89073344f9b0402c959eacd6-v2"
-        ],
-        "name": "Steelworker",
-        "subtype": [
+        "subtypes": [
           "Demon",
           "Chosen"
         ],
-        "characterLoreTooltip": [
+        "characterLoreTooltips": [
           "Along with a team of imps, these demons are responsible for the creation of all Hellhorned armor and weapons. While not usually on the front lines, their centuries of working metal gives them a comfortable tendency towards combat."
-        ]
-      }
+        ],
+        "nameKey": "CharacterData_nameKey-ad85f089c4b7fd31-0dbdfbcc89073344f9b0402c959eacd6-v2",
+        "size": 2,
+        "health": 15,
+        "attackDamage": 10
+      },
+      "effectStateName": "CardEffectSpawnMonster",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
+  "cost": 1,
+  "cardType": "CardType.Monster",
+  "targetless": false,
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassHellhorned",
-  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
-  "name": "Steelworker"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }
