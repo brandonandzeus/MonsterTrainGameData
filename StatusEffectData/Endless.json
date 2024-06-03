@@ -5,7 +5,7 @@
   "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
   "triggerStage": "StatusEffectData.TriggerStage.OnDeath",
   "additionalTriggerStages": [
-    25
+    "StatusEffectData.TriggerStage.OnPostEaten"
   ],
   "isStackable": false
 }
