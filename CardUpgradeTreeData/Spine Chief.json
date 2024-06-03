@@ -3,282 +3,231 @@
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-fc5ee2eba750a273-aa8dca303d088f94a8d19d02e26f9898-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 5,
-          "bonusHP": 25,
+          "upgradeTitle": "The Decayer",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.CorruptionAdded",
-              "descriptionKey": "CardUpgradeData_descriptionKey-ebdceec5731af8ef-aa8dca303d088f94a8d19d02e26f9898-v2",
+              "description": "Apply [corruptpoison] [effect0.status0.power] to enemy units.",
               "effects": [
                 {
-                  "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": "TargetMode.Room",
-                  "targetTeamType": "Team.Type.Heroes",
                   "paramStatusEffects": [
                     {
-                      "statusId": "corrupt_poison",
+                      "statusId": "VanillaStatusEffectIDs.Reap",
                       "count": 2
                     }
                   ],
                   "additionalTooltips": [
                     {
-                      "titleKey": "HudTooltip_RoomCorruption_Title",
-                      "descriptionKey": "HudTooltip_RoomCorruption_Body",
-                      "statusId": "",
                       "title": "Charged Echoes",
                       "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                     }
-                  ]
-                }
-              ],
-              "description": "Apply [corruptpoison] [effect0.status0.power] to enemy units."
-            }
-          ],
-          "upgradeTitle": "The Decayer"
-        },
-        {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-72ea6d17f1bdf97f-32c8fcccac244e348921a919f9567259-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 10,
-          "bonusHP": 70,
-          "triggerUpgrades": [
-            {
-              "trigger": "CharacterTriggerData.Trigger.CorruptionAdded",
-              "descriptionKey": "CardUpgradeData_descriptionKey-874a3bbdbdb42aa7-32c8fcccac244e348921a919f9567259-v2",
-              "effects": [
-                {
+                  ],
                   "effectStateName": "CardEffectAddStatusEffect",
                   "targetMode": "TargetMode.Room",
-                  "targetTeamType": "Team.Type.Heroes",
+                  "targetTeamType": "Team.Type.Heroes"
+                }
+              ],
+              "trigger": "CharacterTriggerData.Trigger.CorruptionAdded"
+            }
+          ],
+          "bonusDamage": 5,
+          "bonusHP": 25
+        },
+        {
+          "upgradeTitle": "The Decayer II",
+          "triggerUpgrades": [
+            {
+              "description": "Apply [corruptpoison] [effect0.status0.power] to enemy units.",
+              "effects": [
+                {
                   "paramStatusEffects": [
                     {
-                      "statusId": "corrupt_poison",
+                      "statusId": "VanillaStatusEffectIDs.Reap",
                       "count": 3
                     }
                   ],
                   "additionalTooltips": [
                     {
-                      "titleKey": "HudTooltip_RoomCorruption_Title",
-                      "descriptionKey": "HudTooltip_RoomCorruption_Body",
-                      "statusId": "",
                       "title": "Charged Echoes",
                       "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                     }
-                  ]
-                }
-              ],
-              "description": "Apply [corruptpoison] [effect0.status0.power] to enemy units."
-            }
-          ],
-          "upgradeTitle": "The Decayer II"
-        },
-        {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-e2668fdb3e32c4bb-2e0d066f59f7d0542820f6704eea072f-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 15,
-          "bonusHP": 120,
-          "triggerUpgrades": [
-            {
-              "trigger": "CharacterTriggerData.Trigger.CorruptionAdded",
-              "descriptionKey": "CardUpgradeData_descriptionKey-881d897c26a83a64-2e0d066f59f7d0542820f6704eea072f-v2",
-              "effects": [
-                {
+                  ],
                   "effectStateName": "CardEffectAddStatusEffect",
                   "targetMode": "TargetMode.Room",
-                  "targetTeamType": "Team.Type.Heroes",
+                  "targetTeamType": "Team.Type.Heroes"
+                }
+              ],
+              "trigger": "CharacterTriggerData.Trigger.CorruptionAdded"
+            }
+          ],
+          "bonusDamage": 10,
+          "bonusHP": 70
+        },
+        {
+          "upgradeTitle": "The Decayer III",
+          "triggerUpgrades": [
+            {
+              "description": "Apply [corruptpoison] [effect0.status0.power] to enemy units.",
+              "effects": [
+                {
                   "paramStatusEffects": [
                     {
-                      "statusId": "corrupt_poison",
+                      "statusId": "VanillaStatusEffectIDs.Reap",
                       "count": 5
                     }
                   ],
                   "additionalTooltips": [
                     {
-                      "titleKey": "HudTooltip_RoomCorruption_Title",
-                      "descriptionKey": "HudTooltip_RoomCorruption_Body",
-                      "statusId": "",
                       "title": "Charged Echoes",
                       "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                     }
-                  ]
+                  ],
+                  "effectStateName": "CardEffectAddStatusEffect",
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.Heroes"
                 }
               ],
-              "description": "Apply [corruptpoison] [effect0.status0.power] to enemy units."
+              "trigger": "CharacterTriggerData.Trigger.CorruptionAdded"
             }
           ],
-          "upgradeTitle": "The Decayer III"
+          "bonusDamage": 15,
+          "bonusHP": 120
         }
       ]
     },
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-01dd640070aa70aa-9b4fcc15d1166f24f8b4febd81678bb4-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusHP": 10,
+          "upgradeTitle": "The Corruptor",
           "roomModifierUpgrades": [
             {
-              "roomStateModifierClassName": "RoomStateFriendlyDamagePerCorruptionModifier",
-              "descriptionKey": "CardUpgradeData_descriptionKey-5aeaf50ab31c6d6d-9b4fcc15d1166f24f8b4febd81678bb4-v2",
-              "paramInt": 5,
-              "extraTooltipTitleKey": "HudTooltip_RoomCorruption_Title",
-              "extraTooltipBodyKey": "HudTooltip_RoomCorruption_Body",
               "description": "Friendly units have +[paramint][attack] per [corrupt].",
               "extraTooltipTitle": "Charged Echoes",
-              "extraTooltipBody": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
+              "extraTooltipBody": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn.",
+              "roomStateModifierClassName": "RoomStateFriendlyDamagePerCorruptionModifier",
+              "paramInt": 5
             }
           ],
-          "upgradeTitle": "The Corruptor"
+          "bonusHP": 10
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-cff984c842c4f222-44f2d249aef8b8d49ba0fcbb0096941a-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusHP": 40,
+          "upgradeTitle": "The Corruptor II",
           "roomModifierUpgrades": [
             {
-              "roomStateModifierClassName": "RoomStateFriendlyDamagePerCorruptionModifier",
-              "descriptionKey": "CardUpgradeData_descriptionKey-6a2480d41b0b7329-44f2d249aef8b8d49ba0fcbb0096941a-v2",
-              "paramInt": 10,
-              "extraTooltipTitleKey": "HudTooltip_RoomCorruption_Title",
-              "extraTooltipBodyKey": "HudTooltip_RoomCorruption_Body",
               "description": "Friendly units have +[paramint][attack] per [corrupt].",
               "extraTooltipTitle": "Charged Echoes",
-              "extraTooltipBody": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
+              "extraTooltipBody": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn.",
+              "roomStateModifierClassName": "RoomStateFriendlyDamagePerCorruptionModifier",
+              "paramInt": 10
             }
           ],
-          "upgradeTitle": "The Corruptor II"
+          "bonusHP": 40
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-e808b799000264ba-78d6f3b1658e96242aec3005e90e0ea1-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusHP": 80,
+          "upgradeTitle": "The Corruptor III",
           "roomModifierUpgrades": [
             {
-              "roomStateModifierClassName": "RoomStateFriendlyDamagePerCorruptionModifier",
-              "descriptionKey": "CardUpgradeData_descriptionKey-91ec8733dece48c0-78d6f3b1658e96242aec3005e90e0ea1-v2",
-              "paramInt": 20,
-              "extraTooltipTitleKey": "HudTooltip_RoomCorruption_Title",
-              "extraTooltipBodyKey": "HudTooltip_RoomCorruption_Body",
               "description": "Friendly units have +[paramint][attack] per [corrupt].",
               "extraTooltipTitle": "Charged Echoes",
-              "extraTooltipBody": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
+              "extraTooltipBody": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn.",
+              "roomStateModifierClassName": "RoomStateFriendlyDamagePerCorruptionModifier",
+              "paramInt": 20
             }
           ],
-          "upgradeTitle": "The Corruptor III"
+          "bonusHP": 80
         }
       ]
     },
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-abdb3a52c81517db-ba587d28d95acb5498a6cc63d60774dc-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 20,
-          "bonusHP": 20,
+          "upgradeTitle": "The Infector",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnAttacking",
-              "descriptionKey": "CardUpgradeData_descriptionKey-24c19ece6755ad3b-ba587d28d95acb5498a6cc63d60774dc-v2",
+              "description": "Gain [effect0.power][corrupt].",
               "effects": [
                 {
+                  "additionalTooltips": [
+                    {
+                      "title": "Charged Echoes",
+                      "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
+                    }
+                  ],
                   "effectStateName": "CardEffectAdjustCorruption",
                   "targetMode": "TargetMode.Room",
                   "targetTeamType": "Team.Type.None",
                   "paramInt": 1,
-                  "paramBool": true,
-                  "additionalTooltips": [
-                    {
-                      "titleKey": "HudTooltip_RoomCorruption_Title",
-                      "descriptionKey": "HudTooltip_RoomCorruption_Body",
-                      "statusId": "",
-                      "title": "Charged Echoes",
-                      "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
-                    }
-                  ]
+                  "paramBool": true
                 }
               ],
-              "description": "Gain [effect0.power][corrupt]."
+              "trigger": "CharacterTriggerData.Trigger.OnAttacking"
             }
           ],
-          "upgradeTitle": "The Infector"
+          "bonusDamage": 20,
+          "bonusHP": 20
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-4ff23fee5cd1f1aa-621259f1e25d8d6458fc58f7287d9cc5-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 20,
-          "bonusHP": 60,
+          "upgradeTitle": "The Infector II",
           "statusEffectUpgrades": [
             {
-              "statusId": "multistrike",
+              "statusId": "VanillaStatusEffectIDs.Multistrike",
               "count": 1
             }
           ],
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnAttacking",
-              "descriptionKey": "CardUpgradeData_descriptionKey-9aaf6ab8beb62e7b-621259f1e25d8d6458fc58f7287d9cc5-v2",
+              "description": "Gain [effect0.power][corrupt].",
               "effects": [
                 {
+                  "additionalTooltips": [
+                    {
+                      "title": "Charged Echoes",
+                      "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
+                    }
+                  ],
                   "effectStateName": "CardEffectAdjustCorruption",
                   "targetMode": "TargetMode.Room",
                   "targetTeamType": "Team.Type.None",
                   "paramInt": 1,
-                  "paramBool": true,
-                  "additionalTooltips": [
-                    {
-                      "titleKey": "HudTooltip_RoomCorruption_Title",
-                      "descriptionKey": "HudTooltip_RoomCorruption_Body",
-                      "statusId": "",
-                      "title": "Charged Echoes",
-                      "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
-                    }
-                  ]
+                  "paramBool": true
                 }
               ],
-              "description": "Gain [effect0.power][corrupt]."
+              "trigger": "CharacterTriggerData.Trigger.OnAttacking"
             }
           ],
-          "upgradeTitle": "The Infector II"
+          "bonusDamage": 20,
+          "bonusHP": 60
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-17a70f3e1d8893e5-87d5d296b0a960340a0eaad75570036b-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 20,
-          "bonusHP": 100,
+          "upgradeTitle": "The Infector III",
           "statusEffectUpgrades": [
             {
-              "statusId": "multistrike",
+              "statusId": "VanillaStatusEffectIDs.Multistrike",
               "count": 2
             }
           ],
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnAttacking",
-              "descriptionKey": "CardUpgradeData_descriptionKey-f4baf231bfaeda9e-87d5d296b0a960340a0eaad75570036b-v2",
+              "description": "Gain [effect0.power][corrupt].",
               "effects": [
                 {
+                  "additionalTooltips": [
+                    {
+                      "title": "Charged Echoes",
+                      "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
+                    }
+                  ],
                   "effectStateName": "CardEffectAdjustCorruption",
                   "targetMode": "TargetMode.Room",
                   "targetTeamType": "Team.Type.None",
                   "paramInt": 1,
-                  "paramBool": true,
-                  "additionalTooltips": [
-                    {
-                      "titleKey": "HudTooltip_RoomCorruption_Title",
-                      "descriptionKey": "HudTooltip_RoomCorruption_Body",
-                      "statusId": "",
-                      "title": "Charged Echoes",
-                      "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
-                    }
-                  ]
+                  "paramBool": true
                 }
               ],
-              "description": "Gain [effect0.power][corrupt]."
+              "trigger": "CharacterTriggerData.Trigger.OnAttacking"
             }
           ],
-          "upgradeTitle": "The Infector III"
+          "bonusDamage": 20,
+          "bonusHP": 100
         }
       ]
     }

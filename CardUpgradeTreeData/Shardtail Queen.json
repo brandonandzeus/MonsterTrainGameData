@@ -3,220 +3,193 @@
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-0e729b8020661b72-a2b67eaa55ad6dc48b547ad6a41e5f6e-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 10,
-          "bonusHP": 5,
+          "upgradeTitle": "Imp Parade",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.PostCombat",
-              "descriptionKey": "CardUpgradeData_descriptionKey-e1fe60f38590308a-a2b67eaa55ad6dc48b547ad6a41e5f6e-v2",
+              "description": "Add a <b>Queen's Impling</b> to your hand.",
               "effects": [
                 {
-                  "effectStateName": "CardEffectAddBattleCard",
-                  "targetMode": "TargetMode.Room",
-                  "targetTeamType": "Team.Type.None",
-                  "paramInt": 3,
-                  "additionalParamInt": 1,
                   "paramCardPool": {
                     "name": "ImpStarterOnlyPool",
                     "cardDataList": [
                       "StarterImp"
                     ]
-                  }
+                  },
+                  "effectStateName": "CardEffectAddBattleCard",
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.None",
+                  "paramInt": 3,
+                  "additionalParamInt": 1
                 }
               ],
-              "description": "Add a <b>Queen's Impling</b> to your hand."
+              "trigger": "CharacterTriggerData.Trigger.PostCombat"
             }
           ],
           "roomModifierUpgrades": [
             {
+              "description": "Imp units cost -1[ember] on this floor.",
               "roomStateModifierClassName": "RoomStateUnitCostModifier",
-              "descriptionKey": "CardUpgradeData_descriptionKey-bdaec4e912a39c85-a2b67eaa55ad6dc48b547ad6a41e5f6e-v2",
               "paramInt": -1,
-              "paramSubtype": "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c",
-              "description": "Imp units cost -1[ember] on this floor."
+              "paramSubtype": "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
             }
           ],
-          "upgradeTitle": "Imp Parade"
+          "bonusDamage": 10,
+          "bonusHP": 5
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-cf5128a44ce7a185-385cb1e1aa034304ab3bffbe7e5ef8b6-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "upgradeTitle": "Imp Parade II",
+          "triggerUpgrades": [
+            {
+              "description": "Add a <b>Fledgling Imp</b> to your hand.",
+              "effects": [
+                {
+                  "paramCardPool": {
+                    "name": "FledglingImpOnlyPool",
+                    "cardDataList": [
+                      "AggressiveImp"
+                    ]
+                  },
+                  "effectStateName": "CardEffectAddBattleCard",
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.None",
+                  "paramInt": 3,
+                  "additionalParamInt": 1
+                }
+              ],
+              "trigger": "CharacterTriggerData.Trigger.PostCombat"
+            }
+          ],
+          "roomModifierUpgrades": [
+            {
+              "description": "Imp units cost -1[ember] on this floor.",
+              "roomStateModifierClassName": "RoomStateUnitCostModifier",
+              "paramInt": -1,
+              "paramSubtype": "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
+            }
+          ],
           "bonusDamage": 30,
-          "bonusHP": 10,
-          "triggerUpgrades": [
-            {
-              "trigger": "CharacterTriggerData.Trigger.PostCombat",
-              "descriptionKey": "CardUpgradeData_descriptionKey-793acfe81ee6caa5-385cb1e1aa034304ab3bffbe7e5ef8b6-v2",
-              "effects": [
-                {
-                  "effectStateName": "CardEffectAddBattleCard",
-                  "targetMode": "TargetMode.Room",
-                  "targetTeamType": "Team.Type.None",
-                  "paramInt": 3,
-                  "additionalParamInt": 1,
-                  "paramCardPool": {
-                    "name": "FledglingImpOnlyPool",
-                    "cardDataList": [
-                      "AggressiveImp"
-                    ]
-                  }
-                }
-              ],
-              "description": "Add a <b>Fledgling Imp</b> to your hand."
-            }
-          ],
-          "roomModifierUpgrades": [
-            {
-              "roomStateModifierClassName": "RoomStateUnitCostModifier",
-              "descriptionKey": "CardUpgradeData_descriptionKey-39971b651bf2a28b-385cb1e1aa034304ab3bffbe7e5ef8b6-v2",
-              "paramInt": -1,
-              "paramSubtype": "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c",
-              "description": "Imp units cost -1[ember] on this floor."
-            }
-          ],
-          "upgradeTitle": "Imp Parade II"
+          "bonusHP": 10
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-6857132a1f6ce6c7-65b6971c36890a1408eae59d1c2289a4-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 70,
-          "bonusHP": 15,
+          "upgradeTitle": "Imp Parade III",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.PostCombat",
-              "descriptionKey": "CardUpgradeData_descriptionKey-74cad8a598e682b4-65b6971c36890a1408eae59d1c2289a4-v2",
+              "description": "Add a <b>Fledgling Imp</b> and a <b>Welder Helper</b> to your hand.",
               "effects": [
                 {
-                  "effectStateName": "CardEffectAddBattleCard",
-                  "targetMode": "TargetMode.Room",
-                  "targetTeamType": "Team.Type.None",
-                  "paramInt": 3,
-                  "additionalParamInt": 1,
                   "paramCardPool": {
                     "name": "FledglingImpOnlyPool",
                     "cardDataList": [
                       "AggressiveImp"
                     ]
-                  }
+                  },
+                  "effectStateName": "CardEffectAddBattleCard",
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.None",
+                  "paramInt": 3,
+                  "additionalParamInt": 1
                 },
                 {
-                  "effectStateName": "CardEffectAddBattleCard",
-                  "targetMode": "TargetMode.Room",
-                  "targetTeamType": "Team.Type.None",
-                  "paramInt": 3,
-                  "additionalParamInt": 1,
                   "paramCardPool": {
                     "name": "WelderHelperOnlyPool",
                     "cardDataList": [
                       "WelderHelper"
                     ]
-                  }
+                  },
+                  "effectStateName": "CardEffectAddBattleCard",
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.None",
+                  "paramInt": 3,
+                  "additionalParamInt": 1
                 }
               ],
-              "description": "Add a <b>Fledgling Imp</b> and a <b>Welder Helper</b> to your hand."
+              "trigger": "CharacterTriggerData.Trigger.PostCombat"
             }
           ],
           "roomModifierUpgrades": [
             {
+              "description": "Imp units cost -1[ember] on this floor.",
               "roomStateModifierClassName": "RoomStateUnitCostModifier",
-              "descriptionKey": "CardUpgradeData_descriptionKey-80b7748421c566c6-65b6971c36890a1408eae59d1c2289a4-v2",
               "paramInt": -1,
-              "paramSubtype": "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c",
-              "description": "Imp units cost -1[ember] on this floor."
+              "paramSubtype": "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
             }
           ],
-          "upgradeTitle": "Imp Parade III"
+          "bonusDamage": 70,
+          "bonusHP": 15
         }
       ]
     },
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-9d88c3b502a5df6b-08f5b09b9f99fa54fb06e679fab33bac-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "upgradeTitle": "Royalty",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.CardMonsterPlayed",
-              "descriptionKey": "CardUpgradeData_descriptionKey-45f39cfe222bd297-08f5b09b9f99fa54fb06e679fab33bac-v2",
+              "description": "+[effect0.upgrade.bonusdamage][attack].",
               "effects": [
                 {
-                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                  "targetMode": "TargetMode.Self",
-                  "targetTeamType": "Team.Type.None",
                   "paramCardUpgradeData": {
-                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 10
-                  }
-                }
-              ],
-              "description": "+[effect0.upgrade.bonusdamage][attack]."
-            }
-          ],
-          "upgradeTitle": "Royalty"
-        },
-        {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-a2ef79c842baa265-458ffffcac57af44cb801c4c1950ccec-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusHP": 10,
-          "triggerUpgrades": [
-            {
-              "trigger": "CharacterTriggerData.Trigger.CardMonsterPlayed",
-              "descriptionKey": "CardUpgradeData_descriptionKey-a45324720af64d83-458ffffcac57af44cb801c4c1950ccec-v2",
-              "effects": [
-                {
+                  },
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
                   "targetMode": "TargetMode.Self",
-                  "targetTeamType": "Team.Type.None",
+                  "targetTeamType": "Team.Type.None"
+                }
+              ],
+              "trigger": "CharacterTriggerData.Trigger.CardMonsterPlayed"
+            }
+          ]
+        },
+        {
+          "upgradeTitle": "Royalty II",
+          "triggerUpgrades": [
+            {
+              "description": "+[effect0.upgrade.bonusdamage][attack].",
+              "effects": [
+                {
                   "paramCardUpgradeData": {
-                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 15
-                  }
-                }
-              ],
-              "description": "+[effect0.upgrade.bonusdamage][attack]."
-            }
-          ],
-          "upgradeTitle": "Royalty II"
-        },
-        {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-1304b85e5cb1a9dc-19f88c426d1679c48b24752017b8b69d-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusHP": 30,
-          "triggerUpgrades": [
-            {
-              "trigger": "CharacterTriggerData.Trigger.CardMonsterPlayed",
-              "descriptionKey": "CardUpgradeData_descriptionKey-85b281f842c9a923-19f88c426d1679c48b24752017b8b69d-v2",
-              "effects": [
-                {
+                  },
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
                   "targetMode": "TargetMode.Self",
-                  "targetTeamType": "Team.Type.None",
-                  "paramCardUpgradeData": {
-                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-                    "bonusDamage": 25
-                  }
+                  "targetTeamType": "Team.Type.None"
                 }
               ],
-              "description": "+[effect0.upgrade.bonusdamage][attack]."
+              "trigger": "CharacterTriggerData.Trigger.CardMonsterPlayed"
             }
           ],
-          "upgradeTitle": "Royalty III"
+          "bonusHP": 10
+        },
+        {
+          "upgradeTitle": "Royalty III",
+          "triggerUpgrades": [
+            {
+              "description": "+[effect0.upgrade.bonusdamage][attack].",
+              "effects": [
+                {
+                  "paramCardUpgradeData": {
+                    "bonusDamage": 25
+                  },
+                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                  "targetMode": "TargetMode.Self",
+                  "targetTeamType": "Team.Type.None"
+                }
+              ],
+              "trigger": "CharacterTriggerData.Trigger.CardMonsterPlayed"
+            }
+          ],
+          "bonusHP": 30
         }
       ]
     },
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-220001a2167396b3-eebce72c1be555e43bb42575f4882ead-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusHP": 10,
+          "upgradeTitle": "Imperialist",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnTurnBegin",
-              "descriptionKey": "CardUpgradeData_descriptionKey-73505a1f836f9d47-eebce72c1be555e43bb42575f4882ead-v2",
-              "additionalTextOnTriggerKey": "CardUpgradeData_additionalTextOnTriggerKey-2d1a3fed33ca5747-eebce72c1be555e43bb42575f4882ead-v2",
+              "description": "Kill all [imp] units. Deal [effect0.power] damage per [imp] to enemy units.",
+              "additionalTextOnTrigger": "Imp Toss!",
               "effects": [
                 {
                   "effectStateName": "CardEffectDamageByUnitsKilled",
@@ -226,22 +199,17 @@
                   "paramStr": "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
                 }
               ],
-              "description": "Kill all [imp] units. Deal [effect0.power] damage per [imp] to enemy units.",
-              "additionalTextOnTrigger": "Imp Toss!"
+              "trigger": "CharacterTriggerData.Trigger.OnTurnBegin"
             }
           ],
-          "upgradeTitle": "Imperialist"
+          "bonusHP": 10
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-9e07273696a63ebd-247c9999a0f1af1499ff94df86a30dc0-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 10,
-          "bonusHP": 30,
+          "upgradeTitle": "Imperialist II",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnTurnBegin",
-              "descriptionKey": "CardUpgradeData_descriptionKey-405195f55ad60099-247c9999a0f1af1499ff94df86a30dc0-v2",
-              "additionalTextOnTriggerKey": "CardUpgradeData_additionalTextOnTriggerKey-6efe0c3843373f2f-247c9999a0f1af1499ff94df86a30dc0-v2",
+              "description": "Kill all [imp] units. Deal [effect0.power] damage per [imp] to enemy units.",
+              "additionalTextOnTrigger": "Imp Toss!",
               "effects": [
                 {
                   "effectStateName": "CardEffectDamageByUnitsKilled",
@@ -251,22 +219,18 @@
                   "paramStr": "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
                 }
               ],
-              "description": "Kill all [imp] units. Deal [effect0.power] damage per [imp] to enemy units.",
-              "additionalTextOnTrigger": "Imp Toss!"
+              "trigger": "CharacterTriggerData.Trigger.OnTurnBegin"
             }
           ],
-          "upgradeTitle": "Imperialist II"
+          "bonusDamage": 10,
+          "bonusHP": 30
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-d816ab527f920ab2-d199085d052b9e94aa9f43e0f10feec0-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 40,
-          "bonusHP": 70,
+          "upgradeTitle": "Imperialist III",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnTurnBegin",
-              "descriptionKey": "CardUpgradeData_descriptionKey-3fa13211c08ed5b0-d199085d052b9e94aa9f43e0f10feec0-v2",
-              "additionalTextOnTriggerKey": "CardUpgradeData_additionalTextOnTriggerKey-e0ab6822f7406483-d199085d052b9e94aa9f43e0f10feec0-v2",
+              "description": "Kill all [imp] units. Deal [effect0.power] damage per [imp] to enemy units.",
+              "additionalTextOnTrigger": "Imp Toss!",
               "effects": [
                 {
                   "effectStateName": "CardEffectDamageByUnitsKilled",
@@ -276,11 +240,11 @@
                   "paramStr": "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
                 }
               ],
-              "description": "Kill all [imp] units. Deal [effect0.power] damage per [imp] to enemy units.",
-              "additionalTextOnTrigger": "Imp Toss!"
+              "trigger": "CharacterTriggerData.Trigger.OnTurnBegin"
             }
           ],
-          "upgradeTitle": "Imperialist III"
+          "bonusDamage": 40,
+          "bonusHP": 70
         }
       ]
     }

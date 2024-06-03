@@ -3,233 +3,207 @@
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-1c7abb0fc1ffde98-26f579df43ea085449824346c52710a2-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "upgradeTitle": "Fire Light",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnDeath",
-              "descriptionKey": "CardUpgradeData_descriptionKey-96847f9a3ae0602d-26f579df43ea085449824346c52710a2-v2",
+              "description": "Apply +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], and [burnout] [effect1.status0.power] to friendly units.",
               "effects": [
                 {
-                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                  "targetMode": "TargetMode.Room",
-                  "targetTeamType": "Team.Type.Monsters",
                   "paramCardUpgradeData": {
-                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 5,
                     "bonusHP": 5
-                  }
-                },
-                {
-                  "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": "TargetMode.Room",
-                  "targetTeamType": "Team.Type.Monsters",
-                  "paramStatusEffects": [
-                    {
-                      "statusId": "ephemeral",
-                      "count": 2
-                    }
-                  ]
-                }
-              ],
-              "description": "Apply +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], and [burnout] [effect1.status0.power] to friendly units."
-            }
-          ],
-          "upgradeTitle": "Fire Light"
-        },
-        {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-e979ef6547e42a4f-f360357a75905fd4f9c62a84eb0b681d-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "triggerUpgrades": [
-            {
-              "trigger": "CharacterTriggerData.Trigger.OnDeath",
-              "descriptionKey": "CardUpgradeData_descriptionKey-4e259f0b8308b3d2-f360357a75905fd4f9c62a84eb0b681d-v2",
-              "effects": [
-                {
+                  },
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
                   "targetMode": "TargetMode.Room",
-                  "targetTeamType": "Team.Type.Monsters",
+                  "targetTeamType": "Team.Type.Monsters"
+                },
+                {
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "VanillaStatusEffectIDs.Burnout",
+                      "count": 2
+                    }
+                  ],
+                  "effectStateName": "CardEffectAddStatusEffect",
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.Monsters"
+                }
+              ],
+              "trigger": "CharacterTriggerData.Trigger.OnDeath"
+            }
+          ]
+        },
+        {
+          "upgradeTitle": "Fire Light II",
+          "triggerUpgrades": [
+            {
+              "description": "Apply +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], and [burnout] [effect1.status0.power] to friendly units.",
+              "effects": [
+                {
                   "paramCardUpgradeData": {
-                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 12,
                     "bonusHP": 5
-                  }
-                },
-                {
-                  "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": "TargetMode.Room",
-                  "targetTeamType": "Team.Type.Monsters",
-                  "paramStatusEffects": [
-                    {
-                      "statusId": "ephemeral",
-                      "count": 2
-                    }
-                  ]
-                }
-              ],
-              "description": "Apply +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], and [burnout] [effect1.status0.power] to friendly units."
-            }
-          ],
-          "upgradeTitle": "Fire Light II"
-        },
-        {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-2cce362da375ad2e-6cd3cf097ab0a1f4aa48b2a357aa7e82-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "triggerUpgrades": [
-            {
-              "trigger": "CharacterTriggerData.Trigger.OnDeath",
-              "descriptionKey": "CardUpgradeData_descriptionKey-1db9498e2b8d46f8-6cd3cf097ab0a1f4aa48b2a357aa7e82-v2",
-              "effects": [
-                {
+                  },
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
                   "targetMode": "TargetMode.Room",
-                  "targetTeamType": "Team.Type.Monsters",
+                  "targetTeamType": "Team.Type.Monsters"
+                },
+                {
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "VanillaStatusEffectIDs.Burnout",
+                      "count": 2
+                    }
+                  ],
+                  "effectStateName": "CardEffectAddStatusEffect",
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.Monsters"
+                }
+              ],
+              "trigger": "CharacterTriggerData.Trigger.OnDeath"
+            }
+          ]
+        },
+        {
+          "upgradeTitle": "Fire Light III",
+          "triggerUpgrades": [
+            {
+              "description": "Apply +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], and [burnout] [effect1.status0.power] to friendly units.",
+              "effects": [
+                {
                   "paramCardUpgradeData": {
-                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 20,
                     "bonusHP": 5
-                  }
+                  },
+                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.Monsters"
                 },
                 {
-                  "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": "TargetMode.Room",
-                  "targetTeamType": "Team.Type.Monsters",
                   "paramStatusEffects": [
                     {
-                      "statusId": "ephemeral",
+                      "statusId": "VanillaStatusEffectIDs.Burnout",
                       "count": 2
                     }
-                  ]
+                  ],
+                  "effectStateName": "CardEffectAddStatusEffect",
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.Monsters"
                 }
               ],
-              "description": "Apply +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], and [burnout] [effect1.status0.power] to friendly units."
+              "trigger": "CharacterTriggerData.Trigger.OnDeath"
             }
-          ],
-          "upgradeTitle": "Fire Light III"
+          ]
         }
       ]
     },
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-53c879d39353e981-b52eb336ddc4d1145a818992406e7905-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "upgradeTitle": "Eternal Flame",
           "statusEffectUpgrades": [
             {
-              "statusId": "ambush",
+              "statusId": "VanillaStatusEffectIDs.Quick",
               "count": 1
             },
             {
-              "statusId": "endless",
+              "statusId": "VanillaStatusEffectIDs.Endless",
               "count": 1
             }
           ],
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnDeath",
-              "descriptionKey": "CardUpgradeData_descriptionKey-f79fc3fc914798eb-b52eb336ddc4d1145a818992406e7905-v2",
+              "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
               "effects": [
                 {
-                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                  "targetMode": "TargetMode.Self",
-                  "targetTeamType": "Team.Type.None",
                   "paramCardUpgradeData": {
-                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 15,
                     "bonusHP": 1
-                  }
+                  },
+                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                  "targetMode": "TargetMode.Self",
+                  "targetTeamType": "Team.Type.None"
                 }
               ],
-              "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health]."
+              "trigger": "CharacterTriggerData.Trigger.OnDeath"
             }
-          ],
-          "upgradeTitle": "Eternal Flame"
+          ]
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-71917eec9737443c-eadf5de8162de574bb3d1a2a0a339dac-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "upgradeTitle": "Eternal Flame II",
           "statusEffectUpgrades": [
             {
-              "statusId": "ambush",
+              "statusId": "VanillaStatusEffectIDs.Quick",
               "count": 1
             },
             {
-              "statusId": "endless",
+              "statusId": "VanillaStatusEffectIDs.Endless",
               "count": 1
             }
           ],
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnDeath",
-              "descriptionKey": "CardUpgradeData_descriptionKey-aa557d5a09c7e073-eadf5de8162de574bb3d1a2a0a339dac-v2",
+              "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
               "effects": [
                 {
-                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                  "targetMode": "TargetMode.Self",
-                  "targetTeamType": "Team.Type.None",
                   "paramCardUpgradeData": {
-                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 30,
                     "bonusHP": 2
-                  }
+                  },
+                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                  "targetMode": "TargetMode.Self",
+                  "targetTeamType": "Team.Type.None"
                 }
               ],
-              "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health]."
+              "trigger": "CharacterTriggerData.Trigger.OnDeath"
             }
-          ],
-          "upgradeTitle": "Eternal Flame II"
+          ]
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-5eba73c6a63f7823-4ad9e667ee0b141429e51d03df861627-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "upgradeTitle": "Eternal Flame III",
           "statusEffectUpgrades": [
             {
-              "statusId": "ambush",
+              "statusId": "VanillaStatusEffectIDs.Quick",
               "count": 1
             },
             {
-              "statusId": "endless",
+              "statusId": "VanillaStatusEffectIDs.Endless",
               "count": 1
             }
           ],
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnDeath",
-              "descriptionKey": "CardUpgradeData_descriptionKey-dd9dbe2b2bfbfc5e-4ad9e667ee0b141429e51d03df861627-v2",
+              "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
               "effects": [
                 {
-                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                  "targetMode": "TargetMode.Self",
-                  "targetTeamType": "Team.Type.None",
                   "paramCardUpgradeData": {
-                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 60,
                     "bonusHP": 3
-                  }
+                  },
+                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                  "targetMode": "TargetMode.Self",
+                  "targetTeamType": "Team.Type.None"
                 }
               ],
-              "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health]."
+              "trigger": "CharacterTriggerData.Trigger.OnDeath"
             }
-          ],
-          "upgradeTitle": "Eternal Flame III"
+          ]
         }
       ]
     },
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-5eedbce483c48656-6cd5c7d48e3c2c34a8e498057d3d8f1a-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "upgradeTitle": "Little Icarus",
           "statusEffectUpgrades": [
             {
-              "statusId": "spikes",
+              "statusId": "VanillaStatusEffectIDs.Spikes",
               "count": 1
             }
           ],
           "cardTriggerUpgrades": [
             {
-              "trigger": "CardTriggerType.OnKill",
-              "descriptionKey": "CardUpgradeData_descriptionKey-6480a17812fa7e57-6cd5c7d48e3c2c34a8e498057d3d8f1a-v2",
+              "description": "Gain +2[attack] and [spikes] 2 permanently.",
               "cardTriggerEffects": [
                 {
                   "persistenceMode": "PersistenceMode.SingleRun",
@@ -237,24 +211,21 @@
                   "buffEffectType": "None"
                 }
               ],
-              "description": "Gain +2[attack] and [spikes] 2 permanently."
+              "trigger": "CardTriggerType.OnKill"
             }
-          ],
-          "upgradeTitle": "Little Icarus"
+          ]
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-9de51114cc70cf31-3ba1169ad3347674ebcb9424f633434b-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "upgradeTitle": "Little Icarus II",
           "statusEffectUpgrades": [
             {
-              "statusId": "spikes",
+              "statusId": "VanillaStatusEffectIDs.Spikes",
               "count": 1
             }
           ],
           "cardTriggerUpgrades": [
             {
-              "trigger": "CardTriggerType.OnKill",
-              "descriptionKey": "CardUpgradeData_descriptionKey-609694dda5ee0180-3ba1169ad3347674ebcb9424f633434b-v2",
+              "description": "Gain +3[attack] and [spikes] 3 permanently.",
               "cardTriggerEffects": [
                 {
                   "persistenceMode": "PersistenceMode.SingleRun",
@@ -262,27 +233,24 @@
                   "buffEffectType": "None"
                 }
               ],
-              "description": "Gain +3[attack] and [spikes] 3 permanently."
+              "trigger": "CardTriggerType.OnKill"
             }
           ],
           "upgradesToRemove": [
             "LittleFadePermanentSpikes"
-          ],
-          "upgradeTitle": "Little Icarus II"
+          ]
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-7592f464801aee55-46d9c55368f740b4e98d3d67d43f00c4-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "upgradeTitle": "Little Icarus III",
           "statusEffectUpgrades": [
             {
-              "statusId": "spikes",
+              "statusId": "VanillaStatusEffectIDs.Spikes",
               "count": 1
             }
           ],
           "cardTriggerUpgrades": [
             {
-              "trigger": "CardTriggerType.OnKill",
-              "descriptionKey": "CardUpgradeData_descriptionKey-ddd5daf8c13e75a6-46d9c55368f740b4e98d3d67d43f00c4-v2",
+              "description": "Gain +4[attack] and [spikes] 4 permanently.",
               "cardTriggerEffects": [
                 {
                   "persistenceMode": "PersistenceMode.SingleRun",
@@ -290,14 +258,13 @@
                   "buffEffectType": "None"
                 }
               ],
-              "description": "Gain +4[attack] and [spikes] 4 permanently."
+              "trigger": "CardTriggerType.OnKill"
             }
           ],
           "upgradesToRemove": [
             "LittleFadePermanentSpikes",
             "LittleFadePermanentSpikes2"
-          ],
-          "upgradeTitle": "Little Icarus III"
+          ]
         }
       ]
     }

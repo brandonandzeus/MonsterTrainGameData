@@ -3,342 +3,315 @@
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-2bdbf2d767685512-8bebcee6808501942be7aecefad8a64f-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusHP": 5,
+          "upgradeTitle": "Direchannel",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnTurnBegin",
-              "descriptionKey": "CardUpgradeData_descriptionKey-3fe2e7f4c1938fcf-8bebcee6808501942be7aecefad8a64f-v2",
+              "description": "Deal [effect0.power] damage per [stygianblessing] to the front enemy unit.",
               "effects": [
                 {
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "VanillaStatusEffectIDs.Shard",
+                      "count": 1
+                    }
+                  ],
                   "effectStateName": "CardEffectDamage",
                   "targetMode": "TargetMode.FrontInRoom",
                   "targetTeamType": "Team.Type.Heroes",
                   "paramInt": 3,
                   "useStatusEffectStackMultiplier": true,
-                  "statusEffectStackMultiplier": "stygian_blessing",
-                  "paramStatusEffects": [
-                    {
-                      "statusId": "stygian_blessing",
-                      "count": 1
-                    }
-                  ]
+                  "statusEffectStackMultiplier": "VanillaStatusEffectIDs.Shard"
                 }
               ],
-              "description": "Deal [effect0.power] damage per [stygianblessing] to the front enemy unit."
+              "trigger": "CharacterTriggerData.Trigger.OnTurnBegin"
             }
           ],
-          "upgradeTitle": "Direchannel"
+          "bonusHP": 5
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-66949caed141aa38-8a36c73452f8f9a41bef752fe8054e09-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusHP": 15,
+          "upgradeTitle": "Direchannel II",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnTurnBegin",
-              "descriptionKey": "CardUpgradeData_descriptionKey-a1e133a926a3bfd2-8a36c73452f8f9a41bef752fe8054e09-v2",
+              "description": "Deal [effect0.power] damage per [stygianblessing] to the front enemy unit.",
               "effects": [
                 {
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "VanillaStatusEffectIDs.Shard",
+                      "count": 1
+                    }
+                  ],
                   "effectStateName": "CardEffectDamage",
                   "targetMode": "TargetMode.FrontInRoom",
                   "targetTeamType": "Team.Type.Heroes",
                   "paramInt": 5,
                   "useStatusEffectStackMultiplier": true,
-                  "statusEffectStackMultiplier": "stygian_blessing",
-                  "paramStatusEffects": [
-                    {
-                      "statusId": "stygian_blessing",
-                      "count": 1
-                    }
-                  ]
+                  "statusEffectStackMultiplier": "VanillaStatusEffectIDs.Shard"
                 }
               ],
-              "description": "Deal [effect0.power] damage per [stygianblessing] to the front enemy unit."
+              "trigger": "CharacterTriggerData.Trigger.OnTurnBegin"
             }
           ],
-          "upgradeTitle": "Direchannel II"
+          "bonusHP": 15
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-f627df795e166ea2-796929d3360b94145beb11c3d6c3d9cc-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusHP": 35,
+          "upgradeTitle": "Direchannel III",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnTurnBegin",
-              "descriptionKey": "CardUpgradeData_descriptionKey-2fa947763d06b932-796929d3360b94145beb11c3d6c3d9cc-v2",
+              "description": "Deal [effect0.power] damage per [stygianblessing] to the front enemy unit.",
               "effects": [
                 {
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "VanillaStatusEffectIDs.Shard",
+                      "count": 1
+                    }
+                  ],
                   "effectStateName": "CardEffectDamage",
                   "targetMode": "TargetMode.FrontInRoom",
                   "targetTeamType": "Team.Type.Heroes",
                   "paramInt": 7,
                   "useStatusEffectStackMultiplier": true,
-                  "statusEffectStackMultiplier": "stygian_blessing",
-                  "paramStatusEffects": [
-                    {
-                      "statusId": "stygian_blessing",
-                      "count": 1
-                    }
-                  ]
+                  "statusEffectStackMultiplier": "VanillaStatusEffectIDs.Shard"
                 }
               ],
-              "description": "Deal [effect0.power] damage per [stygianblessing] to the front enemy unit."
+              "trigger": "CharacterTriggerData.Trigger.OnTurnBegin"
             }
           ],
-          "upgradeTitle": "Direchannel III"
+          "bonusHP": 35
         }
       ]
     },
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-9d85858b14cf537a-dfc9dcef422731846962581b199bb1d3-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusHP": 10,
+          "upgradeTitle": "Coldchannel",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnHit",
-              "descriptionKey": "CardUpgradeData_descriptionKey-1e2dbf69b96093cd-dfc9dcef422731846962581b199bb1d3-v2",
+              "description": "Apply [frostbite] [effect0.status0.power_noadders] per [stygianblessing] to enemy units.",
               "effects": [
                 {
-                  "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": "TargetMode.Room",
-                  "targetTeamType": "Team.Type.Heroes",
-                  "paramInt": 100,
-                  "useStatusEffectStackMultiplier": true,
-                  "statusEffectStackMultiplier": "stygian_blessing",
                   "paramStatusEffects": [
                     {
-                      "statusId": "poison",
+                      "statusId": "VanillaStatusEffectIDs.Frostbite",
                       "count": 1
                     }
-                  ]
-                }
-              ],
-              "description": "Apply [frostbite] [effect0.status0.power_noadders] per [stygianblessing] to enemy units."
-            }
-          ],
-          "upgradeTitle": "Coldchannel"
-        },
-        {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-1dd5dd2c13dbe77c-4851e09e04a2a06409e638a6c6c928ad-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusHP": 45,
-          "triggerUpgrades": [
-            {
-              "trigger": "CharacterTriggerData.Trigger.OnHit",
-              "descriptionKey": "CardUpgradeData_descriptionKey-9db6754a02ae26ef-4851e09e04a2a06409e638a6c6c928ad-v2",
-              "effects": [
-                {
+                  ],
                   "effectStateName": "CardEffectAddStatusEffect",
                   "targetMode": "TargetMode.Room",
                   "targetTeamType": "Team.Type.Heroes",
                   "paramInt": 100,
                   "useStatusEffectStackMultiplier": true,
-                  "statusEffectStackMultiplier": "stygian_blessing",
+                  "statusEffectStackMultiplier": "VanillaStatusEffectIDs.Shard"
+                }
+              ],
+              "trigger": "CharacterTriggerData.Trigger.OnHit"
+            }
+          ],
+          "bonusHP": 10
+        },
+        {
+          "upgradeTitle": "Coldchannel II",
+          "triggerUpgrades": [
+            {
+              "description": "Apply [frostbite] [effect0.status0.power_noadders] per [stygianblessing] to enemy units.",
+              "effects": [
+                {
                   "paramStatusEffects": [
                     {
-                      "statusId": "poison",
+                      "statusId": "VanillaStatusEffectIDs.Frostbite",
                       "count": 1
                     }
-                  ]
-                }
-              ],
-              "description": "Apply [frostbite] [effect0.status0.power_noadders] per [stygianblessing] to enemy units."
-            }
-          ],
-          "upgradeTitle": "Coldchannel II"
-        },
-        {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-b810c2d65e2c4068-ebe5078573f511e4ea851c7ebecbdc9c-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusHP": 65,
-          "triggerUpgrades": [
-            {
-              "trigger": "CharacterTriggerData.Trigger.OnHit",
-              "descriptionKey": "CardUpgradeData_descriptionKey-c8804f093439b1e3-ebe5078573f511e4ea851c7ebecbdc9c-v2",
-              "effects": [
-                {
+                  ],
                   "effectStateName": "CardEffectAddStatusEffect",
                   "targetMode": "TargetMode.Room",
                   "targetTeamType": "Team.Type.Heroes",
                   "paramInt": 100,
                   "useStatusEffectStackMultiplier": true,
-                  "statusEffectStackMultiplier": "stygian_blessing",
+                  "statusEffectStackMultiplier": "VanillaStatusEffectIDs.Shard"
+                }
+              ],
+              "trigger": "CharacterTriggerData.Trigger.OnHit"
+            }
+          ],
+          "bonusHP": 45
+        },
+        {
+          "upgradeTitle": "Coldchannel III",
+          "triggerUpgrades": [
+            {
+              "description": "Apply [frostbite] [effect0.status0.power_noadders] per [stygianblessing] to enemy units.",
+              "effects": [
+                {
                   "paramStatusEffects": [
                     {
-                      "statusId": "poison",
+                      "statusId": "VanillaStatusEffectIDs.Frostbite",
                       "count": 2
                     }
-                  ]
+                  ],
+                  "effectStateName": "CardEffectAddStatusEffect",
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.Heroes",
+                  "paramInt": 100,
+                  "useStatusEffectStackMultiplier": true,
+                  "statusEffectStackMultiplier": "VanillaStatusEffectIDs.Shard"
                 }
               ],
-              "description": "Apply [frostbite] [effect0.status0.power_noadders] per [stygianblessing] to enemy units."
+              "trigger": "CharacterTriggerData.Trigger.OnHit"
             }
           ],
-          "upgradeTitle": "Coldchannel III"
+          "bonusHP": 65
         }
       ]
     },
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-d1182d741362c8d7-436482802b69f19438a2042d9d2c9ddd-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 45,
-          "bonusHP": 40,
+          "upgradeTitle": "Titanchannel",
           "statusEffectUpgrades": [
             {
-              "statusId": "untouchable",
+              "statusId": "VanillaStatusEffectIDs.Phased",
               "count": 1
             }
           ],
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed",
-              "descriptionKey": "CardUpgradeData_descriptionKey-6a202cc31985acf6-436482802b69f19438a2042d9d2c9ddd-v2",
+              "description": "Gain <nobr>[stygianblessing] [effect0.status0.power].</nobr> If <b>Solgard</b> has [effect1.status0.power_unmodified] stacks of [stygianblessing], remove [stasis].",
               "effects": [
                 {
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "VanillaStatusEffectIDs.Shard",
+                      "count": 1
+                    }
+                  ],
                   "effectStateName": "CardEffectAddStatusEffect",
                   "targetMode": "TargetMode.Self",
                   "targetTeamType": "Team.Type.Monsters",
-                  "paramInt": 100,
-                  "paramStatusEffects": [
-                    {
-                      "statusId": "stygian_blessing",
-                      "count": 1
-                    }
-                  ]
+                  "paramInt": 100
                 },
                 {
-                  "effectStateName": "CardEffectRemoveStatusEffectOnStatusThreshold",
-                  "targetMode": "TargetMode.Self",
-                  "targetTeamType": "Team.Type.Monsters",
                   "paramStatusEffects": [
                     {
-                      "statusId": "stygian_blessing",
+                      "statusId": "VanillaStatusEffectIDs.Shard",
                       "count": 4
                     },
                     {
-                      "statusId": "untouchable",
+                      "statusId": "VanillaStatusEffectIDs.Phased",
                       "count": 1
                     }
-                  ]
+                  ],
+                  "effectStateName": "CardEffectRemoveStatusEffectOnStatusThreshold",
+                  "targetMode": "TargetMode.Self",
+                  "targetTeamType": "Team.Type.Monsters"
                 }
               ],
-              "description": "Gain <nobr>[stygianblessing] [effect0.status0.power].</nobr> If <b>Solgard</b> has [effect1.status0.power_unmodified] stacks of [stygianblessing], remove [stasis]."
+              "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
             }
           ],
+          "bonusDamage": 45,
+          "bonusHP": 40,
           "upgradesToRemove": [
             "MartyrChampionBaseline"
-          ],
-          "upgradeTitle": "Titanchannel"
+          ]
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-ec2d599ca7e1ce70-928f433ee4bf6774ba4ba07396396254-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 90,
-          "bonusHP": 85,
+          "upgradeTitle": "Titanchannel II",
           "statusEffectUpgrades": [
             {
-              "statusId": "untouchable",
+              "statusId": "VanillaStatusEffectIDs.Phased",
               "count": 1
             }
           ],
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed",
-              "descriptionKey": "CardUpgradeData_descriptionKey-f5b1143916787dbf-928f433ee4bf6774ba4ba07396396254-v2",
+              "description": "Gain <nobr>[stygianblessing] [effect0.status0.power].</nobr> If <b>Solgard</b> has [effect1.status0.power_unmodified] stacks of [stygianblessing], remove [stasis].",
               "effects": [
                 {
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "VanillaStatusEffectIDs.Shard",
+                      "count": 1
+                    }
+                  ],
                   "effectStateName": "CardEffectAddStatusEffect",
                   "targetMode": "TargetMode.Self",
                   "targetTeamType": "Team.Type.Monsters",
-                  "paramInt": 100,
-                  "paramStatusEffects": [
-                    {
-                      "statusId": "stygian_blessing",
-                      "count": 1
-                    }
-                  ]
+                  "paramInt": 100
                 },
                 {
-                  "effectStateName": "CardEffectRemoveStatusEffectOnStatusThreshold",
-                  "targetMode": "TargetMode.Self",
-                  "targetTeamType": "Team.Type.Monsters",
                   "paramStatusEffects": [
                     {
-                      "statusId": "stygian_blessing",
+                      "statusId": "VanillaStatusEffectIDs.Shard",
                       "count": 10
                     },
                     {
-                      "statusId": "untouchable",
+                      "statusId": "VanillaStatusEffectIDs.Phased",
                       "count": 1
                     }
-                  ]
+                  ],
+                  "effectStateName": "CardEffectRemoveStatusEffectOnStatusThreshold",
+                  "targetMode": "TargetMode.Self",
+                  "targetTeamType": "Team.Type.Monsters"
                 }
               ],
-              "description": "Gain <nobr>[stygianblessing] [effect0.status0.power].</nobr> If <b>Solgard</b> has [effect1.status0.power_unmodified] stacks of [stygianblessing], remove [stasis]."
+              "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
             }
           ],
+          "bonusDamage": 90,
+          "bonusHP": 85,
           "upgradesToRemove": [
             "MartyrChampionBaseline"
-          ],
-          "upgradeTitle": "Titanchannel II"
+          ]
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-3fe4057380b9f68e-4805aaa48fcafdd4dbcf86d10397476f-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 210,
-          "bonusHP": 205,
+          "upgradeTitle": "Titanchannel III",
           "statusEffectUpgrades": [
             {
-              "statusId": "untouchable",
+              "statusId": "VanillaStatusEffectIDs.Phased",
               "count": 1
             }
           ],
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed",
-              "descriptionKey": "CardUpgradeData_descriptionKey-fd640fe2c38d938d-4805aaa48fcafdd4dbcf86d10397476f-v2",
+              "description": "Gain <nobr>[stygianblessing] [effect0.status0.power].</nobr> If <b>Solgard</b> has [effect1.status0.power_unmodified] stacks of [stygianblessing], remove [stasis].",
               "effects": [
                 {
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "VanillaStatusEffectIDs.Shard",
+                      "count": 1
+                    }
+                  ],
                   "effectStateName": "CardEffectAddStatusEffect",
                   "targetMode": "TargetMode.Self",
                   "targetTeamType": "Team.Type.Monsters",
-                  "paramInt": 100,
-                  "paramStatusEffects": [
-                    {
-                      "statusId": "stygian_blessing",
-                      "count": 1
-                    }
-                  ]
+                  "paramInt": 100
                 },
                 {
-                  "effectStateName": "CardEffectRemoveStatusEffectOnStatusThreshold",
-                  "targetMode": "TargetMode.Self",
-                  "targetTeamType": "Team.Type.Monsters",
                   "paramStatusEffects": [
                     {
-                      "statusId": "stygian_blessing",
+                      "statusId": "VanillaStatusEffectIDs.Shard",
                       "count": 15
                     },
                     {
-                      "statusId": "untouchable",
+                      "statusId": "VanillaStatusEffectIDs.Phased",
                       "count": 1
                     }
-                  ]
+                  ],
+                  "effectStateName": "CardEffectRemoveStatusEffectOnStatusThreshold",
+                  "targetMode": "TargetMode.Self",
+                  "targetTeamType": "Team.Type.Monsters"
                 }
               ],
-              "description": "Gain <nobr>[stygianblessing] [effect0.status0.power].</nobr> If <b>Solgard</b> has [effect1.status0.power_unmodified] stacks of [stygianblessing], remove [stasis]."
+              "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
             }
           ],
+          "bonusDamage": 210,
+          "bonusHP": 205,
           "upgradesToRemove": [
             "MartyrChampionBaseline"
-          ],
-          "upgradeTitle": "Titanchannel III"
+          ]
         }
       ]
     }

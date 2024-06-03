@@ -3,290 +3,242 @@
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-109685e763f641ce-c6841fc50351c324381eb6dfcb4d1354-v2",
-          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-ec5fdbae85e56433-c6841fc50351c324381eb6dfcb4d1354-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "upgradeTitle": "Brawler",
           "statusEffectUpgrades": [
             {
-              "statusId": "armor",
+              "statusId": "VanillaStatusEffectIDs.Armor",
               "count": 10
             },
             {
-              "statusId": "multistrike",
+              "statusId": "VanillaStatusEffectIDs.Multistrike",
               "count": 1
             }
-          ],
-          "upgradeTitle": "Brawler",
-          "upgradeDescription": ""
+          ]
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-b462d89da29884e5-90c2c60d1c7600f4db3922d6d78d04fd-v2",
-          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-28e1ae57daccfd49-90c2c60d1c7600f4db3922d6d78d04fd-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "upgradeTitle": "Brawler II",
           "statusEffectUpgrades": [
             {
-              "statusId": "armor",
+              "statusId": "VanillaStatusEffectIDs.Armor",
               "count": 15
             },
             {
-              "statusId": "multistrike",
+              "statusId": "VanillaStatusEffectIDs.Multistrike",
               "count": 2
             }
-          ],
-          "upgradeTitle": "Brawler II",
-          "upgradeDescription": ""
+          ]
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-e371b380ef62f5d5-0f52f0e262f094148a523d4d22719aa9-v2",
-          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-665b85b2c6f105fe-0f52f0e262f094148a523d4d22719aa9-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "upgradeTitle": "Brawler III",
           "statusEffectUpgrades": [
             {
-              "statusId": "armor",
+              "statusId": "VanillaStatusEffectIDs.Armor",
               "count": 20
             },
             {
-              "statusId": "multistrike",
+              "statusId": "VanillaStatusEffectIDs.Multistrike",
               "count": 4
             }
-          ],
-          "upgradeTitle": "Brawler III",
-          "upgradeDescription": ""
+          ]
         }
       ]
     },
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-b97ed053b0b16b7c-37421bb148eb97a49b1cbec41105f5fd-v2",
-          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-893a7b72c57c8eea-37421bb148eb97a49b1cbec41105f5fd-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 19,
+          "upgradeTitle": "Reaper",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnKill",
-              "descriptionKey": "CardUpgradeData_descriptionKey-18bf5f002f0a4c9d-37421bb148eb97a49b1cbec41105f5fd-v2",
+              "description": "+[effect0.upgrade.bonusdamage][attack].",
               "effects": [
                 {
+                  "paramCardUpgradeData": {
+                    "bonusDamage": 10
+                  },
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
                   "targetMode": "TargetMode.Self",
                   "targetTeamType": "Team.Type.None",
                   "paramInt": 15,
-                  "paramCardUpgradeData": {
-                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-                    "bonusDamage": 10
-                  },
                   "hideTooltip": true
                 }
               ],
-              "description": "+[effect0.upgrade.bonusdamage][attack]."
+              "trigger": "CharacterTriggerData.Trigger.OnKill"
             }
           ],
-          "upgradeTitle": "Reaper",
-          "upgradeDescription": ""
+          "bonusDamage": 19
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-b7234631903c0f62-6070ddee90d9e9c4fb0fd823d1ded009-v2",
-          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-808f27468e8a74b9-6070ddee90d9e9c4fb0fd823d1ded009-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 44,
-          "bonusHP": 6,
+          "upgradeTitle": "Reaper II",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnKill",
-              "descriptionKey": "CardUpgradeData_descriptionKey-fcb0445c914cc032-6070ddee90d9e9c4fb0fd823d1ded009-v2",
+              "description": "+[effect0.upgrade.bonusdamage][attack].",
               "effects": [
                 {
+                  "paramCardUpgradeData": {
+                    "bonusDamage": 20
+                  },
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
                   "targetMode": "TargetMode.Self",
                   "targetTeamType": "Team.Type.None",
                   "paramInt": 30,
-                  "paramCardUpgradeData": {
-                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-                    "bonusDamage": 20
-                  },
                   "hideTooltip": true
                 }
               ],
-              "description": "+[effect0.upgrade.bonusdamage][attack]."
+              "trigger": "CharacterTriggerData.Trigger.OnKill"
             }
           ],
-          "upgradeTitle": "Reaper II",
-          "upgradeDescription": ""
+          "bonusDamage": 44,
+          "bonusHP": 6
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-1facae836ba61285-f416304a50be42b4d9cd5cdfa25db713-v2",
-          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-33debbe332abae10-f416304a50be42b4d9cd5cdfa25db713-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 94,
-          "bonusHP": 18,
+          "upgradeTitle": "Reaper III",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnKill",
-              "descriptionKey": "CardUpgradeData_descriptionKey-1794e24bf70bcb1c-f416304a50be42b4d9cd5cdfa25db713-v2",
+              "description": "+[effect0.upgrade.bonusdamage][attack].",
               "effects": [
                 {
+                  "paramCardUpgradeData": {
+                    "bonusDamage": 40
+                  },
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
                   "targetMode": "TargetMode.Self",
                   "targetTeamType": "Team.Type.None",
                   "paramInt": 60,
-                  "paramCardUpgradeData": {
-                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-                    "bonusDamage": 40
-                  },
                   "hideTooltip": true
                 }
               ],
-              "description": "+[effect0.upgrade.bonusdamage][attack]."
+              "trigger": "CharacterTriggerData.Trigger.OnKill"
             }
           ],
-          "upgradeTitle": "Reaper III",
-          "upgradeDescription": ""
+          "bonusDamage": 94,
+          "bonusHP": 18
         }
       ]
     },
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-782982ce6dd624d7-e430fe18ee7ba0c4186917f40e98c699-v2",
-          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-f7dcd9a8f09b5a92-e430fe18ee7ba0c4186917f40e98c699-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 9,
-          "bonusHP": 9,
+          "upgradeTitle": "Wrathful",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnKill",
-              "descriptionKey": "CardUpgradeData_descriptionKey-3564a49a3fa6a129-e430fe18ee7ba0c4186917f40e98c699-v2",
+              "description": "Gain [armor] [effect0.status0.power].",
               "effects": [
                 {
-                  "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": "TargetMode.Self",
-                  "targetTeamType": "Team.Type.None",
                   "paramStatusEffects": [
                     {
-                      "statusId": "armor",
+                      "statusId": "VanillaStatusEffectIDs.Armor",
                       "count": 10
                     }
-                  ]
-                }
-              ],
-              "description": "Gain [armor] [effect0.status0.power]."
-            },
-            {
-              "trigger": "CharacterTriggerData.Trigger.OnHit",
-              "descriptionKey": "CardUpgradeData_descriptionKey-0d1d16e4d4b5dbd6-e430fe18ee7ba0c4186917f40e98c699-v2",
-              "effects": [
-                {
+                  ],
                   "effectStateName": "CardEffectAddStatusEffect",
                   "targetMode": "TargetMode.Self",
-                  "targetTeamType": "Team.Type.None",
+                  "targetTeamType": "Team.Type.None"
+                }
+              ],
+              "trigger": "CharacterTriggerData.Trigger.OnKill"
+            },
+            {
+              "description": "Gain [rage] [effect0.status0.power].",
+              "effects": [
+                {
                   "paramStatusEffects": [
                     {
-                      "statusId": "buff",
+                      "statusId": "VanillaStatusEffectIDs.Rage",
                       "count": 2
                     }
-                  ]
-                }
-              ],
-              "description": "Gain [rage] [effect0.status0.power]."
-            }
-          ],
-          "upgradeTitle": "Wrathful",
-          "upgradeDescription": ""
-        },
-        {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-6411c6104baebfb5-d347b7a66e3e6d64982e6542053878f6-v2",
-          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-b7d5f3e412cf69cb-d347b7a66e3e6d64982e6542053878f6-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 19,
-          "bonusHP": 19,
-          "triggerUpgrades": [
-            {
-              "trigger": "CharacterTriggerData.Trigger.OnKill",
-              "descriptionKey": "CardUpgradeData_descriptionKey-1c86b6f7361d7943-d347b7a66e3e6d64982e6542053878f6-v2",
-              "effects": [
-                {
+                  ],
                   "effectStateName": "CardEffectAddStatusEffect",
                   "targetMode": "TargetMode.Self",
-                  "targetTeamType": "Team.Type.None",
+                  "targetTeamType": "Team.Type.None"
+                }
+              ],
+              "trigger": "CharacterTriggerData.Trigger.OnHit"
+            }
+          ],
+          "bonusDamage": 9,
+          "bonusHP": 9
+        },
+        {
+          "upgradeTitle": "Wrathful II",
+          "triggerUpgrades": [
+            {
+              "description": "Gain [armor] [effect0.status0.power].",
+              "effects": [
+                {
                   "paramStatusEffects": [
                     {
-                      "statusId": "armor",
+                      "statusId": "VanillaStatusEffectIDs.Armor",
                       "count": 15
                     }
-                  ]
-                }
-              ],
-              "description": "Gain [armor] [effect0.status0.power]."
-            },
-            {
-              "trigger": "CharacterTriggerData.Trigger.OnHit",
-              "descriptionKey": "CardUpgradeData_descriptionKey-57e6801bfb9b0bd7-d347b7a66e3e6d64982e6542053878f6-v2",
-              "effects": [
-                {
+                  ],
                   "effectStateName": "CardEffectAddStatusEffect",
                   "targetMode": "TargetMode.Self",
-                  "targetTeamType": "Team.Type.None",
+                  "targetTeamType": "Team.Type.None"
+                }
+              ],
+              "trigger": "CharacterTriggerData.Trigger.OnKill"
+            },
+            {
+              "description": "Gain [rage] [effect0.status0.power].",
+              "effects": [
+                {
                   "paramStatusEffects": [
                     {
-                      "statusId": "buff",
+                      "statusId": "VanillaStatusEffectIDs.Rage",
                       "count": 3
                     }
-                  ]
+                  ],
+                  "effectStateName": "CardEffectAddStatusEffect",
+                  "targetMode": "TargetMode.Self",
+                  "targetTeamType": "Team.Type.None"
                 }
               ],
-              "description": "Gain [rage] [effect0.status0.power]."
+              "trigger": "CharacterTriggerData.Trigger.OnHit"
             }
           ],
-          "upgradeTitle": "Wrathful II",
-          "upgradeDescription": ""
+          "bonusDamage": 19,
+          "bonusHP": 19
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-2f02c5b1e171731f-dcf84f109fb659f4e83cdae7d7a0c00d-v2",
-          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-dd21c1cb50aafb14-dcf84f109fb659f4e83cdae7d7a0c00d-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 34,
-          "bonusHP": 34,
+          "upgradeTitle": "Wrathful III",
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnKill",
-              "descriptionKey": "CardUpgradeData_descriptionKey-436da166c10ad206-dcf84f109fb659f4e83cdae7d7a0c00d-v2",
+              "description": "Gain [armor] [effect0.status0.power].",
               "effects": [
                 {
-                  "effectStateName": "CardEffectAddStatusEffect",
-                  "targetMode": "TargetMode.Self",
-                  "targetTeamType": "Team.Type.None",
                   "paramStatusEffects": [
                     {
-                      "statusId": "armor",
+                      "statusId": "VanillaStatusEffectIDs.Armor",
                       "count": 25
                     }
-                  ]
-                }
-              ],
-              "description": "Gain [armor] [effect0.status0.power]."
-            },
-            {
-              "trigger": "CharacterTriggerData.Trigger.OnHit",
-              "descriptionKey": "CardUpgradeData_descriptionKey-147e6b98303947ae-dcf84f109fb659f4e83cdae7d7a0c00d-v2",
-              "effects": [
-                {
+                  ],
                   "effectStateName": "CardEffectAddStatusEffect",
                   "targetMode": "TargetMode.Self",
-                  "targetTeamType": "Team.Type.None",
-                  "paramStatusEffects": [
-                    {
-                      "statusId": "buff",
-                      "count": 5
-                    }
-                  ]
+                  "targetTeamType": "Team.Type.None"
                 }
               ],
-              "description": "Gain [rage] [effect0.status0.power]."
+              "trigger": "CharacterTriggerData.Trigger.OnKill"
+            },
+            {
+              "description": "Gain [rage] [effect0.status0.power].",
+              "effects": [
+                {
+                  "paramStatusEffects": [
+                    {
+                      "statusId": "VanillaStatusEffectIDs.Rage",
+                      "count": 5
+                    }
+                  ],
+                  "effectStateName": "CardEffectAddStatusEffect",
+                  "targetMode": "TargetMode.Self",
+                  "targetTeamType": "Team.Type.None"
+                }
+              ],
+              "trigger": "CharacterTriggerData.Trigger.OnHit"
             }
           ],
-          "upgradeTitle": "Wrathful III",
-          "upgradeDescription": ""
+          "bonusDamage": 34,
+          "bonusHP": 34
         }
       ]
     }

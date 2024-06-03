@@ -3,70 +3,12 @@
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-2d31b1cc1fe22dd1-e0bdfd6a3d17efe4e9b023613ecf34fa-v2",
-          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-41c8e354a3692bb7-e0bdfd6a3d17efe4e9b023613ecf34fa-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 5,
-          "triggerUpgrades": [
-            {
-              "trigger": "CharacterTriggerData.Trigger.OnSpawn",
-              "descriptionKey": "CardUpgradeData_descriptionKey-6132b96571fa0ec1-e0bdfd6a3d17efe4e9b023613ecf34fa-v2",
-              "effects": [
-                {
-                  "effectStateName": "CardEffectAdjustRoomCapacity",
-                  "targetMode": "TargetMode.Room",
-                  "targetTeamType": "Team.Type.None",
-                  "targetCardType": "CardType.Monster",
-                  "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
-                  "paramInt": 2,
-                  "paramCardPool": {
-                    "name": "Class5StarterFoodCard",
-                    "cardDataList": [
-                      "VoidExcavator",
-                      "ShadowMorsel",
-                      "MoltenMorsel",
-                      "MorselJeweler",
-                      "RubbleRaiser",
-                      "RubbleRaiser",
-                      "RubbleRaiser",
-                      "RubbleRaiser"
-                    ]
-                  },
-                  "additionalTooltips": [
-                    {
-                      "titleKey": "Capacity_TooltipTitle",
-                      "descriptionKey": "Capacity_TooltipText",
-                      "statusId": "",
-                      "title": "[capacity] Capacity",
-                      "description": "Units can only be summoned on a floor if it has enough capacity."
-                    }
-                  ]
-                }
-              ],
-              "description": "+[effect0.power][capacity] on this floor."
-            }
-          ],
           "upgradeTitle": "Architect",
-          "upgradeDescription": ""
-        },
-        {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-9606dc5a6386aac6-98ec05c8eae416b4d813bdafabfc126e-v2",
-          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-1f754c74ec4211c0-98ec05c8eae416b4d813bdafabfc126e-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 30,
-          "bonusHP": 10,
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnSpawn",
-              "descriptionKey": "CardUpgradeData_descriptionKey-54671681511b20f1-98ec05c8eae416b4d813bdafabfc126e-v2",
+              "description": "+[effect0.power][capacity] on this floor.",
               "effects": [
                 {
-                  "effectStateName": "CardEffectAdjustRoomCapacity",
-                  "targetMode": "TargetMode.Room",
-                  "targetTeamType": "Team.Type.None",
-                  "targetCardType": "CardType.Monster",
-                  "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
-                  "paramInt": 3,
                   "paramCardPool": {
                     "name": "Class5StarterFoodCard",
                     "cardDataList": [
@@ -82,38 +24,30 @@
                   },
                   "additionalTooltips": [
                     {
-                      "titleKey": "Capacity_TooltipTitle",
-                      "descriptionKey": "Capacity_TooltipText",
-                      "statusId": "",
                       "title": "[capacity] Capacity",
                       "description": "Units can only be summoned on a floor if it has enough capacity."
                     }
-                  ]
+                  ],
+                  "effectStateName": "CardEffectAdjustRoomCapacity",
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.None",
+                  "targetCardType": "CardType.Monster",
+                  "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
+                  "paramInt": 2
                 }
               ],
-              "description": "+[effect0.power][capacity] on this floor."
+              "trigger": "CharacterTriggerData.Trigger.OnSpawn"
             }
           ],
+          "bonusDamage": 5
+        },
+        {
           "upgradeTitle": "Architect II",
-          "upgradeDescription": ""
-        },
-        {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-098d90f127068247-1997bb7208e4154409fb9828b9831f73-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 80,
-          "bonusHP": 20,
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnSpawn",
-              "descriptionKey": "CardUpgradeData_descriptionKey-ef0d5d0ac782a238-1997bb7208e4154409fb9828b9831f73-v2",
+              "description": "+[effect0.power][capacity] on this floor.",
               "effects": [
                 {
-                  "effectStateName": "CardEffectAdjustRoomCapacity",
-                  "targetMode": "TargetMode.Room",
-                  "targetTeamType": "Team.Type.None",
-                  "targetCardType": "CardType.Monster",
-                  "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
-                  "paramInt": 4,
                   "paramCardPool": {
                     "name": "Class5StarterFoodCard",
                     "cardDataList": [
@@ -129,177 +63,191 @@
                   },
                   "additionalTooltips": [
                     {
-                      "titleKey": "Capacity_TooltipTitle",
-                      "descriptionKey": "Capacity_TooltipText",
-                      "statusId": "",
                       "title": "[capacity] Capacity",
                       "description": "Units can only be summoned on a floor if it has enough capacity."
                     }
-                  ]
+                  ],
+                  "effectStateName": "CardEffectAdjustRoomCapacity",
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.None",
+                  "targetCardType": "CardType.Monster",
+                  "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
+                  "paramInt": 3
                 }
               ],
-              "description": "+[effect0.power][capacity] on this floor."
+              "trigger": "CharacterTriggerData.Trigger.OnSpawn"
             }
           ],
-          "upgradeTitle": "Architect III"
+          "bonusDamage": 30,
+          "bonusHP": 10
+        },
+        {
+          "upgradeTitle": "Architect III",
+          "triggerUpgrades": [
+            {
+              "description": "+[effect0.power][capacity] on this floor.",
+              "effects": [
+                {
+                  "paramCardPool": {
+                    "name": "Class5StarterFoodCard",
+                    "cardDataList": [
+                      "VoidExcavator",
+                      "ShadowMorsel",
+                      "MoltenMorsel",
+                      "MorselJeweler",
+                      "RubbleRaiser",
+                      "RubbleRaiser",
+                      "RubbleRaiser",
+                      "RubbleRaiser"
+                    ]
+                  },
+                  "additionalTooltips": [
+                    {
+                      "title": "[capacity] Capacity",
+                      "description": "Units can only be summoned on a floor if it has enough capacity."
+                    }
+                  ],
+                  "effectStateName": "CardEffectAdjustRoomCapacity",
+                  "targetMode": "TargetMode.Room",
+                  "targetTeamType": "Team.Type.None",
+                  "targetCardType": "CardType.Monster",
+                  "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
+                  "paramInt": 4
+                }
+              ],
+              "trigger": "CharacterTriggerData.Trigger.OnSpawn"
+            }
+          ],
+          "bonusDamage": 80,
+          "bonusHP": 20
         }
       ]
     },
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-d1dbef6bf1ecbe45-5f5dbd187ab4c7b4eafeae8b319ecb0e-v2",
-          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-74004ab9e0ae9e0e-5f5dbd187ab4c7b4eafeae8b319ecb0e-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "upgradeTitle": "Monstrous",
+          "statusEffectUpgrades": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Trample",
+              "count": 1
+            }
+          ],
           "bonusDamage": 20,
           "bonusHP": 5,
-          "bonusSize": 1,
+          "bonusSize": 1
+        },
+        {
+          "upgradeTitle": "Monstrous II",
           "statusEffectUpgrades": [
             {
-              "statusId": "trample",
+              "statusId": "VanillaStatusEffectIDs.Trample",
               "count": 1
             }
           ],
-          "upgradeTitle": "Monstrous",
-          "upgradeDescription": ""
-        },
-        {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-af48ff12f515d411-cdcc3e27ea4b54243946894d68c861f8-v2",
-          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-177c5e910ee6d420-cdcc3e27ea4b54243946894d68c861f8-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
           "bonusDamage": 60,
           "bonusHP": 30,
-          "bonusSize": 2,
-          "statusEffectUpgrades": [
-            {
-              "statusId": "trample",
-              "count": 1
-            }
-          ],
-          "upgradeTitle": "Monstrous II",
-          "upgradeDescription": ""
+          "bonusSize": 2
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-0d6ed9af817bb1ca-a0b670dfc8f2b7145bf718a15c12353b-v2",
-          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-d19e5d33c633bc68-a0b670dfc8f2b7145bf718a15c12353b-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-          "bonusDamage": 150,
-          "bonusHP": 80,
-          "bonusSize": 3,
+          "upgradeTitle": "Monstrous III",
           "statusEffectUpgrades": [
             {
-              "statusId": "trample",
+              "statusId": "VanillaStatusEffectIDs.Trample",
               "count": 1
             }
           ],
-          "upgradeTitle": "Monstrous III",
-          "upgradeDescription": ""
+          "bonusDamage": 150,
+          "bonusHP": 80,
+          "bonusSize": 3
         }
       ]
     },
     {
       "cardUpgrades": [
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-464dd0cf1566dd69-e97ebdb1eaf314945988e2f68f0c0109-v2",
-          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-45cea18de1d78436-e97ebdb1eaf314945988e2f68f0c0109-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "upgradeTitle": "Glutton",
           "statusEffectUpgrades": [
             {
-              "statusId": "lifesteal",
+              "statusId": "VanillaStatusEffectIDs.Lifesteal",
               "count": 2
             }
           ],
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnFeed",
-              "descriptionKey": "CardUpgradeData_descriptionKey-e85f028f39a2c06d-e97ebdb1eaf314945988e2f68f0c0109-v2",
+              "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
               "effects": [
                 {
-                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                  "targetMode": "TargetMode.Self",
-                  "targetTeamType": "Team.Type.None",
-                  "paramInt": 1,
                   "paramCardUpgradeData": {
-                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 4,
                     "bonusHP": 2
                   },
+                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                  "targetMode": "TargetMode.Self",
+                  "targetTeamType": "Team.Type.None",
+                  "paramInt": 1,
                   "hideTooltip": true
                 }
               ],
-              "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health]."
+              "trigger": "CharacterTriggerData.Trigger.OnFeed"
             }
-          ],
-          "upgradeTitle": "Glutton",
-          "upgradeDescription": ""
+          ]
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-4869a2df4e4a0afa-4162756601f53624b89648712d79dfa8-v2",
-          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-b3e5dc9db05673ef-4162756601f53624b89648712d79dfa8-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "upgradeTitle": "Glutton II",
           "statusEffectUpgrades": [
             {
-              "statusId": "lifesteal",
+              "statusId": "VanillaStatusEffectIDs.Lifesteal",
               "count": 2
             }
           ],
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnFeed",
-              "descriptionKey": "CardUpgradeData_descriptionKey-3088aaa470229dc1-4162756601f53624b89648712d79dfa8-v2",
+              "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
               "effects": [
                 {
-                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                  "targetMode": "TargetMode.Self",
-                  "targetTeamType": "Team.Type.None",
-                  "paramInt": 1,
                   "paramCardUpgradeData": {
-                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                     "bonusDamage": 9,
                     "bonusHP": 4
                   },
+                  "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+                  "targetMode": "TargetMode.Self",
+                  "targetTeamType": "Team.Type.None",
+                  "paramInt": 1,
                   "hideTooltip": true
                 }
               ],
-              "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health]."
+              "trigger": "CharacterTriggerData.Trigger.OnFeed"
             }
-          ],
-          "upgradeTitle": "Glutton II",
-          "upgradeDescription": ""
+          ]
         },
         {
-          "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-6a45bbb5ea5e4a14-682e74b4367e30f4186b456b1f5d7067-v2",
-          "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-deedac931dd36f6a-682e74b4367e30f4186b456b1f5d7067-v2",
-          "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+          "upgradeTitle": "Glutton III",
           "statusEffectUpgrades": [
             {
-              "statusId": "lifesteal",
+              "statusId": "VanillaStatusEffectIDs.Lifesteal",
               "count": 2
             }
           ],
           "triggerUpgrades": [
             {
-              "trigger": "CharacterTriggerData.Trigger.OnFeed",
-              "descriptionKey": "CardUpgradeData_descriptionKey-17392d3837510913-682e74b4367e30f4186b456b1f5d7067-v2",
+              "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
               "effects": [
                 {
+                  "paramCardUpgradeData": {
+                    "bonusDamage": 15,
+                    "bonusHP": 6
+                  },
                   "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
                   "targetMode": "TargetMode.Self",
                   "targetTeamType": "Team.Type.None",
                   "paramInt": 1,
-                  "paramCardUpgradeData": {
-                    "linkedPactDuplicateRarity": "CollectableRarity.Starter",
-                    "bonusDamage": 15,
-                    "bonusHP": 6
-                  },
                   "hideTooltip": true
                 }
               ],
-              "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health]."
+              "trigger": "CharacterTriggerData.Trigger.OnFeed"
             }
-          ],
-          "upgradeTitle": "Glutton III",
-          "upgradeDescription": ""
+          ]
         }
       ]
     }
