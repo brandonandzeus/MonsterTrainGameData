@@ -12,38 +12,41 @@ Using AssetStudio is a pain for searching for GameData objects
 ## How to use
 This repo only contains JSON files, each representing a particular GameData object. The JSON files are minimized, meaning all unimportant fields are removed. Additionally, the data is expanded from what you would see in AssetStudio, allowing you to easily see how a specific GameData object works or how a particular field is used.
 
-Note that not all fields present in the data are included. Things such as asset references, spine animations, images, sounds, text, character chatter data, etc. are omitted for readability. Only the core information that defines the objects and get them to work are included here.
+Note that not all fields present in the data are included. Things such as asset references, spine animations, images, sounds, character chatter data, etc. are omitted for readability. Only the core information that defines the objects and get them to work are included here.
 
 ### Example JSON file
 
 `CardData/Rootseeds.json`
 ```
 {
-  "nameKey": "CardData_nameKey-1e0345136eea7880-6757db998f7279743be5e849a3f29fa4-v2",
-  "cost": 1,
-  "overrideDescriptionKey": "CardData_overrideDescriptionKey-3635c32966b3e70b-6757db998f7279743be5e849a3f29fa4-v2",
-  "targetless": false,
+  "name": "Rootseeds",
+  "overrideDescription": "Apply +[effect0.upgrade.bonusdamage][attack].[halfbreak]Draw +[effect1.power] next turn.",
   "effects": [
     {
-      "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-      "targetMode": 12,
-      "targetTeamType": 3,
       "paramCardUpgradeData": {
         "bonusDamage": 2
-      }
+      },
+      "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     },
     {
       "effectStateName": "CardEffectDrawAdditionalNextTurn",
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "shouldTest": false,
       "paramInt": 1
     }
   ],
-  "linkedClass": "ClassAwoken",
-  "cardLoreTooltipKeys": [
-    "CardData_data-2c87eaad8f1a6731-6757db998f7279743be5e849a3f29fa4-v2"
+  "cardLoreTooltips": [
+    "In one of these dreams, that I'm beginning to believe are visions of the past, Wyldenten showed me the creation of the Wildwood itself: seeds taken from Wyldenten's own body. His final gift before his Exile."
   ],
-  "name": "Rootseeds"
+  "cost": 1,
+  "cardType": "CardType.Spell",
+  "targetless": false,
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassAwoken",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly"
 }
 ```
 
@@ -63,8 +66,8 @@ new CardDataBuilder
     new CardEffectDataBuilder
     {
       EffectStateType = typeof(CardEffectAddTempCardUpgradeToUnits), // Switch from Name to Type
-      TargetMode = 12, // or TargetMode.DropTargetCharacter
-      TargetTeamType = 3, // or Team.Type.Heroes | Team.Type.Monsters
+      TargetMode = TargetMode.DropTargetCharacter,
+      TargetTeamType = Team.Type.Heroes | Team.Type.Monsters,
       ParamCardUpgradeDataBuilder = new CardUpgradeDataBuilder
       {
         UpgradeID = "MyRootSeedsUpgrade",
@@ -74,7 +77,7 @@ new CardDataBuilder
     new CardEffectDataBuilder
     {
       EffectStateType = typeof(CardEffectDrawAdditionalNextTurn),
-      TargetTeamType = 3, // or Team.Type.Heroes | Team.Type.Monsters
+      TargetTeamType = Team.Type.Heroes | Team.Type.Monsters,
       ShouldTest = false,
       ParamInt = 1,
     }
