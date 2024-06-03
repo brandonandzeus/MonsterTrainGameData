@@ -1,9 +1,9 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-6d2ee644e86e9974-e408c7c4aad2b164eaf900fbad41a353-v2",
+  "upgradeDescription": "+5[attack] and +15[health].",
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Train Steward",
-  "linkedPactDuplicateRarity": 2,
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
   "bonusDamage": 5,
   "bonusHP": 15
 }

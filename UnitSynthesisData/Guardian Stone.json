@@ -1,28 +1,28 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-37fecfff93e38449-8e5b2bcbb75184e46963909ff3c01106-v2",
+  "upgradeDescription": "-5[attack] and '[incant]: Apply [armor] 1 to friendly units.'",
+  "triggerUpgrades": [
+    {
+      "description": "Apply [armor] [effect0.status0.power] to friendly units.",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Armor",
+              "count": 1
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetTeamType": "Team.Type.Monsters",
+          "animToPlay": "CharacterUI.Anim.Attack",
+          "paramInt": 100
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Guardian Stone",
-  "linkedPactDuplicateRarity": 2,
-  "bonusDamage": -5,
-  "triggerUpgrades": [
-    {
-      "trigger": 19,
-      "descriptionKey": "CardUpgradeData_descriptionKey-05e2862e8e8bdca8-8e5b2bcbb75184e46963909ff3c01106-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetTeamType": 2,
-          "animToPlay": 2,
-          "paramInt": 100,
-          "paramStatusEffects": [
-            {
-              "statusId": "armor",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusDamage": -5
 }

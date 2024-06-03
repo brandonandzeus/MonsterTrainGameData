@@ -1,16 +1,16 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-5fd770d4320f6e81-c475aab2a4d85eb4aabd9eb1aa69a13e-v2",
+  "upgradeDescription": "+15[attack], +15[health], +1[size], and [spikes] 10.",
+  "statusEffectUpgrades": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Spikes",
+      "count": 10
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Thorned Hollow",
-  "linkedPactDuplicateRarity": 2,
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
   "bonusDamage": 15,
   "bonusHP": 15,
-  "bonusSize": 1,
-  "statusEffectUpgrades": [
-    {
-      "statusId": "spikes",
-      "count": 10
-    }
-  ]
+  "bonusSize": 1
 }

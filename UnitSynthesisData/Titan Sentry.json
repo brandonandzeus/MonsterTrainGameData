@@ -1,25 +1,25 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-4decc8453ab5b04a-2bcee537d2dc584468fbf7f220fb1e51-v2",
+  "upgradeDescription": "+10[health] and '[revenge]: Apply [frostbite] 3 to enemy units.'",
+  "triggerUpgrades": [
+    {
+      "description": "Apply [frostbite] [effect0.status0.power] to enemy units.",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Frostbite",
+              "count": 3
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnHit"
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Titan Sentry",
-  "linkedPactDuplicateRarity": 2,
-  "bonusHP": 10,
-  "triggerUpgrades": [
-    {
-      "trigger": 15,
-      "descriptionKey": "CardUpgradeData_descriptionKey-4ab8e4c86b502b7f-2bcee537d2dc584468fbf7f220fb1e51-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "paramStatusEffects": [
-            {
-              "statusId": "poison",
-              "count": 3
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusHP": 10
 }

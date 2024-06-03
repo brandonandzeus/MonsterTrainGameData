@@ -1,13 +1,13 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-2b80ea460e316ebb-ad0817d95e87c334285f2b46a2a22586-v2",
+  "upgradeDescription": "[quick].",
+  "statusEffectUpgrades": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Quick",
+      "count": 1
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Animus of Speed",
-  "linkedPactDuplicateRarity": 2,
-  "statusEffectUpgrades": [
-    {
-      "statusId": "ambush",
-      "count": 1
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

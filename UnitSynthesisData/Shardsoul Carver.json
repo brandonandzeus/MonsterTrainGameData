@@ -1,38 +1,38 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-1aba3dfda7aa2cec-68a2ef8a857ed6b409376e2d368fc4c5-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Shardsoul Carver",
-  "linkedPactDuplicateRarity": 2,
-  "bonusHP": 15,
-  "bonusSize": 1,
+  "upgradeDescription": "+15[health], +1[capacity], and '<b>Inspire</b>: +2[attack] and [armor] 2.'",
   "triggerUpgrades": [
     {
-      "trigger": 32,
-      "descriptionKey": "CardUpgradeData_descriptionKey-ce9703e7105a8b7c-68a2ef8a857ed6b409376e2d368fc4c5-v2",
+      "description": "+[effect0.upgrade.bonusdamage][attack] and [armor] [effect1.status0.power].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
-          "targetTeamType": 2,
-          "paramInt": 1,
           "paramCardUpgradeData": {
             "isUnitSynthesisUpgrade": true,
             "bonusDamage": 2
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Monsters",
+          "paramInt": 1
         },
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 2,
           "paramStatusEffects": [
             {
-              "statusId": "armor",
+              "statusId": "VanillaStatusEffectIDs.Armor",
               "count": 2
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CorruptionAdded"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Shardsoul Carver",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusHP": 15,
+  "bonusSize": 1
 }

@@ -1,25 +1,25 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-559c8b8ccd06fa08-ba0aececf3646144488bc20711b10dcb-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Kinhost Carapace",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[summon]: +10[attack] and +10[health].",
   "triggerUpgrades": [
     {
-      "trigger": 2,
-      "descriptionKey": "CardUpgradeData_descriptionKey-dd6b815aeceb99e1-ba0aececf3646144488bc20711b10dcb-v2",
+      "description": "+10[attack] and +10[health].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
-          "targetTeamType": 0,
           "paramCardUpgradeData": {
             "isUnitSynthesisUpgrade": true,
             "bonusDamage": 10,
             "bonusHP": 10
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Kinhost Carapace",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

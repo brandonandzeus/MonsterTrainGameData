@@ -1,8 +1,7 @@
 {
-  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-6858db5b12fe9dbb-f952c3eb794ad11418396f7de0b29a7e-v2",
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-c71c09f8f8ac6f5a-f952c3eb794ad11418396f7de0b29a7e-v2",
+  "upgradeDescription": "No Essence.",
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Morsel Excavator",
-  "linkedPactDuplicateRarity": 2
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

@@ -1,34 +1,34 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-1e816c15ae610c6c-4a1416b4a5ebb8c4187ac387f54f175a-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Paraffin Enforcer",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[burnout] 2 and '[strike]: Apply [rage] 3 to friendly [burnout] units.'",
   "statusEffectUpgrades": [
     {
-      "statusId": "ephemeral",
+      "statusId": "VanillaStatusEffectIDs.Burnout",
       "count": 2
     }
   ],
   "triggerUpgrades": [
     {
-      "trigger": 3,
-      "descriptionKey": "CardUpgradeData_descriptionKey-4838b943fa6f04ba-4a1416b4a5ebb8c4187ac387f54f175a-v2",
+      "description": "Apply [rage] [effect0.status0.power] to friendly [burnout] units.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetModeStatusEffectsFilter": [
-            "ephemeral"
-          ],
-          "targetTeamType": 2,
           "paramStatusEffects": [
             {
-              "statusId": "buff",
+              "statusId": "VanillaStatusEffectIDs.Rage",
               "count": 3
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetModeStatusEffectsFilter": [
+            "VanillaStatusEffectIDs.Burnout"
+          ],
+          "targetTeamType": "Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Paraffin Enforcer",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

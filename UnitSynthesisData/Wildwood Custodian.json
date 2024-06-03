@@ -1,14 +1,14 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-8d97ed436a1502d9-e820006c0bd236649997a9933e8a050e-v2",
+  "upgradeDescription": "Draw +1 each turn.",
+  "roomModifierUpgrades": [
+    {
+      "description": "Draw +[paramInt] each turn.",
+      "roomStateModifierClassName": "RoomStateHandSizeModifier",
+      "paramInt": 1
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Wildwood Custodian",
-  "linkedPactDuplicateRarity": 2,
-  "roomModifierUpgrades": [
-    {
-      "roomStateModifierClassName": "RoomStateHandSizeModifier",
-      "descriptionKey": "CardUpgradeData_descriptionKey-19de09f2fa4a5025-e820006c0bd236649997a9933e8a050e-v2",
-      "paramInt": 1
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

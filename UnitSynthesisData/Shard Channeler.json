@@ -1,32 +1,32 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-510fe2b66c36da1c-06465d9418210b7479be929e5901968b-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Shard Channeler",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[spikes] 5 and '[resolve]: Apply [spikes] 2 to friendly units.'",
   "statusEffectUpgrades": [
     {
-      "statusId": "spikes",
+      "statusId": "VanillaStatusEffectIDs.Spikes",
       "count": 5
     }
   ],
   "triggerUpgrades": [
     {
-      "trigger": 1,
-      "descriptionKey": "CardUpgradeData_descriptionKey-50589a6dfb7fd40d-06465d9418210b7479be929e5901968b-v2",
+      "description": "Apply [spikes] [effect0.status0.power] to friendly units.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetTeamType": 2,
-          "paramInt": 100,
           "paramStatusEffects": [
             {
-              "statusId": "spikes",
+              "statusId": "VanillaStatusEffectIDs.Spikes",
               "count": 2
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetTeamType": "Team.Type.Monsters",
+          "paramInt": 100
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Shard Channeler",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

@@ -1,28 +1,28 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-04dade81ab42ffb9-d9860d3f4a9221d448e8a62bce28a47c-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Vinemother",
-  "linkedPactDuplicateRarity": 2,
-  "bonusHP": 10,
+  "upgradeDescription": "+10[health] and '[summon]: Add 3 <b>Sting</b> spells to your hand.'",
   "triggerUpgrades": [
     {
-      "trigger": 2,
-      "descriptionKey": "CardUpgradeData_descriptionKey-644ec3d8860e4167-d9860d3f4a9221d448e8a62bce28a47c-v2",
+      "description": "Add 3 <b>Sting</b> spells to your hand.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddBattleCard",
-          "targetTeamType": 0,
-          "paramInt": 3,
-          "additionalParamInt": 3,
           "paramCardPool": {
             "name": "StingOnlyPool",
             "cardDataList": [
               "Sting"
             ]
-          }
+          },
+          "effectStateName": "CardEffectAddBattleCard",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 3,
+          "additionalParamInt": 3
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Vinemother",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusHP": 10
 }

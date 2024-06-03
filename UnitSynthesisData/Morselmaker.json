@@ -1,26 +1,26 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-aa8d84ef0e92f3fa-854bf5855678a184d9b7a461a859515a-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Morselmaker",
-  "linkedPactDuplicateRarity": 2,
-  "bonusHP": 5,
+  "upgradeDescription": "+5[health] and '[resolve]: +6[attack] and +6[health].'",
   "triggerUpgrades": [
     {
-      "trigger": 1,
-      "descriptionKey": "CardUpgradeData_descriptionKey-7773c98bf7364c73-854bf5855678a184d9b7a461a859515a-v2",
+      "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
-          "targetTeamType": 0,
           "paramCardUpgradeData": {
             "isUnitSynthesisUpgrade": true,
             "bonusDamage": 6,
             "bonusHP": 6
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Morselmaker",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusHP": 5
 }

@@ -1,23 +1,23 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-1782185594eb970e-1e09bad94dc5abf44acfe182031d51c2-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Impish Scholar",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[summon]: Return a random consumed spell to your hand.",
   "triggerUpgrades": [
     {
-      "trigger": 2,
-      "descriptionKey": "CardUpgradeData_descriptionKey-3cc26144b39787db-1e09bad94dc5abf44acfe182031d51c2-v2",
+      "description": "Return a random consumed spell to your hand.",
       "effects": [
         {
           "effectStateName": "CardEffectRecursion",
-          "targetMode": 15,
-          "targetTeamType": 0,
-          "targetCardSelectionMode": 1,
+          "targetMode": "TargetMode.Exhaust",
+          "targetTeamType": "Team.Type.None",
+          "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
           "paramInt": 1,
           "additionalParamInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Impish Scholar",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

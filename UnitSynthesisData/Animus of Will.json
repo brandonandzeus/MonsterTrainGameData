@@ -1,14 +1,14 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-fb75b58f5a0e99b1-11a01517ca2b9404a98173262b43c752-v2",
+  "upgradeDescription": "-15[attack] and [multistrike] 1.",
+  "statusEffectUpgrades": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
+      "count": 1
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Animus of Will",
-  "linkedPactDuplicateRarity": 2,
-  "bonusDamage": -15,
-  "statusEffectUpgrades": [
-    {
-      "statusId": "multistrike",
-      "count": 1
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusDamage": -15
 }

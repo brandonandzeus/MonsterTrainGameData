@@ -1,16 +1,16 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-6c6104510dd79134-04b4e0da438d90d41a7e399d7d551679-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Bog Fly",
-  "linkedPactDuplicateRarity": 2,
-  "bonusHP": 5,
+  "upgradeDescription": "+5[health] and '+5[attack] per [corrupt].'",
   "roomModifierUpgrades": [
     {
+      "description": "+[paramint][attack] per [corrupt].",
       "roomStateModifierClassName": "RoomStateSelfDamagePerCorruptionModifier",
-      "descriptionKey": "CardUpgradeData_descriptionKey-7f013a55cc65a4b2-04b4e0da438d90d41a7e399d7d551679-v2",
       "descriptionKeyInPlay": "CardUpgradeData_descriptionKeyInPlay-7e30d4049a1fbcf0-04b4e0da438d90d41a7e399d7d551679-v2",
       "paramInt": 5
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Bog Fly",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusHP": 5
 }

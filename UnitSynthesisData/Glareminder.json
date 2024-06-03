@@ -1,25 +1,25 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-8a4e30f0ccd1e67c-584c5dea24833b348bf92d86bb47605f-v2",
+  "upgradeDescription": "+5[health] and '<b>Etch</b>: Apply [corruptpoison] 2 to enemy units.'",
+  "triggerUpgrades": [
+    {
+      "description": "Apply [corruptpoison] 2 to enemy units.",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Reap",
+              "count": 2
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardExhausted"
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Glareminder",
-  "linkedPactDuplicateRarity": 2,
-  "bonusHP": 5,
-  "triggerUpgrades": [
-    {
-      "trigger": 35,
-      "descriptionKey": "CardUpgradeData_descriptionKey-baf9f8b5e9912ab2-584c5dea24833b348bf92d86bb47605f-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "paramStatusEffects": [
-            {
-              "statusId": "corrupt_poison",
-              "count": 2
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusHP": 5
 }

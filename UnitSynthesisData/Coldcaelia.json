@@ -1,26 +1,26 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-d366cda86fae32ba-b030925b7ff30f642b4a72b5e8f8afa4-v2",
+  "upgradeDescription": "+10[health] and '[strike]: Apply [frostbite] 3 to the attacked unit.'",
+  "triggerUpgrades": [
+    {
+      "description": "Apply [frostbite] [effect0.status0.power] to the attacked unit.",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Frostbite",
+              "count": 3
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.LastAttackedCharacter"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Coldcaelia",
-  "linkedPactDuplicateRarity": 2,
-  "bonusHP": 10,
-  "triggerUpgrades": [
-    {
-      "trigger": 3,
-      "descriptionKey": "CardUpgradeData_descriptionKey-41a70578c81dcecd-b030925b7ff30f642b4a72b5e8f8afa4-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 6,
-          "paramStatusEffects": [
-            {
-              "statusId": "poison",
-              "count": 3
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusHP": 10
 }

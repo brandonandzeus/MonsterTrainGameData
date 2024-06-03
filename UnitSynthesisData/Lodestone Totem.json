@@ -1,25 +1,25 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-e216ce5bc6ef25c4-013fc102752df064f97382b41a785c99-v2",
+  "upgradeDescription": "+2[ember] and '[incant]: Apply [sap] 1 to enemy units.'",
+  "triggerUpgrades": [
+    {
+      "description": "Apply [sap] [effect0.status0.power] to enemy units.",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Sap",
+              "count": 1
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Lodestone Totem",
-  "linkedPactDuplicateRarity": 2,
-  "costReduction": -2,
-  "triggerUpgrades": [
-    {
-      "trigger": 19,
-      "descriptionKey": "CardUpgradeData_descriptionKey-acd22f86991eaa73-013fc102752df064f97382b41a785c99-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "paramStatusEffects": [
-            {
-              "statusId": "debuff",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "costReduction": -2
 }

@@ -1,21 +1,21 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-20e2d9e90243dffa-ab633614e4fc57c4ba28c769b882adc1-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Overgorger",
-  "linkedPactDuplicateRarity": 2,
-  "bonusHP": 10,
+  "upgradeDescription": "+10[health] and '[feed]: +1[attack] permanently.'",
   "cardTriggerUpgrades": [
     {
-      "trigger": 11,
-      "descriptionKey": "CardUpgradeData_descriptionKey-b00b305a2bab72ed-ab633614e4fc57c4ba28c769b882adc1-v2",
+      "description": "+1[attack] permanently.",
       "cardTriggerEffects": [
         {
           "cardTriggerEffect": "CardTriggerEffectBuffCharacterDamage",
           "buffEffectType": "None",
           "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CardTriggerType.OnFeed"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Overgorger",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusHP": 10
 }

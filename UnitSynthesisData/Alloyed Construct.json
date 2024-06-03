@@ -1,36 +1,36 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-37a3f48dd2f7b7e9-27eb14fa378552f4b81cac880c107f7d-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Alloyed Construct",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[inert], [multistrike] 1, and '[feed]: Gain [spark] 1.'",
   "statusEffectUpgrades": [
     {
-      "statusId": "inert",
+      "statusId": "VanillaStatusEffectIDs.Inert",
       "count": 1
     },
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 1
     }
   ],
   "triggerUpgrades": [
     {
-      "trigger": 22,
-      "descriptionKey": "CardUpgradeData_descriptionKey-257575cf196fe3b0-27eb14fa378552f4b81cac880c107f7d-v2",
+      "description": "Gain [spark] 1.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
           "paramStatusEffects": [
             {
-              "statusId": "spark",
+              "statusId": "VanillaStatusEffectIDs.Fuel",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnFeed"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Alloyed Construct",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

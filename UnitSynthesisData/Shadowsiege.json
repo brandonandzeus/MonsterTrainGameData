@@ -1,9 +1,9 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-81ccb835fb247266-a49d137548059e747ac96c8bde511d76-v2",
+  "upgradeDescription": "+60[attack], +50[health], and +2[size].",
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Shadowsiege",
-  "linkedPactDuplicateRarity": 2,
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
   "bonusDamage": 60,
   "bonusHP": 50,
   "bonusSize": 2

@@ -1,14 +1,14 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-928bf0bade61cd34-cdded741e0d22db4e9457b18db08adb3-v2",
+  "upgradeDescription": "Draw +1 each turn.",
+  "roomModifierUpgrades": [
+    {
+      "description": "Draw +[paramInt] each turn.",
+      "roomStateModifierClassName": "RoomStateHandSizeModifier",
+      "paramInt": 1
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Offering Monument",
-  "linkedPactDuplicateRarity": 2,
-  "roomModifierUpgrades": [
-    {
-      "roomStateModifierClassName": "RoomStateHandSizeModifier",
-      "descriptionKey": "CardUpgradeData_descriptionKey-d9a953a3d5a3ed17-cdded741e0d22db4e9457b18db08adb3-v2",
-      "paramInt": 1
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

@@ -1,20 +1,20 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-2be67c4563cfed73-409b2d7e4b73dcd4ea342dff740e5a4d-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Queen's Impling",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[summon]: Deal 40 damage to the front enemy unit.",
   "triggerUpgrades": [
     {
-      "trigger": 2,
-      "descriptionKey": "CardUpgradeData_descriptionKey-08582acb9810f8ae-409b2d7e4b73dcd4ea342dff740e5a4d-v2",
+      "description": "Deal [effect0.power] damage to the front enemy unit.",
       "effects": [
         {
           "effectStateName": "CardEffectDamage",
-          "targetMode": 2,
+          "targetMode": "TargetMode.FrontInRoom",
           "paramInt": 40
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Queen's Impling",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

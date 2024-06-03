@@ -1,9 +1,9 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-966137caec3777cc-29d214b9d527bcb4c8f23c692a07c456-v2",
+  "upgradeDescription": "+30[attack], +30[health], and +1[size].",
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Demon Fiend",
-  "linkedPactDuplicateRarity": 2,
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
   "bonusDamage": 30,
   "bonusHP": 30,
   "bonusSize": 1

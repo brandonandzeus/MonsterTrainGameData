@@ -1,17 +1,17 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-248ded60c85f19b2-133569edb9cb71040be5fb032350983f-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Draff",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[multistrike] 1 and [burnout] 1.",
   "statusEffectUpgrades": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 1
     },
     {
-      "statusId": "ephemeral",
+      "statusId": "VanillaStatusEffectIDs.Burnout",
       "count": 1
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Draff",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

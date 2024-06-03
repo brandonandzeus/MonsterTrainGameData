@@ -1,33 +1,33 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-ed2a7a0eecb252d7-19fdb241554cdf54f9b06f091e57e818-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Dante the Deceptive",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[multistrike] 1 and '[summon]: Add 1 <b>Dante's Candle</b> to your hand.'",
   "statusEffectUpgrades": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 1
     }
   ],
   "triggerUpgrades": [
     {
-      "trigger": 2,
-      "descriptionKey": "CardUpgradeData_descriptionKey-2cb7a01e4c7f23ef-19fdb241554cdf54f9b06f091e57e818-v2",
+      "description": "Add 1 <b>Dante's Candle</b> to your hand.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddBattleCard",
-          "targetTeamType": 0,
-          "paramInt": 3,
-          "additionalParamInt": 1,
           "paramCardPool": {
             "name": "DantesCandleOnlyPool",
             "cardDataList": [
               "BlightDanteCandle"
             ]
-          }
+          },
+          "effectStateName": "CardEffectAddBattleCard",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 3,
+          "additionalParamInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Dante the Deceptive",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

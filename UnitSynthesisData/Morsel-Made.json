@@ -1,21 +1,21 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-f114b29e8104ef53-56d532193f9836145a4742bcc5b50981-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Morsel-Made",
-  "linkedPactDuplicateRarity": 2,
-  "bonusHP": 10,
+  "upgradeDescription": "+10[health] and '<b>Hunger</b>: Feed on units with [eaten].'",
   "triggerUpgrades": [
     {
-      "trigger": 34,
-      "descriptionKey": "CardUpgradeData_descriptionKey-87e87e99290b99df-56d532193f9836145a4742bcc5b50981-v2",
+      "description": "Feed on units with [eaten].",
       "effects": [
         {
           "effectStateName": "CardEffectFeederRules",
-          "targetTeamType": 3,
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
           "paramBool": true
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnFoodSpawn"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Morsel-Made",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusHP": 10
 }

@@ -1,26 +1,26 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-f3f171c835950d20-001b80fa9d87a5548b74224c47e61f3b-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Shattered Shell",
-  "linkedPactDuplicateRarity": 2,
-  "bonusDamage": 3,
-  "bonusHP": 10,
+  "upgradeDescription": "+3[attack], +10[health], and '[slay]: +3[attack].'",
   "triggerUpgrades": [
     {
-      "trigger": 4,
-      "descriptionKey": "CardUpgradeData_descriptionKey-cdc17828ee54ed05-001b80fa9d87a5548b74224c47e61f3b-v2",
+      "description": "+[effect0.upgrade.bonusdamage][attack].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
-          "targetTeamType": 0,
           "paramCardUpgradeData": {
             "isUnitSynthesisUpgrade": true,
             "bonusDamage": 3
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnKill"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Shattered Shell",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusDamage": 3,
+  "bonusHP": 10
 }

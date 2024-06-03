@@ -1,26 +1,26 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-157ffddb18ed9be0-3537c3ba6fe76714688441b45f5fe751-v2",
+  "upgradeDescription": "+20[health] and '[summon]: Apply [burnout] 3 to friendly units.'",
+  "triggerUpgrades": [
+    {
+      "description": "Apply [burnout] 3 to friendly units.",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Burnout",
+              "count": 3
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetTeamType": "Team.Type.Monsters"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Lady of the Reformed",
-  "linkedPactDuplicateRarity": 2,
-  "bonusHP": 20,
-  "triggerUpgrades": [
-    {
-      "trigger": 2,
-      "descriptionKey": "CardUpgradeData_descriptionKey-1a6de8168e828aae-3537c3ba6fe76714688441b45f5fe751-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetTeamType": 2,
-          "paramStatusEffects": [
-            {
-              "statusId": "ephemeral",
-              "count": 3
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusHP": 20
 }

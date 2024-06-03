@@ -1,13 +1,13 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-fc1426021b09a587-87a0e0124dea70345a51b2d8df18d9de-v2",
+  "upgradeDescription": "[endless].",
+  "statusEffectUpgrades": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Endless",
+      "count": 1
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Transcendimp",
-  "linkedPactDuplicateRarity": 2,
-  "statusEffectUpgrades": [
-    {
-      "statusId": "endless",
-      "count": 1
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

@@ -1,27 +1,27 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-84f3220e05c25369-365b7e4c4191cd54e8340e9147d79c70-v2",
+  "upgradeDescription": "+5[attack] and '[incant]: Gain [rage] 1.'",
+  "triggerUpgrades": [
+    {
+      "description": "Gain [rage] [effect0.status0.power].",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Rage",
+              "count": 1
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Nameless Siren",
-  "linkedPactDuplicateRarity": 2,
-  "bonusDamage": 5,
-  "triggerUpgrades": [
-    {
-      "trigger": 19,
-      "descriptionKey": "CardUpgradeData_descriptionKey-2a4c12f360da75fb-365b7e4c4191cd54e8340e9147d79c70-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "paramStatusEffects": [
-            {
-              "statusId": "buff",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusDamage": 5
 }

@@ -1,15 +1,15 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-2677cc0a1cc34ce0-e371842372719464b9a9945d025e2229-v2",
+  "upgradeDescription": "+10[attack], +10[health], and [damageshield] 5.",
+  "statusEffectUpgrades": [
+    {
+      "statusId": "VanillaStatusEffectIDs.DamageShield",
+      "count": 5
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Crucible Warden",
-  "linkedPactDuplicateRarity": 2,
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
   "bonusDamage": 10,
-  "bonusHP": 10,
-  "statusEffectUpgrades": [
-    {
-      "statusId": "damage shield",
-      "count": 5
-    }
-  ]
+  "bonusHP": 10
 }

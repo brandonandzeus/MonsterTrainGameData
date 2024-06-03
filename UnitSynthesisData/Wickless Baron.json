@@ -1,26 +1,26 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-41d82cb80c6c2882-e1214798973c0624880ae39110a3cc6f-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Wickless Baron",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[harvest]: +2[attack] and +2[health].",
   "triggerUpgrades": [
     {
-      "trigger": 18,
-      "descriptionKey": "CardUpgradeData_descriptionKey-8f9e0658d62715c1-e1214798973c0624880ae39110a3cc6f-v2",
+      "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "paramInt": 1,
           "paramCardUpgradeData": {
             "isUnitSynthesisUpgrade": true,
             "bonusDamage": 2,
             "bonusHP": 2
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Wickless Baron",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

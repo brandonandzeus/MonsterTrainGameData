@@ -1,16 +1,16 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-445b8af41612f102-56ca2607a40557244ac1601f7b589c65-v2",
+  "upgradeDescription": "+20[attack], +10[health], +1[size], and [trample].",
+  "statusEffectUpgrades": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Trample",
+      "count": 1
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Bogdeep Cocoon",
-  "linkedPactDuplicateRarity": 2,
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
   "bonusDamage": 20,
   "bonusHP": 10,
-  "bonusSize": 1,
-  "statusEffectUpgrades": [
-    {
-      "statusId": "trample",
-      "count": 1
-    }
-  ]
+  "bonusSize": 1
 }

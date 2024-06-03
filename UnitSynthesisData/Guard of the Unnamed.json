@@ -1,28 +1,28 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-cde555ae2189e176-bc2b453a5344c2046886dd9b36c488f8-v2",
+  "upgradeDescription": "+10[health] and '[incant]: [armor] 2.'",
+  "triggerUpgrades": [
+    {
+      "description": "Gain [armor] [effect0.status0.power].",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Armor",
+              "count": 2
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 100
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Guard of the Unnamed",
-  "linkedPactDuplicateRarity": 2,
-  "bonusHP": 10,
-  "triggerUpgrades": [
-    {
-      "trigger": 19,
-      "descriptionKey": "CardUpgradeData_descriptionKey-8aed6f51b165cbaf-bc2b453a5344c2046886dd9b36c488f8-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "paramInt": 100,
-          "paramStatusEffects": [
-            {
-              "statusId": "armor",
-              "count": 2
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusHP": 10
 }

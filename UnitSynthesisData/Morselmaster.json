@@ -1,14 +1,14 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-adbdf3c1098af4df-dbef1d987198e7341a61096d5de3d472-v2",
+  "upgradeDescription": "When you summon a [snack] unit on this floor, create a copy.",
+  "roomModifierUpgrades": [
+    {
+      "description": "When you summon a [snack] unit on this floor, create a copy.",
+      "roomStateModifierClassName": "RoomStateSpawnUnitOnUnitSpawnModifier",
+      "paramSubtype": "SubtypesData_Snack"
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Morselmaster",
-  "linkedPactDuplicateRarity": 2,
-  "roomModifierUpgrades": [
-    {
-      "roomStateModifierClassName": "RoomStateSpawnUnitOnUnitSpawnModifier",
-      "descriptionKey": "CardUpgradeData_descriptionKey-b12c863f3ce7dbc6-dbef1d987198e7341a61096d5de3d472-v2",
-      "paramSubtype": "SubtypesData_Snack"
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

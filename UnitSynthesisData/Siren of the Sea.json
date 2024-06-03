@@ -1,28 +1,28 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-93281873fd2ad5d7-08405c0704ba58a48a328517450a886c-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Siren of the Sea",
-  "linkedPactDuplicateRarity": 2,
-  "bonusDamage": 5,
+  "upgradeDescription": "+5[attack] and '[incant]: +1[attack] and +1[health].'",
   "triggerUpgrades": [
     {
-      "trigger": 19,
-      "descriptionKey": "CardUpgradeData_descriptionKey-1f8101ca6f253bc0-08405c0704ba58a48a328517450a886c-v2",
+      "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "paramInt": 1,
           "paramCardUpgradeData": {
             "isUnitSynthesisUpgrade": true,
             "sourceSynthesisUnit": "Siren of the Sea",
             "bonusDamage": 1,
             "bonusHP": 1
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Siren of the Sea",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusDamage": 5
 }

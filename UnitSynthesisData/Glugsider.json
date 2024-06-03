@@ -1,27 +1,27 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-4726ff6a0965e911-657f670814fd96f42886d88baef5c0af-v2",
+  "upgradeDescription": "+20[health], +2[size], and '[revenge]: Apply [corruptpoison] 5 to the attacking unit.'",
+  "triggerUpgrades": [
+    {
+      "description": "Apply [corruptpoison] 5 to the attacking unit.",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Reap",
+              "count": 5
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.LastAttackerCharacter"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnHit"
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Glugsider",
-  "linkedPactDuplicateRarity": 2,
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
   "bonusHP": 20,
-  "bonusSize": 2,
-  "triggerUpgrades": [
-    {
-      "trigger": 15,
-      "descriptionKey": "CardUpgradeData_descriptionKey-b64dead1ebe5af8e-657f670814fd96f42886d88baef5c0af-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 17,
-          "paramStatusEffects": [
-            {
-              "statusId": "corrupt_poison",
-              "count": 5
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "bonusSize": 2
 }

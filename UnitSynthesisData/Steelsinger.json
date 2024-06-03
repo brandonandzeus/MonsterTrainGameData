@@ -1,28 +1,28 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-af5cf3fbd69b222c-65d296f9d4f5d654abeb5d73d61d3690-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Steelsinger",
-  "linkedPactDuplicateRarity": 2,
-  "bonusDamage": 20,
-  "bonusHP": 40,
-  "bonusSize": 1,
+  "upgradeDescription": "+20[attack], +40[health], +1[size], and '[rejuvenate]: +1[attack].'",
   "triggerUpgrades": [
     {
-      "trigger": 7,
-      "descriptionKey": "CardUpgradeData_descriptionKey-ffb6f489392a31e4-65d296f9d4f5d654abeb5d73d61d3690-v2",
-      "displayEffectHintText": true,
+      "description": "+[effect0.upgrade.bonusdamage][attack].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
-          "targetTeamType": 0,
           "paramCardUpgradeData": {
             "isUnitSynthesisUpgrade": true,
             "bonusDamage": 1
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnHeal",
+      "displayEffectHintText": true
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Steelsinger",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusDamage": 20,
+  "bonusHP": 40,
+  "bonusSize": 1
 }

@@ -1,23 +1,23 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-2c1ca49231d11b66-c2e1fd66b3aa7e04fad92f4daa2fc7c2-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Cuttlehex",
-  "linkedPactDuplicateRarity": 2,
-  "bonusDamage": 5,
-  "bonusHP": 3,
+  "upgradeDescription": "+5[attack], +3[health], and '<b>End of Turn</b>: Apply [freeze] to a random card in your hand.'",
   "triggerUpgrades": [
     {
-      "trigger": 21,
-      "descriptionKey": "CardUpgradeData_descriptionKey-dd723186b10fdb7d-c2e1fd66b3aa7e04fad92f4daa2fc7c2-v2",
-      "additionalTextOnTriggerKey": "CardUpgradeData_additionalTextOnTriggerKey-db23117fe576d67d-c2e1fd66b3aa7e04fad92f4daa2fc7c2-v2",
+      "description": "Apply [freeze] to a random card in your hand.",
+      "additionalTextOnTrigger": "Freezing Card!",
       "effects": [
         {
           "effectStateName": "CardEffectFreezeRandomCard",
-          "targetTeamType": 0,
-          "animToPlay": 2
+          "targetTeamType": "Team.Type.None",
+          "animToPlay": "CharacterUI.Anim.Attack"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.EndTurnPreHandDiscard"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Cuttlehex",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusDamage": 5,
+  "bonusHP": 3
 }

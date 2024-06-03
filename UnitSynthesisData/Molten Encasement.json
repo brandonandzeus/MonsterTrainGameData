@@ -1,24 +1,24 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-8e7f31e1500f2862-d27d16f6ea763254180c48fca54bf833-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Molten Encasement",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[extinguish]: Apply [stealth] 2 to friendly units.",
   "triggerUpgrades": [
     {
-      "descriptionKey": "CardUpgradeData_descriptionKey-76809d53e23e71a7-d27d16f6ea763254180c48fca54bf833-v2",
+      "description": "Apply [stealth] [effect0.status0.power] to friendly units.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetTeamType": 2,
           "paramStatusEffects": [
             {
-              "statusId": "stealth",
+              "statusId": "VanillaStatusEffectIDs.Stealth",
               "count": 2
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetTeamType": "Team.Type.Monsters"
         }
       ]
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Molten Encasement",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

@@ -1,16 +1,16 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-7c0f173d8b1d1e01-ca7e8f613e39a6e4c9c1837f2bf6bb1e-v2",
+  "upgradeDescription": "+30[attack], +30[health], +2[size], and [trample].",
+  "statusEffectUpgrades": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Trample",
+      "count": 1
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Heph the Blacksmith",
-  "linkedPactDuplicateRarity": 2,
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
   "bonusDamage": 30,
   "bonusHP": 30,
-  "bonusSize": 2,
-  "statusEffectUpgrades": [
-    {
-      "statusId": "trample",
-      "count": 1
-    }
-  ]
+  "bonusSize": 2
 }

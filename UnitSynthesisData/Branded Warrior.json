@@ -1,25 +1,25 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-263c09d98c45d766-9398798a569ab5c44a94ff87b92aedcd-v2",
+  "upgradeDescription": "[slay]: Apply [rage] 3 to friendly units.",
+  "triggerUpgrades": [
+    {
+      "description": "Apply [rage] 3 to friendly units.",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Rage",
+              "count": 3
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetTeamType": "Team.Type.Monsters"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnKill"
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Branded Warrior",
-  "linkedPactDuplicateRarity": 2,
-  "triggerUpgrades": [
-    {
-      "trigger": 4,
-      "descriptionKey": "CardUpgradeData_descriptionKey-4786a16037afd7de-9398798a569ab5c44a94ff87b92aedcd-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetTeamType": 2,
-          "paramStatusEffects": [
-            {
-              "statusId": "buff",
-              "count": 3
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

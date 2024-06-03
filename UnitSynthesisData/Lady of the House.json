@@ -1,15 +1,15 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-382235707abad2ef-2a6b26d3d1e1a504fb93882f24fd5465-v2",
+  "upgradeDescription": "+15[attack], +30[health], and [burnout] 3.",
+  "statusEffectUpgrades": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Burnout",
+      "count": 3
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Lady of the House",
-  "linkedPactDuplicateRarity": 2,
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
   "bonusDamage": 15,
-  "bonusHP": 30,
-  "statusEffectUpgrades": [
-    {
-      "statusId": "ephemeral",
-      "count": 3
-    }
-  ]
+  "bonusHP": 30
 }

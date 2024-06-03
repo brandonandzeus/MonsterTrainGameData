@@ -1,21 +1,21 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-9e6c21136025fc2f-5d8cc9a29754eb54ba0acdda57b7332e-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Shadoweater",
-  "linkedPactDuplicateRarity": 2,
-  "bonusHP": 10,
+  "upgradeDescription": "+10[health] and '[feed]: Restore 10 health.'",
   "triggerUpgrades": [
     {
-      "trigger": 22,
-      "descriptionKey": "CardUpgradeData_descriptionKey-b2a38bcd1679708b-5d8cc9a29754eb54ba0acdda57b7332e-v2",
+      "description": "Restore [effect0.power] health.",
       "effects": [
         {
           "effectStateName": "CardEffectHeal",
-          "targetMode": 5,
+          "targetMode": "TargetMode.Self",
           "paramInt": 10
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnFeed"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Shadoweater",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusHP": 10
 }

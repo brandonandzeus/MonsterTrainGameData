@@ -1,30 +1,30 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-1d952ede12bce2ee-e5ba36e9c72efe94e954be18e7777f4c-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Kinhost Vessel",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[armor] 10 and '[strike]: Apply [corruptpoison] 1 to enemy units.'",
   "statusEffectUpgrades": [
     {
-      "statusId": "armor",
+      "statusId": "VanillaStatusEffectIDs.Armor",
       "count": 10
     }
   ],
   "triggerUpgrades": [
     {
-      "trigger": 3,
-      "descriptionKey": "CardUpgradeData_descriptionKey-268b2420b42d4628-e5ba36e9c72efe94e954be18e7777f4c-v2",
+      "description": "Apply [corruptpoison] 1 to enemy units.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
           "paramStatusEffects": [
             {
-              "statusId": "corrupt_poison",
+              "statusId": "VanillaStatusEffectIDs.Reap",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Kinhost Vessel",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

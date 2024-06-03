@@ -1,21 +1,21 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-55d7cd4dbc33c359-956c47452ffff5d458e72bcd61302c15-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Edge Prior",
-  "linkedPactDuplicateRarity": 2,
-  "bonusHP": 5,
+  "upgradeDescription": "+5[health] and '[resolve]: Restore 5 health to friendly units.'",
   "triggerUpgrades": [
     {
-      "trigger": 1,
-      "descriptionKey": "CardUpgradeData_descriptionKey-e1fbb4517b82f301-956c47452ffff5d458e72bcd61302c15-v2",
+      "description": "[resolve]: Restore 5 health to friendly units.",
       "effects": [
         {
           "effectStateName": "CardEffectHeal",
-          "targetTeamType": 2,
+          "targetTeamType": "Team.Type.Monsters",
           "paramInt": 5
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Edge Prior",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusHP": 5
 }

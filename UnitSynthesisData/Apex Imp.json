@@ -1,18 +1,17 @@
 {
-  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-c4c0002fd699efc1-735384fd0563cbf47bdf436fffed64a2-v2",
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-ab3dc1174cecadfc-735384fd0563cbf47bdf436fffed64a2-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Apex Imp",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[armor] 10 and [rage] 10.",
   "statusEffectUpgrades": [
     {
-      "statusId": "armor",
+      "statusId": "VanillaStatusEffectIDs.Armor",
       "count": 10
     },
     {
-      "statusId": "buff",
+      "statusId": "VanillaStatusEffectIDs.Rage",
       "count": 10
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Apex Imp",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

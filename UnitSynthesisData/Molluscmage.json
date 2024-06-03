@@ -1,23 +1,23 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-cf3448cf40d50209-13f1e281737b32f448ebf4e6152caa15-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Molluscmage",
-  "linkedPactDuplicateRarity": 2,
-  "bonusDamage": 5,
-  "bonusHP": 3,
+  "upgradeDescription": "+5[attack], +3[health], and '+10 [magicpower] on this floor.'",
   "roomModifierUpgrades": [
     {
-      "roomStateModifierClassName": "RoomStateMagicalPowerModifier",
-      "descriptionKey": "CardUpgradeData_descriptionKey-6fedf0985fef97b2-13f1e281737b32f448ebf4e6152caa15-v2",
-      "paramInt": 10,
-      "extraTooltipTitleKey": "ModifyCard_MagicalPower_TooltipTitle",
-      "extraTooltipBodyKey": "ModifyCard_MagicalPower_TooltipBody",
+      "description": "+[paramint] [magicpower] on this floor.",
+      "extraTooltipTitle": "Magic Power",
+      "extraTooltipBody": "Increases the amount of damage dealt and health restored by spells.",
       "paramCardUpgradeData": {
         "isUnitSynthesisUpgrade": true,
         "bonusDamage": 10,
         "bonusHeal": 10
-      }
+      },
+      "roomStateModifierClassName": "RoomStateMagicalPowerModifier",
+      "paramInt": 10
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Molluscmage",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusDamage": 5,
+  "bonusHP": 3
 }

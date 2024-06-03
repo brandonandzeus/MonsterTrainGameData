@@ -1,26 +1,26 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-a6b4080012b56435-44c2fcc9382d6ed47bf2f3d86baadd5f-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Bounty Stalker",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[stealth] 1 and '[extinguish]: +4[attack] permanently.'",
   "statusEffectUpgrades": [
     {
-      "statusId": "stealth",
+      "statusId": "VanillaStatusEffectIDs.Stealth",
       "count": 1
     }
   ],
   "cardTriggerUpgrades": [
     {
-      "trigger": 3,
-      "descriptionKey": "CardUpgradeData_descriptionKey-3168b84ae238664d-44c2fcc9382d6ed47bf2f3d86baadd5f-v2",
+      "description": "+4[attack] permanently.",
       "cardTriggerEffects": [
         {
           "cardTriggerEffect": "CardTriggerEffectBuffCharacterDamage",
           "buffEffectType": "None",
           "paramInt": 4
         }
-      ]
+      ],
+      "trigger": "CardTriggerType.OnMonsterDeath"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Bounty Stalker",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

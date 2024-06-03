@@ -1,22 +1,10 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-4f85393e5d2aca05-3a0d7fd46f708f64387091b3b6cf3c03-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Awoken Hollow",
-  "linkedPactDuplicateRarity": 2,
-  "bonusDamage": 15,
-  "bonusHP": 15,
-  "bonusSize": 1,
+  "upgradeDescription": "+15[attack], +15[health], +1[size], and '[rejuvenate]: <b>Cultivate 2</b>.'",
   "triggerUpgrades": [
     {
-      "trigger": 7,
-      "descriptionKey": "CardUpgradeData_descriptionKey-8e2a5d711a4d3e6b-3a0d7fd46f708f64387091b3b6cf3c03-v2",
-      "displayEffectHintText": true,
+      "description": "<b>Cultivate 2</b>.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 16,
-          "targetTeamType": 2,
           "paramCardUpgradeData": {
             "isUnitSynthesisUpgrade": true,
             "bonusDamage": 2,
@@ -24,13 +12,25 @@
           },
           "additionalTooltips": [
             {
-              "titleKey": "CharacterAbility_Cultivate_CardText",
-              "descriptionKey": "CharacterAbility_Cultivate_TooltipText",
-              "style": 0
+              "title": "<b>Cultivate</b>",
+              "description": "Increase the [attack] and [health] of the friendly unit with the lowest health by the <b>Cultivate</b> value.",
+              "style": "TooltipDesigner.TooltipDesignType.Default"
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Weakest",
+          "targetTeamType": "Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnHeal",
+      "displayEffectHintText": true
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Awoken Hollow",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusDamage": 15,
+  "bonusHP": 15,
+  "bonusSize": 1
 }

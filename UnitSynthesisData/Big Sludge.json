@@ -1,27 +1,27 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-6b955c859416f22c-2adb1e144a35df5458cd8f9189daaa6c-v2",
+  "upgradeDescription": "+1[size] and '[harvest]: Gain [rage] 5.'",
+  "triggerUpgrades": [
+    {
+      "description": "Gain [rage] 5.",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Rage",
+              "count": 5
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor"
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Big Sludge",
-  "linkedPactDuplicateRarity": 2,
-  "bonusSize": 1,
-  "triggerUpgrades": [
-    {
-      "trigger": 18,
-      "descriptionKey": "CardUpgradeData_descriptionKey-a1fd0236e595e012-2adb1e144a35df5458cd8f9189daaa6c-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "targetTeamType": 0,
-          "paramStatusEffects": [
-            {
-              "statusId": "buff",
-              "count": 5
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusSize": 1
 }

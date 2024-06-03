@@ -1,15 +1,14 @@
 {
-  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-9da882d387dc2e89-541bef90f0adb524686b3ffa0c2c0598-v2",
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-eda625d6dea2cce9-541bef90f0adb524686b3ffa0c2c0598-v2",
+  "upgradeDescription": "[multistrike] 1 and +1[ember].",
+  "statusEffectUpgrades": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
+      "count": 1
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Eel Gorgon",
-  "linkedPactDuplicateRarity": 2,
-  "costReduction": -1,
-  "statusEffectUpgrades": [
-    {
-      "statusId": "multistrike",
-      "count": 1
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "costReduction": -1
 }

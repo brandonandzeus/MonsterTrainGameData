@@ -1,19 +1,19 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-0545b0446bac453b-6dad9319f9f0c064cad0b5b2ac6ca64d-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Entombed Explosive",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[extinguish]: Deal 50 damage to the front enemy unit.",
   "triggerUpgrades": [
     {
-      "descriptionKey": "CardUpgradeData_descriptionKey-d0de9d898469cb2c-6dad9319f9f0c064cad0b5b2ac6ca64d-v2",
+      "description": "Deal [effect0.power] damage to the front enemy unit.",
       "effects": [
         {
           "effectStateName": "CardEffectDamage",
-          "targetMode": 2,
+          "targetMode": "TargetMode.FrontInRoom",
           "paramInt": 50
         }
       ]
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Entombed Explosive",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

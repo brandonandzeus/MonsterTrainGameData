@@ -1,21 +1,21 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-38cec9d0688ae966-4a7cfd85a3e7d374c8a2c3e6ad95b501-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Paraffin Thug",
-  "linkedPactDuplicateRarity": 2,
-  "bonusDamage": 10,
+  "upgradeDescription": "+10[attack] and '[slay]: Gain 10[coin].'",
   "triggerUpgrades": [
     {
-      "trigger": 4,
-      "descriptionKey": "CardUpgradeData_descriptionKey-64ec46cca6004a9a-4a7cfd85a3e7d374c8a2c3e6ad95b501-v2",
+      "description": "Gain [effect0.power][coin].",
       "effects": [
         {
           "effectStateName": "CardEffectRewardGold",
-          "targetTeamType": 0,
+          "targetTeamType": "Team.Type.None",
           "paramInt": 10
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnKill"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Paraffin Thug",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusDamage": 10
 }

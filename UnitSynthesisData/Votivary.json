@@ -1,13 +1,13 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-86e21c05de122ff1-3d19706006aaa5d4fa2cdcaa953231a9-v2",
+  "upgradeDescription": "[endless].",
+  "statusEffectUpgrades": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Endless",
+      "count": 1
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Votivary",
-  "linkedPactDuplicateRarity": 2,
-  "statusEffectUpgrades": [
-    {
-      "statusId": "endless",
-      "count": 1
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

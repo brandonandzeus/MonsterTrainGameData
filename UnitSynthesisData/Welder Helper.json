@@ -1,32 +1,31 @@
 {
-  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-0da42e4becd4bb40-80873b604a653c846a077ca65472f0b6-v2",
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-2bab5c7c24ce411d-80873b604a653c846a077ca65472f0b6-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Welder Helper",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[armor] 10 and '[summon]: Apply [armor] 10 to friendly units.'",
   "statusEffectUpgrades": [
     {
-      "statusId": "armor",
+      "statusId": "VanillaStatusEffectIDs.Armor",
       "count": 10
     }
   ],
   "triggerUpgrades": [
     {
-      "trigger": 2,
-      "descriptionKey": "CardUpgradeData_descriptionKey-0e3a95712a5c1421-80873b604a653c846a077ca65472f0b6-v2",
+      "description": "Apply [armor] [effect0.status0.power] to friendly units.",
       "effects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetTeamType": 2,
           "paramStatusEffects": [
             {
-              "statusId": "armor",
+              "statusId": "VanillaStatusEffectIDs.Armor",
               "count": 10
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetTeamType": "Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Welder Helper",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

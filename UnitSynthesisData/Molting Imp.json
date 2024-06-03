@@ -1,19 +1,19 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-2b3bb30d2fe00ce6-357837dd8106b5c42a1a2028c149869b-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Molting Imp",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[summon]: Deal 15 damage to enemy units.",
   "triggerUpgrades": [
     {
-      "trigger": 2,
-      "descriptionKey": "CardUpgradeData_descriptionKey-43ede9c9004a75f4-357837dd8106b5c42a1a2028c149869b-v2",
+      "description": "Deal [effect0.power] damage to enemy units.",
       "effects": [
         {
           "effectStateName": "CardEffectDamage",
           "paramInt": 15
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Molting Imp",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

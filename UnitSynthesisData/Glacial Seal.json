@@ -1,25 +1,25 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-9514fff7d1adf6de-f7ad5d8d2f45c8f4a96097996dd2c367-v2",
+  "upgradeDescription": "[incant]: Apply [frostbite] 2 to enemy units.",
+  "triggerUpgrades": [
+    {
+      "description": "Apply [frostbite] [effect0.status0.power] to enemy units.",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Frostbite",
+              "count": 2
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "animToPlay": "CharacterUI.Anim.Attack"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Glacial Seal",
-  "linkedPactDuplicateRarity": 2,
-  "triggerUpgrades": [
-    {
-      "trigger": 19,
-      "descriptionKey": "CardUpgradeData_descriptionKey-9ec8741e98f4d5a3-f7ad5d8d2f45c8f4a96097996dd2c367-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "animToPlay": 2,
-          "paramStatusEffects": [
-            {
-              "statusId": "poison",
-              "count": 2
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

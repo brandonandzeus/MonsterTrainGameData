@@ -1,13 +1,13 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-07202cf9eb621562-50cb816590012a74fb43ade5db597fcd-v2",
+  "upgradeDescription": "[armor] 30.",
+  "statusEffectUpgrades": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Armor",
+      "count": 30
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Railbeater",
-  "linkedPactDuplicateRarity": 2,
-  "statusEffectUpgrades": [
-    {
-      "statusId": "armor",
-      "count": 30
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

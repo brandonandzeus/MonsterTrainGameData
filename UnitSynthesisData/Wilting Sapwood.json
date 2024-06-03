@@ -1,9 +1,9 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-207cc6874266b88e-977e66b1f567dc240ac90683ba5f5fe9-v2",
+  "upgradeDescription": "+5[attack], +10[health], and -2[ember].",
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Wilting Sapwood",
-  "linkedPactDuplicateRarity": 2,
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
   "bonusDamage": 5,
   "bonusHP": 10,
   "costReduction": 2

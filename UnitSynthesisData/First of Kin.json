@@ -1,24 +1,24 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-b531316d46127cc8-62c7de58b20b4334f9899af61c86be60-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "First of Kin",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "<b>Etch</b>: +5[attack].",
   "triggerUpgrades": [
     {
-      "trigger": 35,
-      "descriptionKey": "CardUpgradeData_descriptionKey-a1800e5d1f95a790-62c7de58b20b4334f9899af61c86be60-v2",
+      "description": "+5[attack].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
-          "targetTeamType": 2,
           "paramCardUpgradeData": {
             "isUnitSynthesisUpgrade": true,
             "bonusDamage": 5
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Monsters"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CardExhausted"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "First of Kin",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

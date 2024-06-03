@@ -1,17 +1,17 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-022eca5e2456842e-8e835c57c575647469b3b31e3393dfd0-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Horned Warrior",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[multistrike] 1 and [fragile].",
   "statusEffectUpgrades": [
     {
-      "statusId": "multistrike",
+      "statusId": "VanillaStatusEffectIDs.Multistrike",
       "count": 1
     },
     {
-      "statusId": "fragile",
+      "statusId": "VanillaStatusEffectIDs.Fragile",
       "count": 1
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Horned Warrior",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

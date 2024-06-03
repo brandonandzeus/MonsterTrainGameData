@@ -1,35 +1,36 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-deef389e832aaeca-d2c906bfba113bc43aace68c21b80250-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Legion of Wax",
-  "linkedPactDuplicateRarity": 2,
-  "bonusDamage": 8,
-  "bonusHP": 8,
+  "upgradeDescription": "+8[attack], +8[health], and '[revenge]: Summon 1 basic copy of <b>Mote of Wax</b>.'",
   "triggerUpgrades": [
     {
-      "trigger": 15,
-      "descriptionKey": "CardUpgradeData_descriptionKey-2394d39318533bf0-d2c906bfba113bc43aace68c21b80250-v2",
+      "description": "Summon 1 basic copy of <b>Mote of Wax</b>.",
       "effects": [
         {
-          "effectStateName": "CardEffectSpawnMonster",
-          "targetTeamType": 0,
-          "paramInt": 1,
-          "paramBool": true,
           "paramCharacterData": {
+            "name": "Mote of Wax",
+            "subtypes": [
+              "Waxer"
+            ],
+            "characterLoreTooltips": [
+              "When Waxers are reduced to almost nothing, but still cling to what life is left within, they will sometimes band together for protection to create a new form that is controlled by this hivemind of dying Waxers."
+            ],
             "nameKey": "CharacterData_nameKey-484a18b6a06a30d1-5818e71fe5600b94a91c02786f8ce23a-v2",
             "size": 1,
             "health": 2,
-            "attackDamage": 2,
-            "subtypeKeys": [
-              "SubtypesData_Waxer_3446e5ee-216e-4cc2-b027-d77dee269c15"
-            ],
-            "characterLoreTooltipKeys": [
-              "CharacterData_data-7cf86cb693cc1d04-5818e71fe5600b94a91c02786f8ce23a-v2"
-            ]
-          }
+            "attackDamage": 2
+          },
+          "effectStateName": "CardEffectSpawnMonster",
+          "targetTeamType": "Team.Type.None",
+          "paramInt": 1,
+          "paramBool": true
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnHit"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Legion of Wax",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusDamage": 8,
+  "bonusHP": 8
 }

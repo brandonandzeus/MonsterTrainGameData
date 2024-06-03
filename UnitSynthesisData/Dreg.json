@@ -1,15 +1,15 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-d41373f57151d17f-6e51e1dd92a0f334ba258fbb30850799-v2",
+  "upgradeDescription": "+10[attack], +10[health], and [burnout] 2.",
+  "statusEffectUpgrades": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Burnout",
+      "count": 2
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Dreg",
-  "linkedPactDuplicateRarity": 2,
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
   "bonusDamage": 10,
-  "bonusHP": 10,
-  "statusEffectUpgrades": [
-    {
-      "statusId": "ephemeral",
-      "count": 2
-    }
-  ]
+  "bonusHP": 10
 }

@@ -1,14 +1,14 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-faebb00d0345df2d-52ea87b6c9b03f24ea727f5c8018bacd-v2",
+  "upgradeDescription": "+10[attack] and [rage] 10.",
+  "statusEffectUpgrades": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Rage",
+      "count": 10
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Deranged Brute",
-  "linkedPactDuplicateRarity": 2,
-  "bonusDamage": 10,
-  "statusEffectUpgrades": [
-    {
-      "statusId": "buff",
-      "count": 10
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusDamage": 10
 }

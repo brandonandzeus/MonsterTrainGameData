@@ -1,15 +1,15 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-cdefcc5c76fa6ddb-2a3488af6fa852f48ac285e686f0ffba-v2",
+  "upgradeDescription": "+1[attack], +1[health], and  [endless].",
+  "statusEffectUpgrades": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Endless",
+      "count": 1
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Spikedriver Colony",
-  "linkedPactDuplicateRarity": 2,
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
   "bonusDamage": 1,
-  "bonusHP": 1,
-  "statusEffectUpgrades": [
-    {
-      "statusId": "endless",
-      "count": 1
-    }
-  ]
+  "bonusHP": 1
 }

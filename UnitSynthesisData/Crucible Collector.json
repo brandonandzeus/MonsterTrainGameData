@@ -1,15 +1,15 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-57916bca09282122-aa5a256f89564f94faf04f93bf4e2644-v2",
+  "upgradeDescription": "+10[attack], +10[health], and [lifesteal] 5.",
+  "statusEffectUpgrades": [
+    {
+      "statusId": "VanillaStatusEffectIDs.Lifesteal",
+      "count": 5
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Crucible Collector",
-  "linkedPactDuplicateRarity": 2,
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
   "bonusDamage": 10,
-  "bonusHP": 10,
-  "statusEffectUpgrades": [
-    {
-      "statusId": "lifesteal",
-      "count": 5
-    }
-  ]
+  "bonusHP": 10
 }

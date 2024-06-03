@@ -1,25 +1,25 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-34679d951ad9571e-759078416cc6b234595c78a02d4fb543-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Alpha Fiend",
-  "linkedPactDuplicateRarity": 2,
-  "bonusSize": 1,
+  "upgradeDescription": "+1[size] and '[strike]: +5[attack].'",
   "triggerUpgrades": [
     {
-      "trigger": 3,
-      "descriptionKey": "CardUpgradeData_descriptionKey-4327674c30f42727-759078416cc6b234595c78a02d4fb543-v2",
+      "description": "+5[attack].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
-          "targetTeamType": 0,
           "paramCardUpgradeData": {
             "isUnitSynthesisUpgrade": true,
             "bonusDamage": 5
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.None"
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAttacking"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Alpha Fiend",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusSize": 1
 }

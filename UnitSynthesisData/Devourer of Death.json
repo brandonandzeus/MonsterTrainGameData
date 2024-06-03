@@ -1,12 +1,8 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-d9f2150129ce299f-81c7b5bca3f45714789eba59da07100e-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Devourer of Death",
-  "linkedPactDuplicateRarity": 2,
+  "upgradeDescription": "[extinguish]: Deal 15 damage to enemy units.",
   "triggerUpgrades": [
     {
-      "descriptionKey": "CardUpgradeData_descriptionKey-743cf35ede84d97c-81c7b5bca3f45714789eba59da07100e-v2",
+      "description": "Deal 15 damage to enemy units.",
       "effects": [
         {
           "effectStateName": "CardEffectDamage",
@@ -14,5 +10,9 @@
         }
       ]
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Devourer of Death",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

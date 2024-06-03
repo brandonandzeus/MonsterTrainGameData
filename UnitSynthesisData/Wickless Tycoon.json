@@ -1,22 +1,22 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-fb4f49160d04fd51-f881edad80b163b4d86ec1c307c5455f-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Wickless Tycoon",
-  "linkedPactDuplicateRarity": 2,
-  "bonusDamage": 5,
-  "bonusHP": 10,
+  "upgradeDescription": "+5[attack], +10[health], and '[harvest]: Gain 5[coin].'",
   "triggerUpgrades": [
     {
-      "trigger": 18,
-      "descriptionKey": "CardUpgradeData_descriptionKey-49d4d145d0bd5672-f881edad80b163b4d86ec1c307c5455f-v2",
+      "description": "Gain [effect0.power][coin].",
       "effects": [
         {
           "effectStateName": "CardEffectRewardGold",
-          "targetTeamType": 0,
+          "targetTeamType": "Team.Type.None",
           "paramInt": 5
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Wickless Tycoon",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusDamage": 5,
+  "bonusHP": 10
 }

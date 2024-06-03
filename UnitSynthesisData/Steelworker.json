@@ -1,26 +1,26 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-7ebad9c118fa11ce-be54e38a41f5a4542a1f6a3024d3faa7-v2",
+  "upgradeDescription": "[resolve]: Apply [armor] 5 to friendly units.",
+  "triggerUpgrades": [
+    {
+      "description": "Apply [armor] [effect0.status0.power] to friendly units.",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Armor",
+              "count": 5
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetTeamType": "Team.Type.Monsters",
+          "paramInt": 100
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.PostCombat"
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Steelworker",
-  "linkedPactDuplicateRarity": 2,
-  "triggerUpgrades": [
-    {
-      "trigger": 1,
-      "descriptionKey": "CardUpgradeData_descriptionKey-5b14abd57410e2f3-be54e38a41f5a4542a1f6a3024d3faa7-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetTeamType": 2,
-          "paramInt": 100,
-          "paramStatusEffects": [
-            {
-              "statusId": "armor",
-              "count": 5
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

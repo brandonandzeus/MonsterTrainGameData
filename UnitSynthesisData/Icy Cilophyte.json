@@ -1,25 +1,25 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-e64c76c18bd63e2b-1c509202cebab4d40a60995a253bdb93-v2",
+  "upgradeDescription": "+10[health] and '<b>Action</b>: Apply [spellweakness] 1 to enemy units.'",
+  "triggerUpgrades": [
+    {
+      "description": "Apply [spellweakness] [effect0.status0.power] to enemy units.",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.SpellWeakness",
+              "count": 1
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnTurnBegin"
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Icy Cilophyte",
-  "linkedPactDuplicateRarity": 2,
-  "bonusHP": 10,
-  "triggerUpgrades": [
-    {
-      "trigger": 24,
-      "descriptionKey": "CardUpgradeData_descriptionKey-f45c6c1829055de0-1c509202cebab4d40a60995a253bdb93-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "paramStatusEffects": [
-            {
-              "statusId": "spell weakness",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusHP": 10
 }

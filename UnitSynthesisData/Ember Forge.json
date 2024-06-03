@@ -1,14 +1,14 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-03383473225ec113-54a1f5a8de28db44f8049e97094e306d-v2",
+  "upgradeDescription": "+1[ember] per turn.",
+  "roomModifierUpgrades": [
+    {
+      "description": "+[paramint][ember] per turn.",
+      "roomStateModifierClassName": "RoomStateEnergyModifier",
+      "paramInt": 1
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Ember Forge",
-  "linkedPactDuplicateRarity": 2,
-  "roomModifierUpgrades": [
-    {
-      "roomStateModifierClassName": "RoomStateEnergyModifier",
-      "descriptionKey": "CardUpgradeData_descriptionKey-32c0fbfbaabd6118-54a1f5a8de28db44f8049e97094e306d-v2",
-      "paramInt": 1
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

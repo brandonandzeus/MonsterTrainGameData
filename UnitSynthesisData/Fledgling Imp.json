@@ -1,25 +1,25 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-91f43b4bf92ec188-12d8dd2501a1bb244bf61df948711f82-v2",
+  "upgradeDescription": "[summon]: Apply [rage] 5 to friendly units.",
+  "triggerUpgrades": [
+    {
+      "description": "Apply [rage] [effect0.status0.power] to friendly units.",
+      "effects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Rage",
+              "count": 5
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetTeamType": "Team.Type.Monsters"
+        }
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnSpawn"
+    }
+  ],
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Fledgling Imp",
-  "linkedPactDuplicateRarity": 2,
-  "triggerUpgrades": [
-    {
-      "trigger": 2,
-      "descriptionKey": "CardUpgradeData_descriptionKey-fc35663d98d9ffcd-12d8dd2501a1bb244bf61df948711f82-v2",
-      "effects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetTeamType": 2,
-          "paramStatusEffects": [
-            {
-              "statusId": "buff",
-              "count": 5
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare"
 }

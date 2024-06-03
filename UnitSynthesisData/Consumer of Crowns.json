@@ -1,9 +1,9 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-741e90e8ed5ab89f-2e4e71502afb00f4eb1f7035fe499b15-v2",
+  "upgradeDescription": "+10[attack], +10[health], and -3[ember].",
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Consumer of Crowns",
-  "linkedPactDuplicateRarity": 2,
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
   "bonusDamage": 10,
   "bonusHP": 10,
   "costReduction": 3

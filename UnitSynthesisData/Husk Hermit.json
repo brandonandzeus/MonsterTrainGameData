@@ -1,8 +1,8 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-d0178e16dda8ee9f-b1d366f110a09b2438a5c10277c4b71a-v2",
+  "upgradeDescription": "+30[health].",
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Husk Hermit",
-  "linkedPactDuplicateRarity": 2,
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
   "bonusHP": 30
 }

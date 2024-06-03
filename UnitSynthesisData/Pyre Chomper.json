@@ -1,8 +1,8 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-7575e283e8e73c84-4c12c2a9b6b61bc4d8b2706d6745b741-v2",
+  "upgradeDescription": "-4[ember].",
   "hideUpgradeIconOnCard": true,
   "isUnitSynthesisUpgrade": true,
   "sourceSynthesisUnit": "Pyre Chomper",
-  "linkedPactDuplicateRarity": 2,
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
   "costReduction": 4
 }

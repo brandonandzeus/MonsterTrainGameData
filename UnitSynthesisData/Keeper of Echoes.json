@@ -1,27 +1,27 @@
 {
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-3d9d6c9d78d6aa0f-16c29f968f0ebc94fb926e20b0f98e5b-v2",
-  "hideUpgradeIconOnCard": true,
-  "isUnitSynthesisUpgrade": true,
-  "sourceSynthesisUnit": "Keeper of Echoes",
-  "linkedPactDuplicateRarity": 2,
-  "bonusHP": 5,
+  "upgradeDescription": "+5[health] and '<b>Inspire</b>: +1[attack] and +1[health].'",
   "triggerUpgrades": [
     {
-      "trigger": 32,
-      "descriptionKey": "CardUpgradeData_descriptionKey-ea427ec23a46f79d-16c29f968f0ebc94fb926e20b0f98e5b-v2",
+      "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
       "effects": [
         {
-          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-          "targetMode": 5,
-          "targetTeamType": 2,
-          "paramInt": 1,
           "paramCardUpgradeData": {
             "isUnitSynthesisUpgrade": true,
             "bonusDamage": 1,
             "bonusHP": 1
-          }
+          },
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Monsters",
+          "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.CorruptionAdded"
     }
-  ]
+  ],
+  "hideUpgradeIconOnCard": true,
+  "isUnitSynthesisUpgrade": true,
+  "sourceSynthesisUnit": "Keeper of Echoes",
+  "linkedPactDuplicateRarity": "CollectableRarity.Rare",
+  "bonusHP": 5
 }
