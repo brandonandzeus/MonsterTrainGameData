@@ -1,29 +1,34 @@
 {
-  "nameKey": "CovenantData_nameKey-d02cfc5c077127ee-99b9103b36d8f1f4381f9988c916c2db-v2",
-  "descriptionKey": "CovenantData_descriptionKey-206cc8ad6d68db32-99b9103b36d8f1f4381f9988c916c2db-v2",
+  "name": "Ascension23HeavyEnemyUnitsHealth",
+  "description": "Heavy enemy units have increased [health].",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 5,
       "paramCharacterSubtype": "SubtypesData_HeavyT1",
-      "paramTrigger": 2
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 10,
       "paramCharacterSubtype": "SubtypesData_HeavyT2",
-      "paramTrigger": 2
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 30,
       "paramCharacterSubtype": "SubtypesData_HeavyT3",
-      "paramTrigger": 2
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "ascensionLevel": 23,
-  "name": "Ascension23HeavyEnemyUnitsHealth"
+  "ascensionLevel": 23
 }

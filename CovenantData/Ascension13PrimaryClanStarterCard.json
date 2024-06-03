@@ -1,14 +1,18 @@
 {
-  "descriptionKey": "CovenantData_descriptionKey-c0b1d4d4796fc4de-a1ded66defd8c5c4eb42fa1de01cb72a-v2",
+  "description": "Add a copy of the primary clan starter card to your starting deck.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddCardSetStartOfRun",
       "paramCardSetBuilder": {
         "paramCardPulls": [
           null
         ],
         "name": "MainClassCopies1X"
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardSetStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "ascensionLevel": 13,

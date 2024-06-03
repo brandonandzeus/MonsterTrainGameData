@@ -1,9 +1,13 @@
 {
-  "descriptionKey": "CovenantData_descriptionKey-60a926ab90a2ac23-ed440ab17f4b12944856a2b64fbb44eb-v2",
+  "description": "Your Pyre takes [effect0.power] damage at the start of the run.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectDamagePyreStartOfRun",
-      "paramInt": 20
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 20,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "ascensionLevel": 9,

@@ -1,31 +1,33 @@
 {
-  "nameKey": "CovenantData_nameKey-3fc8f01ae84e0df4-c72b71b28e4f9f645aca4305bfc9956c-v2",
-  "descriptionKey": "CovenantData_descriptionKey-48dc716a29e058cc-c72b71b28e4f9f645aca4305bfc9956c-v2",
+  "name": "Ascension10TopFloorEmberdrain",
+  "description": "Apply [emberdrain] 1 to the first friendly unit played on the top floor each turn.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawnCov10Hack",
-      "paramSourceTeam": 2,
-      "paramInt": 2,
-      "paramString": "OnlyFromCard",
-      "paramBool": true,
       "paramStatusEffects": [
         {
-          "statusId": "scorch",
+          "statusId": "VanillaStatusEffectIDs.Emberdrain",
           "count": 1
         }
       ],
-      "paramTrigger": 2,
       "effectConditions": [
         {
-          "paramTrackedValue": 32,
-          "paramCardType": 0,
-          "paramComparator": 4,
+          "paramTrackedValue": "CardStatistics.TrackedValueType.AnyMonsterSpawnedTopFloor",
+          "paramCardType": "CardStatistics.CardTypeTarget.Any",
+          "paramEntryDuration": "CardStatistics.EntryDuration.ThisTurn",
+          "paramComparator": "RelicEffectCondition.Comparator.GreaterThan",
           "allowMultipleTriggersPerDuration": false
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawnCov10Hack",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 2,
+      "paramString": "OnlyFromCard",
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "ascensionLevel": 10,
-  "hellforgedDescriptionKey": "Covenant10_Description_Hellforged",
-  "name": "Ascension10TopFloorEmberdrain"
+  "hellforgedDescription": "Apply [emberdrain] 1 to the first unit played on the top floor each turn. Boss power increased per [crystal].",
+  "ascensionLevel": 10
 }

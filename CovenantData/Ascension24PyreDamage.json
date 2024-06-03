@@ -1,12 +1,15 @@
 {
-  "nameKey": "CovenantData_nameKey-9543788246b0b4fb-dd781538ad3606845b5b7c4edd867bdb-v2",
-  "descriptionKey": "CovenantData_descriptionKey-c96c01379daca2de-dd781538ad3606845b5b7c4edd867bdb-v2",
+  "name": "Ascension24PyreDamage",
+  "description": "Your Pyre takes [effect0.power] damage at the start of the run.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectDamagePyreStartOfRun",
-      "paramInt": 20
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 20,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "ascensionLevel": 24,
-  "name": "Ascension24PyreDamage"
+  "ascensionLevel": 24
 }

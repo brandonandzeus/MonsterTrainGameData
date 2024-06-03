@@ -1,13 +1,15 @@
 {
-  "nameKey": "CovenantData_nameKey-2202ed369c96ca93-b0f5aabd53404cc47a349247d703f6fb-v2",
-  "descriptionKey": "CovenantData_descriptionKey-8fb55b5b1ef4e7e9-b0f5aabd53404cc47a349247d703f6fb-v2",
+  "name": "Ascension01StrongerEnemies",
+  "description": "Enemies are stronger. Add additional random cards to your starting deck.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectPurgeStarterDeck"
+      "relicEffectClassName": "RelicEffectPurgeStarterDeck",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddCardSetStartOfRun",
-      "paramInt": 1,
       "paramCardSetBuilder": {
         "paramCardPulls": [
           {
@@ -17,8 +19,10 @@
                 "..."
               ]
             },
+            "classType": "RunState.ClassType.MainClass",
             "numCopies": 2,
             "hasRarityCondition": true,
+            "cardRarity": "CollectableRarity.Common",
             "showcaseAtRunStart": true,
             "name": "MainClassCommon2X"
           },
@@ -29,9 +33,10 @@
                 "..."
               ]
             },
-            "classType": 2,
+            "classType": "RunState.ClassType.SubClass",
             "numCopies": 2,
             "hasRarityCondition": true,
+            "cardRarity": "CollectableRarity.Common",
             "showcaseAtRunStart": true,
             "name": "SubClassCommon2X"
           },
@@ -42,27 +47,29 @@
                 "TrainSteward"
               ]
             },
-            "classType": 7,
+            "classType": "RunState.ClassType.NonClass | RunState.ClassType.MainClass | RunState.ClassType.SubClass",
             "numCopies": 4,
+            "cardRarity": "CollectableRarity.Common",
             "name": "TrainSteward4X"
           },
           {
             "cardPool": [
 
             ],
+            "classType": "RunState.ClassType.MainClass",
             "numCopies": 3,
             "hasRarityCondition": true,
-            "cardRarity": 4,
+            "cardRarity": "CollectableRarity.Starter",
             "name": "MainClassStarter3X"
           },
           {
             "cardPool": [
 
             ],
-            "classType": 2,
+            "classType": "RunState.ClassType.SubClass",
             "numCopies": 3,
             "hasRarityCondition": true,
-            "cardRarity": 4,
+            "cardRarity": "CollectableRarity.Starter",
             "name": "SubClassStarter3X"
           },
           {
@@ -72,63 +79,85 @@
                 "..."
               ]
             },
+            "classType": "RunState.ClassType.MainClass",
             "hasRarityCondition": true,
-            "cardRarity": 1,
+            "cardRarity": "CollectableRarity.Uncommon",
             "showcaseAtRunStart": true,
             "name": "MainClassUncommon1X"
           }
         ],
         "name": "RandomizedStarterDeck"
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardSetStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectEnableSpecialCharacters",
-      "paramSpecialCharacterType": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramSpecialCharacterType": "SpecialCharacterType.HarderOuterTrainBossCharacter",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 80,
       "paramCharacterSubtype": "SubtypesData_BossT1_8850292e-bda8-428e-8d71-c375c29838f8",
-      "paramTrigger": 2
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 200,
       "paramCharacterSubtype": "SubtypesData_BossT2_935b30b5-bb94-4fd4-b3be-2ed0eb73ccf6",
-      "paramTrigger": 2
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 350,
       "paramCharacterSubtype": "SubtypesData_BossT3_ef0103da-a050-4ebb-af3a-b3e285db5e0c",
-      "paramTrigger": 2
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 15,
       "paramCharacterSubtype": "SubtypesData_HeavyT1",
-      "paramTrigger": 2
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 20,
       "paramCharacterSubtype": "SubtypesData_HeavyT2",
-      "paramTrigger": 2
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 30,
       "paramCharacterSubtype": "SubtypesData_HeavyT3",
-      "paramTrigger": 2
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "ascensionLevel": 1,
-  "hellforgedDescriptionKey": "Covenant1_Description_Hellforged",
-  "name": "Ascension01StrongerEnemies"
+  "hellforgedDescription": "Enemies are stronger. [crystal] are available. Add additional random cards to your starting deck.",
+  "ascensionLevel": 1
 }

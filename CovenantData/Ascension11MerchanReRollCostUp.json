@@ -1,12 +1,15 @@
 {
-  "nameKey": "CovenantData_nameKey-25c78128123e024d-c7f08bbe8f1b52d46ade18b2ce9683a0-v2",
-  "descriptionKey": "CovenantData_descriptionKey-2c8503bf16b34534-c7f08bbe8f1b52d46ade18b2ce9683a0-v2",
+  "name": "Ascension11MerchanReRollCostUp",
+  "description": "Merchant re-roll costs 20% more.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyMerchantRerollCosts",
-      "paramFloat": 0.2
+      "paramSourceTeam": "Team.Type.None",
+      "paramFloat": 0.2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "ascensionLevel": 11,
-  "name": "Ascension11MerchanReRollCostUp"
+  "ascensionLevel": 11
 }

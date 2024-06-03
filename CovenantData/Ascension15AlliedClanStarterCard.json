@@ -1,17 +1,20 @@
 {
-  "nameKey": "CovenantData_nameKey-55b06d9308798ae3-eab0760f967918a49a66fb138716232e-v2",
-  "descriptionKey": "CovenantData_descriptionKey-8731132d8d4a42b6-eab0760f967918a49a66fb138716232e-v2",
+  "name": "Ascension15AlliedClanStarterCard",
+  "description": "Add a copy of the allied clan starter card to your starting deck.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddCardSetStartOfRun",
       "paramCardSetBuilder": {
         "paramCardPulls": [
           null
         ],
         "name": "SubClassCopies1X"
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardSetStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "ascensionLevel": 15,
-  "name": "Ascension15AlliedClanStarterCard"
+  "ascensionLevel": 15
 }

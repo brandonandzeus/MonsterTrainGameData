@@ -1,12 +1,15 @@
 {
-  "nameKey": "CovenantData_nameKey-0e6ef6dc37b9d23a-4235dfd5638c6134a80c4c918f37d598-v2",
-  "descriptionKey": "CovenantData_descriptionKey-ee3ba312b0869802-4235dfd5638c6134a80c4c918f37d598-v2",
+  "name": "Ascension18MerchantGoodsCostUp",
+  "description": "Merchant goods cost 20% more.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyMerchantBlessingCosts",
-      "paramFloat": 0.2
+      "paramSourceTeam": "Team.Type.None",
+      "paramFloat": 0.2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "ascensionLevel": 18,
-  "name": "Ascension18MerchantGoodsCostUp"
+  "ascensionLevel": 18
 }

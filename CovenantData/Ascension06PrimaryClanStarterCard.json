@@ -1,24 +1,28 @@
 {
-  "nameKey": "CovenantData_nameKey-6141be38d2348b37-386452ae5fb833844b98bee1e3d23cf5-v2",
-  "descriptionKey": "CovenantData_descriptionKey-6f9e7ac356030ba9-386452ae5fb833844b98bee1e3d23cf5-v2",
+  "name": "Ascension06PrimaryClanStarterCard",
+  "description": "Add a copy of the primary clan starter card to your starting deck.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddCardSetStartOfRun",
       "paramCardSetBuilder": {
         "paramCardPulls": [
           {
             "cardPool": [
 
             ],
+            "classType": "RunState.ClassType.MainClass",
             "hasRarityCondition": true,
-            "cardRarity": 4,
+            "cardRarity": "CollectableRarity.Starter",
             "name": "MainClassStarter1X"
           }
         ],
         "name": "MainClassCopies1X"
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardSetStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "ascensionLevel": 6,
-  "name": "Ascension06PrimaryClanStarterCard"
+  "ascensionLevel": 6
 }

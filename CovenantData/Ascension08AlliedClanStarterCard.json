@@ -1,25 +1,28 @@
 {
-  "nameKey": "CovenantData_nameKey-5592cec87cda24e8-b1de8fd81e221164280ef4835c6d9a1f-v2",
-  "descriptionKey": "CovenantData_descriptionKey-9d23f86217a73636-b1de8fd81e221164280ef4835c6d9a1f-v2",
+  "name": "Ascension08AlliedClanStarterCard",
+  "description": "Add a copy of the allied clan starter card to your starting deck.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddCardSetStartOfRun",
       "paramCardSetBuilder": {
         "paramCardPulls": [
           {
             "cardPool": [
 
             ],
-            "classType": 2,
+            "classType": "RunState.ClassType.SubClass",
             "hasRarityCondition": true,
-            "cardRarity": 4,
+            "cardRarity": "CollectableRarity.Starter",
             "name": "SubClassStarter1X"
           }
         ],
         "name": "SubClassCopies1X"
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardSetStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "ascensionLevel": 8,
-  "name": "Ascension08AlliedClanStarterCard"
+  "ascensionLevel": 8
 }

@@ -1,15 +1,17 @@
 {
-  "descriptionKey": "CovenantData_descriptionKey-99f6cad17af8af5c-50fa8cb7ed67f204cb7a9be7e04ca4fd-v2",
+  "description": "<b>Seraph</b> has +[effect0.power][health].",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 1000,
       "paramCharacterSubtype": "SubtypesData_BigBossT3_f7449215-5071-4671-909c-a02e2cceb821",
-      "paramTrigger": 2
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "hellforgedDescription": "<b>Seraph</b> has +1000[health]. <b>The Last Divinity</b> has +1500[health].",
   "ascensionLevel": 25,
-  "hellforgedDescriptionKey": "Covenant25_Description_Hellforged",
   "name": "Ascension25SeraphHealth"
 }

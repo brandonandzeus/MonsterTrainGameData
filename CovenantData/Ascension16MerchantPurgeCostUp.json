@@ -1,12 +1,14 @@
 {
-  "descriptionKey": "CovenantData_descriptionKey-8a9f9b1abd0efbac-9418db60d2e558342a8ef0bdd179f433-v2",
+  "description": "Merchant purge costs 20% more.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyMerchantPurgeCosts",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramFloat": 0.2,
       "paramCharacterSubtype": "SubtypesData_BossT3_ef0103da-a050-4ebb-af3a-b3e285db5e0c",
-      "paramTrigger": 2
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "ascensionLevel": 16,

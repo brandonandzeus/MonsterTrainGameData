@@ -1,14 +1,18 @@
 {
-  "descriptionKey": "CovenantData_descriptionKey-163d82de62f62536-4ab232da5a388f64f89087fd521cf4ae-v2",
-  "relicActivatedKey": "CovenantData_relicActivatedKey-d8e744a5e72a362c-4ab232da5a388f64f89087fd521cf4ae-v2",
+  "description": "[effect0.power][capacity] on the middle floor.",
+  "relicActivated": "{0}[capacity]",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectChangeSingleFloorCapacity",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": -1,
-      "paramFloat": 1.0
+      "paramFloat": 1.0,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "hellforgedDescription": "-1[capacity] on the middle floor. <b>The Last Divinity</b> battle now has additional enemies.",
   "ascensionLevel": 20,
-  "hellforgedDescriptionKey": "Covenant20_Description_Hellforged",
   "name": "Ascension20MinusCapacityMiddleFloor"
 }

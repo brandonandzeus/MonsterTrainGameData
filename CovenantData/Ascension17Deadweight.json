@@ -1,18 +1,21 @@
 {
-  "nameKey": "CovenantData_nameKey-ffe8615bf2ca1af5-28875824e36ad1f478aaa3cf744d0e6f-v2",
-  "descriptionKey": "CovenantData_descriptionKey-2aec80186c844f85-28875824e36ad1f478aaa3cf744d0e6f-v2",
+  "name": "Ascension17Deadweight",
+  "description": "Add <b>Deadweight</b> to your starting deck.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
-      "paramInt": 1,
       "paramCardPool": {
         "name": "LodestoneOnlyPool",
         "cardDataList": [
           "UnplayableUnpurgeable"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "ascensionLevel": 17,
-  "name": "Ascension17Deadweight"
+  "ascensionLevel": 17
 }
