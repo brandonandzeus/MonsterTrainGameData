@@ -38,8 +38,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-5a3bf208a8df66a0-ba29027417d6d8e4588ecd4cd4785af6-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -61,7 +61,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -70,14 +71,6 @@
       "Highpriest to the Light"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector"
-  ],
-  "traitorUnitsPool": [
-    null
-  ],
   "trials": {
     "listName": "T1Trials",
     "trialDatas": [
@@ -88,11 +81,20 @@
       "T1GoldForInvasion"
     ]
   },
+  "battleName": "Swarming Attackers",
+  "battleDescription": "Numerous weak attackers want to take you down. Use spells to thin them out before attacking with your units.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector"
+  ],
+  "traitorUnitsPool": [
+    null
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-bd77dfb04a2df733-ba29027417d6d8e4588ecd4cd4785af6-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-65df07f3c06470b3-ba29027417d6d8e4588ecd4cd4785af6-v2",
   "displayedEnemies": [
     "Discipled Footsoldier",
     "Discipled Footsoldier"

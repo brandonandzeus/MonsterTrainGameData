@@ -118,11 +118,13 @@
         ]
       }
     ],
-    "bossType": 1,
+    "bossType": "SpawnPatternData.BossType.OuterTrainBoss",
     "bossCharacter": "Seraph the Patient",
     "hardBossCharacter": "Seraph the Patient Hard"
   },
-  "difficulty": 2,
+  "battleName": "Seraph the Patient",
+  "battleDescription": "The end is near. The Traitor has grown impatient, joining the fight immediately and gaining strength with every move you make.",
+  "difficulty": "ScenarioDifficulty.Boss",
   "enemyBlessingData": [
     "Enemy_SeraphRally"
   ],
@@ -136,8 +138,6 @@
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-64670d8d538989b5-269d845ae77656c48ba4480ad7d25efc-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-d4c6cb170e936341-269d845ae77656c48ba4480ad7d25efc-v2",
   "displayedEnemies": [
 
   ],

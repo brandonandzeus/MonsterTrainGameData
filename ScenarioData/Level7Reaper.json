@@ -100,8 +100,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-aaccad590ad8155b-de58df12bfadb4f459040beb59ec2268-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -124,7 +124,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -132,14 +133,6 @@
       "Nephil, the Wingless General"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector 3"
-  ],
-  "traitorUnitsPool": [
-    null
-  ],
   "trials": {
     "listName": "T3Trials",
     "trialDatas": [
@@ -151,11 +144,20 @@
       null
     ]
   },
+  "battleName": "The Shadewings",
+  "battleDescription": "Winged acquainted with the power of death. They consume the souls of their victims to heal and grow stronger.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector 3"
+  ],
+  "traitorUnitsPool": [
+    null
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-efb815f77daa19cc-de58df12bfadb4f459040beb59ec2268-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-d0dd056727cc7e3f-de58df12bfadb4f459040beb59ec2268-v2",
   "displayedEnemies": [
     "Shadewings",
     "Gilded Wing"

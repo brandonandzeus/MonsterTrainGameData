@@ -121,11 +121,13 @@
         ]
       }
     ],
-    "bossType": 1,
+    "bossType": "SpawnPatternData.BossType.OuterTrainBoss",
     "bossCharacter": "Fel, the Wings of Light Scouring Crest",
     "hardBossCharacter": "Fel, the Wings of Light Scouring Crest Hard"
   },
-  "difficulty": 2,
+  "battleName": "Fel, the Wings of Light",
+  "battleDescription": "Clipped Absolvers guard Fel to weigh you down with guilt before the warrior can make her killing blow. Remove these weights to thwart their assault.",
+  "difficulty": "ScenarioDifficulty.Boss",
   "enemyBlessingData": [
     "Enemy_SpawnBigHPRootedOnDeathJunk"
   ],
@@ -139,8 +141,6 @@
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-e137c8470585eb2e-ba59a9aae7cad0f4fb9ac6b616ecc912-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-6ee9bd6f0aa74cce-ba59a9aae7cad0f4fb9ac6b616ecc912-v2",
   "displayedEnemies": [
 
   ],

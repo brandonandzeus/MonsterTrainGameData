@@ -74,8 +74,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-82fd79f1c70001bc-4f747a37004b2df4abdda9ed421926e2-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -97,7 +97,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -106,14 +107,6 @@
       "Sower of Sorrow"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector 2"
-  ],
-  "traitorUnitsPool": [
-    null
-  ],
   "trials": {
     "listName": "T2Trials",
     "trialDatas": [
@@ -126,11 +119,20 @@
       null
     ]
   },
+  "battleName": "Hidden Assault",
+  "battleDescription": "Sneaky Clipped have infiltrated your train. Use spells and higher floors to take them out.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector 2"
+  ],
+  "traitorUnitsPool": [
+    null
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-ea7483e4fac911f6-4f747a37004b2df4abdda9ed421926e2-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-7c74b51e4a6dde0b-4f747a37004b2df4abdda9ed421926e2-v2",
   "displayedEnemies": [
     "Overcharged Tank",
     "Silent Marksman"

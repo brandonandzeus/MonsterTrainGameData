@@ -32,8 +32,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-7cff19db83103b14-23eec486508e31a4b8ec313ff225dd27-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -49,7 +49,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -58,14 +59,6 @@
       "Highpriest to the Light"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector"
-  ],
-  "traitorUnitsPool": [
-
-  ],
   "trials": {
     "listName": "T1Trials",
     "trialDatas": [
@@ -76,11 +69,20 @@
       null
     ]
   },
+  "battleName": "Disciple Railguard",
+  "battleDescription": "Deal maximum damage to work through the extra health of the shield users.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector"
+  ],
+  "traitorUnitsPool": [
+
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-e47a86e1e9dd9a97-23eec486508e31a4b8ec313ff225dd27-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-a27843dbb5e37fa1-23eec486508e31a4b8ec313ff225dd27-v2",
   "displayedEnemies": [
     "Disciple Protector",
     "Forged Disciple"

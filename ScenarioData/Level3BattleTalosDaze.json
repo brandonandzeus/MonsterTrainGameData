@@ -100,11 +100,13 @@
         ]
       }
     ],
-    "bossType": 1,
+    "bossType": "SpawnPatternData.BossType.OuterTrainBoss",
     "bossCharacter": "Talos, the Architect Soul Sucker",
     "hardBossCharacter": "Talos, the Architect Soul Sucker Hard"
   },
-  "difficulty": 2,
+  "battleName": "Talos, the Architect",
+  "battleDescription": "Talos has perfected her aggressive precision, striking swiftly to daze those she hits.",
+  "difficulty": "ScenarioDifficulty.Boss",
   "enemyBlessingData": [
     "Enemy_BossLevel3VariantB"
   ],
@@ -118,8 +120,6 @@
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-c991f8b9ffd84b1b-4fc8ea8db25af0b4bbcc026d8199b289-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-d446a9e1d865aa1e-4fc8ea8db25af0b4bbcc026d8199b289-v2",
   "displayedEnemies": [
 
   ],

@@ -102,8 +102,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-afd6a2caea2d59f3-c96a061da73590046bcf3124d036ce78-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -127,7 +127,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -135,14 +136,6 @@
       "Nephil, the Wingless General"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector 3"
-  ],
-  "traitorUnitsPool": [
-    null
-  ],
   "trials": {
     "listName": "T3Trials",
     "trialDatas": [
@@ -154,11 +147,20 @@
       null
     ]
   },
+  "battleName": "The Winged Horde",
+  "battleDescription": "Although weaker soldiers, this mob of Winged will fight with all they have, dealing damage to your units as they take their final breath.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector 3"
+  ],
+  "traitorUnitsPool": [
+    null
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-8c5e5f6c207b820e-c96a061da73590046bcf3124d036ce78-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-407f06cd90334b00-c96a061da73590046bcf3124d036ce78-v2",
   "displayedEnemies": [
     "Darkwings",
     "Wiltwings"

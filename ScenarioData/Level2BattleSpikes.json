@@ -40,8 +40,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-be7c4da44351aa0b-b93cb6d0de527fa43be9bc2c80b06c84-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -64,7 +64,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -73,14 +74,6 @@
       "Highpriest to the Light"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector"
-  ],
-  "traitorUnitsPool": [
-    null
-  ],
   "trials": {
     "listName": "T1Trials",
     "trialDatas": [
@@ -91,11 +84,20 @@
       null
     ]
   },
+  "battleName": "Barbed Disciples",
+  "battleDescription": "These spiked foes will make direct attacks more painful. Using spells from afar will let you fight without sacrificing your units.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector"
+  ],
+  "traitorUnitsPool": [
+    null
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-f7a3cbc80ebcbf0b-b93cb6d0de527fa43be9bc2c80b06c84-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-04f9be317a44dd1b-b93cb6d0de527fa43be9bc2c80b06c84-v2",
   "displayedEnemies": [
     "Conduit Redirector",
     "Disciple Protector"

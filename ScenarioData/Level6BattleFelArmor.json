@@ -115,11 +115,13 @@
         ]
       }
     ],
-    "bossType": 1,
+    "bossType": "SpawnPatternData.BossType.OuterTrainBoss",
     "bossCharacter": "Fel, the Wings of Light Eternal Crest",
     "hardBossCharacter": "Fel, the Wings of Light Eternal Crest Hard"
   },
-  "difficulty": 2,
+  "battleName": "Fel, the Wings of Light",
+  "battleDescription": "This Clipped warrior has become Winged once more, creating statues in her former image to block your assault.",
+  "difficulty": "ScenarioDifficulty.Boss",
   "enemyBlessingData": [
     "Enemy_SpawnBigHPRootedSpellShield"
   ],
@@ -133,8 +135,6 @@
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-ac1a46042160cada-38638b26641e73d4cac4444281b6364b-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-1661d0fc64d51c74-38638b26641e73d4cac4444281b6364b-v2",
   "displayedEnemies": [
 
   ],

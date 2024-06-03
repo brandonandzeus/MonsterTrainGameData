@@ -120,11 +120,13 @@
         ]
       }
     ],
-    "bossType": 1,
+    "bossType": "SpawnPatternData.BossType.OuterTrainBoss",
     "bossCharacter": "Seraph the Chaste Hard",
     "hardBossCharacter": "Seraph the Chaste Hard"
   },
-  "difficulty": 2,
+  "battleName": "Seraph the Chaste",
+  "battleDescription": "The end is near. This incarnation of Hell's greatest foe has the power to <b>cleanse all units of effects which don't benefit Seraph</b>. This fight will require more than sheer strength.",
+  "difficulty": "ScenarioDifficulty.Boss",
   "enemyBlessingData": [
     "Enemy_SeraphCleanse"
   ],
@@ -138,8 +140,6 @@
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-162ad0fb888e7078-f553defd1f30dd74483d5cfd13dd1513-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-da3589fa253ea1c8-f553defd1f30dd74483d5cfd13dd1513-v2",
   "displayedEnemies": [
 
   ],

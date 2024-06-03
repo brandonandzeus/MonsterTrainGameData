@@ -89,8 +89,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-2964230151f517fb-924e889d40571e348a27343ba735d2eb-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -106,7 +106,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -114,14 +115,6 @@
       "Nephil, the Wingless General"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector 3"
-  ],
-  "traitorUnitsPool": [
-    null
-  ],
   "trials": {
     "listName": "T3Trials",
     "trialDatas": [
@@ -133,11 +126,20 @@
       null
     ]
   },
+  "battleName": "The Penitent",
+  "battleDescription": "These <b>Purifiers</b> will burden you with the weight of your sins until your penance has been paid in full.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector 3"
+  ],
+  "traitorUnitsPool": [
+    null
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-88a1caa8098b4a63-924e889d40571e348a27343ba735d2eb-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-cdd44684c2b0e042-924e889d40571e348a27343ba735d2eb-v2",
   "displayedEnemies": [
     "Steelwings",
     "Purifier"

@@ -135,11 +135,13 @@
         ]
       }
     ],
-    "bossType": 1,
+    "bossType": "SpawnPatternData.BossType.OuterTrainBoss",
     "bossCharacter": "Seraph the Temperant",
     "hardBossCharacter": "Seraph the Temperant Hard"
   },
-  "difficulty": 2,
+  "battleName": "Seraph the Temperant",
+  "battleDescription": "The end is near. This incarnation of Hell's greatest foe will <b>temper the strength of your units</b>. Only the truly determined can survive.",
+  "difficulty": "ScenarioDifficulty.Boss",
   "enemyBlessingData": [
     "Enemy_SeraphSap"
   ],
@@ -153,8 +155,6 @@
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-8b64c0a2640b83f4-3c358576f9397c2449d3a2415b3dfeaf-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-cdf694af4ae6b98f-3c358576f9397c2449d3a2415b3dfeaf-v2",
   "displayedEnemies": [
 
   ],

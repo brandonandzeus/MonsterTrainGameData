@@ -97,11 +97,13 @@
         ]
       }
     ],
-    "bossType": 1,
+    "bossType": "SpawnPatternData.BossType.OuterTrainBoss",
     "bossCharacter": "Talos, the Architect Empowering Offense",
     "hardBossCharacter": "Talos, the Architect Empowering Offense Hard"
   },
-  "difficulty": 2,
+  "battleName": "Talos, the Architect",
+  "battleDescription": "The Architect of the Exodus attacks blindly and gains more protection with each unit she slays, so take her out quickly.  ",
+  "difficulty": "ScenarioDifficulty.Boss",
   "enemyBlessingData": [
     "Enemy_BossLevel3Offensive"
   ],
@@ -115,8 +117,6 @@
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-b92ec18706d11502-52e4f8d766aa93f4081da386afe910da-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-24dd832d50b8d3a1-52e4f8d766aa93f4081da386afe910da-v2",
   "displayedEnemies": [
 
   ],

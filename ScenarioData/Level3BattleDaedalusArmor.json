@@ -95,11 +95,13 @@
         ]
       }
     ],
-    "bossType": 1,
+    "bossType": "SpawnPatternData.BossType.OuterTrainBoss",
     "bossCharacter": "Daedalus, the Professor Plating Seal",
     "hardBossCharacter": "Daedalus, the Professor Plating Seal Hard"
   },
-  "difficulty": 2,
+  "battleName": "Daedalus, the Professor",
+  "battleDescription": "Heavily armored creations protect this ex-professor in his quest to safeguard Seraph and the Winged.",
+  "difficulty": "ScenarioDifficulty.Boss",
   "enemyBlessingData": [
     "Enemy_ExplosivesGetDamageShield"
   ],
@@ -113,8 +115,6 @@
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-3db3e5dd990552dc-9356a81e7982d2c49ab6af0893b8d146-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-86e3871647167461-9356a81e7982d2c49ab6af0893b8d146-v2",
   "displayedEnemies": [
 
   ],

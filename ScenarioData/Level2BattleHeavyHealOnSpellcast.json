@@ -39,8 +39,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-e84c2de1b89cee07-de0906f6d1c051840a70caebc8b2f04e-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -63,7 +63,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -72,14 +73,6 @@
       "Highpriest to the Light"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector"
-  ],
-  "traitorUnitsPool": [
-    null
-  ],
   "trials": {
     "listName": "T1Trials",
     "trialDatas": [
@@ -90,11 +83,20 @@
       null
     ]
   },
+  "battleName": "Pyre Absorbers",
+  "battleDescription": "These Pyre-sensitive attackers are heavy hitters and get stronger when spells are cast. Use your spells wisely.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector"
+  ],
+  "traitorUnitsPool": [
+    null
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-e4c185f58deef3bc-de0906f6d1c051840a70caebc8b2f04e-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-a570db16a91c727e-de0906f6d1c051840a70caebc8b2f04e-v2",
   "displayedEnemies": [
     "Trusted Priest",
     "Overcharged Apprentice"

@@ -74,8 +74,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-d881a833f3861e14-c0ab0d7198bf1f64ab905788f0079afd-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -94,7 +94,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -103,14 +104,6 @@
       "Pyrelight Master"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector 2"
-  ],
-  "traitorUnitsPool": [
-    null
-  ],
   "trials": {
     "listName": "T2Trials",
     "trialDatas": [
@@ -123,11 +116,20 @@
       null
     ]
   },
+  "battleName": "Clipped Infiltration",
+  "battleDescription": "These Clipped have enlisted Conduits to help them ascend your train more quickly. Remove the Conduit and the Clipped will become more vulnerable.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector 2"
+  ],
+  "traitorUnitsPool": [
+    null
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-a68fc3fa6f507d2c-c0ab0d7198bf1f64ab905788f0079afd-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-6b6a5b9dfecc41e0-c0ab0d7198bf1f64ab905788f0079afd-v2",
   "displayedEnemies": [
     "Clipped Conduit",
     "Clipped Guardian"

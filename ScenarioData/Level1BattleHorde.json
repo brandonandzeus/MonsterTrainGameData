@@ -48,8 +48,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-fd689713b6d83f1b-8d8a789e58e63af4da7f1608078d7f89-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -75,7 +75,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -83,14 +84,6 @@
       "Chains the Sighted"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector"
-  ],
-  "traitorUnitsPool": [
-
-  ],
   "trials": {
     "listName": "T1Trials",
     "trialDatas": [
@@ -100,11 +93,20 @@
       null
     ]
   },
+  "battleName": "The Gathered Clergy",
+  "battleDescription": "Angry hordes are swarming your train! Thin their numbers before they reach your Pyre.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector"
+  ],
+  "traitorUnitsPool": [
+
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-e5a730f7f09fbbbc-8d8a789e58e63af4da7f1608078d7f89-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-7f9a7938c659a701-8d8a789e58e63af4da7f1608078d7f89-v2",
   "displayedEnemies": [
     "Clergyman",
     "Clergyman"

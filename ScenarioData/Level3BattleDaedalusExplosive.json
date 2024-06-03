@@ -97,11 +97,13 @@
         ]
       }
     ],
-    "bossType": 1,
+    "bossType": "SpawnPatternData.BossType.OuterTrainBoss",
     "bossCharacter": "Daedalus, the Professor Explosive Sigil",
     "hardBossCharacter": "Daedalus, the Professor Explosive Sigil Hard"
   },
-  "difficulty": 2,
+  "battleName": "Daedalus, the Professor",
+  "battleDescription": "Creator of the devices used by the Disciples, this disgraced professor has arrived in Hell to support Seraph and the Winged with explosive devices.",
+  "difficulty": "ScenarioDifficulty.Boss",
   "enemyBlessingData": [
     "Enemy_TriggerDamageOnDeath"
   ],
@@ -115,8 +117,6 @@
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-000bdee29283fca9-1e8022ba5aa347d4c95186e799909768-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-711f38fb196a4ff6-1e8022ba5aa347d4c95186e799909768-v2",
   "displayedEnemies": [
 
   ],

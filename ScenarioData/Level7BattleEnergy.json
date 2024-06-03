@@ -79,8 +79,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-23f78f27dc48469f-00b882db88aa62344b70a09cb80daf8f-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -96,7 +96,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -104,14 +105,6 @@
       "Nephil, the Wingless General"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector 3"
-  ],
-  "traitorUnitsPool": [
-    null
-  ],
   "trials": {
     "listName": "T3Trials",
     "trialDatas": [
@@ -123,11 +116,20 @@
       "T3GoldForEnemyArmor"
     ]
   },
+  "battleName": "The Pyrewings",
+  "battleDescription": "The Winged scavengers of the Hell Pyre have learned to dampen the effectiveness of the Pyre shard you ferry to the end of Hell.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector 3"
+  ],
+  "traitorUnitsPool": [
+    null
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-8c1922910aa4c4a1-00b882db88aa62344b70a09cb80daf8f-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-5603b7b358a50675-00b882db88aa62344b70a09cb80daf8f-v2",
   "displayedEnemies": [
     "Steelwings",
     "Pyrewings"

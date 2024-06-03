@@ -95,11 +95,13 @@
         ]
       }
     ],
-    "bossType": 1,
+    "bossType": "SpawnPatternData.BossType.OuterTrainBoss",
     "bossCharacter": "Talos, the Architect Protective Sin",
     "hardBossCharacter": "Talos, the Architect Protective Sin Hard"
   },
-  "difficulty": 2,
+  "battleName": "Talos, the Architect",
+  "battleDescription": "Talos attacks quickly and decisively, using powerful blows to knock back whoever she hits.",
+  "difficulty": "ScenarioDifficulty.Boss",
   "enemyBlessingData": [
     "Enemy_BossLevel3Defensive"
   ],
@@ -113,8 +115,6 @@
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-91c8cbc9c3c13a56-83cc7f94ddf45b746bcaf7f6441a30d4-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-2f3537e73bffb6a2-83cc7f94ddf45b746bcaf7f6441a30d4-v2",
   "displayedEnemies": [
 
   ],

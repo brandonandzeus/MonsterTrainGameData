@@ -36,8 +36,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-32e3208cd864900b-5cabbd1ac8063314085c2c84682f5c22-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -60,7 +60,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -69,14 +70,6 @@
       "Highpriest to the Light"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector"
-  ],
-  "traitorUnitsPool": [
-    null
-  ],
   "trials": {
     "listName": "T1Trials",
     "trialDatas": [
@@ -87,11 +80,20 @@
       null
     ]
   },
+  "battleName": "Penitent Prayers",
+  "battleDescription": "The Reconcilers have arrived in great force to make sure that you repent for the sins that Hell has brought upon the world.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector"
+  ],
+  "traitorUnitsPool": [
+    null
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-7c63848cd1a3269c-5cabbd1ac8063314085c2c84682f5c22-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-b10b156bfff2748a-5cabbd1ac8063314085c2c84682f5c22-v2",
   "displayedEnemies": [
     "Forged Disciple",
     "Reconciler"

@@ -139,11 +139,13 @@
         ]
       }
     ],
-    "bossType": 1,
+    "bossType": "SpawnPatternData.BossType.OuterTrainBoss",
     "bossCharacter": "Seraph the Diligent",
     "hardBossCharacter": "Seraph the Diligent Hard"
   },
-  "difficulty": 2,
+  "battleName": "Seraph the Diligent",
+  "battleDescription": "The end is near. The Great Traitor will <b>devour your spells</b>. You better bring more of them if you hope to succeed.",
+  "difficulty": "ScenarioDifficulty.Boss",
   "enemyBlessingData": [
     "Enemy_SeraphAddConsumeToSpells"
   ],
@@ -157,8 +159,6 @@
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-a0f0e3253d38995e-baaa7e6caf8d0d74aa01ff1da0697356-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-18e3086009d4f5d6-baaa7e6caf8d0d74aa01ff1da0697356-v2",
   "displayedEnemies": [
 
   ],

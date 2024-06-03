@@ -36,8 +36,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-00ce4fab437d4038-0d371765c2c723f4099827bdf0096bc0-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -56,7 +56,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -64,14 +65,6 @@
       "Chains the Sighted"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector"
-  ],
-  "traitorUnitsPool": [
-
-  ],
   "trials": {
     "listName": "T1Trials",
     "trialDatas": [
@@ -81,6 +74,17 @@
       "T1GoldForInvasion"
     ]
   },
+  "battleName": "The First Defense",
+  "battleDescription": "Foot soldiers of the Disciples of Seraph. Weak attackers hidden in the back line. Take them down!",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector"
+  ],
+  "traitorUnitsPool": [
+
+  ],
   "ftueCardDrawData": [
     "Hornbreaker Prince",
     "Torch",
@@ -93,8 +97,6 @@
     "Torch",
     "Restore"
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-6067cd136f619ae8-0d371765c2c723f4099827bdf0096bc0-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-cbdfcd5fe766d0f0-0d371765c2c723f4099827bdf0096bc0-v2",
   "displayedEnemies": [
     "Discipled Footsoldier",
     "Disciple Protector"

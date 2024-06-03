@@ -70,8 +70,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-e5d8d86a2288dc4e-a70b69f5cc5369743a76311aa27e6c4f-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -90,7 +90,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -99,14 +100,6 @@
       "Pyrelight Master"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector 2"
-  ],
-  "traitorUnitsPool": [
-    null
-  ],
   "trials": {
     "listName": "T2Trials",
     "trialDatas": [
@@ -119,11 +112,20 @@
       "T2GoldForEnemyArmor"
     ]
   },
+  "battleName": "Clipped Guard",
+  "battleDescription": "These Clipped grow in strength each time they ascend your train. Take them out before they become unstoppable.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector 2"
+  ],
+  "traitorUnitsPool": [
+    null
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-be2ae505ea6d6921-a70b69f5cc5369743a76311aa27e6c4f-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-ccb7fa087f3cadbf-a70b69f5cc5369743a76311aa27e6c4f-v2",
   "displayedEnemies": [
     "Light Harnesser",
     "Clipped Defender"

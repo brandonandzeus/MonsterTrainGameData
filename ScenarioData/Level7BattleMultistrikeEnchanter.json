@@ -78,8 +78,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-b87f47c5a92ecf86-86dab0bd3bc44a34db99a9b9cead4279-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -98,7 +98,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -106,14 +107,6 @@
       "Nephil, the Wingless General"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector 3"
-  ],
-  "traitorUnitsPool": [
-    null
-  ],
   "trials": {
     "listName": "T3Trials",
     "trialDatas": [
@@ -125,11 +118,20 @@
       null
     ]
   },
+  "battleName": "Conduit Masters",
+  "battleDescription": "<b>Winged Conduits</b> have mastered the use of their armor and grant their allies the ability to strike multiple times. Remove the Conduits and this power will be removed too.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector 3"
+  ],
+  "traitorUnitsPool": [
+    null
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-84e62201ef6f64f7-86dab0bd3bc44a34db99a9b9cead4279-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-28311997fc5e4510-86dab0bd3bc44a34db99a9b9cead4279-v2",
   "displayedEnemies": [
     "Winged Conduit",
     "Gilded Wing"

@@ -289,7 +289,6 @@
       {
         "possibleGroups": [
           {
-            "waveMessageKey": "ScenarioData_waveMessageKey-50e334a52b58e321-dc9482372c110624c9a441e43d9695a5-v2",
             "characterDataContainerList": [
               {
                 "characterData": "Clipped Shaman"
@@ -334,7 +333,6 @@
       {
         "possibleGroups": [
           {
-            "waveMessageKey": "ScenarioData_waveMessageKey-8b83b128d3642e02-dc9482372c110624c9a441e43d9695a5-v2",
             "characterDataContainerList": [
               {
                 "characterData": "Absolver"
@@ -379,21 +377,29 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-35ad9f08b3269065-dc9482372c110624c9a441e43d9695a5-v2"
+            "waveMessage": "This is not the End",
+            "hasWaveMessage": true
           }
         ]
       }
     ],
     "forceCrystalVariant": true,
-    "bossType": 2,
+    "bossType": "SpawnPatternData.BossType.HellforgedBoss",
     "bossCharactersPerFloor": [
       "The Last Divinity Feet",
       "The Last Divinity Torso",
       "The Last Divinity Head"
     ]
   },
-  "difficulty": 2,
+  "battleName": "The Last Divinity",
+  "battleDescription": "Either in victory or defeat, the Divinity's endless destruction rages on.",
+  "displayedEnemyOffsets": [
+    {
+      "x": -555.0,
+      "y": -640.0
+    }
+  ],
+  "difficulty": "ScenarioDifficulty.Boss",
   "enemyBlessingData": [
     "Enemy_LastDivinity"
   ],
@@ -407,16 +413,8 @@
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-a407164e05a1589d-dc9482372c110624c9a441e43d9695a5-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-ef8d2903476db878-dc9482372c110624c9a441e43d9695a5-v2",
   "displayedEnemies": [
     "The Last Divinity Display"
-  ],
-  "displayedEnemyOffsets": [
-    {
-      "x": -555.0,
-      "y": -640.0
-    }
   ],
   "bossSpawnSFXCue": "Divinity_Intro",
   "backgroundData": "DivinityBackgroundData",

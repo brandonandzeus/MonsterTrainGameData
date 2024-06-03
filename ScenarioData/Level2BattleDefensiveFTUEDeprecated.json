@@ -48,7 +48,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -57,6 +58,9 @@
       "Highpriest to the Light"
     ]
   },
+  "battleName": "Disciple Railguard",
+  "battleDescription": "Deal maximum damage to work through the extra health of the shield users.",
+  "difficulty": "ScenarioDifficulty.Normal",
   "minTreasureUnits": 1,
   "maxTreasureUnits": 1,
   "treasureCharacterPool": [
@@ -68,8 +72,6 @@
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-08f7a8a47336d9f1-a5d88e9735e1b1646b9b88f9b8451330-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-ee59c0c244a1c741-a5d88e9735e1b1646b9b88f9b8451330-v2",
   "displayedEnemies": [
     "Disciple Protector",
     "Forged Disciple"

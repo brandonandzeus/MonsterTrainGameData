@@ -68,8 +68,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-2d09f892a729359c-d42831e382ec5b44bbd4ce9e911b6ad2-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -91,7 +91,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -100,14 +101,6 @@
       "Pyrelight Master"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector 2"
-  ],
-  "traitorUnitsPool": [
-    null
-  ],
   "trials": {
     "listName": "T2Trials",
     "trialDatas": [
@@ -120,11 +113,20 @@
       null
     ]
   },
+  "battleName": "Clipped Tormenters",
+  "battleDescription": "They might be low-level recruits of the Clipped, but they'll overload you with penance if you don't take them out quickly.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector 2"
+  ],
+  "traitorUnitsPool": [
+    null
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-67266ce1eb6e874b-d42831e382ec5b44bbd4ce9e911b6ad2-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-06340bdb5464adf3-d42831e382ec5b44bbd4ce9e911b6ad2-v2",
   "displayedEnemies": [
     "Clipped Guardian",
     "Absolver"

@@ -35,8 +35,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-cc8f08bafb17a83c-db2c82e1b31280647a0f5788705e2174-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -55,7 +55,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -64,6 +65,9 @@
       "Highpriest to the Light"
     ]
   },
+  "battleName": "Barbed Disciples",
+  "battleDescription": "These spiked foes will make direct attacks more painful. Using spells from afar will let you fight without sacrificing your units.",
+  "difficulty": "ScenarioDifficulty.Normal",
   "treasureCharacterPool": [
 
   ],
@@ -73,8 +77,6 @@
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-cfaa14ab0d97eba1-db2c82e1b31280647a0f5788705e2174-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-20627a01953f5ff6-db2c82e1b31280647a0f5788705e2174-v2",
   "displayedEnemies": [
     "Conduit Redirector",
     "Disciple Protector"

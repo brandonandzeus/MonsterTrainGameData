@@ -1,6 +1,10 @@
 {
   "spawnPattern": {
+    "bossType": "SpawnPatternData.BossType.None"
   },
+  "battleName": "Test Scenario",
+  "battleDescription": "Sandbox scenario. Go crazy and debug this train!",
+  "difficulty": "ScenarioDifficulty.Normal",
   "treasureCharacterPool": [
 
   ],
@@ -10,8 +14,6 @@
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-6b3922f8d5e35154-e830ee1d041e8504292b4c6efe5b2e08-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-88a9c829c007394c-e830ee1d041e8504292b4c6efe5b2e08-v2",
   "displayedEnemies": [
 
   ],

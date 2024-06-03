@@ -45,8 +45,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-c768e6b1e29fdf3d-b64da36064afd3c408655677029a5ed1-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -69,7 +69,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -78,14 +79,6 @@
       "Highpriest to the Light"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector"
-  ],
-  "traitorUnitsPool": [
-
-  ],
   "trials": {
     "listName": "T1Trials",
     "trialDatas": [
@@ -95,11 +88,20 @@
       null
     ]
   },
+  "battleName": "Disciple Conduits",
+  "battleDescription": "Conduits use their knowledge of your train to ascend more quickly than other Disciples. Take them out before they reach your Pyre.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector"
+  ],
+  "traitorUnitsPool": [
+
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-4befddfea0b141b2-b64da36064afd3c408655677029a5ed1-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-00e37006abcab368-b64da36064afd3c408655677029a5ed1-v2",
   "displayedEnemies": [
     "Conduit Infiltrator",
     "Clergyman"

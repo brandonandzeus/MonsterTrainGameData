@@ -77,8 +77,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-85f979a9fed812af-2ff48a1fffa30114e9dbe6e5afefecbf-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -94,7 +94,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -103,14 +104,6 @@
       "Sower of Sorrow"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector 2"
-  ],
-  "traitorUnitsPool": [
-    null
-  ],
   "trials": {
     "listName": "T2Trials",
     "trialDatas": [
@@ -123,11 +116,20 @@
       null
     ]
   },
+  "battleName": "Harvesters of Death",
+  "battleDescription": "Death obsessed Clipped who gain strength with every kill.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector 2"
+  ],
+  "traitorUnitsPool": [
+    null
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-264b5749c449b17e-2ff48a1fffa30114e9dbe6e5afefecbf-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-7fed31a93850fbfb-2ff48a1fffa30114e9dbe6e5afefecbf-v2",
   "displayedEnemies": [
     "Overcharged Tank",
     "Sycophant"

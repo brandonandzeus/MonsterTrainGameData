@@ -68,8 +68,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-f6a6df540d605337-9e3b1ebdecc2452408d6b7dbdbb73512-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -85,7 +85,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -94,14 +95,6 @@
       "Sower of Sorrow"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector 2"
-  ],
-  "traitorUnitsPool": [
-    null
-  ],
   "trials": {
     "listName": "T2Trials",
     "trialDatas": [
@@ -114,11 +107,20 @@
       null
     ]
   },
+  "battleName": "The Harpy's Guard",
+  "battleDescription": "Heavy-hitting Clipped Warriors will protect this Harpy at any cost. They will gain more power with each foe slain, so make sure to defeat them before they thin out your defense.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector 2"
+  ],
+  "traitorUnitsPool": [
+    null
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-0376312f464fc136-9e3b1ebdecc2452408d6b7dbdbb73512-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-417a3cf5641c1f9a-9e3b1ebdecc2452408d6b7dbdbb73512-v2",
   "displayedEnemies": [
     "Master of Light",
     "Clipped Shaman"

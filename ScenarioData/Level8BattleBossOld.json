@@ -81,10 +81,12 @@
         ]
       }
     ],
-    "bossType": 1,
+    "bossType": "SpawnPatternData.BossType.OuterTrainBoss",
     "bossCharacter": "Fel, the Wings of Light Scouring Crest"
   },
-  "difficulty": 2,
+  "battleName": "The Pyrewing",
+  "battleDescription": "Disgraced Winged who've been given the chance to redeem themselves through their knowledge of Hell.",
+  "difficulty": "ScenarioDifficulty.Boss",
   "enemyBlessingData": [
     "Enemy_SeraphAddConsumeToSpells"
   ],
@@ -100,8 +102,6 @@
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-ade511baca8585dc-c8f764cd6c9c344428a757fd6fd3c5d3-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-15d7f6adadcc81e9-c8f764cd6c9c344428a757fd6fd3c5d3-v2",
   "displayedEnemies": [
 
   ],

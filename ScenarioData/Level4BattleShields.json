@@ -68,8 +68,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-aa3b68eb9e7ffc60-91d082021a16a54408eed946fac846a2-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -91,7 +91,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -100,14 +101,6 @@
       "Pyrelight Master"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector 2"
-  ],
-  "traitorUnitsPool": [
-    null
-  ],
   "trials": {
     "listName": "T2Trials",
     "trialDatas": [
@@ -120,11 +113,20 @@
       null
     ]
   },
+  "battleName": "Protectors of the Clipped",
+  "battleDescription": "Giant slabs of stone create defensive walls that can be hard to penetrate. Crack their defenses to defeat the heavy-hitters behind.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector 2"
+  ],
+  "traitorUnitsPool": [
+    null
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-1d1be211abcea4de-91d082021a16a54408eed946fac846a2-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-b0a88e51d53b4d4f-91d082021a16a54408eed946fac846a2-v2",
   "displayedEnemies": [
     "Clipped Reflector",
     "Quill Marksman"

@@ -95,8 +95,8 @@
       {
         "possibleGroups": [
           {
-            "hasWaveMessage": true,
-            "waveMessageKey": "ScenarioData_waveMessageKey-9f17d9103a0a7290-e63cc8bbd63736e4e839377fa340fff6-v2"
+            "waveMessage": "[respite]",
+            "hasWaveMessage": true
           }
         ]
       },
@@ -118,7 +118,8 @@
           }
         ]
       }
-    ]
+    ],
+    "bossType": "SpawnPatternData.BossType.None"
   },
   "bossVariant": {
     "bossVariants": [
@@ -127,14 +128,6 @@
       "Sower of Sorrow"
     ]
   },
-  "minTreasureUnits": 1,
-  "maxTreasureUnits": 1,
-  "treasureCharacterPool": [
-    "Collector 2"
-  ],
-  "traitorUnitsPool": [
-    null
-  ],
   "trials": {
     "listName": "T2Trials",
     "trialDatas": [
@@ -147,11 +140,20 @@
       null
     ]
   },
+  "battleName": "The Sycophants of Seraph",
+  "battleDescription": "Seraph has recruited many to his cause, both Winged and Clipped. These followers have grouped together to inundate you with sheer numbers.",
+  "difficulty": "ScenarioDifficulty.Normal",
+  "minTreasureUnits": 1,
+  "maxTreasureUnits": 1,
+  "treasureCharacterPool": [
+    "Collector 2"
+  ],
+  "traitorUnitsPool": [
+    null
+  ],
   "ftueCardDrawData": [
 
   ],
-  "battleNameKey": "ScenarioData_battleNameKey-a44d782af40bb311-e63cc8bbd63736e4e839377fa340fff6-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-984d233833738f4f-e63cc8bbd63736e4e839377fa340fff6-v2",
   "displayedEnemies": [
     "Clipped Guardian",
     "Sycophant"

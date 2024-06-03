@@ -109,31 +109,12 @@
         ]
       }
     ],
-    "bossType": 1,
+    "bossType": "SpawnPatternData.BossType.OuterTrainBoss",
     "bossCharacter": "Archus, Darkness Incarnate Sin of Failure",
     "hardBossCharacter": "Archus, Darkness Incarnate Sin of Failure Hard"
   },
-  "difficulty": 2,
-  "enemyBlessingData": [
-    "Enemy_TrapB_TrapC"
-  ],
-  "battleTrackNameData": "BattleMusic_Archus",
-  "treasureCharacterPool": [
-
-  ],
-  "traitorUnitsPool": [
-
-  ],
-  "ftueCardDrawData": [
-
-  ],
-  "battleNameKey": "ScenarioData_battleNameKey-bfacf44f6e3b908e-8ef3577f8548b084a94cb409dcb8d978-v2",
-  "battleDescriptionKey": "ScenarioData_battleDescriptionKey-8ccf1a64be48affe-8ef3577f8548b084a94cb409dcb8d978-v2",
-  "displayedEnemies": [
-    "Archus, Darkness Incarnate Sin of Failure",
-    "Looming Darkshard",
-    "Shattering Darkshard"
-  ],
+  "battleName": "Archus, Darkness Incarnate",
+  "battleDescription": "Using unknown, ancient powers, Archus summons shards of the Divinities to halt your advance.",
   "displayedEnemyOffsets": [
     {
       "x": -140.0,
@@ -147,6 +128,25 @@
       "x": 100.0,
       "y": -10.0
     }
+  ],
+  "difficulty": "ScenarioDifficulty.Boss",
+  "enemyBlessingData": [
+    "Enemy_TrapB_TrapC"
+  ],
+  "battleTrackNameData": "BattleMusic_Archus",
+  "treasureCharacterPool": [
+
+  ],
+  "traitorUnitsPool": [
+
+  ],
+  "ftueCardDrawData": [
+
+  ],
+  "displayedEnemies": [
+    "Archus, Darkness Incarnate Sin of Failure",
+    "Looming Darkshard",
+    "Shattering Darkshard"
   ],
   "backgroundData": "CaveBackgroundData",
   "name": "Level6BattleArchusTrapBTrapC"
