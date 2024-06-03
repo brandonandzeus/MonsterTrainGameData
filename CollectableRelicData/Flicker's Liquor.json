@@ -1,35 +1,21 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-80dc926b89dda33d-6adacca0d4808c3439a0ce9b431eb798-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-3c43fd14d126916f-6adacca0d4808c3439a0ce9b431eb798-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-903b328c14678886-6adacca0d4808c3439a0ce9b431eb798-v2"
+  "name": "Flicker's Liquor",
+  "description": "When you play a unit, a random card in hand is reduced to 0[ember] until played or discarded.",
+  "relicLoreTooltips": [
+    "Flicker has been known to imbibe on occasion, and when he can't find me to drink with him, he'll corner unlucky Waxers who quickly succumb to its effects."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddTempUpgradeToRandomCardInHand",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 1,
-      "paramCardType": 1,
-      "paramCardUpgradeData": {
-        "hideUpgradeIconOnCard": true,
-        "costReduction": 99,
-        "filters": [
-          {
-            "costRange": {
-              "x": 1.0,
-              "y": 99.0
-            },
-            "excludeXCost": true
-          },
-          {
-            "excludedCardTraits": [
-              "CardTraitUnplayable"
-            ]
-          }
-        ]
-      }
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassRemnant",
-  "unlockLevel": 2,
-  "name": "Flicker's Liquor"
+  "unlockLevel": 2
 }

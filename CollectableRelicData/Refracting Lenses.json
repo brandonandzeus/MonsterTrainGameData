@@ -1,22 +1,25 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-4f0b7605b11a06bf-718357e0b0e966243ab5f61f9973ae3e-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-9ed06499f3bd2927-718357e0b0e966243ab5f61f9973ae3e-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-8bdd4888b63ac4c1-718357e0b0e966243ab5f61f9973ae3e-v2"
+  "name": "Refracting Lenses",
+  "description": "When a card with [consume] is played, restore [effect0.power] Pyre health.",
+  "relicLoreTooltips": [
+    "My failed attempt at refocusing the light of the Pyre to better fuel the Boneshaker. It wasn’t entirely a waste of time though, as the lens was able to refract that energy back onto the Pyre itself."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectHealthChangeOnExhaust",
-      "paramSourceTeam": 2,
-      "paramInt": 5,
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitExhaustState_CardText",
-          "descriptionKey": "CardTraitExhaustState_TooltipText"
+          "title": "Consume",
+          "description": "Can only be played once per battle."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectHealthChangeOnExhaust",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 5,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Refracting Lenses"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon"
 }

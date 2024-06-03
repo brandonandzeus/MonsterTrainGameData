@@ -1,23 +1,26 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-85c862dd5239652b-b98c145f230467141869b59880f0875e-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-2d1cc271e245014a-b98c145f230467141869b59880f0875e-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-ccf1529ff4ee3ae9-b98c145f230467141869b59880f0875e-v2"
+  "name": "Thornfruit",
+  "description": "At start of turn, add a <b>Sting</b> spell to your hand.",
+  "relicLoreTooltips": [
+    "After a thorn has lodged into the ground and released its spores, it will wilt and return to the Wildwood. On very rare occasions, the thorn will produce a fruit that is coveted among Channelers, though I find it personally much too sour."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddBattleCardToHand",
-      "paramInt": 1,
-      "paramTrigger": 12,
       "paramCardPool": {
         "name": "StingOnlyPool",
         "cardDataList": [
           "Sting"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddBattleCardToHand",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.PreCombat",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "linkedClass": "ClassAwoken",
-  "name": "Thornfruit"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassAwoken"
 }

@@ -1,29 +1,34 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-43b21b34eb80c149-f7476f86cbc984c41adec571005b85ef-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-651cfa3e984f98be-f7476f86cbc984c41adec571005b85ef-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-3d80d114962583a4-f7476f86cbc984c41adec571005b85ef-v2"
+  "name": "Tethys' Scales",
+  "description": "[effect0.power]% chance to apply [spellweakness] 1 when an enemy unit enters your train.",
+  "relicLoreTooltips": [
+    "As a symbolic sacrifice to convince her fellow sea dwellers of her commitment to the Covenant and the confinement of the Titan, Tethys removed her own scales. I don't understand their ways, but the gesture worked as she intended."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectChanceAddEffectOnSpawn",
-      "paramSourceTeam": 1,
-      "paramInt": 50,
       "paramCardEffects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
           "paramStatusEffects": [
             {
-              "statusId": "spell weakness",
+              "statusId": "VanillaStatusEffectIDs.SpellWeakness",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectChanceAddEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 50,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassStygian",
-  "unlockLevel": 6,
-  "name": "Tethys' Scales"
+  "unlockLevel": 6
 }

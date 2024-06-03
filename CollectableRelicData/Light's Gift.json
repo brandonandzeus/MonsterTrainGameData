@@ -1,22 +1,25 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-c58c82efb64c39d0-73dbedb36efb4a641bab4cde2e869f57-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-929bba62914fea56-73dbedb36efb4a641bab4cde2e869f57-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-42752227864e24b0-73dbedb36efb4a641bab4cde2e869f57-v2"
+  "name": "Light's Gift",
+  "description": "Apply [dazed] to enemy units when they enter the floor below the Pyre Room.",
+  "relicLoreTooltips": [
+    "Our time together was brief, but our bond was unbreakable. However, when the Covenant was broken, my hope for what was unbreakable was shattered as well. I keep her gift close to my heart to remember what we had and what was lost."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnEnterRoomIndex",
-      "paramSourceTeam": 1,
-      "paramInt": 2,
       "paramStatusEffects": [
         {
-          "statusId": "dazed",
+          "statusId": "VanillaStatusEffectIDs.Dazed",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnEnterRoomIndex",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Light's Gift"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon"
 }

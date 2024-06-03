@@ -1,39 +1,50 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-33f0303909662484-44c0772f0b8a4534998801342084bc33-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-83ac500cbcb1caea-44c0772f0b8a4534998801342084bc33-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-8745150c080e2089-44c0772f0b8a4534998801342084bc33-v2"
+  "name": "Advanced Prototype",
+  "description": "Steward units get +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], [damageshield] [effect0.upgrade.status0.power], and [multistrike] [effect0.upgrade.status1.power].",
+  "relicLoreTooltips": [
+    "Just before the Freeze, I was working on an upgraded version of the Train Stewards. The invasion of the Winged interrupted my research and prevented me from rolling out the upgrade to each Steward on the Boneshaker, but I’ve kept the prototype around in the hopes of eventually finishing what I started."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTempUpgrade",
-      "paramSourceTeam": 2,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-8255d39330db2b4c-c33703173b2a1e446adbd6437649d125-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-708f1574cb63401d-c33703173b2a1e446adbd6437649d125-v2",
-        "bonusDamage": 5,
-        "bonusHP": 5,
         "statusEffectUpgrades": [
           {
-            "statusId": "damage shield",
+            "statusId": "VanillaStatusEffectIDs.DamageShield",
             "count": 2
           },
           {
-            "statusId": "multistrike",
+            "statusId": "VanillaStatusEffectIDs.Multistrike",
             "count": 1
           }
         ],
         "filters": [
           {
-            "cardType": 1,
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "requiredSubtypes": [
               "SubtypesData_TrainSteward"
-            ]
+            ],
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
-        ]
-      }
+        ],
+        "bonusDamage": 5,
+        "bonusHP": 5
+      },
+      "relicEffectClassName": "RelicEffectAddTempUpgrade",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Advanced Prototype"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon"
 }

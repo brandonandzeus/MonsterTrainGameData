@@ -1,14 +1,11 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-3dd1b20e59200d2a-012a316fe0043ca4a86c1bc85da22679-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-cb9dc64a7c8a2a48-012a316fe0043ca4a86c1bc85da22679-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-3a7305261e3ef333-012a316fe0043ca4a86c1bc85da22679-v2"
+  "name": "Imp-cicle",
+  "description": "At start of turn, add a random [imp] unit to hand.",
+  "relicLoreTooltips": [
+    "When Seraph shattered our Hell Pyre and Hell froze over, many unsuspecting imps were caught in the ice. Taken aboard the Boneshaker, the Pyre shard slowly melts them free."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddBattleCardToHand",
-      "paramInt": 1,
-      "paramTrigger": 12,
       "paramCardPool": {
         "name": "ImpPool",
         "cardDataList": [
@@ -42,11 +39,17 @@
           "EnlightenedInfery",
           "TranscendImp"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddBattleCardToHand",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.PreCombat",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassHellhorned",
-  "unlockLevel": 5,
-  "name": "Imp-cicle"
+  "unlockLevel": 5
 }

@@ -1,33 +1,36 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-50790b4c6dd36cd4-3e4910125c53bcf42a3c9baa652348ab-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-8779f0e176882cf6-3e4910125c53bcf42a3c9baa652348ab-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-d25bd7647dcffb5c-3e4910125c53bcf42a3c9baa652348ab-v2"
+  "name": "Exploding Candle",
+  "description": "Deal [effect0.power] damage to enemy units when a [burnout] unit dies.",
+  "relicLoreTooltips": [
+    "When Flicker decided to help me unite the Ring and build the Rail, he lit a ceremonial candle to commemorate the event. Appropriately, the current state of the candle reflects the state of the Covenant it was created to represent. "
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectDamageEnemyOnFriendlyTrigger",
-      "paramSourceTeam": 2,
-      "paramInt": 5,
       "paramStatusEffects": [
         {
-          "statusId": "ephemeral",
+          "statusId": "VanillaStatusEffectIDs.Burnout",
           "count": 0
         }
       ],
-      "paramTargetMode": 0,
+      "relicEffectClassName": "RelicEffectDamageEnemyOnFriendlyTrigger",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 5,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.Room",
+      "paramCardType": "CardType.Spell",
       "triggerTooltipsSuppressed": true
     },
     {
       "relicEffectClassName": "RelicEffectDamageEnemyOnFriendlyTrigger",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 5,
-      "paramTrigger": 25,
-      "paramTargetMode": 0,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnBurnout",
+      "paramTargetMode": "TargetMode.Room",
+      "paramCardType": "CardType.Spell",
       "triggerTooltipsSuppressed": true
     }
   ],
-  "rarity": 1,
-  "linkedClass": "ClassRemnant",
-  "name": "Exploding Candle"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassRemnant"
 }

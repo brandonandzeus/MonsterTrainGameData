@@ -1,17 +1,15 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-0a479dcf552c092b-49b6c60a571d87843adb7773da24acb7-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-ed1be72cc18aa977-49b6c60a571d87843adb7773da24acb7-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-b97db12874963acf-49b6c60a571d87843adb7773da24acb7-v2"
+  "name": "Titan's Claws",
+  "description": "At end of turn, [freeze] cards are reduced to 0[ember] until played or discarded.",
+  "relicLoreTooltips": [
+    "The sharp claws of the Titan. They were lodged into the stone as the Titan tried to escape prison we'd built for it. Now, they serve as a reminder of the strength we locked away."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectApplyCardUpgradeToHandEndOfTurn",
-      "paramBool": true,
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitFreeze_CardText",
-          "descriptionKey": "CardTraitFreeze_TooltipText"
+          "title": "Frozen",
+          "description": "This card will not be discarded at the end of turn. [freeze] is removed when the card is played."
         }
       ],
       "traits": [
@@ -20,12 +18,17 @@
         }
       ],
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-c191a540b6886e4a-3e3ce3f1a4180b24c9d794e9b1c67d6f-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-b4cd90b8bf3e7906-3e3ce3f1a4180b24c9d794e9b1c67d6f-v2",
         "costReduction": 99
-      }
+      },
+      "relicEffectClassName": "RelicEffectApplyCardUpgradeToHandEndOfTurn",
+      "paramSourceTeam": "Team.Type.None",
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "linkedClass": "ClassStygian",
-  "name": "Titan's Claws"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassStygian"
 }

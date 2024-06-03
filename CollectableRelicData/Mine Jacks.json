@@ -1,23 +1,28 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-0144021aaf77bfb1-693624a3123aed943b9dc2951273f011-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-72dbaa4cfd550b4b-693624a3123aed943b9dc2951273f011-v2",
-  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-dc8fa509d1e51d8d-693624a3123aed943b9dc2951273f011-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-6f3d309bc650089a-693624a3123aed943b9dc2951273f011-v2"
+  "name": "Mine Jacks",
+  "description": "+[effect0.power][capacity] on the middle floor.",
+  "relicActivated": "+{0}[capacity]",
+  "relicLoreTooltips": [
+    "These immense jacks are used to prevent the Crucible from collapsing. At the speed the Umbra seems to be mining it, I’m not sure these jacks will help it."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectChangeSingleFloorCapacity",
-      "paramInt": 2,
-      "paramFloat": 1.0,
       "additionalTooltips": [
         {
-          "titleKey": "Capacity_TooltipTitle",
-          "descriptionKey": "Capacity_TooltipText"
+          "title": "[capacity] Capacity",
+          "description": "Units can only be summoned on a floor if it has enough capacity."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectChangeSingleFloorCapacity",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 2,
+      "paramFloat": 1.0,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "linkedClass": "ClassUmbra",
-  "name": "Mine Jacks"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassUmbra"
 }

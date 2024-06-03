@@ -1,17 +1,21 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-09c636bc3de370f7-a4dbd9cdc7e8610499e01492fb4d42b8-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-9662dad3428cd8d3-a4dbd9cdc7e8610499e01492fb4d42b8-v2",
-  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-29b8285219df2ac1-a4dbd9cdc7e8610499e01492fb4d42b8-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-2272e8c89a800e23-a4dbd9cdc7e8610499e01492fb4d42b8-v2"
+  "name": "Memorial Fund",
+  "description": "Gain [effect0.power][coin] when a friendly unit dies.",
+  "relicActivated": "+5[coin]",
+  "relicLoreTooltips": [
+    "In a scheme I refused to take part in, Flicker devised a plan to collect funds from Waxers to benefit those who have passed, only to keep them for himself."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectGoldOnTrigger",
-      "paramSourceTeam": 2,
-      "paramInt": 5
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 5,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "linkedClass": "ClassRemnant",
-  "name": "Memorial Fund"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassRemnant"
 }

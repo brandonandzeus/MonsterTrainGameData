@@ -1,33 +1,38 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-0272d613709d0ffb-6530908984251b347939474828b33bc2-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-470502e070e5bc88-6530908984251b347939474828b33bc2-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-8ae80cffadefa9b6-6530908984251b347939474828b33bc2-v2"
+  "name": "Sigiled Seaweed",
+  "description": "[effect0.power]% chance to apply [silence] when an enemy unit enters your train.",
+  "relicLoreTooltips": [
+    "The seaweed of the Sea is known to be very resistent to breaking. The addition of Stygian sigils make breaking it impossible, despite all my efforts."
   ],
   "effects": [
     {
+      "paramCardEffects": [
+        {
+          "paramStatusEffects": [
+            {
+              "statusId": "VanillaStatusEffectIDs.Silenced",
+              "count": 1
+            }
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes",
+          "paramInt": 100
+        }
+      ],
       "relicEffectClassName": "RelicEffectChanceAddEffectOnSpawn",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 50,
       "paramExcludeCharacterSubtypes": [
         "SubtypesData_TreasureCollector"
       ],
-      "paramCardEffects": [
-        {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "paramInt": 100,
-          "paramStatusEffects": [
-            {
-              "statusId": "silenced",
-              "count": 1
-            }
-          ]
-        }
-      ]
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassStygian",
-  "unlockLevel": 2,
-  "name": "Sigiled Seaweed"
+  "unlockLevel": 2
 }

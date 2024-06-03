@@ -1,23 +1,27 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-9a9a2678c1261154-171a5e08ceeb6e54a809980252397b95-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-a883fbcb2ae20a9a-171a5e08ceeb6e54a809980252397b95-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-8ad6fd0c2c5df0e6-171a5e08ceeb6e54a809980252397b95-v2"
+  "name": "Infused Mallet",
+  "description": "[effect0.power]% chance to deal 5 damage when an enemy unit enters your train.",
+  "relicLoreTooltips": [
+    "The first to hammer the Rail of the Covenant. It served me well, but the time it spent with the Pyre filled it with an energy that is too powerful to contain."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectChanceAddEffectOnSpawn",
-      "paramSourceTeam": 1,
-      "paramInt": 25,
       "paramCardEffects": [
         {
           "effectStateName": "CardEffectDamage",
-          "targetMode": 5,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes",
           "paramInt": 5
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectChanceAddEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 25,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Infused Mallet"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon"
 }

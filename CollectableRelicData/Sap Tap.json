@@ -1,27 +1,33 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-7c359a331ed9874a-88f74bc16f5bb2646a61fd706c2223f7-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-b8151050db4f1205-88f74bc16f5bb2646a61fd706c2223f7-v2",
-  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-7a11f61c53d41a42-88f74bc16f5bb2646a61fd706c2223f7-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-3d12fb4bdfee7d1c-88f74bc16f5bb2646a61fd706c2223f7-v2"
+  "name": "Sap Tap",
+  "description": "The first time each turn a friendly unit is healed, draw [effect0.power].",
+  "relicActivated": "Draw!",
+  "relicLoreTooltips": [
+    "Intruders often try to tap the Wildwood to harvest its sap, though the Wildwood usually ends up harvesting the intruders instead. The Edge Priory has allowed me to collect these taps for my own personal research."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardDrawOnHeal",
-      "paramSourceTeam": 2,
-      "paramInt": 1,
       "effectConditions": [
         {
-          "paramTrackedValue": 0,
-          "paramCardType": 0,
+          "paramTrackedValue": "CardStatistics.TrackedValueType.SubtypeInDeck",
+          "paramCardType": "CardStatistics.CardTypeTarget.Any",
           "paramTrackTriggerCount": true,
+          "paramEntryDuration": "CardStatistics.EntryDuration.ThisTurn",
+          "paramComparator": "RelicEffectCondition.Comparator.GreaterThan | RelicEffectCondition.Comparator.Equal",
           "paramInt": 1,
           "allowMultipleTriggersPerDuration": false
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectCardDrawOnHeal",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassAwoken",
-  "unlockLevel": 6,
-  "name": "Sap Tap"
+  "unlockLevel": 6
 }

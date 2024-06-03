@@ -1,13 +1,18 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-5c34c68331084af7-95e7281811bbc6046adaa52d3556f95e-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-69343602a2ade549-95e7281811bbc6046adaa52d3556f95e-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-10027c4bb3a832f5-95e7281811bbc6046adaa52d3556f95e-v2"
+  "name": "Pyrestone Housing",
+  "description": "Units get an extra upgrade slot.",
+  "relicLoreTooltips": [
+    "My discovery of the creation of Pyrestones, gemstones infused with flames of the Pyre, was monumental in enhancing the strength of Hell’s forces and marked a turning point in the war against Heaven. That victory was short-lived, however, as the design was stolen and copied shortly thereafter. "
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddUnitUpgradeSlot"
+      "relicEffectClassName": "RelicEffectAddUnitUpgradeSlot",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "name": "Pyrestone Housing"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common"
 }

@@ -1,23 +1,27 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-12149569562e6b2b-4c7b72ac091ae6e4b835dbf2af781d83-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-55c6cef08f9ff226-4c7b72ac091ae6e4b835dbf2af781d83-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-3cdc83ff020c0fc5-4c7b72ac091ae6e4b835dbf2af781d83-v2"
+  "name": "Resonant Shard",
+  "description": "[rage] adds an additional <nobr>+[effect0.power][attack]</nobr> per stack.",
+  "relicLoreTooltips": [
+    "I modified the Pyre so that the sound it makes when it is threatened can no longer be heard by any creature, in Heaven or in Hell. However, an unintended consequence has been obsverved: distant Pyre shards will resonate with the same frequency and vibrate wildly, sometimes even shattering."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyStatusMagnitude",
-      "paramSourceTeam": 2,
-      "paramInt": 1,
       "paramStatusEffects": [
         {
-          "statusId": "buff",
+          "statusId": "VanillaStatusEffectIDs.Rage",
           "count": 0
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectModifyStatusMagnitude",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassHellhorned",
-  "unlockLevel": 8,
-  "name": "Resonant Shard"
+  "unlockLevel": 8
 }

@@ -1,28 +1,32 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-1f451319503e51e0-c58238f21d4609f4e8e70eb24aa593df-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-98f2ef17e35ccfd2-c58238f21d4609f4e8e70eb24aa593df-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-27fa9cd5402c6660-c58238f21d4609f4e8e70eb24aa593df-v2"
+  "name": "Cleansing Water",
+  "description": "[effect0.power]% chance to remove all [buff] effects on an enemy unit when it enters your train.",
+  "relicLoreTooltips": [
+    "During my time in Heaven, I was gifted some of their purifying water, but the liquid was so strong that it would burn anything it touched. So, I put it aside. It has now found a new use as a repellant in the Boneshaker."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectChanceAddEffectOnSpawn",
-      "paramSourceTeam": 1,
-      "paramInt": 50,
       "paramCardEffects": [
         {
           "effectStateName": "CardEffectRemoveAllStatusEffects",
-          "targetMode": 5
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes"
         }
       ],
       "additionalTooltips": [
         {
-          "titleKey": "CardEffectBuff_TooltipTitle",
-          "descriptionKey": "CardEffectBuff_TooltipText"
+          "title": "Buff",
+          "description": "Buff effects are generally positive for their target and are represented by green icons."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectChanceAddEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 50,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Cleansing Water"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon"
 }

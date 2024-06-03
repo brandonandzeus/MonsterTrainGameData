@@ -1,30 +1,32 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-fddcc4db8e580f8f-b7a512af443a72b45b07b35fa0d6d539-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-a40a1ceda7788e7b-b7a512af443a72b45b07b35fa0d6d539-v2",
-  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-8690a9bb2ba3bc0d-b7a512af443a72b45b07b35fa0d6d539-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-68d36e1cc2da2157-b7a512af443a72b45b07b35fa0d6d539-v2"
+  "name": "Shadowbox",
+  "description": "When you play your 20th [snack] unit of the battle, deal [effect0.power] damage to enemy units on all floors.",
+  "relicActivated": "Morsel Blitz!",
+  "relicLoreTooltips": [
+    "Supposedly, these crystal “Shardsouls” once contained sacrificed souls and were created by the Exiles in a gambit to save Heaven, Hell, and Human. Now empty, the crystal’s remains house many Morsels. This may confirm my theory that the Umbra Shroud is made of pure soul."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectDamageOnMonsterSummoned",
-      "paramSourceTeam": 1,
-      "paramInt": 150,
-      "paramTargetMode": 8,
-      "paramCardType": 4,
       "effectConditions": [
         {
-          "paramTrackedValue": 25,
-          "paramCardType": 2,
-          "paramEntryDuration": 2,
-          "paramComparator": 2,
+          "paramTrackedValue": "CardStatistics.TrackedValueType.MonsterSubtypePlayed",
+          "paramCardType": "CardStatistics.CardTypeTarget.Monster",
+          "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
+          "paramComparator": "RelicEffectCondition.Comparator.Equal",
           "paramInt": 20,
           "allowMultipleTriggersPerDuration": false,
           "paramSubtype": "SubtypesData_Snack"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectDamageOnMonsterSummoned",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 150,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.Tower",
+      "paramCardType": "CardType.Invalid"
     }
   ],
-  "linkedClass": "ClassUmbra",
-  "name": "Shadowbox"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassUmbra"
 }

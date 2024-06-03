@@ -1,21 +1,25 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-ce3d326dd3d7d18f-08353c6656418cd40ae49298e9f00f8b-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-2c8416d286d5b8da-08353c6656418cd40ae49298e9f00f8b-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-880bf467eb690ef1-08353c6656418cd40ae49298e9f00f8b-v2"
+  "name": "Traitor's Quill",
+  "description": "When a card with [consume] is played, deal [effect0.power] damage to the front enemy unit.",
+  "relicLoreTooltips": [
+    "Seraph was not always the Traitor he is today, hellbent on the unification of Heaven and Hell for our mutual survival. He was the main reason the Covenant was pursued to begin with. I suppose his need for control finally got the better of him..."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectDamageOnExhaust",
-      "paramSourceTeam": 1,
-      "paramInt": 30,
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitExhaustState_CardText",
-          "descriptionKey": "CardTraitExhaustState_TooltipText"
+          "title": "Consume",
+          "description": "Can only be played once per battle."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectDamageOnExhaust",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 30,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "name": "Traitor's Quill"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common"
 }

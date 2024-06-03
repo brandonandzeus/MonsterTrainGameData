@@ -1,39 +1,56 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-fab74e912181107a-6e56d5f6e1b2dae4583e1845311a38e2-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-c9904529dfb18361-6e56d5f6e1b2dae4583e1845311a38e2-v2",
-  "divineVariant": true,
+  "name": "Divine Advanced Prototype",
+  "description": "Steward units get +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], [damageshield] [effect0.upgrade.status0.power], and [multistrike] [effect0.upgrade.status1.power]. Remove this artifact after 1 battle.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTempUpgrade",
-      "paramSourceTeam": 2,
       "paramCardUpgradeData": {
-        "bonusDamage": 10,
-        "bonusHP": 10,
         "statusEffectUpgrades": [
           {
-            "statusId": "damage shield",
+            "statusId": "VanillaStatusEffectIDs.DamageShield",
             "count": 4
           },
           {
-            "statusId": "multistrike",
+            "statusId": "VanillaStatusEffectIDs.Multistrike",
             "count": 2
           }
         ],
         "filters": [
           {
-            "cardType": 1,
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "requiredSubtypes": [
               "SubtypesData_TrainSteward"
-            ]
+            ],
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
-        ]
-      }
+        ],
+        "bonusDamage": 10,
+        "bonusHP": 10
+      },
+      "relicEffectClassName": "RelicEffectAddTempUpgrade",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Divine Advanced Prototype"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Uncommon"
 }

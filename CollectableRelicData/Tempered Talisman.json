@@ -1,20 +1,25 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-d4ed008993fe63b7-79fbc72c357424747a5fafd50753328b-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-dadd09f235e55c5f-79fbc72c357424747a5fafd50753328b-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-e79652f3e98c6fc9-79fbc72c357424747a5fafd50753328b-v2"
+  "name": "Tempered Talisman",
+  "description": "+[effect0.power] [magicpower].",
+  "relicLoreTooltips": [
+    "Never before have the nine Rings of Hell collaborated on something as monumental as the Rail of the Covenant. As a token of thanks, I created these amulets through my time in Hell, imbuing them with some basic power, and I gave them to each clan."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyCardMagicalPower",
-      "paramInt": 3,
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitMagicPower_TooltipTitle",
-          "descriptionKey": "CardTraitMagicPower_TooltipText"
+          "title": "Magic Power",
+          "description": "Increases the amount of damage dealt and health restored by spells."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectModifyCardMagicalPower",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 3,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "name": "Tempered Talisman"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common"
 }

@@ -1,35 +1,46 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-664995f0aa125043-df132ee54f35ae14097e4dfcef76abe5-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-674282c33601035b-df132ee54f35ae14097e4dfcef76abe5-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-b470cff8c919992b-df132ee54f35ae14097e4dfcef76abe5-v2"
+  "name": "Grrrg's Goad",
+  "description": "[demon] units get [multistrike] [effect0.upgrade.status0.power].",
+  "relicLoreTooltips": [
+    "Though credited with building the Hellhorned’s section of the Rail, Grrrg wasn’t able to complete it without help from other demons. Some needed more motivation than others."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTempUpgrade",
-      "paramSourceTeam": 2,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-49f36a85f0fc12d3-37477fbb3789ea940b62a01ad3ba17c0-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-0d666d1a486eed49-37477fbb3789ea940b62a01ad3ba17c0-v2",
         "statusEffectUpgrades": [
           {
-            "statusId": "multistrike",
+            "statusId": "VanillaStatusEffectIDs.Multistrike",
             "count": 1
           }
         ],
         "filters": [
           {
-            "cardType": 1,
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "requiredSubtypes": [
               "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12"
-            ]
+            ],
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddTempUpgrade",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassHellhorned",
-  "unlockLevel": 6,
-  "name": "Grrrg's Goad"
+  "unlockLevel": 6
 }

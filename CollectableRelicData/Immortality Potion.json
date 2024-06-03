@@ -1,42 +1,66 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-a43af7978c85fc49-27a3f11f2df70944285011e33fca4dfc-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-d6207292dfccb9c9-27a3f11f2df70944285011e33fca4dfc-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-efc4b37e2ef9710b-27a3f11f2df70944285011e33fca4dfc-v2"
+  "name": "Immortality Potion",
+  "description": "Friendly non-Morsel units get [endless].",
+  "relicLoreTooltips": [
+    "Picture this scenario: You die, go to the Afterlife, and live forevermore. Fantastic! Except now I’ve made it so you can die again. What even happens if you die twice? I have yet to die once!"
   ],
-  "relicLoreTooltipStyle": 1,
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTempUpgrade",
-      "paramSourceTeam": 2,
-      "paramInt": -1,
       "paramStatusEffects": [
         {
-          "statusId": "endless",
+          "statusId": "VanillaStatusEffectIDs.Endless",
           "count": 1
         }
       ],
       "paramCardUpgradeData": {
         "statusEffectUpgrades": [
           {
-            "statusId": "endless",
+            "statusId": "VanillaStatusEffectIDs.Endless",
             "count": 1
           }
         ],
         "filters": [
           {
+            "cardType": "CardType.Invalid",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "excludedSubtypes": [
               "SubtypesData_Snack"
-            ]
+            ],
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           },
           {
-            "cardType": 1
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddTempUpgrade",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": -1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Malicka",
+  "rarity": "CollectableRarity.Common",
   "fromStoryEvent": true,
-  "requiredDLC": 1,
-  "name": "Immortality Potion"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

@@ -1,23 +1,31 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-71775fcb4cf0b9a3-636382a2a70f3094f860eb1075633f64-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-ba8e0e03b6a1063c-636382a2a70f3094f860eb1075633f64-v2",
-  "divineVariant": true,
+  "name": "Divine Traitor's Quill",
+  "description": "When a card with [consume] is played, deal [effect0.power] damage to the front enemy unit. Remove this artifact after 1 battle.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectDamageOnExhaust",
-      "paramSourceTeam": 1,
-      "paramInt": 60,
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitExhaustState_CardText",
-          "descriptionKey": "CardTraitExhaustState_TooltipText"
+          "title": "Consume",
+          "description": "Can only be played once per battle."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectDamageOnExhaust",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 60,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "name": "Divine Traitor's Quill"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Common"
 }

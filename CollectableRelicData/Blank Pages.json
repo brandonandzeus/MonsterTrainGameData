@@ -1,13 +1,11 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-7a91b9d2f17198d3-e641baa29e8f3ab4b9ea52fb9570aeac-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-bf90a92778e4eb80-e641baa29e8f3ab4b9ea52fb9570aeac-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-5130d7d77894b063-e641baa29e8f3ab4b9ea52fb9570aeac-v2"
+  "name": "Blank Pages",
+  "description": "At start of turn, if you do not have a Champion in your hand, add a random one to your hand.",
+  "relicLoreTooltips": [
+    "Times are changing. Divinities are making rules while we keep trying to save our own skins. Well, not anymore. There’s more souls out there who can help us, there’s got to be. And it’s about time someone set out to find them. So, I guess, this is where I’ll try and record that search. I’ll bet old Herzal’s turning in his ice at the thought. Don’t worry, I fail like the best of ‘em."
   ],
-  "relicLoreTooltipStyle": 2,
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddChampionCardToHand",
       "paramCardPool": {
         "name": "ChampionPool",
         "cardDataList": [
@@ -26,7 +24,6 @@
         ]
       },
       "paramRandomChampionPool": {
-        "name": "RandomChampionPool",
         "championInfoList": [
           {
             "championCard": "HornbreakerChampion",
@@ -244,12 +241,18 @@
               "Wurm2Summoner3"
             ]
           }
-        ]
-      }
+        ],
+        "name": "RandomChampionPool"
+      },
+      "relicEffectClassName": "RelicEffectAddChampionCardToHand",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 2,
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Heph",
+  "rarity": "CollectableRarity.Rare",
   "fromStoryEvent": true,
-  "requiredDLC": 1,
-  "name": "Blank Pages"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

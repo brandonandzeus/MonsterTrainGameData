@@ -1,25 +1,31 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-8ece3a32896e4fe8-e8399fc027adf9a4fa9618be42330395-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-a273cf50555e4f56-e8399fc027adf9a4fa9618be42330395-v2",
-  "divineVariant": true,
+  "name": "Divine Pyrewall",
+  "description": "Your Pyre starts the next battle with [armor] [effect0.status0.power]. Remove this artifact after 1 battle.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
-      "paramCharacterSubtype": "SubtypesData_Pyre",
       "paramStatusEffects": [
         {
-          "statusId": "armor",
+          "statusId": "VanillaStatusEffectIDs.Armor",
           "count": 30
         }
       ],
-      "paramTrigger": 2
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramCharacterSubtype": "SubtypesData_Pyre",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 1,
-      "paramTrigger": 2
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "name": "Divine Pyrewall"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Common"
 }

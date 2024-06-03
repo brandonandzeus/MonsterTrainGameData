@@ -1,14 +1,11 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-155f797d3235420f-e3b124c7cf5d0b84b8dac19ff30f2b0a-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-5e872c5920d35e66-e3b124c7cf5d0b84b8dac19ff30f2b0a-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-1b6dc526fe0fe338-e3b124c7cf5d0b84b8dac19ff30f2b0a-v2"
+  "name": "Shadelamp",
+  "description": "The first time each turn an enemy unit dies, add 2 [snack] units to hand.",
+  "relicLoreTooltips": [
+    "When the Rail was built, the Crucible became accessible to Hellborne other than the Umbra Shroud. The Shroud was not too welcoming, however, and crafted lights of shadow that only they could use to see, making it impossible for tourists to linger."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddBattleCardToHandOnUnitTrigger",
-      "paramSourceTeam": 1,
-      "paramInt": 2,
       "paramCardPool": {
         "name": "Class5Food",
         "cardDataList": [
@@ -33,20 +30,28 @@
           "MorselMiner"
         ]
       },
-      "triggerTooltipsSuppressed": true,
       "effectConditions": [
         {
-          "paramTrackedValue": 0,
-          "paramCardType": 0,
+          "paramTrackedValue": "CardStatistics.TrackedValueType.SubtypeInDeck",
+          "paramCardType": "CardStatistics.CardTypeTarget.Any",
           "paramTrackTriggerCount": true,
+          "paramEntryDuration": "CardStatistics.EntryDuration.ThisTurn",
+          "paramComparator": "RelicEffectCondition.Comparator.GreaterThan | RelicEffectCondition.Comparator.Equal",
           "paramInt": 1,
           "allowMultipleTriggersPerDuration": false
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddBattleCardToHandOnUnitTrigger",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
+      "triggerTooltipsSuppressed": true
     }
   ],
-  "rarity": 1,
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassUmbra",
-  "unlockLevel": 2,
-  "name": "Shadelamp"
+  "unlockLevel": 2
 }

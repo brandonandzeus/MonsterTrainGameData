@@ -1,23 +1,27 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-ae9d0d46bf7f8aaf-3a59dd97e449ec848ba0b19cde68e471-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-8848c4091e86e540-3a59dd97e449ec848ba0b19cde68e471-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-6290ecbd312c852f-3a59dd97e449ec848ba0b19cde68e471-v2"
+  "name": "Petrified Crucible",
+  "description": "[spikes] deal +[effect0.power] damage per stack.",
+  "relicLoreTooltips": [
+    "A tool made of petrified Wildwood bark, used to heat ores into something stronger. Used by the Edge Priory to create armor for their Hollows, a process that astounds me still."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyStatusMagnitude",
-      "paramSourceTeam": 2,
-      "paramInt": 1,
       "paramStatusEffects": [
         {
-          "statusId": "spikes",
+          "statusId": "VanillaStatusEffectIDs.Spikes",
           "count": 0
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectModifyStatusMagnitude",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassAwoken",
-  "unlockLevel": 8,
-  "name": "Petrified Crucible"
+  "unlockLevel": 8
 }

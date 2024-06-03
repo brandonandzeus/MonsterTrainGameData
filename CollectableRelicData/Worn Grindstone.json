@@ -1,18 +1,20 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-a839d28b32ca010a-708a4cd3d6e32c44a80ab9ac6f1ee3d0-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-7c192da300a49b34-708a4cd3d6e32c44a80ab9ac6f1ee3d0-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-922e51d27e8ea67f-708a4cd3d6e32c44a80ab9ac6f1ee3d0-v2"
+  "name": "Worn Grindstone",
+  "description": "Friendly units get +[effect0.power][attack].",
+  "relicLoreTooltips": [
+    "As much as it pained me to see the tools of my trade used for such barbaric purposes, the war effort for Hell was in dire need of support. The forges quickly devolved into needless bickering between clans, each one claiming to be the best. Like children, I had to separate them for their own safety and my sanity."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCardAttack",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 5,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "rarity": 1,
-  "requiredDLC": 1,
-  "name": "Worn Grindstone"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

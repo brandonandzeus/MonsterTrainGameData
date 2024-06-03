@@ -1,25 +1,31 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-28eca86fd132e430-3035c250143e9e64e85439582f4baf1d-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-9f3e7f64b09a9bd7-3035c250143e9e64e85439582f4baf1d-v2",
-  "divineVariant": true,
+  "name": "Divine Scorching Restraints",
+  "description": "Friendly units enter with [rage] [effect0.status0.power]. Remove this artifact after 1 battle.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
       "paramStatusEffects": [
         {
-          "statusId": "buff",
+          "statusId": "VanillaStatusEffectIDs.Rage",
           "count": 6
         }
       ],
-      "paramCardType": 1
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 1,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "linkedClass": "ClassHellhorned",
-  "name": "Divine Scorching Restraints"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassHellhorned"
 }

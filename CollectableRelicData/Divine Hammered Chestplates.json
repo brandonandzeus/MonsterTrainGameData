@@ -1,27 +1,33 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-aa6dacac610baa35-596fdb25cdf51224e942c2413ea0d36e-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-90c18d952287b4a8-596fdb25cdf51224e942c2413ea0d36e-v2",
-  "divineVariant": true,
+  "name": "Divine Hammered Chestplates",
+  "description": "Friendly units get +[effect0.power][health]. Remove this artifact after 1 battle.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCardHealth",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 10,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 10,
-      "paramTrigger": 26,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawnNotFromCard",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 1,
-      "paramTrigger": 26,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawnNotFromCard",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "name": "Divine Hammered Chestplates"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Common"
 }

@@ -1,22 +1,26 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-ab5e1205e1b446ba-8ce725520e24738478de9f9279a21128-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-123ddd36bb3592ac-8ce725520e24738478de9f9279a21128-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-481166c25c4a9b6b-8ce725520e24738478de9f9279a21128-v2"
+  "name": "Fade's First Blade",
+  "description": "Friendly units gain [rage] [effect0.status0.power] whenever they lose a stack of [burnout].",
+  "relicLoreTooltips": [
+    "I should no longer be surprised by Fade’s unusual nature. Her lack of wax dates her long before the creation of the Waxers and the Wickless, and the wicks atop her head seem to be purely ornamental. Yet the knife she carries and the “code” that she lives by, or lack thereof, has many similarities to the Remnant of today."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnOtherStatusRemoved",
-      "paramSourceTeam": 2,
-      "paramString": "ephemeral",
       "paramStatusEffects": [
         {
-          "statusId": "buff",
+          "statusId": "VanillaStatusEffectIDs.Rage",
           "count": 3
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnOtherStatusRemoved",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramString": "ephemeral",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "linkedClass": "ClassRemnant",
-  "name": "Fade's First Blade"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassRemnant"
 }

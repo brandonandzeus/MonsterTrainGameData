@@ -1,28 +1,22 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-4846aa778eb9b16d-fda3965a67232f64581e71f2b74631a8-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-b72ac04b2cb3c7d9-fda3965a67232f64581e71f2b74631a8-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-ca5d0dbab3acee06-fda3965a67232f64581e71f2b74631a8-v2"
+  "name": "Thorn Casing",
+  "description": "<b>Sting</b> spells get +[effect0.upgrade.bonusdamage] [magicpower] and [piercing].",
+  "relicLoreTooltips": [
+    "Using the smithing techniques I taught them, the Edge Priory developed casings for the thorns ejected from the Awoken, turning them into much deadlier weapons against the Winged. "
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTempUpgrade",
-      "paramSourceTeam": 2,
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitMagicPower_TooltipTitle",
-          "descriptionKey": "CardTraitMagicPower_TooltipText"
+          "title": "Magic Power",
+          "description": "Increases the amount of damage dealt and health restored by spells."
         },
         {
-          "titleKey": "CardTraitIgnoreArmor_CardText",
-          "descriptionKey": "CardTraitIgnoreArmor_TooltipText"
+          "title": "Piercing",
+          "description": "Damage dealt by this card ignores armor and shields."
         }
       ],
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-08222b55efbdd1b2-72d28dfef30a6e94e9b0f96f293852cd-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-d20e36405957aaab-72d28dfef30a6e94e9b0f96f293852cd-v2",
-        "isUnique": true,
-        "bonusDamage": 10,
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitIgnoreArmor"
@@ -30,16 +24,34 @@
         ],
         "filters": [
           {
-            "cardType": 0,
+            "cardType": "CardType.Spell",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "allowedCardPools": [
               "StingOnlyPool"
-            ]
+            ],
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
-        ]
-      }
+        ],
+        "isUnique": true,
+        "bonusDamage": 10
+      },
+      "relicEffectClassName": "RelicEffectAddTempUpgrade",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassAwoken",
-  "unlockLevel": 5,
-  "name": "Thorn Casing"
+  "unlockLevel": 5
 }

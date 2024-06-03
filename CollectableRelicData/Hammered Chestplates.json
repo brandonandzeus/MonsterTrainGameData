@@ -1,23 +1,27 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-73dae8a4f6d5bf22-db3c413c47160e8429e9946f614e4857-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-e1dddb3834fe044c-db3c413c47160e8429e9946f614e4857-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-8c7a5413b8b1b1fa-db3c413c47160e8429e9946f614e4857-v2"
+  "name": "Hammered Chestplates",
+  "description": "Friendly units get +[effect0.power][health].",
+  "relicLoreTooltips": [
+    "Before the Covenant, Hell had become so dangerous that I made my living creating armor for its unlucky residents. Seraph and I pursued the Covenant to quell the unrest and the armor persisted across centuries. It has proven useful in this last fight."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCardHealth",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 5,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 5,
-      "paramTrigger": 26,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawnNotFromCard",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "name": "Hammered Chestplates"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common"
 }

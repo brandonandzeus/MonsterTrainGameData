@@ -1,17 +1,20 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-ec0f4066834832c6-b72ee9751f6b798458db35fcc2ef31bf-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-746238186e9d89a6-b72ee9751f6b798458db35fcc2ef31bf-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-7cb38aa8a9f6f68b-b72ee9751f6b798458db35fcc2ef31bf-v2"
+  "name": "Ember Stasis",
+  "description": "Playing a [blight] card deals [effect0.power] damage to the front enemy unit.",
+  "relicLoreTooltips": [
+    "Ember is rarely observed in between states of living and dying, making it challenging to learn what destroys its lifeforce. The fragments are volatile things, guided entirely by how much they like their owner."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectDamageOnCardPlayed",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 120,
-      "paramCardType": 5
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Blight"
     }
   ],
-  "fromStoryEvent": true,
-  "name": "Ember Stasis"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "fromStoryEvent": true
 }

@@ -1,26 +1,24 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-10bba2f540e11a18-d992f1b791c2d4e49ab9a3322a58876a-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-7c227f553c46eae5-d992f1b791c2d4e49ab9a3322a58876a-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-1c0b428cf23c456f-d992f1b791c2d4e49ab9a3322a58876a-v2"
+  "name": "Echo Seedling",
+  "description": "The first time each battle a card with [consume] is played, add 2 copies to hand.",
+  "relicLoreTooltips": [
+    "One more recent Wurmkin experiment has been to propagate an Echo's stored knowledge. This involves taking a small shard of a source and placing it into a shallow plate of water. Some amount of knowledge is maintained in the newly formed crystal, but not yet enough to make the process widely adopted."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCopyCardOnCardPlay",
-      "paramInt": 2,
-      "paramCardType": 4,
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitExhaustState_CardText",
-          "descriptionKey": "CardTraitExhaustState_TooltipText"
+          "title": "Consume",
+          "description": "Can only be played once per battle."
         }
       ],
       "effectConditions": [
         {
-          "paramTrackedValue": 0,
-          "paramCardType": 0,
+          "paramTrackedValue": "CardStatistics.TrackedValueType.SubtypeInDeck",
+          "paramCardType": "CardStatistics.CardTypeTarget.Any",
           "paramTrackTriggerCount": true,
-          "paramEntryDuration": 2,
+          "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
+          "paramComparator": "RelicEffectCondition.Comparator.GreaterThan | RelicEffectCondition.Comparator.Equal",
           "paramInt": 1,
           "allowMultipleTriggersPerDuration": false
         }
@@ -29,11 +27,18 @@
         {
           "traitStateName": "CardTraitExhaustState"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectCopyCardOnCardPlay",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Invalid"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassWurm",
   "unlockLevel": 6,
-  "requiredDLC": 1,
-  "name": "Echo Seedling"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

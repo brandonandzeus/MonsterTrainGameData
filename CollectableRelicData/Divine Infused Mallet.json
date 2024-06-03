@@ -1,26 +1,33 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-3a429b4fed83940c-9c8267338d7b62c4487e106796ea9f98-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-1da255f8a38ffbd8-9c8267338d7b62c4487e106796ea9f98-v2",
-  "divineVariant": true,
+  "name": "Divine Infused Mallet",
+  "description": "[effect0.power]% chance to deal 10 damage when an enemy unit enters your train. Remove this artifact after 1 battle.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectChanceAddEffectOnSpawn",
-      "paramSourceTeam": 1,
-      "paramInt": 50,
       "paramCardEffects": [
         {
           "effectStateName": "CardEffectDamage",
-          "targetMode": 5,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes",
           "paramInt": 10
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectChanceAddEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 50,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
-      "paramSourceTeam": 1,
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Divine Infused Mallet"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Uncommon"
 }

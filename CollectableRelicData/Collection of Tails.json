@@ -1,21 +1,25 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-c1dc3dbb8d87ce6b-29a913f401cb1534aa2c8b9e2c70f566-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-f8265aa7f0ac3297-29a913f401cb1534aa2c8b9e2c70f566-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-b8723967e31909a0-29a913f401cb1534aa2c8b9e2c70f566-v2"
+  "name": "Collection of Tails",
+  "description": "[rage] does not decay on friendly units.",
+  "relicLoreTooltips": [
+    "An imp officially matures into a demon when their tail falls off and they learn to stand on their own feet, but this evolution only seems to enrage the demon further. I don't like the sight of the disembodied tails, but keeping them is necessary."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectPreventStatusEffectDecay",
-      "paramSourceTeam": 2,
       "paramStatusEffects": [
         {
-          "statusId": "buff",
+          "statusId": "VanillaStatusEffectIDs.Rage",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectPreventStatusEffectDecay",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "linkedClass": "ClassHellhorned",
-  "name": "Collection of Tails"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassHellhorned"
 }

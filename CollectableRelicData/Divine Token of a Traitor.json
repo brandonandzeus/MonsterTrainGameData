@@ -1,20 +1,26 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-6697d1e930575d38-26b4e4315b857e44885dd4f2aa473818-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-4a1bd4db65a39130-26b4e4315b857e44885dd4f2aa473818-v2",
-  "divineVariant": true,
+  "name": "Divine Token of a Traitor",
+  "description": "Playing a spell deals [effect0.power] damage to a random enemy unit on that floor. Remove this artifact after 1 battle.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectDamageOnCardPlayed",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 4,
-      "paramTargetMode": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.RandomInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "linkedClass": "ClassStygian",
-  "name": "Divine Token of a Traitor"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassStygian"
 }

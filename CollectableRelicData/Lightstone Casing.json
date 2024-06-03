@@ -1,13 +1,18 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-dffe29b98ac852e1-05e57118fea75a44b8053907829df8b3-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-c836e987e7f71bb4-05e57118fea75a44b8053907829df8b3-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-09d18177d4fb0aa3-05e57118fea75a44b8053907829df8b3-v2"
+  "name": "Lightstone Casing",
+  "description": "Spells get an extra upgrade slot.",
+  "relicLoreTooltips": [
+    "After the Pyrestone brace proved to be wildly successful, Seraph stole my design and created a similar device to infuse the stones with Light instead. As is his way, he created a housing much more ostentatious than the simple one I created for Hell."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddSpellUpgradeSlot"
+      "relicEffectClassName": "RelicEffectAddSpellUpgradeSlot",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "name": "Lightstone Casing"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common"
 }

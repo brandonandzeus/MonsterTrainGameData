@@ -1,28 +1,40 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-9c3c33052d85aafc-8d8be5e0835a59d408fcc29a282b8fdf-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-b92f2793bcd6f25c-8d8be5e0835a59d408fcc29a282b8fdf-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-a308947e8357f6cc-8d8be5e0835a59d408fcc29a282b8fdf-v2"
+  "name": "Resin Block",
+  "description": "When a friendly unit dies, apply +[effect0.upgrade.bonusdamage][attack] to that unit.",
+  "relicLoreTooltips": [
+    "With each melt and reform comes the development of new resin, giving the Waxer a particular edge they didn't have in their previous life. I've chipped some away to study further once aboard the Boneshaker."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectEnhanceOnMonsterExhausted",
-      "paramCardType": 1,
-      "tooltipTitleKey": "CollectableRelicData_tooltipTitleKey-51be8cea24e1c6cc-8d8be5e0835a59d408fcc29a282b8fdf-v2",
-      "tooltipBodyKey": "CollectableRelicData_tooltipBodyKey-3273c8cbea55c455-8d8be5e0835a59d408fcc29a282b8fdf-v2",
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-8de045732860a4cf-62f06c0b0835a514f91786c7de75ae1b-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-8bce3a1cef52134c-62f06c0b0835a514f91786c7de75ae1b-v2",
-        "bonusDamage": 10,
+        "upgradeTitle": "Resin Block",
+        "upgradeDescription": "+10[attack].",
         "filters": [
           {
-            "cardType": 1,
-            "excludeNonAttackingMonsters": true
+            "cardType": "CardType.Monster",
+            "excludeNonAttackingMonsters": true,
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
-        ]
-      }
+        ],
+        "bonusDamage": 10
+      },
+      "relicEffectClassName": "RelicEffectEnhanceOnMonsterExhausted",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "linkedClass": "ClassRemnant",
-  "name": "Resin Block"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassRemnant"
 }

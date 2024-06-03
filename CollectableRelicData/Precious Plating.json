@@ -1,15 +1,20 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-e9d6bd1bea0529dd-4ecd4b09a52009b4b87f7b60a3600724-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-780c84f78967f22a-4ecd4b09a52009b4b87f7b60a3600724-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-63649c99620d4cc4-4ecd4b09a52009b4b87f7b60a3600724-v2"
+  "name": "Precious Plating",
+  "description": "Your Pyre gets +[effect0.power][pyrehealth].",
+  "relicLoreTooltips": [
+    "I can use this alloy to fortify the Pyre brace in the Boneshaker and make it stronger. But I need to remember to use this material economically, as it is hard to come by."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyTowerMaxHealth",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 40,
-      "paramBool": true
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "name": "Precious Plating"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common"
 }

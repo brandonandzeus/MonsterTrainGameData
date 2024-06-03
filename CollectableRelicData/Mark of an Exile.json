@@ -1,20 +1,22 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-079c7b006ce72ad1-f9ec537fec6a6324496191649447add2-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-7ba0601f9a148dcc-f9ec537fec6a6324496191649447add2-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-4ae03c269d48de08-f9ec537fec6a6324496191649447add2-v2"
+  "name": "Mark of an Exile",
+  "description": "When played, your Champion gains +[effect0.power]% max health.",
+  "relicLoreTooltips": [
+    "Despite the failings of the Roles of Champions, there was some small peace to be found in the knowledge that the Exiles had made an almost identical decision when defending themselves against greater powers. Though, their failing has only amplified ours."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCharacterAttackOrHealthPercentage",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 50,
       "paramCharacterSubtype": "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34",
       "paramBool": true,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "rarity": 1,
-  "requiredDLC": 1,
-  "name": "Mark of an Exile"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

@@ -1,19 +1,27 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-a05fbce2d506f436-21d9b21882e955647ade6e91814fd333-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-a2062888c9038514-21d9b21882e955647ade6e91814fd333-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-d6203a1f90ad246f-21d9b21882e955647ade6e91814fd333-v2"
+  "name": "Cheater's Hand",
+  "description": "Draw +[effect0.power] each turn, then return 1 card to the top of your draw pile.",
+  "relicLoreTooltips": [
+    "Rumblings of Seraph’s moral absolutism had become frequent in the time before Heaven’s invasion. Transgressions were rarely tolerated and often met with swift physical punishment. I can see now that his invasion of Hell was largely driven by some personal vendetta against me and my failings."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectChangeStartingHandSize",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectCardsFromHandToDeck"
+      "relicEffectClassName": "RelicEffectCardsFromHandToDeck",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "requiredDLC": 1,
-  "name": "Cheater's Hand"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

@@ -1,33 +1,40 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-85af9cb5cfc9d444-cef2d606fc36e7340913cc758a9babdf-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-dd1a68170feb8c4f-cef2d606fc36e7340913cc758a9babdf-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-d78e57c9899d7678-cef2d606fc36e7340913cc758a9babdf-v2"
+  "name": "Faulty Loader",
+  "description": "Apply [dazed] [effect0.status0.power] and [meleeweakness] [effect1.status0.power] to enemy units on the bottom floor in the first wave of combat.",
+  "relicLoreTooltips": [
+    "The armies of Heaven were able to board our train today... while it was moving! I’d be astonished at the concept if I weren’t preoccupied with the implications of this feat. Our end may be nearing faster than I’d hoped."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnEnterRoomIndex",
-      "paramSourceTeam": 1,
-      "paramBool": true,
       "paramStatusEffects": [
         {
-          "statusId": "dazed",
+          "statusId": "VanillaStatusEffectIDs.Dazed",
           "count": 3
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnEnterRoomIndex",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnEnterRoomIndex",
-      "paramSourceTeam": 1,
-      "paramBool": true,
       "paramStatusEffects": [
         {
-          "statusId": "melee weakness",
+          "statusId": "VanillaStatusEffectIDs.MeleeWeakness",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnEnterRoomIndex",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "requiredDLC": 1,
-  "name": "Faulty Loader"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

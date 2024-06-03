@@ -1,17 +1,21 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-e668607211c58cd4-7b7400965069f0d4a851f05fcd3d2894-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-cc9d42e665915b4c-7b7400965069f0d4a851f05fcd3d2894-v2",
-  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-c088223338b694c3-7b7400965069f0d4a851f05fcd3d2894-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-9d7f84b1d4668a7c-7b7400965069f0d4a851f05fcd3d2894-v2"
+  "name": "Golden Vault",
+  "description": "As long as you have at least [effect0.power][coin], lose [effect0.power][coin] when you take Pyre damage in combat instead of taking damage.",
+  "relicActivated": "-25[coin]",
+  "relicLoreTooltips": [
+    "We amassed what small gold we had over time, all of it plundered from the rarely-defeated Heavenly forces in hopes of stifling their war funding. Given the great wealth of Heaven, however, I don’t imagine they even noticed. It’s funny how quickly the afraid will empty their pockets in the off chance of retaining some control of their sanity."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectCurrencyForPyreDamage",
-      "paramInt": 25
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 25,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "requiredDLC": 1,
-  "name": "Golden Vault"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

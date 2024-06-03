@@ -1,22 +1,30 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-1d43c81e3c8fc45a-4c655a288d373e048b28bff20a6ed979-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-8b70b38639da20d0-4c655a288d373e048b28bff20a6ed979-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-a2a0446b22638afe-4c655a288d373e048b28bff20a6ed979-v2"
+  "name": "Volatile Gauge",
+  "description": "When you draw any non-Champion card, its cost is randomized between 1[ember] and 3[ember]. Draw +[effect1.power] each turn.",
+  "relicLoreTooltips": [
+    "One of the first instruments I developed for the Boneshaker. Regrettably, it’s not very accurate and delivers entirely random heat output from the furnace."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectRandomCardCostOnDraw",
+      "paramSourceTeam": "Team.Type.None",
       "paramUseIntRange": true,
       "paramMinInt": 1,
       "paramMaxInt": 4,
-      "paramBool": true
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectChangeStartingHandSize",
-      "paramInt": 3
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 3,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Volatile Gauge"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon"
 }

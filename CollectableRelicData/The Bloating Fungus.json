@@ -1,23 +1,26 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-62400e92397f068b-be40064afc3e1f244a54dd253a4dcc8e-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-508dacb2f3ddf512-be40064afc3e1f244a54dd253a4dcc8e-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-739ae3438a3e7ae6-be40064afc3e1f244a54dd253a4dcc8e-v2"
+  "name": "The Bloating Fungus",
+  "description": "[regen] restores +[effect0.power] health per stack.",
+  "relicLoreTooltips": [
+    "This fungal infection affects the bark of trees throughout the Wildwood. While it feeds on much of the sap the tree produces, the fungus also accelerates the tree's sap production entirely, creating a fascinating symbiotic relationship between the two species."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyStatusMagnitude",
-      "paramSourceTeam": 2,
-      "paramInt": 1,
       "paramStatusEffects": [
         {
-          "statusId": "regen",
+          "statusId": "VanillaStatusEffectIDs.Regen",
           "count": 0
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectModifyStatusMagnitude",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "linkedClass": "ClassAwoken",
-  "name": "The Bloating Fungus"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassAwoken"
 }

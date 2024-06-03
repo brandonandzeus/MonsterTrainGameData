@@ -1,22 +1,31 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-cd4b726475909cf7-9d7f4b7fafb70634f90ce4c1426e13a4-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-bb982a6a60ae52b9-9d7f4b7fafb70634f90ce4c1426e13a4-v2",
-  "divineVariant": true,
+  "name": "Divine Tempered Talisman",
+  "description": "+[effect0.power] [magicpower]. Remove this artifact after 1 battle.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyCardMagicalPower",
-      "paramInt": 6,
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitMagicPower_TooltipTitle",
-          "descriptionKey": "CardTraitMagicPower_TooltipText"
+          "title": "Magic Power",
+          "description": "Increases the amount of damage dealt and health restored by spells."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectModifyCardMagicalPower",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 6,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "name": "Divine Tempered Talisman"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Common"
 }

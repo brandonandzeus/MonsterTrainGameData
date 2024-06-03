@@ -1,25 +1,30 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-42d9c7cf1b2c8462-788763283544e324f96e2722406c6588-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-e37c878daaa86877-788763283544e324f96e2722406c6588-v2",
-  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-db2bad3e01d81c9c-788763283544e324f96e2722406c6588-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-d0e3bf4e110ac4bb-788763283544e324f96e2722406c6588-v2"
+  "name": "Winged Steel",
+  "description": "When you play your third card of the turn, draw [effect0.power].",
+  "relicActivated": "Draw!",
+  "relicLoreTooltips": [
+    "The Winged crafted a solid piece of steel to show me the creation process. The runes they placed on it made sure I could not melt it down again for my own use."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardDrawOnCardPlay",
-      "paramInt": 1,
-      "paramCardType": 4,
       "effectConditions": [
         {
-          "paramTrackedValue": 12,
-          "paramCardType": 0,
+          "paramTrackedValue": "CardStatistics.TrackedValueType.AnyCardPlayed",
+          "paramCardType": "CardStatistics.CardTypeTarget.Any",
+          "paramEntryDuration": "CardStatistics.EntryDuration.ThisTurn",
+          "paramComparator": "RelicEffectCondition.Comparator.GreaterThan | RelicEffectCondition.Comparator.Equal",
           "paramInt": 3,
           "allowMultipleTriggersPerDuration": false
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectCardDrawOnCardPlay",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Invalid"
     }
   ],
-  "rarity": 1,
-  "name": "Winged Steel"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon"
 }

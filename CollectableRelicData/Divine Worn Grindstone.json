@@ -1,20 +1,26 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-88b9bf33551be200-7ccef1c508e3af24c95225b28beb6041-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-ff4e3d935df606f9-7ccef1c508e3af24c95225b28beb6041-v2",
-  "divineVariant": true,
+  "name": "Divine Worn Grindstone",
+  "description": "Friendly units get +[effect0.power][attack]. Remove this artifact after 1 battle.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCardAttack",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 10,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "requiredDLC": 1,
-  "name": "Divine Worn Grindstone"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

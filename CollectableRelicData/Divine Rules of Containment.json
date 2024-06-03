@@ -1,24 +1,31 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-aa98b831d6c8dc74-d2501bfcfc978214cbcce825a5b29191-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-176ff77638b25f26-d2501bfcfc978214cbcce825a5b29191-v2",
-  "divineVariant": true,
+  "name": "Divine Rules of Containment",
+  "description": "Enemy units enter with [frostbite] [effect0.status0.power]. Remove this artifact after 1 battle.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
       "paramStatusEffects": [
         {
-          "statusId": "poison",
+          "statusId": "VanillaStatusEffectIDs.Frostbite",
           "count": 4
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
-      "paramSourceTeam": 1,
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "linkedClass": "ClassStygian",
-  "name": "Divine Rules of Containment"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassStygian"
 }

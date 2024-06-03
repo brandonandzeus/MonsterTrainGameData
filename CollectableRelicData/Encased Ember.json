@@ -1,24 +1,28 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-6ef5a6cd8982b6c0-41c937a7309d41b4e83f8f47c357aec2-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-205d67cee9077e64-41c937a7309d41b4e83f8f47c357aec2-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-7efb5462ac3411e0-41c937a7309d41b4e83f8f47c357aec2-v2"
+  "name": "Encased Ember",
+  "description": "Gain [effect0.power][ember] when a [tomb] unit dies.",
+  "relicLoreTooltips": [
+    "It seems that throughout the existence of the Waxen Arches, everything has fallen victim to wax encasement. Not even the Ember of the Pyre has been spared, though I've collected any I've seen trapped to free them again later."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectEmberOnUnitTrigger",
-      "paramSourceTeam": 2,
-      "paramInt": 5,
-      "paramCharacterSubtype": "SubtypesData_Tomb",
       "additionalTooltips": [
         {
-          "titleKey": "Ember_TooltipTitle",
-          "descriptionKey": "Ember_TooltipText"
+          "title": "[ember] Ember",
+          "description": "Spent to play cards from your hand."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectEmberOnUnitTrigger",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 5,
+      "paramCharacterSubtype": "SubtypesData_Tomb",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassRemnant",
-  "unlockLevel": 5,
-  "name": "Encased Ember"
+  "unlockLevel": 5
 }

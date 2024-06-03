@@ -1,38 +1,46 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-753b24f887a91fba-91d69ecac18830a4aa06e410f37cc906-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-8699ea61f806c761-91d69ecac18830a4aa06e410f37cc906-v2",
-  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-e88a77a87421224b-91d69ecac18830a4aa06e410f37cc906-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-e8b64e59e956b34c-91d69ecac18830a4aa06e410f37cc906-v2"
+  "name": "Carving Corusca",
+  "description": "When a card with <b>Extract</b> is played, gain [effect0.power][ember] and [effect1.power][corrupt].",
+  "relicLoreTooltips": [
+    "Wurmkin learning to master stoneform carving are often given a set of claw covers to practice. This allows them to practice stoneform etchings without a worry of damaging their own claws. Given how sturdy I've seen Wurmkin claws to be, I'd guess this \"protection\" is little more than vanity."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectEnergyOnCorruptRestrictedPlayed",
-      "paramInt": 1,
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitCorruptRestricted_CardText_NoParam",
-          "descriptionKey": "CardTraitCorruptRestricted_TooltipText"
+          "title": "Extract",
+          "description": "Lose [corrupt] after you play this card. If you cannot, the card cannot be played."
         },
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectEnergyOnCorruptRestrictedPlayed",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectCorruptionOnCorruptRestrictedPlayed",
-      "paramInt": 1,
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitCorruptRestricted_CardText_NoParam",
-          "descriptionKey": "CardTraitCorruptRestricted_TooltipText"
+          "title": "Extract",
+          "description": "Lose [corrupt] after you play this card. If you cannot, the card cannot be played."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectCorruptionOnCorruptRestrictedPlayed",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassWurm",
   "unlockLevel": 8,
-  "requiredDLC": 1,
-  "name": "Carving Corusca"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

@@ -1,22 +1,25 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-68780f469437ab7f-126fd9be09f3659408146e1f7d456103-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-9f68d52fa74d7f61-126fd9be09f3659408146e1f7d456103-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-a6c884257edec6fb-126fd9be09f3659408146e1f7d456103-v2"
+  "name": "Scorching Restraints",
+  "description": "Friendly units enter with [rage] [effect0.status0.power].",
+  "relicLoreTooltips": [
+    "For the Hellhorned that are considered too violent by their own clan’s standards, imprisonment is a cruel affair. Subjected to rot in chains sunk directly into the bubbling lava below, the prisoners are burned by the molten steel that binds them... and the scorching heat only enrages them further."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
       "paramStatusEffects": [
         {
-          "statusId": "buff",
+          "statusId": "VanillaStatusEffectIDs.Rage",
           "count": 3
         }
       ],
-      "paramCardType": 1
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "linkedClass": "ClassHellhorned",
-  "name": "Scorching Restraints"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassHellhorned"
 }

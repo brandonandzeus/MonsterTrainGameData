@@ -1,23 +1,27 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-03d1d0ff1343b1e2-999145cdc28aaa54d971e1c6d2529260-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-a234806538ccba14-999145cdc28aaa54d971e1c6d2529260-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-67a622cd26e1f3cf-999145cdc28aaa54d971e1c6d2529260-v2"
+  "name": "Wurmtooth",
+  "description": "Clan starter cards are [infused].<br>One card in each draft pack will be [infused].",
+  "relicLoreTooltips": [
+    "The Bogwurm is mentioned very casually among the Wurmkin. So much so that I often forgot the beast was a Titan. But it seems that the Bogwurm that gave them life and shelter is so present in their everyday routines, that their eternal devotion to study is reverence enough to the Titan. Even if they do refer to the Bogwurm as “that ghastly old worm” more than I care to acknowledge."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectNull",
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitCorruptState_CardText",
-          "descriptionKey": "CardTraitCorruptState_TooltipText"
+          "title": "[infused]",
+          "description": "When played, the current floor will gain 1[corrupt]."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectNull",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 4,
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Starter",
   "linkedClass": "ClassWurm",
   "ignoreForNoRelicAchievement": true,
-  "requiredDLC": 1,
-  "name": "Wurmtooth"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

@@ -1,29 +1,38 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-8133619895330320-7a46edf07e109e448bc7dd20e7888ed3-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-5223313d71e1d3bd-7a46edf07e109e448bc7dd20e7888ed3-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-889a7e76595fd7c7-7a46edf07e109e448bc7dd20e7888ed3-v2"
+  "name": "Frozen Nostalgia",
+  "description": "[effect0.power][capacity] on each floor. +[effect1.power] [magicpower].",
+  "relicLoreTooltips": [
+    "My heart and my life. I only hope that you can learn from an old man’s mistakes."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectChangeFloorCapacity",
-      "paramInt": -1,
       "additionalTooltips": [
         {
-          "titleKey": "Capacity_TooltipTitle",
-          "descriptionKey": "Capacity_TooltipText"
+          "title": "[capacity] Capacity",
+          "description": "Units can only be summoned on a floor if it has enough capacity."
         },
         {
-          "titleKey": "CardTraitMagicPower_TooltipTitle",
-          "descriptionKey": "CardTraitMagicPower_TooltipText"
+          "title": "Magic Power",
+          "description": "Increases the amount of damage dealt and health restored by spells."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectChangeFloorCapacity",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": -1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCardMagicalPower",
-      "paramInt": 15
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 15,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "fromStoryEvent": true,
-  "name": "Frozen Nostalgia"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "fromStoryEvent": true
 }

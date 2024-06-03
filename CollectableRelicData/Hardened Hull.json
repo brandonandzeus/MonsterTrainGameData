@@ -1,34 +1,41 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-b9100799323f10e1-e7fd8429a68c7764a9c22a78614e77af-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-c527e5316f0f5b37-e7fd8429a68c7764a9c22a78614e77af-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-62cc526d3f1e08a6-e7fd8429a68c7764a9c22a78614e77af-v2"
+  "name": "Hardened Hull",
+  "description": "When an Egg unit is summoned, remove [hatch] [effect0.status0.power] and apply [armor] [effect1.status0.power].",
+  "relicLoreTooltips": [
+    "Eggs are rarely hatched as soon as they are created. In fact, new eggs have not been laid for centuries. So the dormant eggs are incubated in calcified Kinhost carapace. Though, if no new eggs exist, I suspect that the Wurmkin’s sudden announcement of their existence is less selfless than they’d have me believe."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectRemoveStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
-      "paramCharacterSubtype": "SubtypesData_Egg",
       "paramStatusEffects": [
         {
-          "statusId": "hatch",
+          "statusId": "VanillaStatusEffectIDs.Shell",
           "count": 3
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectRemoveStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramCharacterSubtype": "SubtypesData_Egg",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
-      "paramCharacterSubtype": "SubtypesData_Egg",
       "paramStatusEffects": [
         {
-          "statusId": "armor",
+          "statusId": "VanillaStatusEffectIDs.Armor",
           "count": 30
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramCharacterSubtype": "SubtypesData_Egg",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassWurm",
-  "requiredDLC": 1,
-  "name": "Hardened Hull"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

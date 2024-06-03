@@ -1,29 +1,33 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-1e967ac407f5a75f-9dc3b3b566710ec47a661435e2efdd42-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-9f613cdde7f2b3ab-9dc3b3b566710ec47a661435e2efdd42-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-2d32ec2e8a71e93c-9dc3b3b566710ec47a661435e2efdd42-v2"
+  "name": "Concussive Coals",
+  "description": "[effect0.power]% chance to apply <b>Dazed</b> when an enemy unit enters your train.",
+  "relicLoreTooltips": [
+    "Too often, the seemingly extinguished coals of the Boneshaker still smolder, most likely powered by the Pyre. Unfortunately, this has led to many explosive accidents on my train."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectChanceAddEffectOnSpawn",
-      "paramSourceTeam": 1,
-      "paramInt": 50,
       "paramCardEffects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "paramInt": 100,
           "paramStatusEffects": [
             {
-              "statusId": "dazed",
+              "statusId": "VanillaStatusEffectIDs.Dazed",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes",
+          "paramInt": 100
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectChanceAddEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 50,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Concussive Coals"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon"
 }

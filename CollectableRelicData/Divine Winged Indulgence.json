@@ -1,22 +1,25 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-1b6199897c074013-ddba3d7b1505d6846af4a20c098c6aa8-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-73bd71d041099e2d-ddba3d7b1505d6846af4a20c098c6aa8-v2",
-  "divineVariant": true,
+  "name": "Divine Winged Indulgence",
+  "description": "Enemy units get [effect0.power][attack]. Remove this artifact after 1 battle.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCharacterAttackDamage",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": -2,
-      "paramTrigger": 2,
-      "paramCardType": 4
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Invalid"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 1,
-      "paramTrigger": 2,
-      "paramCardType": 4
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Invalid"
     }
   ],
-  "rarity": 1,
-  "name": "Divine Winged Indulgence"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Uncommon"
 }

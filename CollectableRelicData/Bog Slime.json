@@ -1,32 +1,37 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-e4397668fe5091a2-f6fd222da44a96c4bb3964e6fb9b5920-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-d884f6dd57bdfe83-f6fd222da44a96c4bb3964e6fb9b5920-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-f8f5858ced162953-f6fd222da44a96c4bb3964e6fb9b5920-v2"
+  "name": "Bog Slime",
+  "description": "When a spell with [consume] is played, gain 1[corrupt].",
+  "relicLoreTooltips": [
+    "The bogs and decay on the Ring’s topside acts as a sort of camouflage for those within and a deterrent from anyone wanting to investigate further. I’ve seen bodies decomposed in minutes on more than one occasion. So, I wouldn’t say I was excited to return to the bogs for any reason."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyCorruptionOnCardPlayed",
-      "paramInt": 1,
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitExhaustState_CardText",
-          "descriptionKey": "CardTraitExhaustState_TooltipText"
+          "title": "Consume",
+          "description": "Can only be played once per battle."
         },
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
       ],
       "traits": [
         {
           "traitStateName": "CardTraitExhaustState"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectModifyCorruptionOnCardPlayed",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassWurm",
   "unlockLevel": 5,
-  "requiredDLC": 1,
-  "name": "Bog Slime"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

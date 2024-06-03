@@ -1,34 +1,46 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-3c5b27646ebe5bf4-59795366ed8e0aa4d93a1c00223b50fa-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-a63032dd2e14920a-59795366ed8e0aa4d93a1c00223b50fa-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-b1f6d3e2abee4992-59795366ed8e0aa4d93a1c00223b50fa-v2"
+  "name": "Fel's Remorse",
+  "description": "+[effect0.power][ember] per turn. [halfbreak]Your Pyre gets +[effect2.power][attack] and +[effect1.power][pyrehealth].",
+  "relicLoreTooltips": [
+    "When Fel left to join her cause, she left me with remaining Embers of the Pyre. She could have been killed for this, but she gave them anyway. That’s all I have to say about Fel."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyEnergy",
-      "paramInt": 1,
-      "paramBool": true,
       "additionalTooltips": [
         {
-          "titleKey": "Ember_TooltipTitle",
-          "descriptionKey": "Ember_TooltipText"
+          "title": "[ember] Ember",
+          "description": "Spent to play cards from your hand."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectModifyEnergy",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectModifyTowerMaxHealth",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 30,
-      "paramBool": true
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectTowerDamageDealtModified",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 10,
-      "paramBool": true
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 3,
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Champion",
   "isBossGivenRelic": true,
-  "ignoreForNoRelicAchievement": true,
-  "name": "Fel's Remorse"
+  "ignoreForNoRelicAchievement": true
 }

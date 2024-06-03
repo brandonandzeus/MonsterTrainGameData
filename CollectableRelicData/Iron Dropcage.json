@@ -1,31 +1,34 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-79b7fc3362574a18-5e9668e688709414c903a2c9ebc84944-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-d0868dd7a8b44b82-5e9668e688709414c903a2c9ebc84944-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-8becdce95a490e98-5e9668e688709414c903a2c9ebc84944-v2"
+  "name": "Iron Dropcage",
+  "description": "Whenever you play a spell that would [ascend] or [descend] an enemy unit, also apply [dazed] [effect0.status0.power].",
+  "relicLoreTooltips": [
+    "As invasions of the Boneshaker have become more frequent, I’ve devised a number of traps and devices to subdue any unwanted guests. These cages should hold them back temporarily when they board the train."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusOnUnitMoved",
-      "paramSourceTeam": 1,
       "paramStatusEffects": [
         {
-          "statusId": "dazed",
+          "statusId": "VanillaStatusEffectIDs.Dazed",
           "count": 2
         }
       ],
       "additionalTooltips": [
         {
-          "titleKey": "CardEffectBump_Up_TooltipTitle",
-          "descriptionKey": "CardEffectBump_Up_TooltipText"
+          "title": "[ascend]",
+          "description": "Move up a floor and to the back of that floor."
         },
         {
-          "titleKey": "CardEffectBump_Down_TooltipTitle",
-          "descriptionKey": "CardEffectBump_Down_TooltipText"
+          "title": "[descend]",
+          "description": "Move down a floor and to the back of that floor."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusOnUnitMoved",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Iron Dropcage"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon"
 }

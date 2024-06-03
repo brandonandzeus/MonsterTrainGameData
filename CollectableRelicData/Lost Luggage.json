@@ -1,16 +1,20 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-8b717cfd6be3926d-2d15f9432c8baa64b9d91c2165db6788-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-464c4212b15ee8ca-2d15f9432c8baa64b9d91c2165db6788-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-cdd27e4af92a2425-2d15f9432c8baa64b9d91c2165db6788-v2"
+  "name": "Lost Luggage",
+  "description": "At the start of battle, draw until you have 10 cards.",
+  "relicLoreTooltips": [
+    "Contrary to common belief, demons do not travel light. Supposedly, the souls of Heaven and Hell require less worldly attachments than the Humans they consider to be so lowly, but I can tell you that is absolutely untrue. I once saw a Hellhorned Demon bring aboard six bursting suitcases. When I asked if all of it was needed, the Demon only glared and growled. Only then, have I truly known fear."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectDrawToMaxStartOfCombat",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "requiredDLC": 1,
-  "name": "Lost Luggage"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

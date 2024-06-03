@@ -1,24 +1,26 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-0ee3c4b6559ab141-61f5e591637b8f24b8e2d93d16a3916f-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-ef8ffa9215807989-61f5e591637b8f24b8e2d93d16a3916f-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-61d1eaaaa0bec2cf-61f5e591637b8f24b8e2d93d16a3916f-v2"
+  "name": "Icicle Fracture",
+  "description": "At end of turn, apply [freeze] to a random card in your hand.",
+  "relicLoreTooltips": [
+    "Ice created from the water of the Styx Sea melts at much higher temperatures than other ice I’ve found throughout Hell. Any icicles that form on the Boneshaker while in this Ring will not thaw entirely from the train’s residual heat, and will become potential hazards for negligent bystanders."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectFreezeRandomCards",
-      "paramInt": 1,
-      "paramTrigger": 21,
-      "tooltipTitleKey": "CollectableRelicData_tooltipTitleKey-8599cdaf5db8dcfe-61f5e591637b8f24b8e2d93d16a3916f-v2",
-      "tooltipBodyKey": "CollectableRelicData_tooltipBodyKey-fde19200311f1afe-61f5e591637b8f24b8e2d93d16a3916f-v2",
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitFreeze_CardText",
-          "descriptionKey": "CardTraitFreeze_TooltipText"
+          "title": "Frozen",
+          "description": "This card will not be discarded at the end of turn. [freeze] is removed when the card is played."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectFreezeRandomCards",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.EndTurnPreHandDiscard",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "linkedClass": "ClassStygian",
-  "name": "Icicle Fracture"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassStygian"
 }

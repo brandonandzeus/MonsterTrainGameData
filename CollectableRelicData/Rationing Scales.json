@@ -1,19 +1,28 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-315887e78fef34fb-cc5e383da27154543a97990af208fbf9-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-65d20f9fe9ecddf5-cc5e383da27154543a97990af208fbf9-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-2bd8fc72e58757b2-cc5e383da27154543a97990af208fbf9-v2"
+  "name": "Rationing Scales",
+  "description": "Before each battle, set Pyre health to [effect1.power]. If this reduces Pyre health, gain 3[coin] for each health lost.",
+  "relicLoreTooltips": [
+    "By the time you read this, I hope that Hell, or what remains of it, remains a united front against their invaders. But this was not always the case. The destruction of Divinities had left souls to wander endlessly and the absence of Judgement meant that all realms felt the effects of overcrowding and resource shortages. In some ways, this time before the war was even more trying than the ensuing violence."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectGoldForPyreHealthOnDeparture",
-      "paramInt": 50
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 50,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectSetPyreHealthOnDeparture",
-      "paramInt": 50
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 50,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "requiredDLC": 1,
-  "name": "Rationing Scales"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

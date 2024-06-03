@@ -1,26 +1,28 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-461d1a9a641389d7-cc8ad97c1ec9e274b85c02d051dc576c-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-6568ac563683a6b6-cc8ad97c1ec9e274b85c02d051dc576c-v2",
-  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-e995c7c56dd0024e-cc8ad97c1ec9e274b85c02d051dc576c-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-3e22831f89aab8ab-cc8ad97c1ec9e274b85c02d051dc576c-v2"
+  "name": "Shard of Divinity",
+  "description": "Your Pyre starts each battle with [armor] [effect0.status0.power].",
+  "relicLoreTooltips": [
+    "When the Divinities come back, and they will, you must accept the Pact they put forth. It will make things harder. It may make time act...strange. But each Shard given out of their gratitude is a piece of Divinity itself and will offer some protection. This will buy you time, and that’s all it seems I am fit to provide anymore. But, perhaps, that will be enough. "
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
-      "paramCharacterSubtype": "SubtypesData_Pyre",
       "paramStatusEffects": [
         {
-          "statusId": "armor",
+          "statusId": "VanillaStatusEffectIDs.Armor",
           "count": 100
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramCharacterSubtype": "SubtypesData_Pyre",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 3,
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Champion",
   "fromStoryEvent": true,
   "ignoreForNoRelicAchievement": true,
-  "requiredDLC": 1,
-  "name": "Shard of Divinity"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

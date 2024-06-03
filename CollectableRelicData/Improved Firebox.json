@@ -1,20 +1,25 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-c25c7e507d13149e-976dab15c7ef24a4aa4ffbf927000827-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-eda12051fad77466-976dab15c7ef24a4aa4ffbf927000827-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-a6477fab30e533fe-976dab15c7ef24a4aa4ffbf927000827-v2"
+  "name": "Improved Firebox",
+  "description": "Gain [effect0.power][ember] on the first turn of battle.",
+  "relicLoreTooltips": [
+    "I constructed the train with what I had at the time, with hopes to expand later on with what I’d scavenge on the way. To make sure the creatures of Hell would all fit, I had to sacrifice the size of the furnaces. No more!"
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyEnergyStartOfCombat",
-      "paramInt": 7,
       "additionalTooltips": [
         {
-          "titleKey": "Ember_TooltipTitle",
-          "descriptionKey": "Ember_TooltipText"
+          "title": "[ember] Ember",
+          "description": "Spent to play cards from your hand."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectModifyEnergyStartOfCombat",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 7,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "name": "Improved Firebox"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common"
 }

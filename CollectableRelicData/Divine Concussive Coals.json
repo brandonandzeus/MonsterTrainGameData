@@ -1,37 +1,44 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-81c1727bceefb24b-86330d72d0caee444b1b0dcb38d26caa-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-50db88aa61bc2659-86330d72d0caee444b1b0dcb38d26caa-v2",
-  "divineVariant": true,
+  "name": "Divine Concussive Coals",
+  "description": "Apply [dazed] 1 when an enemy unit enters your train. Remove this artifact after 1 battle.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
       "paramStatusEffects": [
         {
-          "statusId": "dazed",
+          "statusId": "VanillaStatusEffectIDs.Dazed",
           "count": 1
         }
       ],
       "paramCardEffects": [
         {
-          "effectStateName": "CardEffectAddStatusEffect",
-          "targetMode": 5,
-          "paramInt": 100,
           "paramStatusEffects": [
             {
-              "statusId": "dazed",
+              "statusId": "VanillaStatusEffectIDs.Dazed",
               "count": 1
             }
-          ]
+          ],
+          "effectStateName": "CardEffectAddStatusEffect",
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes",
+          "paramInt": 100
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
-      "paramSourceTeam": 1,
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Divine Concussive Coals"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Uncommon"
 }

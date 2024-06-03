@@ -1,23 +1,27 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-8fc1c5383fe57483-189b528a8e780084f9b2f541b6593807-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-edaf002668745dac-189b528a8e780084f9b2f541b6593807-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-5f753924795239f1-189b528a8e780084f9b2f541b6593807-v2"
+  "name": "Combustible Wax",
+  "description": "Grant +[effect0.status0.power] stacks of [burnout] each time it is applied.",
+  "relicLoreTooltips": [
+    "Created for more urgent circumstances, the Wickless granted me this bomb for an emergency supply of wax on detonation. Having no need for it, I ended up giving it to the Waxers to increase their chances of survival."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnStatusApplied",
-      "paramSourceTeam": 2,
-      "paramInt": 100,
-      "paramBool": true,
       "paramStatusEffects": [
         {
-          "statusId": "ephemeral",
+          "statusId": "VanillaStatusEffectIDs.Burnout",
           "count": 3
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnStatusApplied",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 100,
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "linkedClass": "ClassRemnant",
-  "name": "Combustible Wax"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassRemnant"
 }

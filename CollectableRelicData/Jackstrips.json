@@ -1,18 +1,27 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-c3077d9f0a217111-94462aba97efdb74fbc91ebc0d43e48a-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-fcd3a2061ea31ea2-94462aba97efdb74fbc91ebc0d43e48a-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-1fd51eb6d21059b2-94462aba97efdb74fbc91ebc0d43e48a-v2"
+  "name": "Jackstrips",
+  "description": "Deal [effect0.power] damage whenever an enemy unit moves between floors.",
+  "relicLoreTooltips": [
+    "The stairwells of the Boneshaker are never what they seem. Among other surprises, the hidden spike traps I've engineered can be set to stop any combatant."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectDamageEnemyOnAscend",
-      "paramInt": 2
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectDamageEnemyOnDescend",
-      "paramInt": 2
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "name": "Jackstrips"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common"
 }

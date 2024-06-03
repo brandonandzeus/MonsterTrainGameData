@@ -1,40 +1,44 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-a66fcfee537f4f63-4084b1c4eef4e9140a892ec88f350781-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-36175516ea7481cc-4084b1c4eef4e9140a892ec88f350781-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-69a53de65b2f495a-4084b1c4eef4e9140a892ec88f350781-v2"
+  "name": "Commemorative Spike",
+  "description": "At the start of battle, summon a <b>Morsel Miner</b> on each floor.",
+  "relicLoreTooltips": [
+    "Once the Rail was complete, I returned to the Crucible to enlist the Shroud’s help to create the Boneshaker. When the last bolt was punched into the train, they drove one last spike into the Rail to memorialize the train’s departure."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 2,
-      "paramTrigger": 2,
-      "paramCardType": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster",
       "paramCharacters": [
         "MorselMorselMiner"
       ]
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 1,
-      "paramTrigger": 2,
-      "paramCardType": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster",
       "paramCharacters": [
         "MorselMorselMiner"
       ]
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitStartOfCombat",
-      "paramSourceTeam": 2,
-      "paramTrigger": 2,
-      "paramCardType": 1,
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster",
       "paramCharacters": [
         "MorselMorselMiner"
       ]
     }
   ],
-  "linkedClass": "ClassUmbra",
-  "name": "Commemorative Spike"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassUmbra"
 }

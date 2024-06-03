@@ -1,21 +1,26 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-fb62a5d2d94f5fb7-b90f3082103fcd647bae6e70dfbb49ac-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-6d661e419f6f813e-b90f3082103fcd647bae6e70dfbb49ac-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-089e71b0500aa568-b90f3082103fcd647bae6e70dfbb49ac-v2"
+  "name": "Decayed Decoy",
+  "description": "Grant +[effect0.status0.power] stack of [corruptpoison] each time it is applied.",
+  "relicLoreTooltips": [
+    "I like to think that, over time, I’ve become more empathetic to decisions made that I may not make myself. The Spine Chief’s decision to keep the Wurmkin hidden for all these years is one of those decisions — one I would not make, but I understand. Empathy, however, does not require respect."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnStatusApplied",
       "paramStatusEffects": [
         {
-          "statusId": "corrupt_poison",
+          "statusId": "VanillaStatusEffectIDs.Reap",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnStatusApplied",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassWurm",
-  "requiredDLC": 1,
-  "name": "Decayed Decoy"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

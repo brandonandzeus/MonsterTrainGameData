@@ -1,43 +1,60 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-0d6d690d32503ef4-64b105cb19b9e0c4c99a94a4605c691b-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-3502d86f001782b9-64b105cb19b9e0c4c99a94a4605c691b-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-6ebbbe29fd325402-64b105cb19b9e0c4c99a94a4605c691b-v2"
+  "name": "Winged Technology",
+  "description": "[snack] units enter with [damageshield] [effect0.upgrade.status0.power].",
+  "relicLoreTooltips": [
+    "For all their faults and treacherous tendencies, the Winged excel at developing new technology. Lucky for us, Antumbra Morsels were able to steal some of it for our collective benefit."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTempUpgrade",
-      "paramSourceTeam": 2,
       "paramCardUpgradeData": {
         "statusEffectUpgrades": [
           {
-            "statusId": "damage shield",
+            "statusId": "VanillaStatusEffectIDs.DamageShield",
             "count": 1
           }
         ],
         "filters": [
           {
-            "cardType": 1,
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "requiredSubtypes": [
               "SubtypesData_Snack"
-            ]
+            ],
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddTempUpgrade",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
-      "paramString": "NoCard",
-      "paramCharacterSubtype": "SubtypesData_Snack",
       "paramStatusEffects": [
         {
-          "statusId": "damage shield",
+          "statusId": "VanillaStatusEffectIDs.DamageShield",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramString": "NoCard",
+      "paramCharacterSubtype": "SubtypesData_Snack",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "linkedClass": "ClassUmbra",
-  "name": "Winged Technology"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassUmbra"
 }

@@ -1,33 +1,42 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-bbcd31cd16465d24-3f662df9693471342bed59eea53e16d2-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-04721a9d73ab23a5-3f662df9693471342bed59eea53e16d2-v2",
-  "divineVariant": true,
+  "name": "Divine Notice Stone",
+  "description": "When you play a card with [consume], all cards gain +[effect0.power] [magicpower] for the rest of this battle. Remove this artifact after 1 battle.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyCardMagicPowerOnCardPlayed",
-      "paramInt": 2,
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitExhaustState_CardText",
-          "descriptionKey": "CardTraitExhaustState_TooltipText"
+          "title": "Consume",
+          "description": "Can only be played once per battle."
         },
         {
-          "titleKey": "CardTraitMagicPower_TooltipTitle",
-          "descriptionKey": "CardTraitMagicPower_TooltipText"
+          "title": "Magic Power",
+          "description": "Increases the amount of damage dealt and health restored by spells."
         }
       ],
       "traits": [
         {
           "traitStateName": "CardTraitExhaustState"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectModifyCardMagicPowerOnCardPlayed",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassWurm",
-  "requiredDLC": 1,
-  "name": "Divine Notice Stone"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

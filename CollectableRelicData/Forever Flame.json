@@ -1,17 +1,19 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-8c98b63be9c1adec-ec74370099089be4d85b576069ebb855-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-853b511621e3094c-ec74370099089be4d85b576069ebb855-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-76b7261ef4fc6a21-ec74370099089be4d85b576069ebb855-v2"
+  "name": "Forever Flame",
+  "description": "Units cost -2[ember].",
+  "relicLoreTooltips": [
+    "I can no longer remember the specifics of when I first came to Hell or called it my home. The centuries have deteriorated my mind's ability to remember. Though, through the haze, I can still feel the complete and consuming warmth of the Pyre."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCardTypeCost",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": -2,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "rarity": 1,
-  "name": "Forever Flame"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon"
 }

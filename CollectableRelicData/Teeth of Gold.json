@@ -1,19 +1,21 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-36132cc8a7a7da74-109e2a64933e2f34cb92261fb68fe951-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-1e03193e43c93cdd-109e2a64933e2f34cb92261fb68fe951-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-dedc943d60ddc583-109e2a64933e2f34cb92261fb68fe951-v2"
+  "name": "Teeth of Gold",
+  "description": "Deal [effect0.power] damage to the back enemy unit when a unit is [eaten].",
+  "relicLoreTooltips": [
+    "On the rare occasion that a member of the Shroud has lost their teeth, sharp dentures are created from Crucible gems. Due to their high value, this has led to many Umbra intentionally removing their teeth."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectDamageEnemyOnFriendlyTrigger",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 3,
-      "paramTrigger": 23,
-      "paramTargetMode": 11
+      "paramTrigger": "CharacterTriggerData.Trigger.OnEaten",
+      "paramTargetMode": "TargetMode.BackInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassUmbra",
-  "unlockLevel": 5,
-  "name": "Teeth of Gold"
+  "unlockLevel": 5
 }

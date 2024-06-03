@@ -1,22 +1,25 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-2f2cc42e65001149-e89ecd3414689ec4fb75023126b587fe-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-505872aeb41a66c6-e89ecd3414689ec4fb75023126b587fe-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-f3d6fb171e698ba9-e89ecd3414689ec4fb75023126b587fe-v2"
+  "name": "Scorched Steel",
+  "description": "Friendly units enter with [armor] [effect0.status0.power].",
+  "relicLoreTooltips": [
+    "Steel hammered in the heat of the Scorched Plains is easily recognized by its banding. After the freeze, the steel became in short supply, but I’ve still been able to stockpile a small amount for defensive enhancements."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
       "paramStatusEffects": [
         {
-          "statusId": "armor",
+          "statusId": "VanillaStatusEffectIDs.Armor",
           "count": 5
         }
       ],
-      "paramTrigger": 2
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "linkedClass": "ClassHellhorned",
-  "name": "Scorched Steel"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassHellhorned"
 }

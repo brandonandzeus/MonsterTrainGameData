@@ -1,30 +1,31 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-61f951ad1cd9a263-60b27dea1f79d3840b68bfb1bbbaa282-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-15192cf26bdcf327-60b27dea1f79d3840b68bfb1bbbaa282-v2",
-  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-352ee12d5d3ae7dc-60b27dea1f79d3840b68bfb1bbbaa282-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-5ec4ef1374f856c4-60b27dea1f79d3840b68bfb1bbbaa282-v2"
+  "name": "Consumed Crown",
+  "description": "Friendly units gain +[effect0.power][attack] on [slay].",
+  "relicLoreTooltips": [
+    "When a Hellhorned defeats another in battle, they will break off the loser’s horns and add it to their collection, forming them into a crown. I've learned the hard way that asking to wear another's crown is considered incredibly rude."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyCharacterAttackDamage",
-      "paramSourceTeam": 2,
-      "paramInt": 2,
-      "paramBool": true,
-      "paramTrigger": 4,
-      "paramCardType": 4,
       "additionalTooltips": [
         {
-          "style": 0,
+          "style": "TooltipDesigner.TooltipDesignType.Default",
           "isTriggerTooltip": true,
-          "trigger": 4
+          "trigger": "CharacterTriggerData.Trigger.OnKill"
         }
       ],
       "paramCardUpgradeData": {
         "bonusDamage": 2
-      }
+      },
+      "relicEffectClassName": "RelicEffectModifyCharacterAttackDamage",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 2,
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnKill",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Invalid"
     }
   ],
-  "linkedClass": "ClassHellhorned",
-  "name": "Consumed Crown"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassHellhorned"
 }

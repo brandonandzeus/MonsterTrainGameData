@@ -1,18 +1,21 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-30d6cef647268d71-712816e8894605b47a52ccf74084f01e-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-26abea7b3db5dc34-712816e8894605b47a52ccf74084f01e-v2",
-  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-a4ab7a63a974c465-712816e8894605b47a52ccf74084f01e-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-0330f4f9ed330251-712816e8894605b47a52ccf74084f01e-v2"
+  "name": "Blood for Blood",
+  "description": "When your Pyre kills a unit, restore [effect0.power] Pyre health.",
+  "relicActivated": "Restore {0}",
+  "relicLoreTooltips": [
+    "Prior to the Covenant, the creation of these Pyre artifacts was commonplace, but dangerous. This led to widespread chaos and the eventual creation of the Covenant."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectHealTrainOnPyreKill",
-      "paramSourceTeam": 2,
-      "paramInt": 5
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 5,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "fromStoryEvent": true,
-  "name": "Blood for Blood"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "fromStoryEvent": true
 }

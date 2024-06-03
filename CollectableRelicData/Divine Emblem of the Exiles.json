@@ -1,21 +1,29 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-92ae82b56a24fe03-7b5ac0246105a2f48b752f0b0e553f6d-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-7acef8de009d24e9-7b5ac0246105a2f48b752f0b0e553f6d-v2",
-  "divineVariant": true,
+  "name": "Divine Emblem of the Exiles",
+  "description": "At start of turn, the front friendly unit on each floor gains +[effect0.power][health]. Remove this artifact after 1 battle.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyFrontInRoomCharacterMaxHealthEachTurn",
-      "paramInt": 10,
       "paramCardUpgradeData": {
         "bonusHP": 10
-      }
+      },
+      "relicEffectClassName": "RelicEffectModifyFrontInRoomCharacterMaxHealthEachTurn",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 10,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "linkedClass": "ClassAwoken",
-  "name": "Divine Emblem of the Exiles"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassAwoken"
 }

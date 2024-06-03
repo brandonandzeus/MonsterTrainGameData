@@ -1,21 +1,25 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-9674530f742156c6-145e20837e7c56b40af036b7bd34f1e0-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-f24e4b5bc1d1a0e9-145e20837e7c56b40af036b7bd34f1e0-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-46450579cb2f8e37-145e20837e7c56b40af036b7bd34f1e0-v2"
+  "name": "Refined Void",
+  "description": "Friendly units enter with [lifesteal] [effect0.status0.power].",
+  "relicLoreTooltips": [
+    "While the Umbra doesn’t appear to become inebriated like other denizens of Hell, they’ve still taken to processing Void Shards into a liquid that mildly dulls the senses. When the Shroud consumes it, the drink makes them somewhat less unpleasant in my dealings with them."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
       "paramStatusEffects": [
         {
-          "statusId": "lifesteal",
+          "statusId": "VanillaStatusEffectIDs.Lifesteal",
           "count": 2
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "linkedClass": "ClassUmbra",
-  "name": "Refined Void"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassUmbra"
 }

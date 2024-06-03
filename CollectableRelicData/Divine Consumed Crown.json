@@ -1,33 +1,38 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-3b5a16e4f126d525-83226a1fecf7b7245bceaed073425d3e-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-307948cfdf915dd4-83226a1fecf7b7245bceaed073425d3e-v2",
-  "divineVariant": true,
+  "name": "Divine Consumed Crown",
+  "description": "Friendly units gain +[effect0.power][attack] on [slay]. Remove this artifact after 1 battle.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyCharacterAttackDamage",
-      "paramSourceTeam": 2,
-      "paramInt": 4,
-      "paramBool": true,
-      "paramTrigger": 4,
-      "paramCardType": 4,
       "additionalTooltips": [
         {
-          "style": 0,
+          "style": "TooltipDesigner.TooltipDesignType.Default",
           "isTriggerTooltip": true,
-          "trigger": 4
+          "trigger": "CharacterTriggerData.Trigger.OnKill"
         }
       ],
       "paramCardUpgradeData": {
         "bonusDamage": 4
-      }
+      },
+      "relicEffectClassName": "RelicEffectModifyCharacterAttackDamage",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 4,
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnKill",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Invalid"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 1,
       "paramBool": true,
-      "paramCardType": 4
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Invalid"
     }
   ],
-  "linkedClass": "ClassHellhorned",
-  "name": "Divine Consumed Crown"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassHellhorned"
 }

@@ -1,21 +1,25 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-bde58a578040b421-bad9b84326dcad145afc4100a24f0e3a-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-6da2561623ffdf51-bad9b84326dcad145afc4100a24f0e3a-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-bc402ea4032b23e2-bad9b84326dcad145afc4100a24f0e3a-v2"
+  "name": "The First Hellpact",
+  "description": "<b>X Cost</b> cards get +[effect0.power] to their X value when played.",
+  "relicLoreTooltips": [
+    "Uniting the Rings of Hell to construct the Rail was no easy task, but after years of work I was finally able to achieve what was once thought impossible by having the clans from each Ring all agree to this pact."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyCardPlayedCostStat",
-      "paramInt": 3,
       "additionalTooltips": [
         {
-          "titleKey": "ConsumeRemainingEnergy_TooltipTitle",
-          "descriptionKey": "ConsumeRemainingEnergy_TooltipText"
+          "title": "X Cost",
+          "description": "Spends all of your remaining Ember. The amount spent magnifies the results."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectModifyCardPlayedCostStat",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 3,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "The First Hellpact"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon"
 }

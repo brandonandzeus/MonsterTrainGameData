@@ -1,18 +1,21 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-4fdc74b48310b5d3-b3aab81adacf1dc478c884f391c2dc1f-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-be6acd4f95acc2a9-b3aab81adacf1dc478c884f391c2dc1f-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-58d7bfbe4ccafaa7-b3aab81adacf1dc478c884f391c2dc1f-v2"
+  "name": "Ashes of the Fallen",
+  "description": "[summon] abilities trigger an additional time.",
+  "relicLoreTooltips": [
+    "According to the Hellhorned, the dead are never really gone. Their remains are cremated and used as warpaint to imbue warriors with great strength and remind them of their eventual return to the ground."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyTriggerCount",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 1,
-      "paramTrigger": 2
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassHellhorned",
-  "unlockLevel": 2,
-  "name": "Ashes of the Fallen"
+  "unlockLevel": 2
 }

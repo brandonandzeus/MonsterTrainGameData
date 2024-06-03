@@ -1,27 +1,43 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-f5fce1adc2229fb3-17ffff43faa55914db02f20fc5de4283-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-4258d5d25afad017-17ffff43faa55914db02f20fc5de4283-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-61ea04db4a316d10-17ffff43faa55914db02f20fc5de4283-v2"
+  "name": "Sketches of Salvation",
+  "description": "At the start of battle, summon 4 random units from your deck on the middle floor.",
+  "relicLoreTooltips": [
+    "There was little time to act after Seraph’s invasion, but there was just enough for me to design a way to protect what would remain of the Pyre after its inevitable destruction."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectSpawnUnitFromDeck",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitFromDeck",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitFromDeck",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectSpawnUnitFromDeck",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Sketches of Salvation"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon"
 }

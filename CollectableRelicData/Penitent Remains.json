@@ -1,22 +1,24 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-aff5b52e3da42fcf-86a3155810ad39040a8bb6893271062d-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-0e4cc357bbb0b3d8-86a3155810ad39040a8bb6893271062d-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-96455872d1727b70-86a3155810ad39040a8bb6893271062d-v2"
+  "name": "Penitent Remains",
+  "description": "When summoned, friendly units get +[effect0.power][attack] for every [blight] card in your deck.",
+  "relicLoreTooltips": [
+    "I have yet to hear of a sinner from Hell released from the confines of Penance. It seems that the Winged have a skewed sense of morality when it comes to those outside their kind."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyCharacterAttackDamage",
-      "paramSourceTeam": 2,
-      "paramInt": 2,
-      "paramBool": true,
-      "paramTrigger": 2,
-      "paramCardType": 5,
       "paramCardUpgradeData": {
         "bonusDamage": 1
-      }
+      },
+      "relicEffectClassName": "RelicEffectModifyCharacterAttackDamage",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 2,
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Blight"
     }
   ],
-  "fromStoryEvent": true,
-  "name": "Penitent Remains"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "fromStoryEvent": true
 }

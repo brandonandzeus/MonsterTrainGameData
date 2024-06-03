@@ -1,33 +1,19 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-c96f5a656349d75e-7df9d3f0d551e584b977c2a44a9ab0e7-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-b2b12b2ea1954ed8-7df9d3f0d551e584b977c2a44a9ab0e7-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-f0c17efce3df0f80-7df9d3f0d551e584b977c2a44a9ab0e7-v2"
+  "name": "Split Anvil",
+  "description": "When you play a spell, spells in hand that cost less are reduced to 0[ember] for the turn.",
+  "relicLoreTooltips": [
+    "After completing the Rail, I destroyed the anvil I used to create all the Railspikes as a symbolic ending to this endeavor."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddTempUpgradeToCardsInHandIfCheaper",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 1,
-      "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-8267716300eaf833-adaa5082bdd9af640aa87c338f4c7be1-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-c8575100f9fcc47f-adaa5082bdd9af640aa87c338f4c7be1-v2",
-        "hideUpgradeIconOnCard": true,
-        "costReduction": 99,
-        "filters": [
-          {
-            "cardType": 0
-          },
-          {
-            "costRange": {
-              "x": 1.0,
-              "y": 99.0
-            },
-            "excludeXCost": true
-          }
-        ]
-      }
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Split Anvil"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon"
 }

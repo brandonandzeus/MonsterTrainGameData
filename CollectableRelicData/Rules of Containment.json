@@ -1,22 +1,26 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-ace2a37253430099-ceda6b1704e95784c9aeff673d59f40c-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-9e86efe35dc61e4b-ceda6b1704e95784c9aeff673d59f40c-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-87b4ca30b49d7c69-ceda6b1704e95784c9aeff673d59f40c-v2"
+  "name": "Rules of Containment",
+  "description": "Enemy units enter with [frostbite] [effect0.status0.power].",
+  "relicLoreTooltips": [
+    "These ancient scrolls detail the laws of the Guard, from ceremonial offerings to mundane dress codes. They are a historical treasure trove that I look forward to studying more when this whole affair is finished."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
       "paramStatusEffects": [
         {
-          "statusId": "poison",
+          "statusId": "VanillaStatusEffectIDs.Frostbite",
           "count": 2
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassStygian",
-  "unlockLevel": 8,
-  "name": "Rules of Containment"
+  "unlockLevel": 8
 }

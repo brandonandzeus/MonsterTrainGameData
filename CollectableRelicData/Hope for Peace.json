@@ -1,31 +1,44 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-c46d571f7b032b07-7cac186c2ff40d3489b8f615058c9bbc-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-8e4712c615f458fe-7cac186c2ff40d3489b8f615058c9bbc-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-53f8ffdaec4fff1f-7cac186c2ff40d3489b8f615058c9bbc-v2"
+  "name": "Hope for Peace",
+  "description": "Spells with [annihilate] have [consume] instead.",
+  "relicLoreTooltips": [
+    "As elusive as their name, these bright flowers bloom briefly in the cracked soil of the Scorched Plains, quickly smothered by the harsh environment."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyTrait",
-      "paramSourceTeam": 2,
       "paramCardFilter": {
-        "cardType": 0
+        "cardType": "CardType.Spell",
+        "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "cardTargetMode": "CardTargetMode.All",
+        "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
       },
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitSelfPurge_CardText",
-          "descriptionKey": "CardTraitSelfPurge_TooltipText"
+          "title": "Purge",
+          "description": "Once played, this card is removed from your deck for the rest of the run."
         },
         {
-          "titleKey": "CardTraitExhaustState_CardText",
-          "descriptionKey": "CardTraitExhaustState_TooltipText"
+          "title": "Consume",
+          "description": "Can only be played once per battle."
         }
       ],
+      "relicEffectClassName": "RelicEffectModifyTrait",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "sourceCardTraitParam": "CardTraitSelfPurge",
       "targetCardTraitParam": "CardTraitExhaustState"
     }
   ],
-  "rarity": 2,
-  "fromStoryEvent": true,
-  "name": "Hope for Peace"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Rare",
+  "fromStoryEvent": true
 }

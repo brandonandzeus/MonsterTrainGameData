@@ -1,26 +1,30 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-a84a270819a13d6e-a0b9d78752bb7394db79e3bd384eb99c-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-512d407cdcc87368-a0b9d78752bb7394db79e3bd384eb99c-v2",
-  "divineVariant": true,
+  "name": "Divine Cleansing Water",
+  "description": "[effect0.power]% chance to remove all [buff] effects on an enemy unit when it enters your train. Remove this artifact after 1 battle.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectChanceAddEffectOnSpawn",
-      "paramSourceTeam": 1,
-      "paramInt": 75,
       "paramCardEffects": [
         {
           "effectStateName": "CardEffectRemoveAllStatusEffects",
-          "targetMode": 5
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes"
         }
       ],
       "additionalTooltips": [
         {
-          "titleKey": "CardEffectBuff_TooltipTitle",
-          "descriptionKey": "CardEffectBuff_TooltipText"
+          "title": "Buff",
+          "description": "Buff effects are generally positive for their target and are represented by green icons."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectChanceAddEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 75,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Divine Cleansing Water"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Uncommon"
 }

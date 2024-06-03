@@ -1,31 +1,36 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-1babce4d42f2afa1-edb2f4c621a4dc04e90233ade3a6bb17-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-9a69c075069369cf-edb2f4c621a4dc04e90233ade3a6bb17-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-abd9b56b2e1df124-edb2f4c621a4dc04e90233ade3a6bb17-v2"
+  "name": "Notice Stone",
+  "description": "When a card with [consume] is played, all cards gain +[effect0.power] [magicpower] for the rest of this battle.",
+  "relicLoreTooltips": [
+    "Wurmkin do not sleep. Underground, day and night are merely talked about in the academic sense. As such, Wurmkin will study for days, sometimes weeks, without interruption, so direct contact between Wurmkin is rare. Instead, the Wurmkin use open stone walls as notice boards."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyCardMagicPowerOnCardPlayed",
-      "paramInt": 1,
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitExhaustState_CardText",
-          "descriptionKey": "CardTraitExhaustState_TooltipText"
+          "title": "Consume",
+          "description": "Can only be played once per battle."
         },
         {
-          "titleKey": "CardTraitMagicPower_TooltipTitle",
-          "descriptionKey": "CardTraitMagicPower_TooltipText"
+          "title": "Magic Power",
+          "description": "Increases the amount of damage dealt and health restored by spells."
         }
       ],
       "traits": [
         {
           "traitStateName": "CardTraitExhaustState"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectModifyCardMagicPowerOnCardPlayed",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassWurm",
-  "requiredDLC": 1,
-  "name": "Notice Stone"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

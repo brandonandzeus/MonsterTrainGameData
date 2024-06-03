@@ -1,42 +1,47 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-75c7b475a8d0000b-ce24e66a4d3b32543af740ca3223a413-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-093559afde64b7a5-ce24e66a4d3b32543af740ca3223a413-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-4a1be01a34435904-ce24e66a4d3b32543af740ca3223a413-v2"
+  "name": "Mold Braces",
+  "description": "Friendly units gain '[extinguish]: Apply [armor] 5 to the front friendly unit.'",
+  "relicLoreTooltips": [
+    "Not all who enter the mold do so willingly. The need for restraints, while I consider it cruel, has been effective in solidifying these participants' will to reform or, sometimes, to melt for the sake of others."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTrigger",
-      "paramSourceTeam": 2,
       "additionalTooltips": [
         {
-          "style": 0,
+          "style": "TooltipDesigner.TooltipDesignType.Default",
           "isStatusTooltip": true,
-          "statusId": "armor"
+          "statusId": "VanillaStatusEffectIDs.Armor"
         }
       ],
       "triggers": [
         {
-          "descriptionKey": "CollectableRelicData_descriptionKey-d8a1f98f0901084b-ce24e66a4d3b32543af740ca3223a413-v2",
+          "description": "Apply [armor] [effect0.status0.power] to the front friendly unit.",
           "effects": [
             {
-              "effectStateName": "CardEffectAddStatusEffect",
-              "targetMode": 2,
-              "targetTeamType": 2,
-              "paramInt": 100,
               "paramStatusEffects": [
                 {
-                  "statusId": "armor",
+                  "statusId": "VanillaStatusEffectIDs.Armor",
                   "count": 5
                 }
-              ]
+              ],
+              "effectStateName": "CardEffectAddStatusEffect",
+              "targetMode": "TargetMode.FrontInRoom",
+              "targetTeamType": "Team.Type.Monsters",
+              "paramInt": 100
             }
-          ]
+          ],
+          "trigger": "CharacterTriggerData.Trigger.OnDeath"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddTrigger",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassRemnant",
-  "unlockLevel": 8,
-  "name": "Mold Braces"
+  "unlockLevel": 8
 }

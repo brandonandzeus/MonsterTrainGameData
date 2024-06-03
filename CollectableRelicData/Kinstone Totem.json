@@ -1,16 +1,20 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-adc16a3598e2d7a1-b8600f79ab1625148bda967aa3423e1a-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-fdf26fc4f896e3c6-b8600f79ab1625148bda967aa3423e1a-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-ec4da0de542c1630-b8600f79ab1625148bda967aa3423e1a-v2"
+  "name": "Kinstone Totem",
+  "description": "When a card is discarded before the end of your turn, gain [effect0.power][ember].",
+  "relicLoreTooltips": [
+    "For as long as I’ve lived in Hell, I’ve known the Ring filled with Bogwurm remains to be a desolate place with no sentient inhabitants. When Solgard mentioned a Kinstone gifted to him by a clan that resides there, the Wurmkin, I realized there’s so much I still don't know about this place. Or, perhaps, I can no longer remember."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectEnergyOnCardEarlyDiscard",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "linkedClass": "ClassStygian",
-  "name": "Kinstone Totem"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassStygian"
 }

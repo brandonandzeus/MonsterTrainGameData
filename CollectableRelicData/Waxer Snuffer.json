@@ -1,17 +1,21 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-0b14384090d8f20b-f9d65d69166c1e34ebaec9419a270cea-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-3c95c0b377a9427e-f9d65d69166c1e34ebaec9419a270cea-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-d6f43cc5434219ab-f9d65d69166c1e34ebaec9419a270cea-v2"
+  "name": "Waxer Snuffer",
+  "description": "[extinguish] abilities trigger an additional time.",
+  "relicLoreTooltips": [
+    "For the less committed Wickless enthusiasts who are unwilling to remove their wick entirely, the snuffer provides a glimpse into a possible wick-free life. I've helped some Waxers dim their flames, though most prefer to do it themselves."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyTriggerCount",
-      "paramSourceTeam": 2,
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassRemnant",
-  "unlockLevel": 3,
-  "name": "Waxer Snuffer"
+  "unlockLevel": 3
 }

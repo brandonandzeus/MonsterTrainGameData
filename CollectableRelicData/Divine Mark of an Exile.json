@@ -1,22 +1,28 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-072c8ee635d12f66-a176a210fd78e3b4b975ccb11a16d0c4-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-9fcb5fab22a257f1-a176a210fd78e3b4b975ccb11a16d0c4-v2",
-  "divineVariant": true,
+  "name": "Divine Mark of an Exile",
+  "description": "When played, your Champion gains +[effect0.power]% max health. Remove this artifact after [effect1.power] battle.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCharacterAttackOrHealthPercentage",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 100,
       "paramCharacterSubtype": "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34",
       "paramBool": true,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "requiredDLC": 1,
-  "name": "Divine Mark of an Exile"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

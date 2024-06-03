@@ -1,19 +1,22 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-7236596829447531-a09fbe686ab50e641a566b904fb96f42-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-80d7cfe35595759d-a09fbe686ab50e641a566b904fb96f42-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-04f3f0df36307cbf-a09fbe686ab50e641a566b904fb96f42-v2"
+  "name": "Vial of Tears",
+  "description": "At end of turn, restore [effect0.power] health to friendly units.",
+  "relicLoreTooltips": [
+    "Herzal, my first friend. I can never forgive myself for what they did to you, nor for allowing it to happen. With all my remaining strength, I will never let harm fall upon Heph. I promise this to you, Herzal."
   ],
-  "relicLoreTooltipStyle": 1,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectDamageOrHealUnitsEndOfTurn",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 5,
-      "paramBool": true
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Malicka",
+  "rarity": "CollectableRarity.Common",
   "fromStoryEvent": true,
-  "requiredDLC": 1,
-  "name": "Vial of Tears"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

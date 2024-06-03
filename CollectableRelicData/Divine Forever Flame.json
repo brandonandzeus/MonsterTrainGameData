@@ -1,19 +1,25 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-dc77ff90bad5fa31-e3a525702a707f84990c49541048dc17-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-a9b794546f044b7d-e3a525702a707f84990c49541048dc17-v2",
-  "divineVariant": true,
+  "name": "Divine Forever Flame",
+  "description": "Units cost -4[ember]. Remove this artifact after 1 battle.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCardTypeCost",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": -4,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Divine Forever Flame"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Uncommon"
 }

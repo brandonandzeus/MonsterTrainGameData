@@ -1,21 +1,26 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-b32323beb7683e48-a4d7740e95e550b4db0e8cb2eb64f089-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-d911f92ab88ffc54-a4d7740e95e550b4db0e8cb2eb64f089-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-b515415679c29906-a4d7740e95e550b4db0e8cb2eb64f089-v2"
+  "name": "The Unbroken Horn",
+  "description": "Conserve [ember] between turns.",
+  "relicLoreTooltips": [
+    "I've never found the final whereabouts of Grrrg, but before his mysterious disappearance, he left his unbroken horn with the Hellhorned, leading me to believe he has succumbed to death."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectConserveEnergyEndOfTurn",
       "additionalTooltips": [
         {
-          "titleKey": "Ember_TooltipTitle",
-          "descriptionKey": "Ember_TooltipText"
+          "title": "[ember] Ember",
+          "description": "Spent to play cards from your hand."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectConserveEnergyEndOfTurn",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassHellhorned",
-  "unlockLevel": 3,
-  "name": "The Unbroken Horn"
+  "unlockLevel": 3
 }

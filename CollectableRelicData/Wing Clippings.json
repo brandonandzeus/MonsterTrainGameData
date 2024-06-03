@@ -1,17 +1,20 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-c8a9dfe640e01529-7492c085ffe2fe74b8165065f752d5a1-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-19bcc9a2a1403c12-7492c085ffe2fe74b8165065f752d5a1-v2",
-  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-aeff840f8b978965-7492c085ffe2fe74b8165065f752d5a1-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-f9ce6ef62f24c4c8-7492c085ffe2fe74b8165065f752d5a1-v2"
+  "name": "Wing Clippings",
+  "description": "Spell cards with [consume] have a [effect0.power]% chance to be discarded instead.",
+  "relicActivated": "Preserved!",
+  "relicLoreTooltips": [
+    "Clipped Wings are discarded after removal to suppress any hope of the victim’s redemption. However, I was able to smuggle some out of Heaven disguised as Waxer rags."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectSuppressExhaust",
-      "paramSourceTeam": 2,
-      "paramInt": 50
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 50,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Wing Clippings"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon"
 }

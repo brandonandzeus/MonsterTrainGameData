@@ -1,23 +1,27 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-3df91a630bf3d4bf-b9728e23004c3514193eccbb27c5b348-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-affafa5ff7b9b6b6-b9728e23004c3514193eccbb27c5b348-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-6a70462e8fdc3b49-b9728e23004c3514193eccbb27c5b348-v2"
+  "name": "Totem Fragment",
+  "description": "Apply [spellweakness] [effect0.status0.power] to enemy units when they enter the floor below the Pyre Room.",
+  "relicLoreTooltips": [
+    "From my studies of the Stygian totems, I’ve found that the sidestones that circle around them help to focus their energy. When removed from their totem host, these sidestones can produce a similar, though much weaker, effect on their target."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnEnterRoomIndex",
-      "paramSourceTeam": 1,
-      "paramInt": 2,
       "paramStatusEffects": [
         {
-          "statusId": "spell weakness",
+          "statusId": "VanillaStatusEffectIDs.SpellWeakness",
           "count": 2
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnEnterRoomIndex",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassStygian",
-  "unlockLevel": 5,
-  "name": "Totem Fragment"
+  "unlockLevel": 5
 }

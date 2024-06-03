@@ -1,14 +1,11 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-7b6c99b3e7efa951-adee0e201758f9148bd1ac10183b8572-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-c2b85c3c5b1048ad-adee0e201758f9148bd1ac10183b8572-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-b526d24f6dad6dd9-adee0e201758f9148bd1ac10183b8572-v2"
+  "name": "Cursed Vines",
+  "description": "At start of turn, add a <b>Vine Grasp</b> spell with <b>Purge</b> to your hand.",
+  "relicLoreTooltips": [
+    "Not all of the Edge Priory endeavors have been successes. Their attempts to return to the physical form of an Animus have been met with countless failures. The vines they’ve used in these experiments wither with the unstable energy that’s cursed them."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddBattleCardToHand",
-      "paramInt": 1,
-      "paramTrigger": 12,
       "paramCardPool": {
         "name": "VineGraspOnlyPool",
         "cardDataList": [
@@ -17,8 +14,8 @@
       },
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitSelfPurge_CardText",
-          "descriptionKey": "CardTraitSelfPurge_TooltipText"
+          "title": "Purge",
+          "description": "Once played, this card is removed from your deck for the rest of the run."
         }
       ],
       "paramCardUpgradeData": {
@@ -27,9 +24,16 @@
             "traitStateName": "CardTraitSelfPurge"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddBattleCardToHand",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.PreCombat",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "linkedClass": "ClassAwoken",
-  "name": "Cursed Vines"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassAwoken"
 }

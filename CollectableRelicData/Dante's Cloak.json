@@ -1,23 +1,26 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-fc3485844966e5b7-792af392532361e438528d79e40c4c28-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-1f91ae9cee5e07ed-792af392532361e438528d79e40c4c28-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-c09e21ba47971621-792af392532361e438528d79e40c4c28-v2"
+  "name": "Dante's Cloak",
+  "description": "+[effect0.power] [magicpower] for every [blight] card in your deck.",
+  "relicLoreTooltips": [
+    "Truly an unusual fellow, this Dante, but he’s proven useful on so many occasions that his allegiance can hardly be questioned."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyCardMagicalPowerScaling",
-      "paramInt": 2,
-      "paramCardType": 5,
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitMagicPower_TooltipTitle",
-          "descriptionKey": "CardTraitMagicPower_TooltipText"
+          "title": "Magic Power",
+          "description": "Increases the amount of damage dealt and health restored by spells."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectModifyCardMagicalPowerScaling",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Blight"
     }
   ],
-  "rarity": 2,
-  "fromStoryEvent": true,
-  "name": "Dante's Cloak"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Rare",
+  "fromStoryEvent": true
 }

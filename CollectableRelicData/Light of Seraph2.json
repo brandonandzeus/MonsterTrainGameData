@@ -1,31 +1,43 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-ea0114fecf2d1c87-92c005951a1b5784087d5866b56f647b-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-fc7c66289d627ac5-92c005951a1b5784087d5866b56f647b-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-048eecf702ce20cd-92c005951a1b5784087d5866b56f647b-v2"
+  "name": "Light of Seraph2",
+  "description": "+[effect0.power][capacity] on each floor. [halfbreak]Your Pyre gets +[effect2.power][attack] and +[effect1.power][pyrehealth].",
+  "relicLoreTooltips": [
+    "The coveted Light of Seraph. Those from above worship it as much as we value the Pyre. From what I’ve seen it’s powerful, sure, but it’s not as special as they say. That doesn’t mean I won’t take some if given the chance."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectChangeFloorCapacity",
-      "paramInt": 1,
       "additionalTooltips": [
         {
-          "titleKey": "Capacity_TooltipTitle",
-          "descriptionKey": "Capacity_TooltipText"
+          "title": "[capacity] Capacity",
+          "description": "Units can only be summoned on a floor if it has enough capacity."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectChangeFloorCapacity",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectModifyTowerMaxHealth",
-      "paramInt": 30
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 30,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectTowerDamageDealtModified",
-      "paramInt": 10
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 10,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 3,
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Champion",
   "isBossGivenRelic": true,
-  "ignoreForNoRelicAchievement": true,
-  "name": "Light of Seraph2"
+  "ignoreForNoRelicAchievement": true
 }

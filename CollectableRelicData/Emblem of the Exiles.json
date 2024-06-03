@@ -1,20 +1,24 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-bf79af8a51ae99ff-74e6360ce6edc55419e74c8d0358a3d7-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-7d387534ac688311-74e6360ce6edc55419e74c8d0358a3d7-v2",
-  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-85853aa667dca404-74e6360ce6edc55419e74c8d0358a3d7-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-bb4827308f6829d2-74e6360ce6edc55419e74c8d0358a3d7-v2"
+  "name": "Emblem of the Exiles",
+  "description": "At start of turn, the front friendly unit on each floor gains +[effect0.upgrade.bonushp][health].",
+  "relicActivated": "+{0}[health]",
+  "relicLoreTooltips": [
+    "Wyldenten speaks in these visions of the Exiles' purpose to forestall the Divinities desertion and avoid Armageddon. This history has been lost to time, it seems, as we’ve only created this new destruction ourselves."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyFrontInRoomCharacterMaxHealthEachTurn",
-      "paramInt": 5,
       "paramCardUpgradeData": {
         "bonusHP": 5
-      }
+      },
+      "relicEffectClassName": "RelicEffectModifyFrontInRoomCharacterMaxHealthEachTurn",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 5,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "linkedClass": "ClassAwoken",
-  "name": "Emblem of the Exiles"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassAwoken"
 }

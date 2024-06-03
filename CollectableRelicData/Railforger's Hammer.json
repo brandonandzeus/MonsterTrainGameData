@@ -1,22 +1,26 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-cc268f2c0ac19137-f2234ba6a53b4e241bc327fe1c83893b-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-78276627ff2ee52f-f2234ba6a53b4e241bc327fe1c83893b-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-a82af6fb8b73f164-f2234ba6a53b4e241bc327fe1c83893b-v2"
+  "name": "Railforger's Hammer",
+  "description": "+[effect0.power][capacity] on each floor.",
+  "relicLoreTooltips": [
+    "My time has come to an end. Hell fades into the cold as the Covenant and Rail are no longer intact. The Boneshaker is ready to take Hell and its Champions through the wasteland and succeed where I have failed. May this hammer serve as a reminder of the peace that could exist and the promise that can be forged again."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectChangeFloorCapacity",
-      "paramInt": 1,
       "additionalTooltips": [
         {
-          "titleKey": "Capacity_TooltipTitle",
-          "descriptionKey": "Capacity_TooltipText"
+          "title": "[capacity] Capacity",
+          "description": "Units can only be summoned on a floor if it has enough capacity."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectChangeFloorCapacity",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 3,
-  "fromStoryEvent": true,
-  "name": "Railforger's Hammer"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Champion",
+  "fromStoryEvent": true
 }

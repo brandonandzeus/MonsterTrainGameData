@@ -1,17 +1,20 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-10dd1855c15c4362-66f8e26f4d2522c4db8933275b7047af-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-b85cfe176c213b16-66f8e26f4d2522c4db8933275b7047af-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-a21bbedc00c32afd-66f8e26f4d2522c4db8933275b7047af-v2"
+  "name": "Fossilized Fangs",
+  "description": "[feed] abilities trigger an additional time.",
+  "relicLoreTooltips": [
+    "There are more victims in mine collapses than I would’ve first thought. Many Umbra have fallen victim to these accidents and while they fade back into the shadow, their teeth remain."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyTriggerCount",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 1,
-      "paramTrigger": 22
+      "paramTrigger": "CharacterTriggerData.Trigger.OnFeed",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "linkedClass": "ClassUmbra",
-  "name": "Fossilized Fangs"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassUmbra"
 }

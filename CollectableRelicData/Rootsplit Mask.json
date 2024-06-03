@@ -1,22 +1,26 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-2c05cd2c79b33cf6-775abecbad62b8d438e6f0e844fec94b-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-c19b02b8a7a39460-775abecbad62b8d438e6f0e844fec94b-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-35163e4ef39d6709-775abecbad62b8d438e6f0e844fec94b-v2"
+  "name": "Rootsplit Mask",
+  "description": "Apply [rooted] to enemy units when they enter the floor below the Pyre Room.",
+  "relicLoreTooltips": [
+    "Breaking through their armor is considered a rite of passage for the Awoken, marking their shift from Hollow to Animus. This old armor breaks under the weight of new vines making up the Animus."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnEnterRoomIndex",
-      "paramSourceTeam": 1,
-      "paramInt": 2,
       "paramStatusEffects": [
         {
-          "statusId": "rooted",
+          "statusId": "VanillaStatusEffectIDs.Rooted",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnEnterRoomIndex",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "linkedClass": "ClassAwoken",
-  "name": "Rootsplit Mask"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassAwoken"
 }

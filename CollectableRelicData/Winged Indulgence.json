@@ -1,19 +1,20 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-697b9ac0eed9a2d2-23f009ca895815f4d9a80672ae6a4c0e-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-c9387bfd9d1a4741-23f009ca895815f4d9a80672ae6a4c0e-v2",
-  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-00051db8f766ceed-23f009ca895815f4d9a80672ae6a4c0e-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-891e6b8176e86178-23f009ca895815f4d9a80672ae6a4c0e-v2"
+  "name": "Winged Indulgence",
+  "description": "Enemy units get [effect0.power][attack].",
+  "relicActivated": "-1[attack]",
+  "relicLoreTooltips": [
+    "Their time in Hell has dulled the Winged’s ability to exert moderation in their consumption. They frequently binge on the bounty they’ve conquered, which is good for us, as it often leads to lethargy in battle."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCharacterAttackDamage",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": -1,
-      "paramTrigger": 2,
-      "paramCardType": 4
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Invalid"
     }
   ],
-  "rarity": 1,
-  "name": "Winged Indulgence"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon"
 }

@@ -1,28 +1,37 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-533a5b4711467d2c-998a84d566daa4e439f851302f429364-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-e6897753b7f3a7dc-998a84d566daa4e439f851302f429364-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-b08500bc2a8a026d-998a84d566daa4e439f851302f429364-v2"
+  "name": "Herzal's Compound",
+  "description": "Draw +[effect0.power] each turn. [halfbreak]Your Pyre gets +[effect2.power][attack] and +[effect1.power][pyrehealth].",
+  "relicLoreTooltips": [
+    "One of my crowning achievements. A metal-based compound that can be formed into any shape. I’ve only been able to create a small batch of it, but a little goes a long way."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectChangeStartingHandSize",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 1,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     },
     {
       "relicEffectClassName": "RelicEffectModifyTowerMaxHealth",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 30,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     },
     {
       "relicEffectClassName": "RelicEffectTowerDamageDealtModified",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 10,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "rarity": 3,
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Champion",
   "isBossGivenRelic": true,
-  "ignoreForNoRelicAchievement": true,
-  "name": "Herzal's Compound"
+  "ignoreForNoRelicAchievement": true
 }

@@ -1,22 +1,27 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-892f50db46adc145-340f52b3e251cbb4b88b75f022cc5a51-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-bc783e35d8be2a2f-340f52b3e251cbb4b88b75f022cc5a51-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-9f5d42ff505ac46f-340f52b3e251cbb4b88b75f022cc5a51-v2"
+  "name": "Base Charge",
+  "description": "At the start of battle, add [effect0.power][corrupt] to each floor.",
+  "relicLoreTooltips": [
+    "The carving of stoneform is a long and tedious process, not entirely suitable for capturing fleeting thought. Some Wurmkin have created small Echo necklaces to preserve their knowledge on the fly, storing their observations directly onto the small crystal. Still, most of the clan finds the practice irreverent. "
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyCorruptionStartOfCombat",
-      "paramInt": 2,
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectModifyCorruptionStartOfCombat",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassWurm",
-  "requiredDLC": 1,
-  "name": "Base Charge"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

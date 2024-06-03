@@ -1,22 +1,25 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-2c1a22c61575de65-9630729fc756f1b45820fb77e44df230-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-2de58492dd1ec16b-9630729fc756f1b45820fb77e44df230-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-821787e00591d5dd-9630729fc756f1b45820fb77e44df230-v2"
+  "name": "Pyrewall",
+  "description": "Your Pyre starts each battle with [armor] [effect0.status0.power].",
+  "relicLoreTooltips": [
+    "As the Winged offensive grew more aggressive and building materials grew more scarce, I had to develop some protection with the tools at hand. These walls won’t withstand more than a couple blows, but that can still mean the difference between life and death."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
-      "paramCharacterSubtype": "SubtypesData_Pyre",
       "paramStatusEffects": [
         {
-          "statusId": "armor",
+          "statusId": "VanillaStatusEffectIDs.Armor",
           "count": 15
         }
       ],
-      "paramTrigger": 2
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramCharacterSubtype": "SubtypesData_Pyre",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "name": "Pyrewall"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common"
 }

@@ -1,16 +1,19 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-d91d2f60c5f90a37-af260da5884298446936263dc42caaa5-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-a14198b0c8f34424-af260da5884298446936263dc42caaa5-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-c95dd9fe81d94306-af260da5884298446936263dc42caaa5-v2"
+  "name": "Guild Marker",
+  "description": "Merchant costs are reduced by 25%.",
+  "relicLoreTooltips": [
+    "Despite my several attempts to win the support of the furry traders, the merchants of Hell have decided to stay neutral. Finally, after much pestering, they allowed me into their guild. That hasn’t stopped them from wringing me of any spare coin."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyMerchantAllCosts",
-      "paramSourceTeam": 2,
-      "paramFloat": -0.25
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramFloat": -0.25,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Guild Marker"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon"
 }

@@ -1,19 +1,21 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-937c95d7228a4250-e0f969df8b8ead9419c87b4943bb817c-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-a6ac6917d88565eb-e0f969df8b8ead9419c87b4943bb817c-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-b151e2ec3d8af887-e0f969df8b8ead9419c87b4943bb817c-v2"
+  "name": "Mark of a Champion",
+  "description": "When played, your Champion gains +[effect0.power]% attack.",
+  "relicLoreTooltips": [
+    "The roles of the Champions of Hell were created as part of the Hellpact. They were to be representatives of each clan, chosen by their own clan. In hindsight, this was an ambitious idea that failed more often than it succeeded. It’s unfair to attribute our current situation to these failings, but that makes it no less accurate."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCharacterAttackOrHealthPercentage",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 50,
       "paramCharacterSubtype": "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34",
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "rarity": 1,
-  "requiredDLC": 1,
-  "name": "Mark of a Champion"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

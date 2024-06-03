@@ -1,16 +1,20 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-435ed8f01dee2873-b6894fc64b834964992fb92ffcf55c9e-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-ad43ce9bb59d2db8-b6894fc64b834964992fb92ffcf55c9e-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-e54ad5500d19fcb7-b6894fc64b834964992fb92ffcf55c9e-v2"
+  "name": "Heaven's Gold",
+  "description": "Your Pyre gets +1[attack] for every [effect0.power][coin] you have.",
+  "relicLoreTooltips": [
+    "Their coin has no value here. What better use is there than to pelt the Winged with it?"
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectTowerDamageDealtGoldScaling",
-      "paramInt": 10
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 10,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "fromStoryEvent": true,
-  "name": "Heaven's Gold"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "fromStoryEvent": true
 }

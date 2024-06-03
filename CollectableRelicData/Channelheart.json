@@ -1,35 +1,47 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-399b3ee706facd24-2762d7670d1c16b4d825aa1d16bc3888-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-d57d002ceee26afc-2762d7670d1c16b4d825aa1d16bc3888-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-f11ab16813f34373-2762d7670d1c16b4d825aa1d16bc3888-v2"
+  "name": "Channelheart",
+  "description": "<b>Sting</b> spells get +[effect0.upgrade.bonusdamage] [magicpower].",
+  "relicLoreTooltips": [
+    "Before the Edge Priory became the reclusive group they are now, they would channel their energy into steel lockets that could be worn by their Awoken Hollow protectors, allowing the Hollows to gain more strength at the cost of their longevity."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTempUpgrade",
-      "paramSourceTeam": 2,
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitMagicPower_TooltipTitle",
-          "descriptionKey": "CardTraitMagicPower_TooltipText"
+          "title": "Magic Power",
+          "description": "Increases the amount of damage dealt and health restored by spells."
         }
       ],
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-f30cb10fef786959-45434bf7ff45291449c30f5b1a076e02-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-bcbeddece6a78d9c-45434bf7ff45291449c30f5b1a076e02-v2",
-        "isUnique": true,
-        "bonusDamage": 20,
         "filters": [
           {
-            "cardType": 0,
+            "cardType": "CardType.Spell",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "allowedCardPools": [
               "StingOnlyPool"
-            ]
+            ],
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
-        ]
-      }
+        ],
+        "isUnique": true,
+        "bonusDamage": 20
+      },
+      "relicEffectClassName": "RelicEffectAddTempUpgrade",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "linkedClass": "ClassAwoken",
-  "name": "Channelheart"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassAwoken"
 }

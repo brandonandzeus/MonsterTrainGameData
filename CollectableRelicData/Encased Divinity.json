@@ -1,23 +1,28 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-ba7bf003b0ebbaa7-791fd16c2e20781448352aa6517fe40a-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-ad362ba0169d52b4-791fd16c2e20781448352aa6517fe40a-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-dbcba4f190f481a3-791fd16c2e20781448352aa6517fe40a-v2"
+  "name": "Encased Divinity",
+  "description": "At the start of battle, the top floor gains [effect0.power][corrupt] that cannot be removed.",
+  "relicLoreTooltips": [
+    "Echoes are the essence of Divinity. There is no recorded history of this, and, frankly, anyone claiming this fact would be considered mad. But given my recent... revelations... I can say without a doubt that their origin is Divine."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddPermanentCorruptionStartOfCombat",
-      "paramInt": 1,
-      "paramFloat": 2.0,
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddPermanentCorruptionStartOfCombat",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramFloat": 2.0,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassWurm",
-  "requiredDLC": 1,
-  "name": "Encased Divinity"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

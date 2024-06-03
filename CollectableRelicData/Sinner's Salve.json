@@ -1,22 +1,28 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-ec5f8e3404e36342-788b76c6d03cd4d44873eb07ad75c1e0-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-4e0f6aa3de604162-788b76c6d03cd4d44873eb07ad75c1e0-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-857260fac4cd0fc2-788b76c6d03cd4d44873eb07ad75c1e0-v2"
+  "name": "Sinner's Salve",
+  "description": "Blights and Scourges cost 0[ember].",
+  "relicLoreTooltips": [
+    "Collaboration between the Rings of Hell was rare, but the few that did occur produced wondrous results. Water from the Stygian Sea blessed by the Channelers of the Wildwood created a solution capable of soothing the pains of Heaven’s wretched sinner contraptions. However, this was used only a handful of times. Those contraptions rarely had survivors..."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCardTypeCost",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": -99,
-      "paramCardType": 5
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Blight"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCardTypeCost",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": -99,
-      "paramCardType": 6
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Junk"
     }
   ],
-  "rarity": 1,
-  "requiredDLC": 1,
-  "name": "Sinner's Salve"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

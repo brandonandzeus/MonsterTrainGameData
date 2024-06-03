@@ -1,42 +1,45 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-4dff0aecc40d7fbb-233714166daaebe418ce4681ca0ad5a5-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-f6b428cf8ce8db70-233714166daaebe418ce4681ca0ad5a5-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-ba2934fab9614cfb-233714166daaebe418ce4681ca0ad5a5-v2"
+  "name": "Votive Key",
+  "description": "Apply [endless] to the first friendly unit played each turn.",
+  "relicLoreTooltips": [
+    "Keys to Votive Houses have secretly circulated in Waxer communities for eons, with new copies being made all the time to evade detection of the original thief. Having come across a couple in my travels, I've kept them for myself in case the need for one arises."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
-      "paramString": "OnlyFromCard",
       "paramStatusEffects": [
         {
-          "statusId": "endless",
+          "statusId": "VanillaStatusEffectIDs.Endless",
           "count": 1
         }
       ],
       "effectConditions": [
         {
-          "paramTrackedValue": 0,
-          "paramCardType": 0,
+          "paramTrackedValue": "CardStatistics.TrackedValueType.SubtypeInDeck",
+          "paramCardType": "CardStatistics.CardTypeTarget.Any",
           "paramTrackTriggerCount": true,
+          "paramEntryDuration": "CardStatistics.EntryDuration.ThisTurn",
+          "paramComparator": "RelicEffectCondition.Comparator.GreaterThan | RelicEffectCondition.Comparator.Equal",
           "paramInt": 1,
           "allowMultipleTriggersPerDuration": false
         }
       ],
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-10004dc55dd28860-d3c0eef262b714643b9f4993f96ab417-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-64a5d7b327cc1f42-d3c0eef262b714643b9f4993f96ab417-v2",
         "statusEffectUpgrades": [
           {
-            "statusId": "endless",
+            "statusId": "VanillaStatusEffectIDs.Endless",
             "count": 1
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramString": "OnlyFromCard",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "linkedClass": "ClassRemnant",
-  "name": "Votive Key"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassRemnant"
 }

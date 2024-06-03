@@ -1,53 +1,72 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-5268ca6ba894ebbf-df3df5cfd7f041143bb7ec296d7e0a21-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-7b48ef4c8cd76822-df3df5cfd7f041143bb7ec296d7e0a21-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-9c05ea1702587913-df3df5cfd7f041143bb7ec296d7e0a21-v2"
+  "name": "Petrified Heart",
+  "description": "Friendly units get +[effect0.power][health] and [heal_immune].",
+  "relicLoreTooltips": [
+    "An ancient heart, petrified in the woods of the Wildwood. It still beats coldly. Endlessly."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCardHealth",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 10,
-      "paramTrigger": 2,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 10,
-      "paramTrigger": 26
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawnNotFromCard",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
-      "paramString": "NoCard",
       "paramStatusEffects": [
         {
-          "statusId": "heal immunity",
+          "statusId": null,
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramString": "NoCard",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddTempUpgrade",
-      "paramSourceTeam": 2,
       "paramCardUpgradeData": {
         "statusEffectUpgrades": [
           {
-            "statusId": "heal immunity",
+            "statusId": null,
             "count": 1
           }
         ],
         "filters": [
           {
-            "cardType": 1
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddTempUpgrade",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "fromStoryEvent": true,
-  "name": "Petrified Heart"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "fromStoryEvent": true
 }

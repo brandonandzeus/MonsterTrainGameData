@@ -1,40 +1,57 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-8bf832891a0d6cd2-a3d5c803072ad9a43988d527ec069448-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-0954a395f2282163-a3d5c803072ad9a43988d527ec069448-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-f6294f45972256f3-a3d5c803072ad9a43988d527ec069448-v2"
+  "name": "Melting Spout",
+  "description": "[tomb] units get +[effect0.power][health] and [burnout] 1.",
+  "relicLoreTooltips": [
+    "Only the wealthiest of Waxers can afford the portable melting pot I created to allow on-demand wax guttering. Out of charity, unfortunate Tombs are given a spout by the Reformed so they can survive."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCardHealth",
-      "paramSourceTeam": 2,
-      "paramInt": 30,
-      "paramCharacterSubtype": "SubtypesData_Tomb"
-    },
-    {
-      "relicEffectClassName": "RelicEffectAddTempUpgrade",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 30,
       "paramCharacterSubtype": "SubtypesData_Tomb",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
+    },
+    {
       "paramCardUpgradeData": {
         "statusEffectUpgrades": [
           {
-            "statusId": "ephemeral",
+            "statusId": "VanillaStatusEffectIDs.Burnout",
             "count": 1
           }
         ],
         "filters": [
           {
-            "cardType": 1,
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "requiredSubtypes": [
               "SubtypesData_Tomb"
-            ]
+            ],
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddTempUpgrade",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 30,
+      "paramCharacterSubtype": "SubtypesData_Tomb",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassRemnant",
-  "unlockLevel": 6,
-  "name": "Melting Spout"
+  "unlockLevel": 6
 }

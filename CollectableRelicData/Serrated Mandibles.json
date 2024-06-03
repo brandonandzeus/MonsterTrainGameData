@@ -1,51 +1,54 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-b2d4e9d1c7a58e94-93196cd78617c8d439a6f44cc37645d2-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-7c773968f5ccf594-93196cd78617c8d439a6f44cc37645d2-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-b885e097257e2d05-93196cd78617c8d439a6f44cc37645d2-v2"
+  "name": "Serrated Mandibles",
+  "description": "When one or more [corrupt] are added to a floor, apply [corruptpoison] [effect0.status0.power] to a random enemy unit, twice.",
+  "relicLoreTooltips": [
+    "Traveling to the Bogs now, one would not be faulted for missing the conflict between the Wurmkin and the Kinhost. In fact, one would even surmise that no conflict exists at all, and in many ways, it doesn’t. I suppose the Wurmkin’s swift removal of any Kinhost dissent, or small display of sentience for that matter, has squashed any lingering division. Not quite what I’d consider a victory."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnCorruptionAdded",
-      "paramSourceTeam": 1,
       "paramStatusEffects": [
         {
-          "statusId": "corrupt_poison",
+          "statusId": "VanillaStatusEffectIDs.Reap",
           "count": 1
         }
       ],
-      "paramTargetMode": 1,
-      "paramCardType": 4,
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
       ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnCorruptionAdded",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.RandomInRoom",
+      "paramCardType": "CardType.Invalid",
       "triggerTooltipsSuppressed": true
     },
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnCorruptionAdded",
-      "paramSourceTeam": 1,
       "paramStatusEffects": [
         {
-          "statusId": "corrupt_poison",
+          "statusId": "VanillaStatusEffectIDs.Reap",
           "count": 1
         }
       ],
-      "paramTargetMode": 1,
-      "paramCardType": 4,
       "additionalTooltips": [
         {
-          "titleKey": "StatusEffect_CorruptPoison_CardText",
-          "descriptionKey": "StatusEffect_CorruptPoison_CardTooltipText",
-          "style": 5
+          "title": "Reap",
+          "description": "Unit takes 1 damage per stack of [corrupt] after combat ends.<br>Does not decrease.",
+          "style": "TooltipDesigner.TooltipDesignType.Negative"
         }
       ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnCorruptionAdded",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.RandomInRoom",
+      "paramCardType": "CardType.Invalid",
       "triggerTooltipsSuppressed": true
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassWurm",
-  "requiredDLC": 1,
-  "name": "Serrated Mandibles"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

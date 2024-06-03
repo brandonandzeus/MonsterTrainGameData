@@ -1,12 +1,11 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-8ba506b72c916eab-f48b7439e4d3ee044baabeb112bfb473-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-aade7ea4b681da38-f48b7439e4d3ee044baabeb112bfb473-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-b0642cd4b0038ccb-f48b7439e4d3ee044baabeb112bfb473-v2"
+  "name": "Capricious Reflection",
+  "description": "Cards in reward packs and unit banners come with a random upgrade.",
+  "relicLoreTooltips": [
+    "Waters touched by fragments of the lost Divinities show us reflections of another world. A world where the Divine Mother governed over the creation of life and the responsibility of death. Given the purview of her powers, it follows that her destruction created the many immortal beings of Heaven and Hell and led to our current predicament."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStartingUpgradeToCardDrafts",
       "paramEnhancerPool": {
         "name": "DraftUpgradePool",
         "relicDataList": [
@@ -46,10 +45,15 @@
           "UnitUpgradeStatsHealth",
           "UnitUpgradeStatsHealth"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddStartingUpgradeToCardDrafts",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "requiredDLC": 1,
-  "name": "Capricious Reflection"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

@@ -1,28 +1,32 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-dbfe42158b157fab-294d815b112c64b408a218944e56bb37-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-7698d0e8c485d749-294d815b112c64b408a218944e56bb37-v2",
-  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-2636bcff7875433f-294d815b112c64b408a218944e56bb37-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-cb73f19a41f8315b-294d815b112c64b408a218944e56bb37-v2"
+  "name": "Queen's Tail",
+  "description": "When you summon your first [imp] unit each turn, gain [effect0.power][ember] and draw [effect0.power].",
+  "relicActivated": "+1[ember]",
+  "relicLoreTooltips": [
+    "From what I can gather, the Queen had the only full-grown Demon tail in existence. Yet, in the visions I’ve spent with her, this tail has been replaced by her Shardsoul tail. Did this replacement grant the Hellhorned the ability to cycle, making them immortal? It’s as if a large shadow looms over any memory I should have of these Exiles..."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectEnergyAndCardDrawOnUnitSpawned",
-      "paramSourceTeam": 2,
-      "paramInt": 1,
       "effectConditions": [
         {
-          "paramTrackedValue": 25,
-          "paramCardType": 2,
-          "paramComparator": 2,
+          "paramTrackedValue": "CardStatistics.TrackedValueType.MonsterSubtypePlayed",
+          "paramCardType": "CardStatistics.CardTypeTarget.Monster",
+          "paramEntryDuration": "CardStatistics.EntryDuration.ThisTurn",
+          "paramComparator": "RelicEffectCondition.Comparator.Equal",
           "paramInt": 1,
           "allowMultipleTriggersPerDuration": false,
           "paramSubtype": "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectEnergyAndCardDrawOnUnitSpawned",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "linkedClass": "ClassHellhorned",
-  "name": "Queen's Tail"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassHellhorned"
 }

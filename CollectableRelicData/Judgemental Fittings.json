@@ -1,24 +1,27 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-654851d3cdbc50ef-b9535d8f12367d5408252463ce38485b-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-43ec1a701da39f21-b9535d8f12367d5408252463ce38485b-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-e3756b95bd4d8277-b9535d8f12367d5408252463ce38485b-v2"
+  "name": "Judgemental Fittings",
+  "description": "Enemy units enter with [damageshield] 1.",
+  "relicLoreTooltips": [
+    "Herzal always talked about Judgement and the struggles of mankind. Well, they wouldn't have so many struggles if they were invincible! And so it was done. Just like that. You're welcome, humans!"
   ],
-  "relicLoreTooltipStyle": 1,
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
-      "paramInt": -1,
       "paramStatusEffects": [
         {
-          "statusId": "damage shield",
+          "statusId": "VanillaStatusEffectIDs.DamageShield",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": -1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Malicka",
+  "rarity": "CollectableRarity.Common",
   "fromStoryEvent": true,
-  "requiredDLC": 1,
-  "name": "Judgemental Fittings"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

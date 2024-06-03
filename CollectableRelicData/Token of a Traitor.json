@@ -1,19 +1,21 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-64e3e6c953c17b28-0630045e968ae534faf62e601355e66c-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-519fe4c3e427163a-0630045e968ae534faf62e601355e66c-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-8061af2d462adb3b-0630045e968ae534faf62e601355e66c-v2"
+  "name": "Token of a Traitor",
+  "description": "Playing a spell deals [effect0.power] damage to a random enemy unit on that floor.",
+  "relicLoreTooltips": [
+    "When the Covenant was formed, Seraph made a diplomatic offering to the Titan at my suggestion. It should have been telling that the pearl immediately turned black when the Traitor touched it."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectDamageOnCardPlayed",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 2,
-      "paramTargetMode": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.RandomInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassStygian",
-  "unlockLevel": 3,
-  "name": "Token of a Traitor"
+  "unlockLevel": 3
 }

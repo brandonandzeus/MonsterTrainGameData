@@ -1,24 +1,27 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-10cc9a1002ca569c-d329316066a11694c86595d6ec7beb5b-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-8f2907df13c33a97-d329316066a11694c86595d6ec7beb5b-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-0c563edc15acb981-d329316066a11694c86595d6ec7beb5b-v2"
+  "name": "Abandoned Stave",
+  "description": "+1[ember] per turn for every [effect0.power] [blight] cards in your deck.",
+  "relicLoreTooltips": [
+    "After Seraph invaded Hell, Fel left me to support his cause much more eagerly than I'd expected. Before she left, Fel gave me this stave to assist in the fights ahead. I never saw her again."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyEnergyScaling",
-      "paramInt": 2,
-      "paramBool": true,
-      "paramCardType": 5,
       "additionalTooltips": [
         {
-          "titleKey": "Ember_TooltipTitle",
-          "descriptionKey": "Ember_TooltipText"
+          "title": "[ember] Ember",
+          "description": "Spent to play cards from your hand."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectModifyEnergyScaling",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 2,
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Blight"
     }
   ],
-  "rarity": 2,
-  "fromStoryEvent": true,
-  "name": "Abandoned Stave"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Rare",
+  "fromStoryEvent": true
 }

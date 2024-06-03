@@ -1,32 +1,36 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-34733c756c232b91-336856177ac3f7a43a0a76e2b84acc81-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-6a77fc5bc33844e5-336856177ac3f7a43a0a76e2b84acc81-v2",
-  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-ee452a295278a579-336856177ac3f7a43a0a76e2b84acc81-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-135237967136ed81-336856177ac3f7a43a0a76e2b84acc81-v2"
+  "name": "Hell's Banners",
+  "description": "When you summon the second unit during a turn, gain [effect0.power][ember].",
+  "relicActivated": "+{0}[ember]",
+  "relicLoreTooltips": [
+    "When I finally succeeded in uniting all nine Rings of Hell, we created a united army of Hell to fight back in the event of the Covenant breaking. I was surprised at the overwhelming support I received in this endeavor."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectEnergyOnUnitSpawned",
-      "paramSourceTeam": 2,
-      "paramInt": 3,
-      "paramTrigger": 2,
-      "paramCardType": 1,
       "additionalTooltips": [
         {
-          "titleKey": "Ember_TooltipTitle",
-          "descriptionKey": "Ember_TooltipText"
+          "title": "[ember] Ember",
+          "description": "Spent to play cards from your hand."
         }
       ],
       "effectConditions": [
         {
-          "paramTrackedValue": 23,
-          "paramCardType": 2,
+          "paramTrackedValue": "CardStatistics.TrackedValueType.AnyMonsterSpawned",
+          "paramCardType": "CardStatistics.CardTypeTarget.Monster",
+          "paramEntryDuration": "CardStatistics.EntryDuration.ThisTurn",
+          "paramComparator": "RelicEffectCondition.Comparator.GreaterThan | RelicEffectCondition.Comparator.Equal",
           "paramInt": 2,
           "allowMultipleTriggersPerDuration": false
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectEnergyOnUnitSpawned",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 3,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "name": "Hell's Banners"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common"
 }

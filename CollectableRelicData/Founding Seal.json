@@ -1,18 +1,20 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-a359a043f1ed09b7-9a1c314548b0d9d48b02edc78394a107-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-db013367670ec685-9a1c314548b0d9d48b02edc78394a107-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-0038f9576a6ada6f-9a1c314548b0d9d48b02edc78394a107-v2"
+  "name": "Founding Seal",
+  "description": "[incant] abilities trigger an additional time.",
+  "relicLoreTooltips": [
+    "Tethys and I created this Seal to commemorate the founding of the Stygian Guard and the protection they are sworn to give to their Unnamed Titan."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyTriggerCount",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 1,
-      "paramTrigger": 19
+      "paramTrigger": "CharacterTriggerData.Trigger.CardSpellPlayed",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "linkedClass": "ClassStygian",
-  "name": "Founding Seal"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "linkedClass": "ClassStygian"
 }

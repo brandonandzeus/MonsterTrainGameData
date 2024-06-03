@@ -1,17 +1,15 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-d088cafee3108692-d8912d0c5310b0243b70cd88be2e2061-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-9d66d13929e04533-d8912d0c5310b0243b70cd88be2e2061-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-ed993509dce73231-d8912d0c5310b0243b70cd88be2e2061-v2"
+  "name": "Cracked Helmet",
+  "description": "Damage spells get [piercing].",
+  "relicLoreTooltips": [
+    "I once asked Herzal to craft me some invincible armor. After three months of nonstop work, he presented me with the most beautiful helmet I had ever seen. I then immediately broke it. So much for invincibility!"
   ],
-  "relicLoreTooltipStyle": 1,
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectUpgradeCardOnGain",
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitIgnoreArmor_CardText",
-          "descriptionKey": "CardTraitIgnoreArmor_TooltipText"
+          "title": "Piercing",
+          "description": "Damage dealt by this card ignores armor and shields."
         }
       ],
       "paramCardUpgradeData": {
@@ -22,19 +20,45 @@
         ],
         "filters": [
           {
-            "requiredCardEffectsOperator": 1,
+            "cardType": "CardType.Invalid",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.Or",
             "requiredCardEffects": [
               "CardEffectDamage"
-            ]
+            ],
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           },
           {
-            "cardType": 0
+            "cardType": "CardType.Spell",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectUpgradeCardOnGain",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Malicka",
+  "rarity": "CollectableRarity.Common",
   "fromStoryEvent": true,
-  "requiredDLC": 1,
-  "name": "Cracked Helmet"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

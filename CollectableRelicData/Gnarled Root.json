@@ -1,24 +1,28 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-c0381d7382e79abe-30320ff03bc0fc74588d2351de67e452-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-f8cac14e5b1578f1-30320ff03bc0fc74588d2351de67e452-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-eb38d84e60190e1f-30320ff03bc0fc74588d2351de67e452-v2"
+  "name": "Gnarled Root",
+  "description": "Friendly units get +1[attack] per stack of [spikes].",
+  "relicLoreTooltips": [
+    "The roots of the Wildwood spread farther than just their own Ring, but the farther they travel from the center of the wood, the more likely they are to wither and die."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAdjustAttackByStatusEffect",
-      "paramSourceTeam": 2,
-      "paramInt": 1,
-      "paramBool": true,
       "paramStatusEffects": [
         {
-          "statusId": "spikes",
+          "statusId": "VanillaStatusEffectIDs.Spikes",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAdjustAttackByStatusEffect",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 1,
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassAwoken",
-  "unlockLevel": 2,
-  "name": "Gnarled Root"
+  "unlockLevel": 2
 }

@@ -1,16 +1,20 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-af9654c6db13e0bc-5480ed4218e61d24cb529bd88cbd89ce-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-680694311d614bca-5480ed4218e61d24cb529bd88cbd89ce-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-219bf32085c88015-5480ed4218e61d24cb529bd88cbd89ce-v2"
+  "name": "Broken Wheel",
+  "description": "When a non-Champion unit dies, it is <b>Purged</b>.",
+  "relicLoreTooltips": [
+    "What’s the point of this struggle between Heaven and Hell if we’re caught up in this endless cycle anyway? Cycles were meant to be broken, just like rules! Even if I were the one to invent those rules..."
   ],
-  "relicLoreTooltipStyle": 1,
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectPurgeExhaustedMonsterCard"
+      "relicEffectClassName": "RelicEffectPurgeExhaustedMonsterCard",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Malicka",
+  "rarity": "CollectableRarity.Common",
   "fromStoryEvent": true,
-  "requiredDLC": 1,
-  "name": "Broken Wheel"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

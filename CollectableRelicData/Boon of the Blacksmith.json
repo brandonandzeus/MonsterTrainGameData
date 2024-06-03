@@ -1,14 +1,19 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-1112dc19a5d51417-2589ed50dde5c564b923c6f24dcfe913-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-2d1313636f117bfa-2589ed50dde5c564b923c6f24dcfe913-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-828aa991ebfefb17-2589ed50dde5c564b923c6f24dcfe913-v2"
+  "name": "Boon of the Blacksmith",
+  "description": "Your Pyre gets +[effect0.power][attack].",
+  "relicLoreTooltips": [
+    "These Pyre circlets were gifted by the Winged to commemorate the binding of the Covenant. Now that the Covenant has broken, it is only fair that I pass them on to the Champions of Hell."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectTowerDamageDealtModified",
-      "paramInt": 15
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 15,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "name": "Boon of the Blacksmith"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common"
 }

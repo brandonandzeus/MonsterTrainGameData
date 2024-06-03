@@ -1,24 +1,32 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-eeedaa4c06f00723-e01e86f257ba0fd43be939490e060314-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-51fa1292f5b35695-e01e86f257ba0fd43be939490e060314-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-7b3eccdfbf5ad750-e01e86f257ba0fd43be939490e060314-v2"
+  "name": "Vapor Funnel",
+  "description": "Apply [dazed] to enemy units when they enter the Pyre Room. Your Pyre gets [effect1.power][attack].",
+  "relicLoreTooltips": [
+    "While trying to improve the efficiency of energy transfer from the Pyre to the Boneshaker, I inadvertently created a way to convert the energy directly into steam. At the time it seemed like a failure, but it may well prove useful in these harsh times."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnEnterPyreRoom",
       "paramStatusEffects": [
         {
-          "statusId": "dazed",
+          "statusId": "VanillaStatusEffectIDs.Dazed",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnEnterPyreRoom",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectTowerDamageDealtModified",
-      "paramInt": -5
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": -5,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "name": "Vapor Funnel"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon"
 }

@@ -1,31 +1,37 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-16bf676bc43eaf6b-62bcbf6772391f549a00e096b274285c-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-08bcfb24bf712488-62bcbf6772391f549a00e096b274285c-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-ff41cebb90a1a272-62bcbf6772391f549a00e096b274285c-v2"
+  "name": "Chain of Gems",
+  "description": "Apply [damageshield] [effect0.status0.power] to the first friendly unit summoned each turn.",
+  "relicLoreTooltips": [
+    "I constructed this as a gift to Penumbra for his help with the Covenant. The necklace is made out of the finest gems found in the Crucible. For whatever reason, Penumbra tossed it aside, perhaps considering it too gaudy."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
       "paramStatusEffects": [
         {
-          "statusId": "damage shield",
+          "statusId": "VanillaStatusEffectIDs.DamageShield",
           "count": 2
         }
       ],
       "effectConditions": [
         {
-          "paramTrackedValue": 0,
-          "paramCardType": 0,
+          "paramTrackedValue": "CardStatistics.TrackedValueType.SubtypeInDeck",
+          "paramCardType": "CardStatistics.CardTypeTarget.Any",
           "paramTrackTriggerCount": true,
+          "paramEntryDuration": "CardStatistics.EntryDuration.ThisTurn",
+          "paramComparator": "RelicEffectCondition.Comparator.GreaterThan | RelicEffectCondition.Comparator.Equal",
           "paramInt": 1,
           "allowMultipleTriggersPerDuration": false
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassUmbra",
-  "unlockLevel": 8,
-  "name": "Chain of Gems"
+  "unlockLevel": 8
 }

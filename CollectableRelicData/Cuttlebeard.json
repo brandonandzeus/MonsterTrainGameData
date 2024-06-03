@@ -1,30 +1,39 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-bcae14c619c98041-6f9e791e50fa3c94e9318e08223dc9df-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-0b3222b0af17d361-6f9e791e50fa3c94e9318e08223dc9df-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-1583688e3fe5d277-6f9e791e50fa3c94e9318e08223dc9df-v2"
+  "name": "Cuttlebeard",
+  "description": "Grant +[effect0.status0.power] stacks of [frostbite] each time it is applied. [frostbite] does not decay.",
+  "relicLoreTooltips": [
+    "It seems that the energy of the Cuttlehex and the Molluscmages does not die with them, but continues to surge through their beards so long as they are kept intact. I've kept some of the beards with me. They've been quite useful, but the tentacles make me a tad squeamish."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnStatusApplied",
-      "paramBool": true,
       "paramStatusEffects": [
         {
-          "statusId": "poison",
+          "statusId": "VanillaStatusEffectIDs.Frostbite",
           "count": 2
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnStatusApplied",
+      "paramSourceTeam": "Team.Type.None",
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectPreventStatusEffectDecay",
       "paramStatusEffects": [
         {
-          "statusId": "poison",
+          "statusId": "VanillaStatusEffectIDs.Frostbite",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectPreventStatusEffectDecay",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "linkedClass": "ClassStygian",
-  "name": "Cuttlebeard"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassStygian"
 }

@@ -1,23 +1,28 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-f580a9289ed68fe5-68edc206d91086a4ea45567099d15275-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-cc336caba94bec86-68edc206d91086a4ea45567099d15275-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-98e28052bce4fcaf-68edc206d91086a4ea45567099d15275-v2"
+  "name": "Dun Echo",
+  "description": "One additional card in each draft pack will be [infused].",
+  "relicLoreTooltips": [
+    "An Echo with no knowledge is just another piece of rock. At least, that’s what the Wurmkin would have you believe. The way they toss around empty Echoes, their knowledge retrieved, makes me wonder if their so-called reverence for knowledge has been emphasized for their own egos."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectChangeNumCardsToApplyRandomDraftEnhancerTo",
-      "paramInt": 1,
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitCorruptState_CardText",
-          "descriptionKey": "CardTraitCorruptState_TooltipText"
+          "title": "[infused]",
+          "description": "When played, the current floor will gain 1[corrupt]."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectChangeNumCardsToApplyRandomDraftEnhancerTo",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassWurm",
   "unlockLevel": 2,
-  "requiredDLC": 1,
-  "name": "Dun Echo"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

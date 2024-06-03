@@ -1,24 +1,28 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-0628e1d7ddc9eba3-edb6b6446646776449e30ec5d4e1211b-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-c733b0339e40f95d-edb6b6446646776449e30ec5d4e1211b-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-6b290820812b259f-edb6b6446646776449e30ec5d4e1211b-v2"
+  "name": "Railhammer",
+  "description": "Grant +[effect0.status0.power] stacks of [armor] each time it is applied to friendly units.",
+  "relicLoreTooltips": [
+    "Railhammers have been forged in the deep pits of the Scorched Plains since the founding of our Covenant, making them durable tools in the construction of Hellhorned armor."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnStatusApplied",
-      "paramSourceTeam": 2,
-      "paramInt": 1,
-      "paramBool": true,
       "paramStatusEffects": [
         {
-          "statusId": "armor",
+          "statusId": "VanillaStatusEffectIDs.Armor",
           "count": 4
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnStatusApplied",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 1,
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassHellhorned",
-  "unlockLevel": 1,
-  "name": "Railhammer"
+  "unlockLevel": 1
 }

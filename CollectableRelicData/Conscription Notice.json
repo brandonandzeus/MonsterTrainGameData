@@ -1,16 +1,11 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-2c1ad8752ea360e9-4c4a5aaeb8b567c4592a37829eb4fa35-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-6629522c80e2ab07-4c4a5aaeb8b567c4592a37829eb4fa35-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-66e3201f1860c6e6-4c4a5aaeb8b567c4592a37829eb4fa35-v2"
+  "name": "Conscription Notice",
+  "description": "When you first summon your Champion, gain a random unit card with +10[attack], +10[health], -1[ember], and -1[size].",
+  "relicLoreTooltips": [
+    "Our initial calls for support were a little… wordy: “We, the 9 Rings of Hell and the residents therein, declare our sovereignty from the Heavenly invaders of our lands. As fellow Hellborne, we implore you to consider supporting our shared cause and ensure our survival lest we cease to exist entirely.” It is comforting to know that I've matured from needless description and flourish to a paragon of simplicity."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddBattleCardToHandOnUnitTrigger",
-      "paramSourceTeam": 2,
-      "paramInt": 1,
-      "paramCharacterSubtype": "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34",
-      "paramTrigger": 2,
       "paramCardPool": {
         "name": "ConscriptUnitPool",
         "cardDataList": [
@@ -36,30 +31,47 @@
       },
       "effectConditions": [
         {
-          "paramTrackedValue": 0,
-          "paramCardType": 0,
+          "paramTrackedValue": "CardStatistics.TrackedValueType.SubtypeInDeck",
+          "paramCardType": "CardStatistics.CardTypeTarget.Any",
           "paramTrackTriggerCount": true,
-          "paramEntryDuration": 2,
-          "paramComparator": 2,
+          "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
+          "paramComparator": "RelicEffectCondition.Comparator.Equal",
           "paramInt": 1,
           "allowMultipleTriggersPerDuration": false,
           "paramSubtype": "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
         }
       ],
       "paramCardUpgradeData": {
+        "filters": [
+          {
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
+          }
+        ],
         "bonusDamage": 10,
         "bonusHP": 10,
         "costReduction": 1,
-        "bonusSize": -1,
-        "filters": [
-          {
-            "cardType": 1
-          }
-        ]
-      }
+        "bonusSize": -1
+      },
+      "relicEffectClassName": "RelicEffectAddBattleCardToHandOnUnitTrigger",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 1,
+      "paramCharacterSubtype": "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "requiredDLC": 1,
-  "name": "Conscription Notice"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

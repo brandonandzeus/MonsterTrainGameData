@@ -1,18 +1,21 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-8ac498d9b4cbe2c5-1944d4db0ccf9704997e90e6d5f45fba-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-532cdca0cd220c93-1944d4db0ccf9704997e90e6d5f45fba-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-f260d74bf5f8ef64-1944d4db0ccf9704997e90e6d5f45fba-v2"
+  "name": "Priory's Cloak",
+  "description": "When a friendly unit is healed, deal damage to the front enemy unit equal to the amount healed.",
+  "relicLoreTooltips": [
+    "A cloak gifted to me from a Channeler of the Edge Priory. It still contains some residual energy from its owner, allowing anyone who wears it to heal their wounds more effectively. Though this energy is not without side effects..."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectDamageEnemyOnHeal",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 1,
-      "paramTrigger": 7
+      "paramTrigger": "CharacterTriggerData.Trigger.OnHeal",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassAwoken",
-  "unlockLevel": 3,
-  "name": "Priory's Cloak"
+  "unlockLevel": 3
 }

@@ -1,14 +1,11 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-dfea1384afe4ae38-af259e6d96748f34c99f6c9afaf1d1c3-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-57600917cc5ced6b-af259e6d96748f34c99f6c9afaf1d1c3-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-d529cacb21b87c7e-af259e6d96748f34c99f6c9afaf1d1c3-v2"
+  "name": "Abandoned Antumbra",
+  "description": "At start of turn, add a common or uncommon [snack] unit to hand.",
+  "relicLoreTooltips": [
+    "I found this Morsel abandoned in the mines of the Crucible with all of its appendages missing. It seems to have taken a liking to me."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddBattleCardToHand",
-      "paramInt": 1,
-      "paramTrigger": 12,
       "paramCardPool": {
         "name": "Class5StarterFoodCard",
         "cardDataList": [
@@ -21,11 +18,17 @@
           "RubbleRaiser",
           "RubbleRaiser"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddBattleCardToHand",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.PreCombat",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
   "linkedClass": "ClassUmbra",
-  "unlockLevel": 3,
-  "name": "Abandoned Antumbra"
+  "unlockLevel": 3
 }

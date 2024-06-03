@@ -1,23 +1,28 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-d3c199562424afad-7f4512db308e25640816ae99b4d8bc69-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-a635e2f21313f8f5-7f4512db308e25640816ae99b4d8bc69-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-00124419466b2c6a-7f4512db308e25640816ae99b4d8bc69-v2"
+  "name": "Mind Hoard",
+  "description": "Increase [emptycorrupt] by [effect0.power] on each floor.",
+  "relicLoreTooltips": [
+    "Some use separate bins for organization. Others will place records into random piles and claim the system only “lives in their head.” Personally, I prefer drawers adorned with precise labels. The Wurmkin use stones with empty slots to keep their Echoes close and contained. What a wonder it is to learn of these civilizations that have developed without our hands to influence...or corrupt."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyMaxCorruption",
-      "paramInt": 1,
       "additionalTooltips": [
         {
-          "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectModifyMaxCorruption",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassWurm",
   "unlockLevel": 3,
-  "requiredDLC": 1,
-  "name": "Mind Hoard"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

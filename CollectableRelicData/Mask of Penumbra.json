@@ -1,28 +1,34 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-2b4379056ca0d33d-52f663b0300f3ad4f91c7c80e5128988-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-5a9b40336b4f7099-52f663b0300f3ad4f91c7c80e5128988-v2",
-  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-5ae1ffd340699664-52f663b0300f3ad4f91c7c80e5128988-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-11bda17e527257c4-52f663b0300f3ad4f91c7c80e5128988-v2"
+  "name": "Mask of Penumbra",
+  "description": "When you play your first [snack] unit each turn, draw [effect0.power].",
+  "relicActivated": "Draw!",
+  "relicLoreTooltips": [
+    "A discarded mask of the shadow known as Penumbra. I’ve encountered several of these throughout the mines. The shadow seems to outgrow them quickly."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardDrawOnCardPlay",
-      "paramInt": 1,
-      "paramCharacterSubtype": "SubtypesData_Snack",
-      "paramCardType": 1,
       "effectConditions": [
         {
-          "paramTrackedValue": 5,
-          "paramCardType": 2,
+          "paramTrackedValue": "CardStatistics.TrackedValueType.TimesPlayed",
+          "paramCardType": "CardStatistics.CardTypeTarget.Monster",
           "paramTrackTriggerCount": true,
+          "paramEntryDuration": "CardStatistics.EntryDuration.ThisTurn",
+          "paramComparator": "RelicEffectCondition.Comparator.GreaterThan | RelicEffectCondition.Comparator.Equal",
           "paramInt": 1,
           "allowMultipleTriggersPerDuration": false
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectCardDrawOnCardPlay",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramCharacterSubtype": "SubtypesData_Snack",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
   "linkedClass": "ClassUmbra",
-  "unlockLevel": 6,
-  "name": "Mask of Penumbra"
+  "unlockLevel": 6
 }

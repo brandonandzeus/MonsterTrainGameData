@@ -1,18 +1,21 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-4b449b240a96656f-5b2f78bae3ad57840abd4143e5f7be8a-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-e117786ecd614708-5b2f78bae3ad57840abd4143e5f7be8a-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-f81df556e901a4d7-5b2f78bae3ad57840abd4143e5f7be8a-v2"
+  "name": "Corrupted Cloud",
+  "description": "At end of turn, deal [effect0.power] damage to friendly units.",
+  "relicLoreTooltips": [
+    "One bored evening I asked myself, “What would happen if the rain was poison?” So I made the rain poison. Then Bogwurm threatened to eat me. Horrifying, but worth it."
   ],
-  "relicLoreTooltipStyle": 1,
   "effects": [
     {
       "relicEffectClassName": "RelicEffectDamageOrHealUnitsEndOfTurn",
-      "paramSourceTeam": 2,
-      "paramInt": 4
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 4,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Malicka",
+  "rarity": "CollectableRarity.Common",
   "fromStoryEvent": true,
-  "requiredDLC": 1,
-  "name": "Corrupted Cloud"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

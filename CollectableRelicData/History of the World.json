@@ -1,22 +1,27 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-cbaf525469154f5e-f0f90aab7740bc840886c8908c874604-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-0a0383bcd5025fde-f0f90aab7740bc840886c8908c874604-v2",
-  "relicActivatedKey": "CollectableRelicData_relicActivatedKey-9ff39ebcb8dc046f-f0f90aab7740bc840886c8908c874604-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-7c1b7fc3984e651d-f0f90aab7740bc840886c8908c874604-v2"
+  "name": "History of the World",
+  "description": "+[effect0.power][capacity] on a random floor.",
+  "relicActivated": "+{0}[capacity]",
+  "relicLoreTooltips": [
+    "This book shall provide a detailed recollection of my time in Heaven and Hell in my pursuit of the Rail of the Covenant and the brokering of a lasting peace to save our two realms. Should I fail, look here to learn from those who’ve come before."
   ],
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyRandomRoomCapacity",
-      "paramInt": 3,
       "additionalTooltips": [
         {
-          "titleKey": "Capacity_TooltipTitle",
-          "descriptionKey": "Capacity_TooltipText"
+          "title": "[capacity] Capacity",
+          "description": "Units can only be summoned on a floor if it has enough capacity."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectModifyRandomRoomCapacity",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 3,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "fromStoryEvent": true,
-  "name": "History of the World"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "fromStoryEvent": true
 }

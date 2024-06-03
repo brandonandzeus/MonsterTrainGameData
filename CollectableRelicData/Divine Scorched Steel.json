@@ -1,25 +1,31 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-e3439c268b68c15a-2e6e08a8f7dedc94f827abbf86fddb50-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-273ecd81233743d1-2e6e08a8f7dedc94f827abbf86fddb50-v2",
-  "divineVariant": true,
+  "name": "Divine Scorched Steel",
+  "description": "Friendly units enter with [armor] [effect0.status0.power]. Remove this artifact after 1 battle.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
       "paramStatusEffects": [
         {
-          "statusId": "armor",
+          "statusId": "VanillaStatusEffectIDs.Armor",
           "count": 10
         }
       ],
-      "paramTrigger": 2
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectRemoveSelf",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 1,
-      "paramTrigger": 2
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "linkedClass": "ClassHellhorned",
-  "name": "Divine Scorched Steel"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "divineVariant": true,
+  "rarity": "CollectableRarity.Common",
+  "linkedClass": "ClassHellhorned"
 }

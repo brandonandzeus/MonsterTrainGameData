@@ -1,16 +1,20 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-8813df4162a1675c-9ccb0be1b9ad44a469354582506e7478-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-7625cbe2a64f1dee-9ccb0be1b9ad44a469354582506e7478-v2",
-  "relicLoreTooltipKeys": [
-    "CollectableRelicData_data-bd3f84cc917fe7b0-9ccb0be1b9ad44a469354582506e7478-v2"
+  "name": "Weathered Coldstones",
+  "description": "When you play a [blight] card, restore [effect0.power] Pyre health.",
+  "relicLoreTooltips": [
+    "Of the same ilk as the Pyre, these coldstones have been transformed by the freezing of Hell. They now emanate icy frost instead of Hellish heat."
   ],
   "effects": [
     {
       "relicEffectClassName": "RelicEffectTrainHealOnCardPlay",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 5,
-      "paramCardType": 5
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Blight"
     }
   ],
-  "fromStoryEvent": true,
-  "name": "Weathered Coldstones"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "fromStoryEvent": true
 }

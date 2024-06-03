@@ -1,17 +1,17 @@
 {
-  "nameKey": "CollectableRelicData_nameKey-e14f72a6f9bbde99-0855ab14ea90d124ba759676e3e7f31d-v2",
-  "descriptionKey": "CollectableRelicData_descriptionKey-8e49107aa9cc733c-0855ab14ea90d124ba759676e3e7f31d-v2",
-  "relicLoreTooltipKeys": [
-    "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
-  ],
+  "name": "Free Reroll",
+  "description": "Rerolls are free.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyMerchantRerollCosts",
-      "paramSourceTeam": 2,
-      "paramFloat": -1.0
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramFloat": -1.0,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "requiredDLC": 1,
-  "name": "Free Reroll"
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }
