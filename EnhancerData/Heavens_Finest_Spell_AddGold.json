@@ -1,34 +1,46 @@
 {
-  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-a2430c592acd9c21-f91de2c75d260e64c8b77fbb582cc41c-v2",
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-77f5694afda97fdf-f91de2c75d260e64c8b77fbb582cc41c-v2",
-  "costReduction": 99,
+  "upgradeTitle": "Heaven’s Finest",
+  "upgradeDescription": "Gain 35[coin]. Reduce to 0[ember].",
   "cardTriggerUpgrades": [
     {
-      "descriptionKey": "CardUpgradeData_descriptionKey-ec8024c2f37f1da4-f91de2c75d260e64c8b77fbb582cc41c-v2",
+      "description": "Gain 35[coin].",
       "cardEffects": [
         {
-          "effectStateName": "CardEffectRewardGold",
-          "targetTeamType": 0,
-          "shouldTest": false,
-          "paramInt": 35,
           "paramCardUpgradeData": {
-            "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-56438f7680712b32-b6f340fe59ca97241a48e4ce071e5e4f-v2",
-            "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-0dff24f5b5c8f569-b6f340fe59ca97241a48e4ce071e5e4f-v2",
-            "costReduction": 99,
+            "upgradeTitle": "Unhinged Power",
+            "upgradeDescription": "<nobr>Reduce to 0[ember]</nobr> and apply [annihilate].",
             "traitDataUpgrades": [
               {
                 "traitStateName": "CardTraitSelfPurge"
               }
-            ]
-          }
+            ],
+            "costReduction": 99
+          },
+          "effectStateName": "CardEffectRewardGold",
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
+          "shouldTest": false,
+          "paramInt": 35
         }
-      ]
+      ],
+      "trigger": "CardTriggerType.OnCast"
     }
   ],
   "filters": [
     {
-      "cardType": 0
+      "cardType": "CardType.Spell",
+      "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "cardTargetMode": "CardTargetMode.All",
+      "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
     }
   ],
-  "name": "Delayed_AddGoldFinal"
+  "costReduction": 99,
+  "name": "Heavens_Finest_Spell_AddGold"
 }

@@ -1,31 +1,48 @@
 {
-  "nameKey": "EnhancerData_nameKey-9de9a92d96994f90-ce5b1b960ef4b5c4ea83829acbe7af01-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-b399d446af67e130-ce5b1b960ef4b5c4ea83829acbe7af01-v2",
+  "name": "Furystone",
+  "description": "Upgrade a unit with [rage] [effect0.upgrade.status0.power].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardType": 1,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-368f1920f54cb243-150d43827f5975b4d8d08f1001f643d0-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-d6e712eeb65814de-150d43827f5975b4d8d08f1001f643d0-v2",
+        "upgradeTitle": "Furystone",
+        "upgradeDescription": "Gain [rage] 7.",
         "statusEffectUpgrades": [
           {
-            "statusId": "buff",
+            "statusId": "VanillaStatusEffectIDs.Rage",
             "count": 7
           }
         ],
         "filters": [
           {
-            "cardType": 1,
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "disallowedCardPools": [
               "EelGorgonOnlyPool"
-            ]
+            ],
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "linkedClass": "ClassHellhorned",
-  "numCardsToShowInUpgradeScreen": 0,
-  "name": "Furystone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 15324
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": 0
 }

@@ -1,36 +1,44 @@
 {
-  "nameKey": "EnhancerData_nameKey-d6d89c47a05721d5-ca61d00f127c4ab4bb6d78abdd2b4859-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-5b539b212cf14822-ca61d00f127c4ab4bb6d78abdd2b4859-v2",
+  "name": "Sunderstone",
+  "description": "Upgrade a unit with '[strike]: Apply [meleeweakness] 1.'",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardType": 1,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-72c589b23906679e-a48627940bed6dd4a80731e3ff2bec5f-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-1390b879a1890fbd-a48627940bed6dd4a80731e3ff2bec5f-v2",
+        "upgradeTitle": "Sunderstone",
+        "upgradeDescription": "Gain '[strike]: Apply [meleeweakness] 1.'",
         "triggerUpgrades": [
           {
-            "trigger": 3,
-            "descriptionKey": "CardUpgradeData_descriptionKey-1424a67ab485522c-a48627940bed6dd4a80731e3ff2bec5f-v2",
+            "description": "Apply [meleeweakness] 1.",
             "effects": [
               {
-                "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": 6,
-                "paramInt": 100,
                 "paramStatusEffects": [
                   {
-                    "statusId": "melee weakness",
+                    "statusId": "VanillaStatusEffectIDs.MeleeWeakness",
                     "count": 1
                   }
-                ]
+                ],
+                "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.LastAttackedCharacter",
+                "targetTeamType": "Team.Type.Heroes",
+                "paramInt": 100
               }
-            ]
+            ],
+            "trigger": "CharacterTriggerData.Trigger.OnAttacking"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "rarity": 2,
-  "numCardsToShowInUpgradeScreen": -1,
-  "name": "Sunderstone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Rare",
+  "numCardsToShowInUpgradeScreen": -1
 }

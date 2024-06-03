@@ -1,33 +1,63 @@
 {
-  "nameKey": "EnhancerData_nameKey-3df6714c6e87a062-2ee893927c435e74b8c13e4bc4f157ba-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-548ade1226c7aad4-2ee893927c435e74b8c13e4bc4f157ba-v2",
+  "name": "Seekstone",
+  "description": "Upgrade a spell to gain [inherent].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-4bd297c5062367a7-81f79c60e474fd04a8af3e46736506b6-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-afc85107604fe4d0-81f79c60e474fd04a8af3e46736506b6-v2",
-        "linkedPactDuplicateRarity": 0,
+        "upgradeTitle": "Seekstone",
+        "upgradeDescription": "Gain [inherent].",
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitIntrinsicState",
             "paramSubtype": "0",
-            "paramTeamType": 1
+            "paramTeamType": "Team.Type.Heroes"
           }
         ],
         "filters": [
           {
+            "cardType": "CardType.Invalid",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "excludedCardTraits": [
               "CardTraitIntrinsicState"
-            ]
+            ],
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           },
           {
-            "cardType": 0
+            "cardType": "CardType.Spell",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
-        ]
-      }
+        ],
+        "linkedPactDuplicateRarity": "CollectableRarity.Common"
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "numCardsToShowInUpgradeScreen": 0,
-  "name": "Seekstone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": 0
 }

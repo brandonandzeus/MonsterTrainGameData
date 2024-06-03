@@ -1,23 +1,30 @@
 {
-  "nameKey": "EnhancerData_nameKey-4dc33aad1d24ddb3-1f106b09b7a58d44480fad9f6104f16c-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-f55bcc0cb59ce67f-1f106b09b7a58d44480fad9f6104f16c-v2",
+  "name": "Unhinged Power",
+  "description": "<nobr>Reduce to 0[ember]</nobr> and apply [annihilate].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardType": 1,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-56438f7680712b32-b6f340fe59ca97241a48e4ce071e5e4f-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-0dff24f5b5c8f569-b6f340fe59ca97241a48e4ce071e5e4f-v2",
-        "costReduction": 99,
+        "upgradeTitle": "Unhinged Power",
+        "upgradeDescription": "<nobr>Reduce to 0[ember]</nobr> and apply [annihilate].",
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitSelfPurge"
           }
-        ]
-      }
+        ],
+        "costReduction": 99
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "rarity": 2,
-  "numCardsToShowInUpgradeScreen": -1,
-  "name": "Unhinged Power"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Rare",
+  "numCardsToShowInUpgradeScreen": -1
 }

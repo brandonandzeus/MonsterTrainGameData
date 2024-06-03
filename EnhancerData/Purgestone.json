@@ -1,24 +1,33 @@
 {
-  "nameKey": "EnhancerData_nameKey-ad3ce189b1aad4b7-2e1a0c4c3d021bb439891338526186e7-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-f7305ef89f17b5f2-2e1a0c4c3d021bb439891338526186e7-v2",
+  "name": "Purgestone",
+  "description": "Upgrade a spell to gain <b>Purge</b> and cost -1[ember].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramInt": 1,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-8089a57ef60eb1d0-a43a47ec0ca47dc4e83572738b7d10f6-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-0aea0436abdecf8d-a43a47ec0ca47dc4e83572738b7d10f6-v2",
-        "linkedPactDuplicateRarity": 0,
-        "costReduction": 1,
-        "xCostReduction": 1,
+        "upgradeTitle": "Purgestone",
+        "upgradeDescription": "-1[ember] and gain <b>Purge</b>.",
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitSelfPurge"
           }
-        ]
-      }
+        ],
+        "linkedPactDuplicateRarity": "CollectableRarity.Common",
+        "costReduction": 1,
+        "xCostReduction": 1
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "numCardsToShowInUpgradeScreen": 0,
-  "name": "Purgestone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": 0
 }

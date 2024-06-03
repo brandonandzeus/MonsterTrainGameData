@@ -1,28 +1,45 @@
 {
-  "nameKey": "EnhancerData_nameKey-8ac69d6cd0c77302-6f85f132ff6758a4db43bc46caee5de5-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-c3958dc7ecaa1315-6f85f132ff6758a4db43bc46caee5de5-v2",
+  "name": "Spell Duplicate",
+  "description": "Purge a Spell. Create [effect0.power] copies with 0[ember] and [annihilate].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardDuplicator",
-      "paramInt": 3,
-      "paramBool": true,
-      "paramCardType": 4,
       "paramCardFilter": {
-        "cardType": 0
+        "cardType": "CardType.Spell",
+        "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "cardTargetMode": "CardTargetMode.All",
+        "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
       },
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-56438f7680712b32-b6f340fe59ca97241a48e4ce071e5e4f-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-0dff24f5b5c8f569-b6f340fe59ca97241a48e4ce071e5e4f-v2",
-        "costReduction": 99,
+        "upgradeTitle": "Unhinged Power",
+        "upgradeDescription": "<nobr>Reduce to 0[ember]</nobr> and apply [annihilate].",
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitSelfPurge"
           }
-        ]
-      }
+        ],
+        "costReduction": 99
+      },
+      "relicEffectClassName": "RelicEffectCardDuplicator",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 3,
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Invalid"
     }
   ],
-  "rarity": 1,
-  "numCardsToShowInUpgradeScreen": -1,
-  "name": "Spell Duplicate"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "numCardsToShowInUpgradeScreen": -1
 }

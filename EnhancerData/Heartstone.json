@@ -1,17 +1,25 @@
 {
-  "nameKey": "EnhancerData_nameKey-817557e2c9d0207c-777a9ab6be7f9aa428b82d0ac073cd66-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-46b9d69b80b04fcb-777a9ab6be7f9aa428b82d0ac073cd66-v2",
+  "name": "Heartstone",
+  "description": "Upgrade a unit with +[effect0.upgrade.bonushp][health].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardType": 1,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-a53d099e559f5cf6-8e645919c114c734eabe051fe2a209df-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-f6084955bf8e72b9-8e645919c114c734eabe051fe2a209df-v2",
+        "upgradeTitle": "Heartstone",
+        "upgradeDescription": "+25[health].",
         "bonusHP": 25
-      }
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "numCardsToShowInUpgradeScreen": 0,
-  "name": "Heartstone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": 0
 }

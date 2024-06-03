@@ -1,38 +1,68 @@
 {
-  "nameKey": "EnhancerData_nameKey-10c7bad554671a8a-970038d8a77829340a2c37698ea2d3a6-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-08e904c130e0701e-970038d8a77829340a2c37698ea2d3a6-v2",
+  "name": "Valuestone",
+  "description": "Upgrade a spell to cost -2[ember].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramInt": 1,
-      "paramMinInt": 1,
-      "paramMaxInt": 99,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-e6e844fd7a582590-7072dbf73767e3a4e9c241a3e7dc7dc5-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-a3cab5582f37ecb2-7072dbf73767e3a4e9c241a3e7dc7dc5-v2",
-        "linkedPactDuplicateRarity": 1,
-        "costReduction": 2,
-        "xCostReduction": 2,
+        "upgradeTitle": "Valuestone",
+        "upgradeDescription": "-2[ember].",
         "filters": [
           {
+            "cardType": "CardType.Invalid",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "excludedSubtypes": [
               "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
-            ]
+            ],
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           },
           {
-            "excludedCardTraits": [
-              "CardTraitUnplayable"
-            ],
             "costRange": {
               "x": 1.0,
               "y": 99.0
-            }
+            },
+            "cardType": "CardType.Invalid",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraits": [
+              "CardTraitUnplayable"
+            ],
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
-        ]
-      }
+        ],
+        "linkedPactDuplicateRarity": "CollectableRarity.Uncommon",
+        "costReduction": 2,
+        "xCostReduction": 2
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramMinInt": 1,
+      "paramMaxInt": 99,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "numCardsToShowInUpgradeScreen": 0,
-  "name": "Valuestone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "numCardsToShowInUpgradeScreen": 0
 }

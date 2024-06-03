@@ -1,31 +1,48 @@
 {
-  "nameKey": "EnhancerData_nameKey-2e39da424d364f5a-b66b69bb8137d8249a519389a4217448-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-3e8415d009467f9f-b66b69bb8137d8249a519389a4217448-v2",
+  "name": "Shieldstone",
+  "description": "Upgrade a unit with [damageshield] [effect0.upgrade.status0.power].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardType": 1,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-37a3ef9a8b2e9291-189248b1f3777bb42bfd443760b14c85-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-bb932f1d44a156ef-189248b1f3777bb42bfd443760b14c85-v2",
+        "upgradeTitle": "Shieldstone",
+        "upgradeDescription": "Gain [damageshield] 3.",
         "statusEffectUpgrades": [
           {
-            "statusId": "damage shield",
+            "statusId": "VanillaStatusEffectIDs.DamageShield",
             "count": 3
           }
         ],
         "filters": [
           {
-            "cardType": 1,
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "disallowedCardPools": [
               "EelGorgonOnlyPool"
-            ]
+            ],
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "linkedClass": "ClassUmbra",
-  "numCardsToShowInUpgradeScreen": 0,
-  "name": "Shieldstone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 15327
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": 0
 }

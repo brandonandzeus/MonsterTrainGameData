@@ -1,44 +1,61 @@
 {
-  "nameKey": "EnhancerData_nameKey-cb2d0729b1ab5fe9-622786b330e7b2b40b18edcc3ec2ed55-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-fde717b9cca61b17-622786b330e7b2b40b18edcc3ec2ed55-v2",
+  "name": "Runestone",
+  "description": "Upgrade a unit with '[incant]: Gain [armor] 2.'",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardType": 1,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-a64f81939b88f68e-3bc841f8db044cf438e34f8ad08d889d-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-f3b748fbdc315ca0-3bc841f8db044cf438e34f8ad08d889d-v2",
+        "upgradeTitle": "Runestone",
+        "upgradeDescription": "Gain '[incant]: Gain [armor] 2.'",
         "triggerUpgrades": [
           {
-            "trigger": 19,
-            "descriptionKey": "CardUpgradeData_descriptionKey-14bae605a1bf7c79-3bc841f8db044cf438e34f8ad08d889d-v2",
+            "description": "Gain [armor] [effect0.status0.power].",
             "effects": [
               {
-                "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": 5,
-                "targetTeamType": 0,
                 "paramStatusEffects": [
                   {
-                    "statusId": "armor",
+                    "statusId": "VanillaStatusEffectIDs.Armor",
                     "count": 2
                   }
-                ]
+                ],
+                "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None"
               }
-            ]
+            ],
+            "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed"
           }
         ],
         "filters": [
           {
-            "cardType": 1,
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "disallowedCardPools": [
               "EelGorgonOnlyPool"
-            ]
+            ],
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "linkedClass": "ClassStygian",
-  "numCardsToShowInUpgradeScreen": 0,
-  "name": "Runestone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 15326
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": 0
 }

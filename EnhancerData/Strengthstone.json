@@ -1,23 +1,41 @@
 {
-  "nameKey": "EnhancerData_nameKey-d3c76714914aaecb-c309cc82af3d5c64aab18864c83b3bca-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-cbea2b5f7b2707d0-c309cc82af3d5c64aab18864c83b3bca-v2",
+  "name": "Strengthstone",
+  "description": "Upgrade a unit with +[effect0.upgrade.bonusdamage][attack].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardType": 1,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-866f1265815c4231-b62bd9aeb96a82849a77956e662bfa23-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-54febc89da04cdb9-b62bd9aeb96a82849a77956e662bfa23-v2",
-        "bonusDamage": 10,
+        "upgradeTitle": "Strengthstone",
+        "upgradeDescription": "+10[attack].",
         "filters": [
           {
-            "cardType": 1,
-            "excludeNonAttackingMonsters": true
+            "cardType": "CardType.Monster",
+            "excludeNonAttackingMonsters": true,
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
-        ]
-      }
+        ],
+        "bonusDamage": 10
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "numCardsToShowInUpgradeScreen": 0,
-  "name": "Strengthstone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": 0
 }

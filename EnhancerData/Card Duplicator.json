@@ -1,19 +1,18 @@
 {
-  "nameKey": "EnhancerData_nameKey-7f78ed1884b6c4fa-11419880785057b44b129a2a26d50272-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-659419843e19d83c-11419880785057b44b129a2a26d50272-v2",
+  "name": "Card Duplicator",
+  "description": "Duplicate any card except your Champion.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardDuplicator",
-      "paramInt": 1,
-      "paramCardType": 4,
       "paramCardFilter": {
         "excludedSubtypes": [
           "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectCardDuplicator",
+      "paramInt": 1,
+      "paramCardType": "CardType.Invalid"
     }
   ],
-  "rarity": 2,
-  "numCardsToShowInUpgradeScreen": -1,
-  "name": "Card Duplicator"
+  "rarity": "CollectableRarity.Rare",
+  "numCardsToShowInUpgradeScreen": -1
 }

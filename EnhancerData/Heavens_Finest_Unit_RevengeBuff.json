@@ -1,34 +1,27 @@
 {
-  "upgradeTitle": "Heaven’s Aid",
-  "upgradeDescription": "Gain 25[coin].",
-  "cardTriggerUpgrades": [
+  "upgradeTitle": "Heaven’s Finest",
+  "upgradeDescription": "+30[health] and '[revenge]: Apply +1[attack] to friendly units.'",
+  "triggerUpgrades": [
     {
-      "description": "Gain 25[coin].",
-      "cardEffects": [
+      "description": "Apply +[effect0.upgrade.bonusdamage][attack] to friendly units.",
+      "effects": [
         {
           "paramCardUpgradeData": {
-            "upgradeTitle": "Unhinged Power",
-            "upgradeDescription": "<nobr>Reduce to 0[ember]</nobr> and apply [annihilate].",
-            "traitDataUpgrades": [
-              {
-                "traitStateName": "CardTraitSelfPurge"
-              }
-            ],
-            "costReduction": 99
+            "bonusDamage": 1
           },
-          "effectStateName": "CardEffectRewardGold",
+          "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
           "targetMode": "TargetMode.Room",
-          "targetTeamType": "Team.Type.None",
-          "shouldTest": false,
-          "paramInt": 25
+          "targetTeamType": "Team.Type.Monsters",
+          "paramInt": 1,
+          "hideTooltip": true
         }
       ],
-      "trigger": "CardTriggerType.OnCast"
+      "trigger": "CharacterTriggerData.Trigger.OnHit"
     }
   ],
   "filters": [
     {
-      "cardType": "CardType.Spell",
+      "cardType": "CardType.Monster",
       "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
       "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
       "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
@@ -41,5 +34,6 @@
       "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
     }
   ],
-  "name": "Heavens_Aid_Spell_AddGold"
+  "bonusHP": 30,
+  "name": "Heavens_Finest_Unit_RevengeBuff"
 }

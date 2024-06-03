@@ -1,33 +1,50 @@
 {
-  "nameKey": "EnhancerData_nameKey-177f6171ef3f8f41-d2e981fcbc4815c4a997c7937384b1cf-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-abdb7560f1cadfe9-d2e981fcbc4815c4a997c7937384b1cf-v2",
+  "name": "Wickstone",
+  "description": "Upgrade a unit with +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], and [burnout] 1.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardType": 1,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-3fa2773155ddaa8f-105d57234fce65043949ca28ccf93db2-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-990a47e44c5e821e-105d57234fce65043949ca28ccf93db2-v2",
-        "bonusDamage": 5,
-        "bonusHP": 5,
+        "upgradeTitle": "Wickstone",
+        "upgradeDescription": "+5[attack], +5[health], and gain [burnout] 1.",
         "statusEffectUpgrades": [
           {
-            "statusId": "ephemeral",
+            "statusId": "VanillaStatusEffectIDs.Burnout",
             "count": 1
           }
         ],
         "filters": [
           {
-            "cardType": 1,
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "disallowedCardPools": [
               "EelGorgonOnlyPool"
-            ]
+            ],
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
-        ]
-      }
+        ],
+        "bonusDamage": 5,
+        "bonusHP": 5
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "linkedClass": "ClassRemnant",
-  "numCardsToShowInUpgradeScreen": 0,
-  "name": "Wickstone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 15325
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": 0
 }

@@ -1,32 +1,49 @@
 {
-  "nameKey": "EnhancerData_nameKey-0ce1d96cbd1b9f43-ca9ad2dfebdb4384eaf154ec3b3cf421-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-e2b3e4df5c206980-ca9ad2dfebdb4384eaf154ec3b3cf421-v2",
+  "name": "Thornstone",
+  "description": "Upgrade a unit with +10[health] and [spikes] [effect0.upgrade.status0.power].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardType": 1,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-2364612a59b1887e-87c33023b54e6444fb95c40bcec08ba6-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-95c30789fe4a32da-87c33023b54e6444fb95c40bcec08ba6-v2",
-        "bonusHP": 10,
+        "upgradeTitle": "Thornstone",
+        "upgradeDescription": "+10[health] and gain [spikes] 3.",
         "statusEffectUpgrades": [
           {
-            "statusId": "spikes",
+            "statusId": "VanillaStatusEffectIDs.Spikes",
             "count": 3
           }
         ],
         "filters": [
           {
-            "cardType": 1,
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "disallowedCardPools": [
               "EelGorgonOnlyPool"
-            ]
+            ],
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
-        ]
-      }
+        ],
+        "bonusHP": 10
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "linkedClass": "ClassAwoken",
-  "numCardsToShowInUpgradeScreen": 0,
-  "name": "Thornstone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 15323
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": 0
 }

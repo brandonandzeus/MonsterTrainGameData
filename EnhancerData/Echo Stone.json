@@ -1,31 +1,48 @@
 {
-  "nameKey": "EnhancerData_nameKey-54971cc7170c66c1-44de41a3291b32f4494ea5bda9124594-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-7de82359cbcfd8c7-44de41a3291b32f4494ea5bda9124594-v2",
+  "name": "Echo Stone",
+  "description": "Upgrade a unit with '+3[attack] per [corrupt].'",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardType": 1,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-63e780995b7491c0-10761e20f4b8ea7428e33c710e7f6de0-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-76840733ae9a3c6e-10761e20f4b8ea7428e33c710e7f6de0-v2",
+        "upgradeTitle": "Echo Stone",
+        "upgradeDescription": "Gain '+3[attack] per [corrupt].'",
         "roomModifierUpgrades": [
           {
+            "description": "+[paramint][attack] per [corrupt].",
             "roomStateModifierClassName": "RoomStateSelfDamagePerCorruptionModifier",
-            "descriptionKey": "CardUpgradeData_descriptionKey-a3ddae091e639a66-10761e20f4b8ea7428e33c710e7f6de0-v2",
             "descriptionKeyInPlay": "CardUpgradeData_descriptionKeyInPlay-5b03d7fc96382f67-10761e20f4b8ea7428e33c710e7f6de0-v2",
             "paramInt": 3
           }
         ],
         "filters": [
           {
-            "cardType": 1,
-            "excludeNonAttackingMonsters": true
+            "cardType": "CardType.Monster",
+            "excludeNonAttackingMonsters": true,
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "linkedClass": "ClassWurm",
-  "numCardsToShowInUpgradeScreen": -1,
-  "name": "Echo Stone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 15328
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": -1
 }

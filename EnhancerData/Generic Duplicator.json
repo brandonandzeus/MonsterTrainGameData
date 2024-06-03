@@ -1,19 +1,37 @@
 {
-  "nameKey": "EnhancerData_nameKey-7f78ed1884b6c4fa-11419880785057b44b129a2a26d50272-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-659419843e19d83c-11419880785057b44b129a2a26d50272-v2",
+  "name": "Generic Duplicator",
+  "description": "Duplicate any card except your Champion.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardDuplicator",
-      "paramInt": 1,
-      "paramCardType": 4,
       "paramCardFilter": {
+        "cardType": "CardType.Invalid",
+        "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
         "excludedSubtypes": [
           "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
-        ]
-      }
+        ],
+        "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "cardTargetMode": "CardTargetMode.All",
+        "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
+      },
+      "relicEffectClassName": "RelicEffectCardDuplicator",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Invalid"
     }
   ],
-  "rarity": 2,
-  "numCardsToShowInUpgradeScreen": -1,
-  "name": "Generic Duplicator"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Rare",
+  "numCardsToShowInUpgradeScreen": -1
 }

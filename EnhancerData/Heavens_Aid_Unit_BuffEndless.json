@@ -1,17 +1,27 @@
 {
-  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-923507ddeb02c3e6-841f271fc8f054c43b4d3de9aadc7232-v2",
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-128de128ccb1e928-841f271fc8f054c43b4d3de9aadc7232-v2",
-  "bonusDamage": 5,
+  "upgradeTitle": "Heaven’s Aid",
+  "upgradeDescription": "+5[attack] and apply [endless].",
   "statusEffectUpgrades": [
     {
-      "statusId": "endless",
+      "statusId": "VanillaStatusEffectIDs.Endless",
       "count": 1
     }
   ],
   "filters": [
     {
-      "cardType": 1
+      "cardType": "CardType.Monster",
+      "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "cardTargetMode": "CardTargetMode.All",
+      "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
     }
   ],
-  "name": "Delayed_BuffEndless"
+  "bonusDamage": 5,
+  "name": "Heavens_Aid_Unit_BuffEndless"
 }

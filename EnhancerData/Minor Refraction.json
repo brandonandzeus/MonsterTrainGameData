@@ -1,24 +1,43 @@
 {
-  "nameKey": "EnhancerData_nameKey-c31faa5f991dac9c-448bd7c84346cf44cb9623a3c6d1f24e-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-345bc0d37d7777df-448bd7c84346cf44cb9623a3c6d1f24e-v2",
+  "name": "Minor Refraction",
+  "description": "Make one unit <nobr>1[capacity].</nobr>",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardType": 1,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-3ec811642cc61f3f-7cde8684244332741b5b400820bf046d-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-ba731a774a9a0559-7cde8684244332741b5b400820bf046d-v2",
-        "bonusSize": -99,
+        "upgradeTitle": "Minor Refraction",
+        "upgradeDescription": "Reduce to 1[capacity].",
         "filters": [
           {
+            "cardType": "CardType.Invalid",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "excludedSizes": [
               1
-            ]
+            ],
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
-        ]
-      }
+        ],
+        "bonusSize": -99
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "numCardsToShowInUpgradeScreen": -1,
-  "name": "Minor Refraction"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": -1
 }

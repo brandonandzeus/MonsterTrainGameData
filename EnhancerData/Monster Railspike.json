@@ -1,23 +1,31 @@
 {
-  "nameKey": "EnhancerData_nameKey-142d5fac98d1b346-4e92b91cb9892204e86544e842c01bf9-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-8364d534db9b7884-4e92b91cb9892204e86544e842c01bf9-v2",
+  "name": "Monster Railspike",
+  "description": "Upgrade a unit with <nobr>+[effect0.upgrade.bonusdamage][attack]</nobr> and <nobr>+[effect0.upgrade.bonushp][health]</nobr> and add [annihilate].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardType": 1,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-f0fa99e468d6948b-e360f5e3b3418df4ebb1224a245ffd86-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-f840727d151e280f-e360f5e3b3418df4ebb1224a245ffd86-v2",
-        "bonusDamage": 20,
-        "bonusHP": 20,
+        "upgradeTitle": "Monster Railspike",
+        "upgradeDescription": "+20[attack], +20[health], and [annihilate].",
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitSelfPurge"
           }
-        ]
-      }
+        ],
+        "bonusDamage": 20,
+        "bonusHP": 20
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "numCardsToShowInUpgradeScreen": -1,
-  "name": "Monster Railspike"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": -1
 }

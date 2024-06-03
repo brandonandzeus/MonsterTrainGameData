@@ -1,10 +1,8 @@
 {
-  "nameKey": "EnhancerData_nameKey-07f24e34ea57272f-a56e18bb4acccee4a9e6fd6a877e0cd0-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-9fab58269e2d8c04-a56e18bb4acccee4a9e6fd6a877e0cd0-v2",
+  "name": "Improved Spikedriver",
+  "description": "Upgrade all copies of <b>Spikedriver Colony</b> with +[effect0.upgrade.bonusdamage][attack].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectUpgradeMatchingCards",
-      "paramCardType": 1,
       "paramCardPool": {
         "name": "ReplicatingUnitPool",
         "cardDataList": [
@@ -12,39 +10,25 @@
         ]
       },
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-074534126171f055-f50f97ca07ef6314190e6fa95ab25c85-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-4772efbaf951722d-f50f97ca07ef6314190e6fa95ab25c85-v2",
+        "upgradeTitle": "Improved Spikedriver",
+        "upgradeDescription": "+20[attack].",
         "bonusDamage": 20,
         "upgradesToRemove": [
-          {
-            "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-647ff11f8eab0596-17847182a612588438ce2a53963638c2-v2",
-            "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-618cf6c751c886d3-17847182a612588438ce2a53963638c2-v2",
-            "useUpgradeHighlightTextTags": false,
-            "triggerUpgrades": [
-              {
-                "descriptionKey": "CardUpgradeData_descriptionKey-338829e25d26d99c-17847182a612588438ce2a53963638c2-v2",
-                "effects": [
-                  {
-                    "effectStateName": "CardEffectAddRunCard",
-                    "copyModifiersFromSource": true,
-                    "targetTeamType": 0,
-                    "paramInt": 1,
-                    "paramCardPool": {
-                      "name": "ReplicatingUnitPool",
-                      "cardDataList": [
-                        "ReplicatingUnit"
-                      ]
-                    },
-                    "hideTooltip": true
-                  }
-                ]
-              }
-            ]
-          }
+          "ReplicateOnDeath"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectUpgradeMatchingCards",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "numCardsToShowInUpgradeScreen": -1,
-  "name": "Improved Spikedriver"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": -1
 }

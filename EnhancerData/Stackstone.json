@@ -1,103 +1,170 @@
 {
-  "nameKey": "EnhancerData_nameKey-b8ac068db697e7b1-144869ab4c93461429fe022b31bc73b6-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-42a55fb596cf410e-144869ab4c93461429fe022b31bc73b6-v2",
+  "name": "Stackstone",
+  "description": "Upgrade a spell to gain [juice] and cost +1[ember].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "tooltipTitleKey": "EnhancerData_tooltipTitleKey-380059e19f56c156-144869ab4c93461429fe022b31bc73b6-v2",
-      "tooltipBodyKey": "EnhancerData_tooltipBodyKey-8072de99a4a31473-144869ab4c93461429fe022b31bc73b6-v2",
       "additionalTooltips": [
         {
-          "descriptionKey": "StatusEffect_TooltipText",
-          "style": 0,
+          "description": "<b>Tip:</b> Status effects can be applied to units to adjust their stats and abilities in battle. Multiple stacks of a status effect increase its power and/or duration.",
+          "style": "TooltipDesigner.TooltipDesignType.Default",
           "isTipTooltip": true
         }
       ],
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-faccd142fc81d357-8cf22d302b6b4854799962ff7d5ca36a-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-102f451739bdedb5-8cf22d302b6b4854799962ff7d5ca36a-v2",
-        "costReduction": -1,
-        "xCostReduction": -1,
+        "upgradeTitle": "Stackstone",
+        "upgradeDescription": "+1[ember] and gain [juice].",
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitJuice",
             "paramSubtype": "0",
-            "paramTeamType": 1
+            "paramTeamType": "Team.Type.Heroes"
           }
         ],
         "filters": [
           {
-            "requiredCardEffectsOperator": 1,
+            "cardType": "CardType.Invalid",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.Or",
             "requiredCardEffects": [
               "CardEffectAddStatusEffect",
               "CardEffectAddStatusEffectNextMonster"
             ],
-            "upgradeDisabledReason": 5
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.DoesNotApplyStatusEffects"
           },
           {
-            "cardType": 0
+            "cardType": "CardType.Spell",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           },
           {
+            "cardType": "CardType.Invalid",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "excludedCardTraits": [
               "CardTraitJuice"
-            ]
+            ],
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           },
           {
-            "excludedStatusEffectsOperator": 1,
             "excludedStatusEffects": [
               {
-                "statusId": "ambush",
+                "statusId": "VanillaStatusEffectIDs.Quick",
                 "count": 1
               },
               {
-                "statusId": "haste",
+                "statusId": "VanillaStatusEffectIDs.Haste",
                 "count": 1
               },
               {
-                "statusId": "relentless",
+                "statusId": "VanillaStatusEffectIDs.Relentless",
                 "count": 1
               },
               {
-                "statusId": "inert",
+                "statusId": "VanillaStatusEffectIDs.Inert",
                 "count": 1
               },
               {
-                "statusId": "silenced",
+                "statusId": "VanillaStatusEffectIDs.Silenced",
                 "count": 1
               },
               {
-                "statusId": "trample",
+                "statusId": "VanillaStatusEffectIDs.Trample",
                 "count": 1
               },
               {
-                "statusId": "endless",
+                "statusId": "VanillaStatusEffectIDs.Endless",
                 "count": 1
               },
               {
-                "statusId": "immobile",
+                "statusId": "VanillaStatusEffectIDs.Immobile",
                 "count": 1
               }
             ],
+            "cardType": "CardType.Invalid",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.Or",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "excludedCardTraits": [
               "CardTraitJuice"
-            ]
+            ],
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           },
           {
+            "cardType": "CardType.Invalid",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "disallowedCardPools": [
               "CardsExcludedFromJuice"
-            ]
+            ],
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           },
           {
-            "cardType": 0,
+            "cardType": "CardType.Spell",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "disallowedCardPools": [
               "SoulSiphonOnlyPool"
-            ]
+            ],
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
-        ]
-      }
+        ],
+        "costReduction": -1,
+        "xCostReduction": -1
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "numCardsToShowInUpgradeScreen": 0,
-  "name": "Stackstone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "numCardsToShowInUpgradeScreen": 0
 }

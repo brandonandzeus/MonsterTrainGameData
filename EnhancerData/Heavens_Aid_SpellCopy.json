@@ -1,24 +1,36 @@
 {
-  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-d9f43666a60f5bd9-085157315f3b8d04787570dbe8f62cb0-v2",
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-6a5ae3433654612f-085157315f3b8d04787570dbe8f62cb0-v2",
+  "upgradeTitle": "Heaven’s Aid",
+  "upgradeDescription": "Add a copy to your discard pile when played.",
   "cardTriggerUpgrades": [
     {
-      "descriptionKey": "CardUpgradeData_descriptionKey-aea798872610c243-085157315f3b8d04787570dbe8f62cb0-v2",
+      "description": "Add a copy to your discard pile.",
       "cardEffects": [
         {
           "effectStateName": "CardEffectAddUpgradedCopy",
+          "targetMode": "TargetMode.Room",
           "copyModifiersFromSource": true,
-          "targetTeamType": 0,
+          "targetTeamType": "Team.Type.None",
           "shouldTest": false,
           "paramInt": 1
         }
-      ]
+      ],
+      "trigger": "CardTriggerType.OnCast"
     }
   ],
   "filters": [
     {
-      "cardType": 0
+      "cardType": "CardType.Spell",
+      "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "cardTargetMode": "CardTargetMode.All",
+      "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
     }
   ],
-  "name": "Delayed_SpellCopy"
+  "name": "Heavens_Aid_SpellCopy"
 }

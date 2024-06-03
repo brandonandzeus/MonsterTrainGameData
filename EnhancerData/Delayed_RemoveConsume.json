@@ -1,21 +1,32 @@
 {
-  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-976bae358b1e2691-fe66409b8836cd546a338d730420df4e-v2",
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-9f922fc6b80e45c7-fe66409b8836cd546a338d730420df4e-v2",
+  "upgradeTitle": "Heaven’s Aid",
+  "upgradeDescription": "Remove [consume] from card.",
   "statusEffectUpgrades": [
     {
-      "statusId": "endless",
+      "statusId": "VanillaStatusEffectIDs.Endless",
       "count": 1
+    }
+  ],
+  "filters": [
+    {
+      "cardType": "CardType.Invalid",
+      "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredCardTraits": [
+        "CardTraitExhaustState"
+      ],
+      "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "cardTargetMode": "CardTargetMode.All",
+      "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
     }
   ],
   "removeTraitUpgrades": [
     "CardTraitExhaustState"
-  ],
-  "filters": [
-    {
-      "requiredCardTraits": [
-        "CardTraitExhaustState"
-      ]
-    }
   ],
   "name": "Delayed_RemoveConsume"
 }

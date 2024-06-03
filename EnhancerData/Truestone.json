@@ -1,21 +1,17 @@
 {
-  "nameKey": "EnhancerData_nameKey-529fc0114fd5447f-4510b662aff39864985fc77e215fe189-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-98019c26e382419a-4510b662aff39864985fc77e215fe189-v2",
+  "name": "Truestone",
+  "description": "Upgrade a spell with +[effect0.upgrade.bonusdamage] [magicpower] and [piercing].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitMagicPower_TooltipTitle",
-          "descriptionKey": "CardTraitMagicPower_TooltipText"
+          "title": "Magic Power",
+          "description": "Increases the amount of damage dealt and health restored by spells."
         }
       ],
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-3a54bc9710a72595-874177b7361d908499ab5dd3a1e1af1e-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-dad3e3a07b0dc182-874177b7361d908499ab5dd3a1e1af1e-v2",
-        "linkedPactDuplicateRarity": 0,
-        "bonusDamage": 10,
-        "bonusHeal": 10,
+        "upgradeTitle": "Truestone",
+        "upgradeDescription": "+10 [magicpower] and gain [piercing].",
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitIgnoreArmor"
@@ -23,24 +19,57 @@
         ],
         "filters": [
           {
-            "cardType": 0,
-            "requiredCardEffectsOperator": 1,
+            "cardType": "CardType.Spell",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.Or",
             "requiredCardEffects": [
               "CardEffectDamage",
               "CardEffectHeal",
               "CardEffectHealAndDamageRelative"
-            ]
+            ],
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           },
           {
+            "cardType": "CardType.Invalid",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "disallowedCardPools": [
               "UnleashTheWildwoodOnlyPool",
               "AdaptiveMutationOnlyPool"
-            ]
+            ],
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
-        ]
-      }
+        ],
+        "linkedPactDuplicateRarity": "CollectableRarity.Common",
+        "bonusDamage": 10,
+        "bonusHeal": 10
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "numCardsToShowInUpgradeScreen": 0,
-  "name": "Truestone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": 0
 }

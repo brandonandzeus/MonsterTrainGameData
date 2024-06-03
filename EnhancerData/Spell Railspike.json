@@ -1,15 +1,11 @@
 {
-  "nameKey": "EnhancerData_nameKey-80040f6d323ce76e-d9af9d6217c1fbb4f9138eab16316209-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-1fba654f2e773b6b-d9af9d6217c1fbb4f9138eab16316209-v2",
+  "name": "Spell Railspike",
+  "description": "<nobr>Increase [magicpower] by [effect0.upgrade.bonusdamage]</nobr> and add [annihilate]. Reduce cost to 0[ember].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-410fbf8a0d7bd193-751c02fc3a12e8d459fbfff6064ad6c7-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-678ce8b17d19f055-751c02fc3a12e8d459fbfff6064ad6c7-v2",
-        "bonusDamage": 20,
-        "costReduction": 99,
-        "bonusHeal": 20,
+        "upgradeTitle": "Spell Railspike",
+        "upgradeDescription": "<nobr>+20 [magicpower]</nobr> and [annihilate]. Reduce cost to 0[ember].",
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitSelfPurge"
@@ -17,24 +13,57 @@
         ],
         "filters": [
           {
-            "cardType": 0,
-            "requiredCardEffectsOperator": 1,
+            "cardType": "CardType.Spell",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.Or",
             "requiredCardEffects": [
               "CardEffectDamage",
               "CardEffectHeal",
               "CardEffectHealAndDamageRelative"
-            ]
+            ],
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           },
           {
+            "cardType": "CardType.Invalid",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "disallowedCardPools": [
               "UnleashTheWildwoodOnlyPool",
               "AdaptiveMutationOnlyPool"
-            ]
+            ],
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
-        ]
-      }
+        ],
+        "bonusDamage": 20,
+        "costReduction": 99,
+        "bonusHeal": 20
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "numCardsToShowInUpgradeScreen": -1,
-  "name": "Spell Railspike"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": -1
 }

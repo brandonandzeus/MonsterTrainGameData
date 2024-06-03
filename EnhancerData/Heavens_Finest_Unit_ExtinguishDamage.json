@@ -1,29 +1,41 @@
 {
-  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-5bf19febd6c07a0e-3b49fef562f491a41902a5c32cc721eb-v2",
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-4125936216b196f1-3b49fef562f491a41902a5c32cc721eb-v2",
+  "upgradeTitle": "Heaven’s Finest",
+  "upgradeDescription": "[quick] and '[extinguish]: Deal 60 damage to the front enemy unit.'",
   "statusEffectUpgrades": [
     {
-      "statusId": "ambush",
+      "statusId": "VanillaStatusEffectIDs.Quick",
       "count": 1
     }
   ],
   "triggerUpgrades": [
     {
-      "descriptionKey": "CardUpgradeData_descriptionKey-0849cea82286c417-3b49fef562f491a41902a5c32cc721eb-v2",
+      "description": "Deal 60 damage to the front enemy unit.",
       "effects": [
         {
           "effectStateName": "CardEffectDamage",
-          "targetMode": 2,
+          "targetMode": "TargetMode.FrontInRoom",
           "filterBasedOnMainSubClass": true,
+          "targetTeamType": "Team.Type.Heroes",
           "paramInt": 60
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
   "filters": [
     {
-      "cardType": 1
+      "cardType": "CardType.Monster",
+      "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "cardTargetMode": "CardTargetMode.All",
+      "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
     }
   ],
-  "name": "Delayed_SpawnRandomUnitFinal"
+  "name": "Heavens_Finest_Unit_ExtinguishDamage"
 }

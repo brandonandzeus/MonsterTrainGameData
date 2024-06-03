@@ -1,23 +1,41 @@
 {
-  "nameKey": "EnhancerData_nameKey-9cc9d239f1e19ffd-480e7d2fd1be578419595168180f6c98-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-17162a5e6a713c8f-480e7d2fd1be578419595168180f6c98-v2",
+  "name": "Heph's Consolation",
+  "description": "Upgrade a unit with +10[attack] and -1[capacity].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardType": 1,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-2ec5f33792514588-8e2f02b926557c749b60ca9dba73fc9b-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-1be45897ce9e9b45-8e2f02b926557c749b60ca9dba73fc9b-v2",
-        "bonusDamage": 10,
-        "bonusSize": -1,
+        "upgradeTitle": "Heph's Consolation",
+        "upgradeDescription": "+10[attack] and -1[capacity].",
         "filters": [
           {
-            "cardType": 1
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
-        ]
-      }
+        ],
+        "bonusDamage": 10,
+        "bonusSize": -1
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "numCardsToShowInUpgradeScreen": -1,
-  "name": "Heph's Consolation"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": -1
 }

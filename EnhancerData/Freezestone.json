@@ -1,18 +1,17 @@
 {
-  "nameKey": "EnhancerData_nameKey-b42b552129a8fab6-b6bce20915b5f134ebc7a36f760c3a3f-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-31813739969f663e-b6bce20915b5f134ebc7a36f760c3a3f-v2",
+  "name": "Freezestone",
+  "description": "Upgrade a spell to gain [permafrost].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
       "additionalTooltips": [
         {
-          "titleKey": "CardTraitFreeze_CardText",
-          "descriptionKey": "CardTraitFreeze_TooltipText"
+          "title": "Frozen",
+          "description": "This card will not be discarded at the end of turn. [freeze] is removed when the card is played."
         }
       ],
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-c6e03c87ae41158b-27b62cd2a301c3f4aa2a39226668b1c5-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-115fd1801a8d83b1-27b62cd2a301c3f4aa2a39226668b1c5-v2",
+        "upgradeTitle": "Freezestone",
+        "upgradeDescription": "Gain [permafrost].",
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitPermafrost"
@@ -20,18 +19,48 @@
         ],
         "filters": [
           {
+            "cardType": "CardType.Invalid",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "excludedCardTraits": [
               "CardTraitPermafrost"
-            ]
+            ],
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           },
           {
-            "cardType": 0
+            "cardType": "CardType.Spell",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "numCardsToShowInUpgradeScreen": 0,
-  "name": "Freezestone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "numCardsToShowInUpgradeScreen": 0
 }

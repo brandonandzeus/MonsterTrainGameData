@@ -1,19 +1,27 @@
 {
-  "nameKey": "EnhancerData_nameKey-a24782a9e37fffc8-97f30b15be8c65d4e886b4da086668ca-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-f972daac9e464d21-97f30b15be8c65d4e886b4da086668ca-v2",
+  "name": "Major Refraction",
+  "description": "Upgrade a unit with <nobr>+[effect0.upgrade.bonussize][capacity]</nobr>, <nobr>+[effect0.upgrade.bonusdamage][attack]</nobr>, and <nobr>+[effect0.upgrade.bonushp][health]</nobr>.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardType": 1,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-62fe1dea661b9c63-d3750a944f0d4e348b1a77133956d7f9-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-c9487784013df854-d3750a944f0d4e348b1a77133956d7f9-v2",
+        "upgradeTitle": "Major Refraction",
+        "upgradeDescription": "+30[attack], +30[health], and +2[capacity].",
         "bonusDamage": 30,
         "bonusHP": 30,
         "bonusSize": 2
-      }
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "numCardsToShowInUpgradeScreen": -1,
-  "name": "Major Refraction"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": -1
 }

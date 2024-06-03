@@ -1,35 +1,44 @@
 {
-  "nameKey": "EnhancerData_nameKey-db3da3fe88721017-9b5b0563adb2d40458c40c3ecc83a4b3-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-a06837bfeab7edb5-9b5b0563adb2d40458c40c3ecc83a4b3-v2",
+  "name": "Sapstone",
+  "description": "Upgrade a unit with '[summon]: Apply [sap] 4 to enemy units.'",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardType": 1,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-3c72c237c2236894-dccc3b1b5c056df438a012f00d554b68-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-f9dba10b972aaae5-dccc3b1b5c056df438a012f00d554b68-v2",
+        "upgradeTitle": "Sapstone",
+        "upgradeDescription": "Gain '[summon]: Apply [sap] 4 to enemy units.'",
         "triggerUpgrades": [
           {
-            "trigger": 2,
-            "descriptionKey": "CardUpgradeData_descriptionKey-237ad9b23c32ceec-dccc3b1b5c056df438a012f00d554b68-v2",
+            "description": "Apply [sap] 4 to enemy units.",
             "effects": [
               {
-                "effectStateName": "CardEffectAddStatusEffect",
-                "paramInt": 100,
                 "paramStatusEffects": [
                   {
-                    "statusId": "debuff",
+                    "statusId": "VanillaStatusEffectIDs.Sap",
                     "count": 4
                   }
-                ]
+                ],
+                "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.Heroes",
+                "paramInt": 100
               }
-            ]
+            ],
+            "trigger": "CharacterTriggerData.Trigger.OnSpawn"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "rarity": 2,
-  "numCardsToShowInUpgradeScreen": -1,
-  "name": "Sapstone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Rare",
+  "numCardsToShowInUpgradeScreen": -1
 }

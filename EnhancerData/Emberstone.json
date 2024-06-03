@@ -1,36 +1,64 @@
 {
-  "nameKey": "EnhancerData_nameKey-bec61796155935a7-d6a9e22a1c3fc7d4db253f26d17061ab-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-3edafe734e231647-d6a9e22a1c3fc7d4db253f26d17061ab-v2",
+  "name": "Emberstone",
+  "description": "Upgrade a unit to cost -[effect0.upgrade.costreduction][ember].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramInt": 1,
-      "paramMinInt": 1,
-      "paramMaxInt": 99,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-4f25f111aee15ec7-540196578c3d6f742864d533cacf7ccb-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-11217f673e6e0e5b-540196578c3d6f742864d533cacf7ccb-v2",
-        "costReduction": 1,
-        "xCostReduction": 1,
+        "upgradeTitle": "Emberstone",
+        "upgradeDescription": "-1[ember].",
         "filters": [
           {
+            "cardType": "CardType.Invalid",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "excludedSubtypes": [
               "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
-            ]
+            ],
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           },
           {
-            "excludedCardTraits": [
-              "CardTraitUnplayable"
-            ],
             "costRange": {
               "x": 1.0,
               "y": 99.0
-            }
+            },
+            "cardType": "CardType.Invalid",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludeXCost": true,
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
-        ]
-      }
+        ],
+        "costReduction": 1
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramMinInt": 1,
+      "paramMaxInt": 99,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "numCardsToShowInUpgradeScreen": 0,
-  "name": "Emberstone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": 0
 }

@@ -1,22 +1,20 @@
 {
-  "nameKey": "EnhancerData_nameKey-4979166a34a64c8c-89bd685b971a99b46a80c8b949a357ca-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-97fd9362e52cdac9-89bd685b971a99b46a80c8b949a357ca-v2",
+  "name": "Corruptstone",
+  "description": "Upgrade a spell to gain [corrupt].",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-4f8b563ea9a0ba02-c766890748174124b8c628e9140be070-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-ffa70055228d3912-c766890748174124b8c628e9140be070-v2",
-        "hideUpgradeIconOnCard": true,
-        "traitDataUpgrades": [
-          {
-            "traitStateName": "CardTraitCorruptState"
-          }
-        ]
-      }
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "rarity": 1,
-  "numCardsToShowInUpgradeScreen": 0,
-  "name": "Corruptstone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "numCardsToShowInUpgradeScreen": 0
 }

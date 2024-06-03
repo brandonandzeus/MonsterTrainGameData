@@ -1,18 +1,26 @@
 {
-  "nameKey": "EnhancerData_nameKey-ccf364544652bb6a-5cb6fa8a9e3dc104fb19d5c692a49edc-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-d7fceb7b0f18050a-5cb6fa8a9e3dc104fb19d5c692a49edc-v2",
+  "name": "Battlestone",
+  "description": "Upgrade a unit with +[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardType": 1,
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-a6cca88ab73c69d5-eb34dab174ea88f4984bc997599bb3be-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-1ee96f78b7c5e401-eb34dab174ea88f4984bc997599bb3be-v2",
+        "upgradeTitle": "Battlestone",
+        "upgradeDescription": "+5[attack] and +10[health].",
         "bonusDamage": 5,
         "bonusHP": 10
-      }
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "numCardsToShowInUpgradeScreen": 0,
-  "name": "Battlestone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Common",
+  "numCardsToShowInUpgradeScreen": 0
 }

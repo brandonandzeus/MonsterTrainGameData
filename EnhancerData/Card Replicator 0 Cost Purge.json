@@ -1,19 +1,37 @@
 {
-  "nameKey": "EnhancerData_nameKey-23a98e5150e2c05f-66ab1f549485c3646bb44302aeff6d42-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-750f7d625bc0630d-66ab1f549485c3646bb44302aeff6d42-v2",
+  "name": "Card Replicator 0 Cost Purge",
+  "description": "Create 5 copies of any non-Champion card.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardDuplicator",
-      "paramInt": 5,
-      "paramCardType": 4,
       "paramCardFilter": {
+        "cardType": "CardType.Invalid",
+        "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
         "excludedSubtypes": [
           "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
-        ]
-      }
+        ],
+        "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+        "cardTargetMode": "CardTargetMode.All",
+        "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
+      },
+      "relicEffectClassName": "RelicEffectCardDuplicator",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 5,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Invalid"
     }
   ],
-  "rarity": 1,
-  "numCardsToShowInUpgradeScreen": -1,
-  "name": "Card Replicator 0 Cost Purge"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "numCardsToShowInUpgradeScreen": -1
 }

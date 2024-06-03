@@ -1,23 +1,35 @@
 {
-  "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-d307f5a181b453cb-9e5275fd7dd75564baaa5191b7083033-v2",
-  "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-5cb83a785081a717-9e5275fd7dd75564baaa5191b7083033-v2",
+  "upgradeTitle": "Heaven’s Aid",
+  "upgradeDescription": "[extinguish]: Deal 40 damage to the front enemy unit.",
   "triggerUpgrades": [
     {
-      "descriptionKey": "CardUpgradeData_descriptionKey-31e4a465b611d433-9e5275fd7dd75564baaa5191b7083033-v2",
+      "description": "Deal 40 damage to the front enemy unit.",
       "effects": [
         {
           "effectStateName": "CardEffectDamage",
-          "targetMode": 2,
+          "targetMode": "TargetMode.FrontInRoom",
           "filterBasedOnMainSubClass": true,
+          "targetTeamType": "Team.Type.Heroes",
           "paramInt": 40
         }
-      ]
+      ],
+      "trigger": "CharacterTriggerData.Trigger.OnDeath"
     }
   ],
   "filters": [
     {
-      "cardType": 1
+      "cardType": "CardType.Monster",
+      "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+      "cardTargetMode": "CardTargetMode.All",
+      "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
     }
   ],
-  "name": "Delayed_SpawnRandomUnit"
+  "name": "Heavens_Aid_Unit_ExtinguishDamage"
 }

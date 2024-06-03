@@ -1,26 +1,33 @@
 {
-  "nameKey": "EnhancerData_nameKey-a358e1a9219ec454-cd6adbc1d456f2c46b5ef64fc6f7ed42-v2",
-  "descriptionKey": "EnhancerData_descriptionKey-cf48d0dd2a67ff0c-cd6adbc1d456f2c46b5ef64fc6f7ed42-v2",
+  "name": "Largestone",
+  "description": "Upgrade a unit with <nobr>+[effect0.upgrade.bonussize][capacity]</nobr>, +[effect0.upgrade.bonusdamage][attack], and +[effect0.upgrade.bonushp][health].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectCardUpgrade",
-      "paramCardType": 1,
       "additionalTooltips": [
         {
-          "titleKey": "Capacity_TooltipTitle",
-          "descriptionKey": "Capacity_TooltipText"
+          "title": "[capacity] Capacity",
+          "description": "Units can only be summoned on a floor if it has enough capacity."
         }
       ],
       "paramCardUpgradeData": {
-        "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-a6a3fa730bf2cc06-bb414ca5314b2414c84b8227fe0c7793-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-7c7ceaded2c2df33-bb414ca5314b2414c84b8227fe0c7793-v2",
+        "upgradeTitle": "Largestone",
+        "upgradeDescription": "<nobr>+1[capacity]</nobr>, +15[attack], +40[health].",
         "bonusDamage": 15,
         "bonusHP": 40,
         "bonusSize": 1
-      }
+      },
+      "relicEffectClassName": "RelicEffectCardUpgrade",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "rarity": 1,
-  "numCardsToShowInUpgradeScreen": 0,
-  "name": "Largestone"
+  "linkedClass": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "relicLoreTooltipStyle": "RelicData.RelicLoreTooltipStyle.Herzal",
+  "rarity": "CollectableRarity.Uncommon",
+  "numCardsToShowInUpgradeScreen": 0
 }

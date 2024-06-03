@@ -1,29 +1,20 @@
 {
-  "upgradeTitle": "Heaven’s Aid",
-  "upgradeDescription": "Gain 25[coin].",
+  "upgradeTitle": "Heaven’s Finest",
+  "upgradeDescription": "<b>Reserve</b>: Restore 5 health to your Pyre.",
   "cardTriggerUpgrades": [
     {
-      "description": "Gain 25[coin].",
+      "description": "Restore 5 health to your Pyre.",
       "cardEffects": [
         {
-          "paramCardUpgradeData": {
-            "upgradeTitle": "Unhinged Power",
-            "upgradeDescription": "<nobr>Reduce to 0[ember]</nobr> and apply [annihilate].",
-            "traitDataUpgrades": [
-              {
-                "traitStateName": "CardTraitSelfPurge"
-              }
-            ],
-            "costReduction": 99
-          },
-          "effectStateName": "CardEffectRewardGold",
-          "targetMode": "TargetMode.Room",
+          "effectStateName": "CardEffectHealTrain",
+          "targetMode": "TargetMode.Pyre",
+          "filterBasedOnMainSubClass": true,
           "targetTeamType": "Team.Type.None",
           "shouldTest": false,
-          "paramInt": 25
+          "paramInt": 5
         }
       ],
-      "trigger": "CardTriggerType.OnCast"
+      "trigger": "CardTriggerType.OnUnplayed"
     }
   ],
   "filters": [
@@ -41,5 +32,5 @@
       "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
     }
   ],
-  "name": "Heavens_Aid_Spell_AddGold"
+  "name": "Heavens_Finest_Spell_ReserveRestorPyre"
 }
