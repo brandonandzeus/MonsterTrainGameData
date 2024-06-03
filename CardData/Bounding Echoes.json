@@ -1,7 +1,8 @@
 {
   "nameKey": "CardData_nameKey-414430ee0e77cbfc-286a918682a569143bd2afa48c0cec9a-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-d389d688e0c0956c-286a918682a569143bd2afa48c0cec9a-v2",
-  "requiredDLC": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -10,8 +11,10 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddTempCardUpgradeToCardsInHand",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCardUpgradeData": {
+        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitCorruptState"
@@ -21,11 +24,15 @@
       "additionalTooltips": [
         {
           "titleKey": "CardTraitCorruptState_CardText",
-          "descriptionKey": "CardTraitCorruptState_TooltipText"
+          "descriptionKey": "CardTraitCorruptState_TooltipText",
+          "title": "[infused]",
+          "description": "When played, the current floor will gain 1[corrupt]."
         },
         {
           "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "descriptionKey": "HudTooltip_RoomCorruption_Body",
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
       ]
     }
@@ -34,5 +41,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-0eab8ef429216a5f-286a918682a569143bd2afa48c0cec9a-v2"
   ],
-  "name": "Bounding Echoes"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Bounding Echoes",
+  "overrideDescription": "Apply [infused] to cards in hand.",
+  "cardLoreTooltip": [
+    "I’d done my best to abandon guilt and grief all those years ago, but now that their spectre returns, so do the memories of why we met in the first place. To cope, the Wurmkin have given me a place in their cairns — a study of sorts — to tinker away on these crystals. It helps, but not much. For each new discovery I find, another memory terrorizes my dreams."
+  ]
 }

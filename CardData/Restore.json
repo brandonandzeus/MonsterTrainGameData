@@ -2,18 +2,20 @@
   "nameKey": "CardData_nameKey-0ad83af660d9ff36-27fca88960edf6241bcb6c68d9610f33-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-6bd8e4248d737898-27fca88960edf6241bcb6c68d9610f33-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectHeal",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 2
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 22,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 100,
       "paramStatusEffects": [
         {
@@ -27,5 +29,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-4aee12ec16035b28-27fca88960edf6241bcb6c68d9610f33-v2"
   ],
-  "name": "Restore"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Restore",
+  "overrideDescription": "Restore [effect0.power] health. Apply [regen] [effect1.status0.power].",
+  "cardLoreTooltip": [
+    "One of the many strengths of the Channelers of the Wildwood is their ability to heal their fellow Awoken. Upon our completion of the Rail, they agreed to extend this practice to other Hellborne in need."
+  ]
 }

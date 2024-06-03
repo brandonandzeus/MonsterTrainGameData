@@ -2,11 +2,12 @@
   "nameKey": "CardData_nameKey-20683f18f33c3a7f-49cf195192624e74c822889c66d7e420-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-e5220bcda74ae27d-49cf195192624e74c822889c66d7e420-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddDamage",
-      "paramTrackedValue": 17,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.StatusEffectCountInTargetRoom",
       "paramInt": 10,
       "paramUseScalingParams": true,
       "paramStatusEffects": [
@@ -15,18 +16,20 @@
           "count": 0
         }
       ],
-      "paramTeamType": 2
+      "paramTeamType": "Team.Type.Monsters"
     }
   ],
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 2,
+      "targetMode": "TargetMode.FrontInRoom",
+      "targetTeamType": "Team.Type.Heroes",
       "additionalTooltips": [
         {
           "descriptionKey": "TipTooltip_RoomTargetSpell",
-          "style": 0,
-          "isTipTooltip": true
+          "style": "TooltipDesigner.TooltipDesignType.Default",
+          "isTipTooltip": true,
+          "description": "<b>Tip:</b> Spells only affect one floor."
         }
       ]
     }
@@ -36,5 +39,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-c5733ad01dc1ec8e-49cf195192624e74c822889c66d7e420-v2"
   ],
-  "name": "Bramble Lash"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Bramble Lash",
+  "overrideDescription": "Deal damage to the front enemy unit equal to [trait0.power]x the amount of [spikes] on friendly units.",
+  "cardLoreTooltip": [
+    "A single, concentrated influx of Wildwood sap can enlarge the thorns of an Awoken for a short time. Through some ill-advised experiments, I've discovered that several simultaneous injections can have devastating effects."
+  ]
 }

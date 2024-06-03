@@ -1,14 +1,16 @@
 {
   "nameKey": "CardData_nameKey-a8c148b6bfa14c5f-c811e069530f55e419ad7b7c33e0975d-v2",
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 3,
+  "rarity": "CollectableRarity.Champion",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-920af4dfdbc83cfc-3dace7d512b341a43b1c80a8ddc8c7b7-v2",
+        "size": 2,
         "health": 6,
         "attackDamage": 6,
         "subtypeKeys": [
@@ -16,10 +18,18 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-2b9392e6c983b9c3-3dace7d512b341a43b1c80a8ddc8c7b7-v2"
+        ],
+        "name": "Hornbreaker Prince",
+        "subtype": [
+          "Champion"
+        ],
+        "characterLoreTooltip": [
+          "Cursed with no horns, the only son of Grrrg has taken to collecting the horns of his opponents, dispelling any doubt of his fighting prowess and convincing me of his rightful place as champion of the Hellhorned."
         ]
       }
     }
   ],
   "linkedClass": "ClassHellhorned",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Hornbreaker Prince"
 }

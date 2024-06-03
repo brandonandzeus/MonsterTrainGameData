@@ -1,17 +1,19 @@
 {
   "nameKey": "CardData_nameKey-f3b110da2beb2bab-d3347c0c02c89ff4fbdb9b438b29e086-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-61c36f1ee44ef263-e440732c1c6913444aa14863ce8caaed-v2",
         "size": 1,
         "health": 10,
+        "attackDamage": 10,
         "attackTeleportsToDefender": false,
         "subtypeKeys": [
           "SubtypesData_Forager",
@@ -24,12 +26,22 @@
           {
             "roomStateModifierClassName": "RoomStateSpawnUnitOnUnitSpawnModifier",
             "descriptionKey": "CharacterData_descriptionKey-57977783cde4c7aa-e440732c1c6913444aa14863ce8caaed-v2",
-            "paramSubtype": "SubtypesData_Snack"
+            "paramSubtype": "SubtypesData_Snack",
+            "description": "When you summon a [snack] unit on this floor, create a copy."
           }
+        ],
+        "name": "Morselmaster",
+        "subtype": [
+          "Shroud",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "These Umbra rogues no longer have the need to create new Morsels from their own flesh. Instead, they attract existing ones to their nefarious calling by disrupting their connection to the hivemind. I have little other information on these creatures as I prefer not to spend more time with them than necessary."
         ]
       }
     }
   ],
   "linkedClass": "ClassUmbra",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Morselmaster"
 }

@@ -1,11 +1,12 @@
 {
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-5d989cfe52d2f056-7de12958b44f0c64488817931f4aac28-v2",
         "size": 1,
@@ -22,6 +23,13 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-f24f0c298589e564-7de12958b44f0c64488817931f4aac28-v2"
+        ],
+        "name": "Spikedriver Colony",
+        "subtype": [
+          "Machine"
+        ],
+        "characterLoreTooltip": [
+          "I knew I couldn’t rely on anyone to build the Rail for me, so I set off to do it myself, creating automatic creatures to drive rail spikes into the ground and lay the track that would later be broken."
         ]
       }
     }
@@ -31,14 +39,17 @@
       "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-647ff11f8eab0596-17847182a612588438ce2a53963638c2-v2",
       "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-618cf6c751c886d3-17847182a612588438ce2a53963638c2-v2",
       "useUpgradeHighlightTextTags": false,
+      "linkedPactDuplicateRarity": "CollectableRarity.Starter",
       "triggerUpgrades": [
         {
+          "trigger": "CharacterTriggerData.Trigger.OnDeath",
           "descriptionKey": "CardUpgradeData_descriptionKey-338829e25d26d99c-17847182a612588438ce2a53963638c2-v2",
           "effects": [
             {
               "effectStateName": "CardEffectAddRunCard",
+              "targetMode": "TargetMode.Room",
               "copyModifiersFromSource": true,
-              "targetTeamType": 0,
+              "targetTeamType": "Team.Type.None",
               "paramInt": 1,
               "paramCardPool": {
                 "name": "ReplicatingUnitPool",
@@ -48,10 +59,14 @@
               },
               "hideTooltip": true
             }
-          ]
+          ],
+          "description": "Add a permanent copy of this card to your discard pile."
         }
-      ]
+      ],
+      "upgradeTitle": "",
+      "upgradeDescription": ""
     }
   ],
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Spikedriver Colony"
 }

@@ -1,12 +1,14 @@
 {
   "nameKey": "CardData_nameKey-d6988069b6373220-c4f64e51df2f1514ebd87cd924580d4d-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-36f127237b40f200-9435452254c7d384ba916fe4f3053511-v2",
         "size": 1,
@@ -14,12 +16,13 @@
         "attackDamage": 1,
         "triggers": [
           {
-            "trigger": 2,
+            "trigger": "CharacterTriggerData.Trigger.OnSpawn",
             "descriptionKey": "CharacterData_descriptionKey-db7a40ab464294b5-9435452254c7d384ba916fe4f3053511-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "targetTeamType": 2,
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.Monsters",
                 "paramStatusEffects": [
                   {
                     "statusId": "buff",
@@ -27,7 +30,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Apply [rage] [effect0.status0.power] to friendly units."
           }
         ],
         "subtypeKeys": [
@@ -35,10 +39,18 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-c3839a32c11e62e7-9435452254c7d384ba916fe4f3053511-v2"
+        ],
+        "name": "Fledgling Imp",
+        "subtype": [
+          "Imp"
+        ],
+        "characterLoreTooltip": [
+          "These impish Hellhorned have just molted into their new forms, as evidenced by their tiny wings and heavy tail. Their horns will continue to grow with each molting cycle, as will their love of their volcanic homelands."
         ]
       }
     }
   ],
   "linkedClass": "ClassHellhorned",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Fledgling Imp"
 }

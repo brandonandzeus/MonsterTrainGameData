@@ -1,9 +1,9 @@
 {
   "nameKey": "CardData_nameKey-d8a04a44219fbe2f-9d0c99def2db43643abf606d505817d3-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -12,22 +12,25 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-18710078b1ac1b9a-76133b80e16423d48b8c011dd15f276b-v2",
+        "size": 2,
         "health": 25,
         "attackDamage": 15,
         "triggers": [
           {
-            "trigger": 3,
+            "trigger": "CharacterTriggerData.Trigger.OnAttacking",
             "descriptionKey": "CharacterData_descriptionKey-74f79aa2d5dd7831-76133b80e16423d48b8c011dd15f276b-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.Room",
                 "targetModeStatusEffectsFilter": [
                   "ephemeral"
                 ],
-                "targetTeamType": 2,
+                "targetTeamType": "Team.Type.Monsters",
                 "paramStatusEffects": [
                   {
                     "statusId": "buff",
@@ -35,7 +38,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Apply [rage] [effect0.status0.power] to friendly [burnout] units."
           }
         ],
         "subtypeKeys": [
@@ -44,11 +48,20 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-bd62a216d6461982-76133b80e16423d48b8c011dd15f276b-v2"
+        ],
+        "name": "Paraffin Enforcer",
+        "subtype": [
+          "Wickless",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "Once a footsoldier has been promoted to an Enforcer, they are no longer considered the punching bags of the Wickless Remains. But that doesn’t mean that they won’t haze any new recruits the same way they were."
         ]
       }
     }
   ],
   "linkedClass": "ClassRemnant",
   "unlockLevel": 7,
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Paraffin Enforcer"
 }

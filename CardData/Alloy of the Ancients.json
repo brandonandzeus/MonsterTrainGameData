@@ -2,8 +2,9 @@
   "nameKey": "CardData_nameKey-85e0bde22bef7e6f-42c94d44efd339b4ba1b341db632ece6-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-26e01e44a11eff46-42c94d44efd339b4ba1b341db632ece6-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -12,8 +13,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 100,
       "paramStatusEffects": [
         {
@@ -28,5 +29,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-66eb4a07b4bb1fe2-42c94d44efd339b4ba1b341db632ece6-v2"
   ],
-  "name": "Alloy of the Ancients"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Alloy of the Ancients",
+  "overrideDescription": "Apply [armor] [effect0.status0.power].",
+  "cardLoreTooltip": [
+    "An alloy of unknown components said to come from the ancient Umbra. Some demons choose to drink it while others just pour it over themselves, letting the alloy create a natural defense."
+  ]
 }

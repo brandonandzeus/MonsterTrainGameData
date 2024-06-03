@@ -1,16 +1,17 @@
 {
   "nameKey": "CardData_nameKey-42c906fad0fb68f6-e65d96075024bb4458dc25553353e8db-v2",
-  "costType": 1,
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-5daa4aefea473bc1-e65d96075024bb4458dc25553353e8db-v2",
-  "rarity": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddDamage",
-      "paramTrackedValue": 1,
-      "paramEntryDuration": 2,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
+      "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 30,
       "paramUseScalingParams": true,
-      "paramTeamType": 1
+      "paramTeamType": "Team.Type.Heroes"
     },
     {
       "traitStateName": "CardTraitSelfPurge"
@@ -21,11 +22,18 @@
   ],
   "effects": [
     {
-      "effectStateName": "CardEffectDamage"
+      "effectStateName": "CardEffectDamage",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes"
     }
   ],
   "cardLoreTooltipKeys": [
     "CardData_data-54fd981ee6e7e5f3-e65d96075024bb4458dc25553353e8db-v2"
   ],
-  "name": "Most Blessed Sword"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Most Blessed Sword",
+  "overrideDescription": "Deal [trait0.power][x] damage to enemy units.",
+  "cardLoreTooltip": [
+    "The invasion was swift and brutal. We had little time to react when the first Winged attacked with their twice-forged weapons."
+  ]
 }

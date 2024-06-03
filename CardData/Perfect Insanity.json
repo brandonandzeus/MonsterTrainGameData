@@ -2,9 +2,9 @@
   "nameKey": "CardData_nameKey-2b811ad0ec8ec5e8-2bfce4358a3662045ad3e420dd955a49-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-0ebfc820be4d95b2-2bfce4358a3662045ad3e420dd955a49-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 2,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitCorruptRestricted",
@@ -14,21 +14,25 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 1,
       "paramCardUpgradeData": {
+        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
         "bonusHP": -666
       },
       "additionalTooltips": [
         {
           "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "descriptionKey": "HudTooltip_RoomCorruption_Body",
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         },
         {
           "descriptionKey": "TipTooltip_CanReduceHealthToZero",
-          "style": 0,
-          "isTipTooltip": true
+          "style": "TooltipDesigner.TooltipDesignType.Default",
+          "isTipTooltip": true,
+          "description": "<b>Tip:</b> This spell can reduce a unit's [health] to 0 and kill it."
         }
       ]
     }
@@ -38,6 +42,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-edf3b786b4e171a5-2bfce4358a3662045ad3e420dd955a49-v2"
   ],
-  "initialKeyboardTarget": 2,
-  "name": "Perfect Insanity"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
+  "name": "Perfect Insanity",
+  "overrideDescription": "Apply [effect0.upgrade.bonushp][health].",
+  "cardLoreTooltip": [
+    "Another memory: at the time of the Exodus, we thought that these Exiles, these souls to be sacrificed, would bring back peace, or some semblance of it. Instead, the Child was fractured and the souls of Heaven and Hell made immortal. Some of the Child’s power remains in Heaven’s Light and in the Pyre, but how can those small divine remains make up for millennia of suffering?"
+  ]
 }

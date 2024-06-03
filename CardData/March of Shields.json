@@ -2,13 +2,14 @@
   "nameKey": "CardData_nameKey-e42ccf15e1c21890-d6bc50779e454a046aead75c24b87c16-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-2f813ba63e6fbdff-d6bc50779e454a046aead75c24b87c16-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 100,
       "paramStatusEffects": [
         {
@@ -19,8 +20,8 @@
     },
     {
       "effectStateName": "CardEffectFloorRearrange",
-      "targetMode": 22,
-      "targetTeamType": 2
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Monsters"
     }
   ],
   "linkedClass": "ClassHellhorned",
@@ -28,5 +29,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-f0254463e6c63e90-d6bc50779e454a046aead75c24b87c16-v2"
   ],
-  "name": "March of Shields"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "March of Shields",
+  "overrideDescription": "Move a unit to the front and apply [armor] [effect0.status0.power].",
+  "cardLoreTooltip": [
+    "Only the bravest, or dumbest, Hellhorned are chosen to bear a shield and hold the line. They are trained to take the brunt of most attacks through an intense regimen of magma-walking that kills more often than not."
+  ]
 }

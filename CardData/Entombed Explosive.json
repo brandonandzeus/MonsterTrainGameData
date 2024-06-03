@@ -1,29 +1,33 @@
 {
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-40ce699a854420ba-585e1205f6cc16144a303d0d7196ac7b-v2",
         "size": 1,
         "health": 1,
-        "attackDamage": 0,
         "deathSlidesBackwards": false,
         "triggers": [
           {
+            "trigger": "CharacterTriggerData.Trigger.OnDeath",
             "descriptionKey": "CharacterData_descriptionKey-4c89ffab8280f20c-585e1205f6cc16144a303d0d7196ac7b-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectDamage",
-                "targetMode": 2,
-                "targetCardType": 1,
-                "targetCardSelectionMode": 1,
+                "targetMode": "TargetMode.FrontInRoom",
+                "targetTeamType": "Team.Type.Heroes",
+                "targetCardType": "CardType.Monster",
+                "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
                 "paramInt": 50
               }
-            ]
+            ],
+            "description": "Deal [effect0.power] damage to the front enemy unit."
           }
         ],
         "subtypeKeys": [
@@ -31,10 +35,18 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-883f04f9fe9c3ef4-585e1205f6cc16144a303d0d7196ac7b-v2"
+        ],
+        "name": "Entombed Explosive",
+        "subtype": [
+          "Tomb"
+        ],
+        "characterLoreTooltip": [
+          "A common, but unfortunate, occurrence for the Melting Remnant is the entrapment of inanimate objects within their melting wax. While often considered an inconvenience, the Wickless have utilized this phenomenon for more combat-focused applications."
         ]
       }
     }
   ],
   "linkedClass": "ClassRemnant",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Entombed Explosive"
 }

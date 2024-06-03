@@ -1,17 +1,20 @@
 {
   "nameKey": "CardData_nameKey-1a16d69b13ba4af7-19e6e42f1e75d4f4ab2676fb2cccf8eb-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-03cf9b1a49c91150-19e6e42f1e75d4f4ab2676fb2cccf8eb-v2",
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectDraw",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramInt": 1
     },
     {
       "effectStateName": "CardEffectChooseDiscard",
-      "targetMode": 18,
-      "targetTeamType": 0,
-      "targetCardType": 4,
+      "targetMode": "TargetMode.Hand",
+      "targetTeamType": "Team.Type.None",
+      "targetCardType": "CardType.Invalid",
       "paramInt": 1,
       "paramTimingDelays": {
         "x": 0.6,
@@ -24,5 +27,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-edc4c9672bc05dcb-19e6e42f1e75d4f4ab2676fb2cccf8eb-v2"
   ],
-  "name": "Offering Token"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Offering Token",
+  "overrideDescription": "Draw [effect0.power]. <nobr>Discard [effect1.power].</nobr>",
+  "cardLoreTooltip": [
+    "Making offerings to the Unnamed Titan has become a religious experience among the Stygian Guard. These offerings are made with such frequency that I helped to create tokens to represent a Guard’s offering to the Titan and simplify the process."
+  ]
 }

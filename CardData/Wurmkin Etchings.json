@@ -2,8 +2,8 @@
   "nameKey": "CardData_nameKey-71c47c16dbf682a4-1dd877fce98ffc946afaaa503e2a055d-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-d03f74d2a687dedb-1dd877fce98ffc946afaaa503e2a055d-v2",
-  "rarity": 2,
-  "requiredDLC": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -15,9 +15,9 @@
   "effects": [
     {
       "effectStateName": "CardEffectRecursion",
-      "targetMode": 15,
-      "targetTeamType": 0,
-      "targetCardSelectionMode": 3,
+      "targetMode": "TargetMode.Exhaust",
+      "targetTeamType": "Team.Type.None",
+      "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToDeck",
       "paramInt": 5
     }
   ],
@@ -25,5 +25,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-d54d8f7ebc47473c-1dd877fce98ffc946afaaa503e2a055d-v2"
   ],
-  "name": "Wurmkin Etchings"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Wurmkin Etchings",
+  "overrideDescription": "Return [Effect0.power] consumed spells to the top of your draw pile.",
+  "cardLoreTooltip": [
+    "Even without sight or voice the Wurmkin have created a wealth of knowledge unlike anything ever seen in this Realm. Their approach to written language is ingenious, embracing knowledge and never letting it fade. By carving into the stone itself, stoneform as I’ve named it, the Wurmkin can record knowledge for nigh eternity. And even when the etchings of the stone eventually fade, the Echoes will continue to glow with the knowledge they contain."
+  ]
 }

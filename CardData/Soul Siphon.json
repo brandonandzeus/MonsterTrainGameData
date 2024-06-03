@@ -1,8 +1,8 @@
 {
   "nameKey": "CardData_nameKey-da5185d3989182ee-6038beb7292217549bcb45e170f2d48b-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-e5e590a968034ada-6038beb7292217549bcb45e170f2d48b-v2",
-  "rarity": 1,
-  "requiredDLC": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -11,13 +11,15 @@
   "effects": [
     {
       "effectStateName": "CardEffectAdjustCorruption",
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": -1,
       "paramBool": true
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Monsters",
       "shouldTest": false,
       "paramStatusEffects": [
         {
@@ -28,7 +30,9 @@
       "additionalTooltips": [
         {
           "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "descriptionKey": "HudTooltip_RoomCorruption_Body",
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
       ]
     }
@@ -37,5 +41,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-24392a619ec9094b-6038beb7292217549bcb45e170f2d48b-v2"
   ],
-  "name": "Soul Siphon"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Soul Siphon",
+  "overrideDescription": "Fill [emptycorrupt] with [corrupt].<br>Apply [emberdrain] [effect1.status0.power] to friendly units.",
+  "cardLoreTooltip": [
+    "Over time I’ve learned that for all of their brushed aside realities, the Wurmkin are more merciful than they let on. The souls they harvest are given a draught to help them rest. To help them forget. It’s time I put these memories to bed once more and partake in a similar sort of revelry. "
+  ]
 }

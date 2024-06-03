@@ -2,11 +2,13 @@
   "nameKey": "CardData_nameKey-7021e7ac7b9dc56d-32ee291f9d982a244b4c5080708eb43f-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-c5b089a1cd1eefb1-32ee291f9d982a244b4c5080708eb43f-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectBump",
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": -1
     }
   ],
@@ -15,5 +17,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-cfec7e762231e3dd-32ee291f9d982a244b4c5080708eb43f-v2"
   ],
-  "name": "Cave In"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Cave In",
+  "overrideDescription": "[descend] friendly and enemy units on this floor.",
+  "cardLoreTooltip": [
+    "I've only seen the aftermath, but when a level of the Crucible collapses, very few Morsels survive. The Umbra don’t even care to check for survivors, choosing instead to spawn new Morsels."
+  ]
 }

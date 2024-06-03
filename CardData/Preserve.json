@@ -1,7 +1,8 @@
 {
   "nameKey": "CardData_nameKey-f9e2b71c6d34b487-09ccc418b649d1d4f8cffd625f589f48-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-8fa59f3356b9b194-09ccc418b649d1d4f8cffd625f589f48-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitPermafrost"
@@ -10,7 +11,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectFreezeCard",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramTimingDelays": {
         "x": 0.7,
         "y": 0.4,
@@ -23,5 +25,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-8bc12ff635e8153e-09ccc418b649d1d4f8cffd625f589f48-v2"
   ],
-  "name": "Preserve"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Preserve",
+  "overrideDescription": "Apply [freeze] to a card in your hand.",
+  "cardLoreTooltip": [
+    "Many precious artifacts of Hell were frozen when the Pyre was destroyed. Thankfully, this did not diminish their power, but only rendered their energy dormant until I am able to release them from their icy prison."
+  ]
 }

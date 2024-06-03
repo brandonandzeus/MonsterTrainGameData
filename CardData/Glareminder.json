@@ -1,9 +1,8 @@
 {
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -12,9 +11,11 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-19061d605a114f77-e1fd2f19c4490be48bc61feb628780d2-v2",
+        "size": 2,
         "health": 20,
         "attackDamage": 5,
         "attackTeleportsToDefender": false,
@@ -26,11 +27,13 @@
         ],
         "triggers": [
           {
-            "trigger": 35,
+            "trigger": "CharacterTriggerData.Trigger.CardExhausted",
             "descriptionKey": "CharacterData_descriptionKey-602d317e115708e1-e1fd2f19c4490be48bc61feb628780d2-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.Heroes",
                 "paramStatusEffects": [
                   {
                     "statusId": "corrupt_poison",
@@ -40,11 +43,14 @@
                 "additionalTooltips": [
                   {
                     "titleKey": "HudTooltip_RoomCorruption_Title",
-                    "descriptionKey": "HudTooltip_RoomCorruption_Body"
+                    "descriptionKey": "HudTooltip_RoomCorruption_Body",
+                    "title": "Charged Echoes",
+                    "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Apply [corruptpoison] [effect0.status0.power] to enemy units."
           }
         ],
         "subtypeKeys": [
@@ -53,10 +59,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-1c9ec386107478e9-e1fd2f19c4490be48bc61feb628780d2-v2"
+        ],
+        "name": "Glareminder",
+        "subtype": [
+          "Kin",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "Few Wurmkin are given the role of defender and protector, the hidden nature of their dwelling a natural protection itself. But conflict still erupts within the factions of the Wurmkin and order must be upheld. Not to protect the Wurmkin of course, but to protect the Echoes and the knowledge they hold. Despite their independent development, even the Wurmkin cannot avoid the infighting that seemingly plagues all creatures of this Realm."
         ]
       }
     }
   ],
   "linkedClass": "ClassWurm",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Glareminder"
 }

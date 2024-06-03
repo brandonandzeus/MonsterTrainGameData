@@ -1,14 +1,15 @@
 {
   "nameKey": "CardData_nameKey-d32760fa86f0963f-7987deaa29ff16e4891e8f14aac2d45e-v2",
-  "costType": 1,
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-e6d3068eb68b320e-7987deaa29ff16e4891e8f14aac2d45e-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddStatusEffect",
-      "paramTrackedValue": 1,
-      "paramEntryDuration": 2,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
+      "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 1,
       "paramUseScalingParams": true,
       "paramStatusEffects": [
@@ -17,12 +18,12 @@
           "count": 0
         }
       ],
-      "paramTeamType": 1
+      "paramTeamType": "Team.Type.Heroes"
     },
     {
       "traitStateName": "CardTraitScalingAddStatusEffect",
-      "paramTrackedValue": 1,
-      "paramEntryDuration": 2,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
+      "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 5,
       "paramUseScalingParams": true,
       "paramStatusEffects": [
@@ -31,7 +32,7 @@
           "count": 0
         }
       ],
-      "paramTeamType": 1
+      "paramTeamType": "Team.Type.Heroes"
     },
     {
       "traitStateName": "CardTraitExhaustState"
@@ -40,8 +41,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "debuff",
@@ -51,8 +52,8 @@
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 22,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "poison",
@@ -65,6 +66,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-6e95ad1428fb76f2-7987deaa29ff16e4891e8f14aac2d45e-v2"
   ],
-  "initialKeyboardTarget": 2,
-  "name": "Spike of the Stygian"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
+  "name": "Spike of the Stygian",
+  "overrideDescription": "Apply [trait0.statusmultiplier][x] [sap] and [trait1.statusmultiplier][x] [frostbite].",
+  "cardLoreTooltip": [
+    "The Stygian Guard was formed with our Rail of the Covenant, created by Tethys to protect the sealed Unnamed Titan. The Guard was wary of our Covenant from the beginning, worried that it would make the Pyre vulnerable to outside attacks. Unfortunately, they were correct."
+  ]
 }

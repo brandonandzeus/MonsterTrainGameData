@@ -2,12 +2,14 @@
   "nameKey": "CardData_nameKey-962e672211665ba5-2efc48fa63d15b541bc794df4d47735a-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-9464d6618ccc2ee1-2efc48fa63d15b541bc794df4d47735a-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectHealAndDamageRelative",
-      "targetMode": 12,
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Monsters",
       "paramInt": 10
     }
   ],
@@ -15,5 +17,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-bc263acaff71b4a2-2efc48fa63d15b541bc794df4d47735a-v2"
   ],
-  "name": "Restoration Detonation"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Restoration Detonation",
+  "overrideDescription": "Restore [effect0.power] health to a friendly unit. Deal damage to the front enemy unit equal to 5x the amount healed.",
+  "cardLoreTooltip": [
+    "Though usually avoided because of its potentially deadly outcome, an Awoken’s ability to impale themselves with thorns allows them to become a walking nest of spores. Upon bursting, the spores provide additional life with the extra benefit of damage to those nearby."
+  ]
 }

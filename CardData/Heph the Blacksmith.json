@@ -1,14 +1,14 @@
 {
   "nameKey": "CardData_nameKey-eed41f7b0da2fcef-603ccbb89d259dc40bd235b513ed79fa-v2",
   "cost": 2,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-4f0662430bab7e03-3c651af29c8547643b6cad6c548d7ca1-v2",
         "size": 3,
@@ -23,15 +23,17 @@
         ],
         "triggers": [
           {
-            "trigger": 1,
+            "trigger": "CharacterTriggerData.Trigger.PostCombat",
             "descriptionKey": "CharacterData_descriptionKey-3c7f5fd4dcb92288-3c651af29c8547643b6cad6c548d7ca1-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAdjustRoomCapacity",
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.None",
                 "paramInt": 1
               }
-            ]
+            ],
+            "description": "+1[capacity] on this floor."
           }
         ],
         "subtypeKeys": [
@@ -40,6 +42,14 @@
         ],
         "characterLoreTooltipKeys": [
           "EmptyString-0000000000000000-00000000000000000000000000000000-v2"
+        ],
+        "name": "Heph the Blacksmith",
+        "subtype": [
+          "Titanspawn",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          ""
         ]
       }
     }
@@ -47,11 +57,18 @@
   "startingUpgrades": [
     {
       "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-bd8dd1f691dbde76-fdbccea001531c043b23173a8d272d7d-v2",
-      "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-6896444018e5bef7-fdbccea001531c043b23173a8d272d7d-v2"
+      "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-6896444018e5bef7-fdbccea001531c043b23173a8d272d7d-v2",
+      "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+      "upgradeTitle": "Made to Fit",
+      "upgradeDescription": "-3[capacity]."
     }
   ],
   "cardLoreTooltipKeys": [
     "CardData_data-9be2d6b2bd76ff50-2d334d75be772964db38134fad4372e9-v2"
   ],
-  "name": "Heph the Blacksmith"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Heph the Blacksmith",
+  "cardLoreTooltip": [
+    "There are no words that I can write to describe the unbreakable force that is my daughter, so I will refrain from further staining her name by trying."
+  ]
 }

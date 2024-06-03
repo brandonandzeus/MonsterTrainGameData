@@ -2,8 +2,9 @@
   "nameKey": "CardData_nameKey-840658138460e357-9eb35a410438eb1418a7eca66acded00-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-248844da872c636f-9eb35a410438eb1418a7eca66acded00-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitStrongerMagicPower"
@@ -12,13 +13,14 @@
   "effects": [
     {
       "effectStateName": "CardEffectSacrifice",
-      "targetMode": 12,
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Monsters",
       "paramSubtype": "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
     },
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 2,
+      "targetMode": "TargetMode.FrontInRoom",
+      "targetTeamType": "Team.Type.Heroes",
       "shouldTest": false,
       "paramInt": 50
     }
@@ -28,5 +30,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-18dd64152b267ec1-9eb35a410438eb1418a7eca66acded00-v2"
   ],
-  "name": "Imp-pressive"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Imp-pressive",
+  "overrideDescription": "Deal [effect1.power] damage to the front enemy unit.",
+  "cardLoreTooltip": [
+    "“Some Imps eat Pyre. While Pyre tasty, Pyre not endless. Hungry imps then eaten by Pyre. And life continues.” -excerpt from Hell’s Horns by Grrrg Onehorn on Pyre-eating etiquette."
+  ]
 }

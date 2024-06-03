@@ -1,12 +1,13 @@
 {
   "nameKey": "CardData_nameKey-995656a47ae03d7c-78934533990c3b642acf531b86861ac1-v2",
-  "costType": 1,
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-1c0ab5afd3763887-78934533990c3b642acf531b86861ac1-v2",
-  "rarity": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitScalingHealTrain",
-      "paramTrackedValue": 1,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
       "paramInt": 5,
       "paramUseScalingParams": true
     },
@@ -17,12 +18,17 @@
   "effects": [
     {
       "effectStateName": "CardEffectHealTrain",
-      "targetMode": 21,
-      "targetTeamType": 0
+      "targetMode": "TargetMode.Pyre",
+      "targetTeamType": "Team.Type.None"
     }
   ],
   "cardLoreTooltipKeys": [
     "CardData_data-6b6f7de048cd29b6-78934533990c3b642acf531b86861ac1-v2"
   ],
-  "name": "Boneshine"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Boneshine",
+  "overrideDescription": "Restore [trait0.power][x] Pyre health.",
+  "cardLoreTooltip": [
+    "The Shroud is infused with a special polishing solution used to clean the more precious metals in the Crucible. It works equally well on the Boneshaker, though I'll need to remember not to touch it with bare skin again."
+  ]
 }

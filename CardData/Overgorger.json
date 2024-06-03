@@ -1,41 +1,52 @@
 {
   "nameKey": "CardData_nameKey-ad9aa016417bf0e7-cd5dc584a6f69214091c6123b9fa9de7-v2",
   "cost": 2,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-4f4770de4b96da00-140f50614a678a94c8f80092cc660fa5-v2",
         "size": 3,
         "health": 15,
-        "attackDamage": 0,
         "subtypeKeys": [
           "SubtypesData_Forager",
           "SubtypesData_Chosen"
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-3797ad5f0102fb94-140f50614a678a94c8f80092cc660fa5-v2"
+        ],
+        "name": "Overgorger",
+        "subtype": [
+          "Shroud",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "A seasoned collector of Antumbra Morsels to the detriment of its own well-being. I've learned to steer clear of these creatures, as each new morsel they eat is a danger to all around them."
         ]
       }
     }
   ],
   "triggers": [
     {
-      "trigger": 11,
+      "trigger": "CardTriggerType.OnFeed",
       "descriptionKey": "CardData_descriptionKey-28061a75296c8235-cd5dc584a6f69214091c6123b9fa9de7-v2",
       "cardTriggerEffects": [
         {
+          "persistenceMode": "PersistenceMode.SingleRun",
           "cardTriggerEffect": "CardTriggerEffectBuffCharacterDamage",
           "buffEffectType": "None",
           "paramInt": 2
         }
-      ]
+      ],
+      "description": "+2[attack] permanently."
     }
   ],
   "linkedClass": "ClassUmbra",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Overgorger"
 }

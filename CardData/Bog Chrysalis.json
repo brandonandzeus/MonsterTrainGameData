@@ -1,10 +1,9 @@
 {
   "nameKey": "CardData_nameKey-3062b57b46822440-7476b800821cef44a8b2536ea449af94-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -13,12 +12,12 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-ae2a45bb7d9582aa-6a3f30d23203a1a4aaa2e865fd701ea5-v2",
         "size": 1,
         "health": 1,
-        "attackDamage": 0,
         "startingStatusEffects": [
           {
             "statusId": "hatch",
@@ -27,14 +26,14 @@
         ],
         "triggers": [
           {
-            "trigger": 37,
+            "trigger": "CharacterTriggerData.Trigger.OnRemoveHatch",
             "descriptionKey": "CharacterData_descriptionKey-3941e1a71e6e8397-6a3f30d23203a1a4aaa2e865fd701ea5-v2",
             "hideTriggerTooltip": true,
             "effects": [
               {
                 "effectStateName": "CardEffectRemoveStatusEffectPerCorrupt",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramInt": 1,
                 "paramStatusEffects": [
                   {
@@ -44,28 +43,29 @@
                 ],
                 "hideTooltip": true
               }
-            ]
+            ],
+            "description": ""
           },
           {
-            "trigger": 30,
+            "trigger": "CharacterTriggerData.Trigger.OnHatched",
             "descriptionKey": "CharacterData_descriptionKey-75c2cc253b224c05-6a3f30d23203a1a4aaa2e865fd701ea5-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectSacrifice",
-                "targetMode": 5,
-                "targetTeamType": 2,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.Monsters",
                 "paramBool": true,
                 "hideTooltip": true
               },
               {
                 "effectStateName": "CardEffectSpawnMonster",
-                "targetTeamType": 2,
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.Monsters",
                 "paramInt": 2,
                 "paramCharacterData": {
                   "nameKey": "CharacterData_nameKey-da5bc0cf9bb285e0-8be3987b12f5410469fc72f4cb2f3ee3-v2",
                   "size": 1,
                   "health": 5,
-                  "attackDamage": 0,
                   "subtypeKeys": [
                     "SubtypesData_Wurm"
                   ],
@@ -79,18 +79,31 @@
                       "descriptionKeyInPlay": "CharacterData_descriptionKeyInPlay-943432c6fc68631c-8be3987b12f5410469fc72f4cb2f3ee3-v2",
                       "paramInt": 5,
                       "extraTooltipTitleKey": "HudTooltip_RoomCorruption_Title",
-                      "extraTooltipBodyKey": "HudTooltip_RoomCorruption_Body"
+                      "extraTooltipBodyKey": "HudTooltip_RoomCorruption_Body",
+                      "description": "+[paramint][attack] per [corrupt].",
+                      "extraTooltipTitle": "Charged Echoes",
+                      "extraTooltipBody": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                     }
+                  ],
+                  "name": "Bog Fly",
+                  "subtype": [
+                    "Kin"
+                  ],
+                  "characterLoreTooltip": [
+                    "For the countless years that I trudged through the death and decay left above, there was no way I could’ve imagined the bustling life buzzing just underneath the surface. Isolation has given the Wurmkin time to innovate. Time to fly! And now their work within their cairns is completed without any need for outside assistance."
                   ]
                 },
                 "additionalTooltips": [
                   {
                     "titleKey": "HudTooltip_RoomCorruption_Title",
-                    "descriptionKey": "HudTooltip_RoomCorruption_Body"
+                    "descriptionKey": "HudTooltip_RoomCorruption_Body",
+                    "title": "Charged Echoes",
+                    "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Summon 2 <b>Bog Fly</b> units."
           }
         ],
         "subtypeKeys": [
@@ -99,13 +112,22 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-1e1605c31a16fbfc-6a3f30d23203a1a4aaa2e865fd701ea5-v2"
+        ],
+        "name": "Bog Chrysalis",
+        "subtype": [
+          "Egg",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "The Wurmkin do not breed. At least, not anymore. Upon their decision to remain hidden, they created thousands of eggs, ready to hatch on command, eschewing the need for further reproduction. What a shame."
         ]
       }
     }
   ],
   "linkedClass": "ClassWurm",
   "sharedDiscoveryCards": [
-    "BogFly"
+    "Bog Fly"
   ],
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Bog Chrysalis"
 }

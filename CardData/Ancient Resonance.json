@@ -2,12 +2,12 @@
   "nameKey": "CardData_nameKey-d87cae3c25d78ffc-6b9beb583ef8d424b9757ee371efc1c3-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-9aa12b006870d448-6b9beb583ef8d424b9757ee371efc1c3-v2",
-  "rarity": 1,
-  "requiredDLC": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddDamage",
-      "paramTrackedValue": 30,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.CorruptionInTargetRoom",
       "paramInt": 5,
       "paramUseScalingParams": true
     }
@@ -15,10 +15,14 @@
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes",
       "additionalTooltips": [
         {
           "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "descriptionKey": "HudTooltip_RoomCorruption_Body",
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
       ]
     }
@@ -27,5 +31,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-fc549609d839bbca-6b9beb583ef8d424b9757ee371efc1c3-v2"
   ],
-  "name": "Ancient Resonance"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Ancient Resonance",
+  "overrideDescription": "Deal [trait0.power] damage to enemy units per [corrupt].",
+  "cardLoreTooltip": [
+    "I could not Judge anymore, the simple scale laid out by the Divines too reductive for my beliefs. Souls are complicated, morally ambiguous beings. Hell and Heaven aren’t that different, each one having its faults, but also having its wonderful beauties. I am not proud of what I did, nor what came after. The only solace is that, at the time, I believed it to be right, and without that conviction we are all lost. Though, I doubt Seraph will see it the same way."
+  ]
 }

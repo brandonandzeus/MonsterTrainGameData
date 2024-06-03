@@ -2,15 +2,15 @@
   "nameKey": "CardData_nameKey-44066bfeaaf24dd2-494b95e882d238d40bb81dbac1feff79-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-0894a5051797cc6b-494b95e882d238d40bb81dbac1feff79-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 1,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddDamage",
-      "paramTrackedValue": 18,
-      "paramCardType": 1,
-      "paramEntryDuration": 2,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.TypeInExhaustPile",
+      "paramCardType": "CardStatistics.CardTypeTarget.Spell",
+      "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 15,
       "paramUseScalingParams": true
     }
@@ -18,8 +18,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 12,
-      "targetTeamType": 3
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
   "linkedClass": "ClassWurm",
@@ -27,6 +27,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-4be195a90821845e-494b95e882d238d40bb81dbac1feff79-v2"
   ],
-  "initialKeyboardTarget": 2,
-  "name": "Power of Knowledge"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
+  "name": "Power of Knowledge",
+  "overrideDescription": "Deal [trait0.power] damage for each spell in the Consume pile.",
+  "cardLoreTooltip": [
+    "“Echoes are remembered knowledge,” as stoneform dictates. The collective knowledge of the Realm is contained in these crystals and at the disposal of the Wurmkin. They use the Echoes as a sort of library, taking and restoring knowledge at will to solve the work at hand. It is true that knowledge is powerful, but even this much knowledge, on the truth of what happened, is too much for any being to bear. Do not mistake my cowardice for heroism."
+  ]
 }

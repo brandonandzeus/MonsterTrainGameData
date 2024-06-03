@@ -1,19 +1,20 @@
 {
   "nameKey": "CardData_nameKey-07f654165fd37ce0-a5867d172d44e2e4986a76e31608523d-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState",
-      "paramCardData": "ThornedHollow"
+      "paramCardData": "Thorned Hollow"
     }
   ],
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-6acc6a42067bb9e0-0b15ea59d59e1e44a949e54d7274fb65-v2",
         "size": 3,
@@ -21,37 +22,42 @@
         "attackDamage": 15,
         "triggers": [
           {
-            "trigger": 2,
+            "trigger": "CharacterTriggerData.Trigger.OnSpawn",
             "descriptionKey": "CharacterData_descriptionKey-71b0459bc6d08a05-0b15ea59d59e1e44a949e54d7274fb65-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAdjustMaxHealth",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramInt": 60
               }
-            ]
+            ],
+            "description": "Gain [effect0.power] max health."
           },
           {
-            "trigger": 7,
+            "trigger": "CharacterTriggerData.Trigger.OnHeal",
             "descriptionKey": "CharacterData_descriptionKey-116088e5850e4d52-0b15ea59d59e1e44a949e54d7274fb65-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                "targetMode": 16,
-                "targetTeamType": 2,
+                "targetMode": "TargetMode.Weakest",
+                "targetTeamType": "Team.Type.Monsters",
                 "paramCardUpgradeData": {
+                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                   "bonusDamage": 2,
                   "bonusHP": 2
                 },
                 "additionalTooltips": [
                   {
                     "titleKey": "CharacterAbility_Cultivate_CardText",
-                    "descriptionKey": "CharacterAbility_Cultivate_TooltipText"
+                    "descriptionKey": "CharacterAbility_Cultivate_TooltipText",
+                    "title": "<b>Cultivate</b>",
+                    "description": "Increase the [attack] and [health] of the friendly unit with the lowest health by the <b>Cultivate</b> value."
                   }
                 ]
               }
-            ]
+            ],
+            "description": "<b><nobr>Cultivate 2</nobr></b>."
           }
         ],
         "subtypeKeys": [
@@ -60,10 +66,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-a1b3503436037b78-0b15ea59d59e1e44a949e54d7274fb65-v2"
+        ],
+        "name": "Awoken Hollow",
+        "subtype": [
+          "Hollow",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "These souls, imprisoned in steel, try to break free before they lose their minds to the Wildwood. I had no idea of this until the Channelers told me. It took me some time to trust them again after that revelation. "
         ]
       }
     }
   ],
   "linkedClass": "ClassAwoken",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Awoken Hollow"
 }

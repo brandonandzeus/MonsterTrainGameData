@@ -1,16 +1,20 @@
 {
   "nameKey": "CardData_nameKey-776598c57bc799c4-6db967eaf43e05a4cb25cbaa640d7dda-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-e876c3e6f8f35b1f-6db967eaf43e05a4cb25cbaa640d7dda-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectFeederRules",
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Monsters",
       "additionalTooltips": [
         {
           "titleKey": "Trigger_OnEaten_CardText",
           "descriptionKey": "Trigger_OnEaten_TooltipText",
-          "style": 7
+          "style": "TooltipDesigner.TooltipDesignType.Trigger",
+          "title": "Eaten",
+          "description": "After the next round of combat, this unit will be eaten by the front unit without an <b>Eaten</b> ability."
         }
       ]
     }
@@ -19,5 +23,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-082b3f408fb01c03-6db967eaf43e05a4cb25cbaa640d7dda-v2"
   ],
-  "name": "Feast"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Feast",
+  "overrideDescription": "Trigger feeding on units with <b>Eaten</b> abilities.",
+  "cardLoreTooltip": [
+    "Gorgers patrol the mines to collect errant Morsels, consuming them to return them back to the Shroud. They take great pleasure in their purpose, often consuming more Morsels than necessary."
+  ]
 }

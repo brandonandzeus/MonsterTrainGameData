@@ -1,12 +1,14 @@
 {
   "nameKey": "CardData_nameKey-7222c70c19d2799a-fdf2b961e24c9c94e8096f0779d808c4-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-ff531817fd8836c1-fdf2b961e24c9c94e8096f0779d808c4-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "buff",
@@ -16,8 +18,8 @@
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 22,
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "scorch",
@@ -32,7 +34,8 @@
     },
     {
       "effectStateName": "CardEffectGainEnergy",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "shouldTest": false,
       "paramInt": 3,
       "paramTimingDelays": {
@@ -46,5 +49,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-32dcbcc27dea54e1-fdf2b961e24c9c94e8096f0779d808c4-v2"
   ],
-  "name": "Perils of Production"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Perils of Production",
+  "overrideDescription": "Apply [rage] [effect0.status0.power] and [emberdrain] [effect1.status0.power] to a friendly unit. [halfbreak]Gain [effect2.power][ember].",
+  "cardLoreTooltip": [
+    "To power the Constructs of the Crucible, the Umbra Shroud feeds them excavated fuel. If fed mined Ember, the furnaces go into overdrive, working doubly hard at the cost of even more Ember. This discovery was crucial in the construction of the furnaces within the Boneshaker."
+  ]
 }

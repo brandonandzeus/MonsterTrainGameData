@@ -1,9 +1,9 @@
 {
   "nameKey": "CardData_nameKey-0a894ac2f09375e7-7ab25cbba98d0c742ad6ff9231fa2981-v2",
   "cost": 6,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -12,12 +12,13 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-37ee0a54555210a8-6f836f95d2fbdc64ca711ec5c482306a-v2",
         "size": 6,
         "health": 150,
-        "deathType": 1,
+        "deathType": "CharacterDeathVFX.Type.Large",
         "attackDamage": 200,
         "subtypeKeys": [
           "SubtypesData_Automaton",
@@ -25,11 +26,20 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-f518bc76211e0e3c-6f836f95d2fbdc64ca711ec5c482306a-v2"
+        ],
+        "name": "Shadowsiege",
+        "subtype": [
+          "Construct",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "I was told that the first Constructs were made of discarded stone and a coordinated Antumbra effort. It is considered a prestigious position among Morsels. These were able to speed up the excavation of the Crucible tenfold. "
         ]
       }
     }
   ],
   "linkedClass": "ClassUmbra",
   "unlockLevel": 10,
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Shadowsiege"
 }

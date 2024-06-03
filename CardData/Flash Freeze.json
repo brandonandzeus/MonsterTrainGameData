@@ -2,18 +2,20 @@
   "nameKey": "CardData_nameKey-63a790ceb1bcf0c8-705ea064154a2624a8e7af1aabc85bb1-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-4486d0ea967ad410-705ea064154a2624a8e7af1aabc85bb1-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 3
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 22,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "poison",
@@ -26,6 +28,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-88daad22bf573de1-705ea064154a2624a8e7af1aabc85bb1-v2"
   ],
-  "initialKeyboardTarget": 2,
-  "name": "Flash Freeze"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
+  "name": "Flash Freeze",
+  "overrideDescription": "Deal [effect0.power] damage. Apply [frostbite] [effect1.status0.power].",
+  "cardLoreTooltip": [
+    "After the freezing of Hell, the Stygian Sea’s weather became much more erratic. Instant freezes are now frequent occurrences, much to the dismay of anyone unlucky enough to be caught in their icy grasp."
+  ]
 }

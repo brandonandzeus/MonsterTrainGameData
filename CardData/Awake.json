@@ -2,19 +2,20 @@
   "nameKey": "CardData_nameKey-2de9537bbec73d0f-65dfc97031828804597743693a4567fe-v2",
   "cost": 3,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-9e253c10d7b2067e-65dfc97031828804597743693a4567fe-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectHeal",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 30
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 22,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "regen",
@@ -27,5 +28,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-6436465cf8b48980-65dfc97031828804597743693a4567fe-v2"
   ],
-  "name": "Awake"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Awake",
+  "overrideDescription": "Restore [effect0.power] health. Apply [regen] [effect1.status0.power].",
+  "cardLoreTooltip": [
+    "A soul, once put to sleep by spores, is trapped by the vines of the Wildwood only to become Awoken. It's not a very pleasant event to witness, but there is a certain beauty in it all."
+  ]
 }

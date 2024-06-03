@@ -1,15 +1,15 @@
 {
   "nameKey": "CardData_nameKey-f0cf81afeccfad3a-8eb81c16412ed304bbe10f0f8466da2f-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-9637369445ee1e3d-8eb81c16412ed304bbe10f0f8466da2f-v2",
-  "rarity": 1,
-  "requiredDLC": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
     },
     {
       "traitStateName": "CardTraitScalingAddEnergy",
-      "paramTrackedValue": 30,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.CorruptionInTargetRoom",
       "paramInt": 1,
       "paramUseScalingParams": true
     }
@@ -17,11 +17,14 @@
   "effects": [
     {
       "effectStateName": "CardEffectAdjustEnergy",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "additionalTooltips": [
         {
           "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "descriptionKey": "HudTooltip_RoomCorruption_Body",
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
       ]
     }
@@ -30,5 +33,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-5c53ba19f5d3e61b-8eb81c16412ed304bbe10f0f8466da2f-v2"
   ],
-  "name": "Forgotten Trade"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Forgotten Trade",
+  "overrideDescription": "Gain 1[ember] per [corrupt].",
+  "cardLoreTooltip": [
+    "Today I found it — my life, given up. It’s comforting, I suppose, to know that my mind isn’t truly lost, but the truth I’ve found, of mistakes and guilt, are a consolation not suited for the offense. Exiles sacrificed at my behest. Judgement forsaken to save human souls. Titans destroyed by my hand. All ending in the loss of our Realm. As a Titan, a Judge even, I was supposed to make no error, yet I doomed the very ground upon which I walk. What do I know of judgement..."
+  ]
 }

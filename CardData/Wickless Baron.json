@@ -1,39 +1,43 @@
 {
   "nameKey": "CardData_nameKey-ccc967a96adc1ef9-8900a2f74229b934b9f1f7f4e4ffa4ad-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState",
-      "paramCardData": "WicklessTycoon"
+      "paramCardData": "Wickless Tycoon"
     }
   ],
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-837d46c859c1aa30-82836a82286061a4aa74ea48a84ddb78-v2",
+        "size": 2,
         "health": 15,
         "attackDamage": 5,
         "triggers": [
           {
-            "trigger": 18,
+            "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor",
             "descriptionKey": "CharacterData_descriptionKey-c3034e4db125c612-82836a82286061a4aa74ea48a84ddb78-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramInt": 1,
                 "paramCardUpgradeData": {
+                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                   "bonusDamage": 3,
                   "bonusHP": 3
                 }
               }
-            ]
+            ],
+            "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health]."
           }
         ],
         "subtypeKeys": [
@@ -42,10 +46,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-f589f8ccc23217a4-82836a82286061a4aa74ea48a84ddb78-v2"
+        ],
+        "name": "Wickless Baron",
+        "subtype": [
+          "Wickless",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "Some Waxers would prefer to stay in this Ring of Hell, finding their current predicament to be rather comfortable. Even fewer will decide to make that choice more permanent by removing their wicks entirely."
         ]
       }
     }
   ],
   "linkedClass": "ClassRemnant",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Wickless Baron"
 }

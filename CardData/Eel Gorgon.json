@@ -1,28 +1,29 @@
 {
   "nameKey": "CardData_nameKey-88b78c7b62d223dc-b1af09035a6f94f4e92db1a1d2dc9a5e-v2",
   "cost": 2,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-1e7ef9c2862bc2a8-8fe33a976b2baa442ae9b392e40d4212-v2",
+        "size": 2,
         "health": 3,
         "attackDamage": 5,
         "attackTeleportsToDefender": false,
         "triggers": [
           {
-            "trigger": 19,
+            "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed",
             "descriptionKey": "CharacterData_descriptionKey-f35503a0a755e1d7-8fe33a976b2baa442ae9b392e40d4212-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramInt": 100,
                 "paramStatusEffects": [
                   {
@@ -31,37 +32,40 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Gain [multistrike] [effect0.status0.power]."
           },
           {
-            "trigger": 1,
+            "trigger": "CharacterTriggerData.Trigger.PostCombat",
             "descriptionKey": "CharacterData_descriptionKey-31ea82bf8d13322b-8fe33a976b2baa442ae9b392e40d4212-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectRemoveAllStatusEffects",
-                "targetMode": 5,
-                "targetTeamType": 2,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.Monsters",
                 "paramInt": 2
               },
               {
                 "effectStateName": "CardEffectRemoveAllStatusEffects",
-                "targetMode": 5,
-                "targetTeamType": 2,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.Monsters",
                 "paramInt": 1
               },
               {
                 "effectStateName": "CardEffectRemoveAllStatusEffects",
-                "targetMode": 5,
-                "targetTeamType": 2,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.Monsters",
                 "additionalTooltips": [
                   {
                     "descriptionKey": "StatusEffect_TooltipText",
-                    "style": 0,
-                    "isTipTooltip": true
+                    "style": "TooltipDesigner.TooltipDesignType.Default",
+                    "isTipTooltip": true,
+                    "description": "<b>Tip:</b> Status effects can be applied to units to adjust their stats and abilities in battle. Multiple stacks of a status effect increase its power and/or duration."
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Remove all status effects."
           }
         ],
         "subtypeKeys": [
@@ -70,10 +74,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-3a98d07bf6edb519-8fe33a976b2baa442ae9b392e40d4212-v2"
+        ],
+        "name": "Eel Gorgon",
+        "subtype": [
+          "Mage",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "The Titan's name has been lost to time, the Titan now trapped and harmless. But the name's power has lingered within the Sea and seeped into the life of all those within it. Creatures that once listened only to the needs of their survival have now become intelligent guardians of the Ring. The Power of the Name has not faded, only found new owners. It is a cycle unlike I've seen elsewhere."
         ]
       }
     }
   ],
   "linkedClass": "ClassStygian",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Eel Gorgon"
 }

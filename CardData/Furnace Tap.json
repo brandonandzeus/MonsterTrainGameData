@@ -2,8 +2,9 @@
   "nameKey": "CardData_nameKey-cf0ae9d9f1f68630-09758e7ac6f943948a70eacaa04d01f4-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-49951b7aff6b974b-09758e7ac6f943948a70eacaa04d01f4-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -12,8 +13,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "multistrike",
@@ -23,8 +24,8 @@
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 22,
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "scorch",
@@ -42,5 +43,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-065155aecede7d1e-09758e7ac6f943948a70eacaa04d01f4-v2"
   ],
-  "name": "Furnace Tap"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Furnace Tap",
+  "overrideDescription": "Apply [multistrike] [effect0.status0.power] and [emberdrain] [effect1.status0.power].",
+  "cardLoreTooltip": [
+    "Much to my dismay, the Umbra are able to withstand the heat output from the furnaces on the Boneshaker, allowing them to commune with its power and use it for themselves - at the cost of energy to the train."
+  ]
 }

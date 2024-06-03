@@ -1,13 +1,13 @@
 {
   "nameKey": "CardData_nameKey-4f6709fb2fca059e-36c5fb3d022e5cf498deebb1daeb4b42-v2",
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 3,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Champion",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-af511551fbc64b16-a7278daf077c4e44096fc92f422cdbc2-v2",
         "size": 3,
@@ -18,10 +18,18 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-ed1d9d179f6906a6-a7278daf077c4e44096fc92f422cdbc2-v2"
+        ],
+        "name": "Spine Chief",
+        "subtype": [
+          "Champion"
+        ],
+        "characterLoreTooltip": [
+          "For all of their obsession with knowledge and Titanlore, the Wurmkin are focused to a fault, worrying only about the study in front of them. As such, they’ve appointed a Chief as both protector and leader. This Chief’s experience with combat is limited, but his wits must be sharp to have kept the clan hidden for so long. Thankfully, Wurmkin claws are as deadly as they are functional, so should the Chief ever really need to fight it won’t be totally unprepared."
         ]
       }
     }
   ],
   "linkedClass": "ClassWurm",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Spine Chief"
 }

@@ -1,12 +1,14 @@
 {
   "nameKey": "CardData_nameKey-c2c67e6c34f0d2c0-4f00a19367ad7cd4b91ee86236360d36-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-00857b91c85bd114-e4091c4b86bbd1244823c88421760583-v2",
         "size": 1,
@@ -27,14 +29,26 @@
             "extraTooltipTitleKey": "ModifyCard_MagicalPower_TooltipTitle",
             "extraTooltipBodyKey": "ModifyCard_MagicalPower_TooltipBody",
             "paramCardUpgradeData": {
+              "linkedPactDuplicateRarity": "CollectableRarity.Starter",
               "bonusDamage": 10,
               "bonusHeal": 10
-            }
+            },
+            "description": "+[paramint] [magicpower] on this floor.",
+            "extraTooltipTitle": "Magic Power",
+            "extraTooltipBody": "Increases the amount of damage dealt and health restored by spells."
           }
+        ],
+        "name": "Molluscmage",
+        "subtype": [
+          "Mage"
+        ],
+        "characterLoreTooltip": [
+          "These dark mages have made themselves known through their control of the power that radiates from the Titan. Though small in stature, these mages have a striking resemblance to the Titan itself, which has resulted in the spread of many unproven theories of their origin."
         ]
       }
     }
   ],
   "linkedClass": "ClassStygian",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Molluscmage"
 }

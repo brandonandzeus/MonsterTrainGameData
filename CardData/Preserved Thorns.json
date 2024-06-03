@@ -2,7 +2,8 @@
   "nameKey": "CardData_nameKey-633bb212d3c0c215-f721b88f5ac4baa4aa3f0cc08c2265bd-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-f74a5980245aded6-f721b88f5ac4baa4aa3f0cc08c2265bd-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -11,7 +12,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddBattleCard",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramInt": 3,
       "additionalParamInt": 3,
       "paramCardPool": {
@@ -26,5 +28,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-e8dfc777b3326d11-f721b88f5ac4baa4aa3f0cc08c2265bd-v2"
   ],
-  "name": "Preserved Thorns"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Preserved Thorns",
+  "overrideDescription": "Add [effect0.power] <b>Sting</b> spells to your hand.",
+  "cardLoreTooltip": [
+    "Through my research, I've learned that Wildwood sap can extend the efficacy of thorns. This has led to my preservation of thorns in sap for later use."
+  ]
 }

@@ -1,13 +1,14 @@
 {
   "nameKey": "CardData_nameKey-cae6a084899f7e21-da9115369e8dc514ea47303658355de3-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-0a42449824acaaaf-da9115369e8dc514ea47303658355de3-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 100,
       "paramStatusEffects": [
         {
@@ -18,8 +19,8 @@
     },
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 22,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 5
     }
   ],
@@ -28,5 +29,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-adc637858b377800-da9115369e8dc514ea47303658355de3-v2"
   ],
-  "name": "Dark Deal"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Dark Deal",
+  "overrideDescription": "Deal [effect1.power] damage. Apply [rage] [effect0.status0.power].",
+  "cardLoreTooltip": [
+    "Even the residents of Hell serve something darker and more ancient than themselves. They make deals with the Shroud of the Crucible for metals they can find nowhere else."
+  ]
 }

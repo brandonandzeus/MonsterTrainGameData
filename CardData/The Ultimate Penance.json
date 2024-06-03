@@ -1,7 +1,8 @@
 {
   "nameKey": "CardData_nameKey-e4cb9c5294250db9-011e754dd310b1d4f8656a8ea2878cf3-v2",
   "cost": 2,
-  "cardType": 6,
+  "cardType": "CardType.Junk",
+  "rarity": "CollectableRarity.Common",
   "traits": [
     {
       "traitStateName": "CardTraitSelfPurge"
@@ -9,20 +10,25 @@
   ],
   "triggers": [
     {
-      "trigger": 10,
+      "trigger": "CardTriggerType.OnUnplayed",
       "descriptionKey": "CardData_descriptionKey-d9d1c4104694d310-011e754dd310b1d4f8656a8ea2878cf3-v2",
       "cardEffects": [
         {
           "effectStateName": "CardEffectDamage",
-          "targetMode": 21,
-          "targetTeamType": 3,
+          "targetMode": "TargetMode.Pyre",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
           "paramInt": 5
         }
-      ]
+      ],
+      "description": "Your Pyre takes [effect0.power] damage."
     }
   ],
   "cardLoreTooltipKeys": [
     "CardData_data-8d8445eac2d7e9d6-011e754dd310b1d4f8656a8ea2878cf3-v2"
   ],
-  "name": "The Ultimate Penance"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "The Ultimate Penance",
+  "cardLoreTooltip": [
+    "The Winged believe in the total constriction of the body to repent for mortal sins. Once the restraints have been applied, they are rarely removed until the sinners' life has left them. Seraph has wanted me encased in one of these for some time now, but I've been able to keep out of reach - for now."
+  ]
 }

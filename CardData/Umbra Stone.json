@@ -2,8 +2,9 @@
   "nameKey": "CardData_nameKey-30a627a28b75e42d-40c6a5a18c8df4948afab1b79a2a37b0-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-802e6b5279bfd27f-40c6a5a18c8df4948afab1b79a2a37b0-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -12,8 +13,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "trample",
@@ -26,5 +27,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-18e253667ccaadee-40c6a5a18c8df4948afab1b79a2a37b0-v2"
   ],
-  "name": "Umbra Stone"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Umbra Stone",
+  "overrideDescription": "Apply [trample].",
+  "cardLoreTooltip": [
+    "As a single mind, the Umbra had no need for written text. But when I finally discovered them, they created a language to converse with me and the other lowly residents of Hell."
+  ]
 }

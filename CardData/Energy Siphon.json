@@ -1,11 +1,14 @@
 {
   "nameKey": "CardData_nameKey-cc54528ff8917f51-57cb2a64dad0f3d40a81a733914aae00-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-8379de25a44192df-57cb2a64dad0f3d40a81a733914aae00-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes",
       "paramStatusEffects": [
         {
           "statusId": "spell weakness",
@@ -18,6 +21,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-3814d123857ded12-57cb2a64dad0f3d40a81a733914aae00-v2"
   ],
-  "initialKeyboardTarget": 2,
-  "name": "Energy Siphon"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
+  "name": "Energy Siphon",
+  "overrideDescription": "Apply [spellweakness] [effect0.status0.power] to an enemy unit.",
+  "cardLoreTooltip": [
+    "Lodestones require direct operation to absorb the energy gained from any living beings around them. Through mechanisms I've not been able to understand, the energy retrieved is many times the source's power."
+  ]
 }

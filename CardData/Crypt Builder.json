@@ -2,6 +2,8 @@
   "nameKey": "CardData_nameKey-681af4bb1ab1bce6-6f95a7f5a629f644e88102ffc3217add-v2",
   "cost": 3,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-93667a0e3162a70c-6f95a7f5a629f644e88102ffc3217add-v2",
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
   "traits": [
     {
       "traitStateName": "CardTraitTreasure"
@@ -13,12 +15,14 @@
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 2,
+      "targetMode": "TargetMode.FrontInRoom",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 60
     },
     {
       "effectStateName": "CardEffectFloorRearrange",
-      "targetMode": 22,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 1
     }
   ],
@@ -26,5 +30,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-5e889ccb8f8711d3-6f95a7f5a629f644e88102ffc3217add-v2"
   ],
-  "name": "Crypt Builder"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Crypt Builder",
+  "overrideDescription": "Deal [effect0.power] damage to the front enemy unit and push it to the back.",
+  "cardLoreTooltip": [
+    "Massive hammers were used to seal the Titan in its crypt. Requiring the strength of multiple Guards to swing true, these tools have not been moved since their last use."
+  ]
 }

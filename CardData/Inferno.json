@@ -2,7 +2,8 @@
   "nameKey": "CardData_nameKey-a6435442acad93c1-64f8b55236b461741b1feea18f971216-v2",
   "cost": 3,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-ecb95717c140b89f-64f8b55236b461741b1feea18f971216-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitIgnoreArmor"
@@ -11,7 +12,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 100
     }
   ],
@@ -19,5 +21,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-cc5f425626cb4cf0-64f8b55236b461741b1feea18f971216-v2"
   ],
-  "name": "Inferno"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Inferno",
+  "overrideDescription": "Deal [effect0.power] damage to friendly and enemy units.",
+  "cardLoreTooltip": [
+    "The Scorched Plains are known for frequent firestorms that can rain down at any moment, striking anyone unlucky enough to be caught below. This has made my travels through it particularly short."
+  ]
 }

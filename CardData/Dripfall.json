@@ -2,18 +2,20 @@
   "nameKey": "CardData_nameKey-becb2508a3d1be5a-6ae2c12dc14223c4aa5a9fe8ebb1ead1-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-99ff77e1a1a43ecb-6ae2c12dc14223c4aa5a9fe8ebb1ead1-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectBump",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": -1
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 22,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "dazed",
@@ -26,5 +28,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-e8577173997f7978-6ae2c12dc14223c4aa5a9fe8ebb1ead1-v2"
   ],
-  "name": "Dripfall"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Dripfall",
+  "overrideDescription": "[descend] a unit. Apply [dazed] [effect1.status0.power].",
+  "cardLoreTooltip": [
+    "While Wax Drips are beneficial for those who refuse to melt, getting caught in the downfall can have violent consequences. Consequently, I've decided only to study them from a safe distance."
+  ]
 }

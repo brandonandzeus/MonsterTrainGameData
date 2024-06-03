@@ -1,7 +1,8 @@
 {
   "nameKey": "CardData_nameKey-7c16eb3d46f415bc-92b031bb609fb70429201b3455d2aa36-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-7af1bedb2de3ea46-92b031bb609fb70429201b3455d2aa36-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -10,6 +11,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes",
       "paramStatusEffects": [
         {
           "statusId": "poison",
@@ -22,5 +25,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-358095c11dc866d0-92b031bb609fb70429201b3455d2aa36-v2"
   ],
-  "name": "Crystalline Seeds"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Crystalline Seeds",
+  "overrideDescription": "Apply [frostbite] [effect0.status0.power] to enemy units.",
+  "cardLoreTooltip": [
+    "I've been able to capture shards of ice from the now-frozen sea and distill them into seed crystals, making the instantaneous freezing of objects even easier."
+  ]
 }

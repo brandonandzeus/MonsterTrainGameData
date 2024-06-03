@@ -1,7 +1,8 @@
 {
   "nameKey": "CardData_nameKey-669128f872818ce3-bfcf39e8a42ed4c47824291fb3df5d17-v2",
   "cost": 1,
-  "cardType": 6,
+  "cardType": "CardType.Junk",
+  "rarity": "CollectableRarity.Common",
   "traits": [
     {
       "traitStateName": "CardTraitSelfPurge"
@@ -10,5 +11,9 @@
   "cardLoreTooltipKeys": [
     "CardData_data-bd6c43f1abfb5836-bfcf39e8a42ed4c47824291fb3df5d17-v2"
   ],
-  "name": "Sinner's Burden"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Sinner's Burden",
+  "cardLoreTooltip": [
+    "A contraption designed by Seraph himself to punish the sinful. It unlocks when the wearer is deemed penitent enough, a state that has never truly been defined and left to the judgement of the punisher. As expected, this has been used as a tool of oppression against us in the invasion."
+  ]
 }

@@ -2,7 +2,8 @@
   "nameKey": "CardData_nameKey-747284d4a37affbb-6dd1af3a07df90a449f88262ffff1a09-v2",
   "cost": 3,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-2935307a2f75f67b-6dd1af3a07df90a449f88262ffff1a09-v2",
-  "rarity": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitSelfPurge"
@@ -11,13 +12,15 @@
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 2,
+      "targetMode": "TargetMode.FrontInRoom",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 30
     },
     {
       "effectStateName": "CardEffectAddRunCard",
+      "targetMode": "TargetMode.Room",
       "copyModifiersFromSource": true,
-      "targetTeamType": 0,
+      "targetTeamType": "Team.Type.None",
       "paramInt": 1,
       "paramCardPool": {
         "name": "Class5BlazingArrows2",
@@ -32,5 +35,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-8bebb6a8b9d1314a-6dd1af3a07df90a449f88262ffff1a09-v2"
   ],
-  "name": "Blazing Bolts"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Blazing Bolts",
+  "overrideDescription": "Deal [effect0.power] damage to the front enemy unit. Add a stronger version of this card to your discard.",
+  "cardLoreTooltip": [
+    "Constructed bolts I gifted to the Umbra to dig deeper into the stone. When Morsels cannot break through it, these white-hot steel bolts should get the job done."
+  ]
 }

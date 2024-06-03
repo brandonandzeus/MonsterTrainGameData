@@ -1,9 +1,9 @@
 {
   "nameKey": "CardData_nameKey-25023a728ef2d57a-149ef4e078837864c8fdd678441b9459-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -12,10 +12,13 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-3f3a803863a57697-2f0e1bacde7e95c4e8b84e3c3be358d7-v2",
+        "size": 2,
         "health": 40,
+        "attackDamage": 10,
         "startingStatusEffects": [
           {
             "statusId": "ephemeral",
@@ -24,15 +27,16 @@
         ],
         "triggers": [
           {
-            "trigger": 15,
+            "trigger": "CharacterTriggerData.Trigger.OnHit",
             "descriptionKey": "CharacterData_descriptionKey-cae9f97f1a5104cd-2f0e1bacde7e95c4e8b84e3c3be358d7-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.Room",
                 "targetModeStatusEffectsFilter": [
                   "ephemeral"
                 ],
-                "targetTeamType": 2,
+                "targetTeamType": "Team.Type.Monsters",
                 "paramStatusEffects": [
                   {
                     "statusId": "ephemeral",
@@ -40,7 +44,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Apply [burnout] [effect0.status0.power] to friendly [burnout] units."
           }
         ],
         "subtypeKeys": [
@@ -49,10 +54,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-467642553024313b-2f0e1bacde7e95c4e8b84e3c3be358d7-v2"
+        ],
+        "name": "Lady of the Reformed",
+        "subtype": [
+          "Waxer",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "In a move towards self-fulfillment, these Waxers have become part of the Reformed, seeking wealth in the spirit. Despite their high spiritual ranking, I can't say that they are the most welcoming of Hellborne."
         ]
       }
     }
   ],
   "linkedClass": "ClassRemnant",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Lady of the Reformed"
 }

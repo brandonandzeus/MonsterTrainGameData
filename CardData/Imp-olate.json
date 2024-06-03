@@ -2,24 +2,31 @@
   "nameKey": "CardData_nameKey-a9e2d85ce3fa0e89-ca50179d40ecb3542ad98babeba262fb-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-d99dfe868783fdcc-ca50179d40ecb3542ad98babeba262fb-v2",
-  "rarity": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddDamage",
       "paramInt": 15,
       "paramSubtype": "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c",
-      "paramTeamType": 1
+      "paramTeamType": "Team.Type.Heroes"
     }
   ],
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 2
+      "targetMode": "TargetMode.FrontInRoom",
+      "targetTeamType": "Team.Type.Heroes"
     }
   ],
   "linkedClass": "ClassHellhorned",
   "cardLoreTooltipKeys": [
     "CardData_data-1570f65e37601f60-ca50179d40ecb3542ad98babeba262fb-v2"
   ],
-  "name": "Imp-olate"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Imp-olate",
+  "overrideDescription": "Deal damage to the front enemy unit equal to [trait0.power]x the number of [imp] units in your deck.",
+  "cardLoreTooltip": [
+    "“Imps die for their horns to grow large. Demons die for their horns to grow sharp.” -excerpt from Hell’s Horns by Grrrg Onehorn, discussing the cyclical life of a Hellhorned and how their horns mature."
+  ]
 }

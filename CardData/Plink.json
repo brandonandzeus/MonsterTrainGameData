@@ -2,15 +2,19 @@
   "nameKey": "CardData_nameKey-795f54f86efcba7e-250076515ad4c12458a78941994b450d-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-f3f639080aa3af37-250076515ad4c12458a78941994b450d-v2",
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 1,
+      "targetMode": "TargetMode.RandomInRoom",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 1
     },
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 1,
+      "targetMode": "TargetMode.RandomInRoom",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 1,
       "paramTimingDelays": {
         "x": 0.1,
@@ -21,12 +25,13 @@
   ],
   "triggers": [
     {
-      "trigger": 1,
+      "trigger": "CardTriggerType.OnKill",
       "descriptionKey": "CardData_descriptionKey-1f7ea17ab909c7b6-250076515ad4c12458a78941994b450d-v2",
       "cardEffects": [
         {
           "effectStateName": "CardEffectAddBattleCard",
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
           "shouldTest": false,
           "paramInt": 3,
           "additionalParamInt": 1,
@@ -44,12 +49,18 @@
             ]
           }
         }
-      ]
+      ],
+      "description": "Add a common or uncommon [snack] unit to your hand."
     }
   ],
   "linkedClass": "ClassUmbra",
   "cardLoreTooltipKeys": [
     "CardData_data-583d17b261239c79-250076515ad4c12458a78941994b450d-v2"
   ],
-  "name": "Plink"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Plink",
+  "overrideDescription": "Deal [effect0.power] damage to a random enemy unit, twice.",
+  "cardLoreTooltip": [
+    "The Primordium does not speak through words but through floods of feeling. The bounds of its mind seem endless. It’s no wonder that the ultimate split of the Primordium created a varying number of personalities, not the least of which are my friendly Morsels."
+  ]
 }

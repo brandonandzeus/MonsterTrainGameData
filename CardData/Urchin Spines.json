@@ -1,7 +1,8 @@
 {
   "nameKey": "CardData_nameKey-7ff790cfcf7c996f-d9d327e8d4208c54f9d614cc9f1eacea-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-8a04893bcd0398b1-d9d327e8d4208c54f9d614cc9f1eacea-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -10,6 +11,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes",
       "paramStatusEffects": [
         {
           "statusId": "spell weakness",
@@ -22,5 +25,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-2152aa1deab8bd5c-d9d327e8d4208c54f9d614cc9f1eacea-v2"
   ],
-  "name": "Urchin Spines"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Urchin Spines",
+  "overrideDescription": "Apply [spellweakness] [effect0.status0.power] to enemy units.",
+  "cardLoreTooltip": [
+    "Electrified urchins swarm around the openings of the Titan’s seafloor resting place. Their spines shock any predators, providing a natural defense in the dangerous depths of the sea. Unbeknownst to Tethys, I collected some of these specimens for my studies."
+  ]
 }

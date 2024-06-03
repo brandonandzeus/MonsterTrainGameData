@@ -2,8 +2,9 @@
   "nameKey": "CardData_nameKey-6d9d5b6fcdf59b12-6871166eddbc42742a3bce921ea8bf81-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-4fe05257fbf191f7-6871166eddbc42742a3bce921ea8bf81-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitIgnoreArmor"
@@ -12,14 +13,14 @@
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 5
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 22,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "armor",
@@ -32,5 +33,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-c91e86d735cf3d73-6871166eddbc42742a3bce921ea8bf81-v2"
   ],
-  "name": "Branding Rite"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Branding Rite",
+  "overrideDescription": "Deal [effect0.power] damage. Apply [armor] [effect1.status0.power].",
+  "cardLoreTooltip": [
+    "The focused application of heat on a Hellhorned hide will force it to calcify and provide a natural defense. Though I can tell you that the smell is truly...unique."
+  ]
 }

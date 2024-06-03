@@ -2,11 +2,13 @@
   "nameKey": "CardData_nameKey-0d78ac33207a6932-319a063443bbde345838978b917c841a-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-f71085492ea3f442-319a063443bbde345838978b917c841a-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "stealth",
@@ -19,5 +21,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-fb024302966f53c9-319a063443bbde345838978b917c841a-v2"
   ],
-  "name": "Engulfed in Smoke"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Engulfed in Smoke",
+  "overrideDescription": "Apply [stealth] [effect0.status0.power] to friendly units.",
+  "cardLoreTooltip": [
+    "In the dangerous depths of Hell, it’s important to have the means for quick concealment. If needed, I've found that wicks bundled together will burn slowly and create large quantities of smoke."
+  ]
 }

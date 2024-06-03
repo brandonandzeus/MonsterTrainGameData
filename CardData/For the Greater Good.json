@@ -2,12 +2,13 @@
   "nameKey": "CardData_nameKey-8190521505858c65-83a72f78f0338a1479b0ef1f09e80eb1-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-10b81a1441491c71-83a72f78f0338a1479b0ef1f09e80eb1-v2",
-  "rarity": 2,
-  "requiredDLC": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectRecruit",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterDataPool": [
         "AttackerT2_Rebel",
         "AttackerT2Stealth_Rebel",
@@ -21,5 +22,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-01500c4fb4e26ac4-83a72f78f0338a1479b0ef1f09e80eb1-v2"
   ],
-  "name": "For the Greater Good"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "For the Greater Good",
+  "overrideDescription": "Summon a friendly Rebel unit to the front of this floor.",
+  "cardLoreTooltip": [
+    "Three Divinities, Four Elemental Titans, and Two Judges. These were the Nine Divine that so ruled the Realm. The Divinities have been splintered; only one remains. Will this be the last unifier of our world? Titan against Titan? A dream, perhaps, but so was the Rail."
+  ]
 }

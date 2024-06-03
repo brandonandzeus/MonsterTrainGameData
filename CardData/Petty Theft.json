@@ -2,30 +2,39 @@
   "nameKey": "CardData_nameKey-182f8050eb02a55b-69b303f167fb6624981514b55d044984-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-9380042cb8e0906d-69b303f167fb6624981514b55d044984-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 12,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 2
     }
   ],
   "triggers": [
     {
-      "trigger": 1,
+      "trigger": "CardTriggerType.OnKill",
       "descriptionKey": "CardData_descriptionKey-7603404a75491c7a-69b303f167fb6624981514b55d044984-v2",
       "cardEffects": [
         {
           "effectStateName": "CardEffectRewardGold",
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 50
         }
-      ]
+      ],
+      "description": "+[effect0.power][coin]."
     }
   ],
   "cardLoreTooltipKeys": [
     "CardData_data-4721a124d73ab91f-69b303f167fb6624981514b55d044984-v2"
   ],
-  "name": "Petty Theft"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Petty Theft",
+  "overrideDescription": "Deal {[effect0.power]} damage to an enemy unit.",
+  "cardLoreTooltip": [
+    "Only the most stealthy, and loose in morals, are granted help from the Historian in the form of lessons in proper thievery. In all our time together, he's never revealed these secrets to me, though I suppose I should take that as a compliment of my values."
+  ]
 }

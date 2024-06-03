@@ -1,12 +1,13 @@
 {
   "nameKey": "CardData_nameKey-b91c08fdfe2af2df-2b8a5a4e1ef6e50468ab8b0c49320ad7-v2",
-  "costType": 1,
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-8d7291d53dcdd83e-2b8a5a4e1ef6e50468ab8b0c49320ad7-v2",
-  "rarity": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddDamage",
-      "paramTrackedValue": 1,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
       "paramInt": 30,
       "paramUseScalingParams": true
     }
@@ -14,12 +15,18 @@
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 2
+      "targetMode": "TargetMode.FrontInRoom",
+      "targetTeamType": "Team.Type.Heroes"
     }
   ],
   "linkedClass": "ClassUmbra",
   "cardLoreTooltipKeys": [
     "CardData_data-ccbd5294f2ae8c76-2b8a5a4e1ef6e50468ab8b0c49320ad7-v2"
   ],
-  "name": "Forever Consumed"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Forever Consumed",
+  "overrideDescription": "Deal [trait0.power][x] damage to the front enemy unit.",
+  "cardLoreTooltip": [
+    "Of a collective mind, the massive Umbra Shroud can wreak devastating damage upon the unfortunate soul who has been targeted by its wrath. On the one occasion I was witness to such an event, I was unable to return to the Crucible for months, afraid of the slightest chance it could happen to me."
+  ]
 }

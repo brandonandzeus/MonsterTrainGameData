@@ -2,17 +2,19 @@
   "nameKey": "CardData_nameKey-e9c5a72a25ef7339-9c8363aa4af9ec541b0b3458f7d6b955-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-1ce753e5b35966f9-9c8363aa4af9ec541b0b3458f7d6b955-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectSacrifice",
-      "targetMode": 12,
-      "targetTeamType": 2
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Monsters"
     },
     {
       "effectStateName": "CardEffectAddBattleCard",
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Monsters",
       "shouldTest": false,
       "paramInt": 3,
       "additionalParamInt": 3,
@@ -44,15 +46,20 @@
   ],
   "linkedClass": "ClassUmbra",
   "sharedMasteryCards": [
-    "MorselJeweler",
-    "MoltenMorsel",
-    "MorselMiner",
-    "RubbleRaiser",
-    "ShadowMorsel",
-    "VoidExcavator"
+    "Morsel Jeweler",
+    "Magma Morsel",
+    "Morsel Miner",
+    "Rubble Morsel",
+    "Antumbra Morsel",
+    "Morsel Excavator"
   ],
   "cardLoreTooltipKeys": [
     "CardData_data-c38fe233bab6d980-9c8363aa4af9ec541b0b3458f7d6b955-v2"
   ],
-  "name": "Cannibalize"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Cannibalize",
+  "overrideDescription": "Add 3 uncommon or rare [snack] units to your hand.",
+  "cardLoreTooltip": [
+    "Despite being a hive-minded creature, the Umbra Shroud still falls victim to the petty squabbles observed in the other clans. It’s unclear how this hive-minded creature can argue with itself, but the ensuing scuffles can be deadly and something I've learned to detect and avoid."
+  ]
 }

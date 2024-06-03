@@ -1,20 +1,22 @@
 {
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState",
-      "paramCardData": "ColdstrikeSiren"
+      "paramCardData": "Icy Cilophyte"
     }
   ],
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-bea799cc72bdddd1-4662d8efeb786184986f83a6da8d07e7-v2",
+        "size": 2,
         "health": 15,
         "attackDamage": 1,
         "startingStatusEffects": [
@@ -25,12 +27,13 @@
         ],
         "triggers": [
           {
-            "trigger": 3,
+            "trigger": "CharacterTriggerData.Trigger.OnAttacking",
             "descriptionKey": "CharacterData_descriptionKey-0500506631b8ead3-4662d8efeb786184986f83a6da8d07e7-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": 6,
+                "targetMode": "TargetMode.LastAttackedCharacter",
+                "targetTeamType": "Team.Type.Heroes",
                 "paramStatusEffects": [
                   {
                     "statusId": "poison",
@@ -38,7 +41,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Apply [frostbite] {[effect0.status0.power]} to the attacked unit."
           }
         ],
         "subtypeKeys": [
@@ -47,10 +51,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-24dfff950f65d94a-4662d8efeb786184986f83a6da8d07e7-v2"
+        ],
+        "name": "Coldcaelia",
+        "subtype": [
+          "Siren",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "These Sirens have used the freezing of Hell to their advantage, enchanting their blades with ice to damage their enemies more deeply. They lack formal training in classical combat, but make up for it in their magical prowess."
         ]
       }
     }
   ],
   "linkedClass": "ClassStygian",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Coldcaelia"
 }

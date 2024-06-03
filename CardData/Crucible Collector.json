@@ -1,26 +1,28 @@
 {
   "nameKey": "CardData_nameKey-457fb3ffcab3a5fd-05496ee2c7fcc0646ba425f0957f92e2-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-0f1ef7f5d2873816-c0959083bc36955498e139131d33a354-v2",
+        "size": 2,
         "health": 20,
         "attackDamage": 20,
         "triggers": [
           {
-            "trigger": 22,
+            "trigger": "CharacterTriggerData.Trigger.OnFeed",
             "descriptionKey": "CharacterData_descriptionKey-fe5bba31130c8984-c0959083bc36955498e139131d33a354-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramStatusEffects": [
                   {
                     "statusId": "lifesteal",
@@ -28,7 +30,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Gain [lifesteal] [effect0.status0.power]."
           }
         ],
         "subtypeKeys": [
@@ -37,10 +40,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-8e300a59c048d5bb-c0959083bc36955498e139131d33a354-v2"
+        ],
+        "name": "Crucible Collector",
+        "subtype": [
+          "Shroud",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "These former Wardens have left their post as an overseer of Morsel workers to become a collector of all variety of gems. They’ve found that ingesting the metals of the Crucible gives them strength they’ve never known otherwise. The rest of the Umbra Shroud, however, does not seem to appreciate their newfound independence as much as I do."
         ]
       }
     }
   ],
   "linkedClass": "ClassUmbra",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Crucible Collector"
 }

@@ -1,8 +1,8 @@
 {
   "nameKey": "CardData_nameKey-bea65aef22f9e254-7ee4b964c3dc6d64abb5d9113de6d2b9-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-69cb3051c5ea2891-7ee4b964c3dc6d64abb5d9113de6d2b9-v2",
-  "rarity": 1,
-  "requiredDLC": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitShowCardTargets"
@@ -11,11 +11,12 @@
   "effects": [
     {
       "effectStateName": "CardEffectRecursion",
-      "targetMode": 14,
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Discard",
+      "targetTeamType": "Team.Type.None",
       "paramInt": 1,
       "paramStr": "ScreenDeck_Select_ReturnedSoul",
       "paramCardUpgradeData": {
+        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
         "costReduction": 1,
         "traitDataUpgrades": [
           {
@@ -29,15 +30,21 @@
       "additionalTooltips": [
         {
           "titleKey": "CardTraitCorruptState_CardText",
-          "descriptionKey": "CardTraitCorruptState_TooltipText"
+          "descriptionKey": "CardTraitCorruptState_TooltipText",
+          "title": "[infused]",
+          "description": "When played, the current floor will gain 1[corrupt]."
         },
         {
           "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "descriptionKey": "HudTooltip_RoomCorruption_Body",
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         },
         {
           "titleKey": "CardTraitExhaustState_CardText",
-          "descriptionKey": "CardTraitExhaustState_TooltipText"
+          "descriptionKey": "CardTraitExhaustState_TooltipText",
+          "title": "Consume",
+          "description": "Can only be played once per battle."
         }
       ]
     }
@@ -46,5 +53,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-50166d7fb16e6f7b-7ee4b964c3dc6d64abb5d9113de6d2b9-v2"
   ],
-  "name": "Returned Soul"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Returned Soul",
+  "overrideDescription": "Return a spell card from the discard pile to your hand and apply [infused], -[effect0.upgrade.costreduction][ember], and [consume].",
+  "cardLoreTooltip": [
+    "Learning this strange language on the stones was slowgoing at first, but as if by some stroke of divinity, I’m now able to decipher the runes quickly. I wouldn’t go so far as to say I’m fluent, but this odd influx of knowledge has been remarkable and likely the result of the Wurmkin’s Echoes injecting me with it on their own will. Will they take it away just as easily?"
+  ]
 }

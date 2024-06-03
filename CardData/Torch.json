@@ -2,12 +2,14 @@
   "nameKey": "CardData_nameKey-b98cfc28ea305aac-792713c0dc49c794db7f416d35aee1b3-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-787b5804a1e8ebce-792713c0dc49c794db7f416d35aee1b3-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 2
     }
   ],
@@ -15,6 +17,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-1bab31af4a556f34-792713c0dc49c794db7f416d35aee1b3-v2"
   ],
-  "initialKeyboardTarget": 2,
-  "name": "Torch"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
+  "name": "Torch",
+  "overrideDescription": "Deal [effect0.power] damage.",
+  "cardLoreTooltip": [
+    "The Hellhorned have learned to live with the unpredictability of the Scorched Plains, even going so far as to retain some of the flaming boulders for themselves, despite my attempts to dissuade them."
+  ]
 }

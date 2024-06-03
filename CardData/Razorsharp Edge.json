@@ -2,25 +2,32 @@
   "nameKey": "CardData_nameKey-5e1b2941037bbc35-51d9a898ce17f6143994ae1348abf11b-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-e440dc44f849c703-51d9a898ce17f6143994ae1348abf11b-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 1,
       "paramCardUpgradeData": {
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-8ae178ab5bf8bc5e-43521f5dd8ec61643bbb3f6e22992c1e-v2",
         "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-5d7e2819792efc2c-43521f5dd8ec61643bbb3f6e22992c1e-v2",
         "upgradeNotificationKey": "CardUpgradeData_upgradeNotificationKey-bc4b1d6a20b45019-43521f5dd8ec61643bbb3f6e22992c1e-v2",
+        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
         "bonusDamage": 10,
-        "bonusHP": -2
+        "bonusHP": -2,
+        "upgradeTitle": "",
+        "upgradeDescription": "",
+        "upgradeNotification": ""
       },
       "additionalTooltips": [
         {
           "descriptionKey": "TipTooltip_CanReduceHealthToZero",
-          "style": 0,
-          "isTipTooltip": true
+          "style": "TooltipDesigner.TooltipDesignType.Default",
+          "isTipTooltip": true,
+          "description": "<b>Tip:</b> This spell can reduce a unit's [health] to 0 and kill it."
         }
       ]
     }
@@ -30,5 +37,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-8a9215816ecc4cc6-51d9a898ce17f6143994ae1348abf11b-v2"
   ],
-  "name": "Razorsharp Edge"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Razorsharp Edge",
+  "overrideDescription": "Apply +[effect0.upgrade.bonusdamage][attack] and [effect0.upgrade.bonushp][health].",
+  "cardLoreTooltip": [
+    "Dried out vines can deal more deadly blows, but they risk shattering more easily than their hydrated counterparts. My efforts at strengthening these embrittled appendages have proven fruitless."
+  ]
 }

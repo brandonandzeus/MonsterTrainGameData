@@ -1,16 +1,16 @@
 {
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-da5bc0cf9bb285e0-8be3987b12f5410469fc72f4cb2f3ee3-v2",
         "size": 1,
         "health": 5,
-        "attackDamage": 0,
         "subtypeKeys": [
           "SubtypesData_Wurm"
         ],
@@ -24,12 +24,23 @@
             "descriptionKeyInPlay": "CharacterData_descriptionKeyInPlay-943432c6fc68631c-8be3987b12f5410469fc72f4cb2f3ee3-v2",
             "paramInt": 5,
             "extraTooltipTitleKey": "HudTooltip_RoomCorruption_Title",
-            "extraTooltipBodyKey": "HudTooltip_RoomCorruption_Body"
+            "extraTooltipBodyKey": "HudTooltip_RoomCorruption_Body",
+            "description": "+[paramint][attack] per [corrupt].",
+            "extraTooltipTitle": "Charged Echoes",
+            "extraTooltipBody": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
           }
+        ],
+        "name": "Bog Fly",
+        "subtype": [
+          "Kin"
+        ],
+        "characterLoreTooltip": [
+          "For the countless years that I trudged through the death and decay left above, there was no way I could’ve imagined the bustling life buzzing just underneath the surface. Isolation has given the Wurmkin time to innovate. Time to fly! And now their work within their cairns is completed without any need for outside assistance."
         ]
       }
     }
   ],
   "linkedClass": "ClassWurm",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Bog Fly"
 }

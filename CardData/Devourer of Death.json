@@ -1,28 +1,28 @@
 {
   "nameKey": "CardData_nameKey-af768642ff95103b-ac3d1efb331dab840aed2e5bc0be823f-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-d06e49cad2006d23-c5fb54b6c2cb6b44eb87dd468e302e7b-v2",
         "size": 1,
         "health": 5,
-        "attackDamage": 0,
         "deathSlidesBackwards": false,
         "triggers": [
           {
-            "trigger": 18,
+            "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor",
             "descriptionKey": "CharacterData_descriptionKey-e850c25829d12dd3-c5fb54b6c2cb6b44eb87dd468e302e7b-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": 5,
-                "targetTeamType": 3,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
                 "paramStatusEffects": [
                   {
                     "statusId": "captured_soul",
@@ -30,19 +30,24 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Gain <nobr><b>Soul 1</b></nobr>."
           },
           {
+            "trigger": "CharacterTriggerData.Trigger.OnDeath",
             "descriptionKey": "CharacterData_descriptionKey-cc3453d2b3db8598-c5fb54b6c2cb6b44eb87dd468e302e7b-v2",
             "displayEffectHintText": true,
             "effects": [
               {
                 "effectStateName": "CardEffectDamage",
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.Heroes",
                 "paramInt": 15,
                 "useStatusEffectStackMultiplier": true,
                 "statusEffectStackMultiplier": "captured_soul"
               }
-            ]
+            ],
+            "description": "Deal damage to enemy units equal to [effect0.power]x the <b>Soul</b> count."
           }
         ],
         "subtypeKeys": [
@@ -50,10 +55,18 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-712321a08e018526-c5fb54b6c2cb6b44eb87dd468e302e7b-v2"
+        ],
+        "name": "Devourer of Death",
+        "subtype": [
+          "Wickless"
+        ],
+        "characterLoreTooltip": [
+          "The unfortunate souls who are unable to melt must instead feed off the deaths of those around them. They accumulate more energy as others' souls are freed from their waxen forms, but they are doomed to never be able to free their own."
         ]
       }
     }
   ],
   "linkedClass": "ClassRemnant",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Devourer of Death"
 }

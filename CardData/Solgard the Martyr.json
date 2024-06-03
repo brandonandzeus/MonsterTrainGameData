@@ -1,52 +1,38 @@
 {
   "nameKey": "CardData_nameKey-32d7fabe915df42e-c9f84437f6221594eb281fed679c6f63-v2",
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 3,
+  "rarity": "CollectableRarity.Champion",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-ab5df13b131424f2-425da999f231c894db66572bf89adafe-v2",
+        "size": 2,
         "health": 5,
-        "attackDamage": 0,
         "attackTeleportsToDefender": false,
         "subtypeKeys": [
           "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-bf710959ab4f688c-425da999f231c894db66572bf89adafe-v2"
+        ],
+        "name": "Solgard the Martyr",
+        "subtype": [
+          "Champion"
+        ],
+        "characterLoreTooltip": [
+          "For the first time, I’ve spoken with these dream beings! Solgard, the priest of the Stygian’s Titan, spoke of a mass Exodus of martyrs. Martyrs who gave up their souls for the sake of Heaven and Hell. But why does no one living know of this great sacrifice? These answers only create more questions…"
         ]
       }
     }
   ],
   "startingUpgrades": [
-    {
-      "hideUpgradeIconOnCard": true,
-      "useUpgradeHighlightTextTags": false,
-      "triggerUpgrades": [
-        {
-          "trigger": 19,
-          "descriptionKey": "CardUpgradeData_descriptionKey-61bc349fa5b00dcb-27dba5406eec9044893fa6f73b1cd428-v2",
-          "effects": [
-            {
-              "effectStateName": "CardEffectAddStatusEffect",
-              "targetMode": 5,
-              "targetTeamType": 2,
-              "paramInt": 100,
-              "paramStatusEffects": [
-                {
-                  "statusId": "stygian_blessing",
-                  "count": 1
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
+    null
   ],
   "linkedClass": "ClassStygian",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Solgard the Martyr"
 }

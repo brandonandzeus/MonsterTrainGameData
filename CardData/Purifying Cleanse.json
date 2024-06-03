@@ -1,18 +1,20 @@
 {
   "nameKey": "CardData_nameKey-6b7f86936881d741-05ca026d5025dc74db778b976be27799-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-b6ecc2b83e6a26ee-05ca026d5025dc74db778b976be27799-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectHeal",
-      "targetMode": 12,
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Monsters",
       "paramInt": 15
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 22,
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "ephemeral",
@@ -25,5 +27,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-ff5a11d528c23bc1-05ca026d5025dc74db778b976be27799-v2"
   ],
-  "name": "Purifying Cleanse"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Purifying Cleanse",
+  "overrideDescription": "Restore [effect0.power] health and apply [burnout] [effect1.status0.power] to a friendly unit.",
+  "cardLoreTooltip": [
+    "Before entering a wax drip and applying new wax, a process I've been told is called \"guttering\", Waxers are asked to cleanse themselves of any blemishes and impurities to keep the wax as clean as possible."
+  ]
 }

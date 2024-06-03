@@ -1,12 +1,13 @@
 {
   "nameKey": "CardData_nameKey-1a715e3262de57ae-9a6ac59b33e64204ca15b4e9cc010fc9-v2",
-  "costType": 1,
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-5d8e1871fea2219a-9a6ac59b33e64204ca15b4e9cc010fc9-v2",
-  "rarity": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitScalingBuffDamage",
-      "paramTrackedValue": 1,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
       "paramInt": 5,
       "paramUseScalingParams": true
     },
@@ -17,12 +18,17 @@
   "effects": [
     {
       "effectStateName": "CardEffectBuffDamage",
-      "targetMode": 21,
-      "targetTeamType": 0
+      "targetMode": "TargetMode.Pyre",
+      "targetTeamType": "Team.Type.None"
     }
   ],
   "cardLoreTooltipKeys": [
     "CardData_data-fdaffd69e61fa92d-9a6ac59b33e64204ca15b4e9cc010fc9-v2"
   ],
-  "name": "Bone Rattler"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Bone Rattler",
+  "overrideDescription": "Apply +[trait0.power][x][attack] to your Pyre.",
+  "cardLoreTooltip": [
+    "Potent train fuel that was created by a very ramshackle looking still. It may not be wise to use it all at once, but what do I know? Well, quite a lot actually."
+  ]
 }

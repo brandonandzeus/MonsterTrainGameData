@@ -1,23 +1,29 @@
 {
   "nameKey": "CardData_nameKey-1a31ceee075d2cc4-6d184f2fbc18a404fb2ed0a8477aed67-v2",
   "cost": 1,
-  "cardType": 5,
+  "cardType": "CardType.Blight",
+  "rarity": "CollectableRarity.Common",
   "triggers": [
     {
-      "trigger": 10,
+      "trigger": "CardTriggerType.OnUnplayed",
       "descriptionKey": "CardData_descriptionKey-a86f311a0a18624f-6d184f2fbc18a404fb2ed0a8477aed67-v2",
       "cardEffects": [
         {
           "effectStateName": "CardEffectDamage",
-          "targetMode": 21,
-          "targetTeamType": 3,
+          "targetMode": "TargetMode.Pyre",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
           "paramInt": 1
         }
-      ]
+      ],
+      "description": "Your Pyre takes 1 damage."
     }
   ],
   "cardLoreTooltipKeys": [
     "CardData_data-1dbf5227b2b6beeb-6d184f2fbc18a404fb2ed0a8477aed67-v2"
   ],
-  "name": "Vengeful Shard"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Vengeful Shard",
+  "cardLoreTooltip": [
+    "When Hell was frozen, the Pyre itself was largely extinguished. The remains that I was unable to collect have been scattered throughout Hell, with Seraph controlling most of them. Some have been corrupted entirely, lashing out at their previous host if they come into too close of contact."
+  ]
 }

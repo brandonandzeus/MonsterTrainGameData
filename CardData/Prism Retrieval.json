@@ -1,15 +1,16 @@
 {
   "nameKey": "CardData_nameKey-23da330c06f694f8-e4be4c78e931b864e84cc57b10629f0e-v2",
-  "costType": 1,
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-8964128b2715dad1-e4be4c78e931b864e84cc57b10629f0e-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitShowCardTargets"
     },
     {
       "traitStateName": "CardTraitScalingTempCardUpgradeToCard",
-      "paramTrackedValue": 1,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
       "paramInt": 1,
       "paramUseScalingParams": true
     },
@@ -20,21 +21,24 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddTempCardUpgradeToNextDrawnCard",
-      "targetTeamType": 0,
-      "targetCardType": 1,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
+      "targetCardType": "CardType.Monster",
       "shouldTest": false,
       "paramCardUpgradeData": {
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-fb51908e8838d5b8-32b5c1d9c6b965a4db5c8bcd045f43cb-v2",
+        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
         "bonusDamage": 5,
-        "costReduction": 1
+        "costReduction": 1,
+        "upgradeTitle": ""
       }
     },
     {
       "effectStateName": "CardEffectDrawType",
-      "targetMode": 13,
-      "targetTeamType": 0,
-      "targetCardType": 1,
-      "targetCardSelectionMode": 1,
+      "targetMode": "TargetMode.DrawPile",
+      "targetTeamType": "Team.Type.None",
+      "targetCardType": "CardType.Monster",
+      "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
       "paramInt": 1,
       "hideTooltip": true
     }
@@ -44,5 +48,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-a7cce0997c9b3600-e4be4c78e931b864e84cc57b10629f0e-v2"
   ],
-  "name": "Prism Retrieval"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Prism Retrieval",
+  "overrideDescription": "Draw a unit and apply <nobr>+[effect0.upgrade.bonusdamage][x][attack]</nobr> and <nobr>-[x][ember]</nobr>.",
+  "cardLoreTooltip": [
+    "Prism stones have the unique ability to refract both light and space, providing protection and creating matter from nothing. I've been able to reverse engineer this power to transport objects and beings across small distances."
+  ]
 }

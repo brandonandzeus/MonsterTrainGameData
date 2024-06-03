@@ -1,26 +1,28 @@
 {
   "nameKey": "CardData_nameKey-6dca5eb35442afb3-7a7260dca28076c46afe22beee19a8ef-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-766daded001111e6-5ea0328fb52d79d4cad8a658a82feb03-v2",
+        "size": 2,
         "health": 10,
+        "attackDamage": 10,
         "triggers": [
           {
-            "trigger": 33,
+            "trigger": "CharacterTriggerData.Trigger.OnArmorAdded",
             "descriptionKey": "CharacterData_descriptionKey-13d4731536bf0de3-5ea0328fb52d79d4cad8a658a82feb03-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectSynergizeStatusEffects",
-                "targetMode": 5,
-                "targetTeamType": 3,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
                 "paramStatusEffects": [
                   {
                     "statusId": "armor",
@@ -32,16 +34,17 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Gain [rage] equal to gained [armor]."
           },
           {
-            "trigger": 2,
+            "trigger": "CharacterTriggerData.Trigger.OnSpawn",
             "descriptionKey": "CharacterData_descriptionKey-b3fdee1a00b4a0d7-5ea0328fb52d79d4cad8a658a82feb03-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": 5,
-                "targetTeamType": 2,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.Monsters",
                 "paramInt": 100,
                 "paramStatusEffects": [
                   {
@@ -50,7 +53,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Gain [armor] [effect0.status0.power]."
           }
         ],
         "subtypeKeys": [
@@ -60,6 +64,15 @@
         ],
         "characterLoreTooltipKeys": [
 
+        ],
+        "name": "Apex Imp",
+        "subtype": [
+          "Imp",
+          "Demon",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+
         ]
       }
     }
@@ -68,5 +81,9 @@
   "cardLoreTooltipKeys": [
     "CardData_data-5e040407addaf212-7a7260dca28076c46afe22beee19a8ef-v2"
   ],
-  "name": "Apex Imp"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Apex Imp",
+  "cardLoreTooltip": [
+    "As I have recorded at great length, the cycling of Imps to Demons and back again is an often observed phenomenon. Their existence in a sort of “transition state,” however, is rarely seen. These Imps, almost Demons, exhibit reserved behavior and a sort of misplaced confidence that I’ve only seen in human adolescents on their way to adulthood. I can understand the Hellhorned’s hesitance to make these Imps known..."
+  ]
 }

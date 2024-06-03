@@ -1,16 +1,17 @@
 {
   "nameKey": "CardData_nameKey-4f6709fb2fca059e-36c5fb3d022e5cf498deebb1daeb4b42-v2",
-  "costType": 2,
-  "cardType": 1,
+  "costType": "CardData.CostType.NonPlayable",
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-c8974e656cd84d1e-f83d8a195ea0adf4697455f4280b567c-v2",
+        "size": 2,
         "health": 10,
         "attackDamage": 30,
         "startingStatusEffects": [
@@ -25,11 +26,13 @@
         ],
         "triggers": [
           {
-            "trigger": 3,
+            "trigger": "CharacterTriggerData.Trigger.OnAttacking",
             "descriptionKey": "CharacterData_descriptionKey-03ee3656ce7e7999-f83d8a195ea0adf4697455f4280b567c-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.Heroes",
                 "paramStatusEffects": [
                   {
                     "statusId": "corrupt_poison",
@@ -39,11 +42,14 @@
                 "additionalTooltips": [
                   {
                     "titleKey": "HudTooltip_RoomCorruption_Title",
-                    "descriptionKey": "HudTooltip_RoomCorruption_Body"
+                    "descriptionKey": "HudTooltip_RoomCorruption_Body",
+                    "title": "Charged Echoes",
+                    "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Apply [corruptpoison] [effect0.status0.power] to enemy units."
           }
         ],
         "subtypeKeys": [
@@ -51,11 +57,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-3ceb5786716ecb72-f83d8a195ea0adf4697455f4280b567c-v2"
+        ],
+        "name": "Kinhost Pupa",
+        "subtype": [
+          "Host"
+        ],
+        "characterLoreTooltip": [
+          "The Wurmkin wait for Kinhost to fully mature before making them the mindless slaves more often seen throughout the tunnels. This allows the Wurmkin to breed the Kinhost for strength and size, making them perfect mobile transports for the many Echoes scattered around the tunnels."
         ]
       }
     }
   ],
   "linkedClass": "ClassWurm",
   "ignoreWhenCountingMastery": true,
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Kinhost Pupa"
 }

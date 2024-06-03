@@ -1,14 +1,15 @@
 {
   "nameKey": "CardData_nameKey-ce067d9dbcf551fa-62bfe333c9432c1448c37820dc680d6e-v2",
-  "costType": 1,
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-bc13495411cf9ac6-62bfe333c9432c1448c37820dc680d6e-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitScalingFeederRules",
-      "paramTrackedValue": 1,
-      "paramEntryDuration": 2,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
+      "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 2,
       "paramUseScalingParams": true
     },
@@ -19,8 +20,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectFeederRules",
-      "targetMode": 12,
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Monsters",
       "targetCharacterSubtype": "SubtypesData_Snack",
       "paramTrigger": 23
     }
@@ -29,5 +30,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-b453486ce911ecdd-62bfe333c9432c1448c37820dc680d6e-v2"
   ],
-  "name": "Shroud Spike"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Shroud Spike",
+  "overrideDescription": "Trigger feeding on a [snack] unit [trait0.power][x] times.",
+  "cardLoreTooltip": [
+    "The Umbra Shroud was the first clan to agree with me that the Rail was crucial to the survival of Hell. This alliance proved my proposed Covenant's importance to the other clans."
+  ]
 }

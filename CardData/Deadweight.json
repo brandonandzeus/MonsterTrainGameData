@@ -1,7 +1,8 @@
 {
   "nameKey": "CardData_nameKey-ed0a4b9b8d5629ca-08cb21cbf11a0004ebc52273df1eedc7-v2",
-  "cardType": 5,
+  "cardType": "CardType.Blight",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "traits": [
     {
       "traitStateName": "CardTraitUnplayable"
@@ -13,5 +14,9 @@
   "cardLoreTooltipKeys": [
     "CardData_data-77220203e95ad3fa-08cb21cbf11a0004ebc52273df1eedc7-v2"
   ],
-  "name": "Deadweight"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Deadweight",
+  "cardLoreTooltip": [
+    "A chunk of the Pyre now devoid of any power. It just takes up space and is a bit of an eyesore. I've been unable to remove it from the train due to its enormous size and weight."
+  ]
 }

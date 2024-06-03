@@ -1,9 +1,9 @@
 {
   "nameKey": "CardData_nameKey-e26323009d57476d-c23af213a20b03c45bf6cdbd53b42a41-v2",
   "cost": 2,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -12,7 +12,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-9928b9723dd4d829-75a16e1d56f5f7d4aad752990daadad9-v2",
         "size": 3,
@@ -20,16 +21,17 @@
         "attackDamage": 15,
         "triggers": [
           {
-            "trigger": 15,
+            "trigger": "CharacterTriggerData.Trigger.OnHit",
             "descriptionKey": "CharacterData_descriptionKey-946c5475f7182048-75a16e1d56f5f7d4aad752990daadad9-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectGainEnergy",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramInt": 1
               }
-            ]
+            ],
+            "description": "Gain 1[ember]."
           }
         ],
         "subtypeKeys": [
@@ -38,10 +40,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-956e6ae18c83524d-75a16e1d56f5f7d4aad752990daadad9-v2"
+        ],
+        "name": "Wilting Sapwood",
+        "subtype": [
+          "Hollow",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "As an Awoken prepares to leave its physical being to become a custodian of the Wildwood, they harden their bark for ensured protection. I've observed that they also put down more roots with each step towards death, strengthening the entire Wildwood in the process."
         ]
       }
     }
   ],
   "linkedClass": "ClassAwoken",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Wilting Sapwood"
 }

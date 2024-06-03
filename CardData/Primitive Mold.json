@@ -2,6 +2,8 @@
   "nameKey": "CardData_nameKey-b987ade5084c1afd-7a8f00ae5e44a3447948e70369c2838b-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-0a9477b83cc7418e-7a8f00ae5e44a3447948e70369c2838b-v2",
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
   "traits": [
     {
       "traitStateName": "CardTraitShowCardTargets"
@@ -10,14 +12,15 @@
   "effects": [
     {
       "effectStateName": "CardEffectRecursion",
-      "targetMode": 15,
-      "targetTeamType": 0,
-      "targetCardType": 1,
-      "targetCardSelectionMode": 1,
+      "targetMode": "TargetMode.Exhaust",
+      "targetTeamType": "Team.Type.None",
+      "targetCardType": "CardType.Monster",
+      "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
       "paramInt": 1,
       "paramCardUpgradeData": {
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-f05d56acd65c0682-341b8d96f6526364c8b6abd34089ac9e-v2",
         "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-3fd316fe18de4b5b-341b8d96f6526364c8b6abd34089ac9e-v2",
+        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
         "bonusDamage": 5,
         "bonusHP": 5,
         "costReduction": 99,
@@ -26,7 +29,9 @@
             "statusId": "ephemeral",
             "count": 1
           }
-        ]
+        ],
+        "upgradeTitle": "",
+        "upgradeDescription": ""
       }
     }
   ],
@@ -34,5 +39,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-5a732a2545ba62dc-7a8f00ae5e44a3447948e70369c2838b-v2"
   ],
-  "name": "Primitive Mold"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Primitive Mold",
+  "overrideDescription": "[raise] a random unit.",
+  "cardLoreTooltip": [
+    "Fade brought me to the site of a rock split in two. The shape reminded me of the molds used by the Melting Remnant, and the drips of wax made this theory more plausible. Fade says she split the rock because she was bored, but her subsequent silence seems to suggest a more altruistic purpose. Why are they showing me these things?"
+  ]
 }

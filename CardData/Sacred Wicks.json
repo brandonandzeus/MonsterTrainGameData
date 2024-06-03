@@ -1,7 +1,8 @@
 {
   "nameKey": "CardData_nameKey-dced64eb716c522d-f4c55a5054caeb140803b97387671408-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-6604aef223b4d440-f4c55a5054caeb140803b97387671408-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitShowCardTargets"
@@ -13,14 +14,15 @@
   "effects": [
     {
       "effectStateName": "CardEffectRecursion",
-      "targetMode": 15,
-      "targetTeamType": 0,
-      "targetCardType": 1,
-      "targetCardSelectionMode": 1,
+      "targetMode": "TargetMode.Exhaust",
+      "targetTeamType": "Team.Type.None",
+      "targetCardType": "CardType.Monster",
+      "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
       "paramInt": 2,
       "paramCardUpgradeData": {
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-f05d56acd65c0682-341b8d96f6526364c8b6abd34089ac9e-v2",
         "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-3fd316fe18de4b5b-341b8d96f6526364c8b6abd34089ac9e-v2",
+        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
         "bonusDamage": 5,
         "bonusHP": 5,
         "costReduction": 99,
@@ -29,7 +31,9 @@
             "statusId": "ephemeral",
             "count": 1
           }
-        ]
+        ],
+        "upgradeTitle": "",
+        "upgradeDescription": ""
       }
     }
   ],
@@ -37,5 +41,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-a58b83a0d065f13a-f4c55a5054caeb140803b97387671408-v2"
   ],
-  "name": "Sacred Wicks"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Sacred Wicks",
+  "overrideDescription": "<b>Reform</b> [effect0.power] random units.",
+  "cardLoreTooltip": [
+    "While a soul of the Melting Remnant can be reformed in waxen molds, they are not truly reborn until they are given a new wick. The Reformed treat the practice of this ritual as highly sacred and secretive and I've been able to record little of its specifics."
+  ]
 }

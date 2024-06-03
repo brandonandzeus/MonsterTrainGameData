@@ -2,13 +2,14 @@
   "nameKey": "CardData_nameKey-6cb278fdf9648c35-5a05d8c0c0c261b458e7cdfc7291a3f7-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-c97499dca5c30676-5a05d8c0c0c261b458e7cdfc7291a3f7-v2",
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-c87606535bedccce-ebd31838e68ddb64d9e059209ef07fe7-v2",
         "size": 1,
@@ -19,18 +20,27 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-afe3ce2e67edf5f2-ebd31838e68ddb64d9e059209ef07fe7-v2"
+        ],
+        "name": "Transcendimp",
+        "subtype": [
+          "Imp"
+        ],
+        "characterLoreTooltip": [
+          "When a demon dies under the weight of their horns, they are reborn as impish infants, restarting their molting cycle. These imps are quite possibly the most powerful Hellhorned in existence - seeing all that has come before and all that will come after. While this power is lost upon their first molting, they've been crucial in my research of their Ring."
         ]
       }
     },
     {
       "effectStateName": "CardEffectReplayTrigger",
-      "targetMode": 5,
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.Self",
+      "targetTeamType": "Team.Type.Monsters",
       "shouldTest": false,
       "paramTrigger": 2
     }
   ],
   "linkedClass": "ClassHellhorned",
   "unlockLevel": 9,
-  "name": "Transcendimp"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Transcendimp",
+  "overrideDescription": "When played, repeat all [summon] effects triggered so far this battle."
 }

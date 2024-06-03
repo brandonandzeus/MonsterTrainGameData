@@ -1,8 +1,8 @@
 {
   "nameKey": "CardData_nameKey-c9397cd852bb9ebb-660f91d49adca314ebcb87d9f424ca4c-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-bd2697bb4fdc4c7d-660f91d49adca314ebcb87d9f424ca4c-v2",
-  "rarity": 1,
-  "requiredDLC": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitCorruptRestricted",
@@ -13,8 +13,10 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddTempCardUpgradeToNextDrawnCard",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCardUpgradeData": {
+        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitExhaustState"
@@ -22,23 +24,38 @@
         ],
         "filters": [
           {
-            "cardType": 0
+            "cardType": "CardType.Spell",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
       }
     },
     {
       "effectStateName": "CardEffectDraw",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramInt": 3,
       "additionalTooltips": [
         {
           "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "descriptionKey": "HudTooltip_RoomCorruption_Body",
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         },
         {
           "titleKey": "CardTraitExhaustState_CardText",
-          "descriptionKey": "CardTraitExhaustState_TooltipText"
+          "descriptionKey": "CardTraitExhaustState_TooltipText",
+          "title": "Consume",
+          "description": "Can only be played once per battle."
         }
       ]
     }
@@ -47,5 +64,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-bb73daa32da895d5-660f91d49adca314ebcb87d9f424ca4c-v2"
   ],
-  "name": "Ambient Charge"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Ambient Charge",
+  "overrideDescription": "Draw [effect1.power].<br>Apply [consume] to drawn spells.",
+  "cardLoreTooltip": [
+    "There is a large gap in the Wurmkin’s record of their history, an odd occurence for beings so intent on the preservation of knowledge. I’ve pieced together that during the Wurmkin’s rise to power, many Echoes were left unaccounted for, sealed away by the Kinhost in forgotten tunnels. Many that have been found have gone dark, their knowledge lost forever, but occasionally some are found that have fed off the passing souls above. It seems even this latent charge has been enough to preserve them."
+  ]
 }

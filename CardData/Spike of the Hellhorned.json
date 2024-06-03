@@ -1,14 +1,15 @@
 {
   "nameKey": "CardData_nameKey-614e2109f9a924a9-bb91494edd79b7744bc1f3adc7f58977-v2",
-  "costType": 1,
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-e3b3d96dac3d509d-bb91494edd79b7744bc1f3adc7f58977-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddStatusEffect",
-      "paramTrackedValue": 1,
-      "paramEntryDuration": 2,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
+      "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 2,
       "paramUseScalingParams": true,
       "paramStatusEffects": [
@@ -17,12 +18,12 @@
           "count": 0
         }
       ],
-      "paramTeamType": 1
+      "paramTeamType": "Team.Type.Heroes"
     },
     {
       "traitStateName": "CardTraitScalingAddStatusEffect",
-      "paramTrackedValue": 1,
-      "paramEntryDuration": 2,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
+      "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 2,
       "paramUseScalingParams": true,
       "paramStatusEffects": [
@@ -31,7 +32,7 @@
           "count": 0
         }
       ],
-      "paramTeamType": 1
+      "paramTeamType": "Team.Type.Heroes"
     },
     {
       "traitStateName": "CardTraitExhaustState"
@@ -40,8 +41,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "buff",
@@ -51,8 +52,8 @@
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 22,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "armor",
@@ -65,5 +66,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-59d1a6437c5deca6-bb91494edd79b7744bc1f3adc7f58977-v2"
   ],
-  "name": "Spike of the Hellhorned"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Spike of the Hellhorned",
+  "overrideDescription": "Apply [trait0.statusmultiplier][x] [rage] and [trait0.statusmultiplier][x] [armor].",
+  "cardLoreTooltip": [
+    "In an act of unity unheard of in Hellhorned culture, Grrrg the Railbeater snapped his own horn to seal the Rail in their Ring, bringing the Hellhorned into our Covenant. Grrrg the Railbeater was thereafter known as Grrrg Onehorn."
+  ]
 }

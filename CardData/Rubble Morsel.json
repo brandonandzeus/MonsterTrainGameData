@@ -1,37 +1,41 @@
 {
   "nameKey": "CardData_nameKey-fc223398e640491b-51d34c63fc9a1854da1169092623fb2d-v2",
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-0a14aec26754867c-428208d734f108842aea0bc1fec50eab-v2",
         "size": 1,
         "health": 1,
-        "attackDamage": 0,
         "triggers": [
           {
-            "trigger": 23,
+            "trigger": "CharacterTriggerData.Trigger.OnEaten",
             "descriptionKey": "CharacterData_descriptionKey-c85723bf287b911a-428208d734f108842aea0bc1fec50eab-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectGainEnergy",
-                "targetTeamType": 3,
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
                 "paramInt": 1,
                 "hideTooltip": true
               },
               {
                 "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                "targetMode": 20,
-                "targetTeamType": 3,
+                "targetMode": "TargetMode.LastFeederCharacter",
+                "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
                 "paramCardUpgradeData": {
+                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                   "bonusDamage": 1,
                   "bonusHP": 1
                 }
               }
-            ]
+            ],
+            "description": "Gain 1[ember]. Eater gains +[effect1.upgrade.bonusdamage][attack] and +[effect1.upgrade.bonushp][health]."
           }
         ],
         "subtypeKeys": [
@@ -39,11 +43,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-66e2bead71a8d228-428208d734f108842aea0bc1fec50eab-v2"
+        ],
+        "name": "Rubble Morsel",
+        "subtype": [
+          "Morsel"
+        ],
+        "characterLoreTooltip": [
+          "These low ranking Morsels are tasked with clearing out the Crucible of wreck and rubble. As such, there are many of them throughout the Crucible. Slowly, they've taken a liking to me."
         ]
       }
     }
   ],
   "linkedClass": "ClassUmbra",
   "ignoreWhenCountingMastery": true,
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Rubble Morsel"
 }

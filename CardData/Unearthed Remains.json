@@ -2,8 +2,8 @@
   "nameKey": "CardData_nameKey-fafca2be01e00a60-b390699688205b043a16fd9156b363c1-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-907fb94b5704c471-b390699688205b043a16fd9156b363c1-v2",
-  "rarity": 2,
-  "requiredDLC": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -12,19 +12,23 @@
   "effects": [
     {
       "effectStateName": "CardEffectAdjustRoomMaxCorruption",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramInt": 1,
       "paramBool": true
     },
     {
       "effectStateName": "CardEffectAdjustCorruption",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramInt": 1,
       "paramBool": true,
       "additionalTooltips": [
         {
           "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "descriptionKey": "HudTooltip_RoomCorruption_Body",
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
       ]
     }
@@ -34,5 +38,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-06c24fd03791f931-b390699688205b043a16fd9156b363c1-v2"
   ],
-  "name": "Unearthed Remains"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Unearthed Remains",
+  "overrideDescription": "Gain 1[emptycorrupt].<br>Gain 1 [corrupt].",
+  "cardLoreTooltip": [
+    "The Wurmkin treat the tunnels of the Bogwurm’s Remains as sacred ground, making minor adjustments to the structure to avoid risking its structural stability. Space is limited with no expansions made intentionally. So, when a tunnel collapse leads to a forgotten cavern, you can imagine the Wurmkin’s joy — or what passes for joy — at the new space and Echoes to explore."
+  ]
 }

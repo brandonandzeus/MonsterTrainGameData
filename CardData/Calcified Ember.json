@@ -1,7 +1,8 @@
 {
   "nameKey": "CardData_nameKey-966c03db530e07a8-6248d37906631db41a6ebcb105f7a5b3-v2",
   "cost": 3,
-  "cardType": 5,
+  "cardType": "CardType.Blight",
+  "rarity": "CollectableRarity.Common",
   "traits": [
     {
       "traitStateName": "CardTraitSelfPurge"
@@ -10,5 +11,9 @@
   "cardLoreTooltipKeys": [
     "CardData_data-ba24dca58f5bbccb-6248d37906631db41a6ebcb105f7a5b3-v2"
   ],
-  "name": "Calcified Ember"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Calcified Ember",
+  "cardLoreTooltip": [
+    "Most Ember, a byproduct of the energy within the Pyre, was encased in stone and ice when Hell froze. This made it inaccessible, and unusable, by our train."
+  ]
 }

@@ -2,13 +2,14 @@
   "nameKey": "CardData_nameKey-39141423231d15b5-4304897c778c4fc488b84d90b9a72b48-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-864c4859c3ebd110-4304897c778c4fc488b84d90b9a72b48-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "regen",
@@ -18,8 +19,8 @@
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 22,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "spikes",
@@ -34,8 +35,9 @@
     },
     {
       "effectStateName": "CardEffectAddBattleCard",
+      "targetMode": "TargetMode.Room",
       "copyModifiersFromSource": true,
-      "targetTeamType": 3,
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "shouldTest": false,
       "paramInt": 1,
       "paramCardPool": {
@@ -51,5 +53,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-a67cf0750c61fb6f-4304897c778c4fc488b84d90b9a72b48-v2"
   ],
-  "name": "Spreading Spores"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Spreading Spores",
+  "overrideDescription": "Apply [regen] [effect0.status0.power] and [spikes] [effect1.status0.power]. Add a copy of this card to your discard pile.",
+  "cardLoreTooltip": [
+    "When thorns find their mark, they release spores into the air to incapacitate unsuspecting victims. These poor souls soon transform into Awoken and feed the vines that first spread the spores. On the embarrassingly frequent occasions that I'm stung by these thorns, I remove them before any real damage occurs."
+  ]
 }

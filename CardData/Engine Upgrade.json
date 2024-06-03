@@ -2,7 +2,8 @@
   "nameKey": "CardData_nameKey-59bf343cb444a5b4-42ab70b2c3946d643865986c6cae877a-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-dd26e765cb84e327-42ab70b2c3946d643865986c6cae877a-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -11,18 +12,22 @@
   "effects": [
     {
       "effectStateName": "CardEffectAdjustRoomCapacity",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramInt": -1,
       "additionalTooltips": [
         {
           "titleKey": "Capacity_TooltipTitle",
-          "descriptionKey": "Capacity_TooltipText"
+          "descriptionKey": "Capacity_TooltipText",
+          "title": "[capacity] Capacity",
+          "description": "Units can only be summoned on a floor if it has enough capacity."
         }
       ]
     },
     {
       "effectStateName": "CardEffectGainEnergyEveryTurn",
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Monsters",
       "shouldTest": false,
       "paramInt": 1
     }
@@ -32,5 +37,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-aba8922a2eef2f71-42ab70b2c3946d643865986c6cae877a-v2"
   ],
-  "name": "Engine Upgrade"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Engine Upgrade",
+  "overrideDescription": "[effect0.power][capacity] on this floor.<br><nobr>+[effect1.power][ember]</nobr> per turn for the rest of battle.",
+  "cardLoreTooltip": [
+    "A substantial upgrade to the furnaces in the Boneshaker will eventually be necessary to ensure more efficient energy output. These upgrades will require considerable room to function, though."
+  ]
 }

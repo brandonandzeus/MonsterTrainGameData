@@ -1,9 +1,8 @@
 {
   "cost": 2,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -12,12 +11,12 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-e76268dab3f00261-0e426e2c2b599dc4ab62b7e24310d2da-v2",
         "size": 3,
         "health": 1,
-        "attackDamage": 0,
         "startingStatusEffects": [
           {
             "statusId": "hatch",
@@ -26,14 +25,14 @@
         ],
         "triggers": [
           {
-            "trigger": 37,
+            "trigger": "CharacterTriggerData.Trigger.OnRemoveHatch",
             "descriptionKey": "CharacterData_descriptionKey-1e1fb50cdb820133-0e426e2c2b599dc4ab62b7e24310d2da-v2",
             "hideTriggerTooltip": true,
             "effects": [
               {
                 "effectStateName": "CardEffectRemoveStatusEffectPerCorrupt",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramInt": 1,
                 "paramStatusEffects": [
                   {
@@ -43,16 +42,17 @@
                 ],
                 "hideTooltip": true
               }
-            ]
+            ],
+            "description": ""
           },
           {
-            "trigger": 30,
+            "trigger": "CharacterTriggerData.Trigger.OnHatched",
             "descriptionKey": "CharacterData_descriptionKey-cf2c5f1ebcd193ca-0e426e2c2b599dc4ab62b7e24310d2da-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectSacrifice",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramBool": true,
                 "paramStatusEffects": [
                   {
@@ -64,8 +64,8 @@
               },
               {
                 "effectStateName": "CardEffectSpawnMonster",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramCharacterData": {
                   "nameKey": "CharacterData_nameKey-219ee66c7261f969-c82a07efc532479489fd2f32c9fa9f4b-v2",
                   "size": 4,
@@ -80,19 +80,21 @@
                   ],
                   "triggers": [
                     {
-                      "trigger": 35,
+                      "trigger": "CharacterTriggerData.Trigger.CardExhausted",
                       "descriptionKey": "CharacterData_descriptionKey-72e5a8d9989c0ea8-c82a07efc532479489fd2f32c9fa9f4b-v2",
                       "effects": [
                         {
                           "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                          "targetMode": 5,
-                          "targetTeamType": 0,
+                          "targetMode": "TargetMode.Self",
+                          "targetTeamType": "Team.Type.None",
                           "paramCardUpgradeData": {
+                            "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                             "bonusDamage": 10,
                             "bonusHP": 10
                           }
                         }
-                      ]
+                      ],
+                      "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health]."
                     }
                   ],
                   "subtypeKeys": [
@@ -100,16 +102,26 @@
                   ],
                   "characterLoreTooltipKeys": [
                     "CharacterData_data-6c8a9f9cb83b30ff-c82a07efc532479489fd2f32c9fa9f4b-v2"
+                  ],
+                  "name": "Bog Wurmling",
+                  "subtype": [
+                    "Kin"
+                  ],
+                  "characterLoreTooltip": [
+                    "Erth was the name posthumously given to the Bogwurm — a name of function. The Wurm’s remains have seeded much of the life now buzzing in its bowels. The dead Titan’s bones — another peculiarity for a usually boneless creature — create the structure the Wurmkin inhabit while the flesh decays just above. Even in death, there’s still some latent power in the Wurm as it has created spawn in its own likeness."
                   ]
                 },
                 "additionalTooltips": [
                   {
                     "titleKey": "HudTooltip_RoomCorruption_Title",
-                    "descriptionKey": "HudTooltip_RoomCorruption_Body"
+                    "descriptionKey": "HudTooltip_RoomCorruption_Body",
+                    "title": "Charged Echoes",
+                    "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Summon Bog Wurmling"
           }
         ],
         "subtypeKeys": [
@@ -118,6 +130,14 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-0dcb89178b9b5935-0e426e2c2b599dc4ab62b7e24310d2da-v2"
+        ],
+        "name": "Bogdeep Cocoon",
+        "subtype": [
+          "Egg",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "In the places where the fleshy sludge has calcified, the Bogwurm’s Remains have concentrated and created new sentient life in its own image. Even in death, the Titans continue to save us."
         ]
       }
     }
@@ -125,10 +145,11 @@
   "linkedClass": "ClassWurm",
   "unlockLevel": 4,
   "sharedDiscoveryCards": [
-    "BogWurmling"
+    "Bog Wurmling"
   ],
   "sharedMasteryCards": [
-    "BogWurmling"
+    "Bog Wurmling"
   ],
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Bogdeep Cocoon"
 }

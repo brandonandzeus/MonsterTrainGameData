@@ -1,12 +1,14 @@
 {
   "nameKey": "CardData_nameKey-e536c1f67c3088ea-c50a0c172f9f873438b7477b0edcf746-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-be46fd89b6603e3b-90b3253ccd2a5314588b252c9dc347cf-v2",
         "size": 1,
@@ -15,15 +17,17 @@
         "attackDamage": 1,
         "triggers": [
           {
-            "trigger": 2,
+            "trigger": "CharacterTriggerData.Trigger.OnSpawn",
             "descriptionKey": "CharacterData_descriptionKey-e12851f34a0453f9-90b3253ccd2a5314588b252c9dc347cf-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectDamage",
-                "targetMode": 2,
+                "targetMode": "TargetMode.FrontInRoom",
+                "targetTeamType": "Team.Type.Heroes",
                 "paramInt": 10
               }
-            ]
+            ],
+            "description": "Deal [effect0.power] damage to the front enemy unit."
           }
         ],
         "subtypeKeys": [
@@ -31,10 +35,18 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-b48ea8a5c55a1275-90b3253ccd2a5314588b252c9dc347cf-v2"
+        ],
+        "name": "Queen's Impling",
+        "subtype": [
+          "Imp"
+        ],
+        "characterLoreTooltip": [
+          "In these dreams, the Shardtail has shown me the result of her Exodus: the first cycling imps in the Scorched Plains. I've never encountered these sharded imps in Hell, but their resemblence to those I have met is uncanny. Perhaps these dreams are something more..."
         ]
       }
     }
   ],
   "linkedClass": "ClassHellhorned",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Queen's Impling"
 }

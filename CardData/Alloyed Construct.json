@@ -1,9 +1,9 @@
 {
   "nameKey": "CardData_nameKey-edf7419bfd044201-cb8d17353a211fc4b8ab58a851d66863-v2",
   "cost": 2,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -12,11 +12,13 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-1e11de0500d18321-69b2e185d7f9a724aa86b2e6d46e8ae5-v2",
+        "size": 2,
         "health": 25,
-        "deathType": 1,
+        "deathType": "CharacterDeathVFX.Type.Large",
         "attackDamage": 25,
         "startingStatusEffects": [
           {
@@ -30,13 +32,13 @@
         ],
         "triggers": [
           {
-            "trigger": 22,
+            "trigger": "CharacterTriggerData.Trigger.OnFeed",
             "descriptionKey": "CharacterData_descriptionKey-bf6c8e46ac8f77ff-69b2e185d7f9a724aa86b2e6d46e8ae5-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramStatusEffects": [
                   {
                     "statusId": "spark",
@@ -44,7 +46,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Gain [spark] [effect0.status0.power]."
           }
         ],
         "subtypeKeys": [
@@ -53,11 +56,20 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-3d0d0f1624807e5c-69b2e185d7f9a724aa86b2e6d46e8ae5-v2"
+        ],
+        "name": "Alloyed Construct",
+        "subtype": [
+          "Construct",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "As their understanding of the world around them grew, the Umbra were able to create autonomous machines to do the work of one thousand Morsels. They’ve since served the additional roles of Crucible defender and my personal guard into the depths of Hell."
         ]
       }
     }
   ],
   "linkedClass": "ClassUmbra",
   "unlockLevel": 4,
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Alloyed Construct"
 }

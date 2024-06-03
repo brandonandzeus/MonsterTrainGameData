@@ -2,11 +2,13 @@
   "nameKey": "CardData_nameKey-d89e7b54b930c172-936c2015becd56e42a804cd2f7533c2c-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-a8b18fab6bab1179-936c2015becd56e42a804cd2f7533c2c-v2",
-  "rarity": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectHeal",
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Monsters",
       "paramInt": 9999
     }
   ],
@@ -14,5 +16,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-12848beb62d8aaf4-936c2015becd56e42a804cd2f7533c2c-v2"
   ],
-  "name": "Unleash the Wildwood"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Unleash the Wildwood",
+  "overrideDescription": "Restore friendly units to full health.",
+  "cardLoreTooltip": [
+    "The vines of the Wildwood stockpile harvested energy to use during unexpected droughts. When these stores are tapped into, the energy provides a surge of new life and power to the host."
+  ]
 }

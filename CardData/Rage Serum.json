@@ -1,8 +1,9 @@
 {
   "nameKey": "CardData_nameKey-a411afafcd2d351d-da5170ff394a9c54b80bb679894606a7-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-32290977b7251669-da5170ff394a9c54b80bb679894606a7-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -11,8 +12,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 100,
       "paramStatusEffects": [
         {
@@ -26,5 +27,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-43de87bb59cd14fd-da5170ff394a9c54b80bb679894606a7-v2"
   ],
-  "name": "Rage Serum"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Rage Serum",
+  "overrideDescription": "Apply [rage] [effect0.status0.power].",
+  "cardLoreTooltip": [
+    "Some Hellhorned grind the horns they’ve won and steep a potion for additional strength. It is a foul substance that I've had the distinct misfortune to try, but the Hellhorned can't seem to get enough."
+  ]
 }

@@ -1,27 +1,28 @@
 {
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-1ff9c51bf6a24cf4-9753104f58db2f14caea0965e30e3538-v2",
         "size": 1,
         "health": 1,
-        "attackDamage": 0,
         "deathSlidesBackwards": false,
         "triggers": [
           {
-            "trigger": 19,
+            "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed",
             "descriptionKey": "CharacterData_descriptionKey-b167abe297bb57e4-9753104f58db2f14caea0965e30e3538-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "targetTeamType": 2,
-                "animToPlay": 2,
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.Monsters",
+                "animToPlay": "CharacterUI.Anim.Attack",
                 "paramInt": 100,
                 "paramStatusEffects": [
                   {
@@ -30,7 +31,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Apply [armor] [effect0.status0.power] to friendly units."
           }
         ],
         "subtypeKeys": [
@@ -38,10 +40,18 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-d40b317dedb99ed1-9753104f58db2f14caea0965e30e3538-v2"
+        ],
+        "name": "Guardian Stone",
+        "subtype": [
+          "Totem"
+        ],
+        "characterLoreTooltip": [
+          "I've been told these stones predate even the Guard. They have been etched by its various members, marking the only true record of each Stygian who has been inducted."
         ]
       }
     }
   ],
   "linkedClass": "ClassStygian",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Guardian Stone"
 }

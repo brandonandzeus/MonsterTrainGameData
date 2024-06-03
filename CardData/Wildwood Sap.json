@@ -2,7 +2,9 @@
   "nameKey": "CardData_nameKey-6774285a0d9a93b9-1dad3a901de1e434fbeda1d96d66b243-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-46fe368008af19a1-1dad3a901de1e434fbeda1d96d66b243-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -11,8 +13,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "regen",
@@ -25,5 +27,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-0d08279b14cc0e75-1dad3a901de1e434fbeda1d96d66b243-v2"
   ],
-  "name": "Wildwood Sap"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Wildwood Sap",
+  "overrideDescription": "Apply [regen] [effect0.status0.power].",
+  "cardLoreTooltip": [
+    "When sap from Wildwood trees is consumed, it imparts the healing power of their reproductive spores. I also quite enjoy its floral sweetness."
+  ]
 }

@@ -1,16 +1,19 @@
 {
   "nameKey": "CardData_nameKey-2d7d61d62ac4c71d-1175f1544be6d444c8e4a6be92df6520-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-fbba9c15201a4755-11a15f5949523af41804f162c783d725-v2",
+        "size": 2,
         "health": 5,
+        "attackDamage": 10,
         "attackTeleportsToDefender": false,
         "startingStatusEffects": [
           {
@@ -24,23 +27,34 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-ff8dd14fb5d5c8ac-11a15f5949523af41804f162c783d725-v2"
+        ],
+        "name": "Bounty Stalker",
+        "subtype": [
+          "Wickless",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "Contracted assassins often employed by the Wickless to accomplish what even they cannot. Their incredible prowess in hunting Waxers has made them feared across the entire Ring, from Reformed to Wickless alike. I can't say I much like them myself."
         ]
       }
     }
   ],
   "triggers": [
     {
-      "trigger": 3,
+      "trigger": "CardTriggerType.OnMonsterDeath",
       "descriptionKey": "CardData_descriptionKey-41205ef0cc4caead-1175f1544be6d444c8e4a6be92df6520-v2",
       "cardTriggerEffects": [
         {
+          "persistenceMode": "PersistenceMode.SingleRun",
           "cardTriggerEffect": "CardTriggerEffectBuffCharacterDamage",
           "buffEffectType": "None",
           "paramInt": 8
         }
-      ]
+      ],
+      "description": "+8[attack] permanently."
     }
   ],
   "linkedClass": "ClassRemnant",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Bounty Stalker"
 }

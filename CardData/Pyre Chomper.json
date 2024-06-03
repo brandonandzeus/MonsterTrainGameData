@@ -1,13 +1,14 @@
 {
   "nameKey": "CardData_nameKey-384e03f328a02efe-12b7e8dc8f09a3148a4b98feaf16538c-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-4d67de40f63fa3fd-2e9399d4a987b7149883d0deffbaa5f3-v2",
         "size": 1,
@@ -15,16 +16,17 @@
         "attackDamage": 1,
         "triggers": [
           {
-            "trigger": 2,
+            "trigger": "CharacterTriggerData.Trigger.OnSpawn",
             "descriptionKey": "CharacterData_descriptionKey-c8c50e0ca96470a0-2e9399d4a987b7149883d0deffbaa5f3-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectGainEnergy",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramInt": 4
               }
-            ]
+            ],
+            "description": "<nobr>Gain [effect0.power][ember].</nobr>"
           }
         ],
         "subtypeKeys": [
@@ -32,10 +34,18 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-17a8ec1a815f5bad-2e9399d4a987b7149883d0deffbaa5f3-v2"
+        ],
+        "name": "Pyre Chomper",
+        "subtype": [
+          "Imp"
+        ],
+        "characterLoreTooltip": [
+          "These imps have taken a rather strong liking to the Pyre as a snack food, making them horrible pests aboard my train. Though the sharp crystals don't digest well..."
         ]
       }
     }
   ],
   "linkedClass": "ClassHellhorned",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Pyre Chomper"
 }

@@ -1,13 +1,14 @@
 {
   "nameKey": "CardData_nameKey-03219e661aba4599-9ca5df78005fb0e4f90d8bdc123673fa-v2",
-  "costType": 1,
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-cf5048f1aff6bc6c-9ca5df78005fb0e4f90d8bdc123673fa-v2",
-  "rarity": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitScalingUpgradeUnitAttack",
-      "paramTrackedValue": 1,
-      "paramEntryDuration": 2,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
+      "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 4,
       "paramUseScalingParams": true
     },
@@ -18,22 +19,28 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Monsters",
       "paramCardUpgradeData": {
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-7a508d89705116a7-85e24be408189d14b83b9a313951b108-v2",
-        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-276ae52d5af7c722-85e24be408189d14b83b9a313951b108-v2"
+        "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-276ae52d5af7c722-85e24be408189d14b83b9a313951b108-v2",
+        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+        "upgradeTitle": "",
+        "upgradeDescription": ""
       },
       "additionalTooltips": [
         {
           "descriptionKey": "TipTooltip_StatChangesStick",
-          "style": 0,
-          "isTipTooltip": true
+          "style": "TooltipDesigner.TooltipDesignType.Default",
+          "isTipTooltip": true,
+          "description": "<b>Tip:</b> Stat changes persist for the duration of battle."
         }
       ]
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "ephemeral",
@@ -46,5 +53,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-d50a213d4b03887f-9ca5df78005fb0e4f90d8bdc123673fa-v2"
   ],
-  "name": "Waxen Spike"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Waxen Spike",
+  "overrideDescription": "Apply +[trait0.power][x][attack] and [burnout] [effect1.status0.power] to friendly units.",
+  "cardLoreTooltip": [
+    "The alliance of the Rings of Hell also created an alliance between the Reformed and the Wickless Remains, bringing together the separate groups under Flicker. To seal their pact, they created a Railspike from their collective wax and drove it into our Rail."
+  ]
 }

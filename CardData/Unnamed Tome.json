@@ -1,7 +1,8 @@
 {
   "nameKey": "CardData_nameKey-e321d65e84a21be4-2b37a3e13e5b98a479331e691d94ebc6-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-b98f67d7bc43663a-2b37a3e13e5b98a479331e691d94ebc6-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitPermafrost"
@@ -13,6 +14,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 100,
       "paramStatusEffects": [
         {
@@ -26,5 +29,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-715a58245b3fe5aa-2b37a3e13e5b98a479331e691d94ebc6-v2"
   ],
-  "name": "Unnamed Tome"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Unnamed Tome",
+  "overrideDescription": "Apply [silence] to enemy units.",
+  "cardLoreTooltip": [
+    "When the Titan was finally put to rest, the Stygian Guard was formed. Tethys and I wrote this tome to record the existence of the Unnamed Titan and prophesize its return."
+  ]
 }

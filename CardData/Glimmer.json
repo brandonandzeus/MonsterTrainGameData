@@ -2,15 +2,20 @@
   "nameKey": "CardData_nameKey-f70e6a3e74247f5e-988ad6229efa52249934a22734415a26-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-70c41bfa151c6f33-988ad6229efa52249934a22734415a26-v2",
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectHeal",
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Monsters",
       "paramInt": 2,
       "paramMinInt": 1
     },
     {
       "effectStateName": "CardEffectDamage",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 2,
       "paramMinInt": 1
     }
@@ -19,5 +24,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-0ca22537907b49e8-988ad6229efa52249934a22734415a26-v2"
   ],
-  "name": "Glimmer"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Glimmer",
+  "overrideDescription": "Restore [effect0.power] health to friendly units and deal [effect1.power] damage to enemy units.",
+  "cardLoreTooltip": [
+    "If struck by a surge of electricity, a Sapwood will crystallize into glass. The sap within will become preserved as a supercharged healing solvent. But I can't seem to break the glass without losing much of this sap in the process."
+  ]
 }

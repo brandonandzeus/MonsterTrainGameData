@@ -1,9 +1,9 @@
 {
   "nameKey": "CardData_nameKey-7c7bfc4972a718ec-5bb2071122deea94ba6855eda9a5ab38-v2",
   "cost": 2,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -12,19 +12,22 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-84b1076c93f5a108-58bd4aa941e1c4e49b9390f55338d418-v2",
         "size": 3,
         "health": 30,
+        "attackDamage": 10,
         "triggers": [
           {
-            "trigger": 18,
+            "trigger": "CharacterTriggerData.Trigger.OnAnyUnitDeathOnFloor",
             "descriptionKey": "CharacterData_descriptionKey-ddafa2d805a136b2-58bd4aa941e1c4e49b9390f55338d418-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": 5,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.Heroes",
                 "paramInt": 100,
                 "paramStatusEffects": [
                   {
@@ -33,7 +36,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Gain [rage] [effect0.status0.power]."
           }
         ],
         "subtypeKeys": [
@@ -42,11 +46,20 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-0130d5385b1a9ff2-58bd4aa941e1c4e49b9390f55338d418-v2"
+        ],
+        "name": "Big Sludge",
+        "subtype": [
+          "Wickless",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "Even wax dripping has its limits. While it makes the target incredibly large and near unkillable, it also forces them into an eternal state of dripping. Wick or no, this compels them to continue to gutter more and more wax if they wish to retain this power."
         ]
       }
     }
   ],
   "linkedClass": "ClassRemnant",
   "unlockLevel": 6,
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Big Sludge"
 }

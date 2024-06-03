@@ -1,7 +1,8 @@
 {
   "nameKey": "CardData_nameKey-a754ab3234a8c711-ea3eb06c4c3c9dd468a73d2bf702e83e-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-5dd2afb192d64c0b-ea3eb06c4c3c9dd468a73d2bf702e83e-v2",
-  "requiredDLC": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
   "traits": [
     {
       "traitStateName": "CardTraitStrongerMagicPower"
@@ -14,12 +15,15 @@
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 2,
+      "targetMode": "TargetMode.FrontInRoom",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 50,
       "additionalTooltips": [
         {
           "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "descriptionKey": "HudTooltip_RoomCorruption_Body",
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
       ]
     }
@@ -28,5 +32,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-8efb11e6d74b0a08-ea3eb06c4c3c9dd468a73d2bf702e83e-v2"
   ],
-  "name": "Proclamation"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Proclamation",
+  "overrideDescription": "Deal [effect0.power] damage to the front enemy unit.",
+  "cardLoreTooltip": [
+    "I was quite literally pulled into the Bogs on my first encounter with the Wurmkin. They’d long been aware of my explorations in their Ring and decided it was time they revealed their purpose. Something regarding “breaking the loop.” Well, I’ve yet to understand that purpose or to leave these wretched wastes, but I can’t say the sheer insanity of it all doesn’t excite me."
+  ]
 }

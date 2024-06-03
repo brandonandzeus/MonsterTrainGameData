@@ -1,18 +1,18 @@
 {
   "nameKey": "CardData_nameKey-1e14829ae3cc011d-a809d6aaff36dcf4f81075d2bd0ce3b5-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-207d81c5f9dc835e-1a611d74a82ff864591634f920c20477-v2",
         "size": 1,
         "health": 2,
-        "attackDamage": 0,
         "subtypeKeys": [
           "SubtypesData_Cultist_8a3bb2b5-8c56-4c86-bb08-85b95c488f23"
         ],
@@ -23,12 +23,21 @@
           {
             "roomStateModifierClassName": "RoomStateHandSizeModifier",
             "descriptionKey": "CharacterData_descriptionKey-f49cc223b99c069f-1a611d74a82ff864591634f920c20477-v2",
-            "paramInt": 1
+            "paramInt": 1,
+            "description": "Draw +[paramInt] each turn."
           }
+        ],
+        "name": "Wildwood Custodian",
+        "subtype": [
+          "Channeler"
+        ],
+        "characterLoreTooltip": [
+          "Once a soul has been transformed and released again from the vines, they are forever bound as a caretaker to the Wildwood. From my time with them it is clear that these Channelers take pride in aiding the souls who have yet to be released."
         ]
       }
     }
   ],
   "linkedClass": "ClassAwoken",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Wildwood Custodian"
 }

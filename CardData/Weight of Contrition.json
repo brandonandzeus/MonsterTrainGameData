@@ -1,8 +1,8 @@
 {
   "nameKey": "CardData_nameKey-b76147faecb7dd3d-0cc050cac6894c645a96f4b9e195f4aa-v2",
   "cost": 1,
-  "cardType": 6,
-  "rarity": 1,
+  "cardType": "CardType.Junk",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitSelfPurge"
@@ -10,20 +10,25 @@
   ],
   "triggers": [
     {
-      "trigger": 10,
+      "trigger": "CardTriggerType.OnUnplayed",
       "descriptionKey": "CardData_descriptionKey-2fe22be58530412e-0cc050cac6894c645a96f4b9e195f4aa-v2",
       "cardEffects": [
         {
           "effectStateName": "CardEffectDamage",
-          "targetMode": 21,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Pyre",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 3
         }
-      ]
+      ],
+      "description": "Your Pyre takes [effect0.power] damage."
     }
   ],
   "cardLoreTooltipKeys": [
     "CardData_data-93bf189ef481cf07-0cc050cac6894c645a96f4b9e195f4aa-v2"
   ],
-  "name": "Weight of Contrition"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Weight of Contrition",
+  "cardLoreTooltip": [
+    "When a sin is deemed more serious, a more comprehensive device must be put into use. It is reserved for venial sins and the Hellborne who have directly offended the Winged."
+  ]
 }

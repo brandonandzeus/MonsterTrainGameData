@@ -2,15 +2,19 @@
   "nameKey": "CardData_nameKey-afa867f54f335d6b-0494b3aaff86c5c4681944d663dfb0b7-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-e8be78cac15876a6-0494b3aaff86c5c4681944d663dfb0b7-v2",
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 2,
+      "targetMode": "TargetMode.FrontInRoom",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 25
     },
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 2,
+      "targetMode": "TargetMode.FrontInRoom",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 25,
       "paramTimingDelays": {
         "x": 0.1,
@@ -23,5 +27,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-a83d65663cd24502-0494b3aaff86c5c4681944d663dfb0b7-v2"
   ],
-  "name": "Helical Crystalis"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Helical Crystalis",
+  "overrideDescription": "Deal {[effect0.power]} damage to the front enemy unit, twice.",
+  "cardLoreTooltip": [
+    "Physical combat has never been a strong suit of the Stygian Guard. Thankfully, their control of the energy coming from the Unnamed has made them deadly protectors of the inner Rings of Hell."
+  ]
 }

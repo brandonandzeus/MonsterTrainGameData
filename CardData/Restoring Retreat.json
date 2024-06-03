@@ -2,19 +2,20 @@
   "nameKey": "CardData_nameKey-06dff3b4e8262a63-f5d9178b8e7a9e34db5d509bc5f5248c-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-90d091565f5fb040-f5d9178b8e7a9e34db5d509bc5f5248c-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectHeal",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 10
     },
     {
       "effectStateName": "CardEffectBump",
-      "targetMode": 22,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": -1
     }
   ],
@@ -22,5 +23,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-48df2ad931f7aa38-f5d9178b8e7a9e34db5d509bc5f5248c-v2"
   ],
-  "name": "Restoring Retreat"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Restoring Retreat",
+  "overrideDescription": "Restore [effect0.power] health to a unit and [descend] it.",
+  "cardLoreTooltip": [
+    "After inhabiting the Boneshaker for some time, the Awoken vines have implanted themselves throughout the train. This allows them, and our enemies, to travel great distances in a short amount of time, recharging in the process."
+  ]
 }

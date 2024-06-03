@@ -1,25 +1,35 @@
 {
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 3,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Champion",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-fec329388595a833-2622e40cd8007bb48b4046545f2cf79e-v2",
+        "size": 2,
         "health": 5,
+        "attackDamage": 10,
         "attackTeleportsToDefender": false,
         "subtypeKeys": [
           "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-ddb48c7344d6a389-2622e40cd8007bb48b4046545f2cf79e-v2"
+        ],
+        "name": "Echowright",
+        "subtype": [
+          "Champion"
+        ],
+        "characterLoreTooltip": [
+          "I suppose it should be no surprise that the Shardsouls protecting the Exiles are one and the same as the Echoes found in the Wurmkin’s care. I’d understood the trapping of souls to be Talos’ idea, and that still seems accurate, but the transfer of knowledge back out of these shards was created millennia ago by now extinct Kinhost intelligence. Was the Echowright’s voluntary Exile a sort of last stand? Or part of something larger?"
         ]
       }
     }
   ],
   "linkedClass": "ClassWurm",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Echowright"
 }

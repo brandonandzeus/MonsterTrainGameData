@@ -2,8 +2,9 @@
   "nameKey": "CardData_nameKey-c96276f175c949f1-8431768d8be902f48a64ef357ea2d8d9-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-8ddd3c0d5e13a597-8431768d8be902f48a64ef357ea2d8d9-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -12,7 +13,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes",
       "paramStatusEffects": [
         {
           "statusId": "dazed",
@@ -22,7 +24,8 @@
     },
     {
       "effectStateName": "CardEffectBump",
-      "targetMode": 22,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 100,
       "paramStatusEffects": [
         {
@@ -35,5 +38,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-a0c2cd11d1444748-8431768d8be902f48a64ef357ea2d8d9-v2"
   ],
-  "name": "Steel Pulleyclaw"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Steel Pulleyclaw",
+  "overrideDescription": "[ascend] an enemy unit to the Pyre Room. Apply [dazed] [effect0.status0.power].",
+  "cardLoreTooltip": [
+    "Found in an abandoned train yard, this Steel Pulleyclaw was used to assemble the trains themselves. With minimal adjustments, I was able to modify it for a more combative purpose."
+  ]
 }

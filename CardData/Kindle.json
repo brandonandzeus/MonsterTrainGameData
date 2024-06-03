@@ -1,16 +1,17 @@
 {
   "nameKey": "CardData_nameKey-6d5de62d50f070ab-13d2fc4da8b510146b390968e888b048-v2",
-  "costType": 1,
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-2904a3c9a6cad6f0-13d2fc4da8b510146b390968e888b048-v2",
-  "rarity": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddEnergy",
-      "paramTrackedValue": 1,
-      "paramEntryDuration": 2,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
+      "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 2,
       "paramUseScalingParams": true,
-      "paramTeamType": 1
+      "paramTeamType": "Team.Type.Heroes"
     },
     {
       "traitStateName": "CardTraitExhaustState"
@@ -19,7 +20,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectGainEnergy",
-      "targetTeamType": 0
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
   "linkedClass": "ClassUmbra",
@@ -27,5 +29,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-1884515776f68d10-13d2fc4da8b510146b390968e888b048-v2"
   ],
-  "name": "Kindle"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Kindle",
+  "overrideDescription": "Gain [trait0.power][x][ember].",
+  "cardLoreTooltip": [
+    "The Umbra Shroud mines the depths of the Crucible, creating more vents to the surface above. These allow the ember below to burn ever more fiercely, and when applied to the Boneshaker, the same technique has allowed us to increase our fuel efficiency for short amounts of time."
+  ]
 }

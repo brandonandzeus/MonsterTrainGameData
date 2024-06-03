@@ -2,13 +2,14 @@
   "nameKey": "CardData_nameKey-83f9dcb01efe0979-d101637438c41944e8af7d523d590437-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-4ac4e4bde951ac92-d101637438c41944e8af7d523d590437-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "damage shield",
@@ -18,8 +19,8 @@
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 22,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "buff",
@@ -29,8 +30,8 @@
     },
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 22,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "scorch",
@@ -43,5 +44,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-7eb1b7eb91ddb738-d101637438c41944e8af7d523d590437-v2"
   ],
-  "name": "Void Binding"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Void Binding",
+  "overrideDescription": "Apply [damageshield] [effect0.status0.power], [rage] [effect1.status0.power], and [emberdrain] [effect2.status0.power].",
+  "cardLoreTooltip": [
+    "When Void shards were first found, they were considered to be of little value. So, they were collected and dumped to the depths of the Crucible. Later, the Umbra and I found that the shards can mimic the effects of any nearby gems, making them incredibly useful tools if bound directly to the body."
+  ]
 }

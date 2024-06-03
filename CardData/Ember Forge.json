@@ -1,19 +1,19 @@
 {
   "nameKey": "CardData_nameKey-1db9a51829460e38-650a152212c797643b2b9569754780c2-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-aca9bed3ffd92c25-7fddf4cdd7bf0f54d83d4b10e9c30b81-v2",
         "size": 3,
         "health": 20,
-        "deathType": 1,
-        "attackDamage": 0,
+        "deathType": "CharacterDeathVFX.Type.Large",
         "subtypeKeys": [
           "SubtypesData_Automaton"
         ],
@@ -24,13 +24,22 @@
           {
             "roomStateModifierClassName": "RoomStateEnergyModifier",
             "descriptionKey": "CharacterData_descriptionKey-385eca38528d9ff3-7fddf4cdd7bf0f54d83d4b10e9c30b81-v2",
-            "paramInt": 2
+            "paramInt": 2,
+            "description": "+[paramint][ember] per turn."
           }
+        ],
+        "name": "Ember Forge",
+        "subtype": [
+          "Construct"
+        ],
+        "characterLoreTooltip": [
+          "Both for improved construction and visibility, forges were built throughout the Crucible, but the Shroud was soon mining faster than they could build them. Instead of building new ones, Penumbra tasked Morsels with adding mobility. The technology is crude, but it is the first mobile engine I have on record. "
         ]
       }
     }
   ],
   "linkedClass": "ClassUmbra",
   "unlockLevel": 6,
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Ember Forge"
 }

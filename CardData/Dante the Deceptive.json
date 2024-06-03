@@ -2,15 +2,15 @@
   "nameKey": "CardData_nameKey-eed41f7b0da2fcef-603ccbb89d259dc40bd235b513ed79fa-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-65aceedb69edfea9-603ccbb89d259dc40bd235b513ed79fa-v2",
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddStatusEffect",
-      "paramTrackedValue": 15,
-      "paramCardType": 3,
-      "paramEntryDuration": 2,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.TypeInDeck",
+      "paramCardType": "CardStatistics.CardTypeTarget.Blight",
+      "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 1,
       "paramUseScalingParams": true,
       "paramStatusEffects": [
@@ -19,28 +19,30 @@
           "count": 0
         }
       ],
-      "paramTeamType": 1
+      "paramTeamType": "Team.Type.Heroes"
     }
   ],
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-d19e229ee7e15d33-1323c86550e408d43aa87fc1cd078ba6-v2",
+        "size": 2,
         "health": 10,
         "attackDamage": 3,
         "attackTeleportsToDefender": false,
         "triggers": [
           {
-            "trigger": 27,
+            "trigger": "CharacterTriggerData.Trigger.OnUnscaledSpawn",
             "descriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
             "hideTriggerTooltip": true,
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramStatusEffects": [
                   {
                     "statusId": "multistrike",
@@ -48,7 +50,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": ""
           }
         ],
         "subtypeKeys": [
@@ -57,9 +60,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-a06e64b3399e8bd1-1323c86550e408d43aa87fc1cd078ba6-v2"
+        ],
+        "name": "Dante the Deceptive",
+        "subtype": [
+          "Dante",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "Little is known of Dante, and what I do know I can't truly trust. While he seems to reign from Hell, he's made friends with many Winged, casting doubt on the place of his origin. But, he's always provided his help in the most dire of times, so I will not question his allegiance."
         ]
       }
     }
   ],
-  "name": "Dante the Deceptive"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Dante the Deceptive",
+  "overrideDescription": "When played, gain a stack of [multistrike] for each [blight] card in your deck."
 }

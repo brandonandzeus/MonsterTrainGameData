@@ -1,26 +1,28 @@
 {
   "nameKey": "CardData_nameKey-0cc048750988fedf-8d1f59b6c641f3142b7a9847f6e22c10-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-9f5cda850d71ca90-e0ee630d9703547419fe9f410026797c-v2",
+        "size": 2,
         "health": 15,
         "attackDamage": 5,
         "triggers": [
           {
-            "trigger": 19,
+            "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed",
             "descriptionKey": "CharacterData_descriptionKey-a265086f5e4882a9-e0ee630d9703547419fe9f410026797c-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramInt": 100,
                 "paramStatusEffects": [
                   {
@@ -29,7 +31,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Gain [armor] [effect0.status0.power]."
           }
         ],
         "subtypeKeys": [
@@ -38,10 +41,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-b6b6c12f523842f7-e0ee630d9703547419fe9f410026797c-v2"
+        ],
+        "name": "Guard of the Unnamed",
+        "subtype": [
+          "Siren",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "Original captors and protectors of the Titan, these Sirens have existed almost since the creation of the sea itself. They were the first to follow Tethys in recognizing the importance of the Titan’s survival and that its imprisonment would be the only way to ensure it."
         ]
       }
     }
   ],
   "linkedClass": "ClassStygian",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Guard of the Unnamed"
 }

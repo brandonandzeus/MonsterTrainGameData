@@ -2,7 +2,8 @@
   "nameKey": "CardData_nameKey-03bb541613e1b4f3-fa8601126a2c9e846af6573d48a12e0d-v2",
   "cost": 3,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-2d84631a7eed7e82-fa8601126a2c9e846af6573d48a12e0d-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitTreasure"
@@ -11,6 +12,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes",
       "paramStatusEffects": [
         {
           "statusId": "debuff",
@@ -23,5 +26,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-e0bcc0df37f841b6-fa8601126a2c9e846af6573d48a12e0d-v2"
   ],
-  "name": "Guardian's Amulet"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Guardian's Amulet",
+  "overrideDescription": "Apply [sap] [effect0.status0.power] to enemy units.",
+  "cardLoreTooltip": [
+    "Given only to the most respected of Guardians, these amulets were used both to identify and to protect the keepers of the Titan Monuments. As the only Stygian allowed to interact directly with the Titan, these Guardians wore the amulets to shield themselves from the Titan's immense power."
+  ]
 }

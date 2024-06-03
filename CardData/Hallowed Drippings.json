@@ -1,6 +1,8 @@
 {
   "nameKey": "CardData_nameKey-7344f2eb8a73d917-b721a27e79fd01147b04c4bfe9142ea7-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-2f4ff9a71617313e-b721a27e79fd01147b04c4bfe9142ea7-v2",
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -9,11 +11,12 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.Room",
       "targetModeStatusEffectsFilter": [
         "ephemeral"
       ],
-      "targetTeamType": 2,
-      "targetCardType": 1,
+      "targetTeamType": "Team.Type.Monsters",
+      "targetCardType": "CardType.Monster",
       "paramStatusEffects": [
         {
           "statusId": "ephemeral",
@@ -26,5 +29,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-3817b5adaf1e27f2-b721a27e79fd01147b04c4bfe9142ea7-v2"
   ],
-  "name": "Hallowed Drippings"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Hallowed Drippings",
+  "overrideDescription": "Apply [burnout] [effect0.status0.power] to friendly [burnout] units.",
+  "cardLoreTooltip": [
+    "Those of the Melting Remnant who want to continue living must attend a Votive House to receive a Blessing of Wax. But on some rare occasions, the Reformed will grant a soul some of the sacred wax for use outside the House. "
+  ]
 }

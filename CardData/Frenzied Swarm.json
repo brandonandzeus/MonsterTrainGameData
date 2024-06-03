@@ -2,10 +2,13 @@
   "nameKey": "CardData_nameKey-81506c4acc591e91-fbbced4ed8119e841ad0d14f1de3f595-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-40d35dfa94277236-fbbced4ed8119e841ad0d14f1de3f595-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 100,
       "paramStatusEffects": [
         {
@@ -16,12 +19,18 @@
     },
     {
       "effectStateName": "CardEffectDiscardHand",
-      "targetTeamType": 0
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
   "linkedClass": "ClassStygian",
   "cardLoreTooltipKeys": [
     "CardData_data-a28e98659ffc4074-fbbced4ed8119e841ad0d14f1de3f595-v2"
   ],
-  "name": "Frenzied Swarm"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Frenzied Swarm",
+  "overrideDescription": "Apply [dazed] [effect0.status0.power] to enemy units. [halfbreak]Discard your hand.",
+  "cardLoreTooltip": [
+    "When generous offerings are made to the Titan, groups of Winged often attempt to take the treasures for themselves. This makes them perfect prey for the swarms of Sirens waiting in the shadows."
+  ]
 }

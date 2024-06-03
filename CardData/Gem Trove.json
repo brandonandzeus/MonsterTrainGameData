@@ -2,11 +2,13 @@
   "nameKey": "CardData_nameKey-9f5e09b1524d8334-2476514d2d3dfa6448a472d2da7a76d3-v2",
   "cost": 4,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-89b29ab5139884da-2476514d2d3dfa6448a472d2da7a76d3-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Monsters",
       "additionalParamInt": 3,
       "paramCardPool": {
         "name": "Class5Food",
@@ -41,7 +43,8 @@
     },
     {
       "effectStateName": "CardEffectAddBattleCard",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramInt": 3,
       "additionalParamInt": 3,
       "paramCardPool": {
@@ -74,5 +77,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-1cae6727d69c01ff-2476514d2d3dfa6448a472d2da7a76d3-v2"
   ],
-  "name": "Gem Trove"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Gem Trove",
+  "overrideDescription": "Apply [damageshield] [effect0.status0.power] to friendly units. Add 3 uncommon or rare [snack] units to your hand.",
+  "cardLoreTooltip": [
+    "It is said that the Crucible was formed when the Pyre first ignited, molding and melting the nearby ground to create endless, winding caverns. The Umbra have done their best to direct me through these tunnels, but the maze of caves has still been enough to trap me for days at a time."
+  ]
 }

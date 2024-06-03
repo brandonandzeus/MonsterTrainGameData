@@ -1,15 +1,17 @@
 {
   "nameKey": "CardData_nameKey-8905b5765cf97bad-60e64958fe11330488ec2df330078826-v2",
-  "costType": 1,
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-01ff3111cc2fa91a-60e64958fe11330488ec2df330078826-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
     },
     {
       "traitStateName": "CardTraitScalingAddStatusEffect",
-      "paramTrackedValue": 1,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
       "paramInt": 1,
       "paramUseScalingParams": true,
       "paramStatusEffects": [
@@ -18,14 +20,14 @@
           "count": 0
         }
       ],
-      "paramTeamType": 1
+      "paramTeamType": "Team.Type.Heroes"
     }
   ],
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "damage shield",
@@ -38,5 +40,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-1e7089ad5e230b4d-60e64958fe11330488ec2df330078826-v2"
   ],
-  "name": "Prismal Dust"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Prismal Dust",
+  "overrideDescription": "Apply [trait1.statusmultiplier][x] [damageshield].",
+  "cardLoreTooltip": [
+    "The dust gathered from mining Prism stones can be collected to create a similar, though less effective, defensive support around the owner."
+  ]
 }

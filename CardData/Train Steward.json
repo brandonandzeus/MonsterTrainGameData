@@ -1,14 +1,17 @@
 {
   "nameKey": "CardData_nameKey-4a64e08c47d0eaaa-f7521d10001ae2b40b4f34c26d066fd6-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-9b70e1682adc70f9-820a10d9be65c1642a386039657dc7f6-v2",
+        "size": 2,
         "health": 8,
         "attackDamage": 5,
         "subtypeKeys": [
@@ -16,9 +19,17 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-3bda56270bcbff88-820a10d9be65c1642a386039657dc7f6-v2"
+        ],
+        "name": "Train Steward",
+        "subtype": [
+          "Steward"
+        ],
+        "characterLoreTooltip": [
+          "The Boneshaker has little need for defense, but in the unlikely event that it does, I've designed several sentient guards to protect it from harm."
         ]
       }
     }
   ],
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Train Steward"
 }

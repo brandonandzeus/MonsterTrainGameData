@@ -1,26 +1,28 @@
 {
   "cost": 3,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-d9a4ce6ba0011908-a80164732cd24ff4cbab53919bda7231-v2",
         "size": 1,
         "health": 1,
-        "attackDamage": 0,
         "deathSlidesBackwards": false,
         "triggers": [
           {
-            "trigger": 19,
+            "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed",
             "descriptionKey": "CharacterData_descriptionKey-3a118f161d7b86c4-a80164732cd24ff4cbab53919bda7231-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "animToPlay": 2,
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.Heroes",
+                "animToPlay": "CharacterUI.Anim.Attack",
                 "paramStatusEffects": [
                   {
                     "statusId": "debuff",
@@ -28,7 +30,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Apply [sap] [effect0.status0.power] to enemy units."
           }
         ],
         "subtypeKeys": [
@@ -37,11 +40,20 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-d8930cf3c08fee52-a80164732cd24ff4cbab53919bda7231-v2"
+        ],
+        "name": "Lodestone Totem",
+        "subtype": [
+          "Totem",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "Of the totems that the founding Guard built, the Lodestones are possibly the most important. They provide energy for the Stygian Guard by siphoning power from those around them using some ancient technology that's eluded my understanding."
         ]
       }
     }
   ],
   "linkedClass": "ClassStygian",
   "unlockLevel": 8,
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Lodestone Totem"
 }

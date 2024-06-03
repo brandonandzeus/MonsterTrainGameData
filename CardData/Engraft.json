@@ -2,24 +2,27 @@
   "nameKey": "CardData_nameKey-d0ea7b3b976ef9d5-393e18d9c1c0b24438488d58ce296ddc-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-def8a8244b1809cc-393e18d9c1c0b24438488d58ce296ddc-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectHeal",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 1
     },
     {
       "effectStateName": "CardEffectDrawAdditionalNextTurn",
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "shouldTest": false,
       "paramInt": 1
     },
     {
       "effectStateName": "CardEffectGainEnergy",
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "shouldTest": false,
       "paramInt": 1
     }
@@ -28,5 +31,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-4f4e43100094b299-393e18d9c1c0b24438488d58ce296ddc-v2"
   ],
-  "name": "Engraft"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Engraft",
+  "overrideDescription": "Restore [effect0.power] health. [halfbreak]Gain [effect2.power][ember]. Draw +[effect1.power] next turn.",
+  "cardLoreTooltip": [
+    "When in a dangerous situation, the Awoken sometimes cannot afford the time it takes to regrow limbs. While less effective, they will splice together severed appendages in favor of speed, but in my experience the binding does not last long."
+  ]
 }

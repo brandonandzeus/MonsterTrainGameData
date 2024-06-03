@@ -1,10 +1,9 @@
 {
   "nameKey": "CardData_nameKey-1a75086433b22b4a-be3b48dcc4082fb43a0f92bf8e5a75e1-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -13,12 +12,12 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-7f23d3f04cda86b0-92c3e0fbcdc57b441ae72be7873e503d-v2",
         "size": 1,
         "health": 1,
-        "attackDamage": 0,
         "startingStatusEffects": [
           {
             "statusId": "hatch",
@@ -27,14 +26,14 @@
         ],
         "triggers": [
           {
-            "trigger": 37,
+            "trigger": "CharacterTriggerData.Trigger.OnRemoveHatch",
             "descriptionKey": "CharacterData_descriptionKey-1d8d9543e824aa7f-92c3e0fbcdc57b441ae72be7873e503d-v2",
             "hideTriggerTooltip": true,
             "effects": [
               {
                 "effectStateName": "CardEffectRemoveStatusEffectPerCorrupt",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramInt": 1,
                 "paramStatusEffects": [
                   {
@@ -43,24 +42,27 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": ""
           },
           {
-            "trigger": 30,
+            "trigger": "CharacterTriggerData.Trigger.OnHatched",
             "descriptionKey": "CharacterData_descriptionKey-2b9f0a20c4d8d9e2-92c3e0fbcdc57b441ae72be7873e503d-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectSacrifice",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramBool": true,
                 "hideTooltip": true
               },
               {
                 "effectStateName": "CardEffectSpawnMonster",
-                "targetMode": 5,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.Heroes",
                 "paramCharacterData": {
                   "nameKey": "CharacterData_nameKey-c8974e656cd84d1e-f83d8a195ea0adf4697455f4280b567c-v2",
+                  "size": 2,
                   "health": 10,
                   "attackDamage": 30,
                   "startingStatusEffects": [
@@ -75,11 +77,13 @@
                   ],
                   "triggers": [
                     {
-                      "trigger": 3,
+                      "trigger": "CharacterTriggerData.Trigger.OnAttacking",
                       "descriptionKey": "CharacterData_descriptionKey-03ee3656ce7e7999-f83d8a195ea0adf4697455f4280b567c-v2",
                       "effects": [
                         {
                           "effectStateName": "CardEffectAddStatusEffect",
+                          "targetMode": "TargetMode.Room",
+                          "targetTeamType": "Team.Type.Heroes",
                           "paramStatusEffects": [
                             {
                               "statusId": "corrupt_poison",
@@ -89,11 +93,14 @@
                           "additionalTooltips": [
                             {
                               "titleKey": "HudTooltip_RoomCorruption_Title",
-                              "descriptionKey": "HudTooltip_RoomCorruption_Body"
+                              "descriptionKey": "HudTooltip_RoomCorruption_Body",
+                              "title": "Charged Echoes",
+                              "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                             }
                           ]
                         }
-                      ]
+                      ],
+                      "description": "Apply [corruptpoison] [effect0.status0.power] to enemy units."
                     }
                   ],
                   "subtypeKeys": [
@@ -101,16 +108,26 @@
                   ],
                   "characterLoreTooltipKeys": [
                     "CharacterData_data-3ceb5786716ecb72-f83d8a195ea0adf4697455f4280b567c-v2"
+                  ],
+                  "name": "Kinhost Pupa",
+                  "subtype": [
+                    "Host"
+                  ],
+                  "characterLoreTooltip": [
+                    "The Wurmkin wait for Kinhost to fully mature before making them the mindless slaves more often seen throughout the tunnels. This allows the Wurmkin to breed the Kinhost for strength and size, making them perfect mobile transports for the many Echoes scattered around the tunnels."
                   ]
                 },
                 "additionalTooltips": [
                   {
                     "titleKey": "HudTooltip_RoomCorruption_Title",
-                    "descriptionKey": "HudTooltip_RoomCorruption_Body"
+                    "descriptionKey": "HudTooltip_RoomCorruption_Body",
+                    "title": "Charged Echoes",
+                    "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Summon Kinhost Pupa."
           }
         ],
         "subtypeKeys": [
@@ -119,16 +136,25 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-d0a793ca01632fe0-92c3e0fbcdc57b441ae72be7873e503d-v2"
+        ],
+        "name": "Kinhost Vessel",
+        "subtype": [
+          "Egg",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "The vessels containing Kinhosts have been tended to by the Wurmkin since their discovery. By stretching out the vessels’ diet of Echoes, the Wurmkin are able to keep the vessels in a permanent state of hibernation and select the time of their hatching based on demand."
         ]
       }
     }
   ],
   "linkedClass": "ClassWurm",
   "sharedDiscoveryCards": [
-    "KinhostPupa"
+    "Kinhost Pupa"
   ],
   "sharedMasteryCards": [
-    "KinhostPupa"
+    "Kinhost Pupa"
   ],
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Kinhost Vessel"
 }

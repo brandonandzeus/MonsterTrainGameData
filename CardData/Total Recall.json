@@ -2,8 +2,8 @@
   "nameKey": "CardData_nameKey-63a30098b8387c89-7d07c9993c3bd5c499c9931d84faaefa-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-86255b03ddd08f2e-7d07c9993c3bd5c499c9931d84faaefa-v2",
-  "rarity": 1,
-  "requiredDLC": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -15,11 +15,12 @@
   "effects": [
     {
       "effectStateName": "CardEffectRecursion",
-      "targetMode": 14,
-      "targetTeamType": 0,
-      "targetCardSelectionMode": 1,
+      "targetMode": "TargetMode.Discard",
+      "targetTeamType": "Team.Type.None",
+      "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
       "paramInt": 3,
       "paramCardUpgradeData": {
+        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
         "traitDataUpgrades": [
           {
             "traitStateName": "CardTraitExhaustState"
@@ -36,5 +37,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-f5b6b953c1fd4481-7d07c9993c3bd5c499c9931d84faaefa-v2"
   ],
-  "name": "Total Recall"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Total Recall",
+  "overrideDescription": "Return [effect0.power] random spell cards from the discard pile to your hand and apply [consume].",
+  "cardLoreTooltip": [
+    "The Wurmkin claim they contain the History of the World in their stoneform — the knowledge of demons and Titans alike that can be granted and returned at will. I thought my notes to be a near-total collection of information on this Realm, but the Wurmkin appear to know of things that they have no right knowing. Things that, once long ago, I may have known myself..."
+  ]
 }

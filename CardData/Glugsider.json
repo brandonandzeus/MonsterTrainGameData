@@ -1,9 +1,8 @@
 {
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState",
@@ -17,33 +16,35 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-4a78de58f1080e84-4ad178dee60fe804ba1599d86dda9757-v2",
         "size": 4,
         "blockVisualSizeIncrease": true,
         "health": 200,
-        "attackDamage": 0,
         "triggers": [
           {
-            "trigger": 32,
+            "trigger": "CharacterTriggerData.Trigger.CorruptionAdded",
             "descriptionKey": "CharacterData_descriptionKey-92c6dfc9ca296c62-4ad178dee60fe804ba1599d86dda9757-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectHeal",
-                "targetMode": 5,
-                "targetTeamType": 2,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.Monsters",
                 "paramInt": 5
               }
-            ]
+            ],
+            "description": "Restore [effect0.power] health."
           },
           {
-            "trigger": 15,
+            "trigger": "CharacterTriggerData.Trigger.OnHit",
             "descriptionKey": "CharacterData_descriptionKey-f37f7922f19d72bd-4ad178dee60fe804ba1599d86dda9757-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": 17,
+                "targetMode": "TargetMode.LastAttackerCharacter",
+                "targetTeamType": "Team.Type.Heroes",
                 "paramStatusEffects": [
                   {
                     "statusId": "corrupt_poison",
@@ -53,11 +54,14 @@
                 "additionalTooltips": [
                   {
                     "titleKey": "HudTooltip_RoomCorruption_Title",
-                    "descriptionKey": "HudTooltip_RoomCorruption_Body"
+                    "descriptionKey": "HudTooltip_RoomCorruption_Body",
+                    "title": "Charged Echoes",
+                    "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Apply [corruptpoison] {[effect0.status0.power]} to the attacking unit."
           }
         ],
         "subtypeKeys": [
@@ -66,10 +70,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-4c1ef0538597adbf-4ad178dee60fe804ba1599d86dda9757-v2"
+        ],
+        "name": "Glugsider",
+        "subtype": [
+          "Fen",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "These sludge behemoths have crawled through the Bogs for eons, absorbing and digesting whatever remained trapped. I pride myself on being observant, so imagine the sting to my ego when I found these piles of filth feign stupidity to keep the Wurmkin and their cairns hidden."
         ]
       }
     }
   ],
   "linkedClass": "ClassWurm",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Glugsider"
 }

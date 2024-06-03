@@ -1,9 +1,9 @@
 {
   "nameKey": "CardData_nameKey-5b618e2aa53eb163-43a7b6d61468c6740a1ed362b41385da-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -12,9 +12,11 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-9cf218ea88d1e9af-4834dd190672177429a719136c12d90d-v2",
+        "size": 2,
         "health": 10,
         "attackDamage": 3,
         "startingStatusEffects": [
@@ -25,18 +27,20 @@
         ],
         "triggers": [
           {
-            "trigger": 4,
+            "trigger": "CharacterTriggerData.Trigger.OnKill",
             "descriptionKey": "CharacterData_descriptionKey-6dbcd1fc17c3082e-4834dd190672177429a719136c12d90d-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramCardUpgradeData": {
+                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                   "bonusDamage": 3
                 }
               }
-            ]
+            ],
+            "description": "+[effect0.upgrade.bonusdamage][attack]."
           }
         ],
         "subtypeKeys": [
@@ -45,11 +49,20 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-91e99118d072cc2c-4834dd190672177429a719136c12d90d-v2"
+        ],
+        "name": "Shattered Shell",
+        "subtype": [
+          "Animus",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "When Husk Hermits grow too large for their already restrictive shell, they keep the shattered steel pieces for offensive use. Against my wishes, the Channelers have hoarded Pyre shards to further enhance the power of these creatures."
         ]
       }
     }
   ],
   "linkedClass": "ClassAwoken",
   "unlockLevel": 7,
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Shattered Shell"
 }

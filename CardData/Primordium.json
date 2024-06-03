@@ -1,15 +1,17 @@
 {
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 3,
+  "rarity": "CollectableRarity.Champion",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-bf34131a14621d7e-d3ffad653d077d244b2bd1942e189126-v2",
+        "size": 2,
         "health": 3,
-        "deathType": 1,
+        "deathType": "CharacterDeathVFX.Type.Large",
         "attackDamage": 3,
         "startingStatusEffects": [
           {
@@ -22,28 +24,21 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-8bdd633f5291b83a-d3ffad653d077d244b2bd1942e189126-v2"
+        ],
+        "name": "Primordium",
+        "subtype": [
+          "Champion"
+        ],
+        "characterLoreTooltip": [
+          "I can feel the end of my days loom near as these visions become more frequent and more confusing. It seems even the Umbra Shroud has origins beyond my prior knowledge. This Primordial shadow rumbles with the weight of the entire Shroud under its cloak. But what happened to this ancient creature?"
         ]
       }
     }
   ],
   "startingUpgrades": [
-    {
-      "hideUpgradeIconOnCard": true,
-      "triggerUpgrades": [
-        {
-          "trigger": 23,
-          "descriptionKey": "CardUpgradeData_descriptionKey-2480c1a4eb0cbf8e-2e4d9dcb61068604baa9968afe247ba3-v2",
-          "effects": [
-            {
-              "effectStateName": "CardEffectAddStatsFromSelf",
-              "targetMode": 20,
-              "targetTeamType": 0
-            }
-          ]
-        }
-      ]
-    }
+    null
   ],
   "linkedClass": "ClassUmbra",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Primordium"
 }

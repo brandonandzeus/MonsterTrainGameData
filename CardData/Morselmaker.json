@@ -1,19 +1,20 @@
 {
   "nameKey": "CardData_nameKey-ef7053e779d7961d-7cdd3860e8864834b94b637f15965cb5-v2",
   "cost": 2,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState",
-      "paramCardData": "CopyMorselsUnit"
+      "paramCardData": "Morselmaster"
     }
   ],
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-e1de3643e5433e91-d77a8ade152623a4ebb75fa1579408c4-v2",
         "size": 1,
@@ -22,33 +23,35 @@
         "attackTeleportsToDefender": false,
         "triggers": [
           {
-            "trigger": 1,
+            "trigger": "CharacterTriggerData.Trigger.PostCombat",
             "descriptionKey": "CharacterData_descriptionKey-df5d28ee837a0ecc-d77a8ade152623a4ebb75fa1579408c4-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectSpawnMonster",
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.None",
                 "paramInt": 1,
                 "paramBool": true,
                 "paramCharacterData": {
                   "nameKey": "CharacterData_nameKey-5a4f54cc4e0739ad-91bff760f73827642b73e6aacef9c4c8-v2",
                   "size": 1,
                   "health": 6,
-                  "attackDamage": 0,
                   "triggers": [
                     {
-                      "trigger": 23,
+                      "trigger": "CharacterTriggerData.Trigger.OnEaten",
                       "descriptionKey": "CharacterData_descriptionKey-da87b665853af570-91bff760f73827642b73e6aacef9c4c8-v2",
                       "effects": [
                         {
                           "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                          "targetMode": 20,
-                          "targetTeamType": 3,
+                          "targetMode": "TargetMode.LastFeederCharacter",
+                          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
                           "paramCardUpgradeData": {
+                            "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                             "bonusHP": 6
                           }
                         }
-                      ]
+                      ],
+                      "description": "Eater gains +[effect0.upgrade.bonushp][health]."
                     }
                   ],
                   "subtypeKeys": [
@@ -56,6 +59,13 @@
                   ],
                   "characterLoreTooltipKeys": [
                     "CharacterData_data-892dd5a945dcdf3e-91bff760f73827642b73e6aacef9c4c8-v2"
+                  ],
+                  "name": "Antumbra Morsel",
+                  "subtype": [
+                    "Morsel"
+                  ],
+                  "characterLoreTooltip": [
+                    "These precursors of the souls of Hell, called Antumbra, are fragments of the Umbra Shroud. Their friendly personalities make them my constant companions anytime I travel to the Crucible."
                   ]
                 },
                 "paramAdditionalCharacterData": {
@@ -65,19 +75,21 @@
                   "attackDamage": 6,
                   "triggers": [
                     {
-                      "trigger": 23,
+                      "trigger": "CharacterTriggerData.Trigger.OnEaten",
                       "descriptionKey": "CharacterData_descriptionKey-7edc9add64ecc086-851b86a59ea80b64f8226ccd6bbf915a-v2",
                       "effects": [
                         {
                           "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                          "targetMode": 20,
-                          "targetTeamType": 3,
+                          "targetMode": "TargetMode.LastFeederCharacter",
+                          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
                           "paramInt": 100,
                           "paramCardUpgradeData": {
+                            "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                             "bonusDamage": 6
                           }
                         }
-                      ]
+                      ],
+                      "description": "Eater gains +[effect0.upgrade.bonusdamage][attack]."
                     }
                   ],
                   "subtypeKeys": [
@@ -85,10 +97,18 @@
                   ],
                   "characterLoreTooltipKeys": [
                     "CharacterData_data-0b878e2dc749ca75-851b86a59ea80b64f8226ccd6bbf915a-v2"
+                  ],
+                  "name": "Magma Morsel",
+                  "subtype": [
+                    "Morsel"
+                  ],
+                  "characterLoreTooltip": [
+                    "Originally heated by the nearby Pyre, molten rock can be found throughout the Crucible. Morsels excavate it like anything else, but there was no use for it until I showed them how to use the residual energy to strengthen themselves."
                   ]
                 }
               }
-            ]
+            ],
+            "description": "Summon an <b>Antumbra Morsel</b> and a <b>Magma Morsel</b>."
           }
         ],
         "subtypeKeys": [
@@ -97,10 +117,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-6c8e4662ff873893-d77a8ade152623a4ebb75fa1579408c4-v2"
+        ],
+        "name": "Morselmaker",
+        "subtype": [
+          "Shroud",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "Neither Umbra nor Antumbra, these in-between shades roam the mines as independent troublemakers, often splitting their own Morsels to undo the work done in the Crucible. I’ve been unable to decipher any sort of motive other than spite.  "
         ]
       }
     }
   ],
   "linkedClass": "ClassUmbra",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Morselmaker"
 }

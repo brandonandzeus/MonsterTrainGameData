@@ -1,35 +1,41 @@
 {
   "nameKey": "CardData_nameKey-8f0e507986bf95f5-be9c823be1b68e846baaf929e2a41a8b-v2",
-  "costType": 1,
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-9dc310db6cd117ac-be9c823be1b68e846baaf929e2a41a8b-v2",
-  "rarity": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
     },
     {
       "traitStateName": "CardTraitScalingAddCards",
-      "paramTrackedValue": 1,
-      "paramEntryDuration": 2,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
+      "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 1,
       "paramUseScalingParams": true,
-      "paramTeamType": 1
+      "paramTeamType": "Team.Type.Heroes"
     }
   ],
   "effects": [
     {
       "effectStateName": "CardEffectAddTempCardUpgradeToNextDrawnCard",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "shouldTest": false,
       "paramCardUpgradeData": {
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-8c0b048e935f7a5f-542fabd3c3dbd604f848ffb1a4e32699-v2",
         "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-e3c1d380d660b43b-542fabd3c3dbd604f848ffb1a4e32699-v2",
-        "costReduction": 1
+        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+        "costReduction": 1,
+        "upgradeTitle": "",
+        "upgradeDescription": ""
       }
     },
     {
       "effectStateName": "CardEffectDraw",
-      "targetTeamType": 0
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None"
     }
   ],
   "linkedClass": "ClassAwoken",
@@ -37,5 +43,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-2384230e408a7750-be9c823be1b68e846baaf929e2a41a8b-v2"
   ],
-  "name": "Awoken's Rail Spike"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Awoken's Rail Spike",
+  "overrideDescription": "Draw [x] and apply <nobr>-[effect0.upgrade.costreduction][ember]</nobr> to those cards.",
+  "cardLoreTooltip": [
+    "Though reluctant at first to allow the Rail to come through the Wildwood, the Edge Priory eventually agreed with me to let it pass and uphold the Covenant with Seraph."
+  ]
 }

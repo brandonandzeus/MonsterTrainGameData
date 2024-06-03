@@ -1,9 +1,9 @@
 {
   "nameKey": "CardData_nameKey-34dca9aea9db1abf-4c8b8b661464c97459fb3b5ab8c9bf01-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState",
@@ -13,18 +13,22 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-ad85f089c4b7fd31-0dbdfbcc89073344f9b0402c959eacd6-v2",
+        "size": 2,
         "health": 15,
+        "attackDamage": 10,
         "triggers": [
           {
-            "trigger": 1,
+            "trigger": "CharacterTriggerData.Trigger.PostCombat",
             "descriptionKey": "CharacterData_descriptionKey-9d0bef6695b21c0e-0dbdfbcc89073344f9b0402c959eacd6-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "targetTeamType": 2,
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.Monsters",
                 "paramInt": 100,
                 "paramStatusEffects": [
                   {
@@ -33,7 +37,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Apply [armor] [effect0.status0.power] to friendly units."
           }
         ],
         "subtypeKeys": [
@@ -42,10 +47,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-d584662c63c00293-0dbdfbcc89073344f9b0402c959eacd6-v2"
+        ],
+        "name": "Steelworker",
+        "subtype": [
+          "Demon",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "Along with a team of imps, these demons are responsible for the creation of all Hellhorned armor and weapons. While not usually on the front lines, their centuries of working metal gives them a comfortable tendency towards combat."
         ]
       }
     }
   ],
   "linkedClass": "ClassHellhorned",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Steelworker"
 }

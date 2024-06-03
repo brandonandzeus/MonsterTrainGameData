@@ -1,8 +1,9 @@
 {
   "nameKey": "CardData_nameKey-73db0b8cf647a888-f2c742f0b507e984283105722ea68b11-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-e17bb9f5c21221b6-f2c742f0b507e984283105722ea68b11-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitSelfPurge"
@@ -11,14 +12,18 @@
   "effects": [
     {
       "effectStateName": "CardEffectKill",
-      "targetMode": 12,
+      "targetMode": "TargetMode.DropTargetCharacter",
       "targetIgnoreBosses": true,
-      "targetTeamType": 3
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
   "cardLoreTooltipKeys": [
     "CardData_data-f000fa9c737169b8-f2c742f0b507e984283105722ea68b11-v2"
   ],
-  "initialKeyboardTarget": 2,
-  "name": "Petrified Skull"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
+  "name": "Petrified Skull",
+  "overrideDescription": "Kill a non-boss unit.",
+  "cardLoreTooltip": [
+    "Through my time here, I’ve learned that Hell’s resolve is unmatched. Even with the Pyre extinguished, the last shard provides a glimmer of hope to defend this horrible treachery. "
+  ]
 }

@@ -2,11 +2,12 @@
   "nameKey": "CardData_nameKey-2fb0ce024545c793-2738bdc40aa6e1945ae7f59b8c3d95ae-v2",
   "cost": 3,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-19981672c1673256-2738bdc40aa6e1945ae7f59b8c3d95ae-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddDamage",
-      "paramTrackedValue": 17,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.StatusEffectCountInTargetRoom",
       "paramInt": 4,
       "paramUseScalingParams": true,
       "paramStatusEffects": [
@@ -15,18 +16,20 @@
           "count": 0
         }
       ],
-      "paramTeamType": 2
+      "paramTeamType": "Team.Type.Monsters"
     }
   ],
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 2,
+      "targetMode": "TargetMode.FrontInRoom",
+      "targetTeamType": "Team.Type.Heroes",
       "additionalTooltips": [
         {
           "descriptionKey": "TipTooltip_RoomTargetSpell",
-          "style": 0,
-          "isTipTooltip": true
+          "style": "TooltipDesigner.TooltipDesignType.Default",
+          "isTipTooltip": true,
+          "description": "<b>Tip:</b> Spells only affect one floor."
         }
       ]
     }
@@ -35,5 +38,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-17856855e88f2397-2738bdc40aa6e1945ae7f59b8c3d95ae-v2"
   ],
-  "name": "Battering Ram"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Battering Ram",
+  "overrideDescription": "Deal damage to the front enemy unit equal to [trait0.power]x the amount of [armor] on friendly units.",
+  "cardLoreTooltip": [
+    "Working with the Railbeaters, I was able to devise a series of interlocking shields that turn the Hellhorned into a mobile battering ram."
+  ]
 }

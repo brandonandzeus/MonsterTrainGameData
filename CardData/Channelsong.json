@@ -2,7 +2,8 @@
   "nameKey": "CardData_nameKey-88c040336a16771d-8469d3accf3a7ba469d06aaffe093c08-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-1606de134efbb673-8469d3accf3a7ba469d06aaffe093c08-v2",
-  "rarity": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitShowCardTargets"
@@ -14,26 +15,40 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddTempCardUpgradeToNextDrawnCard",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "shouldTest": false,
       "paramCardUpgradeData": {
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-f2da164f7340ca62-25777e6ac79c2604ab934b6df60eeccd-v2",
         "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-ff2f5dd867e961a8-25777e6ac79c2604ab934b6df60eeccd-v2",
+        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
         "bonusDamage": 20,
         "bonusHP": 20,
         "costReduction": 99,
         "filters": [
           {
-            "cardType": 1
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
-        ]
+        ],
+        "upgradeTitle": "",
+        "upgradeDescription": ""
       }
     },
     {
       "effectStateName": "CardEffectDrawType",
-      "targetMode": 13,
-      "targetTeamType": 0,
-      "targetCardType": 1,
+      "targetMode": "TargetMode.DrawPile",
+      "targetTeamType": "Team.Type.None",
+      "targetCardType": "CardType.Monster",
       "paramInt": 1
     }
   ],
@@ -41,5 +56,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-2fc5a834e5a68fde-8469d3accf3a7ba469d06aaffe093c08-v2"
   ],
-  "name": "Channelsong"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Channelsong",
+  "overrideDescription": "Draw a unit and apply +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], and 0[ember].",
+  "cardLoreTooltip": [
+    "The Channelers of the Wildwood prefer to keep their involvement in its growth to a minimum. However, their intervention is sometimes required to achieve more “aggressive” expansion."
+  ]
 }

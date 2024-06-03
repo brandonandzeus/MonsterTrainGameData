@@ -2,10 +2,13 @@
   "nameKey": "CardData_nameKey-3144fecd698dca01-84caeb40c09e15b4fa46fc128e62b492-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-bacfac31c867b3be-84caeb40c09e15b4fa46fc128e62b492-v2",
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectAddBattleCard",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramInt": 3,
       "paramCardPool": {
         "name": "Class5StarterFoodCard",
@@ -24,15 +27,20 @@
   ],
   "linkedClass": "ClassUmbra",
   "sharedMasteryCards": [
-    "MorselJeweler",
-    "MoltenMorsel",
-    "MorselMiner",
-    "RubbleRaiser",
-    "ShadowMorsel",
-    "VoidExcavator"
+    "Morsel Jeweler",
+    "Magma Morsel",
+    "Morsel Miner",
+    "Rubble Morsel",
+    "Antumbra Morsel",
+    "Morsel Excavator"
   ],
   "cardLoreTooltipKeys": [
     "CardData_data-e6eb47de47633efa-84caeb40c09e15b4fa46fc128e62b492-v2"
   ],
-  "name": "Shadesplitter"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Shadesplitter",
+  "overrideDescription": "Add a common or uncommon [snack] unit to your hand.",
+  "cardLoreTooltip": [
+    "While the Umbra Shroud cannot do any physical labor on its own, it can create Antumbra Morsels to follow simple instructions and extract the full value of the Crucible. The splitting of the Shroud is like nothing I've ever seen before, and, frankly, prefer not to see again."
+  ]
 }

@@ -1,9 +1,9 @@
 {
   "nameKey": "CardData_nameKey-2adc0413cd4d283d-58ee8372d460c5144938fb266c7a20a5-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -12,10 +12,13 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-299a287205950208-c4afac1bf1d093a4f871cf7eb20d5f2b-v2",
+        "size": 2,
         "health": 5,
+        "attackDamage": 10,
         "startingStatusEffects": [
           {
             "statusId": "buff",
@@ -24,12 +27,13 @@
         ],
         "triggers": [
           {
-            "trigger": 4,
+            "trigger": "CharacterTriggerData.Trigger.OnKill",
             "descriptionKey": "CharacterData_descriptionKey-aab45c2138251e32-c4afac1bf1d093a4f871cf7eb20d5f2b-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "targetTeamType": 2,
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.Monsters",
                 "paramStatusEffects": [
                   {
                     "statusId": "buff",
@@ -37,7 +41,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Apply [rage] [effect0.status0.power] to friendly units."
           }
         ],
         "subtypeKeys": [
@@ -46,10 +51,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-e066448099a05369-c4afac1bf1d093a4f871cf7eb20d5f2b-v2"
+        ],
+        "name": "Branded Warrior",
+        "subtype": [
+          "Demon",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "It is said that no one can match a fully matured Hellhorned Demon in combat. I have yet to see this proven false. Though I can't say I'm seeking out that opportunity..."
         ]
       }
     }
   ],
   "linkedClass": "ClassHellhorned",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Branded Warrior"
 }

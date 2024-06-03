@@ -1,13 +1,14 @@
 {
   "nameKey": "CardData_nameKey-a4410a9ceebd4fff-e18ae58a0a996a743944a42796454c68-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-c45404d9c6bcb82d-e18ae58a0a996a743944a42796454c68-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectRemoveStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "ephemeral",
@@ -18,14 +19,16 @@
         {
           "titleKey": "CardEffectDebuff_TooltipTitle",
           "descriptionKey": "CardEffectDebuff_TooltipText",
-          "style": 5
+          "style": "TooltipDesigner.TooltipDesignType.Negative",
+          "title": "Debuff",
+          "description": "Debuff effects are generally negative for their target and are represented by red icons."
         }
       ]
     },
     {
       "effectStateName": "CardEffectRemoveAllStatusEffects",
-      "targetMode": 22,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.LastTargetedCharacters",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "shouldTest": false,
       "paramInt": 1
     }
@@ -35,5 +38,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-9d579880dc44d1a6-e18ae58a0a996a743944a42796454c68-v2"
   ],
-  "name": "Wickless Recruitment"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Wickless Recruitment",
+  "overrideDescription": "Remove all [burnout] and [debuff] effects from a unit.",
+  "cardLoreTooltip": [
+    "Initiation into the Wickless Remains is a rite performed in the underbelly of the Waxen Arches, involving the sacrifice of a Waxer’s wick to forever tie them to their hellish homeland. Even after the many I've witnessed, the ritual still gives me pause."
+  ]
 }

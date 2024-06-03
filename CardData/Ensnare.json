@@ -1,12 +1,14 @@
 {
   "nameKey": "CardData_nameKey-e8c5d35496f7eb9c-9a04d7ad84d2eb045b12d424615fd059-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-a1a80861b0ea26cc-9a04d7ad84d2eb045b12d424615fd059-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes",
       "paramStatusEffects": [
         {
           "statusId": "rooted",
@@ -16,7 +18,8 @@
     },
     {
       "effectStateName": "CardEffectDrawAdditionalNextTurn",
-      "targetMode": 12,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes",
       "shouldTest": false,
       "paramInt": 1,
       "paramStatusEffects": [
@@ -31,6 +34,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-1294053a9a6f737c-9a04d7ad84d2eb045b12d424615fd059-v2"
   ],
-  "initialKeyboardTarget": 2,
-  "name": "Ensnare"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
+  "name": "Ensnare",
+  "overrideDescription": "Apply [rooted] [effect0.status0.power] to an enemy unit.  [halfbreak]Draw +[effect1.power] next turn.",
+  "cardLoreTooltip": [
+    "The Wildwood of Hell encases those that linger too long underneath its draping canopy. These living trees scare me more than I care to admit."
+  ]
 }

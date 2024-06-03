@@ -2,12 +2,14 @@
   "nameKey": "CardData_nameKey-8a10a1c37babe221-96e816e0ab60b604c9c84217bafb862c-v2",
   "cost": 3,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-8b603d679bd66fd3-96e816e0ab60b604c9c84217bafb862c-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 100,
       "paramStatusEffects": [
         {
@@ -21,5 +23,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-b1caa6e564d20163-96e816e0ab60b604c9c84217bafb862c-v2"
   ],
-  "name": "Ritual of Battle"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Ritual of Battle",
+  "overrideDescription": "Apply [rage] [effect0.status0.power].",
+  "cardLoreTooltip": [
+    "I have learned that the Hellhorned can gain temporary strength through the self-infliction of pain. I find the ritual savage, but it proves to be even more effective when performed over the remains of their opponents."
+  ]
 }

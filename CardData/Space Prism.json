@@ -1,6 +1,8 @@
 {
   "nameKey": "CardData_nameKey-521a1958fdedb763-fd0fcf2f5bd0d5a45a78a60cb1b05857-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-218893e41b949657-fd0fcf2f5bd0d5a45a78a60cb1b05857-v2",
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -9,12 +11,15 @@
   "effects": [
     {
       "effectStateName": "CardEffectAdjustRoomCapacity",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramInt": 1,
       "additionalTooltips": [
         {
           "titleKey": "Capacity_TooltipTitle",
-          "descriptionKey": "Capacity_TooltipText"
+          "descriptionKey": "Capacity_TooltipText",
+          "title": "[capacity] Capacity",
+          "description": "Units can only be summoned on a floor if it has enough capacity."
         }
       ]
     }
@@ -23,5 +28,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-8bfe05badf692b74-fd0fcf2f5bd0d5a45a78a60cb1b05857-v2"
   ],
-  "name": "Space Prism"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Space Prism",
+  "overrideDescription": "+[effect0.power][capacity] on this floor.",
+  "cardLoreTooltip": [
+    "In addition to their ability to refract light for defensive use, Prism Stones can bend the space around them, creating something out of nothing. "
+  ]
 }

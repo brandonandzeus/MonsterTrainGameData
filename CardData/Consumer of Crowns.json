@@ -2,9 +2,9 @@
   "nameKey": "CardData_nameKey-879dd972576878b1-6a6aa10d51490e4408554211ab13fe2b-v2",
   "cost": 10,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-e0a9ba500e0473e3-6a6aa10d51490e4408554211ab13fe2b-v2",
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -13,18 +13,19 @@
       "traitStateName": "CardTraitCostReduceCharactersInTowerState",
       "paramInt": 3,
       "paramSubtype": "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c",
-      "paramTeamType": 2
+      "paramTeamType": "Team.Type.Monsters"
     }
   ],
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-faa003a372237cce-4c6c2775352a2f14caf738ae68d9f1f6-v2",
         "size": 3,
         "health": 40,
-        "deathType": 1,
+        "deathType": "CharacterDeathVFX.Type.Large",
         "attackDamage": 100,
         "subtypeKeys": [
           "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12",
@@ -32,10 +33,20 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-61da12191fc14a28-4c6c2775352a2f14caf738ae68d9f1f6-v2"
+        ],
+        "name": "Consumer of Crowns",
+        "subtype": [
+          "Demon",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "Truly a behemoth among beasts, this demon is the most decorated warrior in the Ring, having collected more horns than any living Demon. It is highly respected amongst the Hellhorned and frequently avoided by me."
         ]
       }
     }
   ],
   "linkedClass": "ClassHellhorned",
-  "name": "Consumer of Crowns"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Consumer of Crowns",
+  "overrideDescription": "Costs -[trait1.power][ember] per [imp] unit in play."
 }

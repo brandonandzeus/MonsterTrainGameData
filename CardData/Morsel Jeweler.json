@@ -1,34 +1,35 @@
 {
   "nameKey": "CardData_nameKey-eb7188451bc031d6-e6e56076ef4890e4ca3441fdf2a6a7ec-v2",
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-2d03afca4a5a32b7-646877436ac9c9e49ba61895de863d97-v2",
         "size": 1,
         "health": 3,
-        "attackDamage": 0,
         "triggers": [
           {
-            "trigger": 23,
+            "trigger": "CharacterTriggerData.Trigger.OnEaten",
             "descriptionKey": "CharacterData_descriptionKey-3b304ab6c1d9d0c7-646877436ac9c9e49ba61895de863d97-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                "targetMode": 20,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.LastFeederCharacter",
+                "targetTeamType": "Team.Type.None",
                 "paramCardUpgradeData": {
+                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                   "bonusHP": 3
                 }
               },
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": 20,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.LastFeederCharacter",
+                "targetTeamType": "Team.Type.None",
                 "paramStatusEffects": [
                   {
                     "statusId": "damage shield",
@@ -36,7 +37,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Eater gains +[effect0.upgrade.bonushp][health] and [damageshield] [effect1.status0.power]."
           }
         ],
         "subtypeKeys": [
@@ -44,11 +46,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-09ecba557955c2d5-646877436ac9c9e49ba61895de863d97-v2"
+        ],
+        "name": "Morsel Jeweler",
+        "subtype": [
+          "Morsel"
+        ],
+        "characterLoreTooltip": [
+          "At the very bottom of the mines, the rock has been compressed into beautiful gems. These gems are valued above all else by the Shroud for their allure as well as their mystical abilities. I've been able to hoard a few for myself, conveniently forgetting to notify the Umbra."
         ]
       }
     }
   ],
   "linkedClass": "ClassUmbra",
   "ignoreWhenCountingMastery": true,
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Morsel Jeweler"
 }

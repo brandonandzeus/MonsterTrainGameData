@@ -1,17 +1,18 @@
 {
   "nameKey": "CardData_nameKey-827256d495157a67-7d23b35671b6a2744933e3b9be68541d-v2",
-  "costType": 1,
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-2f8ab0a14e517087-7d23b35671b6a2744933e3b9be68541d-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitSelfPurge"
     },
     {
       "traitStateName": "CardTraitScalingAddStatusEffect",
-      "paramTrackedValue": 1,
-      "paramEntryDuration": 2,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
+      "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 2,
       "paramUseScalingParams": true,
       "paramStatusEffects": [
@@ -25,8 +26,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "damage shield",
@@ -38,5 +39,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-ea45af37391f58cd-7d23b35671b6a2744933e3b9be68541d-v2"
   ],
-  "name": "Thy Holiest Shield"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Thy Holiest Shield",
+  "overrideDescription": "Apply [trait1.statusmultiplier][x] [damageshield].",
+  "cardLoreTooltip": [
+    "Driven by some misplaced sense of virtue, the Winged broke the Covenant we worked so hard to create. But they cannot achieve peace through blood."
+  ]
 }

@@ -2,12 +2,13 @@
   "nameKey": "CardData_nameKey-8a28280199a2159c-0c143996dd33c9b45b6c704a27914c88-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-292ac74bb40152ac-0c143996dd33c9b45b6c704a27914c88-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddDamage",
-      "paramTrackedValue": 10,
-      "paramEntryDuration": 2,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.AnyMonsterDeath",
+      "paramEntryDuration": "CardStatistics.EntryDuration.ThisBattle",
       "paramInt": 3,
       "paramUseScalingParams": true
     }
@@ -15,6 +16,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 1
     }
   ],
@@ -22,5 +25,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-fd4bc0f99864889b-0c143996dd33c9b45b6c704a27914c88-v2"
   ],
-  "name": "A Fatal Melting"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "A Fatal Melting",
+  "overrideDescription": "Deal damage to enemy units equal to [trait0.power]x the number of friendly unit deaths this battle.",
+  "cardLoreTooltip": [
+    "Charged with both the extension of life and the acceleration of melting, the Reformed tend to large flames at each Votive House, allowing for Waxers to congregate and melt more quickly than they would on their own."
+  ]
 }

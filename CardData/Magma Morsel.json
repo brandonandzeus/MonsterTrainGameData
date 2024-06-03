@@ -1,11 +1,12 @@
 {
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-3a3626fba318bd69-851b86a59ea80b64f8226ccd6bbf915a-v2",
         "size": 1,
@@ -13,19 +14,21 @@
         "attackDamage": 6,
         "triggers": [
           {
-            "trigger": 23,
+            "trigger": "CharacterTriggerData.Trigger.OnEaten",
             "descriptionKey": "CharacterData_descriptionKey-7edc9add64ecc086-851b86a59ea80b64f8226ccd6bbf915a-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                "targetMode": 20,
-                "targetTeamType": 3,
+                "targetMode": "TargetMode.LastFeederCharacter",
+                "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
                 "paramInt": 100,
                 "paramCardUpgradeData": {
+                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                   "bonusDamage": 6
                 }
               }
-            ]
+            ],
+            "description": "Eater gains +[effect0.upgrade.bonusdamage][attack]."
           }
         ],
         "subtypeKeys": [
@@ -33,11 +36,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-0b878e2dc749ca75-851b86a59ea80b64f8226ccd6bbf915a-v2"
+        ],
+        "name": "Magma Morsel",
+        "subtype": [
+          "Morsel"
+        ],
+        "characterLoreTooltip": [
+          "Originally heated by the nearby Pyre, molten rock can be found throughout the Crucible. Morsels excavate it like anything else, but there was no use for it until I showed them how to use the residual energy to strengthen themselves."
         ]
       }
     }
   ],
   "linkedClass": "ClassUmbra",
   "ignoreWhenCountingMastery": true,
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Magma Morsel"
 }

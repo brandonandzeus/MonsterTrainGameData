@@ -2,8 +2,9 @@
   "nameKey": "CardData_nameKey-826dc77d3c52e0f3-b8bafccffc8927246a36c228fb912935-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-5a101fe602bf0205-b8bafccffc8927246a36c228fb912935-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -12,17 +13,20 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-      "targetMode": 12,
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Monsters",
       "paramCardUpgradeData": {
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-22349f99d44421f9-27743667ca182ce4a832313a9971e064-v2",
         "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-d10762ba61d71a36-27743667ca182ce4a832313a9971e064-v2",
+        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
         "statusEffectUpgrades": [
           {
             "statusId": "endless",
             "count": 1
           }
-        ]
+        ],
+        "upgradeTitle": "",
+        "upgradeDescription": ""
       }
     }
   ],
@@ -30,5 +34,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-89e609682ff91832-b8bafccffc8927246a36c228fb912935-v2"
   ],
-  "name": "Remnant Pact"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Remnant Pact",
+  "overrideDescription": "Apply [endless] to a friendly unit.",
+  "cardLoreTooltip": [
+    "Despite their age-long feud, the Wickless and the Reformed were able to come to an armistice when the Covenant was formed. That doesn’t mean that the rules put in place for their peace were easy to follow."
+  ]
 }

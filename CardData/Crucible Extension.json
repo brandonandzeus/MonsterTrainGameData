@@ -2,16 +2,20 @@
   "nameKey": "CardData_nameKey-40e5c58567896a57-1703b63f5c38c7044999bf2ee1ae099a-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-b52790c719eeed0a-1703b63f5c38c7044999bf2ee1ae099a-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectAdjustRoomCapacity",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramInt": 1,
       "additionalTooltips": [
         {
           "titleKey": "Capacity_TooltipTitle",
-          "descriptionKey": "Capacity_TooltipText"
+          "descriptionKey": "Capacity_TooltipText",
+          "title": "[capacity] Capacity",
+          "description": "Units can only be summoned on a floor if it has enough capacity."
         }
       ]
     }
@@ -20,5 +24,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-688b785c556216af-1703b63f5c38c7044999bf2ee1ae099a-v2"
   ],
-  "name": "Crucible Extension"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Crucible Extension",
+  "overrideDescription": "+[effect0.power][capacity] on this floor.",
+  "cardLoreTooltip": [
+    "The number of Morsels within the Crucible seems to be endless, making the work they accomplish proceed near instantaneously. Should I need to do future work on the Boneshaker, I will remember to take this into account."
+  ]
 }

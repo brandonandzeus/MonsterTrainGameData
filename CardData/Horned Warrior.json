@@ -1,8 +1,8 @@
 {
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -11,9 +11,11 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-9d6e56362af844e9-2bdf15d54745dde4dbeb851405ec4342-v2",
+        "size": 2,
         "health": 5,
         "attackDamage": 15,
         "startingStatusEffects": [
@@ -28,10 +30,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-0dc06663794dea03-2bdf15d54745dde4dbeb851405ec4342-v2"
+        ],
+        "name": "Horned Warrior",
+        "subtype": [
+          "Demon",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "Though slightly unwieldy with the recent loss of their tails, these maturing demons have grown into their horns, making them valuable soldiers of the Hellhorned and of our Rail."
         ]
       }
     }
   ],
   "linkedClass": "ClassHellhorned",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Horned Warrior"
 }

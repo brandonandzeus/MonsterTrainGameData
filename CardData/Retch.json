@@ -1,14 +1,15 @@
 {
   "nameKey": "CardData_nameKey-98be9a402c73c3d1-6c5f6c837e91bd84ab7cde7b6e401f5b-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-fb3f0dc22ee0feb2-6c5f6c837e91bd84ab7cde7b6e401f5b-v2",
-  "rarity": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectRecursion",
-      "targetMode": 24,
-      "targetTeamType": 0,
-      "targetCardType": 1,
-      "targetCardSelectionMode": 1,
+      "targetMode": "TargetMode.Eaten",
+      "targetTeamType": "Team.Type.None",
+      "targetCardType": "CardType.Monster",
+      "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
       "paramInt": 99,
       "hideTooltip": true
     }
@@ -17,5 +18,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-a1748d0b0fd93652-6c5f6c837e91bd84ab7cde7b6e401f5b-v2"
   ],
-  "name": "Retch"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Retch",
+  "overrideDescription": "Return eaten units to your hand.",
+  "cardLoreTooltip": [
+    "Even the Shroud knows little restraint, sometimes consuming Morsels when, as far as I can tell, no hunger remains. This compulsion, unfortunately, can lead to… ”involuntary expulsion.”"
+  ]
 }

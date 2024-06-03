@@ -2,7 +2,8 @@
   "nameKey": "CardData_nameKey-81ee622014106d81-b7525edaccf109a469ab7c44b8236492-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-1c65956097db2483-b7525edaccf109a469ab7c44b8236492-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitShowCardTargets"
@@ -11,14 +12,15 @@
   "effects": [
     {
       "effectStateName": "CardEffectRecursion",
-      "targetMode": 15,
-      "targetTeamType": 0,
-      "targetCardType": 1,
+      "targetMode": "TargetMode.Exhaust",
+      "targetTeamType": "Team.Type.None",
+      "targetCardType": "CardType.Monster",
       "paramInt": 1,
       "paramCardUpgradeData": {
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-81b61320cc8d6b65-d0f44bf0c20e4a847a2f0cf60000741a-v2",
         "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-0350da1f9b6ab7e9-d0f44bf0c20e4a847a2f0cf60000741a-v2",
         "upgradeNotificationKey": "CardUpgradeData_upgradeNotificationKey-8dccaa6671051bd3-d0f44bf0c20e4a847a2f0cf60000741a-v2",
+        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
         "bonusDamage": 15,
         "bonusHP": 5,
         "costReduction": 99,
@@ -27,7 +29,10 @@
             "statusId": "ephemeral",
             "count": 1
           }
-        ]
+        ],
+        "upgradeTitle": "",
+        "upgradeDescription": "",
+        "upgradeNotification": ""
       }
     }
   ],
@@ -35,5 +40,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-b35ae9312642710b-b7525edaccf109a469ab7c44b8236492-v2"
   ],
-  "name": "Wicked Blaze"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Wicked Blaze",
+  "overrideDescription": "[raise] a unit and apply an additional +10[attack].",
+  "cardLoreTooltip": [
+    "Though not entirely under their control, the burning of a Waxer’s wick can accelerate with a great deal of focus and help from other Waxers. The resulting melting wax is then collected and donated to reform one of their kin."
+  ]
 }

@@ -2,18 +2,20 @@
   "nameKey": "CardData_nameKey-5cedab8c255df55f-eb844659454aa9d4e9ab5d4e662a8a23-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-7e09ede11ee767d8-eb844659454aa9d4e9ab5d4e662a8a23-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectKill",
-      "targetMode": 1,
-      "targetIgnoreBosses": true
+      "targetMode": "TargetMode.RandomInRoom",
+      "targetIgnoreBosses": true,
+      "targetTeamType": "Team.Type.Heroes"
     },
     {
       "effectStateName": "CardEffectKill",
-      "targetMode": 1,
+      "targetMode": "TargetMode.RandomInRoom",
       "targetIgnoreBosses": true,
-      "targetTeamType": 2
+      "targetTeamType": "Team.Type.Monsters"
     }
   ],
   "linkedClass": "ClassRemnant",
@@ -21,5 +23,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-672a24cbc9b8aba6-eb844659454aa9d4e9ab5d4e662a8a23-v2"
   ],
-  "name": "Crushing Demise"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Crushing Demise",
+  "overrideDescription": "Kill a random non-boss enemy unit. [halfbreak]Kill a random friendly unit.",
+  "cardLoreTooltip": [
+    "A hazard of guttering at a Votive House is the melding together of various Waxers into a massive, uncontrollable boulder that will kill anything in its path."
+  ]
 }

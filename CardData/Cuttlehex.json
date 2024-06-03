@@ -1,12 +1,13 @@
 {
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-de9a82211e36eb8f-e463b9805c203784bb74006b5fd36a22-v2",
         "size": 1,
@@ -15,16 +16,19 @@
         "attackTeleportsToDefender": false,
         "triggers": [
           {
-            "trigger": 21,
+            "trigger": "CharacterTriggerData.Trigger.EndTurnPreHandDiscard",
             "descriptionKey": "CharacterData_descriptionKey-33b5fab3765f428f-e463b9805c203784bb74006b5fd36a22-v2",
             "additionalTextOnTriggerKey": "CharacterData_additionalTextOnTriggerKey-3e0d5d2c33383b48-e463b9805c203784bb74006b5fd36a22-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectFreezeRandomCard",
-                "targetTeamType": 0,
-                "animToPlay": 2
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.None",
+                "animToPlay": "CharacterUI.Anim.Attack"
               }
-            ]
+            ],
+            "description": "Apply [freeze] to a random card in your hand.",
+            "additionalTextOnTrigger": "Freezing Card!"
           }
         ],
         "subtypeKeys": [
@@ -32,11 +36,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-f241f04a2dabf9c4-e463b9805c203784bb74006b5fd36a22-v2"
+        ],
+        "name": "Cuttlehex",
+        "subtype": [
+          "Mage"
+        ],
+        "characterLoreTooltip": [
+          "Together with the Cold Sirens, these Stygian were amongst the first to embrace the freeze, becoming crucial in the Ring’s survival post-Armageddon and our mounting resistance."
         ]
       }
     }
   ],
   "linkedClass": "ClassStygian",
   "unlockLevel": 6,
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Cuttlehex"
 }

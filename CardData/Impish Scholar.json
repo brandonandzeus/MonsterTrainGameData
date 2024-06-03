@@ -1,9 +1,9 @@
 {
   "nameKey": "CardData_nameKey-f6b95190224b8b98-5de8ba4f1343dbd4fa0faa10672e8006-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitShowCardTargets"
@@ -12,7 +12,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-aad8ea7e02bd8778-8c32dfa47b7b4014a825217a4bfbadb3-v2",
         "size": 1,
@@ -20,14 +21,14 @@
         "attackDamage": 1,
         "triggers": [
           {
-            "trigger": 2,
+            "trigger": "CharacterTriggerData.Trigger.OnSpawn",
             "descriptionKey": "CharacterData_descriptionKey-1cf08a2c76473cc5-8c32dfa47b7b4014a825217a4bfbadb3-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectRecursion",
-                "targetMode": 15,
-                "targetTeamType": 0,
-                "targetCardSelectionMode": 1,
+                "targetMode": "TargetMode.Exhaust",
+                "targetTeamType": "Team.Type.None",
+                "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
                 "paramInt": 1,
                 "paramTimingDelays": {
                   "x": 0.75,
@@ -36,7 +37,8 @@
                 },
                 "hideTooltip": true
               }
-            ]
+            ],
+            "description": "Return a random consumed spell to your hand."
           }
         ],
         "subtypeKeys": [
@@ -44,10 +46,18 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-d4a6d5c1993679cd-8c32dfa47b7b4014a825217a4bfbadb3-v2"
+        ],
+        "name": "Impish Scholar",
+        "subtype": [
+          "Imp"
+        ],
+        "characterLoreTooltip": [
+          "Having chosen to mature in knowledge rather than strength, these imps decided not to molt and instead to travel between the Rings as ambassadors of the Scorched Plains and advocates of our Covenant with Heaven. Now with no home to return to, they've helped to advance our research of more efficient defensive techniques."
         ]
       }
     }
   ],
   "linkedClass": "ClassHellhorned",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Impish Scholar"
 }

@@ -2,8 +2,9 @@
   "nameKey": "CardData_nameKey-ac0dd2d521c61740-5b97807561722c4419c3acd945af0f7d-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-02a15f890d63cdc6-5b97807561722c4419c3acd945af0f7d-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -12,8 +13,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "ambush",
@@ -26,5 +27,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-e5c8ff5ebe55028a-5b97807561722c4419c3acd945af0f7d-v2"
   ],
-  "name": "Wildwood Tome"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Wildwood Tome",
+  "overrideDescription": "Apply [quick].",
+  "cardLoreTooltip": [
+    "An ancient text of the Channelers of the Edge Priory, this tome outlines its creation. Sadly, the language is closely guarded by the Priory and I've had little luck in translating it."
+  ]
 }

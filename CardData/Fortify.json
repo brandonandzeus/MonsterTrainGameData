@@ -1,12 +1,14 @@
 {
   "nameKey": "CardData_nameKey-b3b5cc390b6ac49d-7a6fa80fc37d9c541b9e37625bf870e3-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-800d2387e2bacf1b-7a6fa80fc37d9c541b9e37625bf870e3-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectAddStatusEffect",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramStatusEffects": [
         {
           "statusId": "armor",
@@ -19,5 +21,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-27993336a6421d1b-7a6fa80fc37d9c541b9e37625bf870e3-v2"
   ],
-  "name": "Fortify"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Fortify",
+  "overrideDescription": "Apply [armor] [effect0.status0.power].",
+  "cardLoreTooltip": [
+    "Leather is a common material among the Hellhorned, so I've lined my garb with the material for protection. Given the stench, I'm sure the source of it is better left a mystery."
+  ]
 }

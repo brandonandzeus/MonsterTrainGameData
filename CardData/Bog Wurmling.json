@@ -1,14 +1,14 @@
 {
   "nameKey": "CardData_nameKey-4f6709fb2fca059e-36c5fb3d022e5cf498deebb1daeb4b42-v2",
-  "costType": 2,
-  "cardType": 1,
+  "costType": "CardData.CostType.NonPlayable",
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-219ee66c7261f969-c82a07efc532479489fd2f32c9fa9f4b-v2",
         "size": 4,
@@ -23,19 +23,21 @@
         ],
         "triggers": [
           {
-            "trigger": 35,
+            "trigger": "CharacterTriggerData.Trigger.CardExhausted",
             "descriptionKey": "CharacterData_descriptionKey-72e5a8d9989c0ea8-c82a07efc532479489fd2f32c9fa9f4b-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramCardUpgradeData": {
+                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                   "bonusDamage": 10,
                   "bonusHP": 10
                 }
               }
-            ]
+            ],
+            "description": "+[effect0.upgrade.bonusdamage][attack] and +[effect0.upgrade.bonushp][health]."
           }
         ],
         "subtypeKeys": [
@@ -43,11 +45,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-6c8a9f9cb83b30ff-c82a07efc532479489fd2f32c9fa9f4b-v2"
+        ],
+        "name": "Bog Wurmling",
+        "subtype": [
+          "Kin"
+        ],
+        "characterLoreTooltip": [
+          "Erth was the name posthumously given to the Bogwurm — a name of function. The Wurm’s remains have seeded much of the life now buzzing in its bowels. The dead Titan’s bones — another peculiarity for a usually boneless creature — create the structure the Wurmkin inhabit while the flesh decays just above. Even in death, there’s still some latent power in the Wurm as it has created spawn in its own likeness."
         ]
       }
     }
   ],
   "linkedClass": "ClassWurm",
   "ignoreWhenCountingMastery": true,
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Bog Wurmling"
 }

@@ -1,13 +1,14 @@
 {
   "nameKey": "CardData_nameKey-83e604c9cb4b9274-cc23c6594cc18ab4f9f0426dbd2b8a3c-v2",
-  "costType": 1,
+  "costType": "CardData.CostType.ConsumeRemainingEnergy",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-36aa748f6c6dc2e9-cc23c6594cc18ab4f9f0426dbd2b8a3c-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitScalingAddDamage",
-      "paramTrackedValue": 1,
+      "paramTrackedValue": "CardStatistics.TrackedValueType.PlayedCost",
       "paramInt": 10,
       "paramUseScalingParams": true
     }
@@ -15,8 +16,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 12,
-      "targetTeamType": 3
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters"
     }
   ],
   "startingUpgrades": [
@@ -24,15 +25,17 @@
       "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-b2b3472d948616a7-4572c98ab2c0b304e99ad9b1f0d3ceea-v2",
       "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-edd25fab23f64de0-4572c98ab2c0b304e99ad9b1f0d3ceea-v2",
       "useUpgradeHighlightTextTags": false,
+      "linkedPactDuplicateRarity": "CollectableRarity.Starter",
       "cardTriggerUpgrades": [
         {
-          "trigger": 1,
+          "trigger": "CardTriggerType.OnKill",
           "descriptionKey": "CardUpgradeData_descriptionKey-cfcf296da64eb0ae-4572c98ab2c0b304e99ad9b1f0d3ceea-v2",
           "cardEffects": [
             {
               "effectStateName": "CardEffectAddRunCard",
+              "targetMode": "TargetMode.Room",
               "copyModifiersFromSource": true,
-              "targetTeamType": 0,
+              "targetTeamType": "Team.Type.None",
               "paramInt": 1,
               "paramCardPool": {
                 "name": "ReplicatingSpellPool",
@@ -41,14 +44,21 @@
                 ]
               }
             }
-          ]
+          ],
+          "description": "Add a permanent copy of this card to your discard pile."
         }
-      ]
+      ],
+      "upgradeTitle": "",
+      "upgradeDescription": ""
     }
   ],
   "cardLoreTooltipKeys": [
     "CardData_data-4edd482449214ed1-cc23c6594cc18ab4f9f0426dbd2b8a3c-v2"
   ],
-  "initialKeyboardTarget": 2,
-  "name": "Automatic Railspikes"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
+  "name": "Automatic Railspikes",
+  "overrideDescription": "Deal [trait0.power][x] damage.",
+  "cardLoreTooltip": [
+    "These railspikes can replicate themselves through technology I developed in the Crucible. They made the construction of the Rail a quick process. Some lubrication is needed to make sure that the spikes can emerge easily, but oil has become hard to come by. Thankfully, brutal combat has allowed for other sources."
+  ]
 }

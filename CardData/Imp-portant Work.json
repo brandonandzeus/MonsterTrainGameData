@@ -1,26 +1,29 @@
 {
   "nameKey": "CardData_nameKey-eaf7eba6b5c27364-ed3f80ba19dd9a9428f1d33f42a5e379-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-7d688b09ed2271f4-ed3f80ba19dd9a9428f1d33f42a5e379-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectSacrifice",
-      "targetMode": 12,
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Monsters",
       "paramSubtype": "SubtypesData_Imp_0f9b989f-15b5-4b16-8378-5d8ed8691e7c"
     },
     {
       "effectStateName": "CardEffectGainEnergy",
-      "targetTeamType": 3,
-      "targetCardSelectionMode": 1,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
+      "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
       "shouldTest": false,
       "paramInt": 1
     },
     {
       "effectStateName": "CardEffectDraw",
-      "targetTeamType": 3,
-      "targetCardSelectionMode": 1,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
+      "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
       "shouldTest": false,
       "paramInt": 1
     }
@@ -29,5 +32,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-1fce0943741e314c-ed3f80ba19dd9a9428f1d33f42a5e379-v2"
   ],
-  "name": "Imp-portant Work"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Imp-portant Work",
+  "overrideDescription": "Gain [effect1.power][ember]. Draw [effect2.power].",
+  "cardLoreTooltip": [
+    "“Some Imps learn much about Horned. It is only through dying that Imps can teach Horned.” -excerpt from Hell’s Horns by Grrrg Onehorn on the posthumous transfer of knowledge in Hellhorned society."
+  ]
 }

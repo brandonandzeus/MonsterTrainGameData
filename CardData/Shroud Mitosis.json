@@ -2,13 +2,14 @@
   "nameKey": "CardData_nameKey-befbf4ba3b0f9cb3-dc27a71553a499741a27e3501113ca97-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-7bd116c64e494ea2-dc27a71553a499741a27e3501113ca97-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectCopyUnits",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "targetCharacterSubtype": "SubtypesData_Snack",
       "paramInt": 3
     }
@@ -18,5 +19,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-769576561d06706d-dc27a71553a499741a27e3501113ca97-v2"
   ],
-  "name": "Shroud Mitosis"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Shroud Mitosis",
+  "overrideDescription": "Create [effect0.power] copies of a [snack] unit.",
+  "cardLoreTooltip": [
+    "I thought that only the Umbra could split themselves off into more Morsels, but it seems that the Antumbra can create even more copies of themselves. I guess that’s why there’s a saying about a Morsel in a dark mine..."
+  ]
 }

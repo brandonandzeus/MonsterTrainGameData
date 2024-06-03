@@ -1,26 +1,28 @@
 {
   "cost": 2,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-c3287ae9aa6cb9f6-fe204451b4721c445870b04950df0056-v2",
         "size": 1,
         "health": 1,
-        "attackDamage": 0,
         "deathSlidesBackwards": false,
         "triggers": [
           {
-            "trigger": 19,
+            "trigger": "CharacterTriggerData.Trigger.CardSpellPlayed",
             "descriptionKey": "CharacterData_descriptionKey-3dcba55fd60eeb1f-fe204451b4721c445870b04950df0056-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "animToPlay": 2,
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.Heroes",
+                "animToPlay": "CharacterUI.Anim.Attack",
                 "paramStatusEffects": [
                   {
                     "statusId": "poison",
@@ -28,7 +30,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Apply [frostbite] [effect0.status0.power] to enemy units."
           }
         ],
         "subtypeKeys": [
@@ -36,10 +39,18 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-1623cefadd80e788-fe204451b4721c445870b04950df0056-v2"
+        ],
+        "name": "Glacial Seal",
+        "subtype": [
+          "Totem"
+        ],
+        "characterLoreTooltip": [
+          "Enchanted granite pegs were used in the sealing of the Titan’s tomb. When the Sea froze, ice formed around each bolt, prying it loose to drift through the open water."
         ]
       }
     }
   ],
   "linkedClass": "ClassStygian",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Glacial Seal"
 }

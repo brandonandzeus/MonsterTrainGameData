@@ -1,31 +1,34 @@
 {
   "nameKey": "CardData_nameKey-0cc048750988fedf-8d1f59b6c641f3142b7a9847f6e22c10-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState",
-      "paramCardData": "RuneboundGuardian",
-      "paramTeamType": 1
+      "paramCardData": "Guard of the Unnamed",
+      "paramTeamType": "Team.Type.Heroes"
     }
   ],
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-92846007e35c90b8-95031c6e57ffb4841994d669ae1824a5-v2",
+        "size": 2,
         "health": 35,
-        "attackDamage": 0,
         "triggers": [
           {
-            "trigger": 15,
+            "trigger": "CharacterTriggerData.Trigger.OnHit",
             "descriptionKey": "CharacterData_descriptionKey-ee8c134207d91a83-95031c6e57ffb4841994d669ae1824a5-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.Heroes",
                 "paramInt": 100,
                 "paramStatusEffects": [
                   {
@@ -34,7 +37,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Apply [frostbite] [effect0.status0.power] to enemy units."
           }
         ],
         "subtypeKeys": [
@@ -43,11 +47,20 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-b3b0dcb3569040fe-95031c6e57ffb4841994d669ae1824a5-v2"
+        ],
+        "name": "Titan Sentry",
+        "subtype": [
+          "Siren",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "Stationed all across the Sea floor, generations of these Guardians have been tasked with the protection of the Unnamed Titan. Their role was entirely ceremonial until now."
         ]
       }
     }
   ],
   "linkedClass": "ClassStygian",
   "unlockLevel": 7,
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Titan Sentry"
 }

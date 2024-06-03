@@ -1,9 +1,9 @@
 {
   "nameKey": "CardData_nameKey-d49b41523e9333e4-8e029b2bf49cc4745a04b92261807e7d-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState"
@@ -12,10 +12,13 @@
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-f71cc65df3354a5f-de076dcd44a0be44ba6137fc2a652c66-v2",
+        "size": 2,
         "health": 25,
+        "attackDamage": 10,
         "subtypeKeys": [
           "SubtypesData_Demon_fcebd195-f262-4d7a-ac9f-01ffa2007a12",
           "SubtypesData_Chosen"
@@ -27,12 +30,22 @@
           {
             "roomStateModifierClassName": "RoomStateBuffModifier",
             "descriptionKey": "CharacterData_descriptionKey-a26e1dc31d6bb1c6-de076dcd44a0be44ba6137fc2a652c66-v2",
-            "paramInt": 3
+            "paramInt": 3,
+            "description": "[rage] on friendly units adds an additional <nobr>+[paramint][attack]</nobr> per stack."
           }
+        ],
+        "name": "Deranged Brute",
+        "subtype": [
+          "Demon",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "For a race that is bred on violence, even the Hellhorned have limits to the amount of aggression that is acceptable. But desperate times have forced the Hellhorned to agree with my suggestion to release their most dangerous prisoners."
         ]
       }
     }
   ],
   "linkedClass": "ClassHellhorned",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Deranged Brute"
 }

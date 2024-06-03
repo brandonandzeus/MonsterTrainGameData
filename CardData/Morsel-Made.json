@@ -2,44 +2,49 @@
   "nameKey": "CardData_nameKey-81a4d268a35cd11b-9b99df23c06872c498846373525841e6-v2",
   "cost": 2,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-bf7db41bd0b92824-9b99df23c06872c498846373525841e6-v2",
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-bfd217e10ddbed19-6c9046852d9050b45883c23f7cfd5795-v2",
+        "size": 2,
         "health": 20,
         "attackDamage": 5,
         "triggers": [
           {
-            "trigger": 34,
+            "trigger": "CharacterTriggerData.Trigger.OnFoodSpawn",
             "descriptionKey": "CharacterData_descriptionKey-c178d2cd3adb49c4-6c9046852d9050b45883c23f7cfd5795-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectFeederRules",
-                "targetTeamType": 3,
+                "targetMode": "TargetMode.Room",
+                "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
                 "paramBool": true
               }
-            ]
+            ],
+            "description": "Feed on units with [eaten]."
           },
           {
-            "trigger": 22,
+            "trigger": "CharacterTriggerData.Trigger.OnFeed",
             "descriptionKey": "CharacterData_descriptionKey-40b11626c1c7681e-6c9046852d9050b45883c23f7cfd5795-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramCardUpgradeData": {
+                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                   "bonusDamage": 2,
                   "bonusHP": 2
                 }
               }
-            ]
+            ],
+            "description": "+2[attack] and +2[health]."
           }
         ],
         "subtypeKeys": [
@@ -48,10 +53,20 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-41be748fbceb1036-6c9046852d9050b45883c23f7cfd5795-v2"
+        ],
+        "name": "Morsel-Made",
+        "subtype": [
+          "Construct",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "As the mines of the Crucible twist farther into the depths of Hell, Morsels find themselves safe from the Shroud in their solitude. In the furthest reaches of the Crucible, the Morsels have banded together to create singular entities that further increases their collective chances of survival."
         ]
       }
     }
   ],
   "linkedClass": "ClassUmbra",
-  "name": "Morsel-Made"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Morsel-Made",
+  "overrideDescription": ""
 }

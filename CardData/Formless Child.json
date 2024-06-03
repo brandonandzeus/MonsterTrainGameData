@@ -1,42 +1,46 @@
 {
   "nameKey": "CardData_nameKey-89759f4f6efffd52-8b635597a27a1cb45956d0708842908b-v2",
   "cost": 2,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 2,
+  "rarity": "CollectableRarity.Rare",
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-d2186921e2684acd-ba8f8e05de9e05345bbe612def7145a6-v2",
         "size": 1,
         "health": 1,
-        "attackDamage": 0,
         "deathSlidesBackwards": false,
         "triggers": [
           {
+            "trigger": "CharacterTriggerData.Trigger.OnDeath",
             "descriptionKey": "CharacterData_descriptionKey-70b5a25b9ba1d806-ba8f8e05de9e05345bbe612def7145a6-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectRecursion",
-                "targetMode": 15,
-                "targetTeamType": 0,
-                "targetCardType": 1,
-                "targetCardSelectionMode": 1,
+                "targetMode": "TargetMode.Exhaust",
+                "targetTeamType": "Team.Type.None",
+                "targetCardType": "CardType.Monster",
+                "targetCardSelectionMode": "CardEffectData.CardSelectionMode.RandomToHand",
                 "paramInt": 1,
                 "paramCardUpgradeData": {
+                  "linkedPactDuplicateRarity": "CollectableRarity.Starter",
                   "bonusDamage": 40
                 },
                 "additionalTooltips": [
                   {
                     "descriptionKey": "TipTooltip_StatChangesStick",
-                    "style": 0,
-                    "isTipTooltip": true
+                    "style": "TooltipDesigner.TooltipDesignType.Default",
+                    "isTipTooltip": true,
+                    "description": "<b>Tip:</b> Stat changes persist for the duration of battle."
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Return a random defeated unit to your hand and apply +[effect0.upgrade.bonusdamage][attack]."
           }
         ],
         "subtypeKeys": [
@@ -44,10 +48,18 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-c6164b2378525322-ba8f8e05de9e05345bbe612def7145a6-v2"
+        ],
+        "name": "Formless Child",
+        "subtype": [
+          "Tomb"
+        ],
+        "characterLoreTooltip": [
+          "Children are rarely seen in the Melting Remnant, but they're easy to spot by their transparent wax and inner glow. However, this unusual phenomenon makes these children less mobile, as this glass-like wax isn’t very flexible."
         ]
       }
     }
   ],
   "linkedClass": "ClassRemnant",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Formless Child"
 }

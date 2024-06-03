@@ -2,6 +2,8 @@
   "nameKey": "CardData_nameKey-cda5e68109e04a84-2a478dcb5bd3cc54582e77fc9d66112d-v2",
   "cost": 3,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-f07e48d8f2f8456f-2a478dcb5bd3cc54582e77fc9d66112d-v2",
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Common",
   "traits": [
     {
       "traitStateName": "CardTraitPermafrost"
@@ -10,12 +12,14 @@
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 1,
+      "targetMode": "TargetMode.RandomInRoom",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 20
     },
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 1,
+      "targetMode": "TargetMode.RandomInRoom",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 20,
       "paramTimingDelays": {
         "x": 0.1,
@@ -25,7 +29,8 @@
     },
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 1,
+      "targetMode": "TargetMode.RandomInRoom",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 20,
       "paramTimingDelays": {
         "x": 0.1,
@@ -39,5 +44,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-9e6f5744aadca767-2a478dcb5bd3cc54582e77fc9d66112d-v2"
   ],
-  "name": "Ice Tornado"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Ice Tornado",
+  "overrideDescription": "Deal [effect0.power] damage to a random enemy unit, three times.",
+  "cardLoreTooltip": [
+    "The brutal ecosystem of the Stygian Sea has evolved into a favorable place for tornadoes to destroy anything standing above the surface of the water. Thankfully for the Guard, their gills allow them to take refuge beneath the waves."
+  ]
 }

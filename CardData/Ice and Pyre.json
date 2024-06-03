@@ -2,7 +2,8 @@
   "nameKey": "CardData_nameKey-2578ba0fb906750a-c11e9cef1fe321d4eaaee3f680a93612-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-10b8f61b255fadc3-c11e9cef1fe321d4eaaee3f680a93612-v2",
-  "rarity": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitLimitedRange"
@@ -14,7 +15,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 2,
+      "targetMode": "TargetMode.FrontInRoom",
+      "targetTeamType": "Team.Type.Heroes",
       "paramInt": 90
     }
   ],
@@ -23,5 +25,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-f22fda2134bdd858-c11e9cef1fe321d4eaaee3f680a93612-v2"
   ],
-  "name": "Ice and Pyre"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Ice and Pyre",
+  "overrideDescription": "Deal [effect0.power] damage to the front enemy unit.",
+  "cardLoreTooltip": [
+    "Having only limited control over the elements, the Stygian have learned to harness the energy of the Pyre and freeze it for even greater impact. Unfortunately, we've only been able to perfect this defense within a limited range."
+  ]
 }

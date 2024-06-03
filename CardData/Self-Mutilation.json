@@ -1,7 +1,8 @@
 {
   "nameKey": "CardData_nameKey-27702b4a9b863ff1-19e3971abc1f11249ac8fded65a3fa32-v2",
   "cost": 1,
-  "cardType": 6,
+  "cardType": "CardType.Junk",
+  "rarity": "CollectableRarity.Common",
   "traits": [
     {
       "traitStateName": "CardTraitSelfPurge"
@@ -9,20 +10,25 @@
   ],
   "triggers": [
     {
-      "trigger": 10,
+      "trigger": "CardTriggerType.OnUnplayed",
       "descriptionKey": "CardData_descriptionKey-1e5013e062d40e66-19e3971abc1f11249ac8fded65a3fa32-v2",
       "cardEffects": [
         {
           "effectStateName": "CardEffectDamage",
-          "targetMode": 21,
-          "targetTeamType": 3,
+          "targetMode": "TargetMode.Pyre",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
           "paramInt": 5
         }
-      ]
+      ],
+      "description": "Your Pyre takes [effect0.power] damage."
     }
   ],
   "cardLoreTooltipKeys": [
     "CardData_data-147b36044cde475c-19e3971abc1f11249ac8fded65a3fa32-v2"
   ],
-  "name": "Self-Mutilation"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Self-Mutilation",
+  "cardLoreTooltip": [
+    "For the devout, pain is the ultimate penance for their sins. For the rest of us, it is just another reminder of our need to restore peace."
+  ]
 }

@@ -1,8 +1,9 @@
 {
   "nameKey": "CardData_nameKey-b5630d91c2307632-8c5bb20681197714fbcb0d113aafd816-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-e38c7977745b1ba8-8c5bb20681197714fbcb0d113aafd816-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Common",
   "traits": [
     {
       "traitStateName": "CardTraitCorruptRestricted",
@@ -12,15 +13,18 @@
   "effects": [
     {
       "effectStateName": "CardEffectAddTempCardUpgradeToUnits",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramCardUpgradeData": {
+        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
         "bonusDamage": 15
       },
       "additionalTooltips": [
         {
           "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "descriptionKey": "HudTooltip_RoomCorruption_Body",
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
       ]
     }
@@ -29,5 +33,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-6b1507367ad693ec-8c5bb20681197714fbcb0d113aafd816-v2"
   ],
-  "name": "Echo Transfer"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Echo Transfer",
+  "overrideDescription": "Apply +[effect0.upgrade.bonusdamage][attack].",
+  "cardLoreTooltip": [
+    "I cannot yet decipher all of their symbols etched into the stone, but the Wurmkin’s stoneforms describe the creation of these Echoes as part of a great Titan sacrifice. The Titan's knowledge lives on in the perfect crystalline structures. More sacrifice and exile, but for what?"
+  ]
 }

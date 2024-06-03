@@ -1,8 +1,8 @@
 {
   "nameKey": "CardData_nameKey-2dd214e9fd85ec51-6929f03e76aaf154385771a538fffe2c-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-86ac784d171e75ab-6929f03e76aaf154385771a538fffe2c-v2",
-  "rarity": 1,
-  "requiredDLC": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -14,9 +14,9 @@
   "effects": [
     {
       "effectStateName": "CardEffectRecursion",
-      "targetMode": 15,
-      "targetTeamType": 0,
-      "targetCardSelectionMode": 2,
+      "targetMode": "TargetMode.Exhaust",
+      "targetTeamType": "Team.Type.None",
+      "targetCardSelectionMode": "CardEffectData.CardSelectionMode.ChooseToDeck",
       "paramStr": "ScreenDeck_Select_ReturnCard"
     }
   ],
@@ -24,5 +24,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-03555e9aa6db01a2-6929f03e76aaf154385771a538fffe2c-v2"
   ],
-  "name": "Broken Memories"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Broken Memories",
+  "overrideDescription": "Return a consumed spell to the top of your draw pile.",
+  "cardLoreTooltip": [
+    "Divines be Damned! Take it back, all of it! I don’t want this memory, this power, this grief. I gave it up once and I’ll do it again if it means I can live in peace. Have the years of endless labor not been enough to atone? Will it ever be enough!"
+  ]
 }

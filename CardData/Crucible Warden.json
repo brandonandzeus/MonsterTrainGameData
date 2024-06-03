@@ -1,32 +1,34 @@
 {
   "nameKey": "CardData_nameKey-b654bb56817e211d-52f66f3c193c7b14099c10f30aa67a83-v2",
   "cost": 1,
-  "cardType": 1,
+  "cardType": "CardType.Monster",
   "targetless": false,
-  "rarity": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitLevelMonsterState",
-      "paramCardData": "CrucibleCollector"
+      "paramCardData": "Crucible Collector"
     }
   ],
   "effects": [
     {
       "effectStateName": "CardEffectSpawnMonster",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramCharacterData": {
         "nameKey": "CharacterData_nameKey-3aff1edfc78f308a-ff326df83cc365b4a90e2437d1dbb013-v2",
+        "size": 2,
         "health": 20,
         "attackDamage": 20,
         "triggers": [
           {
-            "trigger": 22,
+            "trigger": "CharacterTriggerData.Trigger.OnFeed",
             "descriptionKey": "CharacterData_descriptionKey-d311b5b391a6602b-ff326df83cc365b4a90e2437d1dbb013-v2",
             "effects": [
               {
                 "effectStateName": "CardEffectAddStatusEffect",
-                "targetMode": 5,
-                "targetTeamType": 0,
+                "targetMode": "TargetMode.Self",
+                "targetTeamType": "Team.Type.None",
                 "paramStatusEffects": [
                   {
                     "statusId": "damage shield",
@@ -34,7 +36,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "description": "Gain [damageshield] [effect0.status0.power]."
           }
         ],
         "subtypeKeys": [
@@ -43,10 +46,19 @@
         ],
         "characterLoreTooltipKeys": [
           "CharacterData_data-450dda5cc549345b-ff326df83cc365b4a90e2437d1dbb013-v2"
+        ],
+        "name": "Crucible Warden",
+        "subtype": [
+          "Shroud",
+          "Chosen"
+        ],
+        "characterLoreTooltip": [
+          "The dreaded patrols of the Crucible Mines, wandering the long pathways in search of slacking Morsels and idle researchers. Though originally a mark of their lowly status, the Void that protrudes from their shadowed torso serves as a useful guard against worker uprisings."
         ]
       }
     }
   ],
   "linkedClass": "ClassUmbra",
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
   "name": "Crucible Warden"
 }

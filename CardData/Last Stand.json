@@ -2,7 +2,8 @@
   "nameKey": "CardData_nameKey-18a9f0a93e07e097-663eb9f0b42f90b46809c1667b405216-v2",
   "cost": 3,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-7299bae6258f8dc9-663eb9f0b42f90b46809c1667b405216-v2",
-  "rarity": 2,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Rare",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -11,7 +12,8 @@
   "effects": [
     {
       "effectStateName": "CardEffectMultiplyStatusEffect",
-      "targetTeamType": 2,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.Monsters",
       "paramInt": 100,
       "paramStatusEffects": [
         {
@@ -26,5 +28,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-58ed8b4d7aa28f32-663eb9f0b42f90b46809c1667b405216-v2"
   ],
-  "name": "Last Stand"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Last Stand",
+  "overrideDescription": "Double the amount of [rage] on friendly units.",
+  "cardLoreTooltip": [
+    "It’s impossible for the Hellhorned to regain their standing after their horns have been broken, but that doesn’t mean they can’t fight back against their aggressor to salvage what remains of their reputation."
+  ]
 }

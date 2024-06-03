@@ -2,24 +2,26 @@
   "nameKey": "CardData_nameKey-d31d7f084860258e-aaeeaf72d5e646440889d74125d943ce-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-1f8266ceb6c7425f-aaeeaf72d5e646440889d74125d943ce-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
+  "rarity": "CollectableRarity.Common",
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 3
     }
   ],
   "triggers": [
     {
-      "trigger": 1,
+      "trigger": "CardTriggerType.OnKill",
       "descriptionKey": "CardData_descriptionKey-b409d6555292d690-aaeeaf72d5e646440889d74125d943ce-v2",
       "cardEffects": [
         {
           "effectStateName": "CardEffectAddBattleCard",
-          "targetMode": 18,
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Hand",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 3,
           "additionalParamInt": 2,
           "paramCardPool": {
@@ -47,21 +49,26 @@
             ]
           }
         }
-      ]
+      ],
+      "description": "Add 2 uncommon or rare [snack] units to your hand."
     }
   ],
   "linkedClass": "ClassUmbra",
   "sharedMasteryCards": [
-    "MorselJeweler",
-    "MoltenMorsel",
-    "MorselMiner",
-    "RubbleRaiser",
-    "ShadowMorsel",
-    "VoidExcavator"
+    "Morsel Jeweler",
+    "Magma Morsel",
+    "Morsel Miner",
+    "Rubble Morsel",
+    "Antumbra Morsel",
+    "Morsel Excavator"
   ],
   "cardLoreTooltipKeys": [
     "CardData_data-12d38371dc555b10-aaeeaf72d5e646440889d74125d943ce-v2"
   ],
-  "initialKeyboardTarget": 2,
-  "name": "Antumbra Assault"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
+  "name": "Antumbra Assault",
+  "overrideDescription": "Deal [effect0.power] damage.",
+  "cardLoreTooltip": [
+    "As the first line of defense in the Crucible, Morsels will rocket towards an intruder, often sacrificing themselves in the process. If they succeed in their defense, they live to mine another day."
+  ]
 }

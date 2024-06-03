@@ -1,7 +1,8 @@
 {
   "nameKey": "CardData_nameKey-fb98540211ba3d78-f79325421a37bf943959e7b145081fbe-v2",
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-9f0fa70ddf231727-f79325421a37bf943959e7b145081fbe-v2",
-  "rarity": 1,
+  "cardType": "CardType.Spell",
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitExhaustState"
@@ -10,22 +11,30 @@
   "effects": [
     {
       "effectStateName": "CardEffectDrawAdditionalNextTurn",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramInt": -2,
       "paramCardUpgradeData": {
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-af0ff23adccc8aa7-6ef17ac4c934fb24d88055a39842f725-v2",
         "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-615df453fca88cc1-6ef17ac4c934fb24d88055a39842f725-v2",
-        "costReduction": 99
+        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+        "costReduction": 99,
+        "upgradeTitle": "",
+        "upgradeDescription": ""
       }
     },
     {
       "effectStateName": "CardEffectGainEnergyEveryTurn",
-      "targetTeamType": 0,
+      "targetMode": "TargetMode.Room",
+      "targetTeamType": "Team.Type.None",
       "paramInt": 1,
       "paramCardUpgradeData": {
         "upgradeTitleKey": "CardUpgradeData_upgradeTitleKey-af0ff23adccc8aa7-6ef17ac4c934fb24d88055a39842f725-v2",
         "upgradeDescriptionKey": "CardUpgradeData_upgradeDescriptionKey-615df453fca88cc1-6ef17ac4c934fb24d88055a39842f725-v2",
-        "costReduction": 99
+        "linkedPactDuplicateRarity": "CollectableRarity.Starter",
+        "costReduction": 99,
+        "upgradeTitle": "",
+        "upgradeDescription": ""
       }
     }
   ],
@@ -34,5 +43,10 @@
   "cardLoreTooltipKeys": [
     "CardData_data-03acdb035040efef-f79325421a37bf943959e7b145081fbe-v2"
   ],
-  "name": "Pyre-Gro"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontFriendly",
+  "name": "Pyre-Gro",
+  "overrideDescription": "Draw [effect0.power] next turn.<br><nobr>+[effect1.power][ember]</nobr> per turn for the rest of battle.",
+  "cardLoreTooltip": [
+    "The Sentient once told me that the Wildwood was created when Pyre shards were scattered throughout the soil, fertilizing it with an otherworldly energy. Repeating that process now has a similar, though reduced, effect."
+  ]
 }

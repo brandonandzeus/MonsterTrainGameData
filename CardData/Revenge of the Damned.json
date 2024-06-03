@@ -2,9 +2,9 @@
   "nameKey": "CardData_nameKey-69333c6dee4edf19-0ba6816917dbb88499816208dc4ce687-v2",
   "cost": 1,
   "overrideDescriptionKey": "CardData_overrideDescriptionKey-75b2e1cab34076b2-0ba6816917dbb88499816208dc4ce687-v2",
+  "cardType": "CardType.Spell",
   "targetless": false,
-  "rarity": 1,
-  "requiredDLC": 1,
+  "rarity": "CollectableRarity.Uncommon",
   "traits": [
     {
       "traitStateName": "CardTraitCorruptRestricted",
@@ -14,47 +14,57 @@
   "effects": [
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 5,
       "additionalTooltips": [
         {
           "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "descriptionKey": "HudTooltip_RoomCorruption_Body",
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
       ]
     },
     {
       "effectStateName": "CardEffectDamage",
-      "targetMode": 12,
-      "targetTeamType": 3,
+      "targetMode": "TargetMode.DropTargetCharacter",
+      "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
       "paramInt": 5,
       "additionalTooltips": [
         {
           "titleKey": "HudTooltip_RoomCorruption_Title",
-          "descriptionKey": "HudTooltip_RoomCorruption_Body"
+          "descriptionKey": "HudTooltip_RoomCorruption_Body",
+          "title": "Charged Echoes",
+          "description": "Add [corrupt] by playing [infused] cards. The Wurmkin use [corrupt] to power spells and abilities.<br><br>[corrupt] can exceed [emptycorrupt] but excess [corrupt] will be removed at end of turn."
         }
       ]
     }
   ],
   "triggers": [
     {
-      "trigger": 1,
+      "trigger": "CardTriggerType.OnKill",
       "descriptionKey": "CardData_descriptionKey-8759e958bca2ae7d-0ba6816917dbb88499816208dc4ce687-v2",
       "cardEffects": [
         {
           "effectStateName": "CardEffectAdjustCorruption",
-          "targetTeamType": 0,
+          "targetMode": "TargetMode.Room",
+          "targetTeamType": "Team.Type.None",
           "paramInt": 2,
           "paramBool": true
         }
-      ]
+      ],
+      "description": "Gain 2[corrupt]."
     }
   ],
   "linkedClass": "ClassWurm",
   "cardLoreTooltipKeys": [
     "CardData_data-afb29937b0a590b1-0ba6816917dbb88499816208dc4ce687-v2"
   ],
-  "initialKeyboardTarget": 2,
-  "name": "Revenge of the Damned"
+  "initialKeyboardTarget": "CardInitialKeyboardTarget.FrontEnemy",
+  "name": "Revenge of the Damned",
+  "overrideDescription": "Deal [effect0.power] damage, twice.",
+  "cardLoreTooltip": [
+    "The quiet of a cairn grinds away even the strongest of souls. I’d thought this silence a testament to their unusual obedience, and, in a way, I was correct. Once I saw the pit of damned kinstones, I knew this clan was the same as all others — no stranger to disagreements or strict punishment. Once, long ago, I would’ve admired such Judgement. But what place do I have to think of that now."
+  ]
 }
