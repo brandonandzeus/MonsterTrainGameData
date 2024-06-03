@@ -2,8 +2,8 @@
   "statusEffectStateName": "StatusEffectMultistrikeState",
   "statusId": "multistrike",
   "appliedSFXName": "Status_Multistrike",
-  "displayCategory": 2,
-  "triggerStage": 10,
+  "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
+  "triggerStage": "StatusEffectData.TriggerStage.OnMultistrike",
   "showOnPyreHeart": true,
   "paramInt": 2
 }

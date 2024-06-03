@@ -1,7 +1,7 @@
 {
   "statusEffectStateName": "StatusEffectSparkState",
   "statusId": "spark",
-  "displayCategory": 2,
-  "triggerStage": 21,
+  "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
+  "triggerStage": "StatusEffectData.TriggerStage.OnCombatTurnSpark",
   "removeWhenTriggered": true
 }

@@ -2,7 +2,7 @@
   "statusEffectStateName": "StatusEffectDamageShieldState",
   "statusId": "damage shield",
   "appliedSFXName": "Status_DamageShield",
-  "triggerStage": 20,
+  "triggerStage": "StatusEffectData.TriggerStage.OnPreAttackedDamageShield",
   "removeWhenTriggered": true,
   "showOnPyreHeart": true
 }

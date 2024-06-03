@@ -2,7 +2,7 @@
   "statusEffectStateName": "StatusEffectSilencedState",
   "statusId": "silenced",
   "appliedSFXName": "Status_Silence",
-  "displayCategory": 2,
-  "triggerStage": 18,
+  "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
+  "triggerStage": "StatusEffectData.TriggerStage.OnPreCharacterTrigger",
   "isStackable": false
 }

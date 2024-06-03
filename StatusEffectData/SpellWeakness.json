@@ -2,7 +2,7 @@
   "statusEffectStateName": "StatusEffectSpellWeaknessState",
   "statusId": "spell weakness",
   "appliedSFXName": "Status_SpellWeakness",
-  "displayCategory": 1,
-  "triggerStage": 3,
+  "displayCategory": "StatusEffectData.DisplayCategory.Negative",
+  "triggerStage": "StatusEffectData.TriggerStage.OnPreAttacked",
   "removeWhenTriggeredAfterCardPlayed": true
 }

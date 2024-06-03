@@ -1,8 +1,8 @@
 {
   "statusEffectStateName": "StatusEffectShardUpgradeState",
   "statusId": "shard_upgrade",
-  "displayCategory": 2,
-  "triggerStage": 0,
+  "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
+  "triggerStage": "StatusEffectData.TriggerStage.None",
   "isStackable": false,
   "showNotificationsOnRemoval": false
 }

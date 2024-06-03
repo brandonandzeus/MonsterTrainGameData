@@ -1,7 +1,7 @@
 {
   "statusEffectStateName": "StatusEffectHunterState",
   "statusId": "hunter",
-  "displayCategory": 2,
-  "triggerStage": 14,
+  "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
+  "triggerStage": "StatusEffectData.TriggerStage.OnAttackTargetModeRequested",
   "isStackable": false
 }

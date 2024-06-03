@@ -1,6 +1,6 @@
 {
   "statusEffectStateName": "StatusEffectHatchState",
   "statusId": "hatch",
-  "displayCategory": 2,
-  "triggerStage": 7
+  "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
+  "triggerStage": "StatusEffectData.TriggerStage.OnPostCombatPoison"
 }

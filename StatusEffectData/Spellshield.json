@@ -1,6 +1,6 @@
 {
   "statusEffectStateName": "StatusEffectSpellShieldState",
   "statusId": "spell shield",
-  "triggerStage": 19,
+  "triggerStage": "StatusEffectData.TriggerStage.OnPreAttackedSpellShield",
   "removeWhenTriggered": true
 }

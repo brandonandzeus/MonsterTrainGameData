@@ -2,6 +2,6 @@
   "statusEffectStateName": "StatusEffectStygianBlessingState",
   "statusId": "stygian_blessing",
   "appliedSFXName": "Status_StygianBlessing",
-  "displayCategory": 2,
-  "triggerStage": 0
+  "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
+  "triggerStage": "StatusEffectData.TriggerStage.None"
 }

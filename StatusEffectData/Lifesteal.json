@@ -2,6 +2,6 @@
   "statusEffectStateName": "StatusEffectLifestealState",
   "statusId": "lifesteal",
   "appliedSFXName": "Status_Lifesteal",
-  "triggerStage": 17,
+  "triggerStage": "StatusEffectData.TriggerStage.OnPostAttacking",
   "removeWhenTriggered": true
 }

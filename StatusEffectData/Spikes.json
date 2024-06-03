@@ -2,6 +2,6 @@
   "statusEffectStateName": "StatusEffectSpikesState",
   "statusId": "spikes",
   "appliedSFXName": "Status_Spikes",
-  "triggerStage": 4,
+  "triggerStage": "StatusEffectData.TriggerStage.OnAttacked",
   "paramInt": 1
 }

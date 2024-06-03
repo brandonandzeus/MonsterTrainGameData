@@ -1,8 +1,8 @@
 {
   "statusEffectStateName": "StatusEffectClearDebuffState",
   "statusId": "cleardebuff",
-  "displayCategory": 2,
-  "triggerStage": 13,
+  "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
+  "triggerStage": "StatusEffectData.TriggerStage.OnPostRoomCombat",
   "isStackable": false,
   "showNotificationsOnRemoval": false
 }

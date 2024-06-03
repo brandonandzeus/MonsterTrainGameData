@@ -1,7 +1,7 @@
 {
   "statusEffectStateName": "StatusEffectCorruptRegenState",
   "statusId": "corrupt_regen",
-  "triggerStage": 6,
+  "triggerStage": "StatusEffectData.TriggerStage.OnPostCombatRegen",
   "removeStackAtEndOfTurn": true,
   "paramInt": 1
 }

@@ -2,7 +2,7 @@
   "statusEffectStateName": "StatusEffectTrampleState",
   "statusId": "trample",
   "appliedSFXName": "Status_Trample",
-  "displayCategory": 2,
-  "triggerStage": 17,
+  "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
+  "triggerStage": "StatusEffectData.TriggerStage.OnPostAttacking",
   "showStackCount": false
 }

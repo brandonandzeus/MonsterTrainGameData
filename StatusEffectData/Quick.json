@@ -2,7 +2,7 @@
   "statusEffectStateName": "StatusEffectAmbushState",
   "statusId": "ambush",
   "appliedSFXName": "Status_Quick",
-  "displayCategory": 2,
-  "triggerStage": 8,
+  "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
+  "triggerStage": "StatusEffectData.TriggerStage.OnAmbush",
   "showStackCount": false
 }

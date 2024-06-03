@@ -2,7 +2,7 @@
   "statusEffectStateName": "StatusEffectEphemeralState",
   "statusId": "ephemeral",
   "appliedSFXName": "Status_Burnout",
-  "displayCategory": 2,
-  "triggerStage": 7,
+  "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
+  "triggerStage": "StatusEffectData.TriggerStage.OnPostCombatPoison",
   "removeWhenTriggered": true
 }

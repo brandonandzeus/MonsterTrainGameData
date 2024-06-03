@@ -2,7 +2,7 @@
   "statusEffectStateName": "StatusEffectRootedState",
   "statusId": "rooted",
   "appliedSFXName": "Status_Rooted",
-  "displayCategory": 1,
-  "triggerStage": 2,
+  "displayCategory": "StatusEffectData.DisplayCategory.Negative",
+  "triggerStage": "StatusEffectData.TriggerStage.OnPreMovement",
   "removeWhenTriggered": true
 }

@@ -1,7 +1,7 @@
 {
   "statusEffectStateName": "StatusEffectRelentlessState",
   "statusId": "relentless",
-  "displayCategory": 2,
-  "triggerStage": 9,
+  "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
+  "triggerStage": "StatusEffectData.TriggerStage.OnRelentless",
   "isStackable": false
 }

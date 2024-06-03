@@ -2,6 +2,6 @@
   "statusEffectStateName": "StatusEffectStealthState",
   "statusId": "stealth",
   "appliedSFXName": "Status_Stealth",
-  "triggerStage": 7,
+  "triggerStage": "StatusEffectData.TriggerStage.OnPostCombatPoison",
   "removeWhenTriggered": true
 }

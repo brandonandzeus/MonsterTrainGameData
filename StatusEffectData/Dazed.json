@@ -2,7 +2,7 @@
   "statusEffectStateName": "StatusEffectDazedState",
   "statusId": "dazed",
   "appliedSFXName": "Status_Dazed",
-  "displayCategory": 1,
-  "triggerStage": 12,
+  "displayCategory": "StatusEffectData.DisplayCategory.Negative",
+  "triggerStage": "StatusEffectData.TriggerStage.OnCombatTurnDazed",
   "removeStackAtEndOfTurn": true
 }

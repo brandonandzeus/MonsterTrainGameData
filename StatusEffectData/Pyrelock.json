@@ -1,8 +1,8 @@
 {
   "statusEffectStateName": "StatusEffectPyreLockState",
   "statusId": "pyrelock",
-  "displayCategory": 2,
-  "triggerStage": 0,
+  "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
+  "triggerStage": "StatusEffectData.TriggerStage.None",
   "showNotificationsOnRemoval": false,
   "paramInt": 1
 }

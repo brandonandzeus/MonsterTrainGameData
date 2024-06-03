@@ -1,7 +1,7 @@
 {
   "statusEffectStateName": "StatusEffectCorruptPoisonState",
   "statusId": "corrupt_poison",
-  "displayCategory": 1,
-  "triggerStage": 26,
+  "displayCategory": "StatusEffectData.DisplayCategory.Negative",
+  "triggerStage": "StatusEffectData.TriggerStage.OnAlmostPostRoomCombat",
   "paramInt": 1
 }

@@ -2,8 +2,8 @@
   "statusEffectStateName": "StatusEffectScorchState",
   "statusId": "scorch",
   "appliedSFXName": "Status_Emberdrain",
-  "displayCategory": 1,
-  "triggerStage": 15,
+  "displayCategory": "StatusEffectData.DisplayCategory.Negative",
+  "triggerStage": "StatusEffectData.TriggerStage.OnMonsterTeamTurnBegin",
   "removeWhenTriggered": true,
   "paramInt": 1
 }

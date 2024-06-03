@@ -2,8 +2,8 @@
   "statusEffectStateName": "StatusEffectEndlessState",
   "statusId": "endless",
   "appliedSFXName": "Status_Endless",
-  "displayCategory": 2,
-  "triggerStage": 16,
+  "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
+  "triggerStage": "StatusEffectData.TriggerStage.OnDeath",
   "additionalTriggerStages": [
     25
   ],

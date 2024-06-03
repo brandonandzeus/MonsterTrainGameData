@@ -1,9 +1,9 @@
 {
   "statusEffectStateName": "StatusEffectEatManyState",
   "statusId": "eatmany",
-  "displayCategory": 2,
-  "vfxDisplayType": 1,
-  "triggerStage": 24,
+  "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
+  "vfxDisplayType": "StatusEffectData.VFXDisplayType.LastStack",
+  "triggerStage": "StatusEffectData.TriggerStage.OnPreEaten",
   "removeWhenTriggered": true,
   "paramInt": 1
 }

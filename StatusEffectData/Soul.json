@@ -1,5 +1,5 @@
 {
   "statusEffectStateName": "StatusEffectCapturedSoulState",
   "statusId": "captured_soul",
-  "triggerStage": 0
+  "triggerStage": "StatusEffectData.TriggerStage.None"
 }

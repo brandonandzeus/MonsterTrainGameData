@@ -2,8 +2,8 @@
   "statusEffectStateName": "StatusEffectUntouchableState",
   "statusId": "untouchable",
   "appliedSFXName": "Status_Untouchable",
-  "displayCategory": 2,
-  "triggerStage": 12,
+  "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
+  "triggerStage": "StatusEffectData.TriggerStage.OnCombatTurnDazed",
   "isStackable": false,
   "showNotificationsOnRemoval": false,
   "paramInt": 1

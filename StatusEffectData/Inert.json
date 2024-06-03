@@ -1,7 +1,7 @@
 {
   "statusEffectStateName": "StatusEffectInertState",
   "statusId": "inert",
-  "displayCategory": 2,
-  "triggerStage": 1,
+  "displayCategory": "StatusEffectData.DisplayCategory.Persistent",
+  "triggerStage": "StatusEffectData.TriggerStage.OnCombatTurnInert",
   "isStackable": false
 }

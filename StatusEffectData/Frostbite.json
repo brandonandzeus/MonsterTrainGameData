@@ -2,8 +2,8 @@
   "statusEffectStateName": "StatusEffectPoisonState",
   "statusId": "poison",
   "appliedSFXName": "Status_Frostbite",
-  "displayCategory": 1,
-  "triggerStage": 7,
+  "displayCategory": "StatusEffectData.DisplayCategory.Negative",
+  "triggerStage": "StatusEffectData.TriggerStage.OnPostCombatPoison",
   "removeWhenTriggered": true,
   "paramInt": 1
 }

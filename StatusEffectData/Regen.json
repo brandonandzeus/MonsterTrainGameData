@@ -2,7 +2,7 @@
   "statusEffectStateName": "StatusEffectRegenState",
   "statusId": "regen",
   "appliedSFXName": "Status_Regen",
-  "triggerStage": 6,
+  "triggerStage": "StatusEffectData.TriggerStage.OnPostCombatRegen",
   "removeStackAtEndOfTurn": true,
   "paramInt": 1
 }

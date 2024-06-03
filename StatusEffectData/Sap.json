@@ -2,8 +2,8 @@
   "statusEffectStateName": "StatusEffectDebuffState",
   "statusId": "debuff",
   "appliedSFXName": "Status_Sap",
-  "displayCategory": 1,
-  "triggerStage": 0,
+  "displayCategory": "StatusEffectData.DisplayCategory.Negative",
+  "triggerStage": "StatusEffectData.TriggerStage.None",
   "removeStackAtEndOfTurn": true,
   "paramInt": 2
 }

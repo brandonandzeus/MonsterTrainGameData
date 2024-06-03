@@ -2,7 +2,7 @@
   "statusEffectStateName": "StatusEffectBuffState",
   "statusId": "buff",
   "appliedSFXName": "Status_Rage",
-  "triggerStage": 0,
+  "triggerStage": "StatusEffectData.TriggerStage.None",
   "removeStackAtEndOfTurn": true,
   "paramInt": 2
 }
