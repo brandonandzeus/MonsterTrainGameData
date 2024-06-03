@@ -1,18 +1,17 @@
 {
-  "nameKey": "MutatorData_nameKey-fdd4557363f9e811-6d798c33a13bcb541bfbbb7fdd513a02-v2",
-  "descriptionKey": "MutatorData_descriptionKey-ae8f1019f9d5f944-6d798c33a13bcb541bfbbb7fdd513a02-v2",
+  "name": "Yeetpocalypse",
+  "description": "You must purge a card after every battle.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddPostBattleReward",
       "paramReward": {
-        "m_Name": "PurgeMandoryReward",
-        "id": "ac9f4bd1-7af5-454f-bd8b-e6379fef4e85",
         "_rewardSprite": {
           "m_FileID": 0,
           "m_PathID": 2094
         },
-        "_rewardTitleKey": "PurgeRewardData__rewardTitleKey-fd2f8f98a461d72a-fa078d308991a464987fc489bf79f268-v2",
-        "_rewardDescriptionKey": "PurgeRewardData__rewardDescriptionKey-a5f07bd291617a33-fa078d308991a464987fc489bf79f268-v2",
+        "_rewardTitle": "Mandatory Purge",
+        "_rewardDescription": "You must remove a card from your deck.",
+        "m_Name": "PurgeMandoryReward",
+        "id": "ac9f4bd1-7af5-454f-bd8b-e6379fef4e85",
         "_collectSFXCueName": "",
         "costs": [
 
@@ -27,13 +26,14 @@
         "_merchantServiceIndex": 0,
         "isCompulsory": true,
         "numPurges": 1,
-        "cardUpgradeMaskData": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        }
-      }
+        "cardUpgradeMaskData": null
+      },
+      "relicEffectClassName": "RelicEffectAddPostBattleReward",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "boonValue": 4,
-  "name": "Yeetpocalypse"
+  "boonValue": 4
 }

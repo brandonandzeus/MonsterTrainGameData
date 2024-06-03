@@ -1,22 +1,24 @@
 {
-  "nameKey": "MutatorData_nameKey-92f9ce600d3b634f-12a0cdc03e5fb674ca67460303d71318-v2",
-  "descriptionKey": "MutatorData_descriptionKey-3342f36bea932371-12a0cdc03e5fb674ca67460303d71318-v2",
+  "name": "Ninja Training",
+  "description": "Minor bosses enter with [stealth] 5.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
-      "paramCharacterSubtype": "SubtypesData_Boss",
       "paramStatusEffects": [
         {
-          "statusId": "stealth",
+          "statusId": "VanillaStatusEffectIDs.Stealth",
           "count": 5
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramCharacterSubtype": "SubtypesData_Boss",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -3,
   "tags": [
     "enemyeffect"
-  ],
-  "name": "Ninja Training"
+  ]
 }

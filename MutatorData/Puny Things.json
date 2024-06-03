@@ -1,16 +1,19 @@
 {
-  "nameKey": "MutatorData_nameKey-217d40f640c72f6d-9f9f1088d9d09844097ca2589af21f85-v2",
-  "descriptionKey": "MutatorData_descriptionKey-3137273f5fe404d0-9f9f1088d9d09844097ca2589af21f85-v2",
+  "name": "Puny Things",
+  "description": "Friendly units start at 1[capacity].",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyMonsterCapacity",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": -99,
-      "paramBool": true
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 8,
   "tags": [
     "capacity"
-  ],
-  "name": "Puny Things"
+  ]
 }

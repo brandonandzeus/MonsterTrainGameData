@@ -1,9 +1,8 @@
 {
-  "nameKey": "MutatorData_nameKey-b1cfc2d963724320-4de1e1a599101844cbfc942ff37b7285-v2",
-  "descriptionKey": "MutatorData_descriptionKey-63be40aeb88e33e4-4de1e1a599101844cbfc942ff37b7285-v2",
+  "name": "Upgraded Drafts",
+  "description": "Cards in reward packs and unit banners come with a random upgrade.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStartingUpgradeToCardDrafts",
       "paramEnhancerPool": {
         "name": "DraftUpgradePool",
         "relicDataList": [
@@ -43,9 +42,13 @@
           "UnitUpgradeStatsHealth",
           "UnitUpgradeStatsHealth"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddStartingUpgradeToCardDrafts",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "boonValue": 4,
-  "name": "Upgraded Drafts"
+  "boonValue": 4
 }

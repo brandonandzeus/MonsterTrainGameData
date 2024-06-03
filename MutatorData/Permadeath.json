@@ -1,9 +1,13 @@
 {
-  "nameKey": "MutatorData_nameKey-e7e45eaa04d48abd-e7413f3542b22eb46a7bd433fb2d49c9-v2",
-  "descriptionKey": "MutatorData_descriptionKey-4492b8db8f7d30fc-e7413f3542b22eb46a7bd433fb2d49c9-v2",
+  "name": "Permadeath",
+  "description": "When a non-Champion unit dies, it is purged from your deck.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectPurgeExhaustedMonsterCard"
+      "relicEffectClassName": "RelicEffectPurgeExhaustedMonsterCard",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -7,
@@ -11,6 +15,5 @@
     "doublespawn",
     "endless",
     "roomspace"
-  ],
-  "name": "Permadeath"
+  ]
 }

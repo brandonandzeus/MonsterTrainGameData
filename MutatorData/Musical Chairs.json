@@ -1,12 +1,15 @@
 {
-  "nameKey": "MutatorData_nameKey-5b14b4488255c95a-93a3267f22ffa5041b7d7c7d55f074fb-v2",
-  "descriptionKey": "MutatorData_descriptionKey-0888df5af862d7f2-93a3267f22ffa5041b7d7c7d55f074fb-v2",
-  "relicActivatedKey": "MutatorData_relicActivatedKey-971f40e16d242b32-93a3267f22ffa5041b7d7c7d55f074fb-v2",
+  "name": "Musical Chairs",
+  "description": "Shuffle the position of all units in the train after combat.",
+  "relicActivated": "Shuffled!",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectShuffleUnitsEndOfTurn"
+      "relicEffectClassName": "RelicEffectShuffleUnitsEndOfTurn",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "boonValue": -1,
-  "name": "Musical Chairs"
+  "boonValue": -1
 }

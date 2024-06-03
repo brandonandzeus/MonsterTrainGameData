@@ -1,13 +1,16 @@
 {
-  "nameKey": "MutatorData_nameKey-43bbbd6d4ababf8e-ea69da2025f69d84c986eb5874f7df6e-v2",
-  "descriptionKey": "MutatorData_descriptionKey-05afe94d62a27399-ea69da2025f69d84c986eb5874f7df6e-v2",
+  "name": "Highly Reactive",
+  "description": "Triggered abilities on friendly units trigger an additional time.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyTriggerCount",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 1,
-      "paramBool": true
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "boonValue": 6,
-  "name": "Highly Reactive"
+  "boonValue": 6
 }

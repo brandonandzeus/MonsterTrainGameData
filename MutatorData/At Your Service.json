@@ -1,21 +1,8 @@
 {
-  "nameKey": "MutatorData_nameKey-2a7e71feef82be51-c1abbbf95de63dd47bac2ceaef00e14a-v2",
-  "descriptionKey": "MutatorData_descriptionKey-6bc48d97c8d0a8db-c1abbbf95de63dd47bac2ceaef00e14a-v2",
+  "name": "At Your Service",
+  "description": "Start with 2 additional <b>Train Stewards</b> and <b>Advanced Prototype</b>.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
-      "paramBool": true,
-      "paramCardPool": {
-        "name": "TrainSteward2",
-        "cardDataList": [
-          "TrainSteward",
-          "TrainSteward"
-        ]
-      }
-    },
-    {
-      "relicEffectClassName": "RelicEffectAddRelicStartOfRun",
-      "paramBool": true,
       "paramCardPool": {
         "name": "TrainSteward2",
         "cardDataList": [
@@ -23,12 +10,32 @@
           "TrainSteward"
         ]
       },
+      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
+    },
+    {
+      "paramCardPool": {
+        "name": "TrainSteward2",
+        "cardDataList": [
+          "TrainSteward",
+          "TrainSteward"
+        ]
+      },
+      "relicEffectClassName": "RelicEffectAddRelicStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramRelic": "StewardBuff"
     }
   ],
   "boonValue": 5,
   "tags": [
     "subtype"
-  ],
-  "name": "At Your Service"
+  ]
 }

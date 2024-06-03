@@ -1,21 +1,24 @@
 {
-  "nameKey": "MutatorData_nameKey-85aed79a8ea7de48-4f1ecf0eaf8b3af4aa603802702e44a8-v2",
-  "descriptionKey": "MutatorData_descriptionKey-0efab5b036a1c7dd-4f1ecf0eaf8b3af4aa603802702e44a8-v2",
+  "name": "Tissue Paper",
+  "description": "Apply [fragile] to non-boss enemy units when they enter the Pyre Room.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnEnterPyreRoom",
-      "paramBool": true,
       "paramStatusEffects": [
         {
-          "statusId": "fragile",
+          "statusId": "VanillaStatusEffectIDs.Fragile",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnEnterPyreRoom",
+      "paramSourceTeam": "Team.Type.None",
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 3,
   "tags": [
     "enemiesfragileatpyre"
-  ],
-  "name": "Tissue Paper"
+  ]
 }

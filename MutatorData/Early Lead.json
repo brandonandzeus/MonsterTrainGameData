@@ -1,17 +1,24 @@
 {
-  "nameKey": "MutatorData_nameKey-f67681369025f500-be0a9b0859bef3a4b85c8995f299d578-v2",
-  "descriptionKey": "MutatorData_descriptionKey-df2e827c25a2802b-be0a9b0859bef3a4b85c8995f299d578-v2",
+  "name": "Early Lead",
+  "description": "Start with <b>Improved Firebox</b> and <b>Lost Luggage</b>.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddRelicStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramRelic": "EmberAtBattleStart"
     },
     {
       "relicEffectClassName": "RelicEffectAddRelicStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramRelic": "U3DrawToMaxStartOfCombat"
     }
   ],
   "boonValue": 4,
-  "requiredDLC": 1,
-  "name": "Early Lead"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

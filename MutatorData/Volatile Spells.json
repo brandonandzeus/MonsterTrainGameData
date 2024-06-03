@@ -1,11 +1,14 @@
 {
-  "nameKey": "MutatorData_nameKey-11433189ef5e020c-24bf3e3305bb78e4399109af9968ad64-v2",
-  "descriptionKey": "MutatorData_descriptionKey-5ab0567ee93a9a06-24bf3e3305bb78e4399109af9968ad64-v2",
+  "name": "Volatile Spells",
+  "description": "The targets of spells are chosen randomly.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyTargetsRandom"
+      "relicEffectClassName": "RelicEffectModifyTargetsRandom",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "boonValue": -7,
-  "name": "Volatile Spells"
+  "boonValue": -7
 }

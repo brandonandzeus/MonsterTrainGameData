@@ -1,9 +1,8 @@
 {
-  "nameKey": "MutatorData_nameKey-ceab7df69ced0910-21a58ed8ed4c40b459e27bf41dec5eb9-v2",
-  "descriptionKey": "MutatorData_descriptionKey-2b0acace8a407878-21a58ed8ed4c40b459e27bf41dec5eb9-v2",
+  "name": "Buying Power",
+  "description": "Merchants provide a card duplication service.",
   "boonValue": 6,
   "tags": [
     "merchantsdupe"
-  ],
-  "name": "Buying Power"
+  ]
 }

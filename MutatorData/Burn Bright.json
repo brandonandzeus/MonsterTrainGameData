@@ -1,15 +1,18 @@
 {
-  "nameKey": "MutatorData_nameKey-736c2dfcd3aa7aaa-e41f118e9a7a90e42a2180ea54bb5a4e-v2",
-  "descriptionKey": "MutatorData_descriptionKey-ea1f221de5d7ad55-e41f118e9a7a90e42a2180ea54bb5a4e-v2",
+  "name": "Burn Bright",
+  "description": "+[effect0.power][ember] per turn.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyEnergy",
-      "paramInt": 2
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 8,
   "tags": [
     "ember"
-  ],
-  "name": "Burn Bright"
+  ]
 }

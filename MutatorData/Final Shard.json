@@ -1,34 +1,39 @@
 {
-  "nameKey": "MutatorData_nameKey-19e650aed439334d-724c2680769270d42a46174075f779f6-v2",
-  "descriptionKey": "MutatorData_descriptionKey-5c91ebdbf30e5903-724c2680769270d42a46174075f779f6-v2",
+  "name": "Final Shard",
+  "description": "At the start of battle, apply [fragile] and [damageshield] 2 to your Pyre.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
-      "paramCharacterSubtype": "SubtypesData_Pyre",
       "paramStatusEffects": [
         {
-          "statusId": "fragile",
+          "statusId": "VanillaStatusEffectIDs.Fragile",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramCharacterSubtype": "SubtypesData_Pyre",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
-      "paramCharacterSubtype": "SubtypesData_Pyre",
       "paramStatusEffects": [
         {
-          "statusId": "damage shield",
+          "statusId": "VanillaStatusEffectIDs.DamageShield",
           "count": 2
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramCharacterSubtype": "SubtypesData_Pyre",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -9,
   "disableInDailyChallenges": true,
   "tags": [
     "pyrefragile"
-  ],
-  "name": "Final Shard"
+  ]
 }

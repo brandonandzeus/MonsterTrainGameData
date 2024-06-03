@@ -1,21 +1,32 @@
 {
-  "nameKey": "MutatorData_nameKey-f7c10599dba3c01a-178f70e664c7de949b8b8d6b3544f69d-v2",
-  "descriptionKey": "MutatorData_descriptionKey-33ff2b8b27499641-178f70e664c7de949b8b8d6b3544f69d-v2",
+  "name": "The Elite",
+  "description": "Start with <b>Hammered Chestplates</b>, <b>Scorched Steel</b>, and <b>Worn Grindstone</b>.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddRelicStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramRelic": "HealthIncreaseMonsters"
     },
     {
       "relicEffectClassName": "RelicEffectAddRelicStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramRelic": "SpawnWithArmor"
     },
     {
       "relicEffectClassName": "RelicEffectAddRelicStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramRelic": "U3AttackIncreaseMonsters"
     }
   ],
   "boonValue": 3,
-  "requiredDLC": 1,
-  "name": "The Elite"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

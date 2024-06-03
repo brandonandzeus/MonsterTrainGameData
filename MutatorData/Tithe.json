@@ -1,16 +1,19 @@
 {
-  "nameKey": "MutatorData_nameKey-def9c07f9cf68b1d-a132226775083e147aa76301b3e01631-v2",
-  "descriptionKey": "MutatorData_descriptionKey-6edea2b6a4cbeab6-a132226775083e147aa76301b3e01631-v2",
+  "name": "Tithe",
+  "description": "Halve [coin] earned.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectChangeGoldReward",
-      "paramFloat": 0.5
+      "paramSourceTeam": "Team.Type.None",
+      "paramFloat": 0.5,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -8,
   "tags": [
     "goldreward",
     "merchantsdupe"
-  ],
-  "name": "Tithe"
+  ]
 }

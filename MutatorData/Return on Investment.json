@@ -1,15 +1,18 @@
 {
-  "nameKey": "MutatorData_nameKey-e142ae2f358bb3fa-02d0de48a9abc4644b6bdf7cc42a8e43-v2",
-  "descriptionKey": "MutatorData_descriptionKey-17dc99420e711de7-02d0de48a9abc4644b6bdf7cc42a8e43-v2",
+  "name": "Return on Investment",
+  "description": "Spawn an additional Collector in battles that already have a Collector.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectChangeTreasureUnitCount",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 4,
   "tags": [
     "goldreward"
-  ],
-  "name": "Return on Investment"
+  ]
 }

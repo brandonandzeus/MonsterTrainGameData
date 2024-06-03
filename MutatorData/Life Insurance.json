@@ -1,21 +1,32 @@
 {
-  "nameKey": "MutatorData_nameKey-bf642849d3049138-a6beb2be081e05740abdcf776dea9ef9-v2",
-  "descriptionKey": "MutatorData_descriptionKey-73df8b34142d14b7-a6beb2be081e05740abdcf776dea9ef9-v2",
+  "name": "Life Insurance",
+  "description": "Start with <b>Golden Vault</b>, <b>Memorial Fund</b>, and <b>Rationing Scales</b>.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddRelicStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramRelic": "U3GoldBlockPyreHP"
     },
     {
       "relicEffectClassName": "RelicEffectAddRelicStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramRelic": "GoldOnDeath"
     },
     {
       "relicEffectClassName": "RelicEffectAddRelicStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramRelic": "U3GoldPyreHealthSetTo40"
     }
   ],
   "boonValue": 6,
-  "requiredDLC": 1,
-  "name": "Life Insurance"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

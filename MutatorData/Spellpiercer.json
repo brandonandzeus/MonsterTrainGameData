@@ -1,10 +1,8 @@
 {
-  "nameKey": "MutatorData_nameKey-f4d2f8eaf8d3e257-f89dfb77081a52e4c89292632c728de6-v2",
-  "descriptionKey": "MutatorData_descriptionKey-ab435a81573414b7-f89dfb77081a52e4c89292632c728de6-v2",
+  "name": "Spellpiercer",
+  "description": "Your spells gain [piercing].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectUpgradeCardOnGain",
-      "paramSourceTeam": 2,
       "traits": [
         {
           "traitStateName": "CardTraitIgnoreArmor"
@@ -18,19 +16,43 @@
         ],
         "filters": [
           {
-            "requiredCardEffectsOperator": 1,
+            "cardType": "CardType.Invalid",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.Or",
             "requiredCardEffects": [
               "CardEffectDamage"
-            ]
+            ],
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           },
           {
-            "cardType": 0
+            "cardType": "CardType.Spell",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectUpgradeCardOnGain",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 3,
-  "requiredDLC": 1,
-  "name": "Spellpiercer"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

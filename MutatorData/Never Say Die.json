@@ -1,26 +1,28 @@
 {
-  "nameKey": "MutatorData_nameKey-aeffb24c9d183aaf-8c65c77642199b54a9089af55cd0ae1d-v2",
-  "descriptionKey": "MutatorData_descriptionKey-ba7f1c2adb0dcb09-8c65c77642199b54a9089af55cd0ae1d-v2",
+  "name": "Never Say Die",
+  "description": "Friendly non-Morsel units get [endless].",
   "effects": [
     {
+      "paramStatusEffects": [
+        {
+          "statusId": "VanillaStatusEffectIDs.Endless",
+          "count": 1
+        }
+      ],
       "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": -1,
       "paramExcludeCharacterSubtypes": [
         "SubtypesData_Snack"
       ],
-      "paramStatusEffects": [
-        {
-          "statusId": "endless",
-          "count": 1
-        }
-      ]
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 5,
   "tags": [
     "friendlyeffect",
     "endless"
-  ],
-  "name": "Never Say Die"
+  ]
 }

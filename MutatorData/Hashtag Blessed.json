@@ -1,18 +1,22 @@
 {
-  "nameKey": "MutatorData_nameKey-c0b98144a5568bcf-7c9d8ae9ceb408f4b9efa285b3b9ccdd-v2",
-  "descriptionKey": "MutatorData_descriptionKey-979dd3a59e5d70be-7c9d8ae9ceb408f4b9efa285b3b9ccdd-v2",
+  "name": "Hashtag Blessed",
+  "description": "Gain a random artifact after every battle.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddPostBattleReward",
       "paramReward": {
-        "m_Name": "IndividualRandomBlessing",
-        "id": "f40c7761-2401-4997-be95-f713af5bea52",
         "_rewardSprite": {
           "m_FileID": 0,
           "m_PathID": 2598
         },
-        "_rewardTitleKey": "RelicPoolRewardData__rewardTitleKey-fcae0a4cf750c954-e9c29a404e4775e4895e3843c0837a28-v2",
-        "_rewardDescriptionKey": "EmptyString-0000000000000000-00000000000000000000000000000000-v2",
+        "_rewardTitle": "Random Artifact",
+        "relicPool": {
+          "name": "MegaRelicPool",
+          "relicDataList": [
+            "..."
+          ]
+        },
+        "m_Name": "IndividualRandomBlessing",
+        "id": "f40c7761-2401-4997-be95-f713af5bea52",
         "_collectSFXCueName": "",
         "costs": [
 
@@ -23,14 +27,14 @@
         "_showCancelOverride": false,
         "ignoreClassFilter": false,
         "classFilter": -1,
-        "rarityFilter": -1,
-        "relicPool": {
-          "m_FileID": 0,
-          "m_PathID": 16946
-        }
-      }
+        "rarityFilter": -1
+      },
+      "relicEffectClassName": "RelicEffectAddPostBattleReward",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "boonValue": 10,
-  "name": "Hashtag Blessed"
+  "boonValue": 10
 }

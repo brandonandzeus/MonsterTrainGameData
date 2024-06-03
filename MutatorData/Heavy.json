@@ -1,61 +1,80 @@
 {
-  "nameKey": "MutatorData_nameKey-efd75871e2f05f6c-0a342d44240384e4fa5ef3a1bd8972da-v2",
-  "descriptionKey": "MutatorData_descriptionKey-1fa9d619279c2bce-0a342d44240384e4fa5ef3a1bd8972da-v2",
+  "name": "Heavy",
+  "description": "Add 5 <b>Deadweights</b> to your starting deck.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
-      "paramInt": 1,
       "paramCardPool": {
         "name": "LodestoneOnlyPool",
         "cardDataList": [
           "UnplayableUnpurgeable"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
-      "paramInt": 1,
       "paramCardPool": {
         "name": "LodestoneOnlyPool",
         "cardDataList": [
           "UnplayableUnpurgeable"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
-      "paramInt": 1,
       "paramCardPool": {
         "name": "LodestoneOnlyPool",
         "cardDataList": [
           "UnplayableUnpurgeable"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
-      "paramInt": 1,
       "paramCardPool": {
         "name": "LodestoneOnlyPool",
         "cardDataList": [
           "UnplayableUnpurgeable"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
-      "paramInt": 1,
       "paramCardPool": {
         "name": "LodestoneOnlyPool",
         "cardDataList": [
           "UnplayableUnpurgeable"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -5,
   "tags": [
     "blights"
-  ],
-  "name": "Heavy"
+  ]
 }

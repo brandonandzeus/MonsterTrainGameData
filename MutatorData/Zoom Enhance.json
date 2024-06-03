@@ -1,17 +1,24 @@
 {
-  "nameKey": "MutatorData_nameKey-74973c0f0e658bba-9d5da35f3dea56943864c966e6cd8ae3-v2",
-  "descriptionKey": "MutatorData_descriptionKey-6e518d642a6a64b0-9d5da35f3dea56943864c966e6cd8ae3-v2",
+  "name": "Zoom Enhance",
+  "description": "All cards have 1 additional upgrade slot.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddSpellUpgradeSlot"
+      "relicEffectClassName": "RelicEffectAddSpellUpgradeSlot",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddUnitUpgradeSlot"
+      "relicEffectClassName": "RelicEffectAddUnitUpgradeSlot",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 5,
   "tags": [
     "upgrades"
-  ],
-  "name": "Zoom Enhance"
+  ]
 }

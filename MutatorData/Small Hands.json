@@ -1,15 +1,18 @@
 {
-  "nameKey": "MutatorData_nameKey-c3fa5db839d0a2b4-ab3db997100031548bbe671841185bfc-v2",
-  "descriptionKey": "MutatorData_descriptionKey-4f1aeb7d6a64560c-ab3db997100031548bbe671841185bfc-v2",
+  "name": "Small Hands",
+  "description": "-2 cards per turn.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectChangeStartingHandSize",
-      "paramInt": -2
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": -2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -9,
   "tags": [
     "handsize"
-  ],
-  "name": "Small Hands"
+  ]
 }

@@ -1,15 +1,18 @@
 {
-  "nameKey": "MutatorData_nameKey-c6a24c4dc5bd99e8-51965995d638f0246a8f21ce025365b9-v2",
-  "descriptionKey": "MutatorData_descriptionKey-18891258a046910d-51965995d638f0246a8f21ce025365b9-v2",
+  "name": "Moneybags",
+  "description": "Double [coin] earned.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectChangeGoldReward",
-      "paramFloat": 2.0
+      "paramSourceTeam": "Team.Type.None",
+      "paramFloat": 2.0,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 8,
   "tags": [
     "goldreward"
-  ],
-  "name": "Moneybags"
+  ]
 }

@@ -1,16 +1,19 @@
 {
-  "nameKey": "MutatorData_nameKey-f94e4242c19f340d-08c602656af6b134283a49cf5954d74a-v2",
-  "descriptionKey": "MutatorData_descriptionKey-3a9d75f403100ecf-08c602656af6b134283a49cf5954d74a-v2",
+  "name": "Wand of Cure Light Wounds",
+  "description": "Restore [effect0.power] health to all units after combat.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectDamageOrHealUnitsEndOfTurn",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 5,
-      "paramBool": true
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -1,
   "tags": [
     "acidrain"
-  ],
-  "name": "Wand of Cure Light Wounds"
+  ]
 }

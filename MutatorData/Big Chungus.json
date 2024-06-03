@@ -1,16 +1,19 @@
 {
-  "nameKey": "MutatorData_nameKey-000e8a77312bbec7-63d9bd954632dff41b85baf96116845d-v2",
-  "descriptionKey": "MutatorData_descriptionKey-68333312ba0aeadd-63d9bd954632dff41b85baf96116845d-v2",
+  "name": "Big Chungus",
+  "description": "All friendly units get +1[capacity].",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyMonsterCapacity",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 1,
-      "paramBool": true
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -9,
   "tags": [
     "capacity"
-  ],
-  "name": "Big Chungus"
+  ]
 }

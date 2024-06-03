@@ -1,31 +1,43 @@
 {
-  "nameKey": "MutatorData_nameKey-60998ce454b54fd7-d5838ae0ad5a4ac4692953effb35c068-v2",
-  "descriptionKey": "MutatorData_descriptionKey-5b2a83ae399b5be3-d5838ae0ad5a4ac4692953effb35c068-v2",
+  "name": "Starry Suffering",
+  "description": "Friendly units enter with [dazed] 2.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTempUpgrade",
-      "paramSourceTeam": 2,
       "paramStatusEffects": [
         {
-          "statusId": "dazed",
+          "statusId": "VanillaStatusEffectIDs.Dazed",
           "count": 2
         }
       ],
       "paramCardUpgradeData": {
         "statusEffectUpgrades": [
           {
-            "statusId": "dazed",
+            "statusId": "VanillaStatusEffectIDs.Dazed",
             "count": 2
           }
         ],
         "filters": [
           {
-            "cardType": 1
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddTempUpgrade",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "boonValue": -15,
-  "name": "Starry Suffering"
+  "boonValue": -15
 }

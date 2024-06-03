@@ -1,41 +1,56 @@
 {
-  "nameKey": "MutatorData_nameKey-2a0b5834b520e6b0-edab13eb6c15cc146ac762b1caac7001-v2",
-  "descriptionKey": "MutatorData_descriptionKey-f7c57fccc2f88708-edab13eb6c15cc146ac762b1caac7001-v2",
+  "name": "Vampiric Touch",
+  "description": "All units enter with [lifesteal] 3.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTempUpgrade",
-      "paramSourceTeam": 2,
       "paramStatusEffects": [
         {
-          "statusId": "lifesteal",
+          "statusId": "VanillaStatusEffectIDs.Lifesteal",
           "count": 3
         }
       ],
       "paramCardUpgradeData": {
         "statusEffectUpgrades": [
           {
-            "statusId": "lifesteal",
+            "statusId": "VanillaStatusEffectIDs.Lifesteal",
             "count": 3
           }
         ],
         "filters": [
           {
-            "cardType": 1
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddTempUpgrade",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
       "paramStatusEffects": [
         {
-          "statusId": "lifesteal",
+          "statusId": "VanillaStatusEffectIDs.Lifesteal",
           "count": 3
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "boonValue": 2,
-  "name": "Vampiric Touch"
+  "boonValue": 2
 }

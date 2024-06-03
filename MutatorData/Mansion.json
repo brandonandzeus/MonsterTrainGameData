@@ -1,15 +1,18 @@
 {
-  "nameKey": "MutatorData_nameKey-263aa80d85712143-c04420773ef220e449b6a16f487689f8-v2",
-  "descriptionKey": "MutatorData_descriptionKey-0c83c6e77cb1d71d-c04420773ef220e449b6a16f487689f8-v2",
+  "name": "Mansion",
+  "description": "+[effect0.power][capacity] on each floor.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectChangeFloorCapacity",
-      "paramInt": 2
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 7,
   "tags": [
     "roomspace"
-  ],
-  "name": "Mansion"
+  ]
 }

@@ -1,13 +1,16 @@
 {
-  "nameKey": "MutatorData_nameKey-74f2b9cd6b9db3dd-a8aaad55396b90d4e9e6851e17b7a044-v2",
-  "descriptionKey": "MutatorData_descriptionKey-4817fcfe6c72ae46-a8aaad55396b90d4e9e6851e17b7a044-v2",
+  "name": "Crystal Ball",
+  "description": "Start with <b>Cheater's Hand</b>.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddRelicStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramRelic": "U3ShowDrawOrder"
     }
   ],
   "boonValue": 2,
-  "requiredDLC": 1,
-  "name": "Crystal Ball"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

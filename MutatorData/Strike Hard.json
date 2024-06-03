@@ -1,41 +1,56 @@
 {
-  "nameKey": "MutatorData_nameKey-9fabd51cbfd9033f-b83ee16a8d0a12b46b1dcfef24b0b05e-v2",
-  "descriptionKey": "MutatorData_descriptionKey-7ba9f78a96131c6e-b83ee16a8d0a12b46b1dcfef24b0b05e-v2",
+  "name": "Strike Hard",
+  "description": "All units get [multistrike] 1.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTempUpgrade",
-      "paramSourceTeam": 2,
       "paramStatusEffects": [
         {
-          "statusId": "multistrike",
+          "statusId": "VanillaStatusEffectIDs.Multistrike",
           "count": 1
         }
       ],
       "paramCardUpgradeData": {
         "statusEffectUpgrades": [
           {
-            "statusId": "multistrike",
+            "statusId": "VanillaStatusEffectIDs.Multistrike",
             "count": 1
           }
         ],
         "filters": [
           {
-            "cardType": 1
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddTempUpgrade",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
       "paramStatusEffects": [
         {
-          "statusId": "multistrike",
+          "statusId": "VanillaStatusEffectIDs.Multistrike",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "boonValue": -3,
-  "name": "Strike Hard"
+  "boonValue": -3
 }

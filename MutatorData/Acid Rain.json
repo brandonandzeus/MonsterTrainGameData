@@ -1,15 +1,18 @@
 {
-  "nameKey": "MutatorData_nameKey-0a27fab2a6f12df4-f8dba8b5d26da8942a7dd232bb2d0b7e-v2",
-  "descriptionKey": "MutatorData_descriptionKey-cd7c10cfa452a1e0-f8dba8b5d26da8942a7dd232bb2d0b7e-v2",
+  "name": "Acid Rain",
+  "description": "Deal [effect0.power] damage to all units after combat.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectDamageOrHealUnitsEndOfTurn",
-      "paramInt": 2
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 2,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -3,
   "tags": [
     "acidrain"
-  ],
-  "name": "Acid Rain"
+  ]
 }

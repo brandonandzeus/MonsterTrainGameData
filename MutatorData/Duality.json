@@ -1,16 +1,19 @@
 {
-  "nameKey": "MutatorData_nameKey-918ff4e0da9fc501-d8ddda28f52572b458167a3626a03c67-v2",
-  "descriptionKey": "MutatorData_descriptionKey-777167d0bb46c1ba-d8ddda28f52572b458167a3626a03c67-v2",
-  "relicActivatedKey": "MutatorData_relicActivatedKey-b94216cdbf3fd64e-d8ddda28f52572b458167a3626a03c67-v2",
+  "name": "Duality",
+  "description": "Double stacks of all status effects.",
+  "relicActivated": "Duality!",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddStatusEffectMultiplier",
-      "paramInt": 200
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 200,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 8,
   "tags": [
     "enemyeffect"
-  ],
-  "name": "Duality"
+  ]
 }

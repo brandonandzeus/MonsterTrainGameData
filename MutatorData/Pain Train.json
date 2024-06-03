@@ -1,22 +1,24 @@
 {
-  "nameKey": "MutatorData_nameKey-0047278988d29613-084e6f2877284b4428cd96b4b41d6b04-v2",
-  "descriptionKey": "MutatorData_descriptionKey-95c864862e2a84b3-084e6f2877284b4428cd96b4b41d6b04-v2",
+  "name": "Pain Train",
+  "description": "Enemy units enter with [spikes] 1.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
-      "paramInt": -1,
       "paramStatusEffects": [
         {
-          "statusId": "spikes",
+          "statusId": "VanillaStatusEffectIDs.Spikes",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": -1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -4,
   "tags": [
     "enemyeffect"
-  ],
-  "name": "Pain Train"
+  ]
 }

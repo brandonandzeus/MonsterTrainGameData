@@ -1,20 +1,23 @@
 {
-  "nameKey": "MutatorData_nameKey-696904d52bc92db2-8b3bf30cdfbac90448d14b1f9248ca23-v2",
-  "descriptionKey": "MutatorData_descriptionKey-02f761e345af0b4f-8b3bf30cdfbac90448d14b1f9248ca23-v2",
+  "name": "Hivemind",
+  "description": "Friendly units count as all subtypes.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectMonstersAreAllSubtypes",
       "additionalTooltips": [
         {
-          "titleKey": "Subtype_TooltipTitle",
-          "descriptionKey": "Subtype_TooltipText"
+          "title": "Subtype",
+          "description": "A unit's subtype (such as Imp or Demon) is indicated at the bottom of its card."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectMonstersAreAllSubtypes",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 6,
   "tags": [
     "subtype"
-  ],
-  "name": "Hivemind"
+  ]
 }

@@ -1,15 +1,18 @@
 {
-  "nameKey": "MutatorData_nameKey-46acb2b201f236f0-cd3011981a9b92f419431c15ab7d96af-v2",
-  "descriptionKey": "MutatorData_descriptionKey-acc0620590fdd4d6-cd3011981a9b92f419431c15ab7d96af-v2",
+  "name": "Cheap Trick",
+  "description": "Spells cost [effect0.power][ember].",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCardTypeCost",
-      "paramInt": -1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": -1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 8,
   "tags": [
     "spellcost"
-  ],
-  "name": "Cheap Trick"
+  ]
 }

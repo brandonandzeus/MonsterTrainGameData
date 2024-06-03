@@ -1,11 +1,14 @@
 {
-  "nameKey": "MutatorData_nameKey-e5a2d1e9b76c41d8-95ace7da3517e1f478e696ac6686f31a-v2",
-  "descriptionKey": "MutatorData_descriptionKey-c5eb5411ef1575cc-95ace7da3517e1f478e696ac6686f31a-v2",
+  "name": "Googly Eyes",
+  "description": "All units have googly eyes in battle.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectEnableGooglyEyes"
+      "relicEffectClassName": "RelicEffectEnableGooglyEyes",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "disableInDailyChallenges": true,
-  "name": "Googly Eyes"
+  "disableInDailyChallenges": true
 }

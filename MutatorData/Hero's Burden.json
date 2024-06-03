@@ -1,14 +1,17 @@
 {
-  "nameKey": "MutatorData_nameKey-5e9f48c195c07b24-d53e20c95b8c5cb498ec9fee2470656d-v2",
-  "descriptionKey": "MutatorData_descriptionKey-2ead97717d4a81ae-d53e20c95b8c5cb498ec9fee2470656d-v2",
-  "relicActivatedKey": "MutatorData_relicActivatedKey-5a8e20e0119329fc-d53e20c95b8c5cb498ec9fee2470656d-v2",
+  "name": "Hero's Burden",
+  "description": "Gain +[effect0.power][crystal] after each battle.",
+  "relicActivated": "+[effect0.power][crystal]",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectGainShardsAfterBoss",
-      "paramInt": 15
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 15,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -10,
-  "requiredDLC": 1,
-  "name": "Hero's Burden"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

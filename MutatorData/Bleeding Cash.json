@@ -1,29 +1,32 @@
 {
-  "nameKey": "MutatorData_nameKey-617097fae41b424d-c6769b81cab48d745ad9de3579419ef6-v2",
-  "descriptionKey": "MutatorData_descriptionKey-7cedabbfc2837fb5-c6769b81cab48d745ad9de3579419ef6-v2",
+  "name": "Bleeding Cash",
+  "description": "Lose 1[coin] whenever a friendly unit takes damage.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTrigger",
-      "paramSourceTeam": 2,
       "triggers": [
         {
-          "trigger": 15,
-          "descriptionKey": "MutatorData_descriptionKey-79e218216adb9a99-c6769b81cab48d745ad9de3579419ef6-v2",
-          "hideTriggerTooltip": true,
+          "description": "Lose 1[coin].",
           "effects": [
             {
               "effectStateName": "CardEffectRewardGold",
-              "targetTeamType": 0,
+              "targetMode": "TargetMode.Room",
+              "targetTeamType": "Team.Type.None",
               "paramInt": -1
             }
-          ]
+          ],
+          "trigger": "CharacterTriggerData.Trigger.OnHit",
+          "hideTriggerTooltip": true
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddTrigger",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -4,
   "tags": [
     "goldreward"
-  ],
-  "name": "Bleeding Cash"
+  ]
 }

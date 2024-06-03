@@ -1,15 +1,18 @@
 {
-  "nameKey": "MutatorData_nameKey-7ceb11c0f148bc69-fda0a13323ef4cb49b6bf6ad4b2b1360-v2",
-  "descriptionKey": "MutatorData_descriptionKey-a38fb64a31e29a36-fda0a13323ef4cb49b6bf6ad4b2b1360-v2",
+  "name": "Extra Pyre",
+  "description": "Your Pyre gets +[effect0.power][health].",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyTowerMaxHealth",
-      "paramInt": 80
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 80,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 4,
   "tags": [
     "pyrefragile"
-  ],
-  "name": "Extra Pyre"
+  ]
 }

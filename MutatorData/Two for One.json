@@ -1,12 +1,15 @@
 {
-  "nameKey": "MutatorData_nameKey-9958c4cd6706f80b-f8724c19a7a52ca4cb80dc6e2ae0a8b0-v2",
-  "descriptionKey": "MutatorData_descriptionKey-08ea417f39e0d0f1-f8724c19a7a52ca4cb80dc6e2ae0a8b0-v2",
+  "name": "Two for One",
+  "description": "Each time you draft a card, gain a second copy.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectGetCardCopiesOnDeck",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "boonValue": 2,
-  "name": "Two for One"
+  "boonValue": 2
 }

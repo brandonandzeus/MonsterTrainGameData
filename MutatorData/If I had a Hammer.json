@@ -1,11 +1,8 @@
 {
-  "nameKey": "MutatorData_nameKey-68f8cfb2c0e5d6b1-0b6c554268229bb489b923a9307cba99-v2",
-  "descriptionKey": "MutatorData_descriptionKey-6ed197e366ac57b3-0b6c554268229bb489b923a9307cba99-v2",
+  "name": "If I had a Hammer",
+  "description": "Start with <b>Heph the Blacksmith</b> and <b>Good Ol' Wingmaker</b>. Heph gains <b>Intrinsic</b>.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTempUpgrade",
-      "paramSourceTeam": 2,
-      "paramBool": true,
       "paramCardPool": {
         "name": "DanteMutatorPool",
         "cardDataList": [
@@ -24,27 +21,46 @@
         ],
         "filters": [
           {
-            "cardType": 1,
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "allowedCardPools": [
               "HephOnlyPool"
-            ]
+            ],
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddTempUpgrade",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
-      "paramBool": true,
       "paramCardPool": {
         "name": "HephMutatorPool",
         "cardDataList": [
           "HephUnit",
           "HephHammer"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 8,
-  "requiredDLC": 1,
-  "name": "If I had a Hammer"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

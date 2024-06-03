@@ -1,20 +1,27 @@
 {
-  "nameKey": "MutatorData_nameKey-d75267828ffb927e-bb446bb76b25a7943a6a16197137a4f2-v2",
-  "descriptionKey": "MutatorData_descriptionKey-c3d8899230313517-bb446bb76b25a7943a6a16197137a4f2-v2",
+  "name": "A Simple Plan",
+  "description": "Non-Champion units cost +2[ember]. Start with <b>Sketches of Salvation</b>.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddRelicStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramRelic": "RandomUnitEveryFloor"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCardTypeCost",
+      "paramSourceTeam": "Team.Type.None",
       "paramInt": 2,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster",
+      "paramRelic": "RandomUnitEveryFloor"
     }
   ],
   "boonValue": -3,
   "tags": [
     "embercost"
-  ],
-  "name": "A Simple Plan"
+  ]
 }

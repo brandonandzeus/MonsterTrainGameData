@@ -1,22 +1,24 @@
 {
-  "nameKey": "MutatorData_nameKey-b9b34045b3d32bf9-086035b011e3d734ea0d899a130cbe11-v2",
-  "descriptionKey": "MutatorData_descriptionKey-b15b4862aa952cf9-086035b011e3d734ea0d899a130cbe11-v2",
+  "name": "Shields Up",
+  "description": "Enemy units enter with [damageshield].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
-      "paramInt": -1,
       "paramStatusEffects": [
         {
-          "statusId": "damage shield",
+          "statusId": "VanillaStatusEffectIDs.DamageShield",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": -1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -8,
   "tags": [
     "enemyeffect"
-  ],
-  "name": "Shields Up"
+  ]
 }

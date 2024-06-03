@@ -1,36 +1,41 @@
 {
-  "nameKey": "MutatorData_nameKey-cd27aeb48b7b1c90-ecd465e184ede64408a77372d045468a-v2",
-  "descriptionKey": "MutatorData_descriptionKey-8e36f9ae1d89c3ce-ecd465e184ede64408a77372d045468a-v2",
+  "name": "Armchair General",
+  "description": "Your Champion enters with [sap] 10 and [heal_immune].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
-      "paramInt": -1,
-      "paramCharacterSubtype": "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34",
       "paramStatusEffects": [
         {
-          "statusId": "debuff",
+          "statusId": "VanillaStatusEffectIDs.Sap",
           "count": 10
         }
-      ]
-    },
-    {
+      ],
       "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": -1,
       "paramCharacterSubtype": "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
+    },
+    {
       "paramStatusEffects": [
         {
-          "statusId": "heal immunity",
+          "statusId": null,
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": -1,
+      "paramCharacterSubtype": "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -6,
-  "requiredDLC": 1,
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
   "tags": [
     "friendlyeffect"
-  ],
-  "name": "Armchair General"
+  ]
 }

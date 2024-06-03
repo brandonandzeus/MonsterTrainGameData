@@ -1,15 +1,18 @@
 {
-  "nameKey": "MutatorData_nameKey-7d9bd203dae52cbd-99fb900abff163347b7d0d4e9ff992a6-v2",
-  "descriptionKey": "MutatorData_descriptionKey-c6479d78be65de8c-99fb900abff163347b7d0d4e9ff992a6-v2",
+  "name": "Broken Valve",
+  "description": "Start with <b>Volatile Gauge</b>.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddRelicStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramRelic": "RandomCardCostOnDraw"
     }
   ],
   "boonValue": 2,
   "tags": [
     "embercost"
-  ],
-  "name": "Broken Valve"
+  ]
 }

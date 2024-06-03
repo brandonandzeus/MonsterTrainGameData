@@ -1,22 +1,24 @@
 {
-  "nameKey": "MutatorData_nameKey-c1dbc13d6d1b0520-eea9d789705395f4096e87d2e18724a8-v2",
-  "descriptionKey": "MutatorData_descriptionKey-9a8ba15971e1eb3a-eea9d789705395f4096e87d2e18724a8-v2",
+  "name": "Multi-Pyre",
+  "description": "Your Pyre gets [multistrike] 1.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
-      "paramCharacterSubtype": "SubtypesData_Pyre",
       "paramStatusEffects": [
         {
-          "statusId": "multistrike",
+          "statusId": "VanillaStatusEffectIDs.Multistrike",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramCharacterSubtype": "SubtypesData_Pyre",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 3,
   "tags": [
     "enemiesfragileatpyre"
-  ],
-  "name": "Multi-Pyre"
+  ]
 }

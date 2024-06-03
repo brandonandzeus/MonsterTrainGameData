@@ -1,16 +1,19 @@
 {
-  "nameKey": "MutatorData_nameKey-78fb3c7ad00a3d6a-6dadd9f054e262441836ba5516e0c006-v2",
-  "descriptionKey": "MutatorData_descriptionKey-502c610188be16dc-6dadd9f054e262441836ba5516e0c006-v2",
+  "name": "Arduous Arcana",
+  "description": "Spells cost +[effect0.power][ember].",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCardTypeCost",
-      "paramInt": 1
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -8,
-  "requiredDLC": 1,
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
   "tags": [
     "spellcost"
-  ],
-  "name": "Arduous Arcana"
+  ]
 }

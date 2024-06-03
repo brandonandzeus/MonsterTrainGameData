@@ -1,22 +1,24 @@
 {
-  "nameKey": "MutatorData_nameKey-0df1ab27b40f014c-2f42d731ae4abb649a39b42ffd04ae81-v2",
-  "descriptionKey": "MutatorData_descriptionKey-952d304aa45f9ff7-2f42d731ae4abb649a39b42ffd04ae81-v2",
+  "name": "Hollow",
+  "description": "Friendly units get [heal_immune].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
-      "paramInt": -1,
       "paramStatusEffects": [
         {
-          "statusId": "heal immunity",
+          "statusId": null,
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": -1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -3,
   "tags": [
     "friendlyeffect"
-  ],
-  "name": "Hollow"
+  ]
 }

@@ -1,91 +1,122 @@
 {
-  "nameKey": "MutatorData_nameKey-f9bc75eb2c9d7c4c-f1a719198715ae24aaa9b4b237d5ad2d-v2",
-  "descriptionKey": "MutatorData_descriptionKey-24296b18221e1f7e-f1a719198715ae24aaa9b4b237d5ad2d-v2",
+  "name": "Junked Up",
+  "description": "Add 8 <b>Calcified Ember</b> to your starting deck.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
-      "paramInt": 1,
       "paramCardPool": {
         "name": "CalcifiedEmberOnlyPool",
         "cardDataList": [
           "SelfPurgeBlight"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
-      "paramInt": 1,
       "paramCardPool": {
         "name": "CalcifiedEmberOnlyPool",
         "cardDataList": [
           "SelfPurgeBlight"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
-      "paramInt": 1,
       "paramCardPool": {
         "name": "CalcifiedEmberOnlyPool",
         "cardDataList": [
           "SelfPurgeBlight"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
-      "paramInt": 1,
       "paramCardPool": {
         "name": "CalcifiedEmberOnlyPool",
         "cardDataList": [
           "SelfPurgeBlight"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
-      "paramInt": 1,
       "paramCardPool": {
         "name": "CalcifiedEmberOnlyPool",
         "cardDataList": [
           "SelfPurgeBlight"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
-      "paramInt": 1,
       "paramCardPool": {
         "name": "CalcifiedEmberOnlyPool",
         "cardDataList": [
           "SelfPurgeBlight"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
-      "paramInt": 1,
       "paramCardPool": {
         "name": "CalcifiedEmberOnlyPool",
         "cardDataList": [
           "SelfPurgeBlight"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
-      "paramInt": 1,
       "paramCardPool": {
         "name": "CalcifiedEmberOnlyPool",
         "cardDataList": [
           "SelfPurgeBlight"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -3,
   "tags": [
     "blights"
-  ],
-  "name": "Junked Up"
+  ]
 }

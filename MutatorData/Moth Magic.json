@@ -1,29 +1,32 @@
 {
-  "nameKey": "MutatorData_nameKey-1ab511a65770fc0a-fcc62a0d33be5604cab4129fbef259d6-v2",
-  "descriptionKey": "MutatorData_descriptionKey-b972a00d5bba994e-fcc62a0d33be5604cab4129fbef259d6-v2",
+  "name": "Moth Magic",
+  "description": "When a damage spell hits a unit, [ascend] it.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectChanceAddEffectOnDamageCardPlayed",
-      "paramInt": 100,
       "paramCardEffects": [
         {
           "effectStateName": "CardEffectBump",
-          "targetMode": 5,
-          "targetTeamType": 3,
+          "targetMode": "TargetMode.Self",
+          "targetTeamType": "Team.Type.Heroes | Team.Type.Monsters",
           "paramInt": 1
         }
       ],
       "additionalTooltips": [
         {
-          "titleKey": "CardEffectBump_Up_TooltipTitle",
-          "descriptionKey": "CardEffectBump_Up_TooltipText"
+          "title": "[ascend]",
+          "description": "Move up a floor and to the back of that floor."
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectChanceAddEffectOnDamageCardPlayed",
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 100,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -5,
   "tags": [
     "handsize"
-  ],
-  "name": "Moth Magic"
+  ]
 }

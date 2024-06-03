@@ -1,12 +1,15 @@
 {
-  "nameKey": "MutatorData_nameKey-882263e0e0a98e56-51e0edbfc6d41bf4f96f9b47c690bfcf-v2",
-  "descriptionKey": "MutatorData_descriptionKey-07d5ec838523624c-51e0edbfc6d41bf4f96f9b47c690bfcf-v2",
+  "name": "The Math Challenge",
+  "description": "Room combat previews are disabled.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectDisableRoomPreview"
+      "relicEffectClassName": "RelicEffectDisableRoomPreview",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -8,
-  "disableInDailyChallenges": true,
-  "name": "The Math Challenge"
+  "disableInDailyChallenges": true
 }

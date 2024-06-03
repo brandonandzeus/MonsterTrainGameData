@@ -1,12 +1,15 @@
 {
-  "nameKey": "MutatorData_nameKey-d9e1d3eb2f8b8f37-82dc6963c668dd14d9bd45a460fd7173-v2",
-  "descriptionKey": "MutatorData_descriptionKey-5905a445b67ceaee-82dc6963c668dd14d9bd45a460fd7173-v2",
+  "name": "Shardless",
+  "description": "Disable all map nodes and events that provide [crystal].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectDisableShards"
+      "relicEffectClassName": "RelicEffectDisableShards",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "disableInDailyChallenges": true,
-  "requiredDLC": 1,
-  "name": "Shardless"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

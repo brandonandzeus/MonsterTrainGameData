@@ -1,17 +1,24 @@
 {
-  "nameKey": "MutatorData_nameKey-5242e1e117899313-0a19b58ac9f61da4a89f6b882fbbc043-v2",
-  "descriptionKey": "MutatorData_descriptionKey-5fe364f26b86ebf0-0a19b58ac9f61da4a89f6b882fbbc043-v2",
+  "name": "My True Form",
+  "description": "Start with <b>Mark of a Champion</b> and <b>Mark of an Exile</b>.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectAddRelicStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramRelic": "U3AttackIncreaseChamp"
     },
     {
       "relicEffectClassName": "RelicEffectAddRelicStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramRelic": "U3HealthIncreaseChamp"
     }
   ],
   "boonValue": 6,
-  "requiredDLC": 1,
-  "name": "My True Form"
+  "requiredDLC": "ShinyShoe.DLC.Hellforged"
 }

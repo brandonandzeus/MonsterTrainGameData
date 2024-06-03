@@ -1,11 +1,14 @@
 {
-  "nameKey": "MutatorData_nameKey-2e52d82b3c52b111-935af6ef2cb57394faf25ce251d92f53-v2",
-  "descriptionKey": "MutatorData_descriptionKey-3182a8838e2484a2-935af6ef2cb57394faf25ce251d92f53-v2",
+  "name": "One Track Mind",
+  "description": "The path you take on the map is chosen automatically.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAutoselectTrainPath"
+      "relicEffectClassName": "RelicEffectAutoselectTrainPath",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "boonValue": -4,
-  "name": "One Track Mind"
+  "boonValue": -4
 }

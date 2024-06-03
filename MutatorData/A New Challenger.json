@@ -1,9 +1,8 @@
 {
-  "nameKey": "MutatorData_nameKey-d1b29613ebe9b4ec-7664f339ba0ffb94f8c114eda19c8000-v2",
-  "descriptionKey": "MutatorData_descriptionKey-482f1bf01138683a-7664f339ba0ffb94f8c114eda19c8000-v2",
+  "name": "A New Challenger",
+  "description": "Your Champion is randomly replaced by one that is not from your primary or allied clan.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectReplaceChampion",
       "paramCardPool": {
         "name": "NewChallengerChampionPool",
         "cardDataList": [
@@ -18,12 +17,16 @@
           "RemnantFirstWaxerChampion",
           "StygianChampionMartyr"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectReplaceChampion",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -4,
   "tags": [
     "champion"
-  ],
-  "name": "A New Challenger"
+  ]
 }

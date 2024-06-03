@@ -1,11 +1,8 @@
 {
-  "nameKey": "MutatorData_nameKey-0df70c8828963843-65a9fbbb790e47145b4561adc8be7539-v2",
-  "descriptionKey": "MutatorData_descriptionKey-33a66106e13e9751-65a9fbbb790e47145b4561adc8be7539-v2",
+  "name": "Dante’s Comedy",
+  "description": "Start with <b>Dante the Deceptive</b> and 3 <b>Dante’s Candle</b>. Dante gains <b>Intrinsic</b>.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddTempUpgrade",
-      "paramSourceTeam": 2,
-      "paramBool": true,
       "paramCardPool": {
         "name": "DanteMutatorPool",
         "cardDataList": [
@@ -24,17 +21,31 @@
         ],
         "filters": [
           {
-            "cardType": 1,
+            "cardType": "CardType.Monster",
+            "requiredSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedSubtypesOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedStatusEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardTraitsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "requiredCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
+            "excludedCardEffectsOperator": "CardUpgradeMaskDataBuilder.CompareOperator.And",
             "allowedCardPools": [
               "DanteOnlyPool"
-            ]
+            ],
+            "cardTargetMode": "CardTargetMode.All",
+            "upgradeDisabledReason": "CardState.UpgradeDisabledReason.NONE"
           }
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddTempUpgrade",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
-      "paramBool": true,
       "paramCardPool": {
         "name": "DanteMutatorPool",
         "cardDataList": [
@@ -43,12 +54,17 @@
           "BlightDanteCandle",
           "BlightDanteCandle"
         ]
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardsStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 8,
   "tags": [
     "blights"
-  ],
-  "name": "Dante’s Comedy"
+  ]
 }

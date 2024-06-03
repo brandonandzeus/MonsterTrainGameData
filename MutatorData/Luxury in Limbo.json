@@ -1,6 +1,5 @@
 {
-  "nameKey": "MutatorData_nameKey-82e3e86ace889cfc-a858e248a81c89a4693c1eabf39dca56-v2",
-  "descriptionKey": "MutatorData_descriptionKey-1f7f4ca9f2f5b8d8-a858e248a81c89a4693c1eabf39dca56-v2",
-  "boonValue": 4,
-  "name": "Luxury in Limbo"
+  "name": "Luxury in Limbo",
+  "description": "Additional unit banners appear in Limbo.",
+  "boonValue": 4
 }

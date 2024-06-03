@@ -1,59 +1,65 @@
 {
-  "nameKey": "MutatorData_nameKey-3e72e3605615ef11-1d83718ac66361b42aa129997974ccb9-v2",
-  "descriptionKey": "MutatorData_descriptionKey-717774b2387cd0d9-1d83718ac66361b42aa129997974ccb9-v2",
+  "name": "Brawl",
+  "description": "Friendly and enemy units get +[effect2.power][attack] and +[effect0.power][health]. Your Pyre gets +[effect6.power][attack].",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Heroes",
       "paramInt": 10,
-      "paramTrigger": 2,
-      "paramCardType": 4
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Invalid"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterMaxHealth",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 10,
-      "paramTrigger": 26,
-      "paramCardType": 4
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawnNotFromCard",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Invalid"
+    },
+    {
+      "tooltipTitle": "Artifact - Brawl",
+      "tooltipBody": "Friendly units gain +3[attack].",
+      "relicEffectClassName": "RelicEffectModifyCharacterAttackDamage",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": 5,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Invalid"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCharacterAttackDamage",
-      "paramSourceTeam": 1,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 5,
-      "paramTrigger": 2,
-      "paramCardType": 4,
-      "tooltipTitleKey": "MutatorData_tooltipTitleKey-83b231edeb7f8dd9-1d83718ac66361b42aa129997974ccb9-v2",
-      "tooltipBodyKey": "MutatorData_tooltipBodyKey-640244bb8e4793ba-1d83718ac66361b42aa129997974ccb9-v2"
-    },
-    {
-      "relicEffectClassName": "RelicEffectModifyCharacterAttackDamage",
-      "paramSourceTeam": 2,
-      "paramInt": 5,
-      "paramTrigger": 26,
-      "paramCardType": 4
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawnNotFromCard",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Invalid"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCardAttack",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 5,
-      "paramTrigger": 2,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     },
     {
       "relicEffectClassName": "RelicEffectModifyCardHealth",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 10,
-      "paramTrigger": 2,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     },
     {
       "relicEffectClassName": "RelicEffectTowerDamageDealtModified",
-      "paramSourceTeam": 2,
+      "paramSourceTeam": "Team.Type.Monsters",
       "paramInt": 10,
-      "paramTrigger": 2,
-      "paramCardType": 1
+      "paramTrigger": "CharacterTriggerData.Trigger.OnSpawn",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     }
   ],
-  "boonValue": -5,
-  "name": "Brawl"
+  "boonValue": -5
 }

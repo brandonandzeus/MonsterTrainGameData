@@ -1,26 +1,30 @@
 {
-  "nameKey": "MutatorData_nameKey-8a648e6ac2ec11a2-9b4a202c23f142f45abeec79c4564382-v2",
-  "descriptionKey": "MutatorData_descriptionKey-56a049e9cc7401f8-9b4a202c23f142f45abeec79c4564382-v2",
+  "name": "Seeing Double",
+  "description": "When the first friendly unit is summoned each turn, summon that same unit again.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectExtraSpawnsFirstUnitPerTurn",
-      "paramSourceTeam": 2,
-      "paramInt": 1,
       "effectConditions": [
         {
-          "paramTrackedValue": 0,
-          "paramCardType": 0,
+          "paramTrackedValue": "CardStatistics.TrackedValueType.SubtypeInDeck",
+          "paramCardType": "CardStatistics.CardTypeTarget.Any",
           "paramTrackTriggerCount": true,
+          "paramEntryDuration": "CardStatistics.EntryDuration.ThisTurn",
+          "paramComparator": "RelicEffectCondition.Comparator.GreaterThan | RelicEffectCondition.Comparator.Equal",
           "paramInt": 1,
           "allowMultipleTriggersPerDuration": false
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectExtraSpawnsFirstUnitPerTurn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 10,
   "tags": [
     "doublespawn",
     "firstsummon"
-  ],
-  "name": "Seeing Double"
+  ]
 }

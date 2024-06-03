@@ -1,20 +1,22 @@
 {
-  "nameKey": "MutatorData_nameKey-91a9a024090b7df6-34f70c9d93d40d54780e01868f7ed97d-v2",
-  "descriptionKey": "MutatorData_descriptionKey-13807ad141b97951-34f70c9d93d40d54780e01868f7ed97d-v2",
+  "name": "Gravity",
+  "description": "At end of turn, [descend] friendly units.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectBumpOnTurnEnd",
-      "paramSourceTeam": 2,
-      "paramInt": -1,
       "additionalTooltips": [
         {
-          "titleKey": "CardEffectBump_Down_TooltipTitle",
-          "descriptionKey": "CardEffectBump_Down_TooltipText",
-          "style": 0
+          "title": "[descend]",
+          "description": "Move down a floor and to the back of that floor.",
+          "style": "TooltipDesigner.TooltipDesignType.Default"
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectBumpOnTurnEnd",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": -1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "boonValue": 3,
-  "name": "Gravity"
+  "boonValue": 3
 }

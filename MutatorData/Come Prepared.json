@@ -1,10 +1,8 @@
 {
-  "nameKey": "MutatorData_nameKey-f3dcca962431d8f9-470b67d013ac1d146ac8076f076e016a-v2",
-  "descriptionKey": "MutatorData_descriptionKey-76111621a994bb56-470b67d013ac1d146ac8076f076e016a-v2",
+  "name": "Come Prepared",
+  "description": "Add 12 additional random cards to your starting deck.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddCardSetStartOfRun",
-      "paramBool": true,
       "paramCardSetBuilder": {
         "paramCardPulls": [
           {
@@ -14,7 +12,9 @@
                 "..."
               ]
             },
+            "classType": "RunState.ClassType.MainClass",
             "hasRarityCondition": true,
+            "cardRarity": "CollectableRarity.Common",
             "showcaseAtRunStart": true,
             "name": "MainClassCommon1X"
           },
@@ -25,7 +25,9 @@
                 "..."
               ]
             },
+            "classType": "RunState.ClassType.MainClass",
             "hasRarityCondition": true,
+            "cardRarity": "CollectableRarity.Common",
             "showcaseAtRunStart": true,
             "name": "MainClassCommon1X"
           },
@@ -36,7 +38,9 @@
                 "..."
               ]
             },
+            "classType": "RunState.ClassType.MainClass",
             "hasRarityCondition": true,
+            "cardRarity": "CollectableRarity.Common",
             "showcaseAtRunStart": true,
             "name": "MainClassCommon1X"
           },
@@ -47,8 +51,9 @@
                 "..."
               ]
             },
+            "classType": "RunState.ClassType.MainClass",
             "hasRarityCondition": true,
-            "cardRarity": 1,
+            "cardRarity": "CollectableRarity.Uncommon",
             "showcaseAtRunStart": true,
             "name": "MainClassUncommon1X"
           },
@@ -59,8 +64,9 @@
                 "..."
               ]
             },
+            "classType": "RunState.ClassType.MainClass",
             "hasRarityCondition": true,
-            "cardRarity": 1,
+            "cardRarity": "CollectableRarity.Uncommon",
             "showcaseAtRunStart": true,
             "name": "MainClassUncommon1X"
           },
@@ -71,8 +77,9 @@
                 "..."
               ]
             },
+            "classType": "RunState.ClassType.MainClass",
             "hasRarityCondition": true,
-            "cardRarity": 2,
+            "cardRarity": "CollectableRarity.Rare",
             "showcaseAtRunStart": true,
             "name": "MainClassRare1X"
           },
@@ -83,8 +90,9 @@
                 "..."
               ]
             },
-            "classType": 2,
+            "classType": "RunState.ClassType.SubClass",
             "hasRarityCondition": true,
+            "cardRarity": "CollectableRarity.Common",
             "showcaseAtRunStart": true,
             "name": "SubClassCommon1X"
           },
@@ -95,8 +103,9 @@
                 "..."
               ]
             },
-            "classType": 2,
+            "classType": "RunState.ClassType.SubClass",
             "hasRarityCondition": true,
+            "cardRarity": "CollectableRarity.Common",
             "showcaseAtRunStart": true,
             "name": "SubClassCommon1X"
           },
@@ -107,8 +116,9 @@
                 "..."
               ]
             },
-            "classType": 2,
+            "classType": "RunState.ClassType.SubClass",
             "hasRarityCondition": true,
+            "cardRarity": "CollectableRarity.Common",
             "showcaseAtRunStart": true,
             "name": "SubClassCommon1X"
           },
@@ -119,9 +129,9 @@
                 "..."
               ]
             },
-            "classType": 2,
+            "classType": "RunState.ClassType.SubClass",
             "hasRarityCondition": true,
-            "cardRarity": 1,
+            "cardRarity": "CollectableRarity.Uncommon",
             "showcaseAtRunStart": true,
             "name": "SubClassUncommon1X"
           },
@@ -132,9 +142,9 @@
                 "..."
               ]
             },
-            "classType": 2,
+            "classType": "RunState.ClassType.SubClass",
             "hasRarityCondition": true,
-            "cardRarity": 1,
+            "cardRarity": "CollectableRarity.Uncommon",
             "showcaseAtRunStart": true,
             "name": "SubClassUncommon1X"
           },
@@ -145,17 +155,22 @@
                 "..."
               ]
             },
-            "classType": 2,
+            "classType": "RunState.ClassType.SubClass",
             "hasRarityCondition": true,
-            "cardRarity": 2,
+            "cardRarity": "CollectableRarity.Rare",
             "showcaseAtRunStart": true,
             "name": "SubClassRare1X"
           }
         ],
         "name": "AdditionalStartingCards"
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddCardSetStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramBool": true,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "boonValue": 2,
-  "name": "Come Prepared"
+  "boonValue": 2
 }

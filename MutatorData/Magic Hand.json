@@ -1,15 +1,18 @@
 {
-  "nameKey": "MutatorData_nameKey-eb3526a1e8319dfc-dda7a8297590c504896df0328d26da8d-v2",
-  "descriptionKey": "MutatorData_descriptionKey-50baea4bbefc4848-dda7a8297590c504896df0328d26da8d-v2",
+  "name": "Magic Hand",
+  "description": "Cards are not discarded at end of turn.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectSuppressHandDiscard"
+      "relicEffectClassName": "RelicEffectSuppressHandDiscard",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 3,
   "tags": [
     "handsize",
     "blights"
-  ],
-  "name": "Magic Hand"
+  ]
 }

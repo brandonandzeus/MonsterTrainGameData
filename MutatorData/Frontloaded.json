@@ -1,22 +1,33 @@
 {
-  "nameKey": "MutatorData_nameKey-5cd1d032864709dc-9f21c5c89807a7540950f250b3203153-v2",
-  "descriptionKey": "MutatorData_descriptionKey-c5e8743039341906-9f21c5c89807a7540950f250b3203153-v2",
+  "name": "Frontloaded",
+  "description": "-3[ember] per turn. Gain [effect0.power][ember] at the beginning of each battle. Start with <b>The Unbroken Horn</b>.",
   "effects": [
     {
       "relicEffectClassName": "RelicEffectModifyEnergyStartOfCombat",
-      "paramInt": 20
+      "paramSourceTeam": "Team.Type.None",
+      "paramInt": 20,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectConserveEnergyStartOfTurn"
+      "relicEffectClassName": "RelicEffectConserveEnergyStartOfTurn",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
       "relicEffectClassName": "RelicEffectAddRelicStartOfRun",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell",
       "paramRelic": "ConserveEmber"
     }
   ],
   "boonValue": 6,
   "tags": [
     "ember"
-  ],
-  "name": "Frontloaded"
+  ]
 }

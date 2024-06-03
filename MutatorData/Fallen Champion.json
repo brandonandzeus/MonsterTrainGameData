@@ -1,14 +1,17 @@
 {
-  "nameKey": "MutatorData_nameKey-85ce4d5c808e569b-629add7d2c2dced48856c4f2cb4f19a6-v2",
-  "descriptionKey": "MutatorData_descriptionKey-ca5624afbe470ea6-629add7d2c2dced48856c4f2cb4f19a6-v2",
+  "name": "Fallen Champion",
+  "description": "Remove the Champion from your starting deck.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectPurgeChampion"
+      "relicEffectClassName": "RelicEffectPurgeChampion",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -10,
   "tags": [
     "champion"
-  ],
-  "name": "Fallen Champion"
+  ]
 }

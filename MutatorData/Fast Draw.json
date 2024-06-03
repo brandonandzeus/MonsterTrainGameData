@@ -1,22 +1,24 @@
 {
-  "nameKey": "MutatorData_nameKey-a817981811d0238b-e34dafeb87d585b4c89331af0886e50b-v2",
-  "descriptionKey": "MutatorData_descriptionKey-0eb69b572c77b0d4-e34dafeb87d585b4c89331af0886e50b-v2",
+  "name": "Fast Draw",
+  "description": "Friendly units get [quick].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
-      "paramInt": -1,
       "paramStatusEffects": [
         {
-          "statusId": "ambush",
+          "statusId": "VanillaStatusEffectIDs.Quick",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": -1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": 8,
   "tags": [
     "friendlyeffect"
-  ],
-  "name": "Fast Draw"
+  ]
 }

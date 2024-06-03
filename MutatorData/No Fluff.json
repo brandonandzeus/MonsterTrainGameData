@@ -1,17 +1,24 @@
 {
-  "nameKey": "MutatorData_nameKey-061995511ad96b8f-762e8ddecc917b54b98f368f549fe0e2-v2",
-  "descriptionKey": "MutatorData_descriptionKey-756273380c174525-762e8ddecc917b54b98f368f549fe0e2-v2",
+  "name": "No Fluff",
+  "description": "All cards have 1 fewer upgrade slot.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectRemoveSpellUpgradeSlot"
+      "relicEffectClassName": "RelicEffectRemoveSpellUpgradeSlot",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     },
     {
-      "relicEffectClassName": "RelicEffectRemoveUnitUpgradeSlot"
+      "relicEffectClassName": "RelicEffectRemoveUnitUpgradeSlot",
+      "paramSourceTeam": "Team.Type.None",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
   "boonValue": -7,
   "tags": [
     "upgrades"
-  ],
-  "name": "No Fluff"
+  ]
 }

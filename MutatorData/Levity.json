@@ -1,19 +1,21 @@
 {
-  "nameKey": "MutatorData_nameKey-969e3d8fcd22e014-00cc6438115c49c43a0e2636ab84b604-v2",
-  "descriptionKey": "MutatorData_descriptionKey-457304cada3e7ca2-00cc6438115c49c43a0e2636ab84b604-v2",
+  "name": "Levity",
+  "description": "Enemy units get [haste].",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
-      "paramInt": -1,
       "paramStatusEffects": [
         {
-          "statusId": "haste",
+          "statusId": "VanillaStatusEffectIDs.Haste",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramInt": -1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "boonValue": -9,
-  "name": "Levity"
+  "boonValue": -9
 }

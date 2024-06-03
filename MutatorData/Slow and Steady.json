@@ -1,37 +1,41 @@
 {
-  "nameKey": "MutatorData_nameKey-48026580df536737-e214c064807a961438844f9fa1b19eb8-v2",
-  "descriptionKey": "MutatorData_descriptionKey-db010ddcb94ba5da-e214c064807a961438844f9fa1b19eb8-v2",
+  "name": "Slow and Steady",
+  "description": "Friendly units enter with +10[attack] and [sap] 7.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectModifyCardAttack",
-      "paramSourceTeam": 2,
-      "paramInt": 10,
       "paramStatusEffects": [
         {
-          "statusId": "debuff",
+          "statusId": "VanillaStatusEffectIDs.Sap",
           "count": 7
         }
       ],
-      "paramCardType": 1
+      "relicEffectClassName": "RelicEffectModifyCardAttack",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": 10,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Monster"
     },
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 2,
-      "paramInt": -1,
       "paramStatusEffects": [
         {
-          "statusId": "debuff",
+          "statusId": "VanillaStatusEffectIDs.Sap",
           "count": 7
         }
       ],
       "paramCardUpgradeData": {
         "bonusDamage": 10
-      }
+      },
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Monsters",
+      "paramInt": -1,
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "requiredDLC": 1,
+  "requiredDLC": "ShinyShoe.DLC.Hellforged",
   "tags": [
     "friendlyeffect"
-  ],
-  "name": "Slow and Steady"
+  ]
 }

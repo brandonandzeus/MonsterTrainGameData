@@ -1,18 +1,20 @@
 {
-  "nameKey": "MutatorData_nameKey-a35f15b5a8c715c1-fe60472462b126949b739e83c518dfe7-v2",
-  "descriptionKey": "MutatorData_descriptionKey-6baaea74524e4520-fe60472462b126949b739e83c518dfe7-v2",
+  "name": "Arcane Allergy",
+  "description": "Enemy units enter with [spellweakness] 1.",
   "effects": [
     {
-      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
-      "paramSourceTeam": 1,
       "paramStatusEffects": [
         {
-          "statusId": "spell weakness",
+          "statusId": "VanillaStatusEffectIDs.SpellWeakness",
           "count": 1
         }
-      ]
+      ],
+      "relicEffectClassName": "RelicEffectAddStatusEffectOnSpawn",
+      "paramSourceTeam": "Team.Type.Heroes",
+      "paramTrigger": "CharacterTriggerData.Trigger.OnDeath",
+      "paramTargetMode": "TargetMode.FrontInRoom",
+      "paramCardType": "CardType.Spell"
     }
   ],
-  "boonValue": 4,
-  "name": "Arcane Allergy"
+  "boonValue": 4
 }
